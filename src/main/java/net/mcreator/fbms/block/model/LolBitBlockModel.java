@@ -19,6 +19,6 @@ public class LolBitBlockModel extends AnimatedGeoModel<LolBitTileEntity> {
 
 	@Override
 	public ResourceLocation getTextureResource(LolBitTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/lolbitv2.png");
+		return new ResourceLocation("fbms", "textures/blocks/lolbitv2v2.png");
 	}
 }

@@ -2,6 +2,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/rfreddy"
+    "particle": "fbms:blocks/rockstarfreddyv2"
   }
 }

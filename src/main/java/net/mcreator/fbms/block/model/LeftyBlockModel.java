@@ -19,6 +19,6 @@ public class LeftyBlockModel extends AnimatedGeoModel<LeftyTileEntity> {
 
 	@Override
 	public ResourceLocation getTextureResource(LeftyTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/leftyv2.png");
+		return new ResourceLocation("fbms", "textures/blocks/leftyv2v2.png");
 	}
 }

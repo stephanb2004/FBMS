@@ -2,6 +2,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/lolbitv2"
+    "particle": "fbms:blocks/lolbitv2v2"
   }
 }

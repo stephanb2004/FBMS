@@ -19,6 +19,6 @@ public class LolBitDtDisplayModel extends AnimatedGeoModel<LolBitDtDisplayItem> 
 
 	@Override
 	public ResourceLocation getTextureResource(LolBitDtDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/lolbitclothedv2.png");
+		return new ResourceLocation("fbms", "textures/blocks/lolbit_dtv2.png");
 	}
 }

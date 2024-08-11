@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "animatedblock",
   "definition": {
-    "texture": "leftyv2",
+    "texture": "leftyv2v2",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -131,7 +131,7 @@
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
-    "normal": "leftyv2animated.geo.json",
+    "normal": "leftyanimatedv2.geo.json",
     "displaySettings": "figure.item.json"
   }
 }

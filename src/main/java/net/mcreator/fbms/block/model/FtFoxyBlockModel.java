@@ -19,6 +19,6 @@ public class FtFoxyBlockModel extends AnimatedGeoModel<FtFoxyTileEntity> {
 
 	@Override
 	public ResourceLocation getTextureResource(FtFoxyTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/ftfoxyv2.png");
+		return new ResourceLocation("fbms", "textures/blocks/ftfoxy.png");
 	}
 }

@@ -9,16 +9,16 @@ import net.mcreator.fbms.block.entity.MoltenSitTileEntity;
 public class MoltenSitBlockModel extends AnimatedGeoModel<MoltenSitTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(MoltenSitTileEntity animatable) {
-		return new ResourceLocation("fbms", "animations/moltenv2sit.animation.json");
+		return new ResourceLocation("fbms", "animations/moltensit.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(MoltenSitTileEntity animatable) {
-		return new ResourceLocation("fbms", "geo/moltenv2sit.geo.json");
+		return new ResourceLocation("fbms", "geo/moltensit.geo.json");
 	}
 
 	@Override
 	public ResourceLocation getTextureResource(MoltenSitTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/moltenv2.png");
+		return new ResourceLocation("fbms", "textures/blocks/moltensit.png");
 	}
 }

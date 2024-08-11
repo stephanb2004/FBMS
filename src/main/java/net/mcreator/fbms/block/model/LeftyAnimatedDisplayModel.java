@@ -9,16 +9,16 @@ import net.mcreator.fbms.block.display.LeftyAnimatedDisplayItem;
 public class LeftyAnimatedDisplayModel extends AnimatedGeoModel<LeftyAnimatedDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(LeftyAnimatedDisplayItem animatable) {
-		return new ResourceLocation("fbms", "animations/leftyv2animated.animation.json");
+		return new ResourceLocation("fbms", "animations/leftyanimatedv2.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(LeftyAnimatedDisplayItem animatable) {
-		return new ResourceLocation("fbms", "geo/leftyv2animated.geo.json");
+		return new ResourceLocation("fbms", "geo/leftyanimatedv2.geo.json");
 	}
 
 	@Override
 	public ResourceLocation getTextureResource(LeftyAnimatedDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/leftyv2.png");
+		return new ResourceLocation("fbms", "textures/blocks/leftyv2v2.png");
 	}
 }
