@@ -1,0 +1,39 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-3, 0, -1], "size": [2, 13, 2], "uv": [16, 7]},
+						{"origin": [1, 0, -1], "size": [2, 13, 2], "uv": [8, 9]},
+						{"origin": [-1, 10, -1], "size": [2, 13, 2], "uv": [0, 9]},
+						{"origin": [-6, 16, -1], "size": [2, 8, 2], "pivot": [-5, 20, 0], "rotation": [0, 0, 100], "uv": [22, 20]},
+						{"origin": [-5, 20, -1], "size": [1, 1, 2], "pivot": [-5, 22, 0], "rotation": [0, 0, 100], "uv": [24, 7]},
+						{"origin": [4, 16, -1], "size": [2, 8, 2], "pivot": [5, 20, 0], "rotation": [0, 0, -100], "uv": [14, 22]},
+						{"origin": [4, 20, -1], "size": [1, 1, 2], "pivot": [5, 22, 0], "rotation": [0, 0, -100], "uv": [6, 24]}
+					]
+				},
+				{
+					"name": "Pan",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1, 18, -2.001], "size": [2, 5, 1], "uv": [0, 24]},
+						{"origin": [-4, 23, -2], "size": [8, 8, 1], "uv": [0, 0]},
+						{"origin": [-3, 24, -1], "size": [6, 6, 1], "uv": [18, 0]}
+					]
+				}
+			]
+		}
+	]
+}

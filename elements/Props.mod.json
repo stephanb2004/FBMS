@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "Props",
+    "icon": {
+      "value": "CUSTOM:Guitar"
+    },
+    "showSearch": false
+  }
+}

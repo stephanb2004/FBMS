@@ -1,0 +1,125 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"0": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"Head": {
+					"rotation": {
+						"0.0": {
+							"vector": [-1.75378, 9.84655, -15.15108]
+						},
+						"0.25": {
+							"vector": [-4.24812, -9.39692, 5.56806],
+							"easing": "easeInBack"
+						},
+						"0.5": {
+							"vector": [-1.75378, 9.84655, -15.15108],
+							"easing": "easeInBack"
+						},
+						"0.75": {
+							"vector": [-4.24812, -9.39692, 5.56806],
+							"easing": "easeInBack"
+						},
+						"1.0": {
+							"vector": [-1.75378, 9.84655, -15.15108],
+							"easing": "easeInBack"
+						}
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [3.35517, -13.47974, -32.36579],
+							"easing": "easeInBack",
+							"easingArgs": [0.05]
+						},
+						"0.5": {
+							"vector": [2.96369, 12.63714, 3.83583],
+							"easing": "easeInBack",
+							"easingArgs": [0.05]
+						},
+						"0.75": {
+							"vector": [3.35517, -13.47974, -32.36579],
+							"easing": "easeInBack",
+							"easingArgs": [0.05]
+						},
+						"1.0": {
+							"vector": [0, 0, 0],
+							"easing": "easeInBack",
+							"easingArgs": [0.05]
+						}
+					}
+				},
+				"Body": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, -10, 0]
+						},
+						"0.25": {
+							"vector": [2.5, 10, 0],
+							"easing": "easeInCubic"
+						},
+						"0.5": {
+							"vector": [0, -10, 0],
+							"easing": "easeInCubic"
+						},
+						"0.75": {
+							"vector": [2.5, 10, 0],
+							"easing": "easeInCubic"
+						},
+						"1.0": {
+							"vector": [0, -10, 0],
+							"easing": "easeInCubic"
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [0, -0.5, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						},
+						"0.75": {
+							"vector": [0, -0.5, 0]
+						},
+						"1.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [-15, 0, 5],
+							"easing": "easeInCubic"
+						},
+						"0.5": {
+							"vector": [0, 0, 0],
+							"easing": "easeInCubic"
+						},
+						"0.75": {
+							"vector": [-15, 0, 5],
+							"easing": "easeInCubic"
+						},
+						"1.0": {
+							"vector": [0, 0, 0],
+							"easing": "easeInCubic"
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

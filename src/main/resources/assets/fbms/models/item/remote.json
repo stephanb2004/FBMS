@@ -1,0 +1,7 @@
+{
+  "parent": "fbms:custom/remote",
+  "textures": {
+    "0": "fbms:blocks/remote",
+    "particle": "fbms:items/remote"
+  }
+}

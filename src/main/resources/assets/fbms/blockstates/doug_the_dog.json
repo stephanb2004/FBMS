@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:custom/doug_the_dog_particle"
+    },
+    "facing=east": {
+      "model": "fbms:custom/doug_the_dog_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:custom/doug_the_dog_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:custom/doug_the_dog_particle",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fbms:custom/doug_the_dog_particle",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fbms:custom/doug_the_dog_particle",
+      "x": 90
+    }
+  }
+}

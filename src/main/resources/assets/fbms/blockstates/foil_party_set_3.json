@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:custom/foil_party_set_3_particle"
+    },
+    "facing=east": {
+      "model": "fbms:custom/foil_party_set_3_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:custom/foil_party_set_3_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:custom/foil_party_set_3_particle",
+      "y": 270
+    }
+  }
+}

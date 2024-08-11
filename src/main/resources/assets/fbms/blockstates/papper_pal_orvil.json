@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:block/papper_pal_orvil"
+    },
+    "facing=east": {
+      "model": "fbms:block/papper_pal_orvil",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:block/papper_pal_orvil",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:block/papper_pal_orvil",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fbms:block/papper_pal_orvil",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fbms:block/papper_pal_orvil",
+      "x": 90
+    }
+  }
+}

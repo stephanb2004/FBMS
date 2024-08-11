@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:block/tv_freddy_n_fren"
+    },
+    "facing=east": {
+      "model": "fbms:block/tv_freddy_n_fren",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:block/tv_freddy_n_fren",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:block/tv_freddy_n_fren",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fbms:block/tv_freddy_n_fren",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fbms:block/tv_freddy_n_fren",
+      "x": 90
+    }
+  }
+}

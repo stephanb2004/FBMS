@@ -1,0 +1,6 @@
+{
+  "parent": "fbms:displaysettings/figure.item",
+  "textures": {
+    "particle": "fbms:blocks/fruit_punch_clown"
+  }
+}

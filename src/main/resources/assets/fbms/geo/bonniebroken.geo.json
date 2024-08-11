@@ -1,0 +1,111 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Head",
+					"pivot": [14, 4, 13],
+					"rotation": [0, -2.5, -90],
+					"cubes": [
+						{"origin": [10, 4, 9], "size": [8, 8, 8], "uv": [0, 16]},
+						{"origin": [10, 4, 9], "size": [8, 8, 8], "inflate": 0.5, "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "ears",
+					"parent": "Head",
+					"pivot": [14, 14.1, 13.5],
+					"cubes": [
+						{"origin": [15.25, 11.6, 13], "size": [3, 5, 1], "uv": [0, 0]},
+						{"origin": [9.75, 11.6, 13], "size": [3, 5, 1], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "bone3",
+					"parent": "ears",
+					"pivot": [11.75, 16.9, 13.025],
+					"cubes": [
+						{"origin": [9.75, 16.6, 12.9], "size": [3, 4, 1], "pivot": [11.75, 16.9, 13.025], "rotation": [22.42287, 1.91134, -4.62111], "uv": [24, 0]}
+					]
+				},
+				{
+					"name": "bone2",
+					"parent": "ears",
+					"pivot": [16.25, 16.9, 13.025],
+					"cubes": [
+						{"origin": [15.25, 16.6, 12.9], "size": [3, 4, 1], "pivot": [16.25, 16.9, 13.025], "rotation": [44.75386, -5.29571, 5.31847], "uv": [24, 16]}
+					]
+				},
+				{
+					"name": "Body",
+					"pivot": [-14, 0, 23],
+					"rotation": [-90, 37.5, 0],
+					"cubes": [
+						{"origin": [-18, -12, 21], "size": [8, 12, 4], "uv": [0, 32]},
+						{"origin": [-18, -12, 21], "size": [8, 12, 4], "inflate": 0.25, "uv": [28, 28]}
+					]
+				},
+				{
+					"name": "RightArm",
+					"pivot": [17, 7, 13],
+					"rotation": [-35.79355, -12.0174, -16.10644],
+					"cubes": [
+						{"origin": [14, -3, 11], "size": [4, 12, 4], "uv": [56, 0]},
+						{"origin": [14, -3, 11], "size": [4, 12, 4], "inflate": 0.25, "uv": [52, 44]}
+					]
+				},
+				{
+					"name": "LeftArm",
+					"pivot": [16, 0, 0],
+					"rotation": [-81.74037, -19.54504, 2.77136],
+					"cubes": [
+						{"origin": [15, -10, -2], "size": [4, 12, 4], "uv": [52, 28]},
+						{"origin": [15, -10, -2], "size": [4, 12, 4], "inflate": 0.25, "uv": [0, 48]}
+					]
+				},
+				{
+					"name": "RightLeg",
+					"pivot": [3.1, 1, 0],
+					"rotation": [15, 0, 90],
+					"cubes": [
+						{"origin": [1.1, -11, -2], "size": [4, 12, 4], "uv": [36, 44]},
+						{"origin": [1.1, -11, -2], "size": [4, 12, 4], "inflate": 0.25, "uv": [20, 44]}
+					]
+				},
+				{
+					"name": "LeftLeg",
+					"pivot": [-21.1, 0, 0],
+					"rotation": [-90, -10, 0],
+					"cubes": [
+						{"origin": [-23.1, -12, -2], "size": [4, 12, 4], "uv": [44, 12]},
+						{"origin": [-23.1, -12, -2], "size": [4, 12, 4], "inflate": 0.25, "uv": [32, 0]}
+					]
+				},
+				{
+					"name": "Guitar",
+					"pivot": [-6.29913, -0.18432, -17.62336],
+					"rotation": [0, 117.5, 0],
+					"cubes": [
+						{"origin": [-5, -1, -24], "size": [5, 2, 6], "uv": [104, 94]},
+						{"origin": [-6, -1, -18], "size": [5, 2, 6], "uv": [106, 107]},
+						{"origin": [-11, -1, -26], "size": [6, 2, 8], "uv": [86, 107]},
+						{"origin": [-10, -1, -18], "size": [4, 2, 6], "uv": [108, 115]},
+						{"origin": [-7, -1, -12], "size": [3, 1, 2], "uv": [104, 103]},
+						{"origin": [-7, 0, -12], "size": [3, 1, 12], "uv": [86, 94]},
+						{"origin": [-9, 0.5, 0], "size": [1, 0, 5], "uv": [83, 123]},
+						{"origin": [-8, 0, 0], "size": [4, 1, 5], "uv": [86, 117]}
+					]
+				}
+			]
+		}
+	]
+}

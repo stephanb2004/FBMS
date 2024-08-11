@@ -1,0 +1,9 @@
+{
+  "parent": "fbms:custom/paper_pals",
+  "textures": {
+    "all": "fbms:blocks/paper_pal_orville",
+    "particle": "fbms:blocks/paper_pal_orville",
+    "7": "fbms:blocks/paper_pal_orville"
+  },
+  "render_type": "cutout"
+}

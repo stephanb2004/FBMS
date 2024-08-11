@@ -1,0 +1,7 @@
+{
+  "parent": "fbms:custom/accordion",
+  "textures": {
+    "3": "fbms:blocks/accordion",
+    "particle": "fbms:items/accordion"
+  }
+}

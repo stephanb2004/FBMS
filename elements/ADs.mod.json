@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "ADs",
+    "icon": {
+      "value": "CUSTOM:Ad"
+    },
+    "showSearch": false
+  }
+}

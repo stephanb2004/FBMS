@@ -1,0 +1,9 @@
+{
+  "parent": "fbms:custom/lonemonitor",
+  "textures": {
+    "all": "fbms:blocks/popcorn",
+    "particle": "fbms:blocks/popcorn",
+    "0": "fbms:blocks/popcorn"
+  },
+  "render_type": "cutout"
+}

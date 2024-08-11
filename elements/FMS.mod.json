@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "Animatronic Block",
+    "icon": {
+      "value": "CUSTOM:CandyCadet"
+    },
+    "showSearch": false
+  }
+}

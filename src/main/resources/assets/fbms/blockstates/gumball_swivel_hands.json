@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:block/gumball_swivel_hands"
+    },
+    "facing=east": {
+      "model": "fbms:block/gumball_swivel_hands",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:block/gumball_swivel_hands",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:block/gumball_swivel_hands",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fbms:block/gumball_swivel_hands",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fbms:block/gumball_swivel_hands",
+      "x": 90
+    }
+  }
+}

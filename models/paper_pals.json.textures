@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "7": "paper_pal_clown_fnaf_6_edition"
+      },
+      "name": "default"
+    },
+    "mrhippo": {
+      "map": {
+        "7": "paper_pal_mrhippo"
+      },
+      "name": "mrhippo"
+    },
+    "orvile": {
+      "map": {
+        "7": "paper_pal_orville"
+      },
+      "name": "orvile"
+    }
+  }
+}

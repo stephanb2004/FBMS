@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:custom/moldy_rabbit_particle"
+    },
+    "facing=east": {
+      "model": "fbms:custom/moldy_rabbit_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:custom/moldy_rabbit_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:custom/moldy_rabbit_particle",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fbms:custom/moldy_rabbit_particle",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fbms:custom/moldy_rabbit_particle",
+      "x": 90
+    }
+  }
+}

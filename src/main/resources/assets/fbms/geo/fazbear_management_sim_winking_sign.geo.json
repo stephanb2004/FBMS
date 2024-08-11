@@ -1,0 +1,71 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Fazbear Management Sim Winking Sign",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "group",
+					"pivot": [0, 8, 0],
+					"cubes": [
+						{
+							"origin": [-0.5, 1, -0.5],
+							"size": [1, 19, 1],
+							"uv": {
+								"north": {"uv": [0, 20], "uv_size": [1, 19]},
+								"east": {"uv": [1, 20], "uv_size": [1, 19]},
+								"south": {"uv": [2, 20], "uv_size": [1, 19]},
+								"west": {"uv": [3, 20], "uv_size": [1, 19]},
+								"up": {"uv": [14, 21], "uv_size": [1, 1]},
+								"down": {"uv": [15, 22], "uv_size": [1, -1]}
+							}
+						},
+						{
+							"origin": [-5, 20, -0.5],
+							"size": [10, 10, 1],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [10, 10]},
+								"east": {"uv": [20, 13], "uv_size": [1, 10]},
+								"south": {"uv": [0, 10], "uv_size": [10, 10]},
+								"west": {"uv": [17, 20], "uv_size": [1, 10]},
+								"up": {"uv": [4, 21], "uv_size": [10, 1]},
+								"down": {"uv": [21, 14], "uv_size": [10, -1]}
+							}
+						},
+						{
+							"origin": [-6.5, 13, -1.5],
+							"size": [13, 6, 1],
+							"uv": {
+								"north": {"uv": [10, 0], "uv_size": [13, 6]},
+								"east": {"uv": [18, 20], "uv_size": [1, 6]},
+								"south": {"uv": [10, 6], "uv_size": [13, 6]},
+								"west": {"uv": [19, 20], "uv_size": [1, 6]},
+								"up": {"uv": [4, 20], "uv_size": [13, 1]},
+								"down": {"uv": [20, 13], "uv_size": [13, -1]}
+							}
+						},
+						{
+							"origin": [-5, 0, -2],
+							"size": [10, 1, 4],
+							"uv": {
+								"north": {"uv": [21, 14], "uv_size": [10, 1]},
+								"east": {"uv": [21, 16], "uv_size": [4, 1]},
+								"south": {"uv": [21, 15], "uv_size": [10, 1]},
+								"west": {"uv": [21, 17], "uv_size": [4, 1]},
+								"up": {"uv": [10, 12], "uv_size": [10, 4]},
+								"down": {"uv": [10, 20], "uv_size": [10, -4]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

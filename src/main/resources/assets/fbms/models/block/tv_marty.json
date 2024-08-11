@@ -1,0 +1,9 @@
+{
+  "parent": "fbms:custom/lonemonitor",
+  "textures": {
+    "all": "fbms:blocks/martys",
+    "particle": "fbms:blocks/martys",
+    "0": "fbms:blocks/martys"
+  },
+  "render_type": "cutout"
+}

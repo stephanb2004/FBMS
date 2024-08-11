@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:block/monitors_stephan"
+    },
+    "facing=east": {
+      "model": "fbms:block/monitors_stephan",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:block/monitors_stephan",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:block/monitors_stephan",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fbms:block/monitors_stephan",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fbms:block/monitors_stephan",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:block/tv_flos"
+    },
+    "facing=east": {
+      "model": "fbms:block/tv_flos",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:block/tv_flos",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:block/tv_flos",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fbms:block/tv_flos",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fbms:block/tv_flos",
+      "x": 90
+    }
+  }
+}

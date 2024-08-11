@@ -1,0 +1,70 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "fnaf_mod:poster_rockstarbonnie"
+	},
+	"elements": [
+		{
+			"from": [0, 5, 15.95],
+			"to": [16, 23, 15.95],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 23, 15.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 9], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 9], "texture": "#0"},
+				"south": {"uv": [8, 0, 16, 9], "texture": "#0"},
+				"west": {"uv": [8, 0, 8, 9], "texture": "#0"},
+				"up": {"uv": [8, 0, 0, 0], "texture": "#0"},
+				"down": {"uv": [16, 0, 8, 0], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 0.29289, 15.24289],
+			"to": [16, 5.29289, 15.24289],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 4.29289, 15.24289]},
+			"faces": {
+				"north": {"uv": [0, 9, 8, 11.5], "texture": "#0"},
+				"east": {"uv": [0, 9, 0, 11.5], "texture": "#0"},
+				"south": {"uv": [8, 9, 16, 11.5], "texture": "#0"},
+				"west": {"uv": [8, 9, 8, 11.5], "texture": "#0"},
+				"up": {"uv": [8, 9, 0, 9], "texture": "#0"},
+				"down": {"uv": [16, 9, 8, 9], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, -4, -3.25],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, -4, -3.25],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 124, 0],
+			"translation": [0, 1, 1.25],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 124, 0],
+			"translation": [0, 1, 1.25],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, -2.75, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"gui": {
+			"rotation": [0, -180, 0],
+			"translation": [0, -2.75, 0]
+		},
+		"head": {
+			"translation": [0, -5.75, -14.5]
+		},
+		"fixed": {
+			"translation": [0, -5.25, -9]
+		}
+	}
+}

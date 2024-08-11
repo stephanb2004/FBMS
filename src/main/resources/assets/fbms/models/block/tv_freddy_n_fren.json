@@ -1,0 +1,9 @@
+{
+  "parent": "fbms:custom/lonemonitor",
+  "textures": {
+    "all": "fbms:blocks/freddynfren",
+    "particle": "fbms:blocks/freddynfren",
+    "0": "fbms:blocks/freddynfren"
+  },
+  "render_type": "cutout"
+}

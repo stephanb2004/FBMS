@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:block/paper_pal_clown"
+    },
+    "facing=east": {
+      "model": "fbms:block/paper_pal_clown",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:block/paper_pal_clown",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:block/paper_pal_clown",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fbms:block/paper_pal_clown",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fbms:block/paper_pal_clown",
+      "x": 90
+    }
+  }
+}

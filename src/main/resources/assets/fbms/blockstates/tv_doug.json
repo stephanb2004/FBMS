@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:block/tv_doug"
+    },
+    "facing=east": {
+      "model": "fbms:block/tv_doug",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:block/tv_doug",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:block/tv_doug",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fbms:block/tv_doug",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fbms:block/tv_doug",
+      "x": 90
+    }
+  }
+}

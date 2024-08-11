@@ -1,0 +1,105 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "block/guitar",
+		"particle": "block/guitar"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 22],
+			"to": [10, 2, 26],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 19]},
+			"faces": {
+				"north": {"uv": [9, 1, 11, 2], "texture": "#0"},
+				"east": {"uv": [9, 2, 11, 3], "texture": "#0"},
+				"south": {"uv": [9, 3, 11, 4], "texture": "#0"},
+				"west": {"uv": [5, 9, 7, 10], "texture": "#0"},
+				"up": {"uv": [3, 10, 1, 8], "texture": "#0"},
+				"down": {"uv": [5, 8, 3, 10], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 1, 14],
+			"to": [9, 2, 22],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 19]},
+			"faces": {
+				"north": {"uv": [9.5, 8, 10.5, 8.5], "texture": "#0"},
+				"east": {"uv": [9, 0, 13, 0.5], "texture": "#0"},
+				"south": {"uv": [9.5, 8.5, 10.5, 9], "texture": "#0"},
+				"west": {"uv": [9, 0.5, 13, 1], "texture": "#0"},
+				"up": {"uv": [1, 12, 0, 8], "texture": "#0"},
+				"down": {"uv": [9, 0, 8, 4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [12, 0, 4],
+			"to": [13, 2, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [14, 0, 7]},
+			"faces": {
+				"north": {"uv": [8.5, 9, 9, 10], "texture": "#0"},
+				"east": {"uv": [8, 4, 12, 5], "texture": "#0"},
+				"south": {"uv": [9.5, 9, 10, 10], "texture": "#0"},
+				"west": {"uv": [5, 8, 9, 9], "texture": "#0"},
+				"up": {"uv": [7.5, 13, 7, 9], "texture": "#0"},
+				"down": {"uv": [8, 9, 7.5, 13], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3, 0, 4],
+			"to": [4, 2, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 0, 7]},
+			"faces": {
+				"north": {"uv": [1, 10, 1.5, 11], "texture": "#0"},
+				"east": {"uv": [8, 5, 12, 6], "texture": "#0"},
+				"south": {"uv": [1.5, 10, 2, 11], "texture": "#0"},
+				"west": {"uv": [8, 7, 12, 8], "texture": "#0"},
+				"up": {"uv": [8.5, 13, 8, 9], "texture": "#0"},
+				"down": {"uv": [9.5, 8, 9, 12], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 0, 2],
+			"to": [12, 2, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [0, 7, 4, 8], "texture": "#0"},
+				"east": {"uv": [0, 6, 6, 7], "texture": "#0"},
+				"south": {"uv": [4, 7, 8, 8], "texture": "#0"},
+				"west": {"uv": [6, 6, 12, 7], "texture": "#0"},
+				"up": {"uv": [4, 6, 0, 0], "texture": "#0"},
+				"down": {"uv": [8, 0, 4, 6], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-107, -88, -109],
+			"translation": [0, 7, 1.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-107.16, 88.24, 109.49],
+			"translation": [-12, 7, 1.5]
+		},
+		"ground": {
+			"translation": [0, 4.75, 0]
+		},
+		"gui": {
+			"rotation": [-90, 41, -180],
+			"translation": [-2, -0.75, 0]
+		},
+		"fixed": {
+			"rotation": [-90.5, 0, 0],
+			"translation": [0, -26.5, -15.5],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "Guitar",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
+		}
+	]
+}

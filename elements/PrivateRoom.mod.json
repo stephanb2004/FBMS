@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "Private Room",
+    "icon": {
+      "value": "CUSTOM:DBalloonBoy"
+    },
+    "showSearch": false
+  }
+}

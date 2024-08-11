@@ -1,0 +1,7 @@
+{
+  "parent": "fbms:custom/banjo",
+  "textures": {
+    "1": "fbms:blocks/banjo",
+    "particle": "fbms:items/banjo"
+  }
+}

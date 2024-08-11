@@ -1,0 +1,9 @@
+{
+  "parent": "fbms:custom/lonemonitor",
+  "textures": {
+    "all": "fbms:blocks/lally",
+    "particle": "fbms:blocks/lally",
+    "0": "fbms:blocks/lally"
+  },
+  "render_type": "cutout"
+}

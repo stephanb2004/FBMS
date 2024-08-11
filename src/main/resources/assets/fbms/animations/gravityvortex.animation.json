@@ -1,0 +1,56 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"0": {
+			"loop": true,
+			"bones": {
+				"theorb": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"BluePod1": {
+					"rotation": {
+						"vector": [90, -67.5, -90]
+					}
+				},
+				"RedPod1": {
+					"rotation": {
+						"vector": [-180, -360, -157.5]
+					}
+				},
+				"GrayPod1": {
+					"rotation": {
+						"vector": [-90, 67.5, -90]
+					}
+				},
+				"GrayPod2": {
+					"rotation": {
+						"vector": [-20.94102, -40.78947, 30.36119]
+					}
+				},
+				"PurplePod1": {
+					"rotation": {
+						"vector": [-159.05898, -40.78947, 149.63881]
+					}
+				},
+				"RedPod2": {
+					"rotation": {
+						"vector": [20.94102, 40.78947, 30.36119]
+					}
+				},
+				"BluePod2": {
+					"rotation": {
+						"vector": [159.05898, 40.78947, 149.63881]
+					}
+				},
+				"PurplePod2": {
+					"rotation": {
+						"vector": [0, 0, -22.5]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

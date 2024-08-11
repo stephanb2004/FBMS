@@ -1,0 +1,9 @@
+{
+  "parent": "fbms:custom/paper_pals",
+  "textures": {
+    "all": "fbms:blocks/paper_pal_clown_fnaf_6_edition",
+    "particle": "fbms:blocks/paper_pal_clown_fnaf_6_edition",
+    "7": "fbms:blocks/paper_pal_clown_fnaf_6_edition"
+  },
+  "render_type": "cutout"
+}

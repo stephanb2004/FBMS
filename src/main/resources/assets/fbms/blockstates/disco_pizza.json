@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:block/disco_pizza"
+    },
+    "facing=east": {
+      "model": "fbms:block/disco_pizza",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:block/disco_pizza",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:block/disco_pizza",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fbms:block/disco_pizza",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fbms:block/disco_pizza",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "fbms:custom/maracas",
+  "textures": {
+    "0": "fbms:blocks/maracas_",
+    "particle": "fbms:items/maracas_"
+  }
+}

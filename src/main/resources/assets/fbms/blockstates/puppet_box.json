@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:custom/puppet_box_particle"
+    },
+    "facing=east": {
+      "model": "fbms:custom/puppet_box_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:custom/puppet_box_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:custom/puppet_box_particle",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fbms:custom/puppet_box_particle",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fbms:custom/puppet_box_particle",
+      "x": 90
+    }
+  }
+}

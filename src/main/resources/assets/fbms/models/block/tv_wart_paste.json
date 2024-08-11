@@ -1,0 +1,9 @@
+{
+  "parent": "fbms:custom/lonemonitor",
+  "textures": {
+    "all": "fbms:blocks/wartpaste",
+    "particle": "fbms:blocks/wartpaste",
+    "0": "fbms:blocks/wartpaste"
+  },
+  "render_type": "cutout"
+}

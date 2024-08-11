@@ -1,0 +1,7 @@
+{
+  "parent": "fbms:custom/mandolin",
+  "textures": {
+    "0": "fbms:blocks/mandolin",
+    "particle": "fbms:items/mandolin"
+  }
+}

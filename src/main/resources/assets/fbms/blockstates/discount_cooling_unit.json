@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:custom/discount_cooling_unit_particle"
+    },
+    "facing=east": {
+      "model": "fbms:custom/discount_cooling_unit_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:custom/discount_cooling_unit_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:custom/discount_cooling_unit_particle",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fbms:custom/discount_cooling_unit_particle",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fbms:custom/discount_cooling_unit_particle",
+      "x": 90
+    }
+  }
+}

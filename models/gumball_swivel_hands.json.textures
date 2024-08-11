@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "gumball_swivelhands"
+      },
+      "name": "default"
+    }
+  }
+}

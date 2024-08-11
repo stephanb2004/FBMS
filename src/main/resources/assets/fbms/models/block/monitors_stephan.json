@@ -1,0 +1,9 @@
+{
+  "parent": "fbms:custom/monitors",
+  "textures": {
+    "all": "fbms:blocks/monitors",
+    "particle": "fbms:blocks/monitors",
+    "0": "fbms:blocks/monitors"
+  },
+  "render_type": "cutout"
+}

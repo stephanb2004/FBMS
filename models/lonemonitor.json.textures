@@ -1,0 +1,76 @@
+{
+  "mappings": {
+    "marcelo": {
+      "map": {
+        "0": "marcelo"
+      },
+      "name": "marcelo"
+    },
+    "default": {
+      "map": {
+        "0": "doug"
+      },
+      "name": "default"
+    },
+    "garf": {
+      "map": {
+        "0": "garf"
+      },
+      "name": "garf"
+    },
+    "off": {
+      "map": {
+        "0": "tvoff"
+      },
+      "name": "off"
+    },
+    "fiztime": {
+      "map": {
+        "0": "fiztime"
+      },
+      "name": "fiztime"
+    },
+    "martys": {
+      "map": {
+        "0": "martys"
+      },
+      "name": "martys"
+    },
+    "flos": {
+      "map": {
+        "0": "flos"
+      },
+      "name": "flos"
+    },
+    "wartpaste": {
+      "map": {
+        "0": "wartpaste"
+      },
+      "name": "wartpaste"
+    },
+    "lally": {
+      "map": {
+        "0": "lally"
+      },
+      "name": "lally"
+    },
+    "popcorn": {
+      "map": {
+        "0": "popcorn"
+      },
+      "name": "popcorn"
+    },
+    "freddynfren": {
+      "map": {
+        "0": "freddynfren"
+      },
+      "name": "freddynfren"
+    },
+    "iatr": {
+      "map": {
+        "0": "iatr"
+      },
+      "name": "iatr"
+    }
+  }
+}

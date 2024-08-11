@@ -1,0 +1,9 @@
+{
+  "parent": "fbms:custom/neon_pizza",
+  "textures": {
+    "all": "fbms:blocks/pizza",
+    "particle": "fbms:blocks/pizza",
+    "0": "fbms:blocks/pizza"
+  },
+  "render_type": "cutout"
+}

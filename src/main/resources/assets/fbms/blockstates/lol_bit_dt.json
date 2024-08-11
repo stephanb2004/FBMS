@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:custom/lol_bit_dt_particle"
+    },
+    "facing=east": {
+      "model": "fbms:custom/lol_bit_dt_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:custom/lol_bit_dt_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:custom/lol_bit_dt_particle",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fbms:custom/lol_bit_dt_particle",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fbms:custom/lol_bit_dt_particle",
+      "x": 90
+    }
+  }
+}

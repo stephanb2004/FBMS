@@ -1,0 +1,38 @@
+{
+  "hehehehhehehehhe": {
+    "subtitle": "subtitles.hehehehhehehehhe",
+    "sounds": [
+      {
+        "name": "fbms:heeheehee",
+        "stream": false
+      }
+    ]
+  },
+  "catplush": {
+    "subtitle": "subtitles.catplush",
+    "sounds": [
+      {
+        "name": "fbms:thatcat",
+        "stream": false
+      }
+    ]
+  },
+  "channelchange": {
+    "subtitle": "subtitles.channelchange",
+    "sounds": [
+      {
+        "name": "fbms:change",
+        "stream": false
+      }
+    ]
+  },
+  "byebye": {
+    "subtitle": "subtitles.byebye",
+    "sounds": [
+      {
+        "name": "fbms:gaster-vanish",
+        "stream": false
+      }
+    ]
+  }
+}

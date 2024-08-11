@@ -1,0 +1,79 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "rasc",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "top",
+					"parent": "rasc",
+					"pivot": [0.5, 10, 0.5],
+					"cubes": [
+						{"origin": [-1.5, 4, -1.5], "size": [3, 8, 3], "uv": [17, 18]},
+						{"origin": [-2.5, 4.5, -2.5], "size": [5, 6, 5], "uv": [0, 10]},
+						{"origin": [-3.5, 6, -3.5], "size": [7, 3, 7], "uv": [0, 0]},
+						{"origin": [1.5, 10.5, -1], "size": [1, 1, 1], "uv": [0, 0]},
+						{"origin": [-2.5, 10.5, -1], "size": [1, 1, 1], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "bottom",
+					"parent": "rasc",
+					"pivot": [0.5, 10, 0.5],
+					"cubes": [
+						{"origin": [-2, 3, -2], "size": [4, 1, 4], "uv": [15, 10]},
+						{"origin": [-1, 1, -1], "size": [2, 2, 2], "uv": [21, 0]}
+					]
+				},
+				{
+					"name": "wheels",
+					"parent": "bottom",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "wheel_l1",
+					"parent": "wheels",
+					"pivot": [2, 1.5, -2],
+					"cubes": [
+						{"origin": [1, 0, -3.5], "size": [2, 3, 3], "uv": [0, 21]}
+					]
+				},
+				{
+					"name": "wheel_r1",
+					"parent": "wheels",
+					"pivot": [-2, 1.5, -2],
+					"cubes": [
+						{"origin": [-3, 0, -3.5], "size": [2, 3, 3], "uv": [0, 21]}
+					]
+				},
+				{
+					"name": "wheel_l2",
+					"parent": "wheels",
+					"pivot": [2, 1.5, 2],
+					"cubes": [
+						{"origin": [1, 0, 0.5], "size": [2, 3, 3], "uv": [0, 21]}
+					]
+				},
+				{
+					"name": "wheel_r2",
+					"parent": "wheels",
+					"pivot": [-2, 1.5, 2],
+					"cubes": [
+						{"origin": [-3, 0, 0.5], "size": [2, 3, 3], "uv": [0, 21]}
+					]
+				}
+			]
+		}
+	]
+}

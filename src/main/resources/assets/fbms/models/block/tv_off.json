@@ -1,0 +1,9 @@
+{
+  "parent": "fbms:custom/tv",
+  "textures": {
+    "all": "fbms:blocks/tvoof",
+    "particle": "fbms:blocks/tvoof",
+    "1": "fbms:blocks/tvoof"
+  },
+  "render_type": "cutout"
+}

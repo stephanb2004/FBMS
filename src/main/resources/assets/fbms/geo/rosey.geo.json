@@ -1,0 +1,120 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Tattletail",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-3, 2, -5], "size": [6, 5, 1], "uv": [21, 13]},
+						{"origin": [-3, 7, -4], "size": [6, 3, 1], "uv": [0, 24]},
+						{"origin": [-1.5, 7, -6], "size": [3, 1, 2], "uv": [24, 5]},
+						{"origin": [-0.5, 7.2, -6.2], "size": [1, 1, 1], "uv": [6, 28]},
+						{"origin": [0.5, 7.5, -4.5], "size": [2, 2, 2], "uv": [0, 28]},
+						{"origin": [-3.5, 7, -3], "size": [7, 4, 7], "uv": [0, 13]},
+						{"origin": [-4, 2, -4], "size": [8, 5, 8], "uv": [0, 0]},
+						{"origin": [-1, 11, -1], "size": [2, 1, 2], "uv": [32, 3]},
+						{"origin": [-2.5, 7.5, -4.5], "size": [2, 2, 2], "uv": [8, 29]}
+					]
+				},
+				{
+					"name": "LeftFoot",
+					"parent": "Tattletail",
+					"pivot": [1.5, 1.75, 0],
+					"cubes": [
+						{"origin": [0.5, 0, -3], "size": [2, 1, 2], "uv": [32, 9]},
+						{"origin": [0.5, 0, -1], "size": [2, 2, 2], "uv": [0, 32]}
+					]
+				},
+				{
+					"name": "RightFoot",
+					"parent": "Tattletail",
+					"pivot": [-1.75, 1.75, 0],
+					"cubes": [
+						{"origin": [-2.75, 0, -3], "size": [2, 1, 2], "uv": [32, 6]},
+						{"origin": [-2.75, 0, -1], "size": [2, 2, 2], "uv": [14, 31]}
+					]
+				},
+				{
+					"name": "LeftEyelid",
+					"parent": "Tattletail",
+					"pivot": [1.5, 8.5, -3],
+					"cubes": [
+						{"origin": [0.5, 7.5, -4.5], "size": [2, 2, 2], "inflate": 0.1, "uv": [26, 26]}
+					]
+				},
+				{
+					"name": "RightEyelid",
+					"parent": "Tattletail",
+					"pivot": [-1.5, 8.5, -3],
+					"cubes": [
+						{"origin": [-2.5, 7.5, -4.5], "size": [2, 2, 2], "inflate": 0.1, "uv": [26, 22]}
+					]
+				},
+				{
+					"name": "LeftEye",
+					"parent": "Tattletail",
+					"pivot": [1.5, 8.5, -4.55],
+					"cubes": [
+						{"origin": [1, 8, -4.55], "size": [1, 1, 0], "uv": [6, 1]}
+					]
+				},
+				{
+					"name": "RightEye",
+					"parent": "Tattletail",
+					"pivot": [-1.5, 8.5, -4.55],
+					"cubes": [
+						{"origin": [-2, 8, -4.55], "size": [1, 1, 0], "uv": [6, 0]}
+					]
+				},
+				{
+					"name": "Mouth",
+					"parent": "Tattletail",
+					"pivot": [0, 6.5, -4.75],
+					"cubes": [
+						{"origin": [-1, 6, -5.75], "size": [2, 1, 2], "uv": [28, 19]}
+					]
+				},
+				{
+					"name": "RightEar",
+					"parent": "Tattletail",
+					"pivot": [-2.5, 7.5, 0.5],
+					"cubes": [
+						{"origin": [-2, 7, -0.25], "size": [1, 7, 1], "uv": [29, 30]},
+						{"origin": [-5, 7, 0.25], "size": [3, 7, 0], "uv": [20, 24]},
+						{"origin": [-5, 7, 0.35], "size": [3, 7, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "LeftEar",
+					"parent": "Tattletail",
+					"pivot": [2.5, 7.5, 0.5],
+					"cubes": [
+						{"origin": [2, 7, 0.25], "size": [3, 7, 0], "uv": [14, 24]},
+						{"origin": [2, 7, 0.35], "size": [3, 7, 0], "uv": [0, 13]},
+						{"origin": [1, 7, -0.25], "size": [1, 7, 1], "uv": [25, 30]}
+					]
+				},
+				{
+					"name": "Tail",
+					"parent": "Tattletail",
+					"pivot": [0, 4, 4],
+					"cubes": [
+						{"origin": [-1.5, 2.5, 5], "size": [3, 3, 2], "uv": [24, 0]},
+						{"origin": [-1, 3, 4], "size": [2, 2, 1], "uv": [8, 33]},
+						{"origin": [-0.5, 3.5, 7], "size": [1, 1, 1], "uv": [20, 31]}
+					]
+				}
+			]
+		}
+	]
+}

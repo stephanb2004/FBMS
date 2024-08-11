@@ -1,0 +1,89 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "puppetbox",
+					"pivot": [11, 0, -7],
+					"cubes": [
+						{"origin": [-10, 0, -9.8], "size": [19.6, 14, 19.6], "uv": [0, 0]},
+						{"origin": [-0.2, 13.3, -9.8], "size": [11.2, 1.4, 19.6], "pivot": [8.9, 14, 0], "rotation": [0, 0, -107], "uv": [0, 33]},
+						{"origin": [-11.4, 14, -9.8], "size": [11.2, 1.4, 19.6], "pivot": [-10, 14.7, 0], "rotation": [0, 0, 107.5], "uv": [0, 33]},
+						{"origin": [-1.6, 14, -18.9], "size": [11.2, 1.4, 18.9], "pivot": [-0.2, 14.7, -9.8], "rotation": [-90, 17.5, 90], "uv": [41, 33]},
+						{"origin": [-1.6, 14, 0], "size": [11.2, 1.4, 18.9], "pivot": [-0.2, 14.7, 9.8], "rotation": [90, -17.5, 90], "uv": [41, 33]}
+					]
+				},
+				{
+					"name": "puppet",
+					"pivot": [-1, 2.5, 0]
+				},
+				{
+					"name": "Head",
+					"parent": "puppet",
+					"pivot": [-1, 26.5, 0],
+					"rotation": [5, 20, 0],
+					"cubes": [
+						{"origin": [-5, 26.5, -4], "size": [8, 8, 8], "uv": [0, 53]},
+						{"origin": [-5, 26.5, -4], "size": [8, 8, 8], "inflate": 0.5, "uv": [52, 52]}
+					]
+				},
+				{
+					"name": "Body",
+					"parent": "puppet",
+					"pivot": [-1, 26.5, 0],
+					"cubes": [
+						{"origin": [-5, 14.5, -2], "size": [8, 12, 4], "uv": [32, 64]},
+						{"origin": [-5, 14.5, -2], "size": [8, 12, 4], "inflate": 0.25, "uv": [57, 0]}
+					]
+				},
+				{
+					"name": "RightArm",
+					"parent": "puppet",
+					"pivot": [-6, 24.5, 0],
+					"rotation": [-46.871, 27.06807, 23.08658],
+					"cubes": [
+						{"origin": [-8, 14.5, -2], "size": [3, 12, 4], "uv": [76, 16]},
+						{"origin": [-8, 14.5, -2], "size": [3, 12, 4], "inflate": 0.25, "uv": [72, 68]}
+					]
+				},
+				{
+					"name": "LeftArm",
+					"parent": "puppet",
+					"pivot": [4, 24.5, 0],
+					"rotation": [-61.0146, -17.66046, -9.54013],
+					"cubes": [
+						{"origin": [3, 14.5, -2], "size": [3, 12, 4], "uv": [14, 69]},
+						{"origin": [3, 14.5, -2], "size": [3, 12, 4], "inflate": 0.25, "uv": [0, 69]}
+					]
+				},
+				{
+					"name": "RightLeg",
+					"parent": "puppet",
+					"pivot": [-2.9, 14.5, 0],
+					"cubes": [
+						{"origin": [-4.9, 2.5, -2], "size": [4, 12, 4], "uv": [56, 68]},
+						{"origin": [-4.9, 2.5, -2], "size": [4, 12, 4], "inflate": 0.25, "uv": [41, 33]}
+					]
+				},
+				{
+					"name": "LeftLeg",
+					"parent": "puppet",
+					"pivot": [0.9, 14.5, 0],
+					"cubes": [
+						{"origin": [-1.1, 2.5, -2], "size": [4, 12, 4], "uv": [0, 33]},
+						{"origin": [-1.1, 2.5, -2], "size": [4, 12, 4], "inflate": 0.25, "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

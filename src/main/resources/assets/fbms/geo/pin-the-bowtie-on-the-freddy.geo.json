@@ -1,0 +1,45 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Pinthebowtie",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Pole",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4.5, 6, -0.6], "size": [9, 24, 0], "uv": [0, 0]},
+						{"origin": [-0.5, 0, -0.5], "size": [1, 30, 1], "uv": [18, 0]}
+					]
+				},
+				{
+					"name": "Bowtie",
+					"pivot": [4, 0.1, -4],
+					"rotation": [0, 12.5, 0],
+					"cubes": [
+						{"origin": [4, 0.2, -5], "size": [1, 0, 1], "uv": [28, 27]},
+						{"origin": [3, 0.2, -6], "size": [1, 0, 3], "uv": [27, 29]},
+						{"origin": [5, 0.2, -6], "size": [1, 0, 3], "uv": [25, 29]}
+					]
+				},
+				{
+					"name": "Bowtie2",
+					"pivot": [-3, 0.1, -2],
+					"rotation": [0, -22.5, 0],
+					"cubes": [
+						{"origin": [-3, 0.2, -3], "size": [1, 0, 1], "uv": [28, 27]},
+						{"origin": [-4, 0.2, -4], "size": [1, 0, 3], "uv": [27, 29]},
+						{"origin": [-2, 0.2, -4], "size": [1, 0, 3], "uv": [25, 29]}
+					]
+				}
+			]
+		}
+	]
+}

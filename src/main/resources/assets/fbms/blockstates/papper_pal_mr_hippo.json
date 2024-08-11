@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:block/papper_pal_mr_hippo"
+    },
+    "facing=east": {
+      "model": "fbms:block/papper_pal_mr_hippo",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:block/papper_pal_mr_hippo",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:block/papper_pal_mr_hippo",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fbms:block/papper_pal_mr_hippo",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fbms:block/papper_pal_mr_hippo",
+      "x": 90
+    }
+  }
+}

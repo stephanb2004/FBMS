@@ -1,0 +1,9 @@
+{
+  "parent": "fbms:custom/ballon_barrel",
+  "textures": {
+    "all": "fbms:blocks/balloon_barrel",
+    "particle": "fbms:blocks/balloon_barrel",
+    "1": "fbms:blocks/balloon_barrel"
+  },
+  "render_type": "cutout"
+}
