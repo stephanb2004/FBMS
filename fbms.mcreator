@@ -5775,7 +5775,7 @@
           "src/main/resources/assets/fbms/models/custom/deluxe_ballpit_particle.json"
         ]
       },
-      "path": "~/Blocks/Props"
+      "path": "~/Blocks/Props/Games"
     },
     {
       "name": "RottenPit",
@@ -5798,7 +5798,7 @@
           "src/main/java/net/mcreator/fbms/block/model/RottenPitDisplayModel.java"
         ]
       },
-      "path": "~/Blocks/Props"
+      "path": "~/Blocks/Props/Games"
     }
   ],
   "variable_elements": [],
