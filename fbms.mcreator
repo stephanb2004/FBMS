@@ -21,7 +21,7 @@
           "src/main/java/net/mcreator/fbms/block/renderer/CandyCadetDisplayItemRenderer.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props"
     },
     {
       "name": "FMS",
@@ -56,7 +56,7 @@
           "src/main/java/net/mcreator/fbms/block/model/ElChipBlockModel.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "BiteFredBearCutout",
@@ -79,7 +79,7 @@
           "src/main/resources/assets/fbms/blockstates/bite_fred_bear_cutout.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props"
     },
     {
       "name": "FunTimeChica",
@@ -102,7 +102,7 @@
           "src/main/java/net/mcreator/fbms/block/FunTimeChicaBlock.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "HappyFrog",
@@ -125,7 +125,7 @@
           "src/main/java/net/mcreator/fbms/block/display/HappyFrogDisplayItem.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "Lefty",
@@ -148,7 +148,7 @@
           "src/main/resources/assets/fbms/models/custom/lefty_particle.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "MrHippo",
@@ -171,7 +171,7 @@
           "src/main/java/net/mcreator/fbms/block/display/MrHippoDisplayItem.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "NeddBear",
@@ -194,7 +194,7 @@
           "src/main/java/net/mcreator/fbms/block/model/NeddBearBlockModel.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "Orville",
@@ -217,7 +217,7 @@
           "src/main/java/net/mcreator/fbms/block/display/OrvilleDisplayItem.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "PrizeKing",
@@ -240,7 +240,7 @@
           "src/main/resources/assets/fbms/models/custom/prize_king_particle.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Animatronic Props"
     },
     {
       "name": "SecurityPuppet",
@@ -263,7 +263,7 @@
           "src/main/resources/assets/fbms/models/item/security_puppet.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "RockStarBonnie",
@@ -286,7 +286,7 @@
           "src/main/java/net/mcreator/fbms/block/model/RockStarBonnieDisplayModel.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "RockStarChica",
@@ -309,7 +309,7 @@
           "src/main/java/net/mcreator/fbms/block/entity/RockStarChicaTileEntity.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "RockStarFreddy",
@@ -332,7 +332,7 @@
           "src/main/resources/assets/fbms/models/custom/rock_star_freddy_particle.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "Rusty",
@@ -355,7 +355,7 @@
           "src/main/resources/assets/fbms/models/custom/rusty_particle.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "PigPatch",
@@ -378,7 +378,7 @@
           "src/main/java/net/mcreator/fbms/block/display/PigPatchDisplayItem.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "RockStarFoxy",
@@ -401,7 +401,7 @@
           "src/main/java/net/mcreator/fbms/block/entity/RockStarFoxyTileEntity.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "Endo01",
@@ -424,7 +424,7 @@
           "src/main/resources/assets/fbms/models/item/endo_01.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "WinkSign",
@@ -447,7 +447,7 @@
           "src/main/resources/assets/fbms/blockstates/wink_sign.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "BaggyMaggie",
@@ -470,7 +470,7 @@
           "src/main/java/net/mcreator/fbms/block/display/BaggyMaggieDisplayItem.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "PuppetBox",
@@ -493,7 +493,7 @@
           "src/main/java/net/mcreator/fbms/block/entity/PuppetBoxTileEntity.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props"
     },
     {
       "name": "LargeSign",
@@ -516,7 +516,7 @@
           "src/main/resources/assets/fbms/models/item/large_sign.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Signs"
     },
     {
       "name": "LargeSign2",
@@ -539,7 +539,7 @@
           "src/main/resources/assets/fbms/models/custom/large_sign_2_particle.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Signs"
     },
     {
       "name": "ScrapTrap",
@@ -562,7 +562,7 @@
           "src/main/java/net/mcreator/fbms/block/entity/ScrapTrapTileEntity.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "MoltenFreddy",
@@ -585,7 +585,7 @@
           "src/main/resources/assets/fbms/models/item/molten_freddy.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "FoilPartySet1",
@@ -608,7 +608,7 @@
           "src/main/java/net/mcreator/fbms/block/FoilPartySet1Block.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Party Sets"
     },
     {
       "name": "FoilPartySet2",
@@ -631,7 +631,7 @@
           "src/main/resources/assets/fbms/blockstates/foil_party_set_2.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Party Sets"
     },
     {
       "name": "FoilPartySet3",
@@ -654,7 +654,7 @@
           "src/main/resources/assets/fbms/models/item/foil_party_set_3.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Party Sets"
     },
     {
       "name": "FoilPartySet4",
@@ -677,7 +677,7 @@
           "src/main/java/net/mcreator/fbms/block/model/FoilPartySet4DisplayModel.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Party Sets"
     },
     {
       "name": "DrTeath",
@@ -700,7 +700,7 @@
           "src/main/java/net/mcreator/fbms/block/renderer/DrTeathTileRenderer.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "NeonPartySet1",
@@ -723,7 +723,7 @@
           "src/main/java/net/mcreator/fbms/block/model/NeonPartySet1BlockModel.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Party Sets"
     },
     {
       "name": "NeonPartySet2",
@@ -746,7 +746,7 @@
           "src/main/java/net/mcreator/fbms/block/renderer/NeonPartySet2DisplayItemRenderer.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Party Sets"
     },
     {
       "name": "NeonPartySet3",
@@ -769,7 +769,7 @@
           "src/main/resources/assets/fbms/blockstates/neon_party_set_3.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Party Sets"
     },
     {
       "name": "NeonPartySet4",
@@ -792,7 +792,7 @@
           "src/main/java/net/mcreator/fbms/block/entity/NeonPartySet4TileEntity.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Party Sets"
     },
     {
       "name": "MoldyRabbit",
@@ -815,7 +815,7 @@
           "src/main/java/net/mcreator/fbms/block/display/MoldyRabbitDisplayItem.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props"
     },
     {
       "name": "MusicMan",
@@ -838,7 +838,7 @@
           "src/main/resources/assets/fbms/models/item/music_man.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "BarryPolarAnimated",
@@ -861,7 +861,7 @@
           "src/main/java/net/mcreator/fbms/block/renderer/BarryPolarAnimatedDisplayItemRenderer.java"
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "BrokenBarryPolarAnimated",
@@ -884,7 +884,7 @@
           "src/main/java/net/mcreator/fbms/block/display/BrokenBarryPolarAnimatedDisplayItem.java"
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "BephAnimated",
@@ -907,7 +907,7 @@
           "src/main/resources/assets/fbms/models/custom/beph_animated_particle.json"
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "AnimatedBlocks",
@@ -986,7 +986,7 @@
           "src/main/resources/assets/fbms/models/item/funtime_delilah.json"
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "ElChipAnimated",
@@ -1009,7 +1009,7 @@
           "src/main/java/net/mcreator/fbms/block/model/ElChipAnimatedBlockModel.java"
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "Endo01Animated",
@@ -1032,7 +1032,7 @@
           "src/main/java/net/mcreator/fbms/block/display/Endo01AnimatedDisplayItem.java"
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "FuntimeChicaAnimated",
@@ -1055,7 +1055,7 @@
           "src/main/java/net/mcreator/fbms/block/display/FuntimeChicaAnimatedDisplayItem.java"
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "HappYFrogAnimated",
@@ -1078,7 +1078,7 @@
           "src/main/java/net/mcreator/fbms/block/HappYFrogAnimatedBlock.java"
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "LeftyAnimated",
@@ -1101,7 +1101,7 @@
           "src/main/resources/assets/fbms/models/custom/lefty_animated_particle.json"
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "MrHippoAnimated",
@@ -1124,7 +1124,7 @@
           "src/main/resources/assets/fbms/models/item/mr_hippo_animated.json"
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "MusicManAnimated",
@@ -1147,7 +1147,7 @@
           "src/main/java/net/mcreator/fbms/block/model/MusicManAnimatedBlockModel.java"
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "NeddBearAnimated",
@@ -1170,7 +1170,7 @@
           "src/main/resources/assets/fbms/models/custom/nedd_bear_animated_particle.json"
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "OrvilleAnimated",
@@ -1193,7 +1193,7 @@
           "src/main/java/net/mcreator/fbms/block/entity/OrvilleAnimatedTileEntity.java"
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "PigPatchAnimated",
@@ -1216,7 +1216,7 @@
           "src/main/java/net/mcreator/fbms/block/renderer/PigPatchAnimatedTileRenderer.java"
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "RockStarBonnieAnimated",
@@ -1239,7 +1239,7 @@
           "src/main/java/net/mcreator/fbms/block/model/RockStarBonnieAnimatedBlockModel.java"
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "RockStarChicaAnimated",
@@ -1262,7 +1262,7 @@
           "src/main/java/net/mcreator/fbms/block/entity/RockStarChicaAnimatedTileEntity.java"
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "RockStarFoxyAnimated",
@@ -1285,7 +1285,7 @@
           "src/main/resources/assets/fbms/blockstates/rock_star_foxy_animated.json"
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "RockStarFreddyAnimated",
@@ -1308,7 +1308,7 @@
           "src/main/java/net/mcreator/fbms/block/display/RockStarFreddyAnimatedDisplayItem.java"
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "RustyAnimated",
@@ -1331,7 +1331,7 @@
           "src/main/java/net/mcreator/fbms/block/model/RustyAnimatedBlockModel.java"
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "FuntimeDelilahblock",
@@ -1354,7 +1354,7 @@
           "src/main/java/net/mcreator/fbms/block/model/FuntimeDelilahblockBlockModel.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "BarryPolar",
@@ -1377,7 +1377,7 @@
           "src/main/java/net/mcreator/fbms/block/renderer/BarryPolarTileRenderer.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "BarryPolarFixed",
@@ -1400,7 +1400,7 @@
           "src/main/java/net/mcreator/fbms/block/entity/BarryPolarFixedTileEntity.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "TheMangle",
@@ -1423,7 +1423,7 @@
           "src/main/resources/assets/fbms/blockstates/the_mangle.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "LargeSign3",
@@ -1446,7 +1446,7 @@
           "src/main/resources/assets/fbms/blockstates/large_sign_3.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Signs"
     },
     {
       "name": "LargeSign4",
@@ -1469,7 +1469,7 @@
           "src/main/resources/assets/fbms/blockstates/large_sign_4.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Signs"
     },
     {
       "name": "SanitationStation",
@@ -1492,7 +1492,7 @@
           "src/main/resources/assets/fbms/models/custom/sanitation_station_particle.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props"
     },
     {
       "name": "PinTheBowtieOnTheFreddy",
@@ -1515,7 +1515,7 @@
           "src/main/java/net/mcreator/fbms/block/renderer/PinTheBowtieOnTheFreddyDisplayItemRenderer.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Games"
     },
     {
       "name": "PinTheBowtieOnTheTieTheToyFreddy",
@@ -1538,7 +1538,7 @@
           "src/main/resources/assets/fbms/models/custom/pin_the_bowtie_on_the_tie_the_toy_freddy_particle.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Games"
     },
     {
       "name": "NoveltyTrafficLight",
@@ -1561,7 +1561,7 @@
           "src/main/resources/assets/fbms/blockstates/novelty_traffic_light.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Stage Stuff"
     },
     {
       "name": "DuckPond",
@@ -1584,7 +1584,7 @@
           "src/main/java/net/mcreator/fbms/block/renderer/DuckPondDisplayItemRenderer.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props"
     },
     {
       "name": "RFreddyPoster",
@@ -1601,7 +1601,7 @@
           "src/main/resources/assets/fbms/blockstates/r_freddy_poster.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Poster"
     },
     {
       "name": "RbonniePoster",
@@ -1618,7 +1618,7 @@
           "src/main/resources/assets/fbms/blockstates/rbonnie_poster.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Poster"
     },
     {
       "name": "RChicaPoster",
@@ -1635,7 +1635,7 @@
           "src/main/resources/assets/fbms/models/block/r_chica_poster.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Poster"
     },
     {
       "name": "RFoxyPoster",
@@ -1652,7 +1652,7 @@
           "src/main/resources/assets/fbms/models/item/r_foxy_poster.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Poster"
     },
     {
       "name": "LeftyPoster",
@@ -1669,7 +1669,7 @@
           "src/main/resources/assets/fbms/models/block/lefty_poster.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Poster"
     },
     {
       "name": "Impala",
@@ -1991,7 +1991,7 @@
           "src/main/java/net/mcreator/fbms/block/model/OldBonnieBlockModel.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "OldFreddy",
@@ -2014,7 +2014,7 @@
           "src/main/resources/assets/fbms/models/custom/old_freddy_particle.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "OldChica",
@@ -2037,7 +2037,7 @@
           "src/main/resources/assets/fbms/models/custom/old_chica_particle.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "OldFoxy",
@@ -2060,7 +2060,7 @@
           "src/main/resources/assets/fbms/models/item/old_foxy.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "DBalloonBoy",
@@ -2151,7 +2151,7 @@
           }
         ]
       },
-      "path": "~/Blocks/plush"
+      "path": "~/Blocks/Props/Plushies"
     },
     {
       "name": "DocPlush",
@@ -2174,7 +2174,7 @@
           "src/main/java/net/mcreator/fbms/block/entity/DocPlushTileEntity.java"
         ]
       },
-      "path": "~/Blocks/plush"
+      "path": "~/Blocks/Props/Plushies"
     },
     {
       "name": "Plush",
@@ -2203,7 +2203,7 @@
           "src/main/resources/assets/fbms/blockstates/monitors_stephan.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "Tv",
@@ -2220,7 +2220,7 @@
           "src/main/resources/assets/fbms/models/item/tv.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "TvDoug",
@@ -2237,7 +2237,7 @@
           "src/main/java/net/mcreator/fbms/block/TvDougBlock.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "TvMarcelo",
@@ -2254,7 +2254,7 @@
           "src/main/java/net/mcreator/fbms/block/TvMarceloBlock.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "GarfPlush",
@@ -2277,7 +2277,7 @@
           "src/main/java/net/mcreator/fbms/block/display/GarfPlushDisplayItem.java"
         ]
       },
-      "path": "~/Blocks/plush"
+      "path": "~/Blocks/Props/Plushies"
     },
     {
       "name": "GarfPlushOnBlockRightClicked",
@@ -2309,7 +2309,7 @@
           }
         ]
       },
-      "path": "~/Blocks/plush"
+      "path": "~/Blocks/Props/Plushies"
     },
     {
       "name": "Rosey",
@@ -2332,7 +2332,7 @@
           "src/main/java/net/mcreator/fbms/block/display/RoseyDisplayItem.java"
         ]
       },
-      "path": "~/Blocks/plush"
+      "path": "~/Blocks/Props/Plushies"
     },
     {
       "name": "TvOff",
@@ -2349,7 +2349,7 @@
           "src/main/resources/assets/fbms/models/item/tv_off.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "TvOffOnBlockRightClicked",
@@ -2385,7 +2385,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "TvOnBlockRightClicked",
@@ -2421,7 +2421,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "TvDougOnBlockRightClicked",
@@ -2457,7 +2457,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "TvMarceloOnBlockRightClicked",
@@ -2493,7 +2493,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "StationWagon",
@@ -2556,7 +2556,7 @@
           "src/main/resources/assets/fbms/models/custom/deluxe_speaker_set_particle.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Stage Stuff"
     },
     {
       "name": "BalloonBarrel",
@@ -2573,7 +2573,7 @@
           "src/main/resources/assets/fbms/models/block/balloon_barrel.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props"
     },
     {
       "name": "PaperPalClown",
@@ -2590,7 +2590,7 @@
           "src/main/resources/assets/fbms/models/item/paper_pal_clown.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Paperpals"
     },
     {
       "name": "PapperPalMrHippo",
@@ -2607,7 +2607,7 @@
           "src/main/resources/assets/fbms/models/block/papper_pal_mr_hippo.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Paperpals"
     },
     {
       "name": "PapperPalOrvil",
@@ -2624,7 +2624,7 @@
           "src/main/java/net/mcreator/fbms/block/PapperPalOrvilBlock.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Paperpals"
     },
     {
       "name": "DiscoPizza",
@@ -2641,7 +2641,7 @@
           "src/main/resources/assets/fbms/models/item/disco_pizza.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props"
     },
     {
       "name": "NeonJukeBox",
@@ -2664,7 +2664,7 @@
           "src/main/resources/assets/fbms/models/custom/neon_juke_box_particle.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Stage Stuff"
     },
     {
       "name": "LadderTower",
@@ -2687,7 +2687,7 @@
           "src/main/resources/assets/fbms/models/item/ladder_tower.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props"
     },
     {
       "name": "GumballSwivelHands",
@@ -2704,7 +2704,7 @@
           "src/main/resources/assets/fbms/models/item/gumball_swivel_hands.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Games"
     },
     {
       "name": "BallPitTower",
@@ -2727,7 +2727,7 @@
           "src/main/resources/assets/fbms/models/custom/ball_pit_tower_particle.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props"
     },
     {
       "name": "EnhancedSpeakerSet",
@@ -2750,7 +2750,7 @@
           "src/main/java/net/mcreator/fbms/block/renderer/EnhancedSpeakerSetTileRenderer.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props"
     },
     {
       "name": "FruitPunchClown",
@@ -2773,7 +2773,7 @@
           "src/main/java/net/mcreator/fbms/block/model/FruitPunchClownBlockModel.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Animatronic Props"
     },
     {
       "name": "LemonadeClown",
@@ -2796,7 +2796,7 @@
           "src/main/java/net/mcreator/fbms/block/model/LemonadeClownDisplayModel.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Animatronic Props"
     },
     {
       "name": "DiscountBallpit",
@@ -2807,19 +2807,19 @@
       "registry_name": "discount_ballpit",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fbms/block/display/DiscountBallpitDisplayItem.java",
-          "src/main/resources/assets/fbms/blockstates/discount_ballpit.json",
+          "src/main/java/net/mcreator/fbms/block/entity/DiscountBallpitTileEntity.java",
           "src/main/java/net/mcreator/fbms/block/model/DiscountBallpitBlockModel.java",
-          "src/main/java/net/mcreator/fbms/block/model/DiscountBallpitDisplayModel.java",
-          "src/main/resources/assets/fbms/models/custom/discount_ballpit_particle.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/DiscountBallpitDisplayItemRenderer.java",
           "src/main/java/net/mcreator/fbms/block/DiscountBallpitBlock.java",
           "src/main/java/net/mcreator/fbms/block/renderer/DiscountBallpitTileRenderer.java",
-          "src/main/java/net/mcreator/fbms/block/renderer/DiscountBallpitDisplayItemRenderer.java",
-          "src/main/java/net/mcreator/fbms/block/entity/DiscountBallpitTileEntity.java",
-          "src/main/resources/assets/fbms/models/item/discount_ballpit.json"
+          "src/main/resources/assets/fbms/models/item/discount_ballpit.json",
+          "src/main/java/net/mcreator/fbms/block/display/DiscountBallpitDisplayItem.java",
+          "src/main/resources/assets/fbms/models/custom/discount_ballpit_particle.json",
+          "src/main/java/net/mcreator/fbms/block/model/DiscountBallpitDisplayModel.java",
+          "src/main/resources/assets/fbms/blockstates/discount_ballpit.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Games"
     },
     {
       "name": "EggBaby",
@@ -2842,7 +2842,7 @@
           "src/main/java/net/mcreator/fbms/block/renderer/EggBabyTileRenderer.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "MrHugs",
@@ -2865,7 +2865,7 @@
           "src/main/java/net/mcreator/fbms/block/display/MrHugsDisplayItem.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "Number1Crate",
@@ -2888,7 +2888,7 @@
           "src/main/java/net/mcreator/fbms/block/renderer/Number1CrateDisplayItemRenderer.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "IgnitedChica",
@@ -2911,7 +2911,7 @@
           "src/main/resources/assets/fbms/blockstates/ignited_chica.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "MoltenSit",
@@ -2934,7 +2934,7 @@
           "src/main/java/net/mcreator/fbms/block/renderer/MoltenSitDisplayItemRenderer.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "FreddyFazBear",
@@ -2957,7 +2957,7 @@
           "src/main/resources/assets/fbms/models/custom/freddy_faz_bear_particle.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "VESSELOnBlockRightClicked",
@@ -2989,7 +2989,7 @@
           }
         ]
       },
-      "path": "~/Blocks/plush"
+      "path": "~/Blocks/Props/Plushies"
     },
     {
       "name": "VESSEL",
@@ -3006,7 +3006,7 @@
           "src/main/java/net/mcreator/fbms/block/VESSELBlock.java"
         ]
       },
-      "path": "~/Blocks/plush"
+      "path": "~/Blocks/Props/Plushies"
     },
     {
       "name": "MidnightMotorist",
@@ -3029,7 +3029,7 @@
           "src/main/java/net/mcreator/fbms/block/display/MidnightMotoristDisplayItem.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Games"
     },
     {
       "name": "FruityMaze",
@@ -3052,7 +3052,7 @@
           "src/main/java/net/mcreator/fbms/block/FruityMazeBlock.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Games"
     },
     {
       "name": "StephanPlush",
@@ -3075,7 +3075,7 @@
           "src/main/java/net/mcreator/fbms/block/display/StephanPlushDisplayItem.java"
         ]
       },
-      "path": "~/Blocks/plush"
+      "path": "~/Blocks/Props/Plushies"
     },
     {
       "name": "StephanPlushOnBlockRightClicked",
@@ -3107,7 +3107,7 @@
           }
         ]
       },
-      "path": "~/Blocks/plush"
+      "path": "~/Blocks/Props/Plushies"
     },
     {
       "name": "PanStan",
@@ -3130,7 +3130,7 @@
           "src/main/java/net/mcreator/fbms/block/model/PanStanDisplayModel.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "Remote",
@@ -3168,7 +3168,7 @@
           "src/main/java/net/mcreator/fbms/block/renderer/BucketBobTileRenderer.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "MrCanDo",
@@ -3191,7 +3191,7 @@
           "src/main/java/net/mcreator/fbms/block/model/MrCanDoDisplayModel.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "BalloonBoy",
@@ -3214,7 +3214,7 @@
           "src/main/java/net/mcreator/fbms/block/BalloonBoyBlock.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "BonBon",
@@ -3237,7 +3237,7 @@
           "src/main/java/net/mcreator/fbms/block/model/BonBonDisplayModel.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "Bonnet",
@@ -3260,7 +3260,7 @@
           "src/main/resources/assets/fbms/models/custom/bonnet_particle.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "Bonnie",
@@ -3283,7 +3283,7 @@
           "src/main/resources/assets/fbms/blockstates/bonnie.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "Chica",
@@ -3306,7 +3306,7 @@
           "src/main/resources/assets/fbms/models/item/chica.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "Foxy",
@@ -3329,7 +3329,7 @@
           "src/main/java/net/mcreator/fbms/block/entity/FoxyTileEntity.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "FtFoxy",
@@ -3352,7 +3352,7 @@
           "src/main/resources/assets/fbms/models/custom/ft_foxy_particle.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "LolBit",
@@ -3375,7 +3375,7 @@
           "src/main/resources/assets/fbms/models/custom/lol_bit_particle.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "LolBitDt",
@@ -3398,7 +3398,7 @@
           "src/main/java/net/mcreator/fbms/block/renderer/LolBitDtDisplayItemRenderer.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "RetroChica",
@@ -3421,7 +3421,7 @@
           "src/main/resources/assets/fbms/blockstates/retro_chica.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "ToyFreddy",
@@ -3444,7 +3444,7 @@
           "src/main/java/net/mcreator/fbms/block/model/ToyFreddyBlockModel.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "ToyFoxy",
@@ -3467,7 +3467,7 @@
           "src/main/resources/assets/fbms/models/item/toy_foxy.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "ToyChica",
@@ -3490,7 +3490,7 @@
           "src/main/resources/assets/fbms/blockstates/toy_chica.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "ToyBonnie",
@@ -3513,7 +3513,7 @@
           "src/main/java/net/mcreator/fbms/block/entity/ToyBonnieTileEntity.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "BonkABon",
@@ -3536,7 +3536,7 @@
           "src/main/java/net/mcreator/fbms/block/entity/BonkABonTileEntity.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "BrokenFreddy",
@@ -3559,7 +3559,7 @@
           "src/main/java/net/mcreator/fbms/block/renderer/BrokenFreddyTileRenderer.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "BrokenBonnie",
@@ -3582,7 +3582,7 @@
           "src/main/resources/assets/fbms/models/custom/broken_bonnie_particle.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "BrokenChica",
@@ -3605,7 +3605,7 @@
           "src/main/resources/assets/fbms/models/custom/broken_chica_particle.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "CarnivalHoops",
@@ -3628,7 +3628,7 @@
           "src/main/resources/assets/fbms/models/custom/carnival_hoops_particle.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Games"
     },
     {
       "name": "GravityVortex",
@@ -3651,7 +3651,7 @@
           "src/main/java/net/mcreator/fbms/block/entity/GravityVortexTileEntity.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Games"
     },
     {
       "name": "GravityVortex2",
@@ -3674,7 +3674,7 @@
           "src/main/java/net/mcreator/fbms/block/entity/GravityVortex2TileEntity.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Games"
     },
     {
       "name": "Pickles",
@@ -3697,7 +3697,7 @@
           "src/main/java/net/mcreator/fbms/block/model/PicklesDisplayModel.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props"
     },
     {
       "name": "DougTheDog",
@@ -3720,7 +3720,7 @@
           "src/main/java/net/mcreator/fbms/block/renderer/DougTheDogDisplayItemRenderer.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "WitheredDougTheDog",
@@ -3743,7 +3743,7 @@
           "src/main/java/net/mcreator/fbms/block/display/WitheredDougTheDogDisplayItem.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "Endo02",
@@ -3766,7 +3766,7 @@
           "src/main/resources/assets/fbms/blockstates/endo_02.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "TvFizTime",
@@ -3783,7 +3783,7 @@
           "src/main/java/net/mcreator/fbms/block/TvFizTimeBlock.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "TvMarty",
@@ -3800,7 +3800,7 @@
           "src/main/java/net/mcreator/fbms/block/TvMartyBlock.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "TvFlos",
@@ -3817,7 +3817,7 @@
           "src/main/resources/assets/fbms/blockstates/tv_flos.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "TvWartPaste",
@@ -3834,7 +3834,7 @@
           "src/main/resources/assets/fbms/blockstates/tv_wart_paste.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "TvLally",
@@ -3851,7 +3851,7 @@
           "src/main/resources/assets/fbms/models/block/tv_lally.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "TvPopCorn",
@@ -3868,7 +3868,7 @@
           "src/main/resources/assets/fbms/models/block/tv_pop_corn.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "TvFreddyNFren",
@@ -3885,7 +3885,7 @@
           "src/main/resources/assets/fbms/models/block/tv_freddy_n_fren.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "TvIATR",
@@ -3902,7 +3902,7 @@
           "src/main/resources/assets/fbms/models/item/tv_iatr.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "TvFizTimeOnBlockRightClicked",
@@ -3938,7 +3938,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "TvMartyOnBlockRightClicked",
@@ -3974,7 +3974,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "TvFlosOnBlockRightClicked",
@@ -4010,7 +4010,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "TvWartPasteOnBlockRightClicked",
@@ -4046,7 +4046,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "TvLallyOnBlockRightClicked",
@@ -4082,7 +4082,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "TvPopCornOnBlockRightClicked",
@@ -4118,7 +4118,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "TvFreddyNFrenOnBlockRightClicked",
@@ -4154,7 +4154,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "TvIATROnBlockRightClicked",
@@ -4190,7 +4190,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "DiscountCoolingUnit",
@@ -4213,7 +4213,7 @@
           "src/main/java/net/mcreator/fbms/block/DiscountCoolingUnitBlock.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props"
     },
     {
       "name": "Rasc",
@@ -4236,7 +4236,7 @@
           "src/main/resources/assets/fbms/models/custom/rasc_particle.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Animatronic Props"
     },
     {
       "name": "SeatRightClickedOnEntity",
@@ -4272,7 +4272,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/TVs and Monitors"
     },
     {
       "name": "SeatOnEntityTickUpdate",
@@ -4332,7 +4332,7 @@
           "src/main/java/net/mcreator/fbms/block/ShredBearBlock.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Animatronic Props"
     },
     {
       "name": "LolBit409",
@@ -4355,7 +4355,7 @@
           "src/main/resources/assets/fbms/blockstates/lol_bit_409.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "BalloonCart",
@@ -4378,7 +4378,7 @@
           "src/main/java/net/mcreator/fbms/block/model/BalloonCartDisplayModel.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props"
     },
     {
       "name": "RidingRocketsRed",
@@ -4401,7 +4401,7 @@
           "src/main/resources/assets/fbms/models/item/riding_rockets_red.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Games"
     },
     {
       "name": "RidingRocketsPurple",
@@ -4424,7 +4424,7 @@
           "src/main/resources/assets/fbms/blockstates/riding_rockets_purple.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Games"
     },
     {
       "name": "PaperPlates",
@@ -4447,7 +4447,7 @@
           "src/main/resources/assets/fbms/models/custom/paper_plates_particle.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Party Sets"
     },
     {
       "name": "NeonStageLightGreen",
@@ -4470,7 +4470,7 @@
           "src/main/resources/assets/fbms/models/item/neon_stage_light_green.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Stage Stuff"
     },
     {
       "name": "NeonStageLightsPink",
@@ -4493,7 +4493,7 @@
           "src/main/java/net/mcreator/fbms/block/entity/NeonStageLightsPinkTileEntity.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Stage Stuff"
     },
     {
       "name": "NeonStageLightsBlue",
@@ -4516,7 +4516,7 @@
           "src/main/java/net/mcreator/fbms/block/model/NeonStageLightsBlueBlockModel.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Stage Stuff"
     },
     {
       "name": "CeilingStageLights",
@@ -4539,7 +4539,7 @@
           "src/main/java/net/mcreator/fbms/block/model/CeilingStageLightsDisplayModel.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Stage Stuff"
     },
     {
       "name": "CeilingStageLightpink",
@@ -4562,7 +4562,7 @@
           "src/main/java/net/mcreator/fbms/block/renderer/CeilingStageLightpinkTileRenderer.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Stage Stuff"
     },
     {
       "name": "CeilingStageLightblue",
@@ -4585,7 +4585,7 @@
           "src/main/java/net/mcreator/fbms/block/renderer/CeilingStageLightblueDisplayItemRenderer.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Props/Stage Stuff"
     },
     {
       "name": "FAT",
@@ -4636,7 +4636,7 @@
           }
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "FuntimeDelilahblockOnBlockRightClicked",
@@ -4672,7 +4672,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "ElChipAnimatedOnBlockRightClicked",
@@ -4708,7 +4708,7 @@
           }
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "ElChipOnBlockRightClicked",
@@ -4744,7 +4744,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "Endo01AnimatedOnBlockRightClicked",
@@ -4780,7 +4780,7 @@
           }
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "Endo01OnBlockRightClicked",
@@ -4816,7 +4816,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "FuntimeChicaAnimatedOnBlockRightClicked",
@@ -4852,7 +4852,7 @@
           }
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "FunTimeChicaOnBlockRightClicked",
@@ -4888,7 +4888,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "HappYFrogAnimatedOnBlockRightClicked",
@@ -4924,7 +4924,7 @@
           }
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "HappyFrogOnBlockRightClicked",
@@ -4960,7 +4960,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "LeftyAnimatedOnBlockRightClicked",
@@ -4996,7 +4996,7 @@
           }
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "LeftyOnBlockRightClicked",
@@ -5032,7 +5032,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "MrHippoAnimatedOnBlockRightClicked",
@@ -5068,7 +5068,7 @@
           }
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "MrHippoOnBlockRightClicked",
@@ -5104,7 +5104,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "MusicManAnimatedOnBlockRightClicked",
@@ -5140,7 +5140,7 @@
           }
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "MusicManOnBlockRightClicked",
@@ -5176,7 +5176,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "NeddBearAnimatedOnBlockRightClicked",
@@ -5212,7 +5212,7 @@
           }
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "NeddBearOnBlockRightClicked",
@@ -5248,7 +5248,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "OrvilleAnimatedOnBlockRightClicked",
@@ -5284,7 +5284,7 @@
           }
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "OrvilleOnBlockRightClicked",
@@ -5320,7 +5320,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "PigPatchAnimatedOnBlockRightClicked",
@@ -5356,7 +5356,7 @@
           }
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "PigPatchOnBlockRightClicked",
@@ -5392,7 +5392,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "RockStarBonnieAnimatedOnBlockRightClicked",
@@ -5428,7 +5428,7 @@
           }
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "RockStarBonnieOnBlockRightClicked",
@@ -5464,7 +5464,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "RockStarChicaAnimatedOnBlockRightClicked",
@@ -5500,7 +5500,7 @@
           }
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "RockStarChicaOnBlockRightClicked",
@@ -5536,7 +5536,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "RockStarFoxyAnimatedOnBlockRightClicked",
@@ -5572,7 +5572,7 @@
           }
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "RockStarFoxyOnBlockRightClicked",
@@ -5608,7 +5608,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "RockStarFreddyAnimatedOnBlockRightClicked",
@@ -5644,7 +5644,7 @@
           }
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "RockStarFreddyOnBlockRightClicked",
@@ -5680,7 +5680,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
     },
     {
       "name": "RustyAnimatedOnBlockRightClicked",
@@ -5716,7 +5716,7 @@
           }
         ]
       },
-      "path": "~/Blocks/animated"
+      "path": "~/Blocks/Animatronics/animated"
     },
     {
       "name": "RustyOnBlockRightClicked",
@@ -5752,7 +5752,53 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Animatronics"
+    },
+    {
+      "name": "DeluxeBallpit",
+      "type": "animatedblock",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deluxe_ballpit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/model/DeluxeBallpitDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/display/DeluxeBallpitDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/DeluxeBallpitDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/entity/DeluxeBallpitTileEntity.java",
+          "src/main/resources/assets/fbms/blockstates/deluxe_ballpit.json",
+          "src/main/resources/assets/fbms/models/item/deluxe_ballpit.json",
+          "src/main/java/net/mcreator/fbms/block/DeluxeBallpitBlock.java",
+          "src/main/java/net/mcreator/fbms/block/model/DeluxeBallpitBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/DeluxeBallpitTileRenderer.java",
+          "src/main/resources/assets/fbms/models/custom/deluxe_ballpit_particle.json"
+        ]
+      },
+      "path": "~/Blocks/Props"
+    },
+    {
+      "name": "RottenPit",
+      "type": "animatedblock",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rotten_pit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/model/RottenPitBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/RottenPitDisplayItemRenderer.java",
+          "src/main/resources/assets/fbms/blockstates/rotten_pit.json",
+          "src/main/resources/assets/fbms/models/item/rotten_pit.json",
+          "src/main/java/net/mcreator/fbms/block/entity/RottenPitTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/display/RottenPitDisplayItem.java",
+          "src/main/resources/assets/fbms/models/custom/rotten_pit_particle.json",
+          "src/main/java/net/mcreator/fbms/block/RottenPitBlock.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/RottenPitTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/RottenPitDisplayModel.java"
+        ]
+      },
+      "path": "~/Blocks/Props"
     }
   ],
   "variable_elements": [],
@@ -5869,6 +5915,7 @@
       "block.fbms.rock_star_chica_animated": "RockStar Chica Animated",
       "block.fbms.tv_wart_paste": "Tv (WartPaste)",
       "block.fbms.withered_doug_the_dog": "Withered Doug The Dog",
+      "block.fbms.deluxe_ballpit": "Deluxe Ballpit",
       "block.fbms.tv_iatr": "Tv (IATR)",
       "block.fbms.mr_hippo": "Mr Hippo",
       "block.fbms.toy_chica": "Toy Chica",
@@ -5988,6 +6035,7 @@
       "item.fbms.doge_ram_spawn_egg": "Doge Ram 1982 Spawn Egg",
       "block.fbms.fruity_maze": "Fruity Maze",
       "subtitles.hehehehhehe": "I Know Were You Live",
+      "block.fbms.rotten_pit": "Rotten Pit",
       "block.fbms.paper_pal_clown": "Papper Pal Clown",
       "block.fbms.neon_juke_box": "Neon Juke Box",
       "block.fbms.pig_patch_animated": "Pig Patch Animated",
@@ -6015,12 +6063,54 @@
         "name": "Blocks",
         "children": [
           {
-            "name": "animated",
-            "children": []
+            "name": "Animatronics",
+            "children": [
+              {
+                "name": "animated",
+                "children": []
+              }
+            ]
           },
           {
-            "name": "plush",
-            "children": []
+            "name": "Props",
+            "children": [
+              {
+                "name": "Poster",
+                "children": []
+              },
+              {
+                "name": "Plushies",
+                "children": []
+              },
+              {
+                "name": "TVs and Monitors",
+                "children": []
+              },
+              {
+                "name": "Games",
+                "children": []
+              },
+              {
+                "name": "Animatronic Props",
+                "children": []
+              },
+              {
+                "name": "Paperpals",
+                "children": []
+              },
+              {
+                "name": "Party Sets",
+                "children": []
+              },
+              {
+                "name": "Signs",
+                "children": []
+              },
+              {
+                "name": "Stage Stuff",
+                "children": []
+              }
+            ]
           }
         ]
       },

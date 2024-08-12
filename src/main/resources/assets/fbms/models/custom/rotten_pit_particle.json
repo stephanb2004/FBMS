@@ -2,6 +2,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/discountballpitmoltenshouse"
+    "particle": "fbms:blocks/rotten_pit"
   }
 }

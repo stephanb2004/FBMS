@@ -1,6 +1,8 @@
 
 package net.mcreator.fbms.block;
 
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
@@ -13,8 +15,8 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.RenderShape;
 import net.minecraft.world.level.block.Mirror;
+import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.EntityBlock;
-import net.minecraft.world.level.block.DirectionalBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.BaseEntityBlock;
 import net.minecraft.world.level.LevelReader;
@@ -32,12 +34,12 @@ import javax.annotation.Nullable;
 import java.util.List;
 import java.util.Collections;
 
-public class DiscountBallpitBlock extends BaseEntityBlock implements EntityBlock {
+public class RottenPitBlock extends BaseEntityBlock implements EntityBlock {
 	public static final IntegerProperty ANIMATION = IntegerProperty.create("animation", 0, (int) 1);
-	public static final DirectionProperty FACING = DirectionalBlock.FACING;
+	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
-	public DiscountBallpitBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.WOOD).strength(1f, 10f).noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+	public RottenPitBlock() {
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.BONE_BLOCK).strength(1f, 10f).noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
@@ -49,7 +51,7 @@ public class DiscountBallpitBlock extends BaseEntityBlock implements EntityBlock
 	@Nullable
 	@Override
 	public BlockEntity newBlockEntity(BlockPos blockPos, BlockState blockState) {
-		return FbmsModBlockEntities.DISCOUNT_BALLPIT.get().create(blockPos, blockState);
+		return FbmsModBlockEntities.ROTTEN_PIT.get().create(blockPos, blockState);
 	}
 
 	@Override
@@ -63,13 +65,24 @@ public class DiscountBallpitBlock extends BaseEntityBlock implements EntityBlock
 	}
 
 	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+
+		return switch (state.getValue(FACING)) {
+			default -> box(-16, 0, -16, 32, 16, 32);
+			case NORTH -> box(-16, 0, -16, 32, 16, 32);
+			case EAST -> box(-16, 0, -16, 32, 16, 32);
+			case WEST -> box(-16, 0, -16, 32, 16, 32);
+		};
+	}
+
+	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		builder.add(ANIMATION, FACING);
 	}
 
 	@Override
 	public BlockState getStateForPlacement(BlockPlaceContext context) {
-		return this.defaultBlockState().setValue(FACING, context.getNearestLookingDirection().getOpposite());
+		return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
 	}
 
 	public BlockState rotate(BlockState state, Rotation rot) {

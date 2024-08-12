@@ -22,6 +22,7 @@ import net.mcreator.fbms.block.renderer.ScrapTrapTileRenderer;
 import net.mcreator.fbms.block.renderer.SanitationStationTileRenderer;
 import net.mcreator.fbms.block.renderer.RustyTileRenderer;
 import net.mcreator.fbms.block.renderer.RustyAnimatedTileRenderer;
+import net.mcreator.fbms.block.renderer.RottenPitTileRenderer;
 import net.mcreator.fbms.block.renderer.RoseyTileRenderer;
 import net.mcreator.fbms.block.renderer.RockStarFreddyTileRenderer;
 import net.mcreator.fbms.block.renderer.RockStarFreddyAnimatedTileRenderer;
@@ -118,6 +119,7 @@ import net.mcreator.fbms.block.renderer.DocPlushTileRenderer;
 import net.mcreator.fbms.block.renderer.DiscountCoolingUnitTileRenderer;
 import net.mcreator.fbms.block.renderer.DiscountBallpitTileRenderer;
 import net.mcreator.fbms.block.renderer.DeluxeSpeakerSetTileRenderer;
+import net.mcreator.fbms.block.renderer.DeluxeBallpitTileRenderer;
 import net.mcreator.fbms.block.renderer.DBalloonBoyTileRenderer;
 import net.mcreator.fbms.block.renderer.ChicaTileRenderer;
 import net.mcreator.fbms.block.renderer.CeilingStageLightsTileRenderer;
@@ -286,5 +288,7 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.CEILING_STAGE_LIGHTS.get(), CeilingStageLightsTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.CEILING_STAGE_LIGHTPINK.get(), CeilingStageLightpinkTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.CEILING_STAGE_LIGHTBLUE.get(), CeilingStageLightblueTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.DELUXE_BALLPIT.get(), DeluxeBallpitTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.ROTTEN_PIT.get(), RottenPitTileRenderer::new);
 	}
 }

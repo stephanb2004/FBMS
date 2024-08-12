@@ -2,37 +2,37 @@
   "_fv": 43,
   "_type": "animatedblock",
   "definition": {
-    "texture": "discountballpitmoltenshouse",
+    "texture": "rotten_pit",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 0,
-    "rotationMode": 2,
+    "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "rotten_ballpit",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "CUTOUT",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 0.0,
+        "mx": -16.0,
         "my": 0.0,
-        "mz": 0.0,
-        "Mx": 16.0,
+        "mz": -16.0,
+        "Mx": 32.0,
         "My": 16.0,
-        "Mz": 16.0,
+        "Mz": 32.0,
         "subtract": false
       }
     ],
-    "name": "Discount Ballpit",
+    "name": "Rotten Pit",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -53,7 +53,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "IRON"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -79,7 +79,7 @@
     "isNotColidable": true,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "BONE"
     },
     "breakSound": {
       "value": ""
@@ -125,13 +125,17 @@
     "fluidRestrictions": [],
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE"
+      }
+    ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
-    "normal": "discount_ballpit.geo.json",
+    "normal": "rotten_pit.geo.json",
     "displaySettings": "figure.item.json"
   }
 }

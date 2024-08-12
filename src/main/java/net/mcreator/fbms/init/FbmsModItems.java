@@ -40,6 +40,7 @@ import net.mcreator.fbms.block.display.ScrapTrapDisplayItem;
 import net.mcreator.fbms.block.display.SanitationStationDisplayItem;
 import net.mcreator.fbms.block.display.RustyDisplayItem;
 import net.mcreator.fbms.block.display.RustyAnimatedDisplayItem;
+import net.mcreator.fbms.block.display.RottenPitDisplayItem;
 import net.mcreator.fbms.block.display.RoseyDisplayItem;
 import net.mcreator.fbms.block.display.RockStarFreddyDisplayItem;
 import net.mcreator.fbms.block.display.RockStarFreddyAnimatedDisplayItem;
@@ -136,6 +137,7 @@ import net.mcreator.fbms.block.display.DocPlushDisplayItem;
 import net.mcreator.fbms.block.display.DiscountCoolingUnitDisplayItem;
 import net.mcreator.fbms.block.display.DiscountBallpitDisplayItem;
 import net.mcreator.fbms.block.display.DeluxeSpeakerSetDisplayItem;
+import net.mcreator.fbms.block.display.DeluxeBallpitDisplayItem;
 import net.mcreator.fbms.block.display.DBalloonBoyDisplayItem;
 import net.mcreator.fbms.block.display.ChicaDisplayItem;
 import net.mcreator.fbms.block.display.CeilingStageLightsDisplayItem;
@@ -410,6 +412,9 @@ public class FbmsModItems {
 	public static final RegistryObject<Item> CEILING_STAGE_LIGHTBLUE = REGISTRY.register(FbmsModBlocks.CEILING_STAGE_LIGHTBLUE.getId().getPath(),
 			() -> new CeilingStageLightblueDisplayItem(FbmsModBlocks.CEILING_STAGE_LIGHTBLUE.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
 	public static final RegistryObject<Item> FAT = REGISTRY.register("fat", () -> new FATItem());
+	public static final RegistryObject<Item> DELUXE_BALLPIT = REGISTRY.register(FbmsModBlocks.DELUXE_BALLPIT.getId().getPath(),
+			() -> new DeluxeBallpitDisplayItem(FbmsModBlocks.DELUXE_BALLPIT.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> ROTTEN_PIT = REGISTRY.register(FbmsModBlocks.ROTTEN_PIT.getId().getPath(), () -> new RottenPitDisplayItem(FbmsModBlocks.ROTTEN_PIT.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

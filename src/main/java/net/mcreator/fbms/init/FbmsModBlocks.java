@@ -38,6 +38,7 @@ import net.mcreator.fbms.block.ScrapTrapBlock;
 import net.mcreator.fbms.block.SanitationStationBlock;
 import net.mcreator.fbms.block.RustyBlock;
 import net.mcreator.fbms.block.RustyAnimatedBlock;
+import net.mcreator.fbms.block.RottenPitBlock;
 import net.mcreator.fbms.block.RoseyBlock;
 import net.mcreator.fbms.block.RockStarFreddyBlock;
 import net.mcreator.fbms.block.RockStarFreddyAnimatedBlock;
@@ -145,6 +146,7 @@ import net.mcreator.fbms.block.DiscountCoolingUnitBlock;
 import net.mcreator.fbms.block.DiscountBallpitBlock;
 import net.mcreator.fbms.block.DiscoPizzaBlock;
 import net.mcreator.fbms.block.DeluxeSpeakerSetBlock;
+import net.mcreator.fbms.block.DeluxeBallpitBlock;
 import net.mcreator.fbms.block.DBalloonBoyBlock;
 import net.mcreator.fbms.block.ChicaBlock;
 import net.mcreator.fbms.block.CeilingStageLightsBlock;
@@ -336,4 +338,6 @@ public class FbmsModBlocks {
 	public static final RegistryObject<Block> CEILING_STAGE_LIGHTS = REGISTRY.register("ceiling_stage_lights", () -> new CeilingStageLightsBlock());
 	public static final RegistryObject<Block> CEILING_STAGE_LIGHTPINK = REGISTRY.register("ceiling_stage_lightpink", () -> new CeilingStageLightpinkBlock());
 	public static final RegistryObject<Block> CEILING_STAGE_LIGHTBLUE = REGISTRY.register("ceiling_stage_lightblue", () -> new CeilingStageLightblueBlock());
+	public static final RegistryObject<Block> DELUXE_BALLPIT = REGISTRY.register("deluxe_ballpit", () -> new DeluxeBallpitBlock());
+	public static final RegistryObject<Block> ROTTEN_PIT = REGISTRY.register("rotten_pit", () -> new RottenPitBlock());
 }

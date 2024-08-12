@@ -26,6 +26,7 @@ import net.mcreator.fbms.block.entity.ScrapTrapTileEntity;
 import net.mcreator.fbms.block.entity.SanitationStationTileEntity;
 import net.mcreator.fbms.block.entity.RustyTileEntity;
 import net.mcreator.fbms.block.entity.RustyAnimatedTileEntity;
+import net.mcreator.fbms.block.entity.RottenPitTileEntity;
 import net.mcreator.fbms.block.entity.RoseyTileEntity;
 import net.mcreator.fbms.block.entity.RockStarFreddyTileEntity;
 import net.mcreator.fbms.block.entity.RockStarFreddyAnimatedTileEntity;
@@ -122,6 +123,7 @@ import net.mcreator.fbms.block.entity.DocPlushTileEntity;
 import net.mcreator.fbms.block.entity.DiscountCoolingUnitTileEntity;
 import net.mcreator.fbms.block.entity.DiscountBallpitTileEntity;
 import net.mcreator.fbms.block.entity.DeluxeSpeakerSetTileEntity;
+import net.mcreator.fbms.block.entity.DeluxeBallpitTileEntity;
 import net.mcreator.fbms.block.entity.DBalloonBoyTileEntity;
 import net.mcreator.fbms.block.entity.ChicaTileEntity;
 import net.mcreator.fbms.block.entity.CeilingStageLightsTileEntity;
@@ -338,6 +340,8 @@ public class FbmsModBlockEntities {
 			() -> BlockEntityType.Builder.of(CeilingStageLightpinkTileEntity::new, FbmsModBlocks.CEILING_STAGE_LIGHTPINK.get()).build(null));
 	public static final RegistryObject<BlockEntityType<CeilingStageLightblueTileEntity>> CEILING_STAGE_LIGHTBLUE = REGISTRY.register("ceiling_stage_lightblue",
 			() -> BlockEntityType.Builder.of(CeilingStageLightblueTileEntity::new, FbmsModBlocks.CEILING_STAGE_LIGHTBLUE.get()).build(null));
+	public static final RegistryObject<BlockEntityType<DeluxeBallpitTileEntity>> DELUXE_BALLPIT = REGISTRY.register("deluxe_ballpit", () -> BlockEntityType.Builder.of(DeluxeBallpitTileEntity::new, FbmsModBlocks.DELUXE_BALLPIT.get()).build(null));
+	public static final RegistryObject<BlockEntityType<RottenPitTileEntity>> ROTTEN_PIT = REGISTRY.register("rotten_pit", () -> BlockEntityType.Builder.of(RottenPitTileEntity::new, FbmsModBlocks.ROTTEN_PIT.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));
