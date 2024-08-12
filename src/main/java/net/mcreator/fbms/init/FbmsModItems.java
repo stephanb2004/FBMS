@@ -70,6 +70,7 @@ import net.mcreator.fbms.block.display.OldChicaDisplayItem;
 import net.mcreator.fbms.block.display.OldBonnieDisplayItem;
 import net.mcreator.fbms.block.display.Number1CrateDisplayItem;
 import net.mcreator.fbms.block.display.NoveltyTrafficLightDisplayItem;
+import net.mcreator.fbms.block.display.NeonStageLightGreenDisplayItem;
 import net.mcreator.fbms.block.display.NeonPartySet4DisplayItem;
 import net.mcreator.fbms.block.display.NeonPartySet3DisplayItem;
 import net.mcreator.fbms.block.display.NeonPartySet2DisplayItem;
@@ -392,6 +393,8 @@ public class FbmsModItems {
 	public static final RegistryObject<Item> RIDING_ROCKETS_PURPLE = REGISTRY.register(FbmsModBlocks.RIDING_ROCKETS_PURPLE.getId().getPath(),
 			() -> new RidingRocketsPurpleDisplayItem(FbmsModBlocks.RIDING_ROCKETS_PURPLE.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
 	public static final RegistryObject<Item> PAPER_PLATES = REGISTRY.register(FbmsModBlocks.PAPER_PLATES.getId().getPath(), () -> new PaperPlatesDisplayItem(FbmsModBlocks.PAPER_PLATES.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> NEON_STAGE_LIGHT_GREEN = REGISTRY.register(FbmsModBlocks.NEON_STAGE_LIGHT_GREEN.getId().getPath(),
+			() -> new NeonStageLightGreenDisplayItem(FbmsModBlocks.NEON_STAGE_LIGHT_GREEN.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

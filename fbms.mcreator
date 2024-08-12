@@ -4463,6 +4463,29 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "NeonStageLightGreen",
+      "type": "animatedblock",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_stage_light_green",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/NeonStageLightGreenBlock.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonStageLightGreenTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonStageLightGreenDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/entity/NeonStageLightGreenTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeonStageLightGreenBlockModel.java",
+          "src/main/resources/assets/fbms/blockstates/neon_stage_light_green.json",
+          "src/main/resources/assets/fbms/models/custom/neon_stage_light_green_particle.json",
+          "src/main/java/net/mcreator/fbms/block/model/NeonStageLightGreenDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/display/NeonStageLightGreenDisplayItem.java",
+          "src/main/resources/assets/fbms/models/item/neon_stage_light_green.json"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
@@ -4623,6 +4646,7 @@
       "block.fbms.r_chica_poster": "RockStar Chica Poster",
       "block.fbms.ft_foxy": "FunTime Foxy",
       "block.fbms.broken_freddy": "Broken Freddy",
+      "block.fbms.neon_stage_light_green": "Neon Stage Light (Green)",
       "block.fbms.foxy": "Foxy",
       "block.fbms.balloon_barrel": "Balloon Barrel",
       "block.fbms.tv_flos": "Tv (Flos)",

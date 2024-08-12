@@ -75,6 +75,7 @@ import net.mcreator.fbms.block.OldChicaBlock;
 import net.mcreator.fbms.block.OldBonnieBlock;
 import net.mcreator.fbms.block.Number1CrateBlock;
 import net.mcreator.fbms.block.NoveltyTrafficLightBlock;
+import net.mcreator.fbms.block.NeonStageLightGreenBlock;
 import net.mcreator.fbms.block.NeonPartySet4Block;
 import net.mcreator.fbms.block.NeonPartySet3Block;
 import net.mcreator.fbms.block.NeonPartySet2Block;
@@ -324,4 +325,5 @@ public class FbmsModBlocks {
 	public static final RegistryObject<Block> RIDING_ROCKETS_RED = REGISTRY.register("riding_rockets_red", () -> new RidingRocketsRedBlock());
 	public static final RegistryObject<Block> RIDING_ROCKETS_PURPLE = REGISTRY.register("riding_rockets_purple", () -> new RidingRocketsPurpleBlock());
 	public static final RegistryObject<Block> PAPER_PLATES = REGISTRY.register("paper_plates", () -> new PaperPlatesBlock());
+	public static final RegistryObject<Block> NEON_STAGE_LIGHT_GREEN = REGISTRY.register("neon_stage_light_green", () -> new NeonStageLightGreenBlock());
 }

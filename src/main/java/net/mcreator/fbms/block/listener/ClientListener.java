@@ -52,6 +52,7 @@ import net.mcreator.fbms.block.renderer.OldChicaTileRenderer;
 import net.mcreator.fbms.block.renderer.OldBonnieTileRenderer;
 import net.mcreator.fbms.block.renderer.Number1CrateTileRenderer;
 import net.mcreator.fbms.block.renderer.NoveltyTrafficLightTileRenderer;
+import net.mcreator.fbms.block.renderer.NeonStageLightGreenTileRenderer;
 import net.mcreator.fbms.block.renderer.NeonPartySet4TileRenderer;
 import net.mcreator.fbms.block.renderer.NeonPartySet3TileRenderer;
 import net.mcreator.fbms.block.renderer.NeonPartySet2TileRenderer;
@@ -274,5 +275,6 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.RIDING_ROCKETS_RED.get(), RidingRocketsRedTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.RIDING_ROCKETS_PURPLE.get(), RidingRocketsPurpleTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.PAPER_PLATES.get(), PaperPlatesTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.NEON_STAGE_LIGHT_GREEN.get(), NeonStageLightGreenTileRenderer::new);
 	}
 }
