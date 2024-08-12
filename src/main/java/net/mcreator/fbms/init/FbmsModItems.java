@@ -414,7 +414,7 @@ public class FbmsModItems {
 	public static final RegistryObject<Item> FAT = REGISTRY.register("fat", () -> new FATItem());
 	public static final RegistryObject<Item> DELUXE_BALLPIT = REGISTRY.register(FbmsModBlocks.DELUXE_BALLPIT.getId().getPath(),
 			() -> new DeluxeBallpitDisplayItem(FbmsModBlocks.DELUXE_BALLPIT.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> ROTTEN_PIT = REGISTRY.register(FbmsModBlocks.ROTTEN_PIT.getId().getPath(), () -> new RottenPitDisplayItem(FbmsModBlocks.ROTTEN_PIT.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> ROTTEN_PIT = REGISTRY.register(FbmsModBlocks.ROTTEN_PIT.getId().getPath(), () -> new RottenPitDisplayItem(FbmsModBlocks.ROTTEN_PIT.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
