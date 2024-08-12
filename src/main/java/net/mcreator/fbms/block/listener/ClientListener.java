@@ -52,6 +52,8 @@ import net.mcreator.fbms.block.renderer.OldChicaTileRenderer;
 import net.mcreator.fbms.block.renderer.OldBonnieTileRenderer;
 import net.mcreator.fbms.block.renderer.Number1CrateTileRenderer;
 import net.mcreator.fbms.block.renderer.NoveltyTrafficLightTileRenderer;
+import net.mcreator.fbms.block.renderer.NeonStageLightsPinkTileRenderer;
+import net.mcreator.fbms.block.renderer.NeonStageLightsBlueTileRenderer;
 import net.mcreator.fbms.block.renderer.NeonStageLightGreenTileRenderer;
 import net.mcreator.fbms.block.renderer.NeonPartySet4TileRenderer;
 import net.mcreator.fbms.block.renderer.NeonPartySet3TileRenderer;
@@ -118,6 +120,9 @@ import net.mcreator.fbms.block.renderer.DiscountBallpitTileRenderer;
 import net.mcreator.fbms.block.renderer.DeluxeSpeakerSetTileRenderer;
 import net.mcreator.fbms.block.renderer.DBalloonBoyTileRenderer;
 import net.mcreator.fbms.block.renderer.ChicaTileRenderer;
+import net.mcreator.fbms.block.renderer.CeilingStageLightsTileRenderer;
+import net.mcreator.fbms.block.renderer.CeilingStageLightpinkTileRenderer;
+import net.mcreator.fbms.block.renderer.CeilingStageLightblueTileRenderer;
 import net.mcreator.fbms.block.renderer.CarnivalHoopsTileRenderer;
 import net.mcreator.fbms.block.renderer.CandyCadetTileRenderer;
 import net.mcreator.fbms.block.renderer.BucketBobTileRenderer;
@@ -276,5 +281,10 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.RIDING_ROCKETS_PURPLE.get(), RidingRocketsPurpleTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.PAPER_PLATES.get(), PaperPlatesTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.NEON_STAGE_LIGHT_GREEN.get(), NeonStageLightGreenTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.NEON_STAGE_LIGHTS_PINK.get(), NeonStageLightsPinkTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.NEON_STAGE_LIGHTS_BLUE.get(), NeonStageLightsBlueTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.CEILING_STAGE_LIGHTS.get(), CeilingStageLightsTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.CEILING_STAGE_LIGHTPINK.get(), CeilingStageLightpinkTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.CEILING_STAGE_LIGHTBLUE.get(), CeilingStageLightblueTileRenderer::new);
 	}
 }

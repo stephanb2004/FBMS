@@ -20,7 +20,6 @@ import net.mcreator.fbms.item.RemoteItem;
 import net.mcreator.fbms.item.MaracasItem;
 import net.mcreator.fbms.item.MandolinItem;
 import net.mcreator.fbms.item.GuitarItem;
-import net.mcreator.fbms.item.FredBearHeadItem;
 import net.mcreator.fbms.item.BanjoItem;
 import net.mcreator.fbms.item.AnimatedBlocksItem;
 import net.mcreator.fbms.item.AdItem;
@@ -70,6 +69,8 @@ import net.mcreator.fbms.block.display.OldChicaDisplayItem;
 import net.mcreator.fbms.block.display.OldBonnieDisplayItem;
 import net.mcreator.fbms.block.display.Number1CrateDisplayItem;
 import net.mcreator.fbms.block.display.NoveltyTrafficLightDisplayItem;
+import net.mcreator.fbms.block.display.NeonStageLightsPinkDisplayItem;
+import net.mcreator.fbms.block.display.NeonStageLightsBlueDisplayItem;
 import net.mcreator.fbms.block.display.NeonStageLightGreenDisplayItem;
 import net.mcreator.fbms.block.display.NeonPartySet4DisplayItem;
 import net.mcreator.fbms.block.display.NeonPartySet3DisplayItem;
@@ -136,6 +137,9 @@ import net.mcreator.fbms.block.display.DiscountBallpitDisplayItem;
 import net.mcreator.fbms.block.display.DeluxeSpeakerSetDisplayItem;
 import net.mcreator.fbms.block.display.DBalloonBoyDisplayItem;
 import net.mcreator.fbms.block.display.ChicaDisplayItem;
+import net.mcreator.fbms.block.display.CeilingStageLightsDisplayItem;
+import net.mcreator.fbms.block.display.CeilingStageLightpinkDisplayItem;
+import net.mcreator.fbms.block.display.CeilingStageLightblueDisplayItem;
 import net.mcreator.fbms.block.display.CarnivalHoopsDisplayItem;
 import net.mcreator.fbms.block.display.CandyCadetDisplayItem;
 import net.mcreator.fbms.block.display.BucketBobDisplayItem;
@@ -385,7 +389,6 @@ public class FbmsModItems {
 	public static final RegistryObject<Item> RASC = REGISTRY.register(FbmsModBlocks.RASC.getId().getPath(), () -> new RascDisplayItem(FbmsModBlocks.RASC.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
 	public static final RegistryObject<Item> SEAT_SPAWN_EGG = REGISTRY.register("seat_spawn_egg", () -> new ForgeSpawnEggItem(FbmsModEntities.SEAT, -1, -1, new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> SHRED_BEAR = REGISTRY.register(FbmsModBlocks.SHRED_BEAR.getId().getPath(), () -> new ShredBearDisplayItem(FbmsModBlocks.SHRED_BEAR.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
-	public static final RegistryObject<Item> FRED_BEAR_HEAD_HELMET = REGISTRY.register("fred_bear_head_helmet", () -> new FredBearHeadItem.Helmet());
 	public static final RegistryObject<Item> LOL_BIT_409 = REGISTRY.register(FbmsModBlocks.LOL_BIT_409.getId().getPath(), () -> new LolBit409DisplayItem(FbmsModBlocks.LOL_BIT_409.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
 	public static final RegistryObject<Item> BALLOON_CART = REGISTRY.register(FbmsModBlocks.BALLOON_CART.getId().getPath(), () -> new BalloonCartDisplayItem(FbmsModBlocks.BALLOON_CART.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
 	public static final RegistryObject<Item> RIDING_ROCKETS_RED = REGISTRY.register(FbmsModBlocks.RIDING_ROCKETS_RED.getId().getPath(),
@@ -395,6 +398,16 @@ public class FbmsModItems {
 	public static final RegistryObject<Item> PAPER_PLATES = REGISTRY.register(FbmsModBlocks.PAPER_PLATES.getId().getPath(), () -> new PaperPlatesDisplayItem(FbmsModBlocks.PAPER_PLATES.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
 	public static final RegistryObject<Item> NEON_STAGE_LIGHT_GREEN = REGISTRY.register(FbmsModBlocks.NEON_STAGE_LIGHT_GREEN.getId().getPath(),
 			() -> new NeonStageLightGreenDisplayItem(FbmsModBlocks.NEON_STAGE_LIGHT_GREEN.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> NEON_STAGE_LIGHTS_PINK = REGISTRY.register(FbmsModBlocks.NEON_STAGE_LIGHTS_PINK.getId().getPath(),
+			() -> new NeonStageLightsPinkDisplayItem(FbmsModBlocks.NEON_STAGE_LIGHTS_PINK.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> NEON_STAGE_LIGHTS_BLUE = REGISTRY.register(FbmsModBlocks.NEON_STAGE_LIGHTS_BLUE.getId().getPath(),
+			() -> new NeonStageLightsBlueDisplayItem(FbmsModBlocks.NEON_STAGE_LIGHTS_BLUE.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> CEILING_STAGE_LIGHTS = REGISTRY.register(FbmsModBlocks.CEILING_STAGE_LIGHTS.getId().getPath(),
+			() -> new CeilingStageLightsDisplayItem(FbmsModBlocks.CEILING_STAGE_LIGHTS.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> CEILING_STAGE_LIGHTPINK = REGISTRY.register(FbmsModBlocks.CEILING_STAGE_LIGHTPINK.getId().getPath(),
+			() -> new CeilingStageLightpinkDisplayItem(FbmsModBlocks.CEILING_STAGE_LIGHTPINK.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> CEILING_STAGE_LIGHTBLUE = REGISTRY.register(FbmsModBlocks.CEILING_STAGE_LIGHTBLUE.getId().getPath(),
+			() -> new CeilingStageLightblueDisplayItem(FbmsModBlocks.CEILING_STAGE_LIGHTBLUE.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

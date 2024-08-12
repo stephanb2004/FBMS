@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:custom/ceiling_stage_lightpink_particle"
+    },
+    "facing=east": {
+      "model": "fbms:custom/ceiling_stage_lightpink_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:custom/ceiling_stage_lightpink_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:custom/ceiling_stage_lightpink_particle",
+      "y": 270
+    }
+  }
+}

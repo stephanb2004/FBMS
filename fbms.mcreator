@@ -4335,21 +4335,6 @@
       "path": "~/Blocks"
     },
     {
-      "name": "FredBearHead",
-      "type": "armor",
-      "sortid": 198,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fred_bear_head",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fbms/models/item/fred_bear_head_helmet.json",
-          "src/main/java/net/mcreator/fbms/item/FredBearHeadItem.java"
-        ]
-      },
-      "path": "~/Armor"
-    },
-    {
       "name": "LolBit409",
       "type": "animatedblock",
       "sortid": 199,
@@ -4486,6 +4471,121 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "NeonStageLightsPink",
+      "type": "animatedblock",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_stage_lights_pink",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonStageLightsPinkDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeonStageLightsPinkDisplayModel.java",
+          "src/main/resources/assets/fbms/models/custom/neon_stage_lights_pink_particle.json",
+          "src/main/java/net/mcreator/fbms/block/display/NeonStageLightsPinkDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeonStageLightsPinkBlockModel.java",
+          "src/main/resources/assets/fbms/blockstates/neon_stage_lights_pink.json",
+          "src/main/java/net/mcreator/fbms/block/NeonStageLightsPinkBlock.java",
+          "src/main/resources/assets/fbms/models/item/neon_stage_lights_pink.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonStageLightsPinkTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/entity/NeonStageLightsPinkTileEntity.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "NeonStageLightsBlue",
+      "type": "animatedblock",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_stage_lights_blue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/display/NeonStageLightsBlueDisplayItem.java",
+          "src/main/resources/assets/fbms/models/item/neon_stage_lights_blue.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonStageLightsBlueDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonStageLightsBlueTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/entity/NeonStageLightsBlueTileEntity.java",
+          "src/main/resources/assets/fbms/blockstates/neon_stage_lights_blue.json",
+          "src/main/java/net/mcreator/fbms/block/model/NeonStageLightsBlueDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/NeonStageLightsBlueBlock.java",
+          "src/main/resources/assets/fbms/models/custom/neon_stage_lights_blue_particle.json",
+          "src/main/java/net/mcreator/fbms/block/model/NeonStageLightsBlueBlockModel.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CeilingStageLights",
+      "type": "animatedblock",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceiling_stage_lights",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/blockstates/ceiling_stage_lights.json",
+          "src/main/java/net/mcreator/fbms/block/entity/CeilingStageLightsTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/CeilingStageLightsBlock.java",
+          "src/main/resources/assets/fbms/models/custom/ceiling_stage_lights_particle.json",
+          "src/main/java/net/mcreator/fbms/block/display/CeilingStageLightsDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/model/CeilingStageLightsBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/CeilingStageLightsDisplayItemRenderer.java",
+          "src/main/resources/assets/fbms/models/item/ceiling_stage_lights.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/CeilingStageLightsTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/CeilingStageLightsDisplayModel.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CeilingStageLightpink",
+      "type": "animatedblock",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceiling_stage_lightpink",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/ceiling_stage_lightpink.json",
+          "src/main/resources/assets/fbms/models/custom/ceiling_stage_lightpink_particle.json",
+          "src/main/java/net/mcreator/fbms/block/model/CeilingStageLightpinkBlockModel.java",
+          "src/main/resources/assets/fbms/blockstates/ceiling_stage_lightpink.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/CeilingStageLightpinkDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/CeilingStageLightpinkDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/display/CeilingStageLightpinkDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/entity/CeilingStageLightpinkTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/CeilingStageLightpinkBlock.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/CeilingStageLightpinkTileRenderer.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CeilingStageLightblue",
+      "type": "animatedblock",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceiling_stage_lightblue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/CeilingStageLightblueBlock.java",
+          "src/main/java/net/mcreator/fbms/block/entity/CeilingStageLightblueTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/model/CeilingStageLightblueDisplayModel.java",
+          "src/main/resources/assets/fbms/blockstates/ceiling_stage_lightblue.json",
+          "src/main/java/net/mcreator/fbms/block/model/CeilingStageLightblueBlockModel.java",
+          "src/main/resources/assets/fbms/models/item/ceiling_stage_lightblue.json",
+          "src/main/resources/assets/fbms/models/custom/ceiling_stage_lightblue_particle.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/CeilingStageLightblueTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/display/CeilingStageLightblueDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/CeilingStageLightblueDisplayItemRenderer.java"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
@@ -4545,6 +4645,7 @@
       "block.fbms.pan_stan": "Pan Stan",
       "block.fbms.molten_sit": "Molten Freddy (Sit)",
       "block.fbms.toy_foxy": "Toy Foxy",
+      "block.fbms.ceiling_stage_lightpink": "Ceiling Stage Light (Pink)",
       "block.fbms.orville": "Orville",
       "block.fbms.r_freddy_poster": "RockStar Freddy Poster",
       "block.fbms.music_man_animated": "Music Man Animated",
@@ -4563,7 +4664,6 @@
       "itemGroup.tabplush": "Plush",
       "block.fbms.gumball_swivel_hands": "Gumball Swivel Hands",
       "block.fbms.bonk_a_bon": "Bonk-A-Bon",
-      "item.fbms.fred_bear_head_helmet": "FredBear Head ",
       "block.fbms.tv_marty": "Tv (Marty)",
       "block.fbms.endo_01_animated": "Endo 0 1 Animated",
       "itemGroup.tabanimated_block": "Animated Block",
@@ -4616,11 +4716,13 @@
       "block.fbms.tv": "Tv (GFS)",
       "block.fbms.egg_baby": "Egg Baby",
       "subtitles.hehehehhehehehhe": "I Know Were You Live",
+      "block.fbms.ceiling_stage_lights": "Ceiling Stage Light (Green)",
       "block.fbms.stephan_plush": "Stephan Plush",
       "block.fbms.rusty": "Rusty",
       "block.fbms.lefty_animated": "Lefty Animated",
       "block.fbms.bite_fred_bear_cutout": "Bite Fred Bear Cutout",
       "block.fbms.balloon_cart": "Balloon Cart",
+      "block.fbms.neon_stage_lights_blue": "Neon Stage Light (Blue)",
       "block.fbms.discount_ballpit": "Discount Ballpit",
       "block.fbms.tv_freddy_n_fren": "Tv (OnTore)",
       "block.fbms.number_1_crate": "Number 1 Crate ",
@@ -4634,12 +4736,14 @@
       "block.fbms.r_foxy_poster": "RockStar Foxy Poster",
       "block.fbms.rasc": "Rasc",
       "itemGroup.tabprops": "Props",
+      "block.fbms.neon_stage_lights_pink": "Neon Stage Light (Pink)",
       "subtitles.channelchange": "Channel Change",
       "block.fbms.tv_marcelo": "Tv (Marcelo)",
       "block.fbms.puppet_box": "Puppet Box",
       "block.fbms.doge_ram_block": "DogeRam Block",
       "block.fbms.old_foxy": "Old Foxy",
       "block.fbms.station_wagon_block": "Station Wagon Block",
+      "block.fbms.ceiling_stage_lightblue": "Ceiling Stage Light (Blue)",
       "block.fbms.orville_animated": "Orville Animated",
       "item.fbms.impala_spawn_egg": "Purple Chevrolet Impala Spawn Egg",
       "block.fbms.enhanced_speaker_set": "Enhanced Speaker Set",

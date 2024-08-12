@@ -56,6 +56,8 @@ import net.mcreator.fbms.block.entity.OldChicaTileEntity;
 import net.mcreator.fbms.block.entity.OldBonnieTileEntity;
 import net.mcreator.fbms.block.entity.Number1CrateTileEntity;
 import net.mcreator.fbms.block.entity.NoveltyTrafficLightTileEntity;
+import net.mcreator.fbms.block.entity.NeonStageLightsPinkTileEntity;
+import net.mcreator.fbms.block.entity.NeonStageLightsBlueTileEntity;
 import net.mcreator.fbms.block.entity.NeonStageLightGreenTileEntity;
 import net.mcreator.fbms.block.entity.NeonPartySet4TileEntity;
 import net.mcreator.fbms.block.entity.NeonPartySet3TileEntity;
@@ -122,6 +124,9 @@ import net.mcreator.fbms.block.entity.DiscountBallpitTileEntity;
 import net.mcreator.fbms.block.entity.DeluxeSpeakerSetTileEntity;
 import net.mcreator.fbms.block.entity.DBalloonBoyTileEntity;
 import net.mcreator.fbms.block.entity.ChicaTileEntity;
+import net.mcreator.fbms.block.entity.CeilingStageLightsTileEntity;
+import net.mcreator.fbms.block.entity.CeilingStageLightpinkTileEntity;
+import net.mcreator.fbms.block.entity.CeilingStageLightblueTileEntity;
 import net.mcreator.fbms.block.entity.CarnivalHoopsTileEntity;
 import net.mcreator.fbms.block.entity.CandyCadetTileEntity;
 import net.mcreator.fbms.block.entity.BucketBobTileEntity;
@@ -323,6 +328,16 @@ public class FbmsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<PaperPlatesTileEntity>> PAPER_PLATES = REGISTRY.register("paper_plates", () -> BlockEntityType.Builder.of(PaperPlatesTileEntity::new, FbmsModBlocks.PAPER_PLATES.get()).build(null));
 	public static final RegistryObject<BlockEntityType<NeonStageLightGreenTileEntity>> NEON_STAGE_LIGHT_GREEN = REGISTRY.register("neon_stage_light_green",
 			() -> BlockEntityType.Builder.of(NeonStageLightGreenTileEntity::new, FbmsModBlocks.NEON_STAGE_LIGHT_GREEN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<NeonStageLightsPinkTileEntity>> NEON_STAGE_LIGHTS_PINK = REGISTRY.register("neon_stage_lights_pink",
+			() -> BlockEntityType.Builder.of(NeonStageLightsPinkTileEntity::new, FbmsModBlocks.NEON_STAGE_LIGHTS_PINK.get()).build(null));
+	public static final RegistryObject<BlockEntityType<NeonStageLightsBlueTileEntity>> NEON_STAGE_LIGHTS_BLUE = REGISTRY.register("neon_stage_lights_blue",
+			() -> BlockEntityType.Builder.of(NeonStageLightsBlueTileEntity::new, FbmsModBlocks.NEON_STAGE_LIGHTS_BLUE.get()).build(null));
+	public static final RegistryObject<BlockEntityType<CeilingStageLightsTileEntity>> CEILING_STAGE_LIGHTS = REGISTRY.register("ceiling_stage_lights",
+			() -> BlockEntityType.Builder.of(CeilingStageLightsTileEntity::new, FbmsModBlocks.CEILING_STAGE_LIGHTS.get()).build(null));
+	public static final RegistryObject<BlockEntityType<CeilingStageLightpinkTileEntity>> CEILING_STAGE_LIGHTPINK = REGISTRY.register("ceiling_stage_lightpink",
+			() -> BlockEntityType.Builder.of(CeilingStageLightpinkTileEntity::new, FbmsModBlocks.CEILING_STAGE_LIGHTPINK.get()).build(null));
+	public static final RegistryObject<BlockEntityType<CeilingStageLightblueTileEntity>> CEILING_STAGE_LIGHTBLUE = REGISTRY.register("ceiling_stage_lightblue",
+			() -> BlockEntityType.Builder.of(CeilingStageLightblueTileEntity::new, FbmsModBlocks.CEILING_STAGE_LIGHTBLUE.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

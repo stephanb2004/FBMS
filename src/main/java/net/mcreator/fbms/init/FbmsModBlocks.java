@@ -75,6 +75,8 @@ import net.mcreator.fbms.block.OldChicaBlock;
 import net.mcreator.fbms.block.OldBonnieBlock;
 import net.mcreator.fbms.block.Number1CrateBlock;
 import net.mcreator.fbms.block.NoveltyTrafficLightBlock;
+import net.mcreator.fbms.block.NeonStageLightsPinkBlock;
+import net.mcreator.fbms.block.NeonStageLightsBlueBlock;
 import net.mcreator.fbms.block.NeonStageLightGreenBlock;
 import net.mcreator.fbms.block.NeonPartySet4Block;
 import net.mcreator.fbms.block.NeonPartySet3Block;
@@ -145,6 +147,9 @@ import net.mcreator.fbms.block.DiscoPizzaBlock;
 import net.mcreator.fbms.block.DeluxeSpeakerSetBlock;
 import net.mcreator.fbms.block.DBalloonBoyBlock;
 import net.mcreator.fbms.block.ChicaBlock;
+import net.mcreator.fbms.block.CeilingStageLightsBlock;
+import net.mcreator.fbms.block.CeilingStageLightpinkBlock;
+import net.mcreator.fbms.block.CeilingStageLightblueBlock;
 import net.mcreator.fbms.block.CarnivalHoopsBlock;
 import net.mcreator.fbms.block.CandyCadetBlock;
 import net.mcreator.fbms.block.BucketBobBlock;
@@ -326,4 +331,9 @@ public class FbmsModBlocks {
 	public static final RegistryObject<Block> RIDING_ROCKETS_PURPLE = REGISTRY.register("riding_rockets_purple", () -> new RidingRocketsPurpleBlock());
 	public static final RegistryObject<Block> PAPER_PLATES = REGISTRY.register("paper_plates", () -> new PaperPlatesBlock());
 	public static final RegistryObject<Block> NEON_STAGE_LIGHT_GREEN = REGISTRY.register("neon_stage_light_green", () -> new NeonStageLightGreenBlock());
+	public static final RegistryObject<Block> NEON_STAGE_LIGHTS_PINK = REGISTRY.register("neon_stage_lights_pink", () -> new NeonStageLightsPinkBlock());
+	public static final RegistryObject<Block> NEON_STAGE_LIGHTS_BLUE = REGISTRY.register("neon_stage_lights_blue", () -> new NeonStageLightsBlueBlock());
+	public static final RegistryObject<Block> CEILING_STAGE_LIGHTS = REGISTRY.register("ceiling_stage_lights", () -> new CeilingStageLightsBlock());
+	public static final RegistryObject<Block> CEILING_STAGE_LIGHTPINK = REGISTRY.register("ceiling_stage_lightpink", () -> new CeilingStageLightpinkBlock());
+	public static final RegistryObject<Block> CEILING_STAGE_LIGHTBLUE = REGISTRY.register("ceiling_stage_lightblue", () -> new CeilingStageLightblueBlock());
 }

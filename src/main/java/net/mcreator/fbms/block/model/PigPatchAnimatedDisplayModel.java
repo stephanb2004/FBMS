@@ -19,6 +19,6 @@ public class PigPatchAnimatedDisplayModel extends AnimatedGeoModel<PigPatchAnima
 
 	@Override
 	public ResourceLocation getTextureResource(PigPatchAnimatedDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/pigpatchv2.png");
+		return new ResourceLocation("fbms", "textures/blocks/pigpatchv2v2.png");
 	}
 }

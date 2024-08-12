@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "animatedblock",
   "definition": {
-    "texture": "papercupsandplates",
+    "texture": "neon_stage_light_green",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -131,7 +131,7 @@
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
-    "normal": "paper_cups_and_plates.geo.json",
+    "normal": "neon_stage_lights.geo.json",
     "displaySettings": "figure.item.json"
   }
 }

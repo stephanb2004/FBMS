@@ -9,16 +9,16 @@ import net.mcreator.fbms.block.entity.NeonStageLightGreenTileEntity;
 public class NeonStageLightGreenBlockModel extends AnimatedGeoModel<NeonStageLightGreenTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(NeonStageLightGreenTileEntity animatable) {
-		return new ResourceLocation("fbms", "animations/paper_cups_and_plates.animation.json");
+		return new ResourceLocation("fbms", "animations/neon_stage_lights.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(NeonStageLightGreenTileEntity animatable) {
-		return new ResourceLocation("fbms", "geo/paper_cups_and_plates.geo.json");
+		return new ResourceLocation("fbms", "geo/neon_stage_lights.geo.json");
 	}
 
 	@Override
 	public ResourceLocation getTextureResource(NeonStageLightGreenTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/papercupsandplates.png");
+		return new ResourceLocation("fbms", "textures/blocks/neon_stage_light_green.png");
 	}
 }
