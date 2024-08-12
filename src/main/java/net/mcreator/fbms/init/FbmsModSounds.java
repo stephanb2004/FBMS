@@ -19,4 +19,5 @@ public class FbmsModSounds {
 	public static final RegistryObject<SoundEvent> CATPLUSH = REGISTRY.register("catplush", () -> new SoundEvent(new ResourceLocation("fbms", "catplush")));
 	public static final RegistryObject<SoundEvent> CHANNELCHANGE = REGISTRY.register("channelchange", () -> new SoundEvent(new ResourceLocation("fbms", "channelchange")));
 	public static final RegistryObject<SoundEvent> BYEBYE = REGISTRY.register("byebye", () -> new SoundEvent(new ResourceLocation("fbms", "byebye")));
+	public static final RegistryObject<SoundEvent> ROBOTON = REGISTRY.register("roboton", () -> new SoundEvent(new ResourceLocation("fbms", "roboton")));
 }

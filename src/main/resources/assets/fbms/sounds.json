@@ -34,5 +34,14 @@
         "stream": false
       }
     ]
+  },
+  "roboton": {
+    "subtitle": "subtitles.roboton",
+    "sounds": [
+      {
+        "name": "fbms:spinning-steampunk-gadget-open-close-188050",
+        "stream": false
+      }
+    ]
   }
 }

@@ -1,0 +1,7 @@
+{
+  "parent": "fbms:custom/f.a.t",
+  "textures": {
+    "2": "fbms:blocks/fat",
+    "particle": "fbms:items/fat"
+  }
+}

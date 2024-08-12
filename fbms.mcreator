@@ -182,16 +182,16 @@
       "registry_name": "nedd_bear",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fbms/block/renderer/NeddBearDisplayItemRenderer.java",
-          "src/main/java/net/mcreator/fbms/block/NeddBearBlock.java",
-          "src/main/java/net/mcreator/fbms/block/display/NeddBearDisplayItem.java",
-          "src/main/java/net/mcreator/fbms/block/entity/NeddBearTileEntity.java",
           "src/main/java/net/mcreator/fbms/block/renderer/NeddBearTileRenderer.java",
-          "src/main/java/net/mcreator/fbms/block/model/NeddBearDisplayModel.java",
-          "src/main/java/net/mcreator/fbms/block/model/NeddBearBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/display/NeddBearDisplayItem.java",
           "src/main/resources/assets/fbms/blockstates/nedd_bear.json",
+          "src/main/resources/assets/fbms/models/custom/nedd_bear_particle.json",
+          "src/main/java/net/mcreator/fbms/block/NeddBearBlock.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeddBearDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeddBearDisplayModel.java",
           "src/main/resources/assets/fbms/models/item/nedd_bear.json",
-          "src/main/resources/assets/fbms/models/custom/nedd_bear_particle.json"
+          "src/main/java/net/mcreator/fbms/block/entity/NeddBearTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeddBearBlockModel.java"
         ]
       },
       "path": "~/Blocks"
@@ -207,14 +207,14 @@
         "files": [
           "src/main/resources/assets/fbms/blockstates/orville.json",
           "src/main/java/net/mcreator/fbms/block/OrvilleBlock.java",
-          "src/main/java/net/mcreator/fbms/block/entity/OrvilleTileEntity.java",
-          "src/main/java/net/mcreator/fbms/block/renderer/OrvilleDisplayItemRenderer.java",
-          "src/main/java/net/mcreator/fbms/block/model/OrvilleDisplayModel.java",
-          "src/main/java/net/mcreator/fbms/block/renderer/OrvilleTileRenderer.java",
-          "src/main/java/net/mcreator/fbms/block/display/OrvilleDisplayItem.java",
-          "src/main/resources/assets/fbms/models/custom/orville_particle.json",
           "src/main/java/net/mcreator/fbms/block/model/OrvilleBlockModel.java",
-          "src/main/resources/assets/fbms/models/item/orville.json"
+          "src/main/java/net/mcreator/fbms/block/renderer/OrvilleDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/OrvilleTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/OrvilleDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/entity/OrvilleTileEntity.java",
+          "src/main/resources/assets/fbms/models/item/orville.json",
+          "src/main/resources/assets/fbms/models/custom/orville_particle.json",
+          "src/main/java/net/mcreator/fbms/block/display/OrvilleDisplayItem.java"
         ]
       },
       "path": "~/Blocks"
@@ -1158,16 +1158,16 @@
       "registry_name": "nedd_bear_animated",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fbms/models/item/nedd_bear_animated.json",
-          "src/main/java/net/mcreator/fbms/block/NeddBearAnimatedBlock.java",
-          "src/main/resources/assets/fbms/models/custom/nedd_bear_animated_particle.json",
-          "src/main/java/net/mcreator/fbms/block/renderer/NeddBearAnimatedTileRenderer.java",
           "src/main/java/net/mcreator/fbms/block/model/NeddBearAnimatedBlockModel.java",
-          "src/main/java/net/mcreator/fbms/block/model/NeddBearAnimatedDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/display/NeddBearAnimatedDisplayItem.java",
           "src/main/resources/assets/fbms/blockstates/nedd_bear_animated.json",
+          "src/main/java/net/mcreator/fbms/block/model/NeddBearAnimatedDisplayModel.java",
+          "src/main/resources/assets/fbms/models/item/nedd_bear_animated.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeddBearAnimatedTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/NeddBearAnimatedBlock.java",
           "src/main/java/net/mcreator/fbms/block/renderer/NeddBearAnimatedDisplayItemRenderer.java",
           "src/main/java/net/mcreator/fbms/block/entity/NeddBearAnimatedTileEntity.java",
-          "src/main/java/net/mcreator/fbms/block/display/NeddBearAnimatedDisplayItem.java"
+          "src/main/resources/assets/fbms/models/custom/nedd_bear_animated_particle.json"
         ]
       },
       "path": "~/Blocks/animated"
@@ -1181,16 +1181,16 @@
       "registry_name": "orville_animated",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/fbms/block/OrvilleAnimatedBlock.java",
           "src/main/java/net/mcreator/fbms/block/renderer/OrvilleAnimatedDisplayItemRenderer.java",
-          "src/main/java/net/mcreator/fbms/block/renderer/OrvilleAnimatedTileRenderer.java",
           "src/main/java/net/mcreator/fbms/block/model/OrvilleAnimatedBlockModel.java",
           "src/main/resources/assets/fbms/blockstates/orville_animated.json",
-          "src/main/java/net/mcreator/fbms/block/model/OrvilleAnimatedDisplayModel.java",
+          "src/main/resources/assets/fbms/models/item/orville_animated.json",
           "src/main/resources/assets/fbms/models/custom/orville_animated_particle.json",
-          "src/main/java/net/mcreator/fbms/block/OrvilleAnimatedBlock.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/OrvilleAnimatedTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/OrvilleAnimatedDisplayModel.java",
           "src/main/java/net/mcreator/fbms/block/display/OrvilleAnimatedDisplayItem.java",
-          "src/main/java/net/mcreator/fbms/block/entity/OrvilleAnimatedTileEntity.java",
-          "src/main/resources/assets/fbms/models/item/orville_animated.json"
+          "src/main/java/net/mcreator/fbms/block/entity/OrvilleAnimatedTileEntity.java"
         ]
       },
       "path": "~/Blocks/animated"
@@ -1388,16 +1388,16 @@
       "registry_name": "barry_polar_fixed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fbms/block/renderer/BarryPolarFixedDisplayItemRenderer.java",
-          "src/main/java/net/mcreator/fbms/block/model/BarryPolarFixedDisplayModel.java",
           "src/main/resources/assets/fbms/blockstates/barry_polar_fixed.json",
-          "src/main/java/net/mcreator/fbms/block/display/BarryPolarFixedDisplayItem.java",
           "src/main/resources/assets/fbms/models/item/barry_polar_fixed.json",
           "src/main/java/net/mcreator/fbms/block/model/BarryPolarFixedBlockModel.java",
-          "src/main/resources/assets/fbms/models/custom/barry_polar_fixed_particle.json",
-          "src/main/java/net/mcreator/fbms/block/entity/BarryPolarFixedTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/BarryPolarFixedDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/BarryPolarFixedBlock.java",
           "src/main/java/net/mcreator/fbms/block/renderer/BarryPolarFixedTileRenderer.java",
-          "src/main/java/net/mcreator/fbms/block/BarryPolarFixedBlock.java"
+          "src/main/resources/assets/fbms/models/custom/barry_polar_fixed_particle.json",
+          "src/main/java/net/mcreator/fbms/block/model/BarryPolarFixedDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/display/BarryPolarFixedDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/entity/BarryPolarFixedTileEntity.java"
         ]
       },
       "path": "~/Blocks"
@@ -2197,9 +2197,9 @@
       "registry_name": "monitors_stephan",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/fbms/block/MonitorsStephanBlock.java",
           "src/main/resources/assets/fbms/models/block/monitors_stephan.json",
           "src/main/resources/assets/fbms/models/item/monitors_stephan.json",
-          "src/main/java/net/mcreator/fbms/block/MonitorsStephanBlock.java",
           "src/main/resources/assets/fbms/blockstates/monitors_stephan.json"
         ]
       },
@@ -4586,6 +4586,1173 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "FAT",
+      "type": "item",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/item/FATItem.java",
+          "src/main/resources/assets/fbms/models/item/fat.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "FuntimeDelilahOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funtime_delilah_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/FuntimeDelilahOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/animated"
+    },
+    {
+      "name": "FuntimeDelilahblockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funtime_delilahblock_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/FuntimeDelilahblockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ElChipAnimatedOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "el_chip_animated_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/ElChipAnimatedOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/animated"
+    },
+    {
+      "name": "ElChipOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "el_chip_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/ElChipOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Endo01AnimatedOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endo_01_animated_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/Endo01AnimatedOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/animated"
+    },
+    {
+      "name": "Endo01OnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endo_01_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/Endo01OnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FuntimeChicaAnimatedOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funtime_chica_animated_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/FuntimeChicaAnimatedOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/animated"
+    },
+    {
+      "name": "FunTimeChicaOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fun_time_chica_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/FunTimeChicaOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "HappYFrogAnimatedOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "happ_y_frog_animated_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/HappYFrogAnimatedOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/animated"
+    },
+    {
+      "name": "HappyFrogOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "happy_frog_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/HappyFrogOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LeftyAnimatedOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lefty_animated_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/LeftyAnimatedOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/animated"
+    },
+    {
+      "name": "LeftyOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lefty_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/LeftyOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MrHippoAnimatedOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mr_hippo_animated_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/MrHippoAnimatedOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/animated"
+    },
+    {
+      "name": "MrHippoOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mr_hippo_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/MrHippoOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MusicManAnimatedOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_man_animated_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/MusicManAnimatedOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/animated"
+    },
+    {
+      "name": "MusicManOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_man_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/MusicManOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "NeddBearAnimatedOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nedd_bear_animated_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/NeddBearAnimatedOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/animated"
+    },
+    {
+      "name": "NeddBearOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nedd_bear_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/NeddBearOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "OrvilleAnimatedOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orville_animated_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/OrvilleAnimatedOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/animated"
+    },
+    {
+      "name": "OrvilleOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orville_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/OrvilleOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "PigPatchAnimatedOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_patch_animated_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/PigPatchAnimatedOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/animated"
+    },
+    {
+      "name": "PigPatchOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_patch_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/PigPatchOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RockStarBonnieAnimatedOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rock_star_bonnie_animated_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/RockStarBonnieAnimatedOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/animated"
+    },
+    {
+      "name": "RockStarBonnieOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rock_star_bonnie_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/RockStarBonnieOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RockStarChicaAnimatedOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rock_star_chica_animated_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/RockStarChicaAnimatedOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/animated"
+    },
+    {
+      "name": "RockStarChicaOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rock_star_chica_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/RockStarChicaOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RockStarFoxyAnimatedOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rock_star_foxy_animated_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/RockStarFoxyAnimatedOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/animated"
+    },
+    {
+      "name": "RockStarFoxyOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rock_star_foxy_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/RockStarFoxyOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RockStarFreddyAnimatedOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rock_star_freddy_animated_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/RockStarFreddyAnimatedOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/animated"
+    },
+    {
+      "name": "RockStarFreddyOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rock_star_freddy_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/RockStarFreddyOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RustyAnimatedOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusty_animated_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/RustyAnimatedOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/animated"
+    },
+    {
+      "name": "RustyOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusty_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/RustyOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
@@ -4621,6 +5788,14 @@
       ],
       "category": "neutral",
       "subtitle": "WERE DID HE GO"
+    },
+    {
+      "name": "roboton",
+      "files": [
+        "spinning-steampunk-gadget-open-close-188050"
+      ],
+      "category": "neutral",
+      "subtitle": "Turn On"
     }
   ],
   "language_map": {
@@ -4714,6 +5889,7 @@
       "block.fbms.pin_the_bowtie_on_the_tie_the_toy_freddy": "Pin The Bowtie On The Freddy",
       "item.fbms.station_wagon_spawn_egg": "Station Wagon Spawn Egg",
       "block.fbms.tv": "Tv (GFS)",
+      "subtitles.roboton": "Turn On",
       "block.fbms.egg_baby": "Egg Baby",
       "subtitles.hehehehhehehehhe": "I Know Were You Live",
       "block.fbms.ceiling_stage_lights": "Ceiling Stage Light (Green)",
@@ -4758,6 +5934,7 @@
       "block.fbms.lefty": "Lefty",
       "block.fbms.toy_freddy": "Toy Freddy",
       "itemGroup.taba_ds": "ADs",
+      "item.fbms.fat": "F.A.T",
       "block.fbms.duck_pond": "Duck Pond",
       "entity.fbms.d_mangle": "D Mangle WIP",
       "block.fbms.bonnie": "Bonnie",

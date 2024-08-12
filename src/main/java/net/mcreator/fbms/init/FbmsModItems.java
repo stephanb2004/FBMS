@@ -20,6 +20,7 @@ import net.mcreator.fbms.item.RemoteItem;
 import net.mcreator.fbms.item.MaracasItem;
 import net.mcreator.fbms.item.MandolinItem;
 import net.mcreator.fbms.item.GuitarItem;
+import net.mcreator.fbms.item.FATItem;
 import net.mcreator.fbms.item.BanjoItem;
 import net.mcreator.fbms.item.AnimatedBlocksItem;
 import net.mcreator.fbms.item.AdItem;
@@ -408,6 +409,7 @@ public class FbmsModItems {
 			() -> new CeilingStageLightpinkDisplayItem(FbmsModBlocks.CEILING_STAGE_LIGHTPINK.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
 	public static final RegistryObject<Item> CEILING_STAGE_LIGHTBLUE = REGISTRY.register(FbmsModBlocks.CEILING_STAGE_LIGHTBLUE.getId().getPath(),
 			() -> new CeilingStageLightblueDisplayItem(FbmsModBlocks.CEILING_STAGE_LIGHTBLUE.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> FAT = REGISTRY.register("fat", () -> new FATItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
