@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "animatedblock",
   "definition": {
-    "texture": "magicv2",
+    "texture": "magicv2v2",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -131,7 +131,7 @@
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
-    "normal": "orvillev2.geo.json",
+    "normal": "orvilleblockv2v2.geo.json",
     "displaySettings": "figure.item.json"
   }
 }

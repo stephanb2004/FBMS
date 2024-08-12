@@ -2,6 +2,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/neddbearv2"
+    "particle": "fbms:blocks/neddbearv2v2"
   }
 }

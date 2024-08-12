@@ -182,16 +182,16 @@
       "registry_name": "nedd_bear",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fbms/block/renderer/NeddBearTileRenderer.java",
-          "src/main/java/net/mcreator/fbms/block/display/NeddBearDisplayItem.java",
-          "src/main/resources/assets/fbms/blockstates/nedd_bear.json",
-          "src/main/resources/assets/fbms/models/custom/nedd_bear_particle.json",
-          "src/main/java/net/mcreator/fbms/block/NeddBearBlock.java",
           "src/main/java/net/mcreator/fbms/block/renderer/NeddBearDisplayItemRenderer.java",
-          "src/main/java/net/mcreator/fbms/block/model/NeddBearDisplayModel.java",
-          "src/main/resources/assets/fbms/models/item/nedd_bear.json",
+          "src/main/java/net/mcreator/fbms/block/NeddBearBlock.java",
+          "src/main/java/net/mcreator/fbms/block/display/NeddBearDisplayItem.java",
           "src/main/java/net/mcreator/fbms/block/entity/NeddBearTileEntity.java",
-          "src/main/java/net/mcreator/fbms/block/model/NeddBearBlockModel.java"
+          "src/main/java/net/mcreator/fbms/block/renderer/NeddBearTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeddBearDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeddBearBlockModel.java",
+          "src/main/resources/assets/fbms/blockstates/nedd_bear.json",
+          "src/main/resources/assets/fbms/models/item/nedd_bear.json",
+          "src/main/resources/assets/fbms/models/custom/nedd_bear_particle.json"
         ]
       },
       "path": "~/Blocks"
@@ -207,14 +207,14 @@
         "files": [
           "src/main/resources/assets/fbms/blockstates/orville.json",
           "src/main/java/net/mcreator/fbms/block/OrvilleBlock.java",
-          "src/main/java/net/mcreator/fbms/block/model/OrvilleBlockModel.java",
-          "src/main/java/net/mcreator/fbms/block/renderer/OrvilleDisplayItemRenderer.java",
-          "src/main/java/net/mcreator/fbms/block/renderer/OrvilleTileRenderer.java",
-          "src/main/java/net/mcreator/fbms/block/model/OrvilleDisplayModel.java",
           "src/main/java/net/mcreator/fbms/block/entity/OrvilleTileEntity.java",
-          "src/main/resources/assets/fbms/models/item/orville.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/OrvilleDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/OrvilleDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/OrvilleTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/display/OrvilleDisplayItem.java",
           "src/main/resources/assets/fbms/models/custom/orville_particle.json",
-          "src/main/java/net/mcreator/fbms/block/display/OrvilleDisplayItem.java"
+          "src/main/java/net/mcreator/fbms/block/model/OrvilleBlockModel.java",
+          "src/main/resources/assets/fbms/models/item/orville.json"
         ]
       },
       "path": "~/Blocks"
@@ -1158,16 +1158,16 @@
       "registry_name": "nedd_bear_animated",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fbms/block/model/NeddBearAnimatedBlockModel.java",
-          "src/main/java/net/mcreator/fbms/block/display/NeddBearAnimatedDisplayItem.java",
-          "src/main/resources/assets/fbms/blockstates/nedd_bear_animated.json",
-          "src/main/java/net/mcreator/fbms/block/model/NeddBearAnimatedDisplayModel.java",
           "src/main/resources/assets/fbms/models/item/nedd_bear_animated.json",
-          "src/main/java/net/mcreator/fbms/block/renderer/NeddBearAnimatedTileRenderer.java",
           "src/main/java/net/mcreator/fbms/block/NeddBearAnimatedBlock.java",
+          "src/main/resources/assets/fbms/models/custom/nedd_bear_animated_particle.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeddBearAnimatedTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeddBearAnimatedBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeddBearAnimatedDisplayModel.java",
+          "src/main/resources/assets/fbms/blockstates/nedd_bear_animated.json",
           "src/main/java/net/mcreator/fbms/block/renderer/NeddBearAnimatedDisplayItemRenderer.java",
           "src/main/java/net/mcreator/fbms/block/entity/NeddBearAnimatedTileEntity.java",
-          "src/main/resources/assets/fbms/models/custom/nedd_bear_animated_particle.json"
+          "src/main/java/net/mcreator/fbms/block/display/NeddBearAnimatedDisplayItem.java"
         ]
       },
       "path": "~/Blocks/animated"
@@ -1181,16 +1181,16 @@
       "registry_name": "orville_animated",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fbms/block/OrvilleAnimatedBlock.java",
           "src/main/java/net/mcreator/fbms/block/renderer/OrvilleAnimatedDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/OrvilleAnimatedTileRenderer.java",
           "src/main/java/net/mcreator/fbms/block/model/OrvilleAnimatedBlockModel.java",
           "src/main/resources/assets/fbms/blockstates/orville_animated.json",
-          "src/main/resources/assets/fbms/models/item/orville_animated.json",
-          "src/main/resources/assets/fbms/models/custom/orville_animated_particle.json",
-          "src/main/java/net/mcreator/fbms/block/renderer/OrvilleAnimatedTileRenderer.java",
           "src/main/java/net/mcreator/fbms/block/model/OrvilleAnimatedDisplayModel.java",
+          "src/main/resources/assets/fbms/models/custom/orville_animated_particle.json",
+          "src/main/java/net/mcreator/fbms/block/OrvilleAnimatedBlock.java",
           "src/main/java/net/mcreator/fbms/block/display/OrvilleAnimatedDisplayItem.java",
-          "src/main/java/net/mcreator/fbms/block/entity/OrvilleAnimatedTileEntity.java"
+          "src/main/java/net/mcreator/fbms/block/entity/OrvilleAnimatedTileEntity.java",
+          "src/main/resources/assets/fbms/models/item/orville_animated.json"
         ]
       },
       "path": "~/Blocks/animated"
@@ -1388,16 +1388,16 @@
       "registry_name": "barry_polar_fixed",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/fbms/block/renderer/BarryPolarFixedDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/BarryPolarFixedDisplayModel.java",
           "src/main/resources/assets/fbms/blockstates/barry_polar_fixed.json",
+          "src/main/java/net/mcreator/fbms/block/display/BarryPolarFixedDisplayItem.java",
           "src/main/resources/assets/fbms/models/item/barry_polar_fixed.json",
           "src/main/java/net/mcreator/fbms/block/model/BarryPolarFixedBlockModel.java",
-          "src/main/java/net/mcreator/fbms/block/renderer/BarryPolarFixedDisplayItemRenderer.java",
-          "src/main/java/net/mcreator/fbms/block/BarryPolarFixedBlock.java",
-          "src/main/java/net/mcreator/fbms/block/renderer/BarryPolarFixedTileRenderer.java",
           "src/main/resources/assets/fbms/models/custom/barry_polar_fixed_particle.json",
-          "src/main/java/net/mcreator/fbms/block/model/BarryPolarFixedDisplayModel.java",
-          "src/main/java/net/mcreator/fbms/block/display/BarryPolarFixedDisplayItem.java",
-          "src/main/java/net/mcreator/fbms/block/entity/BarryPolarFixedTileEntity.java"
+          "src/main/java/net/mcreator/fbms/block/entity/BarryPolarFixedTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/BarryPolarFixedTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/BarryPolarFixedBlock.java"
         ]
       },
       "path": "~/Blocks"
@@ -2197,9 +2197,9 @@
       "registry_name": "monitors_stephan",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fbms/block/MonitorsStephanBlock.java",
           "src/main/resources/assets/fbms/models/block/monitors_stephan.json",
           "src/main/resources/assets/fbms/models/item/monitors_stephan.json",
+          "src/main/java/net/mcreator/fbms/block/MonitorsStephanBlock.java",
           "src/main/resources/assets/fbms/blockstates/monitors_stephan.json"
         ]
       },
@@ -4510,8 +4510,8 @@
       "block.fbms.disco_pizza": "Disco Pizza",
       "block.fbms.doc_plush": "Doc Plush",
       "block.fbms.lol_bit": "Lol Bit",
-      "block.fbms.funtime_delilah": "Funtime Delilah Animated",
       "block.fbms.large_sign": "Large Sign",
+      "block.fbms.funtime_delilah": "Funtime Delilah Animated",
       "block.fbms.rock_star_bonnie_animated": "RockStar Bonnie Animated",
       "block.fbms.balloon_boy": "BalloonBoy",
       "block.fbms.el_chip": "El Chip",
@@ -4526,8 +4526,8 @@
       "block.fbms.r_freddy_poster": "RockStar Freddy Poster",
       "block.fbms.music_man_animated": "Music Man Animated",
       "block.fbms.old_chica": "Old Chica",
-      "block.fbms.molten_freddy": "Molten Freddy",
       "block.fbms.freddy_faz_bear": "Freddy FazBear",
+      "block.fbms.molten_freddy": "Molten Freddy",
       "block.fbms.rock_star_chica": "RockStar Chica",
       "block.fbms.lemonade_clown": "Lemonade Clown",
       "block.fbms.funtime_chica_animated": "Funtime Chica Animated",
@@ -4540,15 +4540,15 @@
       "itemGroup.tabplush": "Plush",
       "block.fbms.gumball_swivel_hands": "Gumball Swivel Hands",
       "block.fbms.bonk_a_bon": "Bonk-A-Bon",
-      "block.fbms.tv_marty": "Tv (Marty)",
       "item.fbms.fred_bear_head_helmet": "FredBear Head ",
+      "block.fbms.tv_marty": "Tv (Marty)",
       "block.fbms.endo_01_animated": "Endo 0 1 Animated",
       "itemGroup.tabanimated_block": "Animated Block",
       "block.fbms.happy_frog": "Happy Frog",
       "item.fbms.mandolin": "Mandolin",
       "block.fbms.riding_rockets_red": "Riding Rockets",
-      "block.fbms.happ_y_frog_animated": "Happy Frog Animated",
       "block.fbms.prize_king": "Prize King",
+      "block.fbms.happ_y_frog_animated": "Happy Frog Animated",
       "block.fbms.riding_rockets_purple": "Riding Rockets ",
       "block.fbms.garf_plush": "Garf Plush",
       "block.fbms.wink_sign": "Wink Sign",
@@ -4557,8 +4557,8 @@
       "item.fbms.dchica_spawn_egg": "D Chica WIP Spawn Egg",
       "block.fbms.large_sign_3": "Large Sign 3",
       "block.fbms.large_sign_4": "Large Sign 4",
-      "block.fbms.dr_teath": "DrTeeth",
       "item.fbms.dfredbear_spawn_egg": "D Freddy WIP Spawn Egg",
+      "block.fbms.dr_teath": "DrTeeth",
       "block.fbms.old_bonnie": "Old Bonnie",
       "block.fbms.rock_star_freddy_animated": "RockStar Freddy Animated",
       "block.fbms.foil_party_set_1": "Foil Party Set 1",
@@ -4575,8 +4575,8 @@
       "block.fbms.mr_hippo": "Mr Hippo",
       "block.fbms.toy_chica": "Toy Chica",
       "block.fbms.nedd_bear_animated": "Nedd Bear Animated",
-      "block.fbms.gravity_vortex_2": "Gravity Vortex",
       "block.fbms.large_sign_2": "Large Sign 2",
+      "block.fbms.gravity_vortex_2": "Gravity Vortex",
       "itemGroup.tabprivate_room": "Private Room",
       "block.fbms.deluxe_speaker_set": "Deluxe Speaker Set",
       "block.fbms.papper_pal_mr_hippo": "Papper Pal Mr Hippo",
