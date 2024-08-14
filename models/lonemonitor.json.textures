@@ -71,6 +71,12 @@
         "0": "iatr"
       },
       "name": "iatr"
+    },
+    "news": {
+      "map": {
+        "0": "tv_news"
+      },
+      "name": "news"
     }
   }
 }

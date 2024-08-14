@@ -31,10 +31,10 @@ import net.mcreator.fbms.procedures.TvChannelsOnBlockRightClickedProcedure;
 import java.util.List;
 import java.util.Collections;
 
-public class TvDougBlock extends Block {
+public class TvNewsBlock extends Block {
 	public static final DirectionProperty FACING = DirectionalBlock.FACING;
 
-	public TvDougBlock() {
+	public TvNewsBlock() {
 		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.LANTERN).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}

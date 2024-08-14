@@ -26,7 +26,7 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.fbms.procedures.TvLallyOnBlockRightClickedProcedure;
+import net.mcreator.fbms.procedures.TvChannelsOnBlockRightClickedProcedure;
 
 import java.util.List;
 import java.util.Collections;
@@ -90,7 +90,7 @@ public class TvLallyBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		TvLallyOnBlockRightClickedProcedure.execute(world, x, y, z, entity);
+		TvChannelsOnBlockRightClickedProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 }

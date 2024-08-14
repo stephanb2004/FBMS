@@ -2,14 +2,14 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "tvoof",
+    "texture": "tv_news",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "tv:default",
+    "customModelName": "lonemonitor:news",
     "rotationMode": 2,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Tv (Marcelo)",
+    "name": "Tv (News)",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

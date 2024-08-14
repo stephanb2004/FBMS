@@ -118,7 +118,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "TvDougOnBlockRightClicked"
+      "name": "TvChannelsOnBlockRightClicked"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

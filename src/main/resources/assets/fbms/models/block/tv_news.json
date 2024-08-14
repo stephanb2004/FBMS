@@ -1,0 +1,9 @@
+{
+  "parent": "fbms:custom/lonemonitor",
+  "textures": {
+    "all": "fbms:blocks/tv_news",
+    "particle": "fbms:blocks/tv_news",
+    "0": "fbms:blocks/tv_news"
+  },
+  "render_type": "cutout"
+}
