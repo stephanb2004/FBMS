@@ -9,7 +9,6 @@ import net.minecraft.world.item.CreativeModeTab;
 
 public class FbmsModTabs {
 	public static CreativeModeTab TAB_FMS;
-	public static CreativeModeTab TAB_ANIMATED_BLOCK;
 	public static CreativeModeTab TAB_A_DS;
 	public static CreativeModeTab TAB_PROPS;
 	public static CreativeModeTab TAB_CARS;
@@ -22,17 +21,6 @@ public class FbmsModTabs {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(FbmsModBlocks.CANDY_CADET.get());
-			}
-
-			@Override
-			public boolean hasSearchBar() {
-				return false;
-			}
-		};
-		TAB_ANIMATED_BLOCK = new CreativeModeTab("tabanimated_block") {
-			@Override
-			public ItemStack makeIcon() {
-				return new ItemStack(FbmsModItems.ANIMATED_BLOCKS.get());
 			}
 
 			@Override

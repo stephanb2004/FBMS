@@ -1,6 +1,0 @@
-{
-  "parent": "fbms:displaysettings/figure.item",
-  "textures": {
-    "layer0": "fbms:items/elchip"
-  }
-}
