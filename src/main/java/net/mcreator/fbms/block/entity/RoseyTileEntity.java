@@ -137,7 +137,7 @@ public class RoseyTileEntity extends RandomizableContainerBlockEntity implements
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Rosey");
+		return Component.literal("Rosie");
 	}
 
 	@Override

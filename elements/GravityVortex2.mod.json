@@ -13,7 +13,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "gravity_vortex",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,

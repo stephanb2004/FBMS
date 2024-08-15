@@ -13,7 +13,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "gravity_vortex",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -39,7 +39,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:ShopBlocks"
+      "value": "No creative tab entry"
     },
     "destroyTool": "Not specified",
     "customDrop": {

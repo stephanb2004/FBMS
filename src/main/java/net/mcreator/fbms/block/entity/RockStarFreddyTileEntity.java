@@ -137,7 +137,7 @@ public class RockStarFreddyTileEntity extends RandomizableContainerBlockEntity i
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("RockStar Freddy");
+		return Component.literal("Rockstar Freddy");
 	}
 
 	@Override

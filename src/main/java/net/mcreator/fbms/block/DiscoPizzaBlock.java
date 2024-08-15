@@ -48,6 +48,18 @@ public class DiscoPizzaBlock extends Block {
 	}
 
 	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return switch (state.getValue(FACING)) {
+			default -> box(1, 1, 0, 15, 15, 2);
+			case NORTH -> box(1, 1, 14, 15, 15, 16);
+			case EAST -> box(0, 1, 1, 2, 15, 15);
+			case WEST -> box(14, 1, 1, 16, 15, 15);
+			case UP -> box(1, 0, 1, 15, 2, 15);
+			case DOWN -> box(1, 14, 1, 15, 16, 15);
+		};
+	}
+
+	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		builder.add(FACING);
 	}

@@ -1,9 +1,9 @@
 {
-  "parent": "fbms:custom/tv",
+  "parent": "fbms:custom/lonemonitor",
   "textures": {
     "all": "fbms:blocks/tvoof",
     "particle": "fbms:blocks/tvoof",
-    "1": "fbms:blocks/tvoof"
+    "0": "fbms:blocks/tvoff"
   },
   "render_type": "cutout"
 }

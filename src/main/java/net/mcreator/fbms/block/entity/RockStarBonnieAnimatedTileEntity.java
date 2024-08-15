@@ -137,7 +137,7 @@ public class RockStarBonnieAnimatedTileEntity extends RandomizableContainerBlock
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("RockStar Bonnie Animated");
+		return Component.literal("Rockstar Bonnie Animated");
 	}
 
 	@Override

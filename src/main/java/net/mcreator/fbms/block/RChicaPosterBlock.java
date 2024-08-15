@@ -1,6 +1,9 @@
 
 package net.mcreator.fbms.block;
 
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.Shapes;
+import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
@@ -25,7 +28,7 @@ public class RChicaPosterBlock extends Block {
 	public static final DirectionProperty FACING = DirectionalBlock.FACING;
 
 	public RChicaPosterBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOL).sound(SoundType.WOOL).strength(1f, 10f).noCollission());
+		super(BlockBehaviour.Properties.of(Material.WOOL).sound(SoundType.WOOL).strength(1f, 10f).noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
@@ -37,6 +40,23 @@ public class RChicaPosterBlock extends Block {
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 0;
+	}
+
+	@Override
+	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return Shapes.empty();
+	}
+
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return switch (state.getValue(FACING)) {
+			default -> box(0, 0, 0, 16, 22, 1);
+			case NORTH -> box(0, 0, 15, 16, 22, 16);
+			case EAST -> box(0, 0, 0, 1, 22, 16);
+			case WEST -> box(15, 0, 0, 16, 22, 16);
+			case UP -> box(0, 0, 0, 16, 1, 22);
+			case DOWN -> box(0, 15, -6, 16, 16, 16);
+		};
 	}
 
 	@Override

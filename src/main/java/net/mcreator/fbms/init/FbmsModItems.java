@@ -293,8 +293,7 @@ public class FbmsModItems {
 	public static final RegistryObject<Item> BONK_A_BON = REGISTRY.register(FbmsModBlocks.BONK_A_BON.getId().getPath(), () -> new BonkABonDisplayItem(FbmsModBlocks.BONK_A_BON.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
 	public static final RegistryObject<Item> CARNIVAL_HOOPS = REGISTRY.register(FbmsModBlocks.CARNIVAL_HOOPS.getId().getPath(),
 			() -> new CarnivalHoopsDisplayItem(FbmsModBlocks.CARNIVAL_HOOPS.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> GRAVITY_VORTEX = REGISTRY.register(FbmsModBlocks.GRAVITY_VORTEX.getId().getPath(),
-			() -> new GravityVortexDisplayItem(FbmsModBlocks.GRAVITY_VORTEX.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> GRAVITY_VORTEX = REGISTRY.register(FbmsModBlocks.GRAVITY_VORTEX.getId().getPath(), () -> new GravityVortexDisplayItem(FbmsModBlocks.GRAVITY_VORTEX.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> GRAVITY_VORTEX_2 = REGISTRY.register(FbmsModBlocks.GRAVITY_VORTEX_2.getId().getPath(),
 			() -> new GravityVortex2DisplayItem(FbmsModBlocks.GRAVITY_VORTEX_2.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
 	public static final RegistryObject<Item> PICKLES = REGISTRY.register(FbmsModBlocks.PICKLES.getId().getPath(), () -> new PicklesDisplayItem(FbmsModBlocks.PICKLES.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));

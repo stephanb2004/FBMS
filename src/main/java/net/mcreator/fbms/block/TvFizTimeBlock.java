@@ -55,6 +55,18 @@ public class TvFizTimeBlock extends Block {
 	}
 
 	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return switch (state.getValue(FACING)) {
+			default -> box(2, 0, 2, 16, 11, 16);
+			case NORTH -> box(0, 0, 0, 14, 11, 14);
+			case EAST -> box(2, 0, 0, 16, 11, 14);
+			case WEST -> box(0, 0, 2, 14, 11, 16);
+			case UP -> box(0, 2, 0, 14, 16, 11);
+			case DOWN -> box(0, 0, 5, 14, 14, 16);
+		};
+	}
+
+	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		builder.add(FACING);
 	}
