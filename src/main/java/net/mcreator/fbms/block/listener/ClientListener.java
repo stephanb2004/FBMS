@@ -38,6 +38,8 @@ import net.mcreator.fbms.block.renderer.RetroChicaTileRenderer;
 import net.mcreator.fbms.block.renderer.RascTileRenderer;
 import net.mcreator.fbms.block.renderer.PuppetBoxTileRenderer;
 import net.mcreator.fbms.block.renderer.PrizeKingTileRenderer;
+import net.mcreator.fbms.block.renderer.PizzaPlaceSignTileRenderer;
+import net.mcreator.fbms.block.renderer.PizzaPlaceSignOldTileRenderer;
 import net.mcreator.fbms.block.renderer.PinTheBowtieOnTheTieTheToyFreddyTileRenderer;
 import net.mcreator.fbms.block.renderer.PinTheBowtieOnTheFreddyTileRenderer;
 import net.mcreator.fbms.block.renderer.PigPatchTileRenderer;
@@ -294,5 +296,7 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.BEPH_ANIMATED.get(), BephAnimatedTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.FRIGHTS_SIGN.get(), FrightsSignTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.FRIGHTS_SIGN_2.get(), FrightsSign2TileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.PIZZA_PLACE_SIGN.get(), PizzaPlaceSignTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.PIZZA_PLACE_SIGN_OLD.get(), PizzaPlaceSignOldTileRenderer::new);
 	}
 }

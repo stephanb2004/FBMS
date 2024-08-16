@@ -55,6 +55,8 @@ import net.mcreator.fbms.block.display.RetroChicaDisplayItem;
 import net.mcreator.fbms.block.display.RascDisplayItem;
 import net.mcreator.fbms.block.display.PuppetBoxDisplayItem;
 import net.mcreator.fbms.block.display.PrizeKingDisplayItem;
+import net.mcreator.fbms.block.display.PizzaPlaceSignOldDisplayItem;
+import net.mcreator.fbms.block.display.PizzaPlaceSignDisplayItem;
 import net.mcreator.fbms.block.display.PinTheBowtieOnTheTieTheToyFreddyDisplayItem;
 import net.mcreator.fbms.block.display.PinTheBowtieOnTheFreddyDisplayItem;
 import net.mcreator.fbms.block.display.PigPatchDisplayItem;
@@ -408,6 +410,10 @@ public class FbmsModItems {
 	public static final RegistryObject<Item> FRIGHTS_SIGN = REGISTRY.register(FbmsModBlocks.FRIGHTS_SIGN.getId().getPath(), () -> new FrightsSignDisplayItem(FbmsModBlocks.FRIGHTS_SIGN.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> FRIGHTS_SIGN_2 = REGISTRY.register(FbmsModBlocks.FRIGHTS_SIGN_2.getId().getPath(),
 			() -> new FrightsSign2DisplayItem(FbmsModBlocks.FRIGHTS_SIGN_2.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> PIZZA_PLACE_SIGN = REGISTRY.register(FbmsModBlocks.PIZZA_PLACE_SIGN.getId().getPath(),
+			() -> new PizzaPlaceSignDisplayItem(FbmsModBlocks.PIZZA_PLACE_SIGN.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> PIZZA_PLACE_SIGN_OLD = REGISTRY.register(FbmsModBlocks.PIZZA_PLACE_SIGN_OLD.getId().getPath(),
+			() -> new PizzaPlaceSignOldDisplayItem(FbmsModBlocks.PIZZA_PLACE_SIGN_OLD.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

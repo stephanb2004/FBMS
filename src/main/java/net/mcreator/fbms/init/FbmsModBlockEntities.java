@@ -42,6 +42,8 @@ import net.mcreator.fbms.block.entity.RetroChicaTileEntity;
 import net.mcreator.fbms.block.entity.RascTileEntity;
 import net.mcreator.fbms.block.entity.PuppetBoxTileEntity;
 import net.mcreator.fbms.block.entity.PrizeKingTileEntity;
+import net.mcreator.fbms.block.entity.PizzaPlaceSignTileEntity;
+import net.mcreator.fbms.block.entity.PizzaPlaceSignOldTileEntity;
 import net.mcreator.fbms.block.entity.PinTheBowtieOnTheTieTheToyFreddyTileEntity;
 import net.mcreator.fbms.block.entity.PinTheBowtieOnTheFreddyTileEntity;
 import net.mcreator.fbms.block.entity.PigPatchTileEntity;
@@ -346,6 +348,10 @@ public class FbmsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<BephAnimatedTileEntity>> BEPH_ANIMATED = REGISTRY.register("beph_animated", () -> BlockEntityType.Builder.of(BephAnimatedTileEntity::new, FbmsModBlocks.BEPH_ANIMATED.get()).build(null));
 	public static final RegistryObject<BlockEntityType<FrightsSignTileEntity>> FRIGHTS_SIGN = REGISTRY.register("frights_sign", () -> BlockEntityType.Builder.of(FrightsSignTileEntity::new, FbmsModBlocks.FRIGHTS_SIGN.get()).build(null));
 	public static final RegistryObject<BlockEntityType<FrightsSign2TileEntity>> FRIGHTS_SIGN_2 = REGISTRY.register("frights_sign_2", () -> BlockEntityType.Builder.of(FrightsSign2TileEntity::new, FbmsModBlocks.FRIGHTS_SIGN_2.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PizzaPlaceSignTileEntity>> PIZZA_PLACE_SIGN = REGISTRY.register("pizza_place_sign",
+			() -> BlockEntityType.Builder.of(PizzaPlaceSignTileEntity::new, FbmsModBlocks.PIZZA_PLACE_SIGN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PizzaPlaceSignOldTileEntity>> PIZZA_PLACE_SIGN_OLD = REGISTRY.register("pizza_place_sign_old",
+			() -> BlockEntityType.Builder.of(PizzaPlaceSignOldTileEntity::new, FbmsModBlocks.PIZZA_PLACE_SIGN_OLD.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

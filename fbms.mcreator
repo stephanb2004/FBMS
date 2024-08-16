@@ -5501,6 +5501,52 @@
         ]
       },
       "path": "~/Blocks/Props/Signs"
+    },
+    {
+      "name": "PizzaPlaceSign",
+      "type": "animatedblock",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza_place_sign",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/pizza_place_sign.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/PizzaPlaceSignDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/PizzaPlaceSignDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/entity/PizzaPlaceSignTileEntity.java",
+          "src/main/resources/assets/fbms/models/custom/pizza_place_sign_particle.json",
+          "src/main/java/net/mcreator/fbms/block/display/PizzaPlaceSignDisplayItem.java",
+          "src/main/resources/assets/fbms/blockstates/pizza_place_sign.json",
+          "src/main/java/net/mcreator/fbms/block/model/PizzaPlaceSignBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/PizzaPlaceSignBlock.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/PizzaPlaceSignTileRenderer.java"
+        ]
+      },
+      "path": "~/Blocks/Props/Signs"
+    },
+    {
+      "name": "PizzaPlaceSignOld",
+      "type": "animatedblock",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza_place_sign_old",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/renderer/PizzaPlaceSignOldTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/PizzaPlaceSignOldBlock.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/PizzaPlaceSignOldDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/PizzaPlaceSignOldBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/model/PizzaPlaceSignOldDisplayModel.java",
+          "src/main/resources/assets/fbms/models/custom/pizza_place_sign_old_particle.json",
+          "src/main/resources/assets/fbms/blockstates/pizza_place_sign_old.json",
+          "src/main/java/net/mcreator/fbms/block/display/PizzaPlaceSignOldDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/entity/PizzaPlaceSignOldTileEntity.java",
+          "src/main/resources/assets/fbms/models/item/pizza_place_sign_old.json"
+        ]
+      },
+      "path": "~/Blocks/Props/Signs"
     }
   ],
   "variable_elements": [],
@@ -5556,8 +5602,8 @@
       "block.fbms.disco_pizza": "Disco Pizza",
       "block.fbms.doc_plush": "Doc Plush",
       "block.fbms.lol_bit": "Lol Bit",
-      "block.fbms.funtime_delilah": "Funtime Delilah Animated",
       "block.fbms.large_sign": "Large Sign",
+      "block.fbms.funtime_delilah": "Funtime Delilah Animated",
       "block.fbms.rock_star_bonnie_animated": "Rockstar Bonnie Animated",
       "block.fbms.balloon_boy": "BalloonBoy",
       "block.fbms.el_chip": "El Chip",
@@ -5573,8 +5619,8 @@
       "block.fbms.r_freddy_poster": "Rockstar Freddy Poster",
       "block.fbms.music_man_animated": "Music Man Animated",
       "block.fbms.old_chica": "Old Chica",
-      "block.fbms.molten_freddy": "Molten Freddy",
       "block.fbms.freddy_faz_bear": "Freddy FazBear",
+      "block.fbms.molten_freddy": "Molten Freddy",
       "block.fbms.rock_star_chica": "Rockstar Chica",
       "block.fbms.lemonade_clown": "Lemonade Clown",
       "block.fbms.funtime_chica_animated": "Funtime Chica Animated",
@@ -5592,8 +5638,8 @@
       "block.fbms.happy_frog": "Happy Frog",
       "item.fbms.mandolin": "Mandolin",
       "block.fbms.riding_rockets_red": "Riding Rockets",
-      "block.fbms.happ_y_frog_animated": "Happy Frog Animated",
       "block.fbms.prize_king": "Prize King",
+      "block.fbms.happ_y_frog_animated": "Happy Frog Animated",
       "block.fbms.riding_rockets_purple": "Riding Rockets ",
       "block.fbms.garf_plush": "Garf Plush",
       "block.fbms.wink_sign": "Wink Sign",
@@ -5602,8 +5648,8 @@
       "item.fbms.dchica_spawn_egg": "D Chica WIP Spawn Egg",
       "block.fbms.large_sign_3": "Large Sign 3",
       "block.fbms.large_sign_4": "Large Sign 4",
-      "block.fbms.dr_teath": "DrTeeth",
       "item.fbms.dfredbear_spawn_egg": "D Freddy WIP Spawn Egg",
+      "block.fbms.dr_teath": "DrTeeth",
       "block.fbms.old_bonnie": "Old Bonnie",
       "block.fbms.rock_star_freddy_animated": "Rockstar Freddy Animated",
       "block.fbms.foil_party_set_1": "Foil Party Set 1",
@@ -5621,8 +5667,8 @@
       "block.fbms.mr_hippo": "Mr Hippo",
       "block.fbms.toy_chica": "Toy Chica",
       "block.fbms.nedd_bear_animated": "Nedd Bear Animated",
-      "block.fbms.gravity_vortex_2": "Gravity Vortex",
       "block.fbms.large_sign_2": "Large Sign 2",
+      "block.fbms.gravity_vortex_2": "Gravity Vortex",
       "itemGroup.tabprivate_room": "Private Room",
       "block.fbms.deluxe_speaker_set": "Deluxe Speaker Set",
       "block.fbms.papper_pal_mr_hippo": "Papper Pal Mr Hippo",
@@ -5732,6 +5778,7 @@
       "block.fbms.mr_can_do": "Mr Can Do",
       "itemGroup.tabcars": "Cars",
       "block.fbms.el_chip_animated": "El Chip Animated",
+      "block.fbms.pizza_place_sign": "Pizza Place Sign",
       "entity.fbms.dfredbear": "D Freddy WIP",
       "item.fbms.maracas": "Maracas",
       "block.fbms.d_balloon_boy": "D Balloon Boy",
@@ -5742,6 +5789,7 @@
       "block.fbms.paper_pal_clown": "Papper Pal Clown",
       "block.fbms.neon_juke_box": "Neon Juke Box",
       "block.fbms.pig_patch_animated": "Pig Patch Animated",
+      "block.fbms.pizza_place_sign_old": "Pizza Place Sign (Old)",
       "block.fbms.security_puppet": "Security Puppet",
       "block.fbms.beph_animated": "Beph Animated",
       "block.fbms.toy_bonnie": "Toy Bonnie",

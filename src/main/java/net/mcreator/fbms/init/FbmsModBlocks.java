@@ -59,6 +59,8 @@ import net.mcreator.fbms.block.RFoxyPosterBlock;
 import net.mcreator.fbms.block.RChicaPosterBlock;
 import net.mcreator.fbms.block.PuppetBoxBlock;
 import net.mcreator.fbms.block.PrizeKingBlock;
+import net.mcreator.fbms.block.PizzaPlaceSignOldBlock;
+import net.mcreator.fbms.block.PizzaPlaceSignBlock;
 import net.mcreator.fbms.block.PinTheBowtieOnTheTieTheToyFreddyBlock;
 import net.mcreator.fbms.block.PinTheBowtieOnTheFreddyBlock;
 import net.mcreator.fbms.block.PigPatchBlock;
@@ -346,4 +348,6 @@ public class FbmsModBlocks {
 	public static final RegistryObject<Block> BEPH_ANIMATED = REGISTRY.register("beph_animated", () -> new BephAnimatedBlock());
 	public static final RegistryObject<Block> FRIGHTS_SIGN = REGISTRY.register("frights_sign", () -> new FrightsSignBlock());
 	public static final RegistryObject<Block> FRIGHTS_SIGN_2 = REGISTRY.register("frights_sign_2", () -> new FrightsSign2Block());
+	public static final RegistryObject<Block> PIZZA_PLACE_SIGN = REGISTRY.register("pizza_place_sign", () -> new PizzaPlaceSignBlock());
+	public static final RegistryObject<Block> PIZZA_PLACE_SIGN_OLD = REGISTRY.register("pizza_place_sign_old", () -> new PizzaPlaceSignOldBlock());
 }
