@@ -115,6 +115,8 @@ import net.mcreator.fbms.block.display.FunTimeChicaDisplayItem;
 import net.mcreator.fbms.block.display.FtFoxyDisplayItem;
 import net.mcreator.fbms.block.display.FruityMazeDisplayItem;
 import net.mcreator.fbms.block.display.FruitPunchClownDisplayItem;
+import net.mcreator.fbms.block.display.FrightsSignDisplayItem;
+import net.mcreator.fbms.block.display.FrightsSign2DisplayItem;
 import net.mcreator.fbms.block.display.FreddyFazBearDisplayItem;
 import net.mcreator.fbms.block.display.FoxyDisplayItem;
 import net.mcreator.fbms.block.display.FoilPartySet4DisplayItem;
@@ -403,6 +405,9 @@ public class FbmsModItems {
 	public static final RegistryObject<Item> BEPH_ANIMATED = REGISTRY.register(FbmsModBlocks.BEPH_ANIMATED.getId().getPath(), () -> new BephAnimatedDisplayItem(FbmsModBlocks.BEPH_ANIMATED.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> AD = REGISTRY.register("ad", () -> new AdItem());
 	public static final RegistryObject<Item> SEAT_SPAWN_EGG = REGISTRY.register("seat_spawn_egg", () -> new ForgeSpawnEggItem(FbmsModEntities.SEAT, -1, -1, new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> FRIGHTS_SIGN = REGISTRY.register(FbmsModBlocks.FRIGHTS_SIGN.getId().getPath(), () -> new FrightsSignDisplayItem(FbmsModBlocks.FRIGHTS_SIGN.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> FRIGHTS_SIGN_2 = REGISTRY.register(FbmsModBlocks.FRIGHTS_SIGN_2.getId().getPath(),
+			() -> new FrightsSign2DisplayItem(FbmsModBlocks.FRIGHTS_SIGN_2.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

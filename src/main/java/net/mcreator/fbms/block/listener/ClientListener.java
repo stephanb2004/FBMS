@@ -98,6 +98,8 @@ import net.mcreator.fbms.block.renderer.FunTimeChicaTileRenderer;
 import net.mcreator.fbms.block.renderer.FtFoxyTileRenderer;
 import net.mcreator.fbms.block.renderer.FruityMazeTileRenderer;
 import net.mcreator.fbms.block.renderer.FruitPunchClownTileRenderer;
+import net.mcreator.fbms.block.renderer.FrightsSignTileRenderer;
+import net.mcreator.fbms.block.renderer.FrightsSign2TileRenderer;
 import net.mcreator.fbms.block.renderer.FreddyFazBearTileRenderer;
 import net.mcreator.fbms.block.renderer.FoxyTileRenderer;
 import net.mcreator.fbms.block.renderer.FoilPartySet4TileRenderer;
@@ -290,5 +292,7 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.ROSEY.get(), RoseyTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.STEPHAN_PLUSH.get(), StephanPlushTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.BEPH_ANIMATED.get(), BephAnimatedTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.FRIGHTS_SIGN.get(), FrightsSignTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.FRIGHTS_SIGN_2.get(), FrightsSign2TileRenderer::new);
 	}
 }

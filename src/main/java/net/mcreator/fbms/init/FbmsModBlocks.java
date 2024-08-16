@@ -125,6 +125,8 @@ import net.mcreator.fbms.block.FunTimeChicaBlock;
 import net.mcreator.fbms.block.FtFoxyBlock;
 import net.mcreator.fbms.block.FruityMazeBlock;
 import net.mcreator.fbms.block.FruitPunchClownBlock;
+import net.mcreator.fbms.block.FrightsSignBlock;
+import net.mcreator.fbms.block.FrightsSign2Block;
 import net.mcreator.fbms.block.FreddyFazBearBlock;
 import net.mcreator.fbms.block.FoxyBlock;
 import net.mcreator.fbms.block.FoilPartySet4Block;
@@ -342,4 +344,6 @@ public class FbmsModBlocks {
 	public static final RegistryObject<Block> VESSEL = REGISTRY.register("vessel", () -> new VESSELBlock());
 	public static final RegistryObject<Block> STEPHAN_PLUSH = REGISTRY.register("stephan_plush", () -> new StephanPlushBlock());
 	public static final RegistryObject<Block> BEPH_ANIMATED = REGISTRY.register("beph_animated", () -> new BephAnimatedBlock());
+	public static final RegistryObject<Block> FRIGHTS_SIGN = REGISTRY.register("frights_sign", () -> new FrightsSignBlock());
+	public static final RegistryObject<Block> FRIGHTS_SIGN_2 = REGISTRY.register("frights_sign_2", () -> new FrightsSign2Block());
 }

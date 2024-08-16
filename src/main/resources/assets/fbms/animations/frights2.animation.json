@@ -1,0 +1,18 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.model.new": {
+			"loop": true
+		},
+		"animation.model.new2": {
+			"loop": true
+		},
+		"animation.model.new3": {
+			"loop": true
+		},
+		"animation.model.new4": {
+			"loop": true
+		}
+	},
+	"geckolib_format_version": 2
+}

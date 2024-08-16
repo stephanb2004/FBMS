@@ -102,6 +102,8 @@ import net.mcreator.fbms.block.entity.FunTimeChicaTileEntity;
 import net.mcreator.fbms.block.entity.FtFoxyTileEntity;
 import net.mcreator.fbms.block.entity.FruityMazeTileEntity;
 import net.mcreator.fbms.block.entity.FruitPunchClownTileEntity;
+import net.mcreator.fbms.block.entity.FrightsSignTileEntity;
+import net.mcreator.fbms.block.entity.FrightsSign2TileEntity;
 import net.mcreator.fbms.block.entity.FreddyFazBearTileEntity;
 import net.mcreator.fbms.block.entity.FoxyTileEntity;
 import net.mcreator.fbms.block.entity.FoilPartySet4TileEntity;
@@ -342,6 +344,8 @@ public class FbmsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<RoseyTileEntity>> ROSEY = REGISTRY.register("rosey", () -> BlockEntityType.Builder.of(RoseyTileEntity::new, FbmsModBlocks.ROSEY.get()).build(null));
 	public static final RegistryObject<BlockEntityType<StephanPlushTileEntity>> STEPHAN_PLUSH = REGISTRY.register("stephan_plush", () -> BlockEntityType.Builder.of(StephanPlushTileEntity::new, FbmsModBlocks.STEPHAN_PLUSH.get()).build(null));
 	public static final RegistryObject<BlockEntityType<BephAnimatedTileEntity>> BEPH_ANIMATED = REGISTRY.register("beph_animated", () -> BlockEntityType.Builder.of(BephAnimatedTileEntity::new, FbmsModBlocks.BEPH_ANIMATED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<FrightsSignTileEntity>> FRIGHTS_SIGN = REGISTRY.register("frights_sign", () -> BlockEntityType.Builder.of(FrightsSignTileEntity::new, FbmsModBlocks.FRIGHTS_SIGN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<FrightsSign2TileEntity>> FRIGHTS_SIGN_2 = REGISTRY.register("frights_sign_2", () -> BlockEntityType.Builder.of(FrightsSign2TileEntity::new, FbmsModBlocks.FRIGHTS_SIGN_2.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));
