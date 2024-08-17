@@ -137,7 +137,7 @@ public class LolBit409TileEntity extends RandomizableContainerBlockEntity implem
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("LolBit 409 ");
+		return Component.literal("Lolbit 409 ");
 	}
 
 	@Override

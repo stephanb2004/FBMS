@@ -1,3 +1,6 @@
 {
-  "parent": "fbms:displaysettings/figure.item"
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "fbms:items/pizzaplace_sign"
+  }
 }

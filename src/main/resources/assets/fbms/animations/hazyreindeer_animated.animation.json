@@ -1,17 +1,28 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"1": {
+		"0": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
+				"pivot": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [0, 0, 0],
+							"easing": "easeInOutSine"
+						}
+					}
+				},
 				"body": {
 					"rotation": {
 						"0.0": {
 							"vector": [0, 0, 0]
 						},
 						"0.5": {
-							"vector": [5, 0, 0],
+							"vector": [2.5, 0, 0],
 							"easing": "easeInOutSine"
 						},
 						"1.0": {
@@ -26,7 +37,7 @@
 							"vector": [0, 0, 0]
 						},
 						"0.5": {
-							"vector": [5, 0, 0],
+							"vector": [4.99527, -0.21782, 2.4905],
 							"easing": "easeInOutSine"
 						},
 						"1.0": {
@@ -41,8 +52,7 @@
 							"vector": [0, 0, 0]
 						},
 						"0.5": {
-							"vector": [2.5, 0, 5],
-							"easing": "easeInOutSine"
+							"vector": [-4.98107, 0.43523, 12.48107]
 						},
 						"1.0": {
 							"vector": [0, 0, 0],
@@ -56,19 +66,18 @@
 							"vector": [0, 0, 0]
 						},
 						"0.5": {
-							"vector": [-2.5, 0, 5],
-							"easing": "easeInOutSine"
+							"vector": [-4.98107, -0.43523, -12.48107]
 						},
 						"1.0": {
-							"vector": [0, 0, 0]
+							"vector": [0, 0, 0],
+							"easing": "easeInOutSine"
 						}
 					}
 				},
 				"right_leg": {
 					"rotation": {
 						"0.0": {
-							"vector": [0, 0, 0],
-							"easing": "easeInOutSine"
+							"vector": [0, 0, 0]
 						},
 						"1.0": {
 							"vector": [0, 0, 0],
@@ -79,40 +88,10 @@
 				"left_leg": {
 					"rotation": {
 						"0.0": {
-							"vector": [0, 0, 0],
-							"easing": "easeInOutSine"
+							"vector": [0, 0, 0]
 						},
 						"1.0": {
 							"vector": [0, 0, 0],
-							"easing": "easeInOutSine"
-						}
-					}
-				},
-				"trumpet": {
-					"rotation": {
-						"0.0": {
-							"vector": [0, 0, 20]
-						},
-						"1.0": {
-							"vector": [0, 0, 20],
-							"easing": "easeInOutSine"
-						}
-					},
-					"position": {
-						"0.0": {
-							"vector": [0, 3, 2]
-						},
-						"1.0": {
-							"vector": [0, 3, 2],
-							"easing": "easeInOutSine"
-						}
-					},
-					"scale": {
-						"0.0": {
-							"vector": [0.55, 0.55, 0.55]
-						},
-						"1.0": {
-							"vector": [0.55, 0.55, 0.55],
 							"easing": "easeInOutSine"
 						}
 					}

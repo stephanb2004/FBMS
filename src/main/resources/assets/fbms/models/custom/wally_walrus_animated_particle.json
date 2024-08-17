@@ -1,0 +1,6 @@
+{
+  "parent": "fbms:displaysettings/figure.item",
+  "textures": {
+    "particle": "fbms:blocks/wally_walrus"
+  }
+}

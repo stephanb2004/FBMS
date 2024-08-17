@@ -1,8 +1,22 @@
 package net.mcreator.fbms.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraftforge.registries.ForgeRegistries;
 
-import javax.annotation.Nullable;
+import net.minecraft.world.level.block.state.properties.Property;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.fbms.init.FbmsModItems;
+import net.mcreator.fbms.init.FbmsModBlocks;
+
+import java.util.Map;
 
 public class AnimatedAnimatronicOnBlockRightClickedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -28,36 +42,6 @@ public class AnimatedAnimatronicOnBlockRightClickedProcedure {
 				{
 					BlockPos _bp = new BlockPos(x, y, z);
 					BlockState _bs = FbmsModBlocks.RUSTY.get().defaultBlockState();
-					BlockState _bso = world.getBlockState(_bp);
-					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
-						Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
-						if (_property != null && _bs.getValue(_property) != null)
-							try {
-								_bs = _bs.setValue(_property, (Comparable) entry.getValue());
-							} catch (Exception e) {
-							}
-					}
-					world.setBlock(_bp, _bs, 3);
-				}
-			} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.BARRY_POLAR.get()) {
-				{
-					BlockPos _bp = new BlockPos(x, y, z);
-					BlockState _bs = FbmsModBlocks.BROKEN_BARRY_POLAR_ANIMATED.get().defaultBlockState();
-					BlockState _bso = world.getBlockState(_bp);
-					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
-						Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
-						if (_property != null && _bs.getValue(_property) != null)
-							try {
-								_bs = _bs.setValue(_property, (Comparable) entry.getValue());
-							} catch (Exception e) {
-							}
-					}
-					world.setBlock(_bp, _bs, 3);
-				}
-			} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.BROKEN_BARRY_POLAR_ANIMATED.get()) {
-				{
-					BlockPos _bp = new BlockPos(x, y, z);
-					BlockState _bs = FbmsModBlocks.BARRY_POLAR.get().defaultBlockState();
 					BlockState _bso = world.getBlockState(_bp);
 					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 						Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
@@ -542,6 +526,97 @@ public class AnimatedAnimatronicOnBlockRightClickedProcedure {
 				{
 					BlockPos _bp = new BlockPos(x, y, z);
 					BlockState _bs = FbmsModBlocks.ENDO_01.get().defaultBlockState();
+					BlockState _bso = world.getBlockState(_bp);
+					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+						Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+						if (_property != null && _bs.getValue(_property) != null)
+							try {
+								_bs = _bs.setValue(_property, (Comparable) entry.getValue());
+							} catch (Exception e) {
+							}
+					}
+					world.setBlock(_bp, _bs, 3);
+				}
+			}
+			if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.WALLY_WALRUS.get()) {
+				{
+					BlockPos _bp = new BlockPos(x, y, z);
+					BlockState _bs = FbmsModBlocks.WALLY_WALRUS_ANIMATED.get().defaultBlockState();
+					BlockState _bso = world.getBlockState(_bp);
+					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+						Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+						if (_property != null && _bs.getValue(_property) != null)
+							try {
+								_bs = _bs.setValue(_property, (Comparable) entry.getValue());
+							} catch (Exception e) {
+							}
+					}
+					world.setBlock(_bp, _bs, 3);
+				}
+			} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.WALLY_WALRUS_ANIMATED.get()) {
+				{
+					BlockPos _bp = new BlockPos(x, y, z);
+					BlockState _bs = FbmsModBlocks.WALLY_WALRUS.get().defaultBlockState();
+					BlockState _bso = world.getBlockState(_bp);
+					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+						Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+						if (_property != null && _bs.getValue(_property) != null)
+							try {
+								_bs = _bs.setValue(_property, (Comparable) entry.getValue());
+							} catch (Exception e) {
+							}
+					}
+					world.setBlock(_bp, _bs, 3);
+				}
+			} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.PUFFY_PUFFINS.get()) {
+				{
+					BlockPos _bp = new BlockPos(x, y, z);
+					BlockState _bs = FbmsModBlocks.PUFFY_PUFFINS_ANIMATED.get().defaultBlockState();
+					BlockState _bso = world.getBlockState(_bp);
+					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+						Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+						if (_property != null && _bs.getValue(_property) != null)
+							try {
+								_bs = _bs.setValue(_property, (Comparable) entry.getValue());
+							} catch (Exception e) {
+							}
+					}
+					world.setBlock(_bp, _bs, 3);
+				}
+			} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.PUFFY_PUFFINS_ANIMATED.get()) {
+				{
+					BlockPos _bp = new BlockPos(x, y, z);
+					BlockState _bs = FbmsModBlocks.PUFFY_PUFFINS.get().defaultBlockState();
+					BlockState _bso = world.getBlockState(_bp);
+					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+						Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+						if (_property != null && _bs.getValue(_property) != null)
+							try {
+								_bs = _bs.setValue(_property, (Comparable) entry.getValue());
+							} catch (Exception e) {
+							}
+					}
+					world.setBlock(_bp, _bs, 3);
+				}
+			} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.HAZY_REINDEER.get()) {
+				{
+					BlockPos _bp = new BlockPos(x, y, z);
+					BlockState _bs = FbmsModBlocks.HAZY_REINDEER_ANIMATED.get().defaultBlockState();
+					BlockState _bso = world.getBlockState(_bp);
+					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+						Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+						if (_property != null && _bs.getValue(_property) != null)
+							try {
+								_bs = _bs.setValue(_property, (Comparable) entry.getValue());
+							} catch (Exception e) {
+							}
+					}
+					world.setBlock(_bp, _bs, 3);
+				}
+			} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.HAZY_REINDEER_ANIMATED.get()) {
+				{
+					BlockPos _bp = new BlockPos(x, y, z);
+					BlockState _bs = FbmsModBlocks.HAZY_REINDEER.get().defaultBlockState();
 					BlockState _bso = world.getBlockState(_bp);
 					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 						Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());

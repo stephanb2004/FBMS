@@ -13,7 +13,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "frights_sign",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,

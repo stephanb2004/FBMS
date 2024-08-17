@@ -77,6 +77,18 @@
         "0": "tv_news"
       },
       "name": "news"
+    },
+    "lolbit_tv": {
+      "map": {
+        "0": "lolbit_tv"
+      },
+      "name": "lolbit_tv"
+    },
+    "lolbit_monitor": {
+      "map": {
+        "0": "lolbit_monitor"
+      },
+      "name": "lolbit_monitor"
     }
   }
 }

@@ -13,7 +13,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "pizzaplacerusty_sign",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -23,7 +23,7 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 34.0,
+        "mx": -34.0,
         "my": 2.0,
         "mz": 14.0,
         "Mx": 50.0,

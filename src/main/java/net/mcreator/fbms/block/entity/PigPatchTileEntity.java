@@ -137,7 +137,7 @@ public class PigPatchTileEntity extends RandomizableContainerBlockEntity impleme
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Pig Patch");
+		return Component.literal("Pigpatch");
 	}
 
 	@Override

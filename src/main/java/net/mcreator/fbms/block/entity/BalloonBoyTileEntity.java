@@ -137,7 +137,7 @@ public class BalloonBoyTileEntity extends RandomizableContainerBlockEntity imple
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("BalloonBoy");
+		return Component.literal("Balloon Boy");
 	}
 
 	@Override

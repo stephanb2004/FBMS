@@ -1,5 +1,11 @@
 package net.mcreator.fbms.block.model;
 
+import software.bernie.geckolib3.model.AnimatedGeoModel;
+
+import net.minecraft.resources.ResourceLocation;
+
+import net.mcreator.fbms.block.display.DollsDisplayItem;
+
 public class DollsDisplayModel extends AnimatedGeoModel<DollsDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(DollsDisplayItem animatable) {

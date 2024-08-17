@@ -6,17 +6,26 @@
 			"bones": {
 				"body": {
 					"rotation": {
-						"vector": [-4.37082, 7.88185, 4.37082]
+						"vector": [-11.87082, 7.88185, 4.37082],
+						"easing": "easeInOutSine"
+					}
+				},
+				"head2": {
+					"rotation": {
+						"vector": [-2.5, 0, 0],
+						"easing": "easeInOutSine"
 					}
 				},
 				"right_arm": {
 					"rotation": {
-						"vector": [-90, -20, 0]
+						"vector": [-97.5, -20, 0],
+						"easing": "easeInOutSine"
 					}
 				},
 				"trumpet": {
 					"rotation": {
-						"vector": [0, 0, 20]
+						"vector": [2.5, 0, 20],
+						"easing": "easeInOutSine"
 					},
 					"position": {
 						"vector": [0, 2, 2]
@@ -27,7 +36,8 @@
 				},
 				"left_arm": {
 					"rotation": {
-						"vector": [-98.11003, 22.29711, -3.09472]
+						"vector": [-108.11003, 22.29711, -3.09472],
+						"easing": "easeInOutSine"
 					}
 				},
 				"right_leg": {

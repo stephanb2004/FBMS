@@ -1,0 +1,9 @@
+{
+  "parent": "fbms:custom/lonemonitor",
+  "textures": {
+    "all": "fbms:blocks/doug",
+    "particle": "fbms:blocks/doug",
+    "0": "fbms:blocks/lolbit_tv"
+  },
+  "render_type": "cutout"
+}

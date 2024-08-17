@@ -5,6 +5,12 @@
         "0": "monitors"
       },
       "name": "default"
+    },
+    "lolbit": {
+      "map": {
+        "0": "lolbit_monitors"
+      },
+      "name": "lolbit"
     }
   }
 }
