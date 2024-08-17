@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fbms:custom/lolbit_record_particle"
+    }
+  }
+}

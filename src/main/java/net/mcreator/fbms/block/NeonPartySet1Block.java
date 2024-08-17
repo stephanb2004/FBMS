@@ -1,6 +1,8 @@
 
 package net.mcreator.fbms.block;
 
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
@@ -58,6 +60,17 @@ public class NeonPartySet1Block extends BaseEntityBlock implements EntityBlock {
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 0;
+	}
+
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+
+		return switch (state.getValue(FACING)) {
+			default -> box(0, 0, 0, 16, 4, 16);
+			case NORTH -> box(0, 0, 0, 16, 4, 16);
+			case EAST -> box(0, 0, 0, 16, 4, 16);
+			case WEST -> box(0, 0, 0, 16, 4, 16);
+		};
 	}
 
 	@Override

@@ -2,14 +2,14 @@
   "_fv": 43,
   "_type": "animatedblock",
   "definition": {
-    "texture": "neonsettexture1",
+    "texture": "lolbit_record",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 0,
-    "rotationMode": 1,
+    "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -19,27 +19,27 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "CUTOUT",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
         "mx": 0.0,
         "my": 0.0,
-        "mz": 0.0,
+        "mz": 15.0,
         "Mx": 16.0,
-        "My": 4.0,
+        "My": 35.0,
         "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Neon Party Set 1",
+    "name": "Lolbit Record",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:ShopBlocks"
+      "value": "CUSTOM:PrivateRoom"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -53,7 +53,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "CLOTH"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -76,10 +76,10 @@
     "jumpFactor": 1.0,
     "animationCount": 1,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": true,
+    "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "CLOTH"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""
@@ -125,13 +125,17 @@
     "fluidRestrictions": [],
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE"
+      }
+    ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
-    "normal": "neon_party_set_2.geo.json",
+    "normal": "lolbit_record.geo.json",
     "displaySettings": "figure.item.json"
   }
 }

@@ -3,7 +3,7 @@
     {
       "name": "CandyCadet",
       "type": "animatedblock",
-      "sortid": 11,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "candy_cadet",
@@ -26,7 +26,7 @@
     {
       "name": "FMS",
       "type": "tab",
-      "sortid": 189,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fms",
@@ -38,7 +38,7 @@
     {
       "name": "ElChip",
       "type": "animatedblock",
-      "sortid": 25,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "el_chip",
@@ -61,7 +61,7 @@
     {
       "name": "BiteFredBearCutout",
       "type": "animatedblock",
-      "sortid": 38,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bite_fred_bear_cutout",
@@ -84,7 +84,7 @@
     {
       "name": "FunTimeChica",
       "type": "animatedblock",
-      "sortid": 27,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fun_time_chica",
@@ -107,7 +107,7 @@
     {
       "name": "HappyFrog",
       "type": "animatedblock",
-      "sortid": 12,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "happy_frog",
@@ -130,7 +130,7 @@
     {
       "name": "Lefty",
       "type": "animatedblock",
-      "sortid": 17,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lefty",
@@ -153,7 +153,7 @@
     {
       "name": "MrHippo",
       "type": "animatedblock",
-      "sortid": 13,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mr_hippo",
@@ -176,7 +176,7 @@
     {
       "name": "NeddBear",
       "type": "animatedblock",
-      "sortid": 14,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nedd_bear",
@@ -199,7 +199,7 @@
     {
       "name": "Orville",
       "type": "animatedblock",
-      "sortid": 22,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orville",
@@ -222,7 +222,7 @@
     {
       "name": "PrizeKing",
       "type": "animatedblock",
-      "sortid": 28,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "prize_king",
@@ -245,7 +245,7 @@
     {
       "name": "SecurityPuppet",
       "type": "animatedblock",
-      "sortid": 23,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "security_puppet",
@@ -268,7 +268,7 @@
     {
       "name": "RockStarBonnie",
       "type": "animatedblock",
-      "sortid": 18,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rock_star_bonnie",
@@ -291,7 +291,7 @@
     {
       "name": "RockStarChica",
       "type": "animatedblock",
-      "sortid": 19,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rock_star_chica",
@@ -314,7 +314,7 @@
     {
       "name": "RockStarFreddy",
       "type": "animatedblock",
-      "sortid": 20,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rock_star_freddy",
@@ -337,7 +337,7 @@
     {
       "name": "Rusty",
       "type": "animatedblock",
-      "sortid": 39,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rusty",
@@ -360,7 +360,7 @@
     {
       "name": "PigPatch",
       "type": "animatedblock",
-      "sortid": 15,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pig_patch",
@@ -383,7 +383,7 @@
     {
       "name": "RockStarFoxy",
       "type": "animatedblock",
-      "sortid": 21,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rock_star_foxy",
@@ -406,7 +406,7 @@
     {
       "name": "Endo01",
       "type": "animatedblock",
-      "sortid": 10,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "endo_01",
@@ -429,7 +429,7 @@
     {
       "name": "WinkSign",
       "type": "animatedblock",
-      "sortid": 40,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wink_sign",
@@ -452,7 +452,7 @@
     {
       "name": "BaggyMaggie",
       "type": "animatedblock",
-      "sortid": 9,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baggy_maggie",
@@ -475,7 +475,7 @@
     {
       "name": "PuppetBox",
       "type": "animatedblock",
-      "sortid": 24,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "puppet_box",
@@ -498,7 +498,7 @@
     {
       "name": "LargeSign",
       "type": "animatedblock",
-      "sortid": 74,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_sign",
@@ -521,7 +521,7 @@
     {
       "name": "LargeSign2",
       "type": "animatedblock",
-      "sortid": 75,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_sign_2",
@@ -544,7 +544,7 @@
     {
       "name": "ScrapTrap",
       "type": "animatedblock",
-      "sortid": 41,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "scrap_trap",
@@ -567,7 +567,7 @@
     {
       "name": "MoltenFreddy",
       "type": "animatedblock",
-      "sortid": 29,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "molten_freddy",
@@ -590,7 +590,7 @@
     {
       "name": "FoilPartySet1",
       "type": "animatedblock",
-      "sortid": 93,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "foil_party_set_1",
@@ -613,7 +613,7 @@
     {
       "name": "FoilPartySet2",
       "type": "animatedblock",
-      "sortid": 94,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "foil_party_set_2",
@@ -636,7 +636,7 @@
     {
       "name": "FoilPartySet3",
       "type": "animatedblock",
-      "sortid": 95,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "foil_party_set_3",
@@ -659,7 +659,7 @@
     {
       "name": "FoilPartySet4",
       "type": "animatedblock",
-      "sortid": 96,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "foil_party_set_4",
@@ -682,7 +682,7 @@
     {
       "name": "DrTeath",
       "type": "animatedblock",
-      "sortid": 37,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dr_teath",
@@ -705,7 +705,7 @@
     {
       "name": "NeonPartySet1",
       "type": "animatedblock",
-      "sortid": 106,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neon_party_set_1",
@@ -728,7 +728,7 @@
     {
       "name": "NeonPartySet2",
       "type": "animatedblock",
-      "sortid": 107,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neon_party_set_2",
@@ -751,7 +751,7 @@
     {
       "name": "NeonPartySet3",
       "type": "animatedblock",
-      "sortid": 108,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neon_party_set_3",
@@ -774,7 +774,7 @@
     {
       "name": "NeonPartySet4",
       "type": "animatedblock",
-      "sortid": 109,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neon_party_set_4",
@@ -797,7 +797,7 @@
     {
       "name": "MoldyRabbit",
       "type": "animatedblock",
-      "sortid": 36,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "moldy_rabbit",
@@ -820,7 +820,7 @@
     {
       "name": "MusicMan",
       "type": "animatedblock",
-      "sortid": 26,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "music_man",
@@ -843,7 +843,7 @@
     {
       "name": "BarryPolarAnimated",
       "type": "animatedblock",
-      "sortid": 190,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "registry_name": "barry_polar_animated",
@@ -866,7 +866,7 @@
     {
       "name": "BrokenBarryPolarAnimated",
       "type": "animatedblock",
-      "sortid": 191,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "registry_name": "broken_barry_polar_animated",
@@ -889,7 +889,7 @@
     {
       "name": "BephAnimated",
       "type": "animatedblock",
-      "sortid": 192,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beph_animated",
@@ -912,7 +912,7 @@
     {
       "name": "Ad",
       "type": "item",
-      "sortid": 193,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ad",
@@ -927,7 +927,7 @@
     {
       "name": "ADs",
       "type": "tab",
-      "sortid": 194,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "registry_name": "a_ds",
@@ -939,7 +939,7 @@
     {
       "name": "FuntimeDelilah",
       "type": "animatedblock",
-      "sortid": 195,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "registry_name": "funtime_delilah",
@@ -962,7 +962,7 @@
     {
       "name": "ElChipAnimated",
       "type": "animatedblock",
-      "sortid": 196,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "registry_name": "el_chip_animated",
@@ -985,7 +985,7 @@
     {
       "name": "Endo01Animated",
       "type": "animatedblock",
-      "sortid": 197,
+      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "registry_name": "endo_01_animated",
@@ -1008,7 +1008,7 @@
     {
       "name": "FuntimeChicaAnimated",
       "type": "animatedblock",
-      "sortid": 198,
+      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "registry_name": "funtime_chica_animated",
@@ -1031,7 +1031,7 @@
     {
       "name": "HappYFrogAnimated",
       "type": "animatedblock",
-      "sortid": 199,
+      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "registry_name": "happ_y_frog_animated",
@@ -1054,7 +1054,7 @@
     {
       "name": "LeftyAnimated",
       "type": "animatedblock",
-      "sortid": 200,
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lefty_animated",
@@ -1077,7 +1077,7 @@
     {
       "name": "MrHippoAnimated",
       "type": "animatedblock",
-      "sortid": 201,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mr_hippo_animated",
@@ -1100,7 +1100,7 @@
     {
       "name": "MusicManAnimated",
       "type": "animatedblock",
-      "sortid": 202,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "registry_name": "music_man_animated",
@@ -1123,7 +1123,7 @@
     {
       "name": "NeddBearAnimated",
       "type": "animatedblock",
-      "sortid": 203,
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nedd_bear_animated",
@@ -1146,7 +1146,7 @@
     {
       "name": "OrvilleAnimated",
       "type": "animatedblock",
-      "sortid": 204,
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orville_animated",
@@ -1169,7 +1169,7 @@
     {
       "name": "PigPatchAnimated",
       "type": "animatedblock",
-      "sortid": 205,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pig_patch_animated",
@@ -1192,7 +1192,7 @@
     {
       "name": "RockStarBonnieAnimated",
       "type": "animatedblock",
-      "sortid": 206,
+      "sortid": 205,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rock_star_bonnie_animated",
@@ -1215,7 +1215,7 @@
     {
       "name": "RockStarChicaAnimated",
       "type": "animatedblock",
-      "sortid": 207,
+      "sortid": 206,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rock_star_chica_animated",
@@ -1238,7 +1238,7 @@
     {
       "name": "RockStarFoxyAnimated",
       "type": "animatedblock",
-      "sortid": 208,
+      "sortid": 207,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rock_star_foxy_animated",
@@ -1261,7 +1261,7 @@
     {
       "name": "RockStarFreddyAnimated",
       "type": "animatedblock",
-      "sortid": 209,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rock_star_freddy_animated",
@@ -1284,7 +1284,7 @@
     {
       "name": "RustyAnimated",
       "type": "animatedblock",
-      "sortid": 210,
+      "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rusty_animated",
@@ -1307,7 +1307,7 @@
     {
       "name": "FuntimeDelilahblock",
       "type": "animatedblock",
-      "sortid": 35,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "funtime_delilahblock",
@@ -1330,7 +1330,7 @@
     {
       "name": "BarryPolar",
       "type": "animatedblock",
-      "sortid": 34,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "barry_polar",
@@ -1353,7 +1353,7 @@
     {
       "name": "BarryPolarFixed",
       "type": "animatedblock",
-      "sortid": 33,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "barry_polar_fixed",
@@ -1376,7 +1376,7 @@
     {
       "name": "TheMangle",
       "type": "animatedblock",
-      "sortid": 32,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_mangle",
@@ -1399,7 +1399,7 @@
     {
       "name": "LargeSign3",
       "type": "animatedblock",
-      "sortid": 76,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_sign_3",
@@ -1422,7 +1422,7 @@
     {
       "name": "LargeSign4",
       "type": "animatedblock",
-      "sortid": 77,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_sign_4",
@@ -1445,7 +1445,7 @@
     {
       "name": "SanitationStation",
       "type": "animatedblock",
-      "sortid": 84,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sanitation_station",
@@ -1468,7 +1468,7 @@
     {
       "name": "PinTheBowtieOnTheFreddy",
       "type": "animatedblock",
-      "sortid": 85,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pin_the_bowtie_on_the_freddy",
@@ -1491,7 +1491,7 @@
     {
       "name": "PinTheBowtieOnTheTieTheToyFreddy",
       "type": "animatedblock",
-      "sortid": 86,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pin_the_bowtie_on_the_tie_the_toy_freddy",
@@ -1514,7 +1514,7 @@
     {
       "name": "NoveltyTrafficLight",
       "type": "animatedblock",
-      "sortid": 90,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "novelty_traffic_light",
@@ -1537,7 +1537,7 @@
     {
       "name": "DuckPond",
       "type": "animatedblock",
-      "sortid": 83,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "duck_pond",
@@ -1560,7 +1560,7 @@
     {
       "name": "RFreddyPoster",
       "type": "block",
-      "sortid": 102,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_freddy_poster",
@@ -1577,7 +1577,7 @@
     {
       "name": "RbonniePoster",
       "type": "block",
-      "sortid": 103,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rbonnie_poster",
@@ -1594,7 +1594,7 @@
     {
       "name": "RChicaPoster",
       "type": "block",
-      "sortid": 104,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_chica_poster",
@@ -1611,7 +1611,7 @@
     {
       "name": "RFoxyPoster",
       "type": "block",
-      "sortid": 105,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_foxy_poster",
@@ -1628,7 +1628,7 @@
     {
       "name": "LeftyPoster",
       "type": "block",
-      "sortid": 110,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lefty_poster",
@@ -1645,7 +1645,7 @@
     {
       "name": "Impala",
       "type": "animatedentity",
-      "sortid": 137,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "impala",
@@ -1662,7 +1662,7 @@
     {
       "name": "ImpalaBlock",
       "type": "animatedblock",
-      "sortid": 138,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "impala_block",
@@ -1685,7 +1685,7 @@
     {
       "name": "Banjo",
       "type": "item",
-      "sortid": 130,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "banjo",
@@ -1700,7 +1700,7 @@
     {
       "name": "Maracas",
       "type": "item",
-      "sortid": 131,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maracas",
@@ -1715,7 +1715,7 @@
     {
       "name": "Accordion",
       "type": "item",
-      "sortid": 132,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "accordion",
@@ -1730,7 +1730,7 @@
     {
       "name": "Mandolin",
       "type": "item",
-      "sortid": 133,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mandolin",
@@ -1745,7 +1745,7 @@
     {
       "name": "Wand",
       "type": "item",
-      "sortid": 134,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wand",
@@ -1760,7 +1760,7 @@
     {
       "name": "ToyMic",
       "type": "item",
-      "sortid": 135,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "toy_mic",
@@ -1775,7 +1775,7 @@
     {
       "name": "Guitar",
       "type": "item",
-      "sortid": 136,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guitar",
@@ -1790,7 +1790,7 @@
     {
       "name": "Props",
       "type": "tab",
-      "sortid": 211,
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "registry_name": "props",
@@ -1802,7 +1802,7 @@
     {
       "name": "DogeRam",
       "type": "animatedentity",
-      "sortid": 139,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doge_ram",
@@ -1819,7 +1819,7 @@
     {
       "name": "DogeRamBlock",
       "type": "animatedblock",
-      "sortid": 140,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doge_ram_block",
@@ -1842,7 +1842,7 @@
     {
       "name": "DFreddy",
       "type": "animatedentity",
-      "sortid": 143,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "d_freddy",
@@ -1859,7 +1859,7 @@
     {
       "name": "DBonnie",
       "type": "animatedentity",
-      "sortid": 145,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "d_bonnie",
@@ -1876,7 +1876,7 @@
     {
       "name": "Dchica",
       "type": "animatedentity",
-      "sortid": 146,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dchica",
@@ -1893,7 +1893,7 @@
     {
       "name": "DFoxy",
       "type": "animatedentity",
-      "sortid": 147,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "d_foxy",
@@ -1910,7 +1910,7 @@
     {
       "name": "Dfredbear",
       "type": "animatedentity",
-      "sortid": 148,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dfredbear",
@@ -1927,7 +1927,7 @@
     {
       "name": "DMangle",
       "type": "animatedentity",
-      "sortid": 149,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "d_mangle",
@@ -1944,7 +1944,7 @@
     {
       "name": "OldBonnie",
       "type": "animatedblock",
-      "sortid": 144,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_bonnie",
@@ -1967,7 +1967,7 @@
     {
       "name": "OldFreddy",
       "type": "animatedblock",
-      "sortid": 150,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_freddy",
@@ -1990,7 +1990,7 @@
     {
       "name": "OldChica",
       "type": "animatedblock",
-      "sortid": 151,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_chica",
@@ -2013,7 +2013,7 @@
     {
       "name": "OldFoxy",
       "type": "animatedblock",
-      "sortid": 152,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_foxy",
@@ -2036,7 +2036,7 @@
     {
       "name": "DBalloonBoy",
       "type": "animatedblock",
-      "sortid": 153,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "d_balloon_boy",
@@ -2059,7 +2059,7 @@
     {
       "name": "Cars",
       "type": "tab",
-      "sortid": 212,
+      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cars",
@@ -2071,7 +2071,7 @@
     {
       "name": "PrivateRoom",
       "type": "tab",
-      "sortid": 213,
+      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "registry_name": "private_room",
@@ -2083,7 +2083,7 @@
     {
       "name": "ShopBlocks",
       "type": "tab",
-      "sortid": 214,
+      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shop_blocks",
@@ -2095,7 +2095,7 @@
     {
       "name": "PlushOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 215,
+      "sortid": 214,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plush_on_block_right_clicked",
@@ -2127,7 +2127,7 @@
     {
       "name": "DocPlush",
       "type": "animatedblock",
-      "sortid": 183,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_plush",
@@ -2150,7 +2150,7 @@
     {
       "name": "Plush",
       "type": "tab",
-      "sortid": 216,
+      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plush",
@@ -2162,7 +2162,7 @@
     {
       "name": "MonitorsStephan",
       "type": "block",
-      "sortid": 154,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "monitors_stephan",
@@ -2179,7 +2179,7 @@
     {
       "name": "Tv",
       "type": "block",
-      "sortid": 157,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tv",
@@ -2196,7 +2196,7 @@
     {
       "name": "TvDoug",
       "type": "block",
-      "sortid": 158,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tv_doug",
@@ -2213,7 +2213,7 @@
     {
       "name": "TvMarcelo",
       "type": "block",
-      "sortid": 159,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tv_marcelo",
@@ -2230,7 +2230,7 @@
     {
       "name": "GarfPlush",
       "type": "animatedblock",
-      "sortid": 184,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garf_plush",
@@ -2253,7 +2253,7 @@
     {
       "name": "GarfPlushOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 217,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garf_plush_on_block_right_clicked",
@@ -2285,7 +2285,7 @@
     {
       "name": "Rosey",
       "type": "animatedblock",
-      "sortid": 185,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rosey",
@@ -2308,7 +2308,7 @@
     {
       "name": "TvOff",
       "type": "block",
-      "sortid": 156,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tv_off",
@@ -2325,7 +2325,7 @@
     {
       "name": "StationWagon",
       "type": "animatedentity",
-      "sortid": 141,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "station_wagon",
@@ -2342,7 +2342,7 @@
     {
       "name": "StationWagonBlock",
       "type": "animatedblock",
-      "sortid": 142,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "station_wagon_block",
@@ -2365,7 +2365,7 @@
     {
       "name": "DeluxeSpeakerSet",
       "type": "animatedblock",
-      "sortid": 87,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deluxe_speaker_set",
@@ -2388,7 +2388,7 @@
     {
       "name": "BalloonBarrel",
       "type": "block",
-      "sortid": 78,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "balloon_barrel",
@@ -2405,7 +2405,7 @@
     {
       "name": "PaperPalClown",
       "type": "block",
-      "sortid": 79,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "paper_pal_clown",
@@ -2422,7 +2422,7 @@
     {
       "name": "PapperPalMrHippo",
       "type": "block",
-      "sortid": 80,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "papper_pal_mr_hippo",
@@ -2439,7 +2439,7 @@
     {
       "name": "PapperPalOrvil",
       "type": "block",
-      "sortid": 81,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "papper_pal_orvil",
@@ -2456,7 +2456,7 @@
     {
       "name": "DiscoPizza",
       "type": "block",
-      "sortid": 111,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "disco_pizza",
@@ -2473,7 +2473,7 @@
     {
       "name": "NeonJukeBox",
       "type": "animatedblock",
-      "sortid": 97,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neon_juke_box",
@@ -2496,7 +2496,7 @@
     {
       "name": "LadderTower",
       "type": "animatedblock",
-      "sortid": 98,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ladder_tower",
@@ -2519,7 +2519,7 @@
     {
       "name": "GumballSwivelHands",
       "type": "block",
-      "sortid": 89,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gumball_swivel_hands",
@@ -2536,7 +2536,7 @@
     {
       "name": "BallPitTower",
       "type": "animatedblock",
-      "sortid": 101,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ball_pit_tower",
@@ -2559,7 +2559,7 @@
     {
       "name": "EnhancedSpeakerSet",
       "type": "animatedblock",
-      "sortid": 88,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enhanced_speaker_set",
@@ -2582,7 +2582,7 @@
     {
       "name": "FruitPunchClown",
       "type": "animatedblock",
-      "sortid": 100,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fruit_punch_clown",
@@ -2605,7 +2605,7 @@
     {
       "name": "LemonadeClown",
       "type": "animatedblock",
-      "sortid": 99,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lemonade_clown",
@@ -2628,7 +2628,7 @@
     {
       "name": "DiscountBallpit",
       "type": "animatedblock",
-      "sortid": 82,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "discount_ballpit",
@@ -2651,7 +2651,7 @@
     {
       "name": "EggBaby",
       "type": "animatedblock",
-      "sortid": 112,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "egg_baby",
@@ -2674,7 +2674,7 @@
     {
       "name": "MrHugs",
       "type": "animatedblock",
-      "sortid": 7,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mr_hugs",
@@ -2697,7 +2697,7 @@
     {
       "name": "Number1Crate",
       "type": "animatedblock",
-      "sortid": 8,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "number_1_crate",
@@ -2720,7 +2720,7 @@
     {
       "name": "IgnitedChica",
       "type": "animatedblock",
-      "sortid": 31,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ignited_chica",
@@ -2743,7 +2743,7 @@
     {
       "name": "MoltenSit",
       "type": "animatedblock",
-      "sortid": 30,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "molten_sit",
@@ -2766,7 +2766,7 @@
     {
       "name": "FreddyFazBear",
       "type": "animatedblock",
-      "sortid": 16,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "freddy_faz_bear",
@@ -2789,7 +2789,7 @@
     {
       "name": "VESSELOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 218,
+      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vessel_on_block_right_clicked",
@@ -2821,7 +2821,7 @@
     {
       "name": "VESSEL",
       "type": "block",
-      "sortid": 186,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vessel",
@@ -2838,7 +2838,7 @@
     {
       "name": "MidnightMotorist",
       "type": "animatedblock",
-      "sortid": 91,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "midnight_motorist",
@@ -2861,7 +2861,7 @@
     {
       "name": "FruityMaze",
       "type": "animatedblock",
-      "sortid": 92,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fruity_maze",
@@ -2884,7 +2884,7 @@
     {
       "name": "StephanPlush",
       "type": "animatedblock",
-      "sortid": 187,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stephan_plush",
@@ -2907,7 +2907,7 @@
     {
       "name": "StephanPlushOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 219,
+      "sortid": 218,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stephan_plush_on_block_right_clicked",
@@ -2939,7 +2939,7 @@
     {
       "name": "PanStan",
       "type": "animatedblock",
-      "sortid": 42,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pan_stan",
@@ -2962,7 +2962,7 @@
     {
       "name": "Remote",
       "type": "item",
-      "sortid": 171,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "remote",
@@ -2977,7 +2977,7 @@
     {
       "name": "BucketBob",
       "type": "animatedblock",
-      "sortid": 43,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bucket_bob",
@@ -3000,7 +3000,7 @@
     {
       "name": "MrCanDo",
       "type": "animatedblock",
-      "sortid": 44,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mr_can_do",
@@ -3023,7 +3023,7 @@
     {
       "name": "BalloonBoy",
       "type": "animatedblock",
-      "sortid": 45,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "balloon_boy",
@@ -3046,7 +3046,7 @@
     {
       "name": "BonBon",
       "type": "animatedblock",
-      "sortid": 46,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bon_bon",
@@ -3069,7 +3069,7 @@
     {
       "name": "Bonnet",
       "type": "animatedblock",
-      "sortid": 47,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bonnet",
@@ -3092,7 +3092,7 @@
     {
       "name": "Bonnie",
       "type": "animatedblock",
-      "sortid": 48,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bonnie",
@@ -3115,7 +3115,7 @@
     {
       "name": "Chica",
       "type": "animatedblock",
-      "sortid": 49,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chica",
@@ -3138,7 +3138,7 @@
     {
       "name": "Foxy",
       "type": "animatedblock",
-      "sortid": 50,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "foxy",
@@ -3161,7 +3161,7 @@
     {
       "name": "FtFoxy",
       "type": "animatedblock",
-      "sortid": 51,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ft_foxy",
@@ -3184,7 +3184,7 @@
     {
       "name": "LolBit",
       "type": "animatedblock",
-      "sortid": 52,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lol_bit",
@@ -3207,7 +3207,7 @@
     {
       "name": "LolBitDt",
       "type": "animatedblock",
-      "sortid": 53,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lol_bit_dt",
@@ -3230,7 +3230,7 @@
     {
       "name": "RetroChica",
       "type": "animatedblock",
-      "sortid": 54,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "retro_chica",
@@ -3253,7 +3253,7 @@
     {
       "name": "ToyFreddy",
       "type": "animatedblock",
-      "sortid": 55,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "toy_freddy",
@@ -3276,7 +3276,7 @@
     {
       "name": "ToyFoxy",
       "type": "animatedblock",
-      "sortid": 56,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "toy_foxy",
@@ -3299,7 +3299,7 @@
     {
       "name": "ToyChica",
       "type": "animatedblock",
-      "sortid": 57,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "toy_chica",
@@ -3322,7 +3322,7 @@
     {
       "name": "ToyBonnie",
       "type": "animatedblock",
-      "sortid": 58,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "toy_bonnie",
@@ -3345,7 +3345,7 @@
     {
       "name": "BonkABon",
       "type": "animatedblock",
-      "sortid": 113,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bonk_a_bon",
@@ -3368,7 +3368,7 @@
     {
       "name": "BrokenFreddy",
       "type": "animatedblock",
-      "sortid": 172,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "broken_freddy",
@@ -3391,7 +3391,7 @@
     {
       "name": "BrokenBonnie",
       "type": "animatedblock",
-      "sortid": 173,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "broken_bonnie",
@@ -3414,7 +3414,7 @@
     {
       "name": "BrokenChica",
       "type": "animatedblock",
-      "sortid": 174,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "broken_chica",
@@ -3437,7 +3437,7 @@
     {
       "name": "CarnivalHoops",
       "type": "animatedblock",
-      "sortid": 114,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "carnival_hoops",
@@ -3460,7 +3460,7 @@
     {
       "name": "GravityVortex",
       "type": "animatedblock",
-      "sortid": 220,
+      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gravity_vortex",
@@ -3483,7 +3483,7 @@
     {
       "name": "GravityVortex2",
       "type": "animatedblock",
-      "sortid": 115,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gravity_vortex_2",
@@ -3506,7 +3506,7 @@
     {
       "name": "Pickles",
       "type": "animatedblock",
-      "sortid": 116,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pickles",
@@ -3529,7 +3529,7 @@
     {
       "name": "DougTheDog",
       "type": "animatedblock",
-      "sortid": 59,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doug_the_dog",
@@ -3552,7 +3552,7 @@
     {
       "name": "WitheredDougTheDog",
       "type": "animatedblock",
-      "sortid": 60,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "withered_doug_the_dog",
@@ -3575,7 +3575,7 @@
     {
       "name": "Endo02",
       "type": "animatedblock",
-      "sortid": 61,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "endo_02",
@@ -3598,7 +3598,7 @@
     {
       "name": "TvFizTime",
       "type": "block",
-      "sortid": 160,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tv_fiz_time",
@@ -3615,7 +3615,7 @@
     {
       "name": "TvMarty",
       "type": "block",
-      "sortid": 161,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tv_marty",
@@ -3632,7 +3632,7 @@
     {
       "name": "TvFlos",
       "type": "block",
-      "sortid": 162,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tv_flos",
@@ -3649,7 +3649,7 @@
     {
       "name": "TvWartPaste",
       "type": "block",
-      "sortid": 163,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tv_wart_paste",
@@ -3666,7 +3666,7 @@
     {
       "name": "TvLally",
       "type": "block",
-      "sortid": 164,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tv_lally",
@@ -3683,7 +3683,7 @@
     {
       "name": "TvPopCorn",
       "type": "block",
-      "sortid": 165,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tv_pop_corn",
@@ -3700,7 +3700,7 @@
     {
       "name": "TvFreddyNFren",
       "type": "block",
-      "sortid": 166,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tv_freddy_n_fren",
@@ -3717,7 +3717,7 @@
     {
       "name": "TvIATR",
       "type": "block",
-      "sortid": 167,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tv_iatr",
@@ -3734,7 +3734,7 @@
     {
       "name": "DiscountCoolingUnit",
       "type": "animatedblock",
-      "sortid": 117,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "discount_cooling_unit",
@@ -3757,7 +3757,7 @@
     {
       "name": "Rasc",
       "type": "animatedblock",
-      "sortid": 175,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rasc",
@@ -3780,7 +3780,7 @@
     {
       "name": "SeatRightClickedOnEntity",
       "type": "procedure",
-      "sortid": 221,
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seat_right_clicked_on_entity",
@@ -3816,7 +3816,7 @@
     {
       "name": "SeatOnEntityTickUpdate",
       "type": "procedure",
-      "sortid": 222,
+      "sortid": 221,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seat_on_entity_tick_update",
@@ -3836,7 +3836,7 @@
     {
       "name": "Seat",
       "type": "livingentity",
-      "sortid": 223,
+      "sortid": 222,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seat",
@@ -3853,7 +3853,7 @@
     {
       "name": "ShredBear",
       "type": "animatedblock",
-      "sortid": 176,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shred_bear",
@@ -3876,7 +3876,7 @@
     {
       "name": "LolBit409",
       "type": "animatedblock",
-      "sortid": 62,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lol_bit_409",
@@ -3899,7 +3899,7 @@
     {
       "name": "BalloonCart",
       "type": "animatedblock",
-      "sortid": 118,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "balloon_cart",
@@ -3922,7 +3922,7 @@
     {
       "name": "RidingRocketsRed",
       "type": "animatedblock",
-      "sortid": 119,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "riding_rockets_red",
@@ -3945,7 +3945,7 @@
     {
       "name": "RidingRocketsPurple",
       "type": "animatedblock",
-      "sortid": 120,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "riding_rockets_purple",
@@ -3968,7 +3968,7 @@
     {
       "name": "PaperPlates",
       "type": "animatedblock",
-      "sortid": 121,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "paper_plates",
@@ -3991,7 +3991,7 @@
     {
       "name": "NeonStageLightGreen",
       "type": "animatedblock",
-      "sortid": 122,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neon_stage_light_green",
@@ -4014,7 +4014,7 @@
     {
       "name": "NeonStageLightsPink",
       "type": "animatedblock",
-      "sortid": 123,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neon_stage_lights_pink",
@@ -4037,7 +4037,7 @@
     {
       "name": "NeonStageLightsBlue",
       "type": "animatedblock",
-      "sortid": 124,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neon_stage_lights_blue",
@@ -4060,7 +4060,7 @@
     {
       "name": "CeilingStageLights",
       "type": "animatedblock",
-      "sortid": 125,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ceiling_stage_lights",
@@ -4083,7 +4083,7 @@
     {
       "name": "CeilingStageLightpink",
       "type": "animatedblock",
-      "sortid": 126,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ceiling_stage_lightpink",
@@ -4106,7 +4106,7 @@
     {
       "name": "CeilingStageLightblue",
       "type": "animatedblock",
-      "sortid": 127,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ceiling_stage_lightblue",
@@ -4129,7 +4129,7 @@
     {
       "name": "FAT",
       "type": "item",
-      "sortid": 177,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fat",
@@ -4144,7 +4144,7 @@
     {
       "name": "DeluxeBallpit",
       "type": "animatedblock",
-      "sortid": 128,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deluxe_ballpit",
@@ -4167,7 +4167,7 @@
     {
       "name": "RottenPit",
       "type": "animatedblock",
-      "sortid": 178,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rotten_pit",
@@ -4190,7 +4190,7 @@
     {
       "name": "TvNews",
       "type": "block",
-      "sortid": 168,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tv_news",
@@ -4207,7 +4207,7 @@
     {
       "name": "TvChannelsOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 224,
+      "sortid": 223,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tv_channels_on_block_right_clicked",
@@ -4243,7 +4243,7 @@
     {
       "name": "FrightsSign",
       "type": "animatedblock",
-      "sortid": 225,
+      "sortid": 224,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frights_sign",
@@ -4266,7 +4266,7 @@
     {
       "name": "FrightsSign2",
       "type": "animatedblock",
-      "sortid": 179,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frights_sign_2",
@@ -4289,7 +4289,7 @@
     {
       "name": "FrightsSign2RedstoneOn",
       "type": "procedure",
-      "sortid": 226,
+      "sortid": 225,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frights_sign_2_redstone_on",
@@ -4321,7 +4321,7 @@
     {
       "name": "FrightsSignRedstoneOff",
       "type": "procedure",
-      "sortid": 227,
+      "sortid": 226,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frights_sign_redstone_off",
@@ -4353,7 +4353,7 @@
     {
       "name": "PizzaPlaceSign",
       "type": "animatedblock",
-      "sortid": 180,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pizza_place_sign",
@@ -4376,7 +4376,7 @@
     {
       "name": "PizzaPlaceSignOld",
       "type": "animatedblock",
-      "sortid": 181,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pizza_place_sign_old",
@@ -4399,7 +4399,7 @@
     {
       "name": "AnimatedAnimatronicOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 228,
+      "sortid": 227,
       "compiles": true,
       "locked_code": false,
       "registry_name": "animated_animatronic_on_block_right_clicked",
@@ -4435,7 +4435,7 @@
     {
       "name": "Trumpet",
       "type": "item",
-      "sortid": 129,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trumpet",
@@ -4450,7 +4450,7 @@
     {
       "name": "Dolls",
       "type": "animatedblock",
-      "sortid": 188,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dolls",
@@ -4473,7 +4473,7 @@
     {
       "name": "DollsOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 229,
+      "sortid": 228,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dolls_on_block_right_clicked",
@@ -4505,7 +4505,7 @@
     {
       "name": "HazyReindeer",
       "type": "animatedblock",
-      "sortid": 65,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hazy_reindeer",
@@ -4528,7 +4528,7 @@
     {
       "name": "HazyReindeerAnimated",
       "type": "animatedblock",
-      "sortid": 230,
+      "sortid": 229,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hazy_reindeer_animated",
@@ -4551,7 +4551,7 @@
     {
       "name": "WallyWalrus",
       "type": "animatedblock",
-      "sortid": 63,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wally_walrus",
@@ -4574,7 +4574,7 @@
     {
       "name": "WallyWalrusAnimated",
       "type": "animatedblock",
-      "sortid": 231,
+      "sortid": 230,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wally_walrus_animated",
@@ -4597,7 +4597,7 @@
     {
       "name": "PuffyPuffins",
       "type": "animatedblock",
-      "sortid": 64,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "puffy_puffins",
@@ -4620,7 +4620,7 @@
     {
       "name": "PuffyPuffinsAnimated",
       "type": "animatedblock",
-      "sortid": 232,
+      "sortid": 231,
       "compiles": true,
       "locked_code": false,
       "registry_name": "puffy_puffins_animated",
@@ -4643,7 +4643,7 @@
     {
       "name": "WitheredWallyWalrus",
       "type": "animatedblock",
-      "sortid": 66,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "withered_wally_walrus",
@@ -4666,7 +4666,7 @@
     {
       "name": "WitheredPuffyPuffins",
       "type": "animatedblock",
-      "sortid": 67,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "withered_puffy_puffins",
@@ -4689,7 +4689,7 @@
     {
       "name": "WitheredHazyReindeer",
       "type": "animatedblock",
-      "sortid": 68,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "withered_hazy_reindeer",
@@ -4712,7 +4712,7 @@
     {
       "name": "MonitorsLolbit",
       "type": "block",
-      "sortid": 155,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "monitors_lolbit",
@@ -4729,7 +4729,7 @@
     {
       "name": "TvLolbit",
       "type": "block",
-      "sortid": 170,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tv_lolbit",
@@ -4746,7 +4746,7 @@
     {
       "name": "MonitorLolbit",
       "type": "block",
-      "sortid": 169,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "monitor_lolbit",
@@ -4763,7 +4763,7 @@
     {
       "name": "GtEndo",
       "type": "animatedblock",
-      "sortid": 69,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gt_endo",
@@ -4786,7 +4786,7 @@
     {
       "name": "GtEndoAnimated",
       "type": "animatedblock",
-      "sortid": 70,
+      "sortid": 232,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gt_endo_animated",
@@ -4809,7 +4809,7 @@
     {
       "name": "StEndo",
       "type": "animatedblock",
-      "sortid": 71,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "st_endo",
@@ -4832,7 +4832,7 @@
     {
       "name": "StEndoAnimated",
       "type": "animatedblock",
-      "sortid": 72,
+      "sortid": 233,
       "compiles": true,
       "locked_code": false,
       "registry_name": "st_endo_animated",
@@ -4855,7 +4855,7 @@
     {
       "name": "BuffetEndo",
       "type": "animatedblock",
-      "sortid": 73,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "buffet_endo",
@@ -4878,7 +4878,7 @@
     {
       "name": "JeffsPizzaSign",
       "type": "animatedblock",
-      "sortid": 182,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jeffs_pizza_sign",
@@ -5007,6 +5007,29 @@
         ]
       },
       "path": "~/Blocks/Building"
+    },
+    {
+      "name": "LolbitRecord",
+      "type": "animatedblock",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolbit_record",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/renderer/LolbitRecordTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/LolbitRecordBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/model/LolbitRecordDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/entity/LolbitRecordTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/LolbitRecordBlock.java",
+          "src/main/java/net/mcreator/fbms/block/display/LolbitRecordDisplayItem.java",
+          "src/main/resources/assets/fbms/models/custom/lolbit_record_particle.json",
+          "src/main/resources/assets/fbms/blockstates/lolbit_record.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/LolbitRecordDisplayItemRenderer.java",
+          "src/main/resources/assets/fbms/models/item/lolbit_record.json"
+        ]
+      },
+      "path": "~/Blocks/Props"
     }
   ],
   "variable_elements": [],
@@ -5067,6 +5090,7 @@
       "block.fbms.black_white_confetti_tile_stairs": "Black White Confetti Tile Stairs",
       "block.fbms.chica": "Chica",
       "block.fbms.nedd_bear": "Nedd Bear",
+      "block.fbms.lolbit_record": "Lolbit Record",
       "subtitles.byebye": "WERE DID HE GO",
       "block.fbms.bon_bon": "BonBon",
       "block.fbms.disco_pizza": "Disco Pizza",
