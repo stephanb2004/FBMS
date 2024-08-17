@@ -43,5 +43,14 @@
         "stream": false
       }
     ]
+  },
+  "tink": {
+    "subtitle": "subtitles.tink",
+    "sounds": [
+      {
+        "name": "fbms:tink",
+        "stream": false
+      }
+    ]
   }
 }

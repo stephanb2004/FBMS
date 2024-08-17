@@ -122,6 +122,7 @@ import net.mcreator.fbms.block.entity.EggBabyTileEntity;
 import net.mcreator.fbms.block.entity.DuckPondTileEntity;
 import net.mcreator.fbms.block.entity.DrTeathTileEntity;
 import net.mcreator.fbms.block.entity.DougTheDogTileEntity;
+import net.mcreator.fbms.block.entity.DollsTileEntity;
 import net.mcreator.fbms.block.entity.DogeRamBlockTileEntity;
 import net.mcreator.fbms.block.entity.DocPlushTileEntity;
 import net.mcreator.fbms.block.entity.DiscountCoolingUnitTileEntity;
@@ -352,6 +353,7 @@ public class FbmsModBlockEntities {
 			() -> BlockEntityType.Builder.of(PizzaPlaceSignTileEntity::new, FbmsModBlocks.PIZZA_PLACE_SIGN.get()).build(null));
 	public static final RegistryObject<BlockEntityType<PizzaPlaceSignOldTileEntity>> PIZZA_PLACE_SIGN_OLD = REGISTRY.register("pizza_place_sign_old",
 			() -> BlockEntityType.Builder.of(PizzaPlaceSignOldTileEntity::new, FbmsModBlocks.PIZZA_PLACE_SIGN_OLD.get()).build(null));
+	public static final RegistryObject<BlockEntityType<DollsTileEntity>> DOLLS = REGISTRY.register("dolls", () -> BlockEntityType.Builder.of(DollsTileEntity::new, FbmsModBlocks.DOLLS.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

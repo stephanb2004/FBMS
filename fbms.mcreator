@@ -5547,6 +5547,61 @@
         ]
       },
       "path": "~/Blocks/Props/Signs"
+    },
+    {
+      "name": "Dolls",
+      "type": "animatedblock",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolls",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/display/DollsDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/DollsBlock.java",
+          "src/main/resources/assets/fbms/models/item/dolls.json",
+          "src/main/java/net/mcreator/fbms/block/entity/DollsTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/DollsTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/DollsDisplayModel.java",
+          "src/main/resources/assets/fbms/blockstates/dolls.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/DollsDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/DollsBlockModel.java",
+          "src/main/resources/assets/fbms/models/custom/dolls_particle.json"
+        ]
+      },
+      "path": "~/Blocks/Props/Plushies"
+    },
+    {
+      "name": "DollsOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolls_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/DollsOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Props/Plushies"
     }
   ],
   "variable_elements": [],
@@ -5590,6 +5645,14 @@
       ],
       "category": "neutral",
       "subtitle": "Turn On"
+    },
+    {
+      "name": "tink",
+      "files": [
+        "tink"
+      ],
+      "category": "neutral",
+      "subtitle": "Tink"
     }
   ],
   "language_map": {
@@ -5636,6 +5699,7 @@
       "block.fbms.tv_marty": "Tv (Marty)",
       "block.fbms.endo_01_animated": "Endo 0 1 Animated",
       "block.fbms.happy_frog": "Happy Frog",
+      "block.fbms.dolls": "DocNDt Dolls",
       "item.fbms.mandolin": "Mandolin",
       "block.fbms.riding_rockets_red": "Riding Rockets",
       "block.fbms.prize_king": "Prize King",
@@ -5776,6 +5840,7 @@
       "block.fbms.broken_chica": "Broken Chica",
       "block.fbms.ignited_chica": "Ignited Chica",
       "block.fbms.mr_can_do": "Mr Can Do",
+      "subtitles.tink": "Tink",
       "itemGroup.tabcars": "Cars",
       "block.fbms.el_chip_animated": "El Chip Animated",
       "block.fbms.pizza_place_sign": "Pizza Place Sign",

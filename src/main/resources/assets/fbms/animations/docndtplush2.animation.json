@@ -1,0 +1,97 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"0": {
+			"loop": true,
+			"bones": {
+				"Chibi": {
+					"rotation": {
+						"vector": [0, -20, 0]
+					},
+					"position": {
+						"vector": [-2.5, -6, 0.25]
+					}
+				},
+				"Head": {
+					"rotation": {
+						"vector": [0, 0, -7.5]
+					},
+					"position": {
+						"vector": [-1, -0.5, 0]
+					}
+				},
+				"Right_Arm": {
+					"rotation": {
+						"vector": [0, 0, 7.5]
+					},
+					"position": {
+						"vector": [0, 2, 0]
+					}
+				},
+				"Tail": {
+					"rotation": {
+						"vector": [17.5, 0, 0]
+					}
+				},
+				"Left_Leg": {
+					"rotation": {
+						"vector": [-90, -15, 0]
+					},
+					"position": {
+						"vector": [0, 0, -9]
+					}
+				},
+				"Right_Leg": {
+					"rotation": {
+						"vector": [-90, 10, 0]
+					},
+					"position": {
+						"vector": [0, 0, -3]
+					}
+				},
+				"Torso": {
+					"position": {
+						"vector": [0, 0, -5]
+					}
+				},
+				"Chibi2": {
+					"rotation": {
+						"vector": [0, 25, 0]
+					},
+					"position": {
+						"vector": [2, -6, 0.25]
+					}
+				},
+				"Head2": {
+					"rotation": {
+						"vector": [0.10912, 2.49762, 10.00238]
+					}
+				},
+				"Left_Arm2": {
+					"rotation": {
+						"vector": [0, 0, -7.5]
+					}
+				},
+				"Tail2": {
+					"rotation": {
+						"vector": [17.5, 0, 0]
+					}
+				},
+				"Left_Leg2": {
+					"rotation": {
+						"vector": [-90, -10, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"Right_Leg2": {
+					"rotation": {
+						"vector": [-90, 10, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

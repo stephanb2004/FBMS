@@ -135,6 +135,7 @@ import net.mcreator.fbms.block.display.EggBabyDisplayItem;
 import net.mcreator.fbms.block.display.DuckPondDisplayItem;
 import net.mcreator.fbms.block.display.DrTeathDisplayItem;
 import net.mcreator.fbms.block.display.DougTheDogDisplayItem;
+import net.mcreator.fbms.block.display.DollsDisplayItem;
 import net.mcreator.fbms.block.display.DogeRamBlockDisplayItem;
 import net.mcreator.fbms.block.display.DocPlushDisplayItem;
 import net.mcreator.fbms.block.display.DiscountCoolingUnitDisplayItem;
@@ -414,6 +415,7 @@ public class FbmsModItems {
 			() -> new PizzaPlaceSignDisplayItem(FbmsModBlocks.PIZZA_PLACE_SIGN.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
 	public static final RegistryObject<Item> PIZZA_PLACE_SIGN_OLD = REGISTRY.register(FbmsModBlocks.PIZZA_PLACE_SIGN_OLD.getId().getPath(),
 			() -> new PizzaPlaceSignOldDisplayItem(FbmsModBlocks.PIZZA_PLACE_SIGN_OLD.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> DOLLS = REGISTRY.register(FbmsModBlocks.DOLLS.getId().getPath(), () -> new DollsDisplayItem(FbmsModBlocks.DOLLS.get(), new Item.Properties().tab(FbmsModTabs.TAB_PLUSH)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

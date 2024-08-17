@@ -1,0 +1,24 @@
+package net.mcreator.fbms.block.renderer;
+
+import software.bernie.geckolib3.renderers.geo.GeoItemRenderer;
+
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
+
+import net.mcreator.fbms.block.model.DollsDisplayModel;
+import net.mcreator.fbms.block.display.DollsDisplayItem;
+
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.PoseStack;
+
+public class DollsDisplayItemRenderer extends GeoItemRenderer<DollsDisplayItem> {
+	public DollsDisplayItemRenderer() {
+		super(new DollsDisplayModel());
+	}
+
+	@Override
+	public RenderType getRenderType(DollsDisplayItem animatable, float partialTick, PoseStack poseStack, MultiBufferSource bufferSource, VertexConsumer buffer, int packedLight, ResourceLocation texture) {
+		return RenderType.entityTranslucent(getTextureLocation(animatable));
+	}
+}

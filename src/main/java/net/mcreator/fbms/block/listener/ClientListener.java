@@ -118,6 +118,7 @@ import net.mcreator.fbms.block.renderer.EggBabyTileRenderer;
 import net.mcreator.fbms.block.renderer.DuckPondTileRenderer;
 import net.mcreator.fbms.block.renderer.DrTeathTileRenderer;
 import net.mcreator.fbms.block.renderer.DougTheDogTileRenderer;
+import net.mcreator.fbms.block.renderer.DollsTileRenderer;
 import net.mcreator.fbms.block.renderer.DogeRamBlockTileRenderer;
 import net.mcreator.fbms.block.renderer.DocPlushTileRenderer;
 import net.mcreator.fbms.block.renderer.DiscountCoolingUnitTileRenderer;
@@ -298,5 +299,6 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.FRIGHTS_SIGN_2.get(), FrightsSign2TileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.PIZZA_PLACE_SIGN.get(), PizzaPlaceSignTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.PIZZA_PLACE_SIGN_OLD.get(), PizzaPlaceSignOldTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.DOLLS.get(), DollsTileRenderer::new);
 	}
 }

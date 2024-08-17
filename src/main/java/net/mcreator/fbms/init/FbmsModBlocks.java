@@ -145,6 +145,7 @@ import net.mcreator.fbms.block.EggBabyBlock;
 import net.mcreator.fbms.block.DuckPondBlock;
 import net.mcreator.fbms.block.DrTeathBlock;
 import net.mcreator.fbms.block.DougTheDogBlock;
+import net.mcreator.fbms.block.DollsBlock;
 import net.mcreator.fbms.block.DogeRamBlockBlock;
 import net.mcreator.fbms.block.DocPlushBlock;
 import net.mcreator.fbms.block.DiscountCoolingUnitBlock;
@@ -350,4 +351,5 @@ public class FbmsModBlocks {
 	public static final RegistryObject<Block> FRIGHTS_SIGN_2 = REGISTRY.register("frights_sign_2", () -> new FrightsSign2Block());
 	public static final RegistryObject<Block> PIZZA_PLACE_SIGN = REGISTRY.register("pizza_place_sign", () -> new PizzaPlaceSignBlock());
 	public static final RegistryObject<Block> PIZZA_PLACE_SIGN_OLD = REGISTRY.register("pizza_place_sign_old", () -> new PizzaPlaceSignOldBlock());
+	public static final RegistryObject<Block> DOLLS = REGISTRY.register("dolls", () -> new DollsBlock());
 }
