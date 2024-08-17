@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "fbms:blocks/tiles_blackwhite_clean",
+    "top": "fbms:blocks/tiles_blackwhite_clean",
+    "side": "fbms:blocks/tiles_blackwhite_clean"
+  },
+  "render_type": "solid"
+}

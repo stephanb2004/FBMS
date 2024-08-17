@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "fbms:blocks/tiles_blackwhite_confetti",
+    "top": "fbms:blocks/tiles_blackwhite_confetti",
+    "side": "fbms:blocks/tiles_blackwhite_confetti"
+  },
+  "render_type": "solid"
+}

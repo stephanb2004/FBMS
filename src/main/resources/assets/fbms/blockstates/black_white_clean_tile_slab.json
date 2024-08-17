@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fbms:block/black_white_clean_tile_slab"
+    },
+    "type=top": {
+      "model": "fbms:block/black_white_clean_tile_slab_top"
+    },
+    "type=double": {
+      "model": "fbms:block/black_white_clean_tile_slab_full"
+    }
+  }
+}

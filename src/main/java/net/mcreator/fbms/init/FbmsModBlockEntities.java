@@ -25,6 +25,8 @@ import net.mcreator.fbms.block.entity.ToyBonnieTileEntity;
 import net.mcreator.fbms.block.entity.TheMangleTileEntity;
 import net.mcreator.fbms.block.entity.StephanPlushTileEntity;
 import net.mcreator.fbms.block.entity.StationWagonBlockTileEntity;
+import net.mcreator.fbms.block.entity.StEndoTileEntity;
+import net.mcreator.fbms.block.entity.StEndoAnimatedTileEntity;
 import net.mcreator.fbms.block.entity.ShredBearTileEntity;
 import net.mcreator.fbms.block.entity.SecurityPuppetTileEntity;
 import net.mcreator.fbms.block.entity.ScrapTrapTileEntity;
@@ -97,12 +99,15 @@ import net.mcreator.fbms.block.entity.LargeSign4TileEntity;
 import net.mcreator.fbms.block.entity.LargeSign3TileEntity;
 import net.mcreator.fbms.block.entity.LargeSign2TileEntity;
 import net.mcreator.fbms.block.entity.LadderTowerTileEntity;
+import net.mcreator.fbms.block.entity.JeffsPizzaSignTileEntity;
 import net.mcreator.fbms.block.entity.ImpalaBlockTileEntity;
 import net.mcreator.fbms.block.entity.IgnitedChicaTileEntity;
 import net.mcreator.fbms.block.entity.HazyReindeerTileEntity;
 import net.mcreator.fbms.block.entity.HazyReindeerAnimatedTileEntity;
 import net.mcreator.fbms.block.entity.HappyFrogTileEntity;
 import net.mcreator.fbms.block.entity.HappYFrogAnimatedTileEntity;
+import net.mcreator.fbms.block.entity.GtEndoTileEntity;
+import net.mcreator.fbms.block.entity.GtEndoAnimatedTileEntity;
 import net.mcreator.fbms.block.entity.GravityVortexTileEntity;
 import net.mcreator.fbms.block.entity.GravityVortex2TileEntity;
 import net.mcreator.fbms.block.entity.GarfPlushTileEntity;
@@ -145,6 +150,7 @@ import net.mcreator.fbms.block.entity.CeilingStageLightpinkTileEntity;
 import net.mcreator.fbms.block.entity.CeilingStageLightblueTileEntity;
 import net.mcreator.fbms.block.entity.CarnivalHoopsTileEntity;
 import net.mcreator.fbms.block.entity.CandyCadetTileEntity;
+import net.mcreator.fbms.block.entity.BuffetEndoTileEntity;
 import net.mcreator.fbms.block.entity.BucketBobTileEntity;
 import net.mcreator.fbms.block.entity.BrokenFreddyTileEntity;
 import net.mcreator.fbms.block.entity.BrokenChicaTileEntity;
@@ -239,6 +245,13 @@ public class FbmsModBlockEntities {
 			() -> BlockEntityType.Builder.of(WitheredPuffyPuffinsTileEntity::new, FbmsModBlocks.WITHERED_PUFFY_PUFFINS.get()).build(null));
 	public static final RegistryObject<BlockEntityType<WitheredHazyReindeerTileEntity>> WITHERED_HAZY_REINDEER = REGISTRY.register("withered_hazy_reindeer",
 			() -> BlockEntityType.Builder.of(WitheredHazyReindeerTileEntity::new, FbmsModBlocks.WITHERED_HAZY_REINDEER.get()).build(null));
+	public static final RegistryObject<BlockEntityType<GtEndoTileEntity>> GT_ENDO = REGISTRY.register("gt_endo", () -> BlockEntityType.Builder.of(GtEndoTileEntity::new, FbmsModBlocks.GT_ENDO.get()).build(null));
+	public static final RegistryObject<BlockEntityType<GtEndoAnimatedTileEntity>> GT_ENDO_ANIMATED = REGISTRY.register("gt_endo_animated",
+			() -> BlockEntityType.Builder.of(GtEndoAnimatedTileEntity::new, FbmsModBlocks.GT_ENDO_ANIMATED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<StEndoTileEntity>> ST_ENDO = REGISTRY.register("st_endo", () -> BlockEntityType.Builder.of(StEndoTileEntity::new, FbmsModBlocks.ST_ENDO.get()).build(null));
+	public static final RegistryObject<BlockEntityType<StEndoAnimatedTileEntity>> ST_ENDO_ANIMATED = REGISTRY.register("st_endo_animated",
+			() -> BlockEntityType.Builder.of(StEndoAnimatedTileEntity::new, FbmsModBlocks.ST_ENDO_ANIMATED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<BuffetEndoTileEntity>> BUFFET_ENDO = REGISTRY.register("buffet_endo", () -> BlockEntityType.Builder.of(BuffetEndoTileEntity::new, FbmsModBlocks.BUFFET_ENDO.get()).build(null));
 	public static final RegistryObject<BlockEntityType<LargeSignTileEntity>> LARGE_SIGN = REGISTRY.register("large_sign", () -> BlockEntityType.Builder.of(LargeSignTileEntity::new, FbmsModBlocks.LARGE_SIGN.get()).build(null));
 	public static final RegistryObject<BlockEntityType<LargeSign2TileEntity>> LARGE_SIGN_2 = REGISTRY.register("large_sign_2", () -> BlockEntityType.Builder.of(LargeSign2TileEntity::new, FbmsModBlocks.LARGE_SIGN_2.get()).build(null));
 	public static final RegistryObject<BlockEntityType<LargeSign3TileEntity>> LARGE_SIGN_3 = REGISTRY.register("large_sign_3", () -> BlockEntityType.Builder.of(LargeSign3TileEntity::new, FbmsModBlocks.LARGE_SIGN_3.get()).build(null));
@@ -330,6 +343,8 @@ public class FbmsModBlockEntities {
 			() -> BlockEntityType.Builder.of(PizzaPlaceSignTileEntity::new, FbmsModBlocks.PIZZA_PLACE_SIGN.get()).build(null));
 	public static final RegistryObject<BlockEntityType<PizzaPlaceSignOldTileEntity>> PIZZA_PLACE_SIGN_OLD = REGISTRY.register("pizza_place_sign_old",
 			() -> BlockEntityType.Builder.of(PizzaPlaceSignOldTileEntity::new, FbmsModBlocks.PIZZA_PLACE_SIGN_OLD.get()).build(null));
+	public static final RegistryObject<BlockEntityType<JeffsPizzaSignTileEntity>> JEFFS_PIZZA_SIGN = REGISTRY.register("jeffs_pizza_sign",
+			() -> BlockEntityType.Builder.of(JeffsPizzaSignTileEntity::new, FbmsModBlocks.JEFFS_PIZZA_SIGN.get()).build(null));
 	public static final RegistryObject<BlockEntityType<DocPlushTileEntity>> DOC_PLUSH = REGISTRY.register("doc_plush", () -> BlockEntityType.Builder.of(DocPlushTileEntity::new, FbmsModBlocks.DOC_PLUSH.get()).build(null));
 	public static final RegistryObject<BlockEntityType<GarfPlushTileEntity>> GARF_PLUSH = REGISTRY.register("garf_plush", () -> BlockEntityType.Builder.of(GarfPlushTileEntity::new, FbmsModBlocks.GARF_PLUSH.get()).build(null));
 	public static final RegistryObject<BlockEntityType<RoseyTileEntity>> ROSEY = REGISTRY.register("rosey", () -> BlockEntityType.Builder.of(RoseyTileEntity::new, FbmsModBlocks.ROSEY.get()).build(null));

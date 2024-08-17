@@ -39,6 +39,8 @@ import net.mcreator.fbms.block.display.ToyBonnieDisplayItem;
 import net.mcreator.fbms.block.display.TheMangleDisplayItem;
 import net.mcreator.fbms.block.display.StephanPlushDisplayItem;
 import net.mcreator.fbms.block.display.StationWagonBlockDisplayItem;
+import net.mcreator.fbms.block.display.StEndoDisplayItem;
+import net.mcreator.fbms.block.display.StEndoAnimatedDisplayItem;
 import net.mcreator.fbms.block.display.ShredBearDisplayItem;
 import net.mcreator.fbms.block.display.SecurityPuppetDisplayItem;
 import net.mcreator.fbms.block.display.ScrapTrapDisplayItem;
@@ -111,12 +113,15 @@ import net.mcreator.fbms.block.display.LargeSign4DisplayItem;
 import net.mcreator.fbms.block.display.LargeSign3DisplayItem;
 import net.mcreator.fbms.block.display.LargeSign2DisplayItem;
 import net.mcreator.fbms.block.display.LadderTowerDisplayItem;
+import net.mcreator.fbms.block.display.JeffsPizzaSignDisplayItem;
 import net.mcreator.fbms.block.display.ImpalaBlockDisplayItem;
 import net.mcreator.fbms.block.display.IgnitedChicaDisplayItem;
 import net.mcreator.fbms.block.display.HazyReindeerDisplayItem;
 import net.mcreator.fbms.block.display.HazyReindeerAnimatedDisplayItem;
 import net.mcreator.fbms.block.display.HappyFrogDisplayItem;
 import net.mcreator.fbms.block.display.HappYFrogAnimatedDisplayItem;
+import net.mcreator.fbms.block.display.GtEndoDisplayItem;
+import net.mcreator.fbms.block.display.GtEndoAnimatedDisplayItem;
 import net.mcreator.fbms.block.display.GravityVortexDisplayItem;
 import net.mcreator.fbms.block.display.GravityVortex2DisplayItem;
 import net.mcreator.fbms.block.display.GarfPlushDisplayItem;
@@ -159,6 +164,7 @@ import net.mcreator.fbms.block.display.CeilingStageLightpinkDisplayItem;
 import net.mcreator.fbms.block.display.CeilingStageLightblueDisplayItem;
 import net.mcreator.fbms.block.display.CarnivalHoopsDisplayItem;
 import net.mcreator.fbms.block.display.CandyCadetDisplayItem;
+import net.mcreator.fbms.block.display.BuffetEndoDisplayItem;
 import net.mcreator.fbms.block.display.BucketBobDisplayItem;
 import net.mcreator.fbms.block.display.BrokenFreddyDisplayItem;
 import net.mcreator.fbms.block.display.BrokenChicaDisplayItem;
@@ -181,6 +187,12 @@ import net.mcreator.fbms.FbmsMod;
 
 public class FbmsModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, FbmsMod.MODID);
+	public static final RegistryObject<Item> BLACK_WHITE_CLEAN_TILES = block(FbmsModBlocks.BLACK_WHITE_CLEAN_TILES, FbmsModTabs.TAB_SHOP_BLOCKS);
+	public static final RegistryObject<Item> BLACK_WHITE_CLEAN_TILE_STAIRS = block(FbmsModBlocks.BLACK_WHITE_CLEAN_TILE_STAIRS, FbmsModTabs.TAB_SHOP_BLOCKS);
+	public static final RegistryObject<Item> BLACK_WHITE_CLEAN_TILE_SLAB = block(FbmsModBlocks.BLACK_WHITE_CLEAN_TILE_SLAB, FbmsModTabs.TAB_SHOP_BLOCKS);
+	public static final RegistryObject<Item> BLACK_WHITE_CONFETTI_TILES = block(FbmsModBlocks.BLACK_WHITE_CONFETTI_TILES, FbmsModTabs.TAB_SHOP_BLOCKS);
+	public static final RegistryObject<Item> BLACK_WHITE_CONFETTI_TILE_STAIRS = block(FbmsModBlocks.BLACK_WHITE_CONFETTI_TILE_STAIRS, FbmsModTabs.TAB_SHOP_BLOCKS);
+	public static final RegistryObject<Item> BLACK_WHITE_CONFETTI_TILE_SLAB = block(FbmsModBlocks.BLACK_WHITE_CONFETTI_TILE_SLAB, FbmsModTabs.TAB_SHOP_BLOCKS);
 	public static final RegistryObject<Item> MR_HUGS = REGISTRY.register(FbmsModBlocks.MR_HUGS.getId().getPath(), () -> new MrHugsDisplayItem(FbmsModBlocks.MR_HUGS.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
 	public static final RegistryObject<Item> NUMBER_1_CRATE = REGISTRY.register(FbmsModBlocks.NUMBER_1_CRATE.getId().getPath(), () -> new Number1CrateDisplayItem(FbmsModBlocks.NUMBER_1_CRATE.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
 	public static final RegistryObject<Item> BAGGY_MAGGIE = REGISTRY.register(FbmsModBlocks.BAGGY_MAGGIE.getId().getPath(), () -> new BaggyMaggieDisplayItem(FbmsModBlocks.BAGGY_MAGGIE.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
@@ -255,6 +267,13 @@ public class FbmsModItems {
 			() -> new WitheredPuffyPuffinsDisplayItem(FbmsModBlocks.WITHERED_PUFFY_PUFFINS.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
 	public static final RegistryObject<Item> WITHERED_HAZY_REINDEER = REGISTRY.register(FbmsModBlocks.WITHERED_HAZY_REINDEER.getId().getPath(),
 			() -> new WitheredHazyReindeerDisplayItem(FbmsModBlocks.WITHERED_HAZY_REINDEER.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> GT_ENDO = REGISTRY.register(FbmsModBlocks.GT_ENDO.getId().getPath(), () -> new GtEndoDisplayItem(FbmsModBlocks.GT_ENDO.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> GT_ENDO_ANIMATED = REGISTRY.register(FbmsModBlocks.GT_ENDO_ANIMATED.getId().getPath(),
+			() -> new GtEndoAnimatedDisplayItem(FbmsModBlocks.GT_ENDO_ANIMATED.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> ST_ENDO = REGISTRY.register(FbmsModBlocks.ST_ENDO.getId().getPath(), () -> new StEndoDisplayItem(FbmsModBlocks.ST_ENDO.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> ST_ENDO_ANIMATED = REGISTRY.register(FbmsModBlocks.ST_ENDO_ANIMATED.getId().getPath(),
+			() -> new StEndoAnimatedDisplayItem(FbmsModBlocks.ST_ENDO_ANIMATED.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> BUFFET_ENDO = REGISTRY.register(FbmsModBlocks.BUFFET_ENDO.getId().getPath(), () -> new BuffetEndoDisplayItem(FbmsModBlocks.BUFFET_ENDO.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
 	public static final RegistryObject<Item> LARGE_SIGN = REGISTRY.register(FbmsModBlocks.LARGE_SIGN.getId().getPath(), () -> new LargeSignDisplayItem(FbmsModBlocks.LARGE_SIGN.get(), new Item.Properties().tab(FbmsModTabs.TAB_A_DS)));
 	public static final RegistryObject<Item> LARGE_SIGN_2 = REGISTRY.register(FbmsModBlocks.LARGE_SIGN_2.getId().getPath(), () -> new LargeSign2DisplayItem(FbmsModBlocks.LARGE_SIGN_2.get(), new Item.Properties().tab(FbmsModTabs.TAB_A_DS)));
 	public static final RegistryObject<Item> LARGE_SIGN_3 = REGISTRY.register(FbmsModBlocks.LARGE_SIGN_3.getId().getPath(), () -> new LargeSign3DisplayItem(FbmsModBlocks.LARGE_SIGN_3.get(), new Item.Properties().tab(FbmsModTabs.TAB_A_DS)));
@@ -402,6 +421,8 @@ public class FbmsModItems {
 			() -> new PizzaPlaceSignDisplayItem(FbmsModBlocks.PIZZA_PLACE_SIGN.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
 	public static final RegistryObject<Item> PIZZA_PLACE_SIGN_OLD = REGISTRY.register(FbmsModBlocks.PIZZA_PLACE_SIGN_OLD.getId().getPath(),
 			() -> new PizzaPlaceSignOldDisplayItem(FbmsModBlocks.PIZZA_PLACE_SIGN_OLD.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> JEFFS_PIZZA_SIGN = REGISTRY.register(FbmsModBlocks.JEFFS_PIZZA_SIGN.getId().getPath(),
+			() -> new JeffsPizzaSignDisplayItem(FbmsModBlocks.JEFFS_PIZZA_SIGN.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
 	public static final RegistryObject<Item> DOC_PLUSH = REGISTRY.register(FbmsModBlocks.DOC_PLUSH.getId().getPath(), () -> new DocPlushDisplayItem(FbmsModBlocks.DOC_PLUSH.get(), new Item.Properties().tab(FbmsModTabs.TAB_PLUSH)));
 	public static final RegistryObject<Item> GARF_PLUSH = REGISTRY.register(FbmsModBlocks.GARF_PLUSH.getId().getPath(), () -> new GarfPlushDisplayItem(FbmsModBlocks.GARF_PLUSH.get(), new Item.Properties().tab(FbmsModTabs.TAB_PLUSH)));
 	public static final RegistryObject<Item> ROSEY = REGISTRY.register(FbmsModBlocks.ROSEY.getId().getPath(), () -> new RoseyDisplayItem(FbmsModBlocks.ROSEY.get(), new Item.Properties().tab(FbmsModTabs.TAB_PLUSH)));

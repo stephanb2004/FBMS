@@ -11,7 +11,7 @@
     "renderType": 0,
     "rotationMode": 2,
     "enablePitch": false,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "pizzaplace_sign",
     "particleTexture": "",
