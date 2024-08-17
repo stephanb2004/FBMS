@@ -162,25 +162,25 @@ public class FbmsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<BaggyMaggieTileEntity>> BAGGY_MAGGIE = REGISTRY.register("baggy_maggie", () -> BlockEntityType.Builder.of(BaggyMaggieTileEntity::new, FbmsModBlocks.BAGGY_MAGGIE.get()).build(null));
 	public static final RegistryObject<BlockEntityType<Endo01TileEntity>> ENDO_01 = REGISTRY.register("endo_01", () -> BlockEntityType.Builder.of(Endo01TileEntity::new, FbmsModBlocks.ENDO_01.get()).build(null));
 	public static final RegistryObject<BlockEntityType<CandyCadetTileEntity>> CANDY_CADET = REGISTRY.register("candy_cadet", () -> BlockEntityType.Builder.of(CandyCadetTileEntity::new, FbmsModBlocks.CANDY_CADET.get()).build(null));
+	public static final RegistryObject<BlockEntityType<RockStarFreddyTileEntity>> ROCK_STAR_FREDDY = REGISTRY.register("rock_star_freddy",
+			() -> BlockEntityType.Builder.of(RockStarFreddyTileEntity::new, FbmsModBlocks.ROCK_STAR_FREDDY.get()).build(null));
+	public static final RegistryObject<BlockEntityType<RockStarBonnieTileEntity>> ROCK_STAR_BONNIE = REGISTRY.register("rock_star_bonnie",
+			() -> BlockEntityType.Builder.of(RockStarBonnieTileEntity::new, FbmsModBlocks.ROCK_STAR_BONNIE.get()).build(null));
+	public static final RegistryObject<BlockEntityType<RockStarChicaTileEntity>> ROCK_STAR_CHICA = REGISTRY.register("rock_star_chica", () -> BlockEntityType.Builder.of(RockStarChicaTileEntity::new, FbmsModBlocks.ROCK_STAR_CHICA.get()).build(null));
+	public static final RegistryObject<BlockEntityType<RockStarFoxyTileEntity>> ROCK_STAR_FOXY = REGISTRY.register("rock_star_foxy", () -> BlockEntityType.Builder.of(RockStarFoxyTileEntity::new, FbmsModBlocks.ROCK_STAR_FOXY.get()).build(null));
+	public static final RegistryObject<BlockEntityType<LeftyTileEntity>> LEFTY = REGISTRY.register("lefty", () -> BlockEntityType.Builder.of(LeftyTileEntity::new, FbmsModBlocks.LEFTY.get()).build(null));
 	public static final RegistryObject<BlockEntityType<HappyFrogTileEntity>> HAPPY_FROG = REGISTRY.register("happy_frog", () -> BlockEntityType.Builder.of(HappyFrogTileEntity::new, FbmsModBlocks.HAPPY_FROG.get()).build(null));
 	public static final RegistryObject<BlockEntityType<MrHippoTileEntity>> MR_HIPPO = REGISTRY.register("mr_hippo", () -> BlockEntityType.Builder.of(MrHippoTileEntity::new, FbmsModBlocks.MR_HIPPO.get()).build(null));
 	public static final RegistryObject<BlockEntityType<NeddBearTileEntity>> NEDD_BEAR = REGISTRY.register("nedd_bear", () -> BlockEntityType.Builder.of(NeddBearTileEntity::new, FbmsModBlocks.NEDD_BEAR.get()).build(null));
 	public static final RegistryObject<BlockEntityType<PigPatchTileEntity>> PIG_PATCH = REGISTRY.register("pig_patch", () -> BlockEntityType.Builder.of(PigPatchTileEntity::new, FbmsModBlocks.PIG_PATCH.get()).build(null));
-	public static final RegistryObject<BlockEntityType<FreddyFazBearTileEntity>> FREDDY_FAZ_BEAR = REGISTRY.register("freddy_faz_bear", () -> BlockEntityType.Builder.of(FreddyFazBearTileEntity::new, FbmsModBlocks.FREDDY_FAZ_BEAR.get()).build(null));
-	public static final RegistryObject<BlockEntityType<LeftyTileEntity>> LEFTY = REGISTRY.register("lefty", () -> BlockEntityType.Builder.of(LeftyTileEntity::new, FbmsModBlocks.LEFTY.get()).build(null));
-	public static final RegistryObject<BlockEntityType<RockStarBonnieTileEntity>> ROCK_STAR_BONNIE = REGISTRY.register("rock_star_bonnie",
-			() -> BlockEntityType.Builder.of(RockStarBonnieTileEntity::new, FbmsModBlocks.ROCK_STAR_BONNIE.get()).build(null));
-	public static final RegistryObject<BlockEntityType<RockStarChicaTileEntity>> ROCK_STAR_CHICA = REGISTRY.register("rock_star_chica", () -> BlockEntityType.Builder.of(RockStarChicaTileEntity::new, FbmsModBlocks.ROCK_STAR_CHICA.get()).build(null));
-	public static final RegistryObject<BlockEntityType<RockStarFreddyTileEntity>> ROCK_STAR_FREDDY = REGISTRY.register("rock_star_freddy",
-			() -> BlockEntityType.Builder.of(RockStarFreddyTileEntity::new, FbmsModBlocks.ROCK_STAR_FREDDY.get()).build(null));
-	public static final RegistryObject<BlockEntityType<RockStarFoxyTileEntity>> ROCK_STAR_FOXY = REGISTRY.register("rock_star_foxy", () -> BlockEntityType.Builder.of(RockStarFoxyTileEntity::new, FbmsModBlocks.ROCK_STAR_FOXY.get()).build(null));
 	public static final RegistryObject<BlockEntityType<OrvilleTileEntity>> ORVILLE = REGISTRY.register("orville", () -> BlockEntityType.Builder.of(OrvilleTileEntity::new, FbmsModBlocks.ORVILLE.get()).build(null));
-	public static final RegistryObject<BlockEntityType<SecurityPuppetTileEntity>> SECURITY_PUPPET = REGISTRY.register("security_puppet",
-			() -> BlockEntityType.Builder.of(SecurityPuppetTileEntity::new, FbmsModBlocks.SECURITY_PUPPET.get()).build(null));
-	public static final RegistryObject<BlockEntityType<PuppetBoxTileEntity>> PUPPET_BOX = REGISTRY.register("puppet_box", () -> BlockEntityType.Builder.of(PuppetBoxTileEntity::new, FbmsModBlocks.PUPPET_BOX.get()).build(null));
 	public static final RegistryObject<BlockEntityType<ElChipTileEntity>> EL_CHIP = REGISTRY.register("el_chip", () -> BlockEntityType.Builder.of(ElChipTileEntity::new, FbmsModBlocks.EL_CHIP.get()).build(null));
 	public static final RegistryObject<BlockEntityType<MusicManTileEntity>> MUSIC_MAN = REGISTRY.register("music_man", () -> BlockEntityType.Builder.of(MusicManTileEntity::new, FbmsModBlocks.MUSIC_MAN.get()).build(null));
 	public static final RegistryObject<BlockEntityType<FunTimeChicaTileEntity>> FUN_TIME_CHICA = REGISTRY.register("fun_time_chica", () -> BlockEntityType.Builder.of(FunTimeChicaTileEntity::new, FbmsModBlocks.FUN_TIME_CHICA.get()).build(null));
+	public static final RegistryObject<BlockEntityType<FreddyFazBearTileEntity>> FREDDY_FAZ_BEAR = REGISTRY.register("freddy_faz_bear", () -> BlockEntityType.Builder.of(FreddyFazBearTileEntity::new, FbmsModBlocks.FREDDY_FAZ_BEAR.get()).build(null));
+	public static final RegistryObject<BlockEntityType<SecurityPuppetTileEntity>> SECURITY_PUPPET = REGISTRY.register("security_puppet",
+			() -> BlockEntityType.Builder.of(SecurityPuppetTileEntity::new, FbmsModBlocks.SECURITY_PUPPET.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PuppetBoxTileEntity>> PUPPET_BOX = REGISTRY.register("puppet_box", () -> BlockEntityType.Builder.of(PuppetBoxTileEntity::new, FbmsModBlocks.PUPPET_BOX.get()).build(null));
 	public static final RegistryObject<BlockEntityType<PrizeKingTileEntity>> PRIZE_KING = REGISTRY.register("prize_king", () -> BlockEntityType.Builder.of(PrizeKingTileEntity::new, FbmsModBlocks.PRIZE_KING.get()).build(null));
 	public static final RegistryObject<BlockEntityType<MoltenFreddyTileEntity>> MOLTEN_FREDDY = REGISTRY.register("molten_freddy", () -> BlockEntityType.Builder.of(MoltenFreddyTileEntity::new, FbmsModBlocks.MOLTEN_FREDDY.get()).build(null));
 	public static final RegistryObject<BlockEntityType<MoltenSitTileEntity>> MOLTEN_SIT = REGISTRY.register("molten_sit", () -> BlockEntityType.Builder.of(MoltenSitTileEntity::new, FbmsModBlocks.MOLTEN_SIT.get()).build(null));
@@ -267,7 +267,6 @@ public class FbmsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<EggBabyTileEntity>> EGG_BABY = REGISTRY.register("egg_baby", () -> BlockEntityType.Builder.of(EggBabyTileEntity::new, FbmsModBlocks.EGG_BABY.get()).build(null));
 	public static final RegistryObject<BlockEntityType<BonkABonTileEntity>> BONK_A_BON = REGISTRY.register("bonk_a_bon", () -> BlockEntityType.Builder.of(BonkABonTileEntity::new, FbmsModBlocks.BONK_A_BON.get()).build(null));
 	public static final RegistryObject<BlockEntityType<CarnivalHoopsTileEntity>> CARNIVAL_HOOPS = REGISTRY.register("carnival_hoops", () -> BlockEntityType.Builder.of(CarnivalHoopsTileEntity::new, FbmsModBlocks.CARNIVAL_HOOPS.get()).build(null));
-	public static final RegistryObject<BlockEntityType<GravityVortexTileEntity>> GRAVITY_VORTEX = REGISTRY.register("gravity_vortex", () -> BlockEntityType.Builder.of(GravityVortexTileEntity::new, FbmsModBlocks.GRAVITY_VORTEX.get()).build(null));
 	public static final RegistryObject<BlockEntityType<GravityVortex2TileEntity>> GRAVITY_VORTEX_2 = REGISTRY.register("gravity_vortex_2",
 			() -> BlockEntityType.Builder.of(GravityVortex2TileEntity::new, FbmsModBlocks.GRAVITY_VORTEX_2.get()).build(null));
 	public static final RegistryObject<BlockEntityType<PicklesTileEntity>> PICKLES = REGISTRY.register("pickles", () -> BlockEntityType.Builder.of(PicklesTileEntity::new, FbmsModBlocks.PICKLES.get()).build(null));
@@ -292,40 +291,6 @@ public class FbmsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<CeilingStageLightblueTileEntity>> CEILING_STAGE_LIGHTBLUE = REGISTRY.register("ceiling_stage_lightblue",
 			() -> BlockEntityType.Builder.of(CeilingStageLightblueTileEntity::new, FbmsModBlocks.CEILING_STAGE_LIGHTBLUE.get()).build(null));
 	public static final RegistryObject<BlockEntityType<DeluxeBallpitTileEntity>> DELUXE_BALLPIT = REGISTRY.register("deluxe_ballpit", () -> BlockEntityType.Builder.of(DeluxeBallpitTileEntity::new, FbmsModBlocks.DELUXE_BALLPIT.get()).build(null));
-	public static final RegistryObject<BlockEntityType<Endo01AnimatedTileEntity>> ENDO_01_ANIMATED = REGISTRY.register("endo_01_animated",
-			() -> BlockEntityType.Builder.of(Endo01AnimatedTileEntity::new, FbmsModBlocks.ENDO_01_ANIMATED.get()).build(null));
-	public static final RegistryObject<BlockEntityType<HappYFrogAnimatedTileEntity>> HAPP_Y_FROG_ANIMATED = REGISTRY.register("happ_y_frog_animated",
-			() -> BlockEntityType.Builder.of(HappYFrogAnimatedTileEntity::new, FbmsModBlocks.HAPP_Y_FROG_ANIMATED.get()).build(null));
-	public static final RegistryObject<BlockEntityType<MrHippoAnimatedTileEntity>> MR_HIPPO_ANIMATED = REGISTRY.register("mr_hippo_animated",
-			() -> BlockEntityType.Builder.of(MrHippoAnimatedTileEntity::new, FbmsModBlocks.MR_HIPPO_ANIMATED.get()).build(null));
-	public static final RegistryObject<BlockEntityType<PigPatchAnimatedTileEntity>> PIG_PATCH_ANIMATED = REGISTRY.register("pig_patch_animated",
-			() -> BlockEntityType.Builder.of(PigPatchAnimatedTileEntity::new, FbmsModBlocks.PIG_PATCH_ANIMATED.get()).build(null));
-	public static final RegistryObject<BlockEntityType<NeddBearAnimatedTileEntity>> NEDD_BEAR_ANIMATED = REGISTRY.register("nedd_bear_animated",
-			() -> BlockEntityType.Builder.of(NeddBearAnimatedTileEntity::new, FbmsModBlocks.NEDD_BEAR_ANIMATED.get()).build(null));
-	public static final RegistryObject<BlockEntityType<LeftyAnimatedTileEntity>> LEFTY_ANIMATED = REGISTRY.register("lefty_animated", () -> BlockEntityType.Builder.of(LeftyAnimatedTileEntity::new, FbmsModBlocks.LEFTY_ANIMATED.get()).build(null));
-	public static final RegistryObject<BlockEntityType<RockStarBonnieAnimatedTileEntity>> ROCK_STAR_BONNIE_ANIMATED = REGISTRY.register("rock_star_bonnie_animated",
-			() -> BlockEntityType.Builder.of(RockStarBonnieAnimatedTileEntity::new, FbmsModBlocks.ROCK_STAR_BONNIE_ANIMATED.get()).build(null));
-	public static final RegistryObject<BlockEntityType<RockStarChicaAnimatedTileEntity>> ROCK_STAR_CHICA_ANIMATED = REGISTRY.register("rock_star_chica_animated",
-			() -> BlockEntityType.Builder.of(RockStarChicaAnimatedTileEntity::new, FbmsModBlocks.ROCK_STAR_CHICA_ANIMATED.get()).build(null));
-	public static final RegistryObject<BlockEntityType<RockStarFreddyAnimatedTileEntity>> ROCK_STAR_FREDDY_ANIMATED = REGISTRY.register("rock_star_freddy_animated",
-			() -> BlockEntityType.Builder.of(RockStarFreddyAnimatedTileEntity::new, FbmsModBlocks.ROCK_STAR_FREDDY_ANIMATED.get()).build(null));
-	public static final RegistryObject<BlockEntityType<RockStarFoxyAnimatedTileEntity>> ROCK_STAR_FOXY_ANIMATED = REGISTRY.register("rock_star_foxy_animated",
-			() -> BlockEntityType.Builder.of(RockStarFoxyAnimatedTileEntity::new, FbmsModBlocks.ROCK_STAR_FOXY_ANIMATED.get()).build(null));
-	public static final RegistryObject<BlockEntityType<ElChipAnimatedTileEntity>> EL_CHIP_ANIMATED = REGISTRY.register("el_chip_animated",
-			() -> BlockEntityType.Builder.of(ElChipAnimatedTileEntity::new, FbmsModBlocks.EL_CHIP_ANIMATED.get()).build(null));
-	public static final RegistryObject<BlockEntityType<FuntimeChicaAnimatedTileEntity>> FUNTIME_CHICA_ANIMATED = REGISTRY.register("funtime_chica_animated",
-			() -> BlockEntityType.Builder.of(FuntimeChicaAnimatedTileEntity::new, FbmsModBlocks.FUNTIME_CHICA_ANIMATED.get()).build(null));
-	public static final RegistryObject<BlockEntityType<MusicManAnimatedTileEntity>> MUSIC_MAN_ANIMATED = REGISTRY.register("music_man_animated",
-			() -> BlockEntityType.Builder.of(MusicManAnimatedTileEntity::new, FbmsModBlocks.MUSIC_MAN_ANIMATED.get()).build(null));
-	public static final RegistryObject<BlockEntityType<OrvilleAnimatedTileEntity>> ORVILLE_ANIMATED = REGISTRY.register("orville_animated",
-			() -> BlockEntityType.Builder.of(OrvilleAnimatedTileEntity::new, FbmsModBlocks.ORVILLE_ANIMATED.get()).build(null));
-	public static final RegistryObject<BlockEntityType<RustyAnimatedTileEntity>> RUSTY_ANIMATED = REGISTRY.register("rusty_animated", () -> BlockEntityType.Builder.of(RustyAnimatedTileEntity::new, FbmsModBlocks.RUSTY_ANIMATED.get()).build(null));
-	public static final RegistryObject<BlockEntityType<BarryPolarAnimatedTileEntity>> BARRY_POLAR_ANIMATED = REGISTRY.register("barry_polar_animated",
-			() -> BlockEntityType.Builder.of(BarryPolarAnimatedTileEntity::new, FbmsModBlocks.BARRY_POLAR_ANIMATED.get()).build(null));
-	public static final RegistryObject<BlockEntityType<BrokenBarryPolarAnimatedTileEntity>> BROKEN_BARRY_POLAR_ANIMATED = REGISTRY.register("broken_barry_polar_animated",
-			() -> BlockEntityType.Builder.of(BrokenBarryPolarAnimatedTileEntity::new, FbmsModBlocks.BROKEN_BARRY_POLAR_ANIMATED.get()).build(null));
-	public static final RegistryObject<BlockEntityType<FuntimeDelilahTileEntity>> FUNTIME_DELILAH = REGISTRY.register("funtime_delilah",
-			() -> BlockEntityType.Builder.of(FuntimeDelilahTileEntity::new, FbmsModBlocks.FUNTIME_DELILAH.get()).build(null));
 	public static final RegistryObject<BlockEntityType<ImpalaBlockTileEntity>> IMPALA_BLOCK = REGISTRY.register("impala_block", () -> BlockEntityType.Builder.of(ImpalaBlockTileEntity::new, FbmsModBlocks.IMPALA_BLOCK.get()).build(null));
 	public static final RegistryObject<BlockEntityType<DogeRamBlockTileEntity>> DOGE_RAM_BLOCK = REGISTRY.register("doge_ram_block", () -> BlockEntityType.Builder.of(DogeRamBlockTileEntity::new, FbmsModBlocks.DOGE_RAM_BLOCK.get()).build(null));
 	public static final RegistryObject<BlockEntityType<StationWagonBlockTileEntity>> STATION_WAGON_BLOCK = REGISTRY.register("station_wagon_block",
@@ -341,17 +306,52 @@ public class FbmsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<RascTileEntity>> RASC = REGISTRY.register("rasc", () -> BlockEntityType.Builder.of(RascTileEntity::new, FbmsModBlocks.RASC.get()).build(null));
 	public static final RegistryObject<BlockEntityType<ShredBearTileEntity>> SHRED_BEAR = REGISTRY.register("shred_bear", () -> BlockEntityType.Builder.of(ShredBearTileEntity::new, FbmsModBlocks.SHRED_BEAR.get()).build(null));
 	public static final RegistryObject<BlockEntityType<RottenPitTileEntity>> ROTTEN_PIT = REGISTRY.register("rotten_pit", () -> BlockEntityType.Builder.of(RottenPitTileEntity::new, FbmsModBlocks.ROTTEN_PIT.get()).build(null));
-	public static final RegistryObject<BlockEntityType<DocPlushTileEntity>> DOC_PLUSH = REGISTRY.register("doc_plush", () -> BlockEntityType.Builder.of(DocPlushTileEntity::new, FbmsModBlocks.DOC_PLUSH.get()).build(null));
-	public static final RegistryObject<BlockEntityType<GarfPlushTileEntity>> GARF_PLUSH = REGISTRY.register("garf_plush", () -> BlockEntityType.Builder.of(GarfPlushTileEntity::new, FbmsModBlocks.GARF_PLUSH.get()).build(null));
-	public static final RegistryObject<BlockEntityType<RoseyTileEntity>> ROSEY = REGISTRY.register("rosey", () -> BlockEntityType.Builder.of(RoseyTileEntity::new, FbmsModBlocks.ROSEY.get()).build(null));
-	public static final RegistryObject<BlockEntityType<StephanPlushTileEntity>> STEPHAN_PLUSH = REGISTRY.register("stephan_plush", () -> BlockEntityType.Builder.of(StephanPlushTileEntity::new, FbmsModBlocks.STEPHAN_PLUSH.get()).build(null));
-	public static final RegistryObject<BlockEntityType<BephAnimatedTileEntity>> BEPH_ANIMATED = REGISTRY.register("beph_animated", () -> BlockEntityType.Builder.of(BephAnimatedTileEntity::new, FbmsModBlocks.BEPH_ANIMATED.get()).build(null));
-	public static final RegistryObject<BlockEntityType<FrightsSignTileEntity>> FRIGHTS_SIGN = REGISTRY.register("frights_sign", () -> BlockEntityType.Builder.of(FrightsSignTileEntity::new, FbmsModBlocks.FRIGHTS_SIGN.get()).build(null));
 	public static final RegistryObject<BlockEntityType<FrightsSign2TileEntity>> FRIGHTS_SIGN_2 = REGISTRY.register("frights_sign_2", () -> BlockEntityType.Builder.of(FrightsSign2TileEntity::new, FbmsModBlocks.FRIGHTS_SIGN_2.get()).build(null));
 	public static final RegistryObject<BlockEntityType<PizzaPlaceSignTileEntity>> PIZZA_PLACE_SIGN = REGISTRY.register("pizza_place_sign",
 			() -> BlockEntityType.Builder.of(PizzaPlaceSignTileEntity::new, FbmsModBlocks.PIZZA_PLACE_SIGN.get()).build(null));
 	public static final RegistryObject<BlockEntityType<PizzaPlaceSignOldTileEntity>> PIZZA_PLACE_SIGN_OLD = REGISTRY.register("pizza_place_sign_old",
 			() -> BlockEntityType.Builder.of(PizzaPlaceSignOldTileEntity::new, FbmsModBlocks.PIZZA_PLACE_SIGN_OLD.get()).build(null));
+	public static final RegistryObject<BlockEntityType<DocPlushTileEntity>> DOC_PLUSH = REGISTRY.register("doc_plush", () -> BlockEntityType.Builder.of(DocPlushTileEntity::new, FbmsModBlocks.DOC_PLUSH.get()).build(null));
+	public static final RegistryObject<BlockEntityType<GarfPlushTileEntity>> GARF_PLUSH = REGISTRY.register("garf_plush", () -> BlockEntityType.Builder.of(GarfPlushTileEntity::new, FbmsModBlocks.GARF_PLUSH.get()).build(null));
+	public static final RegistryObject<BlockEntityType<RoseyTileEntity>> ROSEY = REGISTRY.register("rosey", () -> BlockEntityType.Builder.of(RoseyTileEntity::new, FbmsModBlocks.ROSEY.get()).build(null));
+	public static final RegistryObject<BlockEntityType<StephanPlushTileEntity>> STEPHAN_PLUSH = REGISTRY.register("stephan_plush", () -> BlockEntityType.Builder.of(StephanPlushTileEntity::new, FbmsModBlocks.STEPHAN_PLUSH.get()).build(null));
+	public static final RegistryObject<BlockEntityType<BarryPolarAnimatedTileEntity>> BARRY_POLAR_ANIMATED = REGISTRY.register("barry_polar_animated",
+			() -> BlockEntityType.Builder.of(BarryPolarAnimatedTileEntity::new, FbmsModBlocks.BARRY_POLAR_ANIMATED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<BrokenBarryPolarAnimatedTileEntity>> BROKEN_BARRY_POLAR_ANIMATED = REGISTRY.register("broken_barry_polar_animated",
+			() -> BlockEntityType.Builder.of(BrokenBarryPolarAnimatedTileEntity::new, FbmsModBlocks.BROKEN_BARRY_POLAR_ANIMATED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<BephAnimatedTileEntity>> BEPH_ANIMATED = REGISTRY.register("beph_animated", () -> BlockEntityType.Builder.of(BephAnimatedTileEntity::new, FbmsModBlocks.BEPH_ANIMATED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<FuntimeDelilahTileEntity>> FUNTIME_DELILAH = REGISTRY.register("funtime_delilah",
+			() -> BlockEntityType.Builder.of(FuntimeDelilahTileEntity::new, FbmsModBlocks.FUNTIME_DELILAH.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ElChipAnimatedTileEntity>> EL_CHIP_ANIMATED = REGISTRY.register("el_chip_animated",
+			() -> BlockEntityType.Builder.of(ElChipAnimatedTileEntity::new, FbmsModBlocks.EL_CHIP_ANIMATED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Endo01AnimatedTileEntity>> ENDO_01_ANIMATED = REGISTRY.register("endo_01_animated",
+			() -> BlockEntityType.Builder.of(Endo01AnimatedTileEntity::new, FbmsModBlocks.ENDO_01_ANIMATED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<FuntimeChicaAnimatedTileEntity>> FUNTIME_CHICA_ANIMATED = REGISTRY.register("funtime_chica_animated",
+			() -> BlockEntityType.Builder.of(FuntimeChicaAnimatedTileEntity::new, FbmsModBlocks.FUNTIME_CHICA_ANIMATED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<HappYFrogAnimatedTileEntity>> HAPP_Y_FROG_ANIMATED = REGISTRY.register("happ_y_frog_animated",
+			() -> BlockEntityType.Builder.of(HappYFrogAnimatedTileEntity::new, FbmsModBlocks.HAPP_Y_FROG_ANIMATED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<LeftyAnimatedTileEntity>> LEFTY_ANIMATED = REGISTRY.register("lefty_animated", () -> BlockEntityType.Builder.of(LeftyAnimatedTileEntity::new, FbmsModBlocks.LEFTY_ANIMATED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<MrHippoAnimatedTileEntity>> MR_HIPPO_ANIMATED = REGISTRY.register("mr_hippo_animated",
+			() -> BlockEntityType.Builder.of(MrHippoAnimatedTileEntity::new, FbmsModBlocks.MR_HIPPO_ANIMATED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<MusicManAnimatedTileEntity>> MUSIC_MAN_ANIMATED = REGISTRY.register("music_man_animated",
+			() -> BlockEntityType.Builder.of(MusicManAnimatedTileEntity::new, FbmsModBlocks.MUSIC_MAN_ANIMATED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<NeddBearAnimatedTileEntity>> NEDD_BEAR_ANIMATED = REGISTRY.register("nedd_bear_animated",
+			() -> BlockEntityType.Builder.of(NeddBearAnimatedTileEntity::new, FbmsModBlocks.NEDD_BEAR_ANIMATED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<OrvilleAnimatedTileEntity>> ORVILLE_ANIMATED = REGISTRY.register("orville_animated",
+			() -> BlockEntityType.Builder.of(OrvilleAnimatedTileEntity::new, FbmsModBlocks.ORVILLE_ANIMATED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PigPatchAnimatedTileEntity>> PIG_PATCH_ANIMATED = REGISTRY.register("pig_patch_animated",
+			() -> BlockEntityType.Builder.of(PigPatchAnimatedTileEntity::new, FbmsModBlocks.PIG_PATCH_ANIMATED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<RockStarBonnieAnimatedTileEntity>> ROCK_STAR_BONNIE_ANIMATED = REGISTRY.register("rock_star_bonnie_animated",
+			() -> BlockEntityType.Builder.of(RockStarBonnieAnimatedTileEntity::new, FbmsModBlocks.ROCK_STAR_BONNIE_ANIMATED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<RockStarChicaAnimatedTileEntity>> ROCK_STAR_CHICA_ANIMATED = REGISTRY.register("rock_star_chica_animated",
+			() -> BlockEntityType.Builder.of(RockStarChicaAnimatedTileEntity::new, FbmsModBlocks.ROCK_STAR_CHICA_ANIMATED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<RockStarFoxyAnimatedTileEntity>> ROCK_STAR_FOXY_ANIMATED = REGISTRY.register("rock_star_foxy_animated",
+			() -> BlockEntityType.Builder.of(RockStarFoxyAnimatedTileEntity::new, FbmsModBlocks.ROCK_STAR_FOXY_ANIMATED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<RockStarFreddyAnimatedTileEntity>> ROCK_STAR_FREDDY_ANIMATED = REGISTRY.register("rock_star_freddy_animated",
+			() -> BlockEntityType.Builder.of(RockStarFreddyAnimatedTileEntity::new, FbmsModBlocks.ROCK_STAR_FREDDY_ANIMATED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<RustyAnimatedTileEntity>> RUSTY_ANIMATED = REGISTRY.register("rusty_animated", () -> BlockEntityType.Builder.of(RustyAnimatedTileEntity::new, FbmsModBlocks.RUSTY_ANIMATED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<GravityVortexTileEntity>> GRAVITY_VORTEX = REGISTRY.register("gravity_vortex", () -> BlockEntityType.Builder.of(GravityVortexTileEntity::new, FbmsModBlocks.GRAVITY_VORTEX.get()).build(null));
+	public static final RegistryObject<BlockEntityType<FrightsSignTileEntity>> FRIGHTS_SIGN = REGISTRY.register("frights_sign", () -> BlockEntityType.Builder.of(FrightsSignTileEntity::new, FbmsModBlocks.FRIGHTS_SIGN.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

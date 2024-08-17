@@ -124,7 +124,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "OrvilleAnimatedOnBlockRightClicked"
+      "name": "AnimatedAnimatronicOnBlockRightClicked"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

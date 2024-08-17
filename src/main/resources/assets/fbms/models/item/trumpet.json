@@ -1,0 +1,7 @@
+{
+  "parent": "fbms:custom/trumpet",
+  "textures": {
+    "2": "fbms:blocks/trumpet",
+    "particle": "fbms:items/maracas_"
+  }
+}

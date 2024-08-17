@@ -36,7 +36,7 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.fbms.procedures.OrvilleAnimatedOnBlockRightClickedProcedure;
+import net.mcreator.fbms.procedures.AnimatedAnimatronicOnBlockRightClickedProcedure;
 import net.mcreator.fbms.init.FbmsModBlockEntities;
 
 import javax.annotation.Nullable;
@@ -139,7 +139,7 @@ public class OrvilleAnimatedBlock extends BaseEntityBlock implements SimpleWater
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
 
-		OrvilleAnimatedOnBlockRightClickedProcedure.execute(world, x, y, z, entity);
+		AnimatedAnimatronicOnBlockRightClickedProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 }

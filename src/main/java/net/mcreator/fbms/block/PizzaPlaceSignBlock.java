@@ -1,6 +1,8 @@
 
 package net.mcreator.fbms.block;
 
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
@@ -58,6 +60,19 @@ public class PizzaPlaceSignBlock extends BaseEntityBlock implements EntityBlock 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 0;
+	}
+
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+
+		return switch (state.getValue(FACING)) {
+			default -> box(-34, 2, 0, -18, 39, 2);
+			case NORTH -> box(34, 2, 14, 50, 39, 16);
+			case EAST -> box(0, 2, 34, 2, 39, 50);
+			case WEST -> box(14, 2, -34, 16, 39, -18);
+			case UP -> box(34, 0, 2, 50, 2, 39);
+			case DOWN -> box(34, 14, -23, 50, 16, 14);
+		};
 	}
 
 	@Override
