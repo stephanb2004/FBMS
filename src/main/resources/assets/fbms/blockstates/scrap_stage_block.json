@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fbms:block/scrap_stage_block"
+    }
+  }
+}
