@@ -195,6 +195,9 @@ public class FbmsModItems {
 	public static final RegistryObject<Item> BLACK_WHITE_CONFETTI_TILE_STAIRS = block(FbmsModBlocks.BLACK_WHITE_CONFETTI_TILE_STAIRS, FbmsModTabs.TAB_SHOP_BLOCKS);
 	public static final RegistryObject<Item> BLACK_WHITE_CONFETTI_TILE_SLAB = block(FbmsModBlocks.BLACK_WHITE_CONFETTI_TILE_SLAB, FbmsModTabs.TAB_SHOP_BLOCKS);
 	public static final RegistryObject<Item> DISCO_PIZZA = block(FbmsModBlocks.DISCO_PIZZA, FbmsModTabs.TAB_SHOP_BLOCKS);
+	public static final RegistryObject<Item> RED_STAGE_BLOCK = block(FbmsModBlocks.RED_STAGE_BLOCK, FbmsModTabs.TAB_SHOP_BLOCKS);
+	public static final RegistryObject<Item> PURPLE_STAGE_BLOCK = block(FbmsModBlocks.PURPLE_STAGE_BLOCK, FbmsModTabs.TAB_SHOP_BLOCKS);
+	public static final RegistryObject<Item> STAR_ARCH = block(FbmsModBlocks.STAR_ARCH, FbmsModTabs.TAB_SHOP_BLOCKS);
 	public static final RegistryObject<Item> PAPER_PAL_CLOWN = block(FbmsModBlocks.PAPER_PAL_CLOWN, FbmsModTabs.TAB_SHOP_BLOCKS);
 	public static final RegistryObject<Item> PAPPER_PAL_MR_HIPPO = block(FbmsModBlocks.PAPPER_PAL_MR_HIPPO, FbmsModTabs.TAB_SHOP_BLOCKS);
 	public static final RegistryObject<Item> PAPPER_PAL_ORVIL = block(FbmsModBlocks.PAPPER_PAL_ORVIL, FbmsModTabs.TAB_SHOP_BLOCKS);
@@ -467,6 +470,7 @@ public class FbmsModItems {
 			() -> new PuffyPuffinsAnimatedDisplayItem(FbmsModBlocks.PUFFY_PUFFINS_ANIMATED.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> GT_ENDO_ANIMATED = REGISTRY.register(FbmsModBlocks.GT_ENDO_ANIMATED.getId().getPath(), () -> new GtEndoAnimatedDisplayItem(FbmsModBlocks.GT_ENDO_ANIMATED.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> ST_ENDO_ANIMATED = REGISTRY.register(FbmsModBlocks.ST_ENDO_ANIMATED.getId().getPath(), () -> new StEndoAnimatedDisplayItem(FbmsModBlocks.ST_ENDO_ANIMATED.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> SCRAP_STAGE_BLOCK = block(FbmsModBlocks.SCRAP_STAGE_BLOCK, FbmsModTabs.TAB_SHOP_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

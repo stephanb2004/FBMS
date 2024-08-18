@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:block/star_arch"
+    },
+    "facing=east": {
+      "model": "fbms:block/star_arch",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:block/star_arch",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:block/star_arch",
+      "y": 270
+    }
+  }
+}
