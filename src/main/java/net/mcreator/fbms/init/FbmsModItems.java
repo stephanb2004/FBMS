@@ -188,109 +188,24 @@ import net.mcreator.fbms.FbmsMod;
 
 public class FbmsModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, FbmsMod.MODID);
-	public static final RegistryObject<Item> BLACK_WHITE_CLEAN_TILES = block(FbmsModBlocks.BLACK_WHITE_CLEAN_TILES, FbmsModTabs.TAB_SHOP_BLOCKS);
-	public static final RegistryObject<Item> BLACK_WHITE_CLEAN_TILE_STAIRS = block(FbmsModBlocks.BLACK_WHITE_CLEAN_TILE_STAIRS, FbmsModTabs.TAB_SHOP_BLOCKS);
-	public static final RegistryObject<Item> BLACK_WHITE_CLEAN_TILE_SLAB = block(FbmsModBlocks.BLACK_WHITE_CLEAN_TILE_SLAB, FbmsModTabs.TAB_SHOP_BLOCKS);
-	public static final RegistryObject<Item> BLACK_WHITE_CONFETTI_TILES = block(FbmsModBlocks.BLACK_WHITE_CONFETTI_TILES, FbmsModTabs.TAB_SHOP_BLOCKS);
-	public static final RegistryObject<Item> BLACK_WHITE_CONFETTI_TILE_STAIRS = block(FbmsModBlocks.BLACK_WHITE_CONFETTI_TILE_STAIRS, FbmsModTabs.TAB_SHOP_BLOCKS);
-	public static final RegistryObject<Item> BLACK_WHITE_CONFETTI_TILE_SLAB = block(FbmsModBlocks.BLACK_WHITE_CONFETTI_TILE_SLAB, FbmsModTabs.TAB_SHOP_BLOCKS);
-	public static final RegistryObject<Item> DISCO_PIZZA = block(FbmsModBlocks.DISCO_PIZZA, FbmsModTabs.TAB_SHOP_BLOCKS);
-	public static final RegistryObject<Item> PAPER_PAL_CLOWN = block(FbmsModBlocks.PAPER_PAL_CLOWN, FbmsModTabs.TAB_SHOP_BLOCKS);
-	public static final RegistryObject<Item> PAPPER_PAL_MR_HIPPO = block(FbmsModBlocks.PAPPER_PAL_MR_HIPPO, FbmsModTabs.TAB_SHOP_BLOCKS);
-	public static final RegistryObject<Item> PAPPER_PAL_ORVIL = block(FbmsModBlocks.PAPPER_PAL_ORVIL, FbmsModTabs.TAB_SHOP_BLOCKS);
-	public static final RegistryObject<Item> GUMBALL_SWIVEL_HANDS = block(FbmsModBlocks.GUMBALL_SWIVEL_HANDS, FbmsModTabs.TAB_SHOP_BLOCKS);
-	public static final RegistryObject<Item> LEMONADE_CLOWN = REGISTRY.register(FbmsModBlocks.LEMONADE_CLOWN.getId().getPath(),
-			() -> new LemonadeClownDisplayItem(FbmsModBlocks.LEMONADE_CLOWN.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> FRUIT_PUNCH_CLOWN = REGISTRY.register(FbmsModBlocks.FRUIT_PUNCH_CLOWN.getId().getPath(),
-			() -> new FruitPunchClownDisplayItem(FbmsModBlocks.FRUIT_PUNCH_CLOWN.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> BALLOON_BARREL = block(FbmsModBlocks.BALLOON_BARREL, FbmsModTabs.TAB_SHOP_BLOCKS);
-	public static final RegistryObject<Item> MIDNIGHT_MOTORIST = REGISTRY.register(FbmsModBlocks.MIDNIGHT_MOTORIST.getId().getPath(),
-			() -> new MidnightMotoristDisplayItem(FbmsModBlocks.MIDNIGHT_MOTORIST.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> FRUITY_MAZE = REGISTRY.register(FbmsModBlocks.FRUITY_MAZE.getId().getPath(), () -> new FruityMazeDisplayItem(FbmsModBlocks.FRUITY_MAZE.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> DISCOUNT_BALLPIT = REGISTRY.register(FbmsModBlocks.DISCOUNT_BALLPIT.getId().getPath(),
-			() -> new DiscountBallpitDisplayItem(FbmsModBlocks.DISCOUNT_BALLPIT.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> BALL_PIT_TOWER = REGISTRY.register(FbmsModBlocks.BALL_PIT_TOWER.getId().getPath(),
-			() -> new BallPitTowerDisplayItem(FbmsModBlocks.BALL_PIT_TOWER.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> DELUXE_BALLPIT = REGISTRY.register(FbmsModBlocks.DELUXE_BALLPIT.getId().getPath(),
-			() -> new DeluxeBallpitDisplayItem(FbmsModBlocks.DELUXE_BALLPIT.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> DUCK_POND = REGISTRY.register(FbmsModBlocks.DUCK_POND.getId().getPath(), () -> new DuckPondDisplayItem(FbmsModBlocks.DUCK_POND.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> SANITATION_STATION = REGISTRY.register(FbmsModBlocks.SANITATION_STATION.getId().getPath(),
-			() -> new SanitationStationDisplayItem(FbmsModBlocks.SANITATION_STATION.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> PIN_THE_BOWTIE_ON_THE_FREDDY = REGISTRY.register(FbmsModBlocks.PIN_THE_BOWTIE_ON_THE_FREDDY.getId().getPath(),
-			() -> new PinTheBowtieOnTheFreddyDisplayItem(FbmsModBlocks.PIN_THE_BOWTIE_ON_THE_FREDDY.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> PIN_THE_BOWTIE_ON_THE_TIE_THE_TOY_FREDDY = REGISTRY.register(FbmsModBlocks.PIN_THE_BOWTIE_ON_THE_TIE_THE_TOY_FREDDY.getId().getPath(),
-			() -> new PinTheBowtieOnTheTieTheToyFreddyDisplayItem(FbmsModBlocks.PIN_THE_BOWTIE_ON_THE_TIE_THE_TOY_FREDDY.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> FOIL_PARTY_SET_1 = REGISTRY.register(FbmsModBlocks.FOIL_PARTY_SET_1.getId().getPath(),
-			() -> new FoilPartySet1DisplayItem(FbmsModBlocks.FOIL_PARTY_SET_1.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> PAPER_PLATES = REGISTRY.register(FbmsModBlocks.PAPER_PLATES.getId().getPath(), () -> new PaperPlatesDisplayItem(FbmsModBlocks.PAPER_PLATES.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> FOIL_PARTY_SET_2 = REGISTRY.register(FbmsModBlocks.FOIL_PARTY_SET_2.getId().getPath(),
-			() -> new FoilPartySet2DisplayItem(FbmsModBlocks.FOIL_PARTY_SET_2.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> FOIL_PARTY_SET_3 = REGISTRY.register(FbmsModBlocks.FOIL_PARTY_SET_3.getId().getPath(),
-			() -> new FoilPartySet3DisplayItem(FbmsModBlocks.FOIL_PARTY_SET_3.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> FOIL_PARTY_SET_4 = REGISTRY.register(FbmsModBlocks.FOIL_PARTY_SET_4.getId().getPath(),
-			() -> new FoilPartySet4DisplayItem(FbmsModBlocks.FOIL_PARTY_SET_4.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> NEON_PARTY_SET_1 = REGISTRY.register(FbmsModBlocks.NEON_PARTY_SET_1.getId().getPath(),
-			() -> new NeonPartySet1DisplayItem(FbmsModBlocks.NEON_PARTY_SET_1.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> NEON_PARTY_SET_2 = REGISTRY.register(FbmsModBlocks.NEON_PARTY_SET_2.getId().getPath(),
-			() -> new NeonPartySet2DisplayItem(FbmsModBlocks.NEON_PARTY_SET_2.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> NEON_PARTY_SET_3 = REGISTRY.register(FbmsModBlocks.NEON_PARTY_SET_3.getId().getPath(),
-			() -> new NeonPartySet3DisplayItem(FbmsModBlocks.NEON_PARTY_SET_3.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> NEON_PARTY_SET_4 = REGISTRY.register(FbmsModBlocks.NEON_PARTY_SET_4.getId().getPath(),
-			() -> new NeonPartySet4DisplayItem(FbmsModBlocks.NEON_PARTY_SET_4.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> LADDER_TOWER = REGISTRY.register(FbmsModBlocks.LADDER_TOWER.getId().getPath(), () -> new LadderTowerDisplayItem(FbmsModBlocks.LADDER_TOWER.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> EGG_BABY = REGISTRY.register(FbmsModBlocks.EGG_BABY.getId().getPath(), () -> new EggBabyDisplayItem(FbmsModBlocks.EGG_BABY.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> BONK_A_BON = REGISTRY.register(FbmsModBlocks.BONK_A_BON.getId().getPath(), () -> new BonkABonDisplayItem(FbmsModBlocks.BONK_A_BON.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> CARNIVAL_HOOPS = REGISTRY.register(FbmsModBlocks.CARNIVAL_HOOPS.getId().getPath(),
-			() -> new CarnivalHoopsDisplayItem(FbmsModBlocks.CARNIVAL_HOOPS.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> GRAVITY_VORTEX_2 = REGISTRY.register(FbmsModBlocks.GRAVITY_VORTEX_2.getId().getPath(),
-			() -> new GravityVortex2DisplayItem(FbmsModBlocks.GRAVITY_VORTEX_2.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> PICKLES = REGISTRY.register(FbmsModBlocks.PICKLES.getId().getPath(), () -> new PicklesDisplayItem(FbmsModBlocks.PICKLES.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> DISCOUNT_COOLING_UNIT = REGISTRY.register(FbmsModBlocks.DISCOUNT_COOLING_UNIT.getId().getPath(),
-			() -> new DiscountCoolingUnitDisplayItem(FbmsModBlocks.DISCOUNT_COOLING_UNIT.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> BALLOON_CART = REGISTRY.register(FbmsModBlocks.BALLOON_CART.getId().getPath(), () -> new BalloonCartDisplayItem(FbmsModBlocks.BALLOON_CART.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> RIDING_ROCKETS_RED = REGISTRY.register(FbmsModBlocks.RIDING_ROCKETS_RED.getId().getPath(),
-			() -> new RidingRocketsRedDisplayItem(FbmsModBlocks.RIDING_ROCKETS_RED.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> RIDING_ROCKETS_PURPLE = REGISTRY.register(FbmsModBlocks.RIDING_ROCKETS_PURPLE.getId().getPath(),
-			() -> new RidingRocketsPurpleDisplayItem(FbmsModBlocks.RIDING_ROCKETS_PURPLE.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> DELUXE_SPEAKER_SET = REGISTRY.register(FbmsModBlocks.DELUXE_SPEAKER_SET.getId().getPath(),
-			() -> new DeluxeSpeakerSetDisplayItem(FbmsModBlocks.DELUXE_SPEAKER_SET.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> ENHANCED_SPEAKER_SET = REGISTRY.register(FbmsModBlocks.ENHANCED_SPEAKER_SET.getId().getPath(),
-			() -> new EnhancedSpeakerSetDisplayItem(FbmsModBlocks.ENHANCED_SPEAKER_SET.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> NEON_JUKE_BOX = REGISTRY.register(FbmsModBlocks.NEON_JUKE_BOX.getId().getPath(),
-			() -> new NeonJukeBoxDisplayItem(FbmsModBlocks.NEON_JUKE_BOX.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> NEON_STAGE_LIGHT_GREEN = REGISTRY.register(FbmsModBlocks.NEON_STAGE_LIGHT_GREEN.getId().getPath(),
-			() -> new NeonStageLightGreenDisplayItem(FbmsModBlocks.NEON_STAGE_LIGHT_GREEN.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> NEON_STAGE_LIGHTS_PINK = REGISTRY.register(FbmsModBlocks.NEON_STAGE_LIGHTS_PINK.getId().getPath(),
-			() -> new NeonStageLightsPinkDisplayItem(FbmsModBlocks.NEON_STAGE_LIGHTS_PINK.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> NEON_STAGE_LIGHTS_BLUE = REGISTRY.register(FbmsModBlocks.NEON_STAGE_LIGHTS_BLUE.getId().getPath(),
-			() -> new NeonStageLightsBlueDisplayItem(FbmsModBlocks.NEON_STAGE_LIGHTS_BLUE.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> CEILING_STAGE_LIGHTS = REGISTRY.register(FbmsModBlocks.CEILING_STAGE_LIGHTS.getId().getPath(),
-			() -> new CeilingStageLightsDisplayItem(FbmsModBlocks.CEILING_STAGE_LIGHTS.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> CEILING_STAGE_LIGHTPINK = REGISTRY.register(FbmsModBlocks.CEILING_STAGE_LIGHTPINK.getId().getPath(),
-			() -> new CeilingStageLightpinkDisplayItem(FbmsModBlocks.CEILING_STAGE_LIGHTPINK.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> CEILING_STAGE_LIGHTBLUE = REGISTRY.register(FbmsModBlocks.CEILING_STAGE_LIGHTBLUE.getId().getPath(),
-			() -> new CeilingStageLightblueDisplayItem(FbmsModBlocks.CEILING_STAGE_LIGHTBLUE.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> NOVELTY_TRAFFIC_LIGHT = REGISTRY.register(FbmsModBlocks.NOVELTY_TRAFFIC_LIGHT.getId().getPath(),
-			() -> new NoveltyTrafficLightDisplayItem(FbmsModBlocks.NOVELTY_TRAFFIC_LIGHT.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> R_FREDDY_POSTER = block(FbmsModBlocks.R_FREDDY_POSTER, FbmsModTabs.TAB_SHOP_BLOCKS);
-	public static final RegistryObject<Item> RBONNIE_POSTER = block(FbmsModBlocks.RBONNIE_POSTER, FbmsModTabs.TAB_SHOP_BLOCKS);
-	public static final RegistryObject<Item> R_CHICA_POSTER = block(FbmsModBlocks.R_CHICA_POSTER, FbmsModTabs.TAB_SHOP_BLOCKS);
-	public static final RegistryObject<Item> R_FOXY_POSTER = block(FbmsModBlocks.R_FOXY_POSTER, FbmsModTabs.TAB_SHOP_BLOCKS);
-	public static final RegistryObject<Item> LEFTY_POSTER = block(FbmsModBlocks.LEFTY_POSTER, FbmsModTabs.TAB_SHOP_BLOCKS);
-	public static final RegistryObject<Item> CANDY_CADET = REGISTRY.register(FbmsModBlocks.CANDY_CADET.getId().getPath(), () -> new CandyCadetDisplayItem(FbmsModBlocks.CANDY_CADET.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> BITE_FRED_BEAR_CUTOUT = REGISTRY.register(FbmsModBlocks.BITE_FRED_BEAR_CUTOUT.getId().getPath(),
-			() -> new BiteFredBearCutoutDisplayItem(FbmsModBlocks.BITE_FRED_BEAR_CUTOUT.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> MOLDY_RABBIT = REGISTRY.register(FbmsModBlocks.MOLDY_RABBIT.getId().getPath(), () -> new MoldyRabbitDisplayItem(FbmsModBlocks.MOLDY_RABBIT.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> PAN_STAN = REGISTRY.register(FbmsModBlocks.PAN_STAN.getId().getPath(), () -> new PanStanDisplayItem(FbmsModBlocks.PAN_STAN.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> BUCKET_BOB = REGISTRY.register(FbmsModBlocks.BUCKET_BOB.getId().getPath(), () -> new BucketBobDisplayItem(FbmsModBlocks.BUCKET_BOB.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> MR_CAN_DO = REGISTRY.register(FbmsModBlocks.MR_CAN_DO.getId().getPath(), () -> new MrCanDoDisplayItem(FbmsModBlocks.MR_CAN_DO.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
 	public static final RegistryObject<Item> MR_HUGS = REGISTRY.register(FbmsModBlocks.MR_HUGS.getId().getPath(), () -> new MrHugsDisplayItem(FbmsModBlocks.MR_HUGS.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> BLACK_WHITE_CLEAN_TILES = block(FbmsModBlocks.BLACK_WHITE_CLEAN_TILES, FbmsModTabs.TAB_SHOP_BLOCKS);
 	public static final RegistryObject<Item> NUMBER_1_CRATE = REGISTRY.register(FbmsModBlocks.NUMBER_1_CRATE.getId().getPath(), () -> new Number1CrateDisplayItem(FbmsModBlocks.NUMBER_1_CRATE.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> BLACK_WHITE_CLEAN_TILE_STAIRS = block(FbmsModBlocks.BLACK_WHITE_CLEAN_TILE_STAIRS, FbmsModTabs.TAB_SHOP_BLOCKS);
 	public static final RegistryObject<Item> BAGGY_MAGGIE = REGISTRY.register(FbmsModBlocks.BAGGY_MAGGIE.getId().getPath(), () -> new BaggyMaggieDisplayItem(FbmsModBlocks.BAGGY_MAGGIE.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> BLACK_WHITE_CLEAN_TILE_SLAB = block(FbmsModBlocks.BLACK_WHITE_CLEAN_TILE_SLAB, FbmsModTabs.TAB_SHOP_BLOCKS);
+	public static final RegistryObject<Item> ENDO_01 = REGISTRY.register(FbmsModBlocks.ENDO_01.getId().getPath(), () -> new Endo01DisplayItem(FbmsModBlocks.ENDO_01.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> BLACK_WHITE_CONFETTI_TILES = block(FbmsModBlocks.BLACK_WHITE_CONFETTI_TILES, FbmsModTabs.TAB_SHOP_BLOCKS);
+	public static final RegistryObject<Item> CANDY_CADET = REGISTRY.register(FbmsModBlocks.CANDY_CADET.getId().getPath(), () -> new CandyCadetDisplayItem(FbmsModBlocks.CANDY_CADET.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> BLACK_WHITE_CONFETTI_TILE_STAIRS = block(FbmsModBlocks.BLACK_WHITE_CONFETTI_TILE_STAIRS, FbmsModTabs.TAB_SHOP_BLOCKS);
 	public static final RegistryObject<Item> HAPPY_FROG = REGISTRY.register(FbmsModBlocks.HAPPY_FROG.getId().getPath(), () -> new HappyFrogDisplayItem(FbmsModBlocks.HAPPY_FROG.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> BLACK_WHITE_CONFETTI_TILE_SLAB = block(FbmsModBlocks.BLACK_WHITE_CONFETTI_TILE_SLAB, FbmsModTabs.TAB_SHOP_BLOCKS);
 	public static final RegistryObject<Item> MR_HIPPO = REGISTRY.register(FbmsModBlocks.MR_HIPPO.getId().getPath(), () -> new MrHippoDisplayItem(FbmsModBlocks.MR_HIPPO.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
 	public static final RegistryObject<Item> NEDD_BEAR = REGISTRY.register(FbmsModBlocks.NEDD_BEAR.getId().getPath(), () -> new NeddBearDisplayItem(FbmsModBlocks.NEDD_BEAR.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
 	public static final RegistryObject<Item> PIG_PATCH = REGISTRY.register(FbmsModBlocks.PIG_PATCH.getId().getPath(), () -> new PigPatchDisplayItem(FbmsModBlocks.PIG_PATCH.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> FREDDY_FAZ_BEAR = REGISTRY.register(FbmsModBlocks.FREDDY_FAZ_BEAR.getId().getPath(),
+			() -> new FreddyFazBearDisplayItem(FbmsModBlocks.FREDDY_FAZ_BEAR.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> LEFTY = REGISTRY.register(FbmsModBlocks.LEFTY.getId().getPath(), () -> new LeftyDisplayItem(FbmsModBlocks.LEFTY.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
 	public static final RegistryObject<Item> ROCK_STAR_BONNIE = REGISTRY.register(FbmsModBlocks.ROCK_STAR_BONNIE.getId().getPath(),
 			() -> new RockStarBonnieDisplayItem(FbmsModBlocks.ROCK_STAR_BONNIE.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
 	public static final RegistryObject<Item> ROCK_STAR_CHICA = REGISTRY.register(FbmsModBlocks.ROCK_STAR_CHICA.getId().getPath(),
@@ -298,7 +213,6 @@ public class FbmsModItems {
 	public static final RegistryObject<Item> ROCK_STAR_FREDDY = REGISTRY.register(FbmsModBlocks.ROCK_STAR_FREDDY.getId().getPath(),
 			() -> new RockStarFreddyDisplayItem(FbmsModBlocks.ROCK_STAR_FREDDY.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
 	public static final RegistryObject<Item> ROCK_STAR_FOXY = REGISTRY.register(FbmsModBlocks.ROCK_STAR_FOXY.getId().getPath(), () -> new RockStarFoxyDisplayItem(FbmsModBlocks.ROCK_STAR_FOXY.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> LEFTY = REGISTRY.register(FbmsModBlocks.LEFTY.getId().getPath(), () -> new LeftyDisplayItem(FbmsModBlocks.LEFTY.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
 	public static final RegistryObject<Item> ORVILLE = REGISTRY.register(FbmsModBlocks.ORVILLE.getId().getPath(), () -> new OrvilleDisplayItem(FbmsModBlocks.ORVILLE.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
 	public static final RegistryObject<Item> SECURITY_PUPPET = REGISTRY.register(FbmsModBlocks.SECURITY_PUPPET.getId().getPath(),
 			() -> new SecurityPuppetDisplayItem(FbmsModBlocks.SECURITY_PUPPET.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
@@ -316,6 +230,35 @@ public class FbmsModItems {
 	public static final RegistryObject<Item> BARRY_POLAR = REGISTRY.register(FbmsModBlocks.BARRY_POLAR.getId().getPath(), () -> new BarryPolarDisplayItem(FbmsModBlocks.BARRY_POLAR.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
 	public static final RegistryObject<Item> FUNTIME_DELILAHBLOCK = REGISTRY.register(FbmsModBlocks.FUNTIME_DELILAHBLOCK.getId().getPath(),
 			() -> new FuntimeDelilahblockDisplayItem(FbmsModBlocks.FUNTIME_DELILAHBLOCK.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> MOLDY_RABBIT = REGISTRY.register(FbmsModBlocks.MOLDY_RABBIT.getId().getPath(), () -> new MoldyRabbitDisplayItem(FbmsModBlocks.MOLDY_RABBIT.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> DR_TEATH = REGISTRY.register(FbmsModBlocks.DR_TEATH.getId().getPath(), () -> new DrTeathDisplayItem(FbmsModBlocks.DR_TEATH.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> BITE_FRED_BEAR_CUTOUT = REGISTRY.register(FbmsModBlocks.BITE_FRED_BEAR_CUTOUT.getId().getPath(),
+			() -> new BiteFredBearCutoutDisplayItem(FbmsModBlocks.BITE_FRED_BEAR_CUTOUT.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> RUSTY = REGISTRY.register(FbmsModBlocks.RUSTY.getId().getPath(), () -> new RustyDisplayItem(FbmsModBlocks.RUSTY.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> WINK_SIGN = REGISTRY.register(FbmsModBlocks.WINK_SIGN.getId().getPath(), () -> new WinkSignDisplayItem(FbmsModBlocks.WINK_SIGN.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> SCRAP_TRAP = REGISTRY.register(FbmsModBlocks.SCRAP_TRAP.getId().getPath(), () -> new ScrapTrapDisplayItem(FbmsModBlocks.SCRAP_TRAP.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> PAN_STAN = REGISTRY.register(FbmsModBlocks.PAN_STAN.getId().getPath(), () -> new PanStanDisplayItem(FbmsModBlocks.PAN_STAN.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> BUCKET_BOB = REGISTRY.register(FbmsModBlocks.BUCKET_BOB.getId().getPath(), () -> new BucketBobDisplayItem(FbmsModBlocks.BUCKET_BOB.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> MR_CAN_DO = REGISTRY.register(FbmsModBlocks.MR_CAN_DO.getId().getPath(), () -> new MrCanDoDisplayItem(FbmsModBlocks.MR_CAN_DO.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> BALLOON_BOY = REGISTRY.register(FbmsModBlocks.BALLOON_BOY.getId().getPath(), () -> new BalloonBoyDisplayItem(FbmsModBlocks.BALLOON_BOY.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> BON_BON = REGISTRY.register(FbmsModBlocks.BON_BON.getId().getPath(), () -> new BonBonDisplayItem(FbmsModBlocks.BON_BON.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> BONNET = REGISTRY.register(FbmsModBlocks.BONNET.getId().getPath(), () -> new BonnetDisplayItem(FbmsModBlocks.BONNET.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> BONNIE = REGISTRY.register(FbmsModBlocks.BONNIE.getId().getPath(), () -> new BonnieDisplayItem(FbmsModBlocks.BONNIE.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> CHICA = REGISTRY.register(FbmsModBlocks.CHICA.getId().getPath(), () -> new ChicaDisplayItem(FbmsModBlocks.CHICA.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> FOXY = REGISTRY.register(FbmsModBlocks.FOXY.getId().getPath(), () -> new FoxyDisplayItem(FbmsModBlocks.FOXY.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> FT_FOXY = REGISTRY.register(FbmsModBlocks.FT_FOXY.getId().getPath(), () -> new FtFoxyDisplayItem(FbmsModBlocks.FT_FOXY.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> LOL_BIT = REGISTRY.register(FbmsModBlocks.LOL_BIT.getId().getPath(), () -> new LolBitDisplayItem(FbmsModBlocks.LOL_BIT.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> LOL_BIT_DT = REGISTRY.register(FbmsModBlocks.LOL_BIT_DT.getId().getPath(), () -> new LolBitDtDisplayItem(FbmsModBlocks.LOL_BIT_DT.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> RETRO_CHICA = REGISTRY.register(FbmsModBlocks.RETRO_CHICA.getId().getPath(), () -> new RetroChicaDisplayItem(FbmsModBlocks.RETRO_CHICA.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> TOY_FREDDY = REGISTRY.register(FbmsModBlocks.TOY_FREDDY.getId().getPath(), () -> new ToyFreddyDisplayItem(FbmsModBlocks.TOY_FREDDY.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> TOY_FOXY = REGISTRY.register(FbmsModBlocks.TOY_FOXY.getId().getPath(), () -> new ToyFoxyDisplayItem(FbmsModBlocks.TOY_FOXY.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> TOY_CHICA = REGISTRY.register(FbmsModBlocks.TOY_CHICA.getId().getPath(), () -> new ToyChicaDisplayItem(FbmsModBlocks.TOY_CHICA.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> TOY_BONNIE = REGISTRY.register(FbmsModBlocks.TOY_BONNIE.getId().getPath(), () -> new ToyBonnieDisplayItem(FbmsModBlocks.TOY_BONNIE.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> DOUG_THE_DOG = REGISTRY.register(FbmsModBlocks.DOUG_THE_DOG.getId().getPath(), () -> new DougTheDogDisplayItem(FbmsModBlocks.DOUG_THE_DOG.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> WITHERED_DOUG_THE_DOG = REGISTRY.register(FbmsModBlocks.WITHERED_DOUG_THE_DOG.getId().getPath(),
+			() -> new WitheredDougTheDogDisplayItem(FbmsModBlocks.WITHERED_DOUG_THE_DOG.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> ENDO_02 = REGISTRY.register(FbmsModBlocks.ENDO_02.getId().getPath(), () -> new Endo02DisplayItem(FbmsModBlocks.ENDO_02.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> LOL_BIT_409 = REGISTRY.register(FbmsModBlocks.LOL_BIT_409.getId().getPath(), () -> new LolBit409DisplayItem(FbmsModBlocks.LOL_BIT_409.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
 	public static final RegistryObject<Item> WALLY_WALRUS = REGISTRY.register(FbmsModBlocks.WALLY_WALRUS.getId().getPath(), () -> new WallyWalrusDisplayItem(FbmsModBlocks.WALLY_WALRUS.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
 	public static final RegistryObject<Item> PUFFY_PUFFINS = REGISTRY.register(FbmsModBlocks.PUFFY_PUFFINS.getId().getPath(), () -> new PuffyPuffinsDisplayItem(FbmsModBlocks.PUFFY_PUFFINS.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
 	public static final RegistryObject<Item> HAZY_REINDEER = REGISTRY.register(FbmsModBlocks.HAZY_REINDEER.getId().getPath(), () -> new HazyReindeerDisplayItem(FbmsModBlocks.HAZY_REINDEER.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
@@ -325,39 +268,96 @@ public class FbmsModItems {
 			() -> new WitheredPuffyPuffinsDisplayItem(FbmsModBlocks.WITHERED_PUFFY_PUFFINS.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
 	public static final RegistryObject<Item> WITHERED_HAZY_REINDEER = REGISTRY.register(FbmsModBlocks.WITHERED_HAZY_REINDEER.getId().getPath(),
 			() -> new WitheredHazyReindeerDisplayItem(FbmsModBlocks.WITHERED_HAZY_REINDEER.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> GT_ENDO = REGISTRY.register(FbmsModBlocks.GT_ENDO.getId().getPath(), () -> new GtEndoDisplayItem(FbmsModBlocks.GT_ENDO.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> ST_ENDO = REGISTRY.register(FbmsModBlocks.ST_ENDO.getId().getPath(), () -> new StEndoDisplayItem(FbmsModBlocks.ST_ENDO.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> BUFFET_ENDO = REGISTRY.register(FbmsModBlocks.BUFFET_ENDO.getId().getPath(), () -> new BuffetEndoDisplayItem(FbmsModBlocks.BUFFET_ENDO.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> DR_TEATH = REGISTRY.register(FbmsModBlocks.DR_TEATH.getId().getPath(), () -> new DrTeathDisplayItem(FbmsModBlocks.DR_TEATH.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> RUSTY = REGISTRY.register(FbmsModBlocks.RUSTY.getId().getPath(), () -> new RustyDisplayItem(FbmsModBlocks.RUSTY.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> WINK_SIGN = REGISTRY.register(FbmsModBlocks.WINK_SIGN.getId().getPath(), () -> new WinkSignDisplayItem(FbmsModBlocks.WINK_SIGN.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> SCRAP_TRAP = REGISTRY.register(FbmsModBlocks.SCRAP_TRAP.getId().getPath(), () -> new ScrapTrapDisplayItem(FbmsModBlocks.SCRAP_TRAP.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> BALLOON_BOY = REGISTRY.register(FbmsModBlocks.BALLOON_BOY.getId().getPath(), () -> new BalloonBoyDisplayItem(FbmsModBlocks.BALLOON_BOY.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> BON_BON = REGISTRY.register(FbmsModBlocks.BON_BON.getId().getPath(), () -> new BonBonDisplayItem(FbmsModBlocks.BON_BON.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> BONNET = REGISTRY.register(FbmsModBlocks.BONNET.getId().getPath(), () -> new BonnetDisplayItem(FbmsModBlocks.BONNET.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> FT_FOXY = REGISTRY.register(FbmsModBlocks.FT_FOXY.getId().getPath(), () -> new FtFoxyDisplayItem(FbmsModBlocks.FT_FOXY.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> LOL_BIT = REGISTRY.register(FbmsModBlocks.LOL_BIT.getId().getPath(), () -> new LolBitDisplayItem(FbmsModBlocks.LOL_BIT.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> LOL_BIT_DT = REGISTRY.register(FbmsModBlocks.LOL_BIT_DT.getId().getPath(), () -> new LolBitDtDisplayItem(FbmsModBlocks.LOL_BIT_DT.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> RETRO_CHICA = REGISTRY.register(FbmsModBlocks.RETRO_CHICA.getId().getPath(), () -> new RetroChicaDisplayItem(FbmsModBlocks.RETRO_CHICA.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> FREDDY_FAZ_BEAR = REGISTRY.register(FbmsModBlocks.FREDDY_FAZ_BEAR.getId().getPath(),
-			() -> new FreddyFazBearDisplayItem(FbmsModBlocks.FREDDY_FAZ_BEAR.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> BONNIE = REGISTRY.register(FbmsModBlocks.BONNIE.getId().getPath(), () -> new BonnieDisplayItem(FbmsModBlocks.BONNIE.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> CHICA = REGISTRY.register(FbmsModBlocks.CHICA.getId().getPath(), () -> new ChicaDisplayItem(FbmsModBlocks.CHICA.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> FOXY = REGISTRY.register(FbmsModBlocks.FOXY.getId().getPath(), () -> new FoxyDisplayItem(FbmsModBlocks.FOXY.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> ENDO_01 = REGISTRY.register(FbmsModBlocks.ENDO_01.getId().getPath(), () -> new Endo01DisplayItem(FbmsModBlocks.ENDO_01.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> TOY_FREDDY = REGISTRY.register(FbmsModBlocks.TOY_FREDDY.getId().getPath(), () -> new ToyFreddyDisplayItem(FbmsModBlocks.TOY_FREDDY.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> TOY_BONNIE = REGISTRY.register(FbmsModBlocks.TOY_BONNIE.getId().getPath(), () -> new ToyBonnieDisplayItem(FbmsModBlocks.TOY_BONNIE.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> TOY_CHICA = REGISTRY.register(FbmsModBlocks.TOY_CHICA.getId().getPath(), () -> new ToyChicaDisplayItem(FbmsModBlocks.TOY_CHICA.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> TOY_FOXY = REGISTRY.register(FbmsModBlocks.TOY_FOXY.getId().getPath(), () -> new ToyFoxyDisplayItem(FbmsModBlocks.TOY_FOXY.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> ENDO_02 = REGISTRY.register(FbmsModBlocks.ENDO_02.getId().getPath(), () -> new Endo02DisplayItem(FbmsModBlocks.ENDO_02.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> DOUG_THE_DOG = REGISTRY.register(FbmsModBlocks.DOUG_THE_DOG.getId().getPath(), () -> new DougTheDogDisplayItem(FbmsModBlocks.DOUG_THE_DOG.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> WITHERED_DOUG_THE_DOG = REGISTRY.register(FbmsModBlocks.WITHERED_DOUG_THE_DOG.getId().getPath(),
-			() -> new WitheredDougTheDogDisplayItem(FbmsModBlocks.WITHERED_DOUG_THE_DOG.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> LOL_BIT_409 = REGISTRY.register(FbmsModBlocks.LOL_BIT_409.getId().getPath(), () -> new LolBit409DisplayItem(FbmsModBlocks.LOL_BIT_409.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
 	public static final RegistryObject<Item> LARGE_SIGN = REGISTRY.register(FbmsModBlocks.LARGE_SIGN.getId().getPath(), () -> new LargeSignDisplayItem(FbmsModBlocks.LARGE_SIGN.get(), new Item.Properties().tab(FbmsModTabs.TAB_A_DS)));
 	public static final RegistryObject<Item> LARGE_SIGN_2 = REGISTRY.register(FbmsModBlocks.LARGE_SIGN_2.getId().getPath(), () -> new LargeSign2DisplayItem(FbmsModBlocks.LARGE_SIGN_2.get(), new Item.Properties().tab(FbmsModTabs.TAB_A_DS)));
 	public static final RegistryObject<Item> LARGE_SIGN_3 = REGISTRY.register(FbmsModBlocks.LARGE_SIGN_3.getId().getPath(), () -> new LargeSign3DisplayItem(FbmsModBlocks.LARGE_SIGN_3.get(), new Item.Properties().tab(FbmsModTabs.TAB_A_DS)));
 	public static final RegistryObject<Item> LARGE_SIGN_4 = REGISTRY.register(FbmsModBlocks.LARGE_SIGN_4.getId().getPath(), () -> new LargeSign4DisplayItem(FbmsModBlocks.LARGE_SIGN_4.get(), new Item.Properties().tab(FbmsModTabs.TAB_A_DS)));
+	public static final RegistryObject<Item> BALLOON_BARREL = block(FbmsModBlocks.BALLOON_BARREL, FbmsModTabs.TAB_SHOP_BLOCKS);
+	public static final RegistryObject<Item> PAPER_PAL_CLOWN = block(FbmsModBlocks.PAPER_PAL_CLOWN, FbmsModTabs.TAB_SHOP_BLOCKS);
+	public static final RegistryObject<Item> PAPPER_PAL_MR_HIPPO = block(FbmsModBlocks.PAPPER_PAL_MR_HIPPO, FbmsModTabs.TAB_SHOP_BLOCKS);
+	public static final RegistryObject<Item> PAPPER_PAL_ORVIL = block(FbmsModBlocks.PAPPER_PAL_ORVIL, FbmsModTabs.TAB_SHOP_BLOCKS);
+	public static final RegistryObject<Item> DISCOUNT_BALLPIT = REGISTRY.register(FbmsModBlocks.DISCOUNT_BALLPIT.getId().getPath(),
+			() -> new DiscountBallpitDisplayItem(FbmsModBlocks.DISCOUNT_BALLPIT.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> DUCK_POND = REGISTRY.register(FbmsModBlocks.DUCK_POND.getId().getPath(), () -> new DuckPondDisplayItem(FbmsModBlocks.DUCK_POND.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> SANITATION_STATION = REGISTRY.register(FbmsModBlocks.SANITATION_STATION.getId().getPath(),
+			() -> new SanitationStationDisplayItem(FbmsModBlocks.SANITATION_STATION.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> PIN_THE_BOWTIE_ON_THE_FREDDY = REGISTRY.register(FbmsModBlocks.PIN_THE_BOWTIE_ON_THE_FREDDY.getId().getPath(),
+			() -> new PinTheBowtieOnTheFreddyDisplayItem(FbmsModBlocks.PIN_THE_BOWTIE_ON_THE_FREDDY.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> PIN_THE_BOWTIE_ON_THE_TIE_THE_TOY_FREDDY = REGISTRY.register(FbmsModBlocks.PIN_THE_BOWTIE_ON_THE_TIE_THE_TOY_FREDDY.getId().getPath(),
+			() -> new PinTheBowtieOnTheTieTheToyFreddyDisplayItem(FbmsModBlocks.PIN_THE_BOWTIE_ON_THE_TIE_THE_TOY_FREDDY.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> DELUXE_SPEAKER_SET = REGISTRY.register(FbmsModBlocks.DELUXE_SPEAKER_SET.getId().getPath(),
+			() -> new DeluxeSpeakerSetDisplayItem(FbmsModBlocks.DELUXE_SPEAKER_SET.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> ENHANCED_SPEAKER_SET = REGISTRY.register(FbmsModBlocks.ENHANCED_SPEAKER_SET.getId().getPath(),
+			() -> new EnhancedSpeakerSetDisplayItem(FbmsModBlocks.ENHANCED_SPEAKER_SET.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> GUMBALL_SWIVEL_HANDS = block(FbmsModBlocks.GUMBALL_SWIVEL_HANDS, FbmsModTabs.TAB_SHOP_BLOCKS);
+	public static final RegistryObject<Item> NOVELTY_TRAFFIC_LIGHT = REGISTRY.register(FbmsModBlocks.NOVELTY_TRAFFIC_LIGHT.getId().getPath(),
+			() -> new NoveltyTrafficLightDisplayItem(FbmsModBlocks.NOVELTY_TRAFFIC_LIGHT.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> MIDNIGHT_MOTORIST = REGISTRY.register(FbmsModBlocks.MIDNIGHT_MOTORIST.getId().getPath(),
+			() -> new MidnightMotoristDisplayItem(FbmsModBlocks.MIDNIGHT_MOTORIST.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> FRUITY_MAZE = REGISTRY.register(FbmsModBlocks.FRUITY_MAZE.getId().getPath(), () -> new FruityMazeDisplayItem(FbmsModBlocks.FRUITY_MAZE.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> FOIL_PARTY_SET_1 = REGISTRY.register(FbmsModBlocks.FOIL_PARTY_SET_1.getId().getPath(),
+			() -> new FoilPartySet1DisplayItem(FbmsModBlocks.FOIL_PARTY_SET_1.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> FOIL_PARTY_SET_2 = REGISTRY.register(FbmsModBlocks.FOIL_PARTY_SET_2.getId().getPath(),
+			() -> new FoilPartySet2DisplayItem(FbmsModBlocks.FOIL_PARTY_SET_2.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> FOIL_PARTY_SET_3 = REGISTRY.register(FbmsModBlocks.FOIL_PARTY_SET_3.getId().getPath(),
+			() -> new FoilPartySet3DisplayItem(FbmsModBlocks.FOIL_PARTY_SET_3.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> FOIL_PARTY_SET_4 = REGISTRY.register(FbmsModBlocks.FOIL_PARTY_SET_4.getId().getPath(),
+			() -> new FoilPartySet4DisplayItem(FbmsModBlocks.FOIL_PARTY_SET_4.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> NEON_JUKE_BOX = REGISTRY.register(FbmsModBlocks.NEON_JUKE_BOX.getId().getPath(),
+			() -> new NeonJukeBoxDisplayItem(FbmsModBlocks.NEON_JUKE_BOX.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> LADDER_TOWER = REGISTRY.register(FbmsModBlocks.LADDER_TOWER.getId().getPath(), () -> new LadderTowerDisplayItem(FbmsModBlocks.LADDER_TOWER.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> LEMONADE_CLOWN = REGISTRY.register(FbmsModBlocks.LEMONADE_CLOWN.getId().getPath(),
+			() -> new LemonadeClownDisplayItem(FbmsModBlocks.LEMONADE_CLOWN.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> FRUIT_PUNCH_CLOWN = REGISTRY.register(FbmsModBlocks.FRUIT_PUNCH_CLOWN.getId().getPath(),
+			() -> new FruitPunchClownDisplayItem(FbmsModBlocks.FRUIT_PUNCH_CLOWN.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> BALL_PIT_TOWER = REGISTRY.register(FbmsModBlocks.BALL_PIT_TOWER.getId().getPath(),
+			() -> new BallPitTowerDisplayItem(FbmsModBlocks.BALL_PIT_TOWER.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> R_FREDDY_POSTER = block(FbmsModBlocks.R_FREDDY_POSTER, FbmsModTabs.TAB_SHOP_BLOCKS);
+	public static final RegistryObject<Item> RBONNIE_POSTER = block(FbmsModBlocks.RBONNIE_POSTER, FbmsModTabs.TAB_SHOP_BLOCKS);
+	public static final RegistryObject<Item> R_CHICA_POSTER = block(FbmsModBlocks.R_CHICA_POSTER, FbmsModTabs.TAB_SHOP_BLOCKS);
+	public static final RegistryObject<Item> R_FOXY_POSTER = block(FbmsModBlocks.R_FOXY_POSTER, FbmsModTabs.TAB_SHOP_BLOCKS);
+	public static final RegistryObject<Item> NEON_PARTY_SET_1 = REGISTRY.register(FbmsModBlocks.NEON_PARTY_SET_1.getId().getPath(),
+			() -> new NeonPartySet1DisplayItem(FbmsModBlocks.NEON_PARTY_SET_1.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> NEON_PARTY_SET_2 = REGISTRY.register(FbmsModBlocks.NEON_PARTY_SET_2.getId().getPath(),
+			() -> new NeonPartySet2DisplayItem(FbmsModBlocks.NEON_PARTY_SET_2.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> GT_ENDO = REGISTRY.register(FbmsModBlocks.GT_ENDO.getId().getPath(), () -> new GtEndoDisplayItem(FbmsModBlocks.GT_ENDO.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> NEON_PARTY_SET_3 = REGISTRY.register(FbmsModBlocks.NEON_PARTY_SET_3.getId().getPath(),
+			() -> new NeonPartySet3DisplayItem(FbmsModBlocks.NEON_PARTY_SET_3.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> ST_ENDO = REGISTRY.register(FbmsModBlocks.ST_ENDO.getId().getPath(), () -> new StEndoDisplayItem(FbmsModBlocks.ST_ENDO.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> NEON_PARTY_SET_4 = REGISTRY.register(FbmsModBlocks.NEON_PARTY_SET_4.getId().getPath(),
+			() -> new NeonPartySet4DisplayItem(FbmsModBlocks.NEON_PARTY_SET_4.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> BUFFET_ENDO = REGISTRY.register(FbmsModBlocks.BUFFET_ENDO.getId().getPath(), () -> new BuffetEndoDisplayItem(FbmsModBlocks.BUFFET_ENDO.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> LEFTY_POSTER = block(FbmsModBlocks.LEFTY_POSTER, FbmsModTabs.TAB_SHOP_BLOCKS);
+	public static final RegistryObject<Item> DISCO_PIZZA = block(FbmsModBlocks.DISCO_PIZZA, FbmsModTabs.TAB_SHOP_BLOCKS);
+	public static final RegistryObject<Item> EGG_BABY = REGISTRY.register(FbmsModBlocks.EGG_BABY.getId().getPath(), () -> new EggBabyDisplayItem(FbmsModBlocks.EGG_BABY.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> BONK_A_BON = REGISTRY.register(FbmsModBlocks.BONK_A_BON.getId().getPath(), () -> new BonkABonDisplayItem(FbmsModBlocks.BONK_A_BON.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> CARNIVAL_HOOPS = REGISTRY.register(FbmsModBlocks.CARNIVAL_HOOPS.getId().getPath(),
+			() -> new CarnivalHoopsDisplayItem(FbmsModBlocks.CARNIVAL_HOOPS.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> GRAVITY_VORTEX_2 = REGISTRY.register(FbmsModBlocks.GRAVITY_VORTEX_2.getId().getPath(),
+			() -> new GravityVortex2DisplayItem(FbmsModBlocks.GRAVITY_VORTEX_2.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> PICKLES = REGISTRY.register(FbmsModBlocks.PICKLES.getId().getPath(), () -> new PicklesDisplayItem(FbmsModBlocks.PICKLES.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> DISCOUNT_COOLING_UNIT = REGISTRY.register(FbmsModBlocks.DISCOUNT_COOLING_UNIT.getId().getPath(),
+			() -> new DiscountCoolingUnitDisplayItem(FbmsModBlocks.DISCOUNT_COOLING_UNIT.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> BALLOON_CART = REGISTRY.register(FbmsModBlocks.BALLOON_CART.getId().getPath(), () -> new BalloonCartDisplayItem(FbmsModBlocks.BALLOON_CART.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> RIDING_ROCKETS_RED = REGISTRY.register(FbmsModBlocks.RIDING_ROCKETS_RED.getId().getPath(),
+			() -> new RidingRocketsRedDisplayItem(FbmsModBlocks.RIDING_ROCKETS_RED.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> RIDING_ROCKETS_PURPLE = REGISTRY.register(FbmsModBlocks.RIDING_ROCKETS_PURPLE.getId().getPath(),
+			() -> new RidingRocketsPurpleDisplayItem(FbmsModBlocks.RIDING_ROCKETS_PURPLE.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> PAPER_PLATES = REGISTRY.register(FbmsModBlocks.PAPER_PLATES.getId().getPath(), () -> new PaperPlatesDisplayItem(FbmsModBlocks.PAPER_PLATES.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> NEON_STAGE_LIGHT_GREEN = REGISTRY.register(FbmsModBlocks.NEON_STAGE_LIGHT_GREEN.getId().getPath(),
+			() -> new NeonStageLightGreenDisplayItem(FbmsModBlocks.NEON_STAGE_LIGHT_GREEN.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> NEON_STAGE_LIGHTS_PINK = REGISTRY.register(FbmsModBlocks.NEON_STAGE_LIGHTS_PINK.getId().getPath(),
+			() -> new NeonStageLightsPinkDisplayItem(FbmsModBlocks.NEON_STAGE_LIGHTS_PINK.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> NEON_STAGE_LIGHTS_BLUE = REGISTRY.register(FbmsModBlocks.NEON_STAGE_LIGHTS_BLUE.getId().getPath(),
+			() -> new NeonStageLightsBlueDisplayItem(FbmsModBlocks.NEON_STAGE_LIGHTS_BLUE.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> CEILING_STAGE_LIGHTS = REGISTRY.register(FbmsModBlocks.CEILING_STAGE_LIGHTS.getId().getPath(),
+			() -> new CeilingStageLightsDisplayItem(FbmsModBlocks.CEILING_STAGE_LIGHTS.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> CEILING_STAGE_LIGHTPINK = REGISTRY.register(FbmsModBlocks.CEILING_STAGE_LIGHTPINK.getId().getPath(),
+			() -> new CeilingStageLightpinkDisplayItem(FbmsModBlocks.CEILING_STAGE_LIGHTPINK.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> CEILING_STAGE_LIGHTBLUE = REGISTRY.register(FbmsModBlocks.CEILING_STAGE_LIGHTBLUE.getId().getPath(),
+			() -> new CeilingStageLightblueDisplayItem(FbmsModBlocks.CEILING_STAGE_LIGHTBLUE.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> DELUXE_BALLPIT = REGISTRY.register(FbmsModBlocks.DELUXE_BALLPIT.getId().getPath(),
+			() -> new DeluxeBallpitDisplayItem(FbmsModBlocks.DELUXE_BALLPIT.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
 	public static final RegistryObject<Item> TRUMPET = REGISTRY.register("trumpet", () -> new TrumpetItem());
 	public static final RegistryObject<Item> BANJO = REGISTRY.register("banjo", () -> new BanjoItem());
 	public static final RegistryObject<Item> MARACAS = REGISTRY.register("maracas", () -> new MaracasItem());
@@ -418,10 +418,6 @@ public class FbmsModItems {
 			() -> new PizzaPlaceSignDisplayItem(FbmsModBlocks.PIZZA_PLACE_SIGN.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
 	public static final RegistryObject<Item> PIZZA_PLACE_SIGN_OLD = REGISTRY.register(FbmsModBlocks.PIZZA_PLACE_SIGN_OLD.getId().getPath(),
 			() -> new PizzaPlaceSignOldDisplayItem(FbmsModBlocks.PIZZA_PLACE_SIGN_OLD.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
-	public static final RegistryObject<Item> JEFFS_PIZZA_SIGN = REGISTRY.register(FbmsModBlocks.JEFFS_PIZZA_SIGN.getId().getPath(),
-			() -> new JeffsPizzaSignDisplayItem(FbmsModBlocks.JEFFS_PIZZA_SIGN.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
-	public static final RegistryObject<Item> LOLBIT_RECORD = REGISTRY.register(FbmsModBlocks.LOLBIT_RECORD.getId().getPath(),
-			() -> new LolbitRecordDisplayItem(FbmsModBlocks.LOLBIT_RECORD.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
 	public static final RegistryObject<Item> DOC_PLUSH = REGISTRY.register(FbmsModBlocks.DOC_PLUSH.getId().getPath(), () -> new DocPlushDisplayItem(FbmsModBlocks.DOC_PLUSH.get(), new Item.Properties().tab(FbmsModTabs.TAB_PLUSH)));
 	public static final RegistryObject<Item> GARF_PLUSH = REGISTRY.register(FbmsModBlocks.GARF_PLUSH.getId().getPath(), () -> new GarfPlushDisplayItem(FbmsModBlocks.GARF_PLUSH.get(), new Item.Properties().tab(FbmsModTabs.TAB_PLUSH)));
 	public static final RegistryObject<Item> ROSEY = REGISTRY.register(FbmsModBlocks.ROSEY.getId().getPath(), () -> new RoseyDisplayItem(FbmsModBlocks.ROSEY.get(), new Item.Properties().tab(FbmsModTabs.TAB_PLUSH)));
@@ -433,7 +429,11 @@ public class FbmsModItems {
 	public static final RegistryObject<Item> BROKEN_BARRY_POLAR_ANIMATED = REGISTRY.register(FbmsModBlocks.BROKEN_BARRY_POLAR_ANIMATED.getId().getPath(),
 			() -> new BrokenBarryPolarAnimatedDisplayItem(FbmsModBlocks.BROKEN_BARRY_POLAR_ANIMATED.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> BEPH_ANIMATED = REGISTRY.register(FbmsModBlocks.BEPH_ANIMATED.getId().getPath(), () -> new BephAnimatedDisplayItem(FbmsModBlocks.BEPH_ANIMATED.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> JEFFS_PIZZA_SIGN = REGISTRY.register(FbmsModBlocks.JEFFS_PIZZA_SIGN.getId().getPath(),
+			() -> new JeffsPizzaSignDisplayItem(FbmsModBlocks.JEFFS_PIZZA_SIGN.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
 	public static final RegistryObject<Item> AD = REGISTRY.register("ad", () -> new AdItem());
+	public static final RegistryObject<Item> LOLBIT_RECORD = REGISTRY.register(FbmsModBlocks.LOLBIT_RECORD.getId().getPath(),
+			() -> new LolbitRecordDisplayItem(FbmsModBlocks.LOLBIT_RECORD.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
 	public static final RegistryObject<Item> FUNTIME_DELILAH = REGISTRY.register(FbmsModBlocks.FUNTIME_DELILAH.getId().getPath(), () -> new FuntimeDelilahDisplayItem(FbmsModBlocks.FUNTIME_DELILAH.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> EL_CHIP_ANIMATED = REGISTRY.register(FbmsModBlocks.EL_CHIP_ANIMATED.getId().getPath(), () -> new ElChipAnimatedDisplayItem(FbmsModBlocks.EL_CHIP_ANIMATED.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> ENDO_01_ANIMATED = REGISTRY.register(FbmsModBlocks.ENDO_01_ANIMATED.getId().getPath(), () -> new Endo01AnimatedDisplayItem(FbmsModBlocks.ENDO_01_ANIMATED.get(), new Item.Properties().tab(null)));
