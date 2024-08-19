@@ -39,13 +39,13 @@ import javax.annotation.Nullable;
 
 import java.util.stream.IntStream;
 
-public class BephAnimatedTileEntity extends RandomizableContainerBlockEntity implements IAnimatable, WorldlyContainer {
+public class Coins100TileEntity extends RandomizableContainerBlockEntity implements IAnimatable, WorldlyContainer {
 	public AnimationFactory factory = GeckoLibUtil.createFactory(this);
 	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(9, ItemStack.EMPTY);
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
-	public BephAnimatedTileEntity(BlockPos pos, BlockState state) {
-		super(FbmsModBlockEntities.BEPH_ANIMATED.get(), pos, state);
+	public Coins100TileEntity(BlockPos pos, BlockState state) {
+		super(FbmsModBlockEntities.COINS_25.get(), pos, state);
 	}
 
 	private <E extends BlockEntity & IAnimatable> PlayState predicate(AnimationEvent<E> event) {
@@ -72,8 +72,8 @@ public class BephAnimatedTileEntity extends RandomizableContainerBlockEntity imp
 
 	@Override
 	public void registerControllers(AnimationData data) {
-		data.addAnimationController(new AnimationController<BephAnimatedTileEntity>(this, "controller", 0, this::predicate));
-		data.addAnimationController(new AnimationController<BephAnimatedTileEntity>(this, "procedurecontroller", 0, this::procedurePredicate));
+		data.addAnimationController(new AnimationController<Coins100TileEntity>(this, "controller", 0, this::predicate));
+		data.addAnimationController(new AnimationController<Coins100TileEntity>(this, "procedurecontroller", 0, this::procedurePredicate));
 	}
 
 	@Override
@@ -122,7 +122,7 @@ public class BephAnimatedTileEntity extends RandomizableContainerBlockEntity imp
 
 	@Override
 	public Component getDefaultName() {
-		return Component.literal("beph_animated");
+		return Component.literal("coins_25");
 	}
 
 	@Override
@@ -137,7 +137,7 @@ public class BephAnimatedTileEntity extends RandomizableContainerBlockEntity imp
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Beph Animated");
+		return Component.literal("Coins 25");
 	}
 
 	@Override

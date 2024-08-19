@@ -1,0 +1,75 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-7, 0, -7], "size": [14, 13, 13], "uv": [0, 0]},
+						{"origin": [-6, 13, -6], "size": [12, 1, 11], "uv": [0, 39]}
+					]
+				},
+				{
+					"name": "bone",
+					"pivot": [-2.25, 13.5, 3],
+					"rotation": [27.5, -20, 0],
+					"cubes": [
+						{"origin": [-4.25, 13, 0], "size": [4, 1, 6], "uv": [0, 26]},
+						{"origin": [-5.25, 13, 1], "size": [1, 1, 4], "uv": [0, 5]},
+						{"origin": [-0.25, 13, 1], "size": [1, 1, 4], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "bone4",
+					"pivot": [-3.25, 13.5, -1],
+					"rotation": [95.24995, -59.13269, -43.58606],
+					"cubes": [
+						{"origin": [-5.25, 13, -4], "size": [4, 1, 6], "uv": [0, 26]},
+						{"origin": [-6.25, 13, -3], "size": [1, 1, 4], "uv": [0, 5]},
+						{"origin": [-1.25, 13, -3], "size": [1, 1, 4], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "bone2",
+					"pivot": [1.75, 13.5, 3],
+					"rotation": [36.95095, 43.79597, 37.59692],
+					"cubes": [
+						{"origin": [-0.25, 13, 0], "size": [4, 1, 6], "uv": [0, 26]},
+						{"origin": [-1.25, 13, 1], "size": [1, 1, 4], "uv": [0, 5]},
+						{"origin": [3.75, 13, 1], "size": [1, 1, 4], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "bone3",
+					"pivot": [1.75, 13.5, 0],
+					"rotation": [36.95095, 43.79597, 37.59692],
+					"cubes": [
+						{"origin": [-0.25, 13, -3], "size": [4, 1, 6], "uv": [0, 26]},
+						{"origin": [-1.25, 13, -2], "size": [1, 1, 4], "uv": [0, 5]},
+						{"origin": [3.75, 13, -2], "size": [1, 1, 4], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "bone5",
+					"pivot": [-0.25, 13.5, -3],
+					"rotation": [36.73361, -43.49183, -17.09121],
+					"cubes": [
+						{"origin": [-2.25, 13, -6], "size": [4, 1, 6], "uv": [0, 26]},
+						{"origin": [-3.25, 13, -5], "size": [1, 1, 4], "uv": [0, 5]},
+						{"origin": [1.75, 13, -5], "size": [1, 1, 4], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

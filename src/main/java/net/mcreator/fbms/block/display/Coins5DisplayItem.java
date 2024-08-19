@@ -15,14 +15,14 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer;
 
-import net.mcreator.fbms.block.renderer.BephAnimatedDisplayItemRenderer;
+import net.mcreator.fbms.block.renderer.Coins5DisplayItemRenderer;
 
 import java.util.function.Consumer;
 
-public class BephAnimatedDisplayItem extends BlockItem implements IAnimatable {
+public class Coins5DisplayItem extends BlockItem implements IAnimatable {
 	public AnimationFactory factory = GeckoLibUtil.createFactory(this);
 
-	public BephAnimatedDisplayItem(Block block, Properties settings) {
+	public Coins5DisplayItem(Block block, Properties settings) {
 		super(block, settings);
 	}
 
@@ -34,7 +34,7 @@ public class BephAnimatedDisplayItem extends BlockItem implements IAnimatable {
 	public void initializeClient(Consumer<IClientItemExtensions> consumer) {
 		super.initializeClient(consumer);
 		consumer.accept(new IClientItemExtensions() {
-			private final BlockEntityWithoutLevelRenderer renderer = new BephAnimatedDisplayItemRenderer();
+			private final BlockEntityWithoutLevelRenderer renderer = new Coins5DisplayItemRenderer();
 
 			@Override
 			public BlockEntityWithoutLevelRenderer getCustomRenderer() {

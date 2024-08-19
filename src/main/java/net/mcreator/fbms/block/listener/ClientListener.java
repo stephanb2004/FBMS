@@ -141,6 +141,12 @@ import net.mcreator.fbms.block.renderer.DiscountBallpitTileRenderer;
 import net.mcreator.fbms.block.renderer.DeluxeSpeakerSetTileRenderer;
 import net.mcreator.fbms.block.renderer.DeluxeBallpitTileRenderer;
 import net.mcreator.fbms.block.renderer.DBalloonBoyTileRenderer;
+import net.mcreator.fbms.block.renderer.Coins5TileRenderer;
+import net.mcreator.fbms.block.renderer.Coins25TileRenderer;
+import net.mcreator.fbms.block.renderer.Coins100TileRenderer;
+import net.mcreator.fbms.block.renderer.Coins1000TileRenderer;
+import net.mcreator.fbms.block.renderer.Coins10000TileRenderer;
+import net.mcreator.fbms.block.renderer.CoinTileRenderer;
 import net.mcreator.fbms.block.renderer.ChicaTileRenderer;
 import net.mcreator.fbms.block.renderer.CeilingStageLightsTileRenderer;
 import net.mcreator.fbms.block.renderer.CeilingStageLightpinkTileRenderer;
@@ -158,7 +164,6 @@ import net.mcreator.fbms.block.renderer.BonnetTileRenderer;
 import net.mcreator.fbms.block.renderer.BonkABonTileRenderer;
 import net.mcreator.fbms.block.renderer.BonBonTileRenderer;
 import net.mcreator.fbms.block.renderer.BiteFredBearCutoutTileRenderer;
-import net.mcreator.fbms.block.renderer.BephAnimatedTileRenderer;
 import net.mcreator.fbms.block.renderer.BarryPolarTileRenderer;
 import net.mcreator.fbms.block.renderer.BarryPolarFixedTileRenderer;
 import net.mcreator.fbms.block.renderer.BarryPolarAnimatedTileRenderer;
@@ -308,7 +313,6 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.DOLLS.get(), DollsTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.BARRY_POLAR_ANIMATED.get(), BarryPolarAnimatedTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.BROKEN_BARRY_POLAR_ANIMATED.get(), BrokenBarryPolarAnimatedTileRenderer::new);
-		event.registerBlockEntityRenderer(FbmsModBlockEntities.BEPH_ANIMATED.get(), BephAnimatedTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.FUNTIME_DELILAH.get(), FuntimeDelilahTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.EL_CHIP_ANIMATED.get(), ElChipAnimatedTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.ENDO_01_ANIMATED.get(), Endo01AnimatedTileRenderer::new);
@@ -332,5 +336,11 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.PUFFY_PUFFINS_ANIMATED.get(), PuffyPuffinsAnimatedTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.GT_ENDO_ANIMATED.get(), GtEndoAnimatedTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.ST_ENDO_ANIMATED.get(), StEndoAnimatedTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.COIN.get(), CoinTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.COINS_5.get(), Coins5TileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.COINS_100.get(), Coins25TileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.COINS_25.get(), Coins100TileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.COINS_1000.get(), Coins1000TileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.COINS_10000.get(), Coins10000TileRenderer::new);
 	}
 }

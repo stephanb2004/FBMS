@@ -1,7 +1,27 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "fbms:custom/lolbit_record_particle"
+    },
+    "facing=east": {
+      "model": "fbms:custom/lolbit_record_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:custom/lolbit_record_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:custom/lolbit_record_particle",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fbms:custom/lolbit_record_particle",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fbms:custom/lolbit_record_particle",
+      "x": 90
     }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:custom/coin_particle"
+    },
+    "facing=east": {
+      "model": "fbms:custom/coin_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:custom/coin_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:custom/coin_particle",
+      "y": 270
+    }
+  }
+}
