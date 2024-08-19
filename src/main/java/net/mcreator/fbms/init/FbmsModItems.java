@@ -102,6 +102,7 @@ import net.mcreator.fbms.block.display.MoltenSitDisplayItem;
 import net.mcreator.fbms.block.display.MoltenFreddyDisplayItem;
 import net.mcreator.fbms.block.display.MoldyRabbitDisplayItem;
 import net.mcreator.fbms.block.display.MidnightMotoristDisplayItem;
+import net.mcreator.fbms.block.display.Megaultimatespeakertron3000DisplayItem;
 import net.mcreator.fbms.block.display.LolbitRecordDisplayItem;
 import net.mcreator.fbms.block.display.LolBitDtDisplayItem;
 import net.mcreator.fbms.block.display.LolBitDisplayItem;
@@ -481,6 +482,8 @@ public class FbmsModItems {
 	public static final RegistryObject<Item> COINS_25 = REGISTRY.register(FbmsModBlocks.COINS_25.getId().getPath(), () -> new Coins100DisplayItem(FbmsModBlocks.COINS_25.get(), new Item.Properties().tab(FbmsModTabs.TAB_PROPS)));
 	public static final RegistryObject<Item> COINS_1000 = REGISTRY.register(FbmsModBlocks.COINS_1000.getId().getPath(), () -> new Coins1000DisplayItem(FbmsModBlocks.COINS_1000.get(), new Item.Properties().tab(FbmsModTabs.TAB_PROPS)));
 	public static final RegistryObject<Item> COINS_10000 = REGISTRY.register(FbmsModBlocks.COINS_10000.getId().getPath(), () -> new Coins10000DisplayItem(FbmsModBlocks.COINS_10000.get(), new Item.Properties().tab(FbmsModTabs.TAB_PROPS)));
+	public static final RegistryObject<Item> MEGAULTIMATESPEAKERTRON_3000 = REGISTRY.register(FbmsModBlocks.MEGAULTIMATESPEAKERTRON_3000.getId().getPath(),
+			() -> new Megaultimatespeakertron3000DisplayItem(FbmsModBlocks.MEGAULTIMATESPEAKERTRON_3000.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

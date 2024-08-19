@@ -116,6 +116,7 @@ import net.mcreator.fbms.block.MoltenSitBlock;
 import net.mcreator.fbms.block.MoltenFreddyBlock;
 import net.mcreator.fbms.block.MoldyRabbitBlock;
 import net.mcreator.fbms.block.MidnightMotoristBlock;
+import net.mcreator.fbms.block.Megaultimatespeakertron3000Block;
 import net.mcreator.fbms.block.LolbitRecordBlock;
 import net.mcreator.fbms.block.LolBitDtBlock;
 import net.mcreator.fbms.block.LolBitBlock;
@@ -420,4 +421,5 @@ public class FbmsModBlocks {
 	public static final RegistryObject<Block> COINS_25 = REGISTRY.register("coins_25", () -> new Coins100Block());
 	public static final RegistryObject<Block> COINS_1000 = REGISTRY.register("coins_1000", () -> new Coins1000Block());
 	public static final RegistryObject<Block> COINS_10000 = REGISTRY.register("coins_10000", () -> new Coins10000Block());
+	public static final RegistryObject<Block> MEGAULTIMATESPEAKERTRON_3000 = REGISTRY.register("megaultimatespeakertron_3000", () -> new Megaultimatespeakertron3000Block());
 }

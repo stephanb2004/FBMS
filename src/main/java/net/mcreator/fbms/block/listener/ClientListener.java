@@ -84,6 +84,7 @@ import net.mcreator.fbms.block.renderer.MoltenSitTileRenderer;
 import net.mcreator.fbms.block.renderer.MoltenFreddyTileRenderer;
 import net.mcreator.fbms.block.renderer.MoldyRabbitTileRenderer;
 import net.mcreator.fbms.block.renderer.MidnightMotoristTileRenderer;
+import net.mcreator.fbms.block.renderer.Megaultimatespeakertron3000TileRenderer;
 import net.mcreator.fbms.block.renderer.LolbitRecordTileRenderer;
 import net.mcreator.fbms.block.renderer.LolBitTileRenderer;
 import net.mcreator.fbms.block.renderer.LolBitDtTileRenderer;
@@ -342,5 +343,6 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.COINS_25.get(), Coins100TileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.COINS_1000.get(), Coins1000TileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.COINS_10000.get(), Coins10000TileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.MEGAULTIMATESPEAKERTRON_3000.get(), Megaultimatespeakertron3000TileRenderer::new);
 	}
 }

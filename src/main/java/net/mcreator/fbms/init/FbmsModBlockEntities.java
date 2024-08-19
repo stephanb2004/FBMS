@@ -88,6 +88,7 @@ import net.mcreator.fbms.block.entity.MoltenSitTileEntity;
 import net.mcreator.fbms.block.entity.MoltenFreddyTileEntity;
 import net.mcreator.fbms.block.entity.MoldyRabbitTileEntity;
 import net.mcreator.fbms.block.entity.MidnightMotoristTileEntity;
+import net.mcreator.fbms.block.entity.Megaultimatespeakertron3000TileEntity;
 import net.mcreator.fbms.block.entity.LolbitRecordTileEntity;
 import net.mcreator.fbms.block.entity.LolBitTileEntity;
 import net.mcreator.fbms.block.entity.LolBitDtTileEntity;
@@ -405,6 +406,8 @@ public class FbmsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<Coins100TileEntity>> COINS_25 = REGISTRY.register("coins_25", () -> BlockEntityType.Builder.of(Coins100TileEntity::new, FbmsModBlocks.COINS_25.get()).build(null));
 	public static final RegistryObject<BlockEntityType<Coins1000TileEntity>> COINS_1000 = REGISTRY.register("coins_1000", () -> BlockEntityType.Builder.of(Coins1000TileEntity::new, FbmsModBlocks.COINS_1000.get()).build(null));
 	public static final RegistryObject<BlockEntityType<Coins10000TileEntity>> COINS_10000 = REGISTRY.register("coins_10000", () -> BlockEntityType.Builder.of(Coins10000TileEntity::new, FbmsModBlocks.COINS_10000.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Megaultimatespeakertron3000TileEntity>> MEGAULTIMATESPEAKERTRON_3000 = REGISTRY.register("megaultimatespeakertron_3000",
+			() -> BlockEntityType.Builder.of(Megaultimatespeakertron3000TileEntity::new, FbmsModBlocks.MEGAULTIMATESPEAKERTRON_3000.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));
