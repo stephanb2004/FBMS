@@ -5616,7 +5616,12 @@
           },
           {
             "name": "Building",
-            "children": []
+            "children": [
+              {
+                "name": "Doors",
+                "children": []
+              }
+            ]
           }
         ]
       },
