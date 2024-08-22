@@ -21,4 +21,6 @@ public class FbmsModSounds {
 	public static final RegistryObject<SoundEvent> BYEBYE = REGISTRY.register("byebye", () -> new SoundEvent(new ResourceLocation("fbms", "byebye")));
 	public static final RegistryObject<SoundEvent> ROBOTON = REGISTRY.register("roboton", () -> new SoundEvent(new ResourceLocation("fbms", "roboton")));
 	public static final RegistryObject<SoundEvent> TINK = REGISTRY.register("tink", () -> new SoundEvent(new ResourceLocation("fbms", "tink")));
+	public static final RegistryObject<SoundEvent> DOORCLANK = REGISTRY.register("doorclank", () -> new SoundEvent(new ResourceLocation("fbms", "doorclank")));
+	public static final RegistryObject<SoundEvent> DOORSLIDEOPEN = REGISTRY.register("doorslideopen", () -> new SoundEvent(new ResourceLocation("fbms", "doorslideopen")));
 }

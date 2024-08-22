@@ -118,6 +118,8 @@ import net.mcreator.fbms.block.display.LadderTowerDisplayItem;
 import net.mcreator.fbms.block.display.JeffsPizzaSignDisplayItem;
 import net.mcreator.fbms.block.display.ImpalaBlockDisplayItem;
 import net.mcreator.fbms.block.display.IgnitedChicaDisplayItem;
+import net.mcreator.fbms.block.display.HeavyDuityDoorDisplayItem;
+import net.mcreator.fbms.block.display.HeavyDuityDoorClosedDisplayItem;
 import net.mcreator.fbms.block.display.HazyReindeerDisplayItem;
 import net.mcreator.fbms.block.display.HazyReindeerAnimatedDisplayItem;
 import net.mcreator.fbms.block.display.HappyFrogDisplayItem;
@@ -484,6 +486,10 @@ public class FbmsModItems {
 	public static final RegistryObject<Item> COINS_10000 = REGISTRY.register(FbmsModBlocks.COINS_10000.getId().getPath(), () -> new Coins10000DisplayItem(FbmsModBlocks.COINS_10000.get(), new Item.Properties().tab(FbmsModTabs.TAB_PROPS)));
 	public static final RegistryObject<Item> MEGAULTIMATESPEAKERTRON_3000 = REGISTRY.register(FbmsModBlocks.MEGAULTIMATESPEAKERTRON_3000.getId().getPath(),
 			() -> new Megaultimatespeakertron3000DisplayItem(FbmsModBlocks.MEGAULTIMATESPEAKERTRON_3000.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> HEAVY_DUITY_DOOR = REGISTRY.register(FbmsModBlocks.HEAVY_DUITY_DOOR.getId().getPath(),
+			() -> new HeavyDuityDoorDisplayItem(FbmsModBlocks.HEAVY_DUITY_DOOR.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> HEAVY_DUITY_DOOR_CLOSED = REGISTRY.register(FbmsModBlocks.HEAVY_DUITY_DOOR_CLOSED.getId().getPath(),
+			() -> new HeavyDuityDoorClosedDisplayItem(FbmsModBlocks.HEAVY_DUITY_DOOR_CLOSED.get(), new Item.Properties().tab(null)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

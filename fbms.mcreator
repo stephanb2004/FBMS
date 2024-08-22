@@ -5236,6 +5236,116 @@
         ]
       },
       "path": "~/Blocks/Props/Stage Stuff"
+    },
+    {
+      "name": "HeavyDuityDoor",
+      "type": "animatedblock",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_duity_door",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/HeavyDuityDoorBlock.java",
+          "src/main/resources/assets/fbms/models/item/heavy_duity_door.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/HeavyDuityDoorDisplayItemRenderer.java",
+          "src/main/resources/assets/fbms/models/custom/heavy_duity_door_particle.json",
+          "src/main/java/net/mcreator/fbms/block/entity/HeavyDuityDoorTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/HeavyDuityDoorTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/HeavyDuityDoorDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/model/HeavyDuityDoorBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/display/HeavyDuityDoorDisplayItem.java",
+          "src/main/resources/assets/fbms/blockstates/heavy_duity_door.json"
+        ]
+      },
+      "path": "~/Blocks/Building/Doors"
+    },
+    {
+      "name": "HeavyDuityDoorClosed",
+      "type": "animatedblock",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_duity_door_closed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/model/HeavyDuityDoorClosedDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/HeavyDuityDoorClosedBlock.java",
+          "src/main/java/net/mcreator/fbms/block/entity/HeavyDuityDoorClosedTileEntity.java",
+          "src/main/resources/assets/fbms/models/item/heavy_duity_door_closed.json",
+          "src/main/java/net/mcreator/fbms/block/display/HeavyDuityDoorClosedDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/model/HeavyDuityDoorClosedBlockModel.java",
+          "src/main/resources/assets/fbms/blockstates/heavy_duity_door_closed.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/HeavyDuityDoorClosedTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/HeavyDuityDoorClosedDisplayItemRenderer.java",
+          "src/main/resources/assets/fbms/models/custom/heavy_duity_door_closed_particle.json"
+        ]
+      },
+      "path": "~/Blocks/Building/Doors"
+    },
+    {
+      "name": "HeavyDuityDoorRedstoneOn",
+      "type": "procedure",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_duity_door_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/HeavyDuityDoorRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Building/Doors"
+    },
+    {
+      "name": "HeavyDuityDoorClosedRedstoneOff",
+      "type": "procedure",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_duity_door_closed_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/HeavyDuityDoorClosedRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Building/Doors"
     }
   ],
   "variable_elements": [],
@@ -5287,6 +5397,22 @@
       ],
       "category": "neutral",
       "subtitle": "Tink"
+    },
+    {
+      "name": "doorclank",
+      "files": [
+        "doorclang"
+      ],
+      "category": "neutral",
+      "subtitle": "Door Clank"
+    },
+    {
+      "name": "doorslideopen",
+      "files": [
+        "dooropen"
+      ],
+      "category": "neutral",
+      "subtitle": "Door Slide"
     }
   ],
   "language_map": {
@@ -5318,6 +5444,7 @@
       "block.fbms.coin": "Coin",
       "block.fbms.toy_foxy": "Toy Foxy",
       "block.fbms.ceiling_stage_lightpink": "Ceiling Stage Light (Pink)",
+      "block.fbms.heavy_duity_door": "Heavy Duity Door",
       "block.fbms.orville": "Orville",
       "block.fbms.r_freddy_poster": "Rockstar Freddy Poster",
       "block.fbms.music_man_animated": "Music Man Animated",
@@ -5469,6 +5596,7 @@
       "block.fbms.ladder_tower": "Ladder Tower",
       "item.fbms.ad": "Ad",
       "block.fbms.tv_lolbit": "Tv (Lolbit)",
+      "subtitles.doorclank": "Door Clank",
       "entity.fbms.d_bonnie": "D Bonnie WIP",
       "block.fbms.moldy_rabbit": "Moldy Spring Bonnie Cutout",
       "block.fbms.rbonnie_poster": "Rockstar Bonnie Poster",
@@ -5488,6 +5616,7 @@
       "block.fbms.neon_party_set_2": "Neon Party Set 2",
       "block.fbms.endo_02": "Endo02",
       "block.fbms.tv_fiz_time": "Tv (FizTime)",
+      "block.fbms.heavy_duity_door_closed": "Heavy Duity Door (Closed)",
       "block.fbms.endo_01": "Endo 01",
       "entity.fbms.impala": "Purple Chevrolet Impala",
       "block.fbms.gravity_vortex": "Gravity Vortex (Animated)",
@@ -5509,6 +5638,7 @@
       "block.fbms.mr_can_do": "Mr Can Do",
       "subtitles.tink": "Tink",
       "itemGroup.tabcars": "Cars",
+      "subtitles.doorslideopen": "Door Slide",
       "block.fbms.el_chip_animated": "El Chip Animated",
       "block.fbms.pizza_place_sign": "Pizza Place Sign",
       "entity.fbms.dfredbear": "D Freddy WIP",

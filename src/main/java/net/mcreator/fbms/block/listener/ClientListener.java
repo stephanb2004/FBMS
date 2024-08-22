@@ -100,6 +100,8 @@ import net.mcreator.fbms.block.renderer.LadderTowerTileRenderer;
 import net.mcreator.fbms.block.renderer.JeffsPizzaSignTileRenderer;
 import net.mcreator.fbms.block.renderer.ImpalaBlockTileRenderer;
 import net.mcreator.fbms.block.renderer.IgnitedChicaTileRenderer;
+import net.mcreator.fbms.block.renderer.HeavyDuityDoorTileRenderer;
+import net.mcreator.fbms.block.renderer.HeavyDuityDoorClosedTileRenderer;
 import net.mcreator.fbms.block.renderer.HazyReindeerTileRenderer;
 import net.mcreator.fbms.block.renderer.HazyReindeerAnimatedTileRenderer;
 import net.mcreator.fbms.block.renderer.HappyFrogTileRenderer;
@@ -344,5 +346,7 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.COINS_1000.get(), Coins1000TileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.COINS_10000.get(), Coins10000TileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.MEGAULTIMATESPEAKERTRON_3000.get(), Megaultimatespeakertron3000TileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.HEAVY_DUITY_DOOR.get(), HeavyDuityDoorTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.HEAVY_DUITY_DOOR_CLOSED.get(), HeavyDuityDoorClosedTileRenderer::new);
 	}
 }

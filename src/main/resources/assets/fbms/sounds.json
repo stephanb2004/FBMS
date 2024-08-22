@@ -52,5 +52,23 @@
         "stream": false
       }
     ]
+  },
+  "doorclank": {
+    "subtitle": "subtitles.doorclank",
+    "sounds": [
+      {
+        "name": "fbms:doorclang",
+        "stream": false
+      }
+    ]
+  },
+  "doorslideopen": {
+    "subtitle": "subtitles.doorslideopen",
+    "sounds": [
+      {
+        "name": "fbms:dooropen",
+        "stream": false
+      }
+    ]
   }
 }

@@ -1,0 +1,56 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"0": {
+			"animation_length": 1.5,
+			"bones": {
+				"Door": {
+					"position": {
+						"vector": [0, 21, 0],
+						"easing": "easeInOutSine"
+					}
+				},
+				"Door2": {
+					"position": {
+						"vector": [0, -44, 0],
+						"easing": "easeInOutSine"
+					},
+					"scale": {
+						"vector": [0, 0, 1]
+					}
+				}
+			}
+		},
+		"1": {
+			"animation_length": 1,
+			"bones": {
+				"Door": {
+					"position": {
+						"0.0": {
+							"vector": [0, 21, 0],
+							"easing": "easeInOutSine"
+						},
+						"1.0": {
+							"vector": [0, 0, 0],
+							"easing": "easeInBounce",
+							"easingArgs": [0.1]
+						}
+					}
+				},
+				"Door2": {
+					"position": {
+						"0.0": {
+							"vector": [0, -25, 0]
+						},
+						"1.0": {
+							"vector": [0, 0, 0],
+							"easing": "easeInBounce",
+							"easingArgs": [0.1]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

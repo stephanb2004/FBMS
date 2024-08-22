@@ -133,6 +133,8 @@ import net.mcreator.fbms.block.LadderTowerBlock;
 import net.mcreator.fbms.block.JeffsPizzaSignBlock;
 import net.mcreator.fbms.block.ImpalaBlockBlock;
 import net.mcreator.fbms.block.IgnitedChicaBlock;
+import net.mcreator.fbms.block.HeavyDuityDoorClosedBlock;
+import net.mcreator.fbms.block.HeavyDuityDoorBlock;
 import net.mcreator.fbms.block.HazyReindeerBlock;
 import net.mcreator.fbms.block.HazyReindeerAnimatedBlock;
 import net.mcreator.fbms.block.HappyFrogBlock;
@@ -422,4 +424,6 @@ public class FbmsModBlocks {
 	public static final RegistryObject<Block> COINS_1000 = REGISTRY.register("coins_1000", () -> new Coins1000Block());
 	public static final RegistryObject<Block> COINS_10000 = REGISTRY.register("coins_10000", () -> new Coins10000Block());
 	public static final RegistryObject<Block> MEGAULTIMATESPEAKERTRON_3000 = REGISTRY.register("megaultimatespeakertron_3000", () -> new Megaultimatespeakertron3000Block());
+	public static final RegistryObject<Block> HEAVY_DUITY_DOOR = REGISTRY.register("heavy_duity_door", () -> new HeavyDuityDoorBlock());
+	public static final RegistryObject<Block> HEAVY_DUITY_DOOR_CLOSED = REGISTRY.register("heavy_duity_door_closed", () -> new HeavyDuityDoorClosedBlock());
 }

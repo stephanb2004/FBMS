@@ -104,6 +104,8 @@ import net.mcreator.fbms.block.entity.LadderTowerTileEntity;
 import net.mcreator.fbms.block.entity.JeffsPizzaSignTileEntity;
 import net.mcreator.fbms.block.entity.ImpalaBlockTileEntity;
 import net.mcreator.fbms.block.entity.IgnitedChicaTileEntity;
+import net.mcreator.fbms.block.entity.HeavyDuityDoorTileEntity;
+import net.mcreator.fbms.block.entity.HeavyDuityDoorClosedTileEntity;
 import net.mcreator.fbms.block.entity.HazyReindeerTileEntity;
 import net.mcreator.fbms.block.entity.HazyReindeerAnimatedTileEntity;
 import net.mcreator.fbms.block.entity.HappyFrogTileEntity;
@@ -408,6 +410,10 @@ public class FbmsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<Coins10000TileEntity>> COINS_10000 = REGISTRY.register("coins_10000", () -> BlockEntityType.Builder.of(Coins10000TileEntity::new, FbmsModBlocks.COINS_10000.get()).build(null));
 	public static final RegistryObject<BlockEntityType<Megaultimatespeakertron3000TileEntity>> MEGAULTIMATESPEAKERTRON_3000 = REGISTRY.register("megaultimatespeakertron_3000",
 			() -> BlockEntityType.Builder.of(Megaultimatespeakertron3000TileEntity::new, FbmsModBlocks.MEGAULTIMATESPEAKERTRON_3000.get()).build(null));
+	public static final RegistryObject<BlockEntityType<HeavyDuityDoorTileEntity>> HEAVY_DUITY_DOOR = REGISTRY.register("heavy_duity_door",
+			() -> BlockEntityType.Builder.of(HeavyDuityDoorTileEntity::new, FbmsModBlocks.HEAVY_DUITY_DOOR.get()).build(null));
+	public static final RegistryObject<BlockEntityType<HeavyDuityDoorClosedTileEntity>> HEAVY_DUITY_DOOR_CLOSED = REGISTRY.register("heavy_duity_door_closed",
+			() -> BlockEntityType.Builder.of(HeavyDuityDoorClosedTileEntity::new, FbmsModBlocks.HEAVY_DUITY_DOOR_CLOSED.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

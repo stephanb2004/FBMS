@@ -1,0 +1,52 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 7,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "doorandframe",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [23, -16, -9], "size": [4, 47, 18], "uv": [94, 4]},
+						{"origin": [-11, 31, -9], "size": [38, 4, 18], "uv": [0, 0]},
+						{"origin": [-11, 31, -13], "size": [4, 4, 4], "uv": [0, 8]},
+						{"origin": [-11, 31, 9], "size": [4, 4, 4], "uv": [0, 0]},
+						{"origin": [23, 31, -13], "size": [4, 4, 4], "uv": [0, 8]},
+						{"origin": [23, 31, 9], "size": [4, 4, 4], "uv": [0, 0]},
+						{"origin": [23, -16, 9], "size": [4, 4, 4], "uv": [0, 0]},
+						{"origin": [23, -16, -13], "size": [4, 4, 4], "uv": [0, 8]},
+						{"origin": [-11, -16, -13], "size": [4, 4, 4], "uv": [0, 8]},
+						{"origin": [-11, -16, 9], "size": [4, 4, 4], "uv": [0, 0]},
+						{"origin": [-11, -16, -9], "size": [4, 47, 18], "uv": [70, 79]}
+					]
+				},
+				{
+					"name": "Door",
+					"parent": "doorandframe",
+					"pivot": [8, 31, 0],
+					"cubes": [
+						{"origin": [-7, 5, -7], "size": [30, 26, 14], "uv": [0, 22]},
+						{"origin": [-7, 1, -6], "size": [30, 4, 11], "uv": [114, 84]}
+					]
+				},
+				{
+					"name": "Door2",
+					"parent": "doorandframe",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-7, -16, -7], "size": [30, 21, 14], "uv": [0, 62]},
+						{"origin": [-7, 5, -5], "size": [30, 4, 11], "uv": [96, 69]}
+					]
+				}
+			]
+		}
+	]
+}
