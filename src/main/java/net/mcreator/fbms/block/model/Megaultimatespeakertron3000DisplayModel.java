@@ -9,12 +9,12 @@ import net.mcreator.fbms.block.display.Megaultimatespeakertron3000DisplayItem;
 public class Megaultimatespeakertron3000DisplayModel extends AnimatedGeoModel<Megaultimatespeakertron3000DisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(Megaultimatespeakertron3000DisplayItem animatable) {
-		return new ResourceLocation("fbms", "animations/stolen_traffic_light.animation.json");
+		return new ResourceLocation("fbms", "animations/stage_speaker.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(Megaultimatespeakertron3000DisplayItem animatable) {
-		return new ResourceLocation("fbms", "geo/stolen_traffic_light.geo.json");
+		return new ResourceLocation("fbms", "geo/stage_speaker.geo.json");
 	}
 
 	@Override

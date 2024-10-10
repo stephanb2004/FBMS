@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:block/streamer_fiztime"
+    },
+    "facing=east": {
+      "model": "fbms:block/streamer_fiztime",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:block/streamer_fiztime",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:block/streamer_fiztime",
+      "y": 270
+    }
+  }
+}

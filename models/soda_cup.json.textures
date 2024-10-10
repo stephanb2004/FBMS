@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "sodacup_fiztime1"
+      },
+      "name": "default"
+    },
+    "fiztime2": {
+      "map": {
+        "0": "sodacup_fiztime2"
+      },
+      "name": "fiztime2"
+    }
+  }
+}

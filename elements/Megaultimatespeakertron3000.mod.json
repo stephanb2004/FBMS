@@ -131,7 +131,7 @@
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
-    "normal": "stolen_traffic_light.geo.json",
+    "normal": "stage_speaker.geo.json",
     "displaySettings": "figure.item.json"
   }
 }

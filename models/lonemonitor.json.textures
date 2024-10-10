@@ -89,6 +89,108 @@
         "0": "lolbit_monitor"
       },
       "name": "lolbit_monitor"
+    },
+    "willyswonderland": {
+      "map": {
+        "0": "tv_willyswonderland"
+      },
+      "name": "willyswonderland"
+    },
+    "scream": {
+      "map": {
+        "0": "tv_scream"
+      },
+      "name": "scream"
+    },
+    "halloween": {
+      "map": {
+        "0": "tv_halloween"
+      },
+      "name": "halloween"
+    },
+    "it": {
+      "map": {
+        "0": "tv_it"
+      },
+      "name": "it"
+    },
+    "beetlejuice": {
+      "map": {
+        "0": "tv_beetlejuice"
+      },
+      "name": "beetlejuice"
+    },
+    "childsplay": {
+      "map": {
+        "0": "tv_childsplay"
+      },
+      "name": "childsplay"
+    },
+    "shining": {
+      "map": {
+        "0": "tv_shining"
+      },
+      "name": "shining"
+    },
+    "alien": {
+      "map": {
+        "0": "tv_alien"
+      },
+      "name": "alien"
+    },
+    "ring": {
+      "map": {
+        "0": "tv_ring"
+      },
+      "name": "ring"
+    },
+    "jaws": {
+      "map": {
+        "0": "tv_jaws"
+      },
+      "name": "jaws"
+    },
+    "elmstreet": {
+      "map": {
+        "0": "tv_elmstreet"
+      },
+      "name": "elmstreet"
+    },
+    "sotl": {
+      "map": {
+        "0": "tv_silentofthelamb"
+      },
+      "name": "sotl"
+    },
+    "blairewitch": {
+      "map": {
+        "0": "tv_blairewitch"
+      },
+      "name": "blairewitch"
+    },
+    "nope": {
+      "map": {
+        "0": "tv_nope"
+      },
+      "name": "nope"
+    },
+    "killerklowns": {
+      "map": {
+        "0": "tv_killerklowns"
+      },
+      "name": "killerklowns"
+    },
+    "biteof87": {
+      "map": {
+        "0": "tv_markiplier"
+      },
+      "name": "biteof87"
+    },
+    "fnafmovie": {
+      "map": {
+        "0": "tv_fnafmovie"
+      },
+      "name": "fnafmovie"
     }
   }
 }

@@ -66,12 +66,12 @@ public class WitheredHazyReindeerBlock extends BaseEntityBlock implements Entity
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 
 		return switch (state.getValue(FACING)) {
-			default -> box(0, 0, 0, 16, 32, 16);
-			case NORTH -> box(0, 0, 0, 16, 32, 16);
-			case EAST -> box(0, 0, 0, 16, 32, 16);
-			case WEST -> box(0, 0, 0, 16, 32, 16);
-			case UP -> box(0, 0, 0, 16, 16, 32);
-			case DOWN -> box(0, 0, -16, 16, 16, 16);
+			default -> box(0, 0, -16, 16, 16, 16);
+			case NORTH -> box(0, 0, 0, 16, 16, 32);
+			case EAST -> box(-16, 0, 0, 16, 16, 16);
+			case WEST -> box(0, 0, 0, 32, 16, 16);
+			case UP -> box(0, -16, 0, 16, 16, 16);
+			case DOWN -> box(0, 0, 0, 16, 32, 16);
 		};
 	}
 

@@ -1,0 +1,7 @@
+{
+  "parent": "fbms:custom/soda_cup",
+  "textures": {
+    "0": "fbms:blocks/sodacup_fiztime1",
+    "particle": "fbms:items/deluxe_ballpit"
+  }
+}

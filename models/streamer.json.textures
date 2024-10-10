@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "streamer_ftps"
+      },
+      "name": "default"
+    }
+  }
+}

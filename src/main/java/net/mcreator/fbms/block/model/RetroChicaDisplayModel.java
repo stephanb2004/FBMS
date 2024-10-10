@@ -9,12 +9,12 @@ import net.mcreator.fbms.block.display.RetroChicaDisplayItem;
 public class RetroChicaDisplayModel extends AnimatedGeoModel<RetroChicaDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(RetroChicaDisplayItem animatable) {
-		return new ResourceLocation("fbms", "animations/retrochica.animation.json");
+		return new ResourceLocation("fbms", "animations/retrochica_idle.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(RetroChicaDisplayItem animatable) {
-		return new ResourceLocation("fbms", "geo/retrochica.geo.json");
+		return new ResourceLocation("fbms", "geo/retrochica_idle.geo.json");
 	}
 
 	@Override
