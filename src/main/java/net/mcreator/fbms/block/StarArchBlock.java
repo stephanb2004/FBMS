@@ -50,10 +50,10 @@ public class StarArchBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(-8, 0, 0, 24, 22, 16);
-			case NORTH -> box(-8, 0, 0, 24, 22, 16);
-			case EAST -> box(0, 0, -8, 16, 22, 24);
-			case WEST -> box(0, 0, -8, 16, 22, 24);
+			default -> box(-10, 0, 0, 26, 24, 1);
+			case NORTH -> box(-10, 0, 15, 26, 24, 16);
+			case EAST -> box(0, 0, -10, 1, 24, 26);
+			case WEST -> box(15, 0, -10, 16, 24, 26);
 		};
 	}
 

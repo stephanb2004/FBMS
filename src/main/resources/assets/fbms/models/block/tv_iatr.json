@@ -1,9 +1,9 @@
 {
-  "parent": "fbms:custom/lonemonitor",
+  "parent": "fbms:custom/monitor",
   "textures": {
-    "all": "fbms:blocks/iatr",
-    "particle": "fbms:blocks/iatr",
-    "0": "fbms:blocks/iatr"
+    "all": "fbms:blocks/mtv_off",
+    "particle": "fbms:blocks/mtv_off",
+    "0": "fbms:blocks/mtv_iatr"
   },
   "render_type": "cutout"
 }

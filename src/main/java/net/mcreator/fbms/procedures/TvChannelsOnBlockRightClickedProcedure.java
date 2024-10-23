@@ -50,7 +50,7 @@ public class TvChannelsOnBlockRightClickedProcedure {
 					if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.TV_OFF.get()) {
 						{
 							BlockPos _bp = new BlockPos(x, y, z);
-							BlockState _bs = FbmsModBlocks.TV.get().defaultBlockState();
+							BlockState _bs = FbmsModBlocks.TV_GARFIELD_SHOW.get().defaultBlockState();
 							BlockState _bso = world.getBlockState(_bp);
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 								Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
@@ -62,7 +62,7 @@ public class TvChannelsOnBlockRightClickedProcedure {
 							}
 							world.setBlock(_bp, _bs, 3);
 						}
-					} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.TV.get()) {
+					} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.TV_GARFIELD_SHOW.get()) {
 						{
 							BlockPos _bp = new BlockPos(x, y, z);
 							BlockState _bs = FbmsModBlocks.TV_DOUG.get().defaultBlockState();
@@ -95,7 +95,7 @@ public class TvChannelsOnBlockRightClickedProcedure {
 					} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.TV_MARCELO.get()) {
 						{
 							BlockPos _bp = new BlockPos(x, y, z);
-							BlockState _bs = FbmsModBlocks.TV_FIZ_TIME.get().defaultBlockState();
+							BlockState _bs = FbmsModBlocks.TV_FIZTIME_POP_SODA.get().defaultBlockState();
 							BlockState _bso = world.getBlockState(_bp);
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 								Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
@@ -107,10 +107,10 @@ public class TvChannelsOnBlockRightClickedProcedure {
 							}
 							world.setBlock(_bp, _bs, 3);
 						}
-					} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.TV_FIZ_TIME.get()) {
+					} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.TV_FIZTIME_POP_SODA.get()) {
 						{
 							BlockPos _bp = new BlockPos(x, y, z);
-							BlockState _bs = FbmsModBlocks.TV_FLOS.get().defaultBlockState();
+							BlockState _bs = FbmsModBlocks.TV_FLOS_GLOSSY_FLOSS.get().defaultBlockState();
 							BlockState _bso = world.getBlockState(_bp);
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 								Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
@@ -122,10 +122,10 @@ public class TvChannelsOnBlockRightClickedProcedure {
 							}
 							world.setBlock(_bp, _bs, 3);
 						}
-					} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.TV_FLOS.get()) {
+					} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.TV_FLOS_GLOSSY_FLOSS.get()) {
 						{
 							BlockPos _bp = new BlockPos(x, y, z);
-							BlockState _bs = FbmsModBlocks.TV_WART_PASTE.get().defaultBlockState();
+							BlockState _bs = FbmsModBlocks.TV_WACKY_WART_PASTE.get().defaultBlockState();
 							BlockState _bso = world.getBlockState(_bp);
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 								Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
@@ -137,10 +137,10 @@ public class TvChannelsOnBlockRightClickedProcedure {
 							}
 							world.setBlock(_bp, _bs, 3);
 						}
-					} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.TV_WART_PASTE.get()) {
+					} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.TV_WACKY_WART_PASTE.get()) {
 						{
 							BlockPos _bp = new BlockPos(x, y, z);
-							BlockState _bs = FbmsModBlocks.TV_LALLY.get().defaultBlockState();
+							BlockState _bs = FbmsModBlocks.TV_LALLIES_LOLLIES.get().defaultBlockState();
 							BlockState _bso = world.getBlockState(_bp);
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 								Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
@@ -152,10 +152,10 @@ public class TvChannelsOnBlockRightClickedProcedure {
 							}
 							world.setBlock(_bp, _bs, 3);
 						}
-					} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.TV_LALLY.get()) {
+					} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.TV_LALLIES_LOLLIES.get()) {
 						{
 							BlockPos _bp = new BlockPos(x, y, z);
-							BlockState _bs = FbmsModBlocks.TV_POP_CORN.get().defaultBlockState();
+							BlockState _bs = FbmsModBlocks.TV_PEPPERS_PICKLED_POPCORN.get().defaultBlockState();
 							BlockState _bso = world.getBlockState(_bp);
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 								Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
@@ -167,10 +167,10 @@ public class TvChannelsOnBlockRightClickedProcedure {
 							}
 							world.setBlock(_bp, _bs, 3);
 						}
-					} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.TV_POP_CORN.get()) {
+					} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.TV_PEPPERS_PICKLED_POPCORN.get()) {
 						{
 							BlockPos _bp = new BlockPos(x, y, z);
-							BlockState _bs = FbmsModBlocks.TV_FREDDY_N_FREN.get().defaultBlockState();
+							BlockState _bs = FbmsModBlocks.TV_FREDDY_AND_FRIENDS.get().defaultBlockState();
 							BlockState _bso = world.getBlockState(_bp);
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 								Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
@@ -182,7 +182,7 @@ public class TvChannelsOnBlockRightClickedProcedure {
 							}
 							world.setBlock(_bp, _bs, 3);
 						}
-					} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.TV_FREDDY_N_FREN.get()) {
+					} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.TV_FREDDY_AND_FRIENDS.get()) {
 						{
 							BlockPos _bp = new BlockPos(x, y, z);
 							BlockState _bs = FbmsModBlocks.TV_IATR.get().defaultBlockState();
@@ -215,7 +215,67 @@ public class TvChannelsOnBlockRightClickedProcedure {
 					} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.TV_NEWS.get()) {
 						{
 							BlockPos _bp = new BlockPos(x, y, z);
-							BlockState _bs = FbmsModBlocks.TV.get().defaultBlockState();
+							BlockState _bs = FbmsModBlocks.TV_HEMAN.get().defaultBlockState();
+							BlockState _bso = world.getBlockState(_bp);
+							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+								Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+								if (_property != null && _bs.getValue(_property) != null)
+									try {
+										_bs = _bs.setValue(_property, (Comparable) entry.getValue());
+									} catch (Exception e) {
+									}
+							}
+							world.setBlock(_bp, _bs, 3);
+						}
+					} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.TV_HEMAN.get()) {
+						{
+							BlockPos _bp = new BlockPos(x, y, z);
+							BlockState _bs = FbmsModBlocks.TV_SCREAM.get().defaultBlockState();
+							BlockState _bso = world.getBlockState(_bp);
+							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+								Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+								if (_property != null && _bs.getValue(_property) != null)
+									try {
+										_bs = _bs.setValue(_property, (Comparable) entry.getValue());
+									} catch (Exception e) {
+									}
+							}
+							world.setBlock(_bp, _bs, 3);
+						}
+					} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.TV_SCREAM.get()) {
+						{
+							BlockPos _bp = new BlockPos(x, y, z);
+							BlockState _bs = FbmsModBlocks.TV_JAWS.get().defaultBlockState();
+							BlockState _bso = world.getBlockState(_bp);
+							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+								Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+								if (_property != null && _bs.getValue(_property) != null)
+									try {
+										_bs = _bs.setValue(_property, (Comparable) entry.getValue());
+									} catch (Exception e) {
+									}
+							}
+							world.setBlock(_bp, _bs, 3);
+						}
+					} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.TV_JAWS.get()) {
+						{
+							BlockPos _bp = new BlockPos(x, y, z);
+							BlockState _bs = FbmsModBlocks.TV_KILLER_KLOWNS.get().defaultBlockState();
+							BlockState _bso = world.getBlockState(_bp);
+							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+								Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+								if (_property != null && _bs.getValue(_property) != null)
+									try {
+										_bs = _bs.setValue(_property, (Comparable) entry.getValue());
+									} catch (Exception e) {
+									}
+							}
+							world.setBlock(_bp, _bs, 3);
+						}
+					} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.TV_KILLER_KLOWNS.get()) {
+						{
+							BlockPos _bp = new BlockPos(x, y, z);
+							BlockState _bs = FbmsModBlocks.TV_GARFIELD_SHOW.get().defaultBlockState();
 							BlockState _bso = world.getBlockState(_bp);
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 								Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());

@@ -1,9 +1,9 @@
 {
-  "parent": "fbms:custom/lonemonitor",
+  "parent": "fbms:custom/monitor",
   "textures": {
-    "all": "fbms:blocks/tvoof",
-    "particle": "fbms:blocks/tvoof",
-    "0": "fbms:blocks/tvoff"
+    "all": "fbms:blocks/mtv_off",
+    "particle": "fbms:blocks/mtv_off",
+    "0": "fbms:blocks/mtv_off"
   },
   "render_type": "cutout"
 }

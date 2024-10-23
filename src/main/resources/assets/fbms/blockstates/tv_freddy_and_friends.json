@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:block/tv_freddy_and_friends"
+    },
+    "facing=east": {
+      "model": "fbms:block/tv_freddy_and_friends",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:block/tv_freddy_and_friends",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:block/tv_freddy_and_friends",
+      "y": 270
+    }
+  }
+}

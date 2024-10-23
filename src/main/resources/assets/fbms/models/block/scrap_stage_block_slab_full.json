@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "fbms:blocks/stagebase_scrap_top",
+    "top": "fbms:blocks/stagebase_scrap_top",
+    "side": "fbms:blocks/stagebase_scrap_top"
+  },
+  "render_type": "cutout_mipped"
+}

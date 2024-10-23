@@ -30,6 +30,7 @@ import net.mcreator.fbms.block.entity.StEndoAnimatedTileEntity;
 import net.mcreator.fbms.block.entity.SignSNSTileEntity;
 import net.mcreator.fbms.block.entity.SignSBTTileEntity;
 import net.mcreator.fbms.block.entity.SignRFATileEntity;
+import net.mcreator.fbms.block.entity.SignMSTileEntity;
 import net.mcreator.fbms.block.entity.SignDDWTileEntity;
 import net.mcreator.fbms.block.entity.ShredBearTileEntity;
 import net.mcreator.fbms.block.entity.SecurityPuppetTileEntity;
@@ -438,6 +439,7 @@ public class FbmsModBlockEntities {
 			() -> BlockEntityType.Builder.of(RetroChicaAnimatedTileEntity::new, FbmsModBlocks.RETRO_CHICA_ANIMATED.get()).build(null));
 	public static final RegistryObject<BlockEntityType<JollyTheRatAnimatedTileEntity>> JOLLY_THE_RAT_ANIMATED = REGISTRY.register("jolly_the_rat_animated",
 			() -> BlockEntityType.Builder.of(JollyTheRatAnimatedTileEntity::new, FbmsModBlocks.JOLLY_THE_RAT_ANIMATED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<SignMSTileEntity>> SIGN_MS = REGISTRY.register("sign_ms", () -> BlockEntityType.Builder.of(SignMSTileEntity::new, FbmsModBlocks.SIGN_MS.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

@@ -3,7 +3,7 @@
   "textures": {
     "all": "fbms:blocks/star_arch",
     "particle": "fbms:blocks/star_arch",
-    "1": "fbms:blocks/star_arch"
+    "2": "fbms:blocks/star_arch"
   },
   "render_type": "cutout"
 }

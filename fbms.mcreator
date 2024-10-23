@@ -3,7 +3,7 @@
     {
       "name": "CandyCadet",
       "type": "animatedblock",
-      "sortid": 67,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "candy_cadet",
@@ -26,7 +26,7 @@
     {
       "name": "FMS",
       "type": "tab",
-      "sortid": 229,
+      "sortid": 205,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fms",
@@ -38,7 +38,7 @@
     {
       "name": "ElChip",
       "type": "animatedblock",
-      "sortid": 88,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "el_chip",
@@ -61,7 +61,7 @@
     {
       "name": "BiteFredBearCutout",
       "type": "animatedblock",
-      "sortid": 68,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bite_fred_bear_cutout",
@@ -84,7 +84,7 @@
     {
       "name": "FunTimeChica",
       "type": "animatedblock",
-      "sortid": 90,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fun_time_chica",
@@ -107,7 +107,7 @@
     {
       "name": "HappyFrog",
       "type": "animatedblock",
-      "sortid": 76,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "happy_frog",
@@ -130,7 +130,7 @@
     {
       "name": "Lefty",
       "type": "animatedblock",
-      "sortid": 84,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lefty",
@@ -153,7 +153,7 @@
     {
       "name": "MrHippo",
       "type": "animatedblock",
-      "sortid": 77,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mr_hippo",
@@ -176,7 +176,7 @@
     {
       "name": "NeddBear",
       "type": "animatedblock",
-      "sortid": 78,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nedd_bear",
@@ -199,7 +199,7 @@
     {
       "name": "Orville",
       "type": "animatedblock",
-      "sortid": 85,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orville",
@@ -222,7 +222,7 @@
     {
       "name": "PrizeKing",
       "type": "animatedblock",
-      "sortid": 91,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "prize_king",
@@ -245,7 +245,7 @@
     {
       "name": "SecurityPuppet",
       "type": "animatedblock",
-      "sortid": 86,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "security_puppet",
@@ -268,7 +268,7 @@
     {
       "name": "RockStarBonnie",
       "type": "animatedblock",
-      "sortid": 80,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rock_star_bonnie",
@@ -291,7 +291,7 @@
     {
       "name": "RockStarChica",
       "type": "animatedblock",
-      "sortid": 81,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rock_star_chica",
@@ -314,7 +314,7 @@
     {
       "name": "RockStarFreddy",
       "type": "animatedblock",
-      "sortid": 82,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rock_star_freddy",
@@ -337,7 +337,7 @@
     {
       "name": "Rusty",
       "type": "animatedblock",
-      "sortid": 109,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rusty",
@@ -360,7 +360,7 @@
     {
       "name": "PigPatch",
       "type": "animatedblock",
-      "sortid": 79,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pig_patch",
@@ -383,7 +383,7 @@
     {
       "name": "RockStarFoxy",
       "type": "animatedblock",
-      "sortid": 83,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rock_star_foxy",
@@ -406,7 +406,7 @@
     {
       "name": "Endo01",
       "type": "animatedblock",
-      "sortid": 123,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "endo_01",
@@ -429,7 +429,7 @@
     {
       "name": "WinkSign",
       "type": "animatedblock",
-      "sortid": 110,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wink_sign",
@@ -452,7 +452,7 @@
     {
       "name": "BaggyMaggie",
       "type": "animatedblock",
-      "sortid": 75,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baggy_maggie",
@@ -475,7 +475,7 @@
     {
       "name": "PuppetBox",
       "type": "animatedblock",
-      "sortid": 87,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "puppet_box",
@@ -498,7 +498,7 @@
     {
       "name": "LargeSign",
       "type": "animatedblock",
-      "sortid": 135,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_sign",
@@ -521,7 +521,7 @@
     {
       "name": "LargeSign2",
       "type": "animatedblock",
-      "sortid": 136,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_sign_2",
@@ -544,7 +544,7 @@
     {
       "name": "ScrapTrap",
       "type": "animatedblock",
-      "sortid": 111,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "scrap_trap",
@@ -567,7 +567,7 @@
     {
       "name": "MoltenFreddy",
       "type": "animatedblock",
-      "sortid": 92,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "molten_freddy",
@@ -590,7 +590,7 @@
     {
       "name": "FoilPartySet1",
       "type": "animatedblock",
-      "sortid": 27,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "foil_party_set_1",
@@ -613,7 +613,7 @@
     {
       "name": "FoilPartySet2",
       "type": "animatedblock",
-      "sortid": 29,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "foil_party_set_2",
@@ -636,7 +636,7 @@
     {
       "name": "FoilPartySet3",
       "type": "animatedblock",
-      "sortid": 30,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "foil_party_set_3",
@@ -659,7 +659,7 @@
     {
       "name": "FoilPartySet4",
       "type": "animatedblock",
-      "sortid": 31,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "foil_party_set_4",
@@ -682,7 +682,7 @@
     {
       "name": "DrTeath",
       "type": "animatedblock",
-      "sortid": 108,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dr_teath",
@@ -705,7 +705,7 @@
     {
       "name": "NeonPartySet1",
       "type": "animatedblock",
-      "sortid": 32,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neon_party_set_1",
@@ -728,7 +728,7 @@
     {
       "name": "NeonPartySet2",
       "type": "animatedblock",
-      "sortid": 33,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neon_party_set_2",
@@ -751,7 +751,7 @@
     {
       "name": "NeonPartySet3",
       "type": "animatedblock",
-      "sortid": 34,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neon_party_set_3",
@@ -774,7 +774,7 @@
     {
       "name": "NeonPartySet4",
       "type": "animatedblock",
-      "sortid": 35,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neon_party_set_4",
@@ -797,7 +797,7 @@
     {
       "name": "MoldyRabbit",
       "type": "animatedblock",
-      "sortid": 69,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "moldy_rabbit",
@@ -820,7 +820,7 @@
     {
       "name": "MusicMan",
       "type": "animatedblock",
-      "sortid": 89,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "music_man",
@@ -843,7 +843,7 @@
     {
       "name": "BarryPolarAnimated",
       "type": "animatedblock",
-      "sortid": 230,
+      "sortid": 206,
       "compiles": true,
       "locked_code": false,
       "registry_name": "barry_polar_animated",
@@ -866,7 +866,7 @@
     {
       "name": "BrokenBarryPolarAnimated",
       "type": "animatedblock",
-      "sortid": 231,
+      "sortid": 207,
       "compiles": true,
       "locked_code": false,
       "registry_name": "broken_barry_polar_animated",
@@ -889,7 +889,7 @@
     {
       "name": "Ad",
       "type": "item",
-      "sortid": 232,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ad",
@@ -904,7 +904,7 @@
     {
       "name": "ADs",
       "type": "tab",
-      "sortid": 233,
+      "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "registry_name": "a_ds",
@@ -916,7 +916,7 @@
     {
       "name": "FuntimeDelilah",
       "type": "animatedblock",
-      "sortid": 234,
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "registry_name": "funtime_delilah",
@@ -939,7 +939,7 @@
     {
       "name": "ElChipAnimated",
       "type": "animatedblock",
-      "sortid": 235,
+      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "registry_name": "el_chip_animated",
@@ -962,7 +962,7 @@
     {
       "name": "Endo01Animated",
       "type": "animatedblock",
-      "sortid": 236,
+      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "registry_name": "endo_01_animated",
@@ -985,7 +985,7 @@
     {
       "name": "FuntimeChicaAnimated",
       "type": "animatedblock",
-      "sortid": 237,
+      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "registry_name": "funtime_chica_animated",
@@ -1008,7 +1008,7 @@
     {
       "name": "HappYFrogAnimated",
       "type": "animatedblock",
-      "sortid": 238,
+      "sortid": 214,
       "compiles": true,
       "locked_code": false,
       "registry_name": "happ_y_frog_animated",
@@ -1031,7 +1031,7 @@
     {
       "name": "LeftyAnimated",
       "type": "animatedblock",
-      "sortid": 239,
+      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lefty_animated",
@@ -1054,7 +1054,7 @@
     {
       "name": "MrHippoAnimated",
       "type": "animatedblock",
-      "sortid": 240,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mr_hippo_animated",
@@ -1077,7 +1077,7 @@
     {
       "name": "MusicManAnimated",
       "type": "animatedblock",
-      "sortid": 241,
+      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "registry_name": "music_man_animated",
@@ -1100,7 +1100,7 @@
     {
       "name": "NeddBearAnimated",
       "type": "animatedblock",
-      "sortid": 242,
+      "sortid": 218,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nedd_bear_animated",
@@ -1123,7 +1123,7 @@
     {
       "name": "OrvilleAnimated",
       "type": "animatedblock",
-      "sortid": 243,
+      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orville_animated",
@@ -1146,7 +1146,7 @@
     {
       "name": "PigPatchAnimated",
       "type": "animatedblock",
-      "sortid": 244,
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pig_patch_animated",
@@ -1169,7 +1169,7 @@
     {
       "name": "RockStarBonnieAnimated",
       "type": "animatedblock",
-      "sortid": 245,
+      "sortid": 221,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rock_star_bonnie_animated",
@@ -1192,7 +1192,7 @@
     {
       "name": "RockStarChicaAnimated",
       "type": "animatedblock",
-      "sortid": 246,
+      "sortid": 222,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rock_star_chica_animated",
@@ -1215,7 +1215,7 @@
     {
       "name": "RockStarFoxyAnimated",
       "type": "animatedblock",
-      "sortid": 247,
+      "sortid": 223,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rock_star_foxy_animated",
@@ -1238,7 +1238,7 @@
     {
       "name": "RockStarFreddyAnimated",
       "type": "animatedblock",
-      "sortid": 248,
+      "sortid": 224,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rock_star_freddy_animated",
@@ -1261,7 +1261,7 @@
     {
       "name": "RustyAnimated",
       "type": "animatedblock",
-      "sortid": 249,
+      "sortid": 225,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rusty_animated",
@@ -1284,7 +1284,7 @@
     {
       "name": "FuntimeDelilahblock",
       "type": "animatedblock",
-      "sortid": 98,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "funtime_delilahblock",
@@ -1307,7 +1307,7 @@
     {
       "name": "BarryPolar",
       "type": "animatedblock",
-      "sortid": 97,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "barry_polar",
@@ -1330,7 +1330,7 @@
     {
       "name": "BarryPolarFixed",
       "type": "animatedblock",
-      "sortid": 96,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "barry_polar_fixed",
@@ -1353,7 +1353,7 @@
     {
       "name": "TheMangle",
       "type": "animatedblock",
-      "sortid": 95,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_mangle",
@@ -1376,7 +1376,7 @@
     {
       "name": "LargeSign3",
       "type": "animatedblock",
-      "sortid": 137,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_sign_3",
@@ -1399,7 +1399,7 @@
     {
       "name": "LargeSign4",
       "type": "animatedblock",
-      "sortid": 138,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_sign_4",
@@ -1422,7 +1422,7 @@
     {
       "name": "SanitationStation",
       "type": "animatedblock",
-      "sortid": 24,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sanitation_station",
@@ -1445,7 +1445,7 @@
     {
       "name": "PinTheBowtieOnTheFreddy",
       "type": "animatedblock",
-      "sortid": 25,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pin_the_bowtie_on_the_freddy",
@@ -1468,7 +1468,7 @@
     {
       "name": "PinTheBowtieOnTheTieTheToyFreddy",
       "type": "animatedblock",
-      "sortid": 26,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pin_the_bowtie_on_the_tie_the_toy_freddy",
@@ -1491,7 +1491,7 @@
     {
       "name": "NoveltyTrafficLight",
       "type": "animatedblock",
-      "sortid": 57,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "novelty_traffic_light",
@@ -1514,7 +1514,7 @@
     {
       "name": "DuckPond",
       "type": "animatedblock",
-      "sortid": 23,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "duck_pond",
@@ -1537,7 +1537,7 @@
     {
       "name": "RFreddyPoster",
       "type": "block",
-      "sortid": 58,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_freddy_poster",
@@ -1554,7 +1554,7 @@
     {
       "name": "RbonniePoster",
       "type": "block",
-      "sortid": 59,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rbonnie_poster",
@@ -1571,7 +1571,7 @@
     {
       "name": "RChicaPoster",
       "type": "block",
-      "sortid": 60,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_chica_poster",
@@ -1588,7 +1588,7 @@
     {
       "name": "RFoxyPoster",
       "type": "block",
-      "sortid": 61,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_foxy_poster",
@@ -1605,7 +1605,7 @@
     {
       "name": "LeftyPoster",
       "type": "block",
-      "sortid": 62,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lefty_poster",
@@ -1622,7 +1622,7 @@
     {
       "name": "Impala",
       "type": "animatedentity",
-      "sortid": 155,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "impala",
@@ -1639,7 +1639,7 @@
     {
       "name": "ImpalaBlock",
       "type": "animatedblock",
-      "sortid": 156,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "impala_block",
@@ -1662,7 +1662,7 @@
     {
       "name": "Banjo",
       "type": "item",
-      "sortid": 140,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "banjo",
@@ -1677,7 +1677,7 @@
     {
       "name": "Maracas",
       "type": "item",
-      "sortid": 141,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maracas",
@@ -1692,7 +1692,7 @@
     {
       "name": "Accordion",
       "type": "item",
-      "sortid": 142,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "accordion",
@@ -1707,7 +1707,7 @@
     {
       "name": "Mandolin",
       "type": "item",
-      "sortid": 143,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mandolin",
@@ -1722,7 +1722,7 @@
     {
       "name": "Wand",
       "type": "item",
-      "sortid": 144,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wand",
@@ -1737,7 +1737,7 @@
     {
       "name": "ToyMic",
       "type": "item",
-      "sortid": 145,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "toy_mic",
@@ -1752,7 +1752,7 @@
     {
       "name": "Guitar",
       "type": "item",
-      "sortid": 146,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guitar",
@@ -1767,7 +1767,7 @@
     {
       "name": "Props",
       "type": "tab",
-      "sortid": 250,
+      "sortid": 226,
       "compiles": true,
       "locked_code": false,
       "registry_name": "props",
@@ -1779,7 +1779,7 @@
     {
       "name": "DogeRam",
       "type": "animatedentity",
-      "sortid": 157,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doge_ram",
@@ -1796,7 +1796,7 @@
     {
       "name": "DogeRamBlock",
       "type": "animatedblock",
-      "sortid": 158,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doge_ram_block",
@@ -1819,7 +1819,7 @@
     {
       "name": "DFreddy",
       "type": "animatedentity",
-      "sortid": 161,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "d_freddy",
@@ -1836,7 +1836,7 @@
     {
       "name": "DBonnie",
       "type": "animatedentity",
-      "sortid": 163,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "d_bonnie",
@@ -1853,7 +1853,7 @@
     {
       "name": "Dchica",
       "type": "animatedentity",
-      "sortid": 164,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dchica",
@@ -1870,7 +1870,7 @@
     {
       "name": "DFoxy",
       "type": "animatedentity",
-      "sortid": 165,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "d_foxy",
@@ -1887,7 +1887,7 @@
     {
       "name": "Dfredbear",
       "type": "animatedentity",
-      "sortid": 166,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dfredbear",
@@ -1904,7 +1904,7 @@
     {
       "name": "DMangle",
       "type": "animatedentity",
-      "sortid": 167,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "d_mangle",
@@ -1921,7 +1921,7 @@
     {
       "name": "OldBonnie",
       "type": "animatedblock",
-      "sortid": 162,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_bonnie",
@@ -1944,7 +1944,7 @@
     {
       "name": "OldFreddy",
       "type": "animatedblock",
-      "sortid": 168,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_freddy",
@@ -1967,7 +1967,7 @@
     {
       "name": "OldChica",
       "type": "animatedblock",
-      "sortid": 169,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_chica",
@@ -1990,7 +1990,7 @@
     {
       "name": "OldFoxy",
       "type": "animatedblock",
-      "sortid": 170,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_foxy",
@@ -2013,7 +2013,7 @@
     {
       "name": "DBalloonBoy",
       "type": "animatedblock",
-      "sortid": 171,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "d_balloon_boy",
@@ -2036,7 +2036,7 @@
     {
       "name": "Cars",
       "type": "tab",
-      "sortid": 251,
+      "sortid": 227,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cars",
@@ -2048,7 +2048,7 @@
     {
       "name": "PrivateRoom",
       "type": "tab",
-      "sortid": 252,
+      "sortid": 228,
       "compiles": true,
       "locked_code": false,
       "registry_name": "private_room",
@@ -2060,7 +2060,7 @@
     {
       "name": "ShopBlocks",
       "type": "tab",
-      "sortid": 253,
+      "sortid": 229,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shop_blocks",
@@ -2072,7 +2072,7 @@
     {
       "name": "PlushOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 254,
+      "sortid": 230,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plush_on_block_right_clicked",
@@ -2104,7 +2104,7 @@
     {
       "name": "DocPlush",
       "type": "animatedblock",
-      "sortid": 223,
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doc_plush",
@@ -2127,7 +2127,7 @@
     {
       "name": "Plush",
       "type": "tab",
-      "sortid": 255,
+      "sortid": 231,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plush",
@@ -2137,77 +2137,9 @@
       "path": "~/Tabs"
     },
     {
-      "name": "MonitorsStephan",
-      "type": "block",
-      "sortid": 172,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "monitors_stephan",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fbms/block/MonitorsStephanBlock.java",
-          "src/main/resources/assets/fbms/models/block/monitors_stephan.json",
-          "src/main/resources/assets/fbms/models/item/monitors_stephan.json",
-          "src/main/resources/assets/fbms/blockstates/monitors_stephan.json"
-        ]
-      },
-      "path": "~/Blocks/Props/TVs and Monitors"
-    },
-    {
-      "name": "Tv",
-      "type": "block",
-      "sortid": 175,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tv",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fbms/models/block/tv.json",
-          "src/main/resources/assets/fbms/models/item/tv.json",
-          "src/main/java/net/mcreator/fbms/block/TvBlock.java",
-          "src/main/resources/assets/fbms/blockstates/tv.json"
-        ]
-      },
-      "path": "~/Blocks/Props/TVs and Monitors"
-    },
-    {
-      "name": "TvDoug",
-      "type": "block",
-      "sortid": 176,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tv_doug",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fbms/block/TvDougBlock.java",
-          "src/main/resources/assets/fbms/models/item/tv_doug.json",
-          "src/main/resources/assets/fbms/models/block/tv_doug.json",
-          "src/main/resources/assets/fbms/blockstates/tv_doug.json"
-        ]
-      },
-      "path": "~/Blocks/Props/TVs and Monitors"
-    },
-    {
-      "name": "TvMarcelo",
-      "type": "block",
-      "sortid": 177,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tv_marcelo",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fbms/blockstates/tv_marcelo.json",
-          "src/main/resources/assets/fbms/models/block/tv_marcelo.json",
-          "src/main/resources/assets/fbms/models/item/tv_marcelo.json",
-          "src/main/java/net/mcreator/fbms/block/TvMarceloBlock.java"
-        ]
-      },
-      "path": "~/Blocks/Props/TVs and Monitors"
-    },
-    {
       "name": "GarfPlush",
       "type": "animatedblock",
-      "sortid": 224,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garf_plush",
@@ -2230,7 +2162,7 @@
     {
       "name": "GarfPlushOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 256,
+      "sortid": 232,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garf_plush_on_block_right_clicked",
@@ -2262,7 +2194,7 @@
     {
       "name": "Rosey",
       "type": "animatedblock",
-      "sortid": 225,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rosey",
@@ -2283,26 +2215,9 @@
       "path": "~/Blocks/Props/Plushies"
     },
     {
-      "name": "TvOff",
-      "type": "block",
-      "sortid": 174,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tv_off",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fbms/block/TvOffBlock.java",
-          "src/main/resources/assets/fbms/models/block/tv_off.json",
-          "src/main/resources/assets/fbms/models/item/tv_off.json",
-          "src/main/resources/assets/fbms/blockstates/tv_off.json"
-        ]
-      },
-      "path": "~/Blocks/Props/TVs and Monitors"
-    },
-    {
       "name": "StationWagon",
       "type": "animatedentity",
-      "sortid": 159,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "station_wagon",
@@ -2319,7 +2234,7 @@
     {
       "name": "StationWagonBlock",
       "type": "animatedblock",
-      "sortid": 160,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "station_wagon_block",
@@ -2342,7 +2257,7 @@
     {
       "name": "DeluxeSpeakerSet",
       "type": "animatedblock",
-      "sortid": 46,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deluxe_speaker_set",
@@ -2365,7 +2280,7 @@
     {
       "name": "BalloonBarrel",
       "type": "block",
-      "sortid": 17,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "balloon_barrel",
@@ -2382,7 +2297,7 @@
     {
       "name": "PaperPalClown",
       "type": "block",
-      "sortid": 11,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "paper_pal_clown",
@@ -2399,7 +2314,7 @@
     {
       "name": "PapperPalMrHippo",
       "type": "block",
-      "sortid": 12,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "papper_pal_mr_hippo",
@@ -2416,7 +2331,7 @@
     {
       "name": "PapperPalOrvil",
       "type": "block",
-      "sortid": 13,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "papper_pal_orvil",
@@ -2450,7 +2365,7 @@
     {
       "name": "NeonJukeBox",
       "type": "animatedblock",
-      "sortid": 48,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neon_juke_box",
@@ -2473,7 +2388,7 @@
     {
       "name": "LadderTower",
       "type": "animatedblock",
-      "sortid": 36,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ladder_tower",
@@ -2496,7 +2411,7 @@
     {
       "name": "GumballSwivelHands",
       "type": "block",
-      "sortid": 14,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gumball_swivel_hands",
@@ -2513,7 +2428,7 @@
     {
       "name": "BallPitTower",
       "type": "animatedblock",
-      "sortid": 21,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ball_pit_tower",
@@ -2536,7 +2451,7 @@
     {
       "name": "EnhancedSpeakerSet",
       "type": "animatedblock",
-      "sortid": 47,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enhanced_speaker_set",
@@ -2559,7 +2474,7 @@
     {
       "name": "FruitPunchClown",
       "type": "animatedblock",
-      "sortid": 16,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fruit_punch_clown",
@@ -2582,7 +2497,7 @@
     {
       "name": "LemonadeClown",
       "type": "animatedblock",
-      "sortid": 15,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lemonade_clown",
@@ -2605,7 +2520,7 @@
     {
       "name": "DiscountBallpit",
       "type": "animatedblock",
-      "sortid": 20,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "discount_ballpit",
@@ -2628,7 +2543,7 @@
     {
       "name": "EggBaby",
       "type": "animatedblock",
-      "sortid": 37,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "egg_baby",
@@ -2651,7 +2566,7 @@
     {
       "name": "MrHugs",
       "type": "animatedblock",
-      "sortid": 73,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mr_hugs",
@@ -2674,7 +2589,7 @@
     {
       "name": "Number1Crate",
       "type": "animatedblock",
-      "sortid": 74,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "number_1_crate",
@@ -2697,7 +2612,7 @@
     {
       "name": "IgnitedChica",
       "type": "animatedblock",
-      "sortid": 94,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ignited_chica",
@@ -2720,7 +2635,7 @@
     {
       "name": "MoltenSit",
       "type": "animatedblock",
-      "sortid": 93,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "molten_sit",
@@ -2743,7 +2658,7 @@
     {
       "name": "FreddyFazBear",
       "type": "animatedblock",
-      "sortid": 119,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "freddy_faz_bear",
@@ -2766,7 +2681,7 @@
     {
       "name": "VESSELOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 257,
+      "sortid": 233,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vessel_on_block_right_clicked",
@@ -2798,7 +2713,7 @@
     {
       "name": "VESSEL",
       "type": "block",
-      "sortid": 226,
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vessel",
@@ -2815,7 +2730,7 @@
     {
       "name": "MidnightMotorist",
       "type": "animatedblock",
-      "sortid": 18,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "midnight_motorist",
@@ -2838,7 +2753,7 @@
     {
       "name": "FruityMaze",
       "type": "animatedblock",
-      "sortid": 19,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fruity_maze",
@@ -2861,7 +2776,7 @@
     {
       "name": "StephanPlush",
       "type": "animatedblock",
-      "sortid": 227,
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stephan_plush",
@@ -2884,7 +2799,7 @@
     {
       "name": "StephanPlushOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 258,
+      "sortid": 234,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stephan_plush_on_block_right_clicked",
@@ -2916,7 +2831,7 @@
     {
       "name": "PanStan",
       "type": "animatedblock",
-      "sortid": 70,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pan_stan",
@@ -2939,7 +2854,7 @@
     {
       "name": "Remote",
       "type": "item",
-      "sortid": 189,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "remote",
@@ -2954,7 +2869,7 @@
     {
       "name": "BucketBob",
       "type": "animatedblock",
-      "sortid": 71,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bucket_bob",
@@ -2977,7 +2892,7 @@
     {
       "name": "MrCanDo",
       "type": "animatedblock",
-      "sortid": 72,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mr_can_do",
@@ -3000,7 +2915,7 @@
     {
       "name": "BalloonBoy",
       "type": "animatedblock",
-      "sortid": 112,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "balloon_boy",
@@ -3023,7 +2938,7 @@
     {
       "name": "BonBon",
       "type": "animatedblock",
-      "sortid": 113,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bon_bon",
@@ -3046,7 +2961,7 @@
     {
       "name": "Bonnet",
       "type": "animatedblock",
-      "sortid": 114,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bonnet",
@@ -3069,7 +2984,7 @@
     {
       "name": "Bonnie",
       "type": "animatedblock",
-      "sortid": 120,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bonnie",
@@ -3092,7 +3007,7 @@
     {
       "name": "Chica",
       "type": "animatedblock",
-      "sortid": 121,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chica",
@@ -3115,7 +3030,7 @@
     {
       "name": "Foxy",
       "type": "animatedblock",
-      "sortid": 122,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "foxy",
@@ -3138,7 +3053,7 @@
     {
       "name": "FtFoxy",
       "type": "animatedblock",
-      "sortid": 115,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ft_foxy",
@@ -3161,7 +3076,7 @@
     {
       "name": "LolBit",
       "type": "animatedblock",
-      "sortid": 116,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lol_bit",
@@ -3184,7 +3099,7 @@
     {
       "name": "LolBitDt",
       "type": "animatedblock",
-      "sortid": 117,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lol_bit_dt",
@@ -3207,7 +3122,7 @@
     {
       "name": "RetroChica",
       "type": "animatedblock",
-      "sortid": 118,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "retro_chica",
@@ -3230,7 +3145,7 @@
     {
       "name": "ToyFreddy",
       "type": "animatedblock",
-      "sortid": 124,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "toy_freddy",
@@ -3253,7 +3168,7 @@
     {
       "name": "ToyFoxy",
       "type": "animatedblock",
-      "sortid": 127,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "toy_foxy",
@@ -3276,7 +3191,7 @@
     {
       "name": "ToyChica",
       "type": "animatedblock",
-      "sortid": 126,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "toy_chica",
@@ -3299,7 +3214,7 @@
     {
       "name": "ToyBonnie",
       "type": "animatedblock",
-      "sortid": 125,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "toy_bonnie",
@@ -3322,7 +3237,7 @@
     {
       "name": "BonkABon",
       "type": "animatedblock",
-      "sortid": 38,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bonk_a_bon",
@@ -3345,7 +3260,7 @@
     {
       "name": "BrokenFreddy",
       "type": "animatedblock",
-      "sortid": 190,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "broken_freddy",
@@ -3368,7 +3283,7 @@
     {
       "name": "BrokenBonnie",
       "type": "animatedblock",
-      "sortid": 191,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "broken_bonnie",
@@ -3391,7 +3306,7 @@
     {
       "name": "BrokenChica",
       "type": "animatedblock",
-      "sortid": 192,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "broken_chica",
@@ -3414,7 +3329,7 @@
     {
       "name": "CarnivalHoops",
       "type": "animatedblock",
-      "sortid": 39,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "carnival_hoops",
@@ -3437,7 +3352,7 @@
     {
       "name": "GravityVortex",
       "type": "animatedblock",
-      "sortid": 259,
+      "sortid": 235,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gravity_vortex",
@@ -3460,7 +3375,7 @@
     {
       "name": "GravityVortex2",
       "type": "animatedblock",
-      "sortid": 40,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gravity_vortex_2",
@@ -3483,7 +3398,7 @@
     {
       "name": "Pickles",
       "type": "animatedblock",
-      "sortid": 41,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pickles",
@@ -3506,7 +3421,7 @@
     {
       "name": "DougTheDog",
       "type": "animatedblock",
-      "sortid": 129,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doug_the_dog",
@@ -3529,7 +3444,7 @@
     {
       "name": "WitheredDougTheDog",
       "type": "animatedblock",
-      "sortid": 130,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "withered_doug_the_dog",
@@ -3552,7 +3467,7 @@
     {
       "name": "Endo02",
       "type": "animatedblock",
-      "sortid": 128,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "endo_02",
@@ -3573,145 +3488,9 @@
       "path": "~/Blocks/Animatronics/Non Animatable"
     },
     {
-      "name": "TvFizTime",
-      "type": "block",
-      "sortid": 178,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tv_fiz_time",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fbms/models/block/tv_fiz_time.json",
-          "src/main/resources/assets/fbms/models/item/tv_fiz_time.json",
-          "src/main/resources/assets/fbms/blockstates/tv_fiz_time.json",
-          "src/main/java/net/mcreator/fbms/block/TvFizTimeBlock.java"
-        ]
-      },
-      "path": "~/Blocks/Props/TVs and Monitors"
-    },
-    {
-      "name": "TvMarty",
-      "type": "block",
-      "sortid": 179,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tv_marty",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fbms/blockstates/tv_marty.json",
-          "src/main/resources/assets/fbms/models/block/tv_marty.json",
-          "src/main/resources/assets/fbms/models/item/tv_marty.json",
-          "src/main/java/net/mcreator/fbms/block/TvMartyBlock.java"
-        ]
-      },
-      "path": "~/Blocks/Props/TVs and Monitors"
-    },
-    {
-      "name": "TvFlos",
-      "type": "block",
-      "sortid": 180,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tv_flos",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fbms/models/item/tv_flos.json",
-          "src/main/java/net/mcreator/fbms/block/TvFlosBlock.java",
-          "src/main/resources/assets/fbms/blockstates/tv_flos.json",
-          "src/main/resources/assets/fbms/models/block/tv_flos.json"
-        ]
-      },
-      "path": "~/Blocks/Props/TVs and Monitors"
-    },
-    {
-      "name": "TvWartPaste",
-      "type": "block",
-      "sortid": 181,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tv_wart_paste",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fbms/models/item/tv_wart_paste.json",
-          "src/main/resources/assets/fbms/blockstates/tv_wart_paste.json",
-          "src/main/java/net/mcreator/fbms/block/TvWartPasteBlock.java",
-          "src/main/resources/assets/fbms/models/block/tv_wart_paste.json"
-        ]
-      },
-      "path": "~/Blocks/Props/TVs and Monitors"
-    },
-    {
-      "name": "TvLally",
-      "type": "block",
-      "sortid": 182,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tv_lally",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fbms/models/block/tv_lally.json",
-          "src/main/java/net/mcreator/fbms/block/TvLallyBlock.java",
-          "src/main/resources/assets/fbms/models/item/tv_lally.json",
-          "src/main/resources/assets/fbms/blockstates/tv_lally.json"
-        ]
-      },
-      "path": "~/Blocks/Props/TVs and Monitors"
-    },
-    {
-      "name": "TvPopCorn",
-      "type": "block",
-      "sortid": 183,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tv_pop_corn",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fbms/models/block/tv_pop_corn.json",
-          "src/main/java/net/mcreator/fbms/block/TvPopCornBlock.java",
-          "src/main/resources/assets/fbms/blockstates/tv_pop_corn.json",
-          "src/main/resources/assets/fbms/models/item/tv_pop_corn.json"
-        ]
-      },
-      "path": "~/Blocks/Props/TVs and Monitors"
-    },
-    {
-      "name": "TvFreddyNFren",
-      "type": "block",
-      "sortid": 184,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tv_freddy_n_fren",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fbms/models/item/tv_freddy_n_fren.json",
-          "src/main/resources/assets/fbms/models/block/tv_freddy_n_fren.json",
-          "src/main/resources/assets/fbms/blockstates/tv_freddy_n_fren.json",
-          "src/main/java/net/mcreator/fbms/block/TvFreddyNFrenBlock.java"
-        ]
-      },
-      "path": "~/Blocks/Props/TVs and Monitors"
-    },
-    {
-      "name": "TvIATR",
-      "type": "block",
-      "sortid": 185,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tv_iatr",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fbms/models/item/tv_iatr.json",
-          "src/main/resources/assets/fbms/models/block/tv_iatr.json",
-          "src/main/java/net/mcreator/fbms/block/TvIATRBlock.java",
-          "src/main/resources/assets/fbms/blockstates/tv_iatr.json"
-        ]
-      },
-      "path": "~/Blocks/Props/TVs and Monitors"
-    },
-    {
       "name": "DiscountCoolingUnit",
       "type": "animatedblock",
-      "sortid": 42,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "discount_cooling_unit",
@@ -3734,7 +3513,7 @@
     {
       "name": "Rasc",
       "type": "animatedblock",
-      "sortid": 193,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rasc",
@@ -3757,7 +3536,7 @@
     {
       "name": "SeatRightClickedOnEntity",
       "type": "procedure",
-      "sortid": 260,
+      "sortid": 236,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seat_right_clicked_on_entity",
@@ -3793,7 +3572,7 @@
     {
       "name": "SeatOnEntityTickUpdate",
       "type": "procedure",
-      "sortid": 261,
+      "sortid": 237,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seat_on_entity_tick_update",
@@ -3813,7 +3592,7 @@
     {
       "name": "Seat",
       "type": "livingentity",
-      "sortid": 262,
+      "sortid": 238,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seat",
@@ -3830,7 +3609,7 @@
     {
       "name": "ShredBear",
       "type": "animatedblock",
-      "sortid": 194,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shred_bear",
@@ -3853,7 +3632,7 @@
     {
       "name": "LolBit409",
       "type": "animatedblock",
-      "sortid": 131,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lol_bit_409",
@@ -3876,7 +3655,7 @@
     {
       "name": "BalloonCart",
       "type": "animatedblock",
-      "sortid": 43,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "balloon_cart",
@@ -3899,7 +3678,7 @@
     {
       "name": "RidingRocketsRed",
       "type": "animatedblock",
-      "sortid": 44,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "riding_rockets_red",
@@ -3922,7 +3701,7 @@
     {
       "name": "RidingRocketsPurple",
       "type": "animatedblock",
-      "sortid": 45,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "riding_rockets_purple",
@@ -3945,7 +3724,7 @@
     {
       "name": "PaperPlates",
       "type": "animatedblock",
-      "sortid": 28,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "paper_plates",
@@ -3968,7 +3747,7 @@
     {
       "name": "NeonStageLightGreen",
       "type": "animatedblock",
-      "sortid": 49,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neon_stage_light_green",
@@ -3991,7 +3770,7 @@
     {
       "name": "NeonStageLightsPink",
       "type": "animatedblock",
-      "sortid": 50,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neon_stage_lights_pink",
@@ -4014,7 +3793,7 @@
     {
       "name": "NeonStageLightsBlue",
       "type": "animatedblock",
-      "sortid": 51,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neon_stage_lights_blue",
@@ -4037,7 +3816,7 @@
     {
       "name": "CeilingStageLights",
       "type": "animatedblock",
-      "sortid": 53,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ceiling_stage_lights",
@@ -4060,7 +3839,7 @@
     {
       "name": "CeilingStageLightpink",
       "type": "animatedblock",
-      "sortid": 54,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ceiling_stage_lightpink",
@@ -4083,7 +3862,7 @@
     {
       "name": "CeilingStageLightblue",
       "type": "animatedblock",
-      "sortid": 55,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ceiling_stage_lightblue",
@@ -4106,7 +3885,7 @@
     {
       "name": "FAT",
       "type": "item",
-      "sortid": 195,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fat",
@@ -4121,7 +3900,7 @@
     {
       "name": "DeluxeBallpit",
       "type": "animatedblock",
-      "sortid": 22,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deluxe_ballpit",
@@ -4144,7 +3923,7 @@
     {
       "name": "RottenPit",
       "type": "animatedblock",
-      "sortid": 196,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rotten_pit",
@@ -4165,26 +3944,9 @@
       "path": "~/Blocks/Props/Games"
     },
     {
-      "name": "TvNews",
-      "type": "block",
-      "sortid": 186,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tv_news",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fbms/block/TvNewsBlock.java",
-          "src/main/resources/assets/fbms/models/item/tv_news.json",
-          "src/main/resources/assets/fbms/blockstates/tv_news.json",
-          "src/main/resources/assets/fbms/models/block/tv_news.json"
-        ]
-      },
-      "path": "~/Blocks/Props/TVs and Monitors"
-    },
-    {
       "name": "TvChannelsOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 263,
+      "sortid": 239,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tv_channels_on_block_right_clicked",
@@ -4224,7 +3986,7 @@
     {
       "name": "FrightsSign",
       "type": "animatedblock",
-      "sortid": 264,
+      "sortid": 240,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frights_sign",
@@ -4247,7 +4009,7 @@
     {
       "name": "FrightsSign2",
       "type": "animatedblock",
-      "sortid": 197,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frights_sign_2",
@@ -4270,7 +4032,7 @@
     {
       "name": "FrightsSign2RedstoneOn",
       "type": "procedure",
-      "sortid": 265,
+      "sortid": 241,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frights_sign_2_redstone_on",
@@ -4302,7 +4064,7 @@
     {
       "name": "FrightsSignRedstoneOff",
       "type": "procedure",
-      "sortid": 266,
+      "sortid": 242,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frights_sign_redstone_off",
@@ -4334,7 +4096,7 @@
     {
       "name": "PizzaPlaceSign",
       "type": "animatedblock",
-      "sortid": 198,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pizza_place_sign",
@@ -4357,7 +4119,7 @@
     {
       "name": "PizzaPlaceSignOld",
       "type": "animatedblock",
-      "sortid": 199,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pizza_place_sign_old",
@@ -4380,7 +4142,7 @@
     {
       "name": "AnimatedAnimatronicOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 267,
+      "sortid": 243,
       "compiles": true,
       "locked_code": false,
       "registry_name": "animated_animatronic_on_block_right_clicked",
@@ -4416,7 +4178,7 @@
     {
       "name": "Trumpet",
       "type": "item",
-      "sortid": 139,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trumpet",
@@ -4431,7 +4193,7 @@
     {
       "name": "Dolls",
       "type": "animatedblock",
-      "sortid": 228,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dolls",
@@ -4454,7 +4216,7 @@
     {
       "name": "DollsOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 268,
+      "sortid": 244,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dolls_on_block_right_clicked",
@@ -4486,7 +4248,7 @@
     {
       "name": "HazyReindeer",
       "type": "animatedblock",
-      "sortid": 101,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hazy_reindeer",
@@ -4509,7 +4271,7 @@
     {
       "name": "HazyReindeerAnimated",
       "type": "animatedblock",
-      "sortid": 269,
+      "sortid": 245,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hazy_reindeer_animated",
@@ -4532,7 +4294,7 @@
     {
       "name": "WallyWalrus",
       "type": "animatedblock",
-      "sortid": 99,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wally_walrus",
@@ -4555,7 +4317,7 @@
     {
       "name": "WallyWalrusAnimated",
       "type": "animatedblock",
-      "sortid": 270,
+      "sortid": 246,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wally_walrus_animated",
@@ -4578,7 +4340,7 @@
     {
       "name": "PuffyPuffins",
       "type": "animatedblock",
-      "sortid": 100,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "puffy_puffins",
@@ -4601,7 +4363,7 @@
     {
       "name": "PuffyPuffinsAnimated",
       "type": "animatedblock",
-      "sortid": 271,
+      "sortid": 247,
       "compiles": true,
       "locked_code": false,
       "registry_name": "puffy_puffins_animated",
@@ -4624,7 +4386,7 @@
     {
       "name": "WitheredWallyWalrus",
       "type": "animatedblock",
-      "sortid": 102,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "withered_wally_walrus",
@@ -4647,7 +4409,7 @@
     {
       "name": "WitheredPuffyPuffins",
       "type": "animatedblock",
-      "sortid": 103,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "withered_puffy_puffins",
@@ -4670,7 +4432,7 @@
     {
       "name": "WitheredHazyReindeer",
       "type": "animatedblock",
-      "sortid": 104,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "withered_hazy_reindeer",
@@ -4691,60 +4453,9 @@
       "path": "~/Blocks/Animatronics/Non Animatable"
     },
     {
-      "name": "MonitorsLolbit",
-      "type": "block",
-      "sortid": 173,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "monitors_lolbit",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fbms/models/item/monitors_lolbit.json",
-          "src/main/resources/assets/fbms/blockstates/monitors_lolbit.json",
-          "src/main/resources/assets/fbms/models/block/monitors_lolbit.json",
-          "src/main/java/net/mcreator/fbms/block/MonitorsLolbitBlock.java"
-        ]
-      },
-      "path": "~/Blocks/Props/TVs and Monitors"
-    },
-    {
-      "name": "TvLolbit",
-      "type": "block",
-      "sortid": 188,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tv_lolbit",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fbms/models/block/tv_lolbit.json",
-          "src/main/java/net/mcreator/fbms/block/TvLolbitBlock.java",
-          "src/main/resources/assets/fbms/models/item/tv_lolbit.json",
-          "src/main/resources/assets/fbms/blockstates/tv_lolbit.json"
-        ]
-      },
-      "path": "~/Blocks/Props/TVs and Monitors"
-    },
-    {
-      "name": "MonitorLolbit",
-      "type": "block",
-      "sortid": 187,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "monitor_lolbit",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fbms/models/block/monitor_lolbit.json",
-          "src/main/resources/assets/fbms/models/item/monitor_lolbit.json",
-          "src/main/java/net/mcreator/fbms/block/MonitorLolbitBlock.java",
-          "src/main/resources/assets/fbms/blockstates/monitor_lolbit.json"
-        ]
-      },
-      "path": "~/Blocks/Props/TVs and Monitors"
-    },
-    {
       "name": "GtEndo",
       "type": "animatedblock",
-      "sortid": 105,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gt_endo",
@@ -4767,7 +4478,7 @@
     {
       "name": "GtEndoAnimated",
       "type": "animatedblock",
-      "sortid": 272,
+      "sortid": 248,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gt_endo_animated",
@@ -4790,7 +4501,7 @@
     {
       "name": "StEndo",
       "type": "animatedblock",
-      "sortid": 106,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "st_endo",
@@ -4813,7 +4524,7 @@
     {
       "name": "StEndoAnimated",
       "type": "animatedblock",
-      "sortid": 273,
+      "sortid": 249,
       "compiles": true,
       "locked_code": false,
       "registry_name": "st_endo_animated",
@@ -4836,7 +4547,7 @@
     {
       "name": "BuffetEndo",
       "type": "animatedblock",
-      "sortid": 107,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "buffet_endo",
@@ -4859,7 +4570,7 @@
     {
       "name": "JeffsPizzaSign",
       "type": "animatedblock",
-      "sortid": 200,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jeffs_pizza_sign",
@@ -4992,7 +4703,7 @@
     {
       "name": "LolbitRecord",
       "type": "animatedblock",
-      "sortid": 201,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lolbit_record",
@@ -5015,7 +4726,7 @@
     {
       "name": "RedStageBlock",
       "type": "block",
-      "sortid": 8,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_stage_block",
@@ -5032,7 +4743,7 @@
     {
       "name": "PurpleStageBlock",
       "type": "block",
-      "sortid": 9,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_stage_block",
@@ -5049,7 +4760,7 @@
     {
       "name": "StarArch",
       "type": "block",
-      "sortid": 10,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "star_arch",
@@ -5066,7 +4777,7 @@
     {
       "name": "ScrapStageBlock",
       "type": "block",
-      "sortid": 63,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "scrap_stage_block",
@@ -5083,7 +4794,7 @@
     {
       "name": "Coin",
       "type": "animatedblock",
-      "sortid": 147,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coin",
@@ -5106,7 +4817,7 @@
     {
       "name": "Coins5",
       "type": "animatedblock",
-      "sortid": 148,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coins_5",
@@ -5129,7 +4840,7 @@
     {
       "name": "Coins25",
       "type": "animatedblock",
-      "sortid": 149,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coins_100",
@@ -5152,7 +4863,7 @@
     {
       "name": "Coins100",
       "type": "animatedblock",
-      "sortid": 150,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coins_25",
@@ -5175,7 +4886,7 @@
     {
       "name": "Coins1000",
       "type": "animatedblock",
-      "sortid": 151,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coins_1000",
@@ -5198,7 +4909,7 @@
     {
       "name": "Coins10000",
       "type": "animatedblock",
-      "sortid": 152,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coins_10000",
@@ -5221,7 +4932,7 @@
     {
       "name": "Megaultimatespeakertron3000",
       "type": "animatedblock",
-      "sortid": 64,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "megaultimatespeakertron_3000",
@@ -5244,7 +4955,7 @@
     {
       "name": "HeavyDuityDoor",
       "type": "animatedblock",
-      "sortid": 65,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "heavy_duity_door",
@@ -5267,7 +4978,7 @@
     {
       "name": "HeavyDuityDoorClosed",
       "type": "animatedblock",
-      "sortid": 274,
+      "sortid": 250,
       "compiles": true,
       "locked_code": false,
       "registry_name": "heavy_duity_door_closed",
@@ -5290,7 +5001,7 @@
     {
       "name": "HeavyDuityDoorRedstoneOn",
       "type": "procedure",
-      "sortid": 275,
+      "sortid": 251,
       "compiles": true,
       "locked_code": false,
       "registry_name": "heavy_duity_door_redstone_on",
@@ -5322,7 +5033,7 @@
     {
       "name": "HeavyDuityDoorClosedRedstoneOff",
       "type": "procedure",
-      "sortid": 276,
+      "sortid": 252,
       "compiles": true,
       "locked_code": false,
       "registry_name": "heavy_duity_door_closed_redstone_off",
@@ -5354,7 +5065,7 @@
     {
       "name": "SignDDW",
       "type": "animatedblock",
-      "sortid": 202,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sign_ddw",
@@ -5377,7 +5088,7 @@
     {
       "name": "SignSBT",
       "type": "animatedblock",
-      "sortid": 203,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sign_sbt",
@@ -5400,7 +5111,7 @@
     {
       "name": "SignRFA",
       "type": "animatedblock",
-      "sortid": 204,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sign_rfa",
@@ -5423,7 +5134,7 @@
     {
       "name": "RetroChicaAnimated",
       "type": "animatedblock",
-      "sortid": 277,
+      "sortid": 253,
       "compiles": true,
       "locked_code": false,
       "registry_name": "retro_chica_animated",
@@ -5446,7 +5157,7 @@
     {
       "name": "SignSNS",
       "type": "animatedblock",
-      "sortid": 205,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sign_sns",
@@ -5469,7 +5180,7 @@
     {
       "name": "Tvs",
       "type": "tag",
-      "sortid": 278,
+      "sortid": 254,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tvs",
@@ -5483,7 +5194,7 @@
     {
       "name": "StreamerFiztime",
       "type": "block",
-      "sortid": 66,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "streamer_fiztime",
@@ -5500,7 +5211,7 @@
     {
       "name": "CupFiztime1",
       "type": "item",
-      "sortid": 153,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cup_fiztime_1",
@@ -5515,7 +5226,7 @@
     {
       "name": "CupFiztime2",
       "type": "item",
-      "sortid": 154,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cup_fiztime_2",
@@ -5530,7 +5241,7 @@
     {
       "name": "ChicaOLantern",
       "type": "block",
-      "sortid": 132,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chica_o_lantern",
@@ -5546,7 +5257,7 @@
     {
       "name": "JollyTheRat",
       "type": "animatedblock",
-      "sortid": 133,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jolly_the_rat",
@@ -5569,7 +5280,7 @@
     {
       "name": "JollyTheRatAnimated",
       "type": "animatedblock",
-      "sortid": 279,
+      "sortid": 255,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jolly_the_rat_animated",
@@ -5592,7 +5303,7 @@
     {
       "name": "SalvagedJolly",
       "type": "animatedblock",
-      "sortid": 134,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "salvaged_jolly",
@@ -5615,7 +5326,7 @@
     {
       "name": "NeonStageLightsOrange",
       "type": "animatedblock",
-      "sortid": 52,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neon_stage_lights_orange",
@@ -5638,7 +5349,7 @@
     {
       "name": "CeilingStageLightOrange",
       "type": "animatedblock",
-      "sortid": 56,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ceiling_stage_light_orange",
@@ -5657,6 +5368,615 @@
         ]
       },
       "path": "~/Blocks/Props/Stage Stuff"
+    },
+    {
+      "name": "TVOff",
+      "type": "block",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/TVOffBlock.java",
+          "src/main/resources/assets/fbms/models/block/tv_off.json",
+          "src/main/resources/assets/fbms/models/item/tv_off.json",
+          "src/main/resources/assets/fbms/blockstates/tv_off.json"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "TVFiztimePopSoda",
+      "type": "block",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_fiztime_pop_soda",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/TVFiztimePopSodaBlock.java",
+          "src/main/resources/assets/fbms/models/block/tv_fiztime_pop_soda.json",
+          "src/main/resources/assets/fbms/models/item/tv_fiztime_pop_soda.json",
+          "src/main/resources/assets/fbms/blockstates/tv_fiztime_pop_soda.json"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "TVFlosGlossyFloss",
+      "type": "block",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_flos_glossy_floss",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/tv_flos_glossy_floss.json",
+          "src/main/resources/assets/fbms/blockstates/tv_flos_glossy_floss.json",
+          "src/main/resources/assets/fbms/models/block/tv_flos_glossy_floss.json",
+          "src/main/java/net/mcreator/fbms/block/TVFlosGlossyFlossBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "TVFreddyAndFriends",
+      "type": "block",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_freddy_and_friends",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/blockstates/tv_freddy_and_friends.json",
+          "src/main/resources/assets/fbms/models/block/tv_freddy_and_friends.json",
+          "src/main/resources/assets/fbms/models/item/tv_freddy_and_friends.json",
+          "src/main/java/net/mcreator/fbms/block/TVFreddyAndFriendsBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "TVGarfieldShow",
+      "type": "block",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_garfield_show",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/block/tv_garfield_show.json",
+          "src/main/resources/assets/fbms/models/item/tv_garfield_show.json",
+          "src/main/java/net/mcreator/fbms/block/TVGarfieldShowBlock.java",
+          "src/main/resources/assets/fbms/blockstates/tv_garfield_show.json"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "TVIatr",
+      "type": "block",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_iatr",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/tv_iatr.json",
+          "src/main/resources/assets/fbms/models/block/tv_iatr.json",
+          "src/main/java/net/mcreator/fbms/block/TVIatrBlock.java",
+          "src/main/resources/assets/fbms/blockstates/tv_iatr.json"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "TVLalliesLollies",
+      "type": "block",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_lallies_lollies",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/block/tv_lallies_lollies.json",
+          "src/main/resources/assets/fbms/blockstates/tv_lallies_lollies.json",
+          "src/main/java/net/mcreator/fbms/block/TVLalliesLolliesBlock.java",
+          "src/main/resources/assets/fbms/models/item/tv_lallies_lollies.json"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "TVMartiesPlungers",
+      "type": "block",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_marties_plungers",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/TVMartiesPlungersBlock.java",
+          "src/main/resources/assets/fbms/models/item/tv_marties_plungers.json",
+          "src/main/resources/assets/fbms/blockstates/tv_marties_plungers.json",
+          "src/main/resources/assets/fbms/models/block/tv_marties_plungers.json"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "TVNews",
+      "type": "block",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_news",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/TVNewsBlock.java",
+          "src/main/resources/assets/fbms/models/item/tv_news.json",
+          "src/main/resources/assets/fbms/blockstates/tv_news.json",
+          "src/main/resources/assets/fbms/models/block/tv_news.json"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "TVPeppersPickledPopcorn",
+      "type": "block",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_peppers_pickled_popcorn",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/tv_peppers_pickled_popcorn.json",
+          "src/main/resources/assets/fbms/blockstates/tv_peppers_pickled_popcorn.json",
+          "src/main/java/net/mcreator/fbms/block/TVPeppersPickledPopcornBlock.java",
+          "src/main/resources/assets/fbms/models/block/tv_peppers_pickled_popcorn.json"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "TVWackyWartPaste",
+      "type": "block",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_wacky_wart_paste",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/block/tv_wacky_wart_paste.json",
+          "src/main/resources/assets/fbms/models/item/tv_wacky_wart_paste.json",
+          "src/main/java/net/mcreator/fbms/block/TVWackyWartPasteBlock.java",
+          "src/main/resources/assets/fbms/blockstates/tv_wacky_wart_paste.json"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "TVMarcelo",
+      "type": "block",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_marcelo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/blockstates/tv_marcelo.json",
+          "src/main/resources/assets/fbms/models/block/tv_marcelo.json",
+          "src/main/resources/assets/fbms/models/item/tv_marcelo.json",
+          "src/main/java/net/mcreator/fbms/block/TVMarceloBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "TVDoug",
+      "type": "block",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_doug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/TVDougBlock.java",
+          "src/main/resources/assets/fbms/models/item/tv_doug.json",
+          "src/main/resources/assets/fbms/models/block/tv_doug.json",
+          "src/main/resources/assets/fbms/blockstates/tv_doug.json"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "MonitorOff",
+      "type": "block",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monitor_off",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/monitor_off.json",
+          "src/main/resources/assets/fbms/blockstates/monitor_off.json",
+          "src/main/java/net/mcreator/fbms/block/MonitorOffBlock.java",
+          "src/main/resources/assets/fbms/models/block/monitor_off.json"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "MonitorWork",
+      "type": "block",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monitor_work",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/block/monitor_work.json",
+          "src/main/resources/assets/fbms/blockstates/monitor_work.json",
+          "src/main/java/net/mcreator/fbms/block/MonitorWorkBlock.java",
+          "src/main/resources/assets/fbms/models/item/monitor_work.json"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "MonitorLolbit",
+      "type": "block",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monitor_lolbit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/block/monitor_lolbit.json",
+          "src/main/resources/assets/fbms/models/item/monitor_lolbit.json",
+          "src/main/java/net/mcreator/fbms/block/MonitorLolbitBlock.java",
+          "src/main/resources/assets/fbms/blockstates/monitor_lolbit.json"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "MonitorStephan",
+      "type": "block",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monitor_stephan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/monitor_stephan.json",
+          "src/main/java/net/mcreator/fbms/block/MonitorStephanBlock.java",
+          "src/main/resources/assets/fbms/models/block/monitor_stephan.json",
+          "src/main/resources/assets/fbms/blockstates/monitor_stephan.json"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "MonitorBluescreen",
+      "type": "block",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monitor_bluescreen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/monitor_bluescreen.json",
+          "src/main/resources/assets/fbms/blockstates/monitor_bluescreen.json",
+          "src/main/java/net/mcreator/fbms/block/MonitorBluescreenBlock.java",
+          "src/main/resources/assets/fbms/models/block/monitor_bluescreen.json"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "BasicStageBlockStairs",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_stage_block_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/basic_stage_block_stairs.json",
+          "src/main/resources/assets/fbms/models/block/basic_stage_block_stairs_outer.json",
+          "src/main/resources/assets/fbms/blockstates/basic_stage_block_stairs.json",
+          "src/main/resources/assets/fbms/models/block/basic_stage_block_stairs_inner.json",
+          "src/main/resources/assets/fbms/models/block/basic_stage_block_stairs.json",
+          "src/main/java/net/mcreator/fbms/block/BasicStageBlockStairsBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "BasicStageBlockSlab",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_stage_block_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/blockstates/basic_stage_block_slab.json",
+          "src/main/java/net/mcreator/fbms/block/BasicStageBlockSlabBlock.java",
+          "src/main/resources/assets/fbms/models/block/basic_stage_block_slab_full.json",
+          "src/main/resources/assets/fbms/models/block/basic_stage_block_slab.json",
+          "src/main/resources/assets/fbms/models/block/basic_stage_block_slab_top.json",
+          "src/main/resources/assets/fbms/models/item/basic_stage_block_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "ScrapStageBlockStairs",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scrap_stage_block_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/blockstates/scrap_stage_block_stairs.json",
+          "src/main/resources/assets/fbms/models/block/scrap_stage_block_stairs.json",
+          "src/main/resources/assets/fbms/models/item/scrap_stage_block_stairs.json",
+          "src/main/java/net/mcreator/fbms/block/ScrapStageBlockStairsBlock.java",
+          "src/main/resources/assets/fbms/models/block/scrap_stage_block_stairs_outer.json",
+          "src/main/resources/assets/fbms/models/block/scrap_stage_block_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "ScrapStageBlockSlab",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scrap_stage_block_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/ScrapStageBlockSlabBlock.java",
+          "src/main/resources/assets/fbms/models/item/scrap_stage_block_slab.json",
+          "src/main/resources/assets/fbms/blockstates/scrap_stage_block_slab.json",
+          "src/main/resources/assets/fbms/models/block/scrap_stage_block_slab_top.json",
+          "src/main/resources/assets/fbms/models/block/scrap_stage_block_slab_full.json",
+          "src/main/resources/assets/fbms/models/block/scrap_stage_block_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "MonitorScai1",
+      "type": "block",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monitor_scai_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/block/monitor_scai_1.json",
+          "src/main/java/net/mcreator/fbms/block/MonitorScai1Block.java",
+          "src/main/resources/assets/fbms/models/item/monitor_scai_1.json",
+          "src/main/resources/assets/fbms/blockstates/monitor_scai_1.json"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "MonitorScai2",
+      "type": "block",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monitor_scai_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/block/monitor_scai_2.json",
+          "src/main/java/net/mcreator/fbms/block/MonitorScai2Block.java",
+          "src/main/resources/assets/fbms/models/item/monitor_scai_2.json",
+          "src/main/resources/assets/fbms/blockstates/monitor_scai_2.json"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "MonitorScai3",
+      "type": "block",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monitor_scai_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/block/monitor_scai_3.json",
+          "src/main/resources/assets/fbms/models/item/monitor_scai_3.json",
+          "src/main/resources/assets/fbms/blockstates/monitor_scai_3.json",
+          "src/main/java/net/mcreator/fbms/block/MonitorScai3Block.java"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "MonitorScai4",
+      "type": "block",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monitor_scai_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/blockstates/monitor_scai_4.json",
+          "src/main/java/net/mcreator/fbms/block/MonitorScai4Block.java",
+          "src/main/resources/assets/fbms/models/item/monitor_scai_4.json",
+          "src/main/resources/assets/fbms/models/block/monitor_scai_4.json"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "MonitorScai5",
+      "type": "block",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monitor_scai_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/block/monitor_scai_5.json",
+          "src/main/java/net/mcreator/fbms/block/MonitorScai5Block.java",
+          "src/main/resources/assets/fbms/models/item/monitor_scai_5.json",
+          "src/main/resources/assets/fbms/blockstates/monitor_scai_5.json"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "MonitorScai6",
+      "type": "block",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monitor_scai_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/monitor_scai_6.json",
+          "src/main/resources/assets/fbms/models/block/monitor_scai_6.json",
+          "src/main/java/net/mcreator/fbms/block/MonitorScai6Block.java",
+          "src/main/resources/assets/fbms/blockstates/monitor_scai_6.json"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "MonitorScai7",
+      "type": "block",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monitor_scai_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/blockstates/monitor_scai_7.json",
+          "src/main/java/net/mcreator/fbms/block/MonitorScai7Block.java",
+          "src/main/resources/assets/fbms/models/item/monitor_scai_7.json",
+          "src/main/resources/assets/fbms/models/block/monitor_scai_7.json"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "MonitorScai8",
+      "type": "block",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monitor_scai_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/monitor_scai_8.json",
+          "src/main/resources/assets/fbms/blockstates/monitor_scai_8.json",
+          "src/main/resources/assets/fbms/models/block/monitor_scai_8.json",
+          "src/main/java/net/mcreator/fbms/block/MonitorScai8Block.java"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "TVScream",
+      "type": "block",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_scream",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/blockstates/tv_scream.json",
+          "src/main/resources/assets/fbms/models/item/tv_scream.json",
+          "src/main/java/net/mcreator/fbms/block/TVScreamBlock.java",
+          "src/main/resources/assets/fbms/models/block/tv_scream.json"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "TVJaws",
+      "type": "block",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_jaws",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/block/tv_jaws.json",
+          "src/main/resources/assets/fbms/models/item/tv_jaws.json",
+          "src/main/resources/assets/fbms/blockstates/tv_jaws.json",
+          "src/main/java/net/mcreator/fbms/block/TVJawsBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "TVKillerKlowns",
+      "type": "block",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_killer_klowns",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/block/tv_killer_klowns.json",
+          "src/main/java/net/mcreator/fbms/block/TVKillerKlownsBlock.java",
+          "src/main/resources/assets/fbms/models/item/tv_killer_klowns.json",
+          "src/main/resources/assets/fbms/blockstates/tv_killer_klowns.json"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "TVHeman",
+      "type": "block",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_heman",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/tv_heman.json",
+          "src/main/java/net/mcreator/fbms/block/TVHemanBlock.java",
+          "src/main/resources/assets/fbms/blockstates/tv_heman.json",
+          "src/main/resources/assets/fbms/models/block/tv_heman.json"
+        ]
+      },
+      "path": "~/Blocks/Props/TVs and Monitors"
+    },
+    {
+      "name": "SignMS",
+      "type": "animatedblock",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_ms",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/custom/sign_ms_particle.json",
+          "src/main/java/net/mcreator/fbms/block/display/SignMSDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/SignMSBlock.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/SignMSTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/entity/SignMSTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/SignMSDisplayItemRenderer.java",
+          "src/main/resources/assets/fbms/blockstates/sign_ms.json",
+          "src/main/resources/assets/fbms/models/item/sign_ms.json",
+          "src/main/java/net/mcreator/fbms/block/model/SignMSBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/model/SignMSDisplayModel.java"
+        ]
+      },
+      "path": "~/Blocks/Props/Signs"
     }
   ],
   "variable_elements": [],
@@ -5734,6 +6054,7 @@
       "block.fbms.chica": "Chica",
       "block.fbms.nedd_bear": "Nedd Bear",
       "block.fbms.lolbit_record": "Lolbit Record",
+      "block.fbms.monitor_stephan": "Monitor (Stephan)",
       "subtitles.byebye": "WERE DID HE GO",
       "block.fbms.bon_bon": "BonBon",
       "block.fbms.disco_pizza": "Disco Pizza",
@@ -5744,7 +6065,9 @@
       "block.fbms.large_sign": "Large Sign",
       "block.fbms.rock_star_bonnie_animated": "Rockstar Bonnie Animated",
       "block.fbms.balloon_boy": "Balloon Boy",
+      "block.fbms.scrap_stage_block_stairs": "Scrap Stage Block Stairs",
       "block.fbms.black_white_clean_tile_slab": "Black White Clean Tile Slab",
+      "block.fbms.tv_garfield_show": "TV Monitor (Garfield Show)",
       "block.fbms.el_chip": "El Chip",
       "block.fbms.funtime_delilahblock": "Funtime Delilah",
       "item.fbms.d_freddy_spawn_egg": "D Freddy WIP Spawn Egg",
@@ -5765,13 +6088,13 @@
       "block.fbms.old_chica": "Old Chica",
       "block.fbms.molten_freddy": "Molten Freddy",
       "block.fbms.freddy_faz_bear": "Freddy Fazbear",
+      "block.fbms.tv_marties_plungers": "TV Monitor (Marty\u0027s Plungers)",
       "block.fbms.rock_star_chica": "Rockstar Chica",
       "block.fbms.lemonade_clown": "Lemonade Clown",
       "block.fbms.funtime_chica_animated": "Funtime Chica Animated",
       "block.fbms.paper_plates": "Paper Cups and Plates",
       "block.fbms.pin_the_bowtie_on_the_freddy": "Pin The Bowtie On The Freddy",
       "block.fbms.retro_chica_animated": "Retro Chica (Animated)",
-      "block.fbms.monitors_stephan": "Monitors (Haunted)",
       "block.fbms.barry_polar_fixed": "Barry Polar Fixed",
       "block.fbms.fun_time_chica": "Funtime Chica",
       "block.fbms.rock_star_freddy": "Rockstar Freddy",
@@ -5782,21 +6105,23 @@
       "block.fbms.withered_puffy_puffins": "Withered Puffy Puffins",
       "block.fbms.bonk_a_bon": "Bonk-A-Bon",
       "block.fbms.coins_1000": "Coins 1000",
-      "block.fbms.tv_marty": "Tv (Marty)",
       "block.fbms.endo_01_animated": "Endo 0 1 Animated",
-      "block.fbms.scrap_stage_block": "Red Stage Block",
+      "block.fbms.scrap_stage_block": "Scrap Stage Block",
       "block.fbms.jeffs_pizza_sign": "Jeff\u0027s Pizza Sign",
       "block.fbms.happy_frog": "Happy Frog",
       "block.fbms.dolls": "DocNDt Dolls",
       "item.fbms.mandolin": "Mandolin",
       "block.fbms.chica_o_lantern": "Chica O\u0027 Lantern",
       "block.fbms.coins_5": "Coins 5",
+      "block.fbms.monitor_off": "Monitor (Off)",
       "block.fbms.riding_rockets_red": "Riding Rockets",
       "block.fbms.puffy_puffins": "Puffy Puffins",
+      "block.fbms.sign_ms": "Shop Sign (Molten\u0027s Store)",
       "block.fbms.happ_y_frog_animated": "Happy Frog Animated",
       "block.fbms.prize_king": "Prize King",
       "block.fbms.jolly_the_rat_animated": "Jolly The Rat (Animated)",
       "block.fbms.riding_rockets_purple": "Riding Rockets ",
+      "block.fbms.tv_fiztime_pop_soda": "TV Monitor (Fiztime Pop Soda)",
       "block.fbms.garf_plush": "Garf Plush",
       "block.fbms.wink_sign": "Wink Sign",
       "item.fbms.d_mangle_spawn_egg": "D Mangle WIP Spawn Egg",
@@ -5816,11 +6141,12 @@
       "block.fbms.retro_chica": "Retro Chica",
       "block.fbms.ball_pit_tower": "BallPit Tower",
       "block.fbms.rock_star_chica_animated": "Rockstar Chica Animated",
-      "block.fbms.tv_wart_paste": "Tv (WartPaste)",
       "item.fbms.trumpet": "Trumpet",
+      "block.fbms.tv_wacky_wart_paste": "TV Monitor (Wacky Wart Paste)",
       "block.fbms.withered_doug_the_dog": "Withered Doug The Dog",
       "block.fbms.deluxe_ballpit": "Deluxe Ballpit",
-      "block.fbms.tv_iatr": "Tv (IATR)",
+      "block.fbms.tv_iatr": "TV Monitor (Immortal And The Restless)",
+      "block.fbms.tv_flos_glossy_floss": "TV Monitor (Flos Glossy Floss)",
       "block.fbms.mr_hippo": "Mr Hippo",
       "block.fbms.toy_chica": "Toy Chica",
       "block.fbms.nedd_bear_animated": "Nedd Bear Animated",
@@ -5843,7 +6169,6 @@
       "itemGroup.tabfms": "Animatronic Block",
       "block.fbms.pin_the_bowtie_on_the_tie_the_toy_freddy": "Pin The Bowtie On The Freddy",
       "item.fbms.station_wagon_spawn_egg": "Station Wagon Spawn Egg",
-      "block.fbms.tv": "Tv (GFS)",
       "block.fbms.purple_stage_block": "Red Stage Block",
       "block.fbms.streamer_fiztime": "Streamer (Fiztime Pop Soda)",
       "block.fbms.salvaged_jolly": "Salvaged Jolly",
@@ -5861,13 +6186,11 @@
       "block.fbms.neon_stage_lights_blue": "Neon Stage Light (Blue)",
       "block.fbms.hazy_reindeer_animated": "Hazy Reindeer (Animated)",
       "block.fbms.discount_ballpit": "Discount Ballpit",
-      "block.fbms.tv_freddy_n_fren": "Tv (OnTore)",
       "block.fbms.number_1_crate": "Number 1 Crate ",
       "subtitles.catplush": "Demonic Car",
       "entity.fbms.d_foxy": "D Foxy WIP",
-      "block.fbms.tv_off": "Tv (Off)",
       "block.fbms.discount_cooling_unit": "Discount Cooling Unit",
-      "block.fbms.monitors_lolbit": "Monitors (Lolbit)",
+      "block.fbms.tv_off": "TV Monitor",
       "entity.fbms.station_wagon": "Station Wagon",
       "item.fbms.d_bonnie_spawn_egg": "D Bonnie WIP Spawn Egg",
       "item.fbms.guitar": "Guitar",
@@ -5878,26 +6201,28 @@
       "block.fbms.neon_stage_lights_orange": "Neon Stage Light (Orange)",
       "block.fbms.ceiling_stage_light_orange": "Ceiling Stage Light (Orange)",
       "subtitles.channelchange": "Channel Change",
-      "block.fbms.tv_marcelo": "Tv (Marcelo)",
+      "block.fbms.tv_marcelo": "TV Monitor (MarceloGToonz)",
       "block.fbms.puppet_box": "Puppet Box",
       "block.fbms.black_white_confetti_tiles": "Black White Confetti Tiles",
       "block.fbms.doge_ram_block": "DogeRam Block",
+      "block.fbms.basic_stage_block_stairs": "Stage Block Stairs",
       "block.fbms.old_foxy": "Old Foxy",
       "block.fbms.star_arch": "Star Arch",
       "block.fbms.station_wagon_block": "Station Wagon Block",
       "block.fbms.ceiling_stage_lightblue": "Ceiling Stage Light (Blue)",
       "block.fbms.orville_animated": "Orville Animated",
+      "block.fbms.tv_scream": "TV Monitor (Scream)",
       "item.fbms.impala_spawn_egg": "Purple Chevrolet Impala Spawn Egg",
       "block.fbms.enhanced_speaker_set": "Enhanced Speaker Set",
       "block.fbms.coins_100": "Coins 100",
       "block.fbms.r_chica_poster": "Rockstar Chica Poster",
       "block.fbms.ft_foxy": "FunTime Foxy",
       "block.fbms.broken_freddy": "Broken Freddy",
+      "block.fbms.scrap_stage_block_slab": "Scrap Stage Block Slab",
       "block.fbms.neon_stage_light_green": "Neon Stage Light (Green)",
       "block.fbms.st_endo": "ST-Endo95",
       "block.fbms.foxy": "Foxy",
       "block.fbms.balloon_barrel": "Balloon Barrel",
-      "block.fbms.tv_flos": "Tv (Flos)",
       "item.fbms.d_foxy_spawn_egg": "D Foxy WIP Spawn Egg",
       "block.fbms.lefty": "Lefty",
       "block.fbms.toy_freddy": "Toy Freddy",
@@ -5913,21 +6238,21 @@
       "block.fbms.impala_block": "Impala Block",
       "block.fbms.scrap_trap": "Scrap Trap",
       "block.fbms.lefty_poster": "Lefty Poster",
+      "block.fbms.tv_peppers_pickled_popcorn": "TV Monitor (Pepper\u0027s Pickled Popcorn)",
       "item.fbms.seat_spawn_egg": "Seat Spawn Egg",
-      "block.fbms.tv_news": "Tv (News)",
+      "block.fbms.tv_news": "TV Monitor (News)",
       "block.fbms.midnight_motorist": "Midnight Motorist ",
+      "block.fbms.basic_stage_block_slab": "Stage Block Slab",
       "block.fbms.ladder_tower": "Ladder Tower",
       "item.fbms.ad": "Ad",
       "item.fbms.cup_fiztime_1": "Fiztime Pop Cup",
       "item.fbms.cup_fiztime_2": "Fiztime Pop Cup (Alt)",
-      "block.fbms.tv_lolbit": "Tv (Lolbit)",
       "subtitles.doorclank": "Door Clank",
       "entity.fbms.d_bonnie": "D Bonnie WIP",
       "block.fbms.moldy_rabbit": "Moldy Spring Bonnie Cutout",
       "block.fbms.rbonnie_poster": "Rockstar Bonnie Poster",
       "entity.fbms.doge_ram": "Doge Ram 1982",
       "block.fbms.frights_sign": "Frights Sign (ON)",
-      "block.fbms.tv_lally": "Tv (Lally)",
       "block.fbms.bucket_bob": "Bucket Bob",
       "item.fbms.accordion": "Accordion",
       "item.fbms.banjo": "Banjo",
@@ -5940,16 +6265,22 @@
       "block.fbms.rock_star_bonnie": "Rockstar Bonnie",
       "block.fbms.neon_party_set_2": "Neon Party Set 2",
       "block.fbms.endo_02": "Endo02",
-      "block.fbms.tv_fiz_time": "Tv (FizTime)",
       "block.fbms.heavy_duity_door_closed": "Heavy Duity Door (Closed)",
       "block.fbms.endo_01": "Endo 01",
       "entity.fbms.impala": "Purple Chevrolet Impala",
       "block.fbms.gravity_vortex": "Gravity Vortex (Animated)",
-      "block.fbms.tv_doug": "Tv (Doug)",
       "block.fbms.black_white_clean_tile_stairs": "Black White Clean Tile Stairs",
+      "block.fbms.tv_doug": "TV Monitor (Doug Dimmadome)",
+      "block.fbms.monitor_scai_3": "Monitor (Scai: Bathroom)",
+      "block.fbms.monitor_scai_4": "Monitor (Scai: Hallway)",
       "entity.fbms.seat": "Seat",
+      "block.fbms.monitor_scai_5": "Monitor (Scai: Kitchen)",
+      "block.fbms.monitor_scai_6": "Monitor (Scai: Parts And Service)",
       "block.fbms.rusty_animated": "Rusty Animated",
+      "block.fbms.monitor_scai_1": "Monitor (Scai: Arcade)",
       "block.fbms.coins_25": "Coins 25",
+      "block.fbms.tv_lallies_lollies": "TV Monitor (Lallies Lollies)",
+      "block.fbms.monitor_scai_2": "Monitor (Scai: Basic Room)",
       "block.fbms.mr_hippo_animated": "Mr Hippo Animated",
       "block.fbms.puffy_puffins_animated": "Puffy Puffins (Animated)",
       "block.fbms.black_white_clean_tiles": "Black White Clean Tiles",
@@ -5960,6 +6291,9 @@
       "block.fbms.rock_star_foxy_animated": "Rockstar Foxy Animated",
       "block.fbms.broken_chica": "Broken Chica",
       "block.fbms.ignited_chica": "Ignited Chica",
+      "block.fbms.tv_killer_klowns": "TV Monitor (Killer Klowns)",
+      "block.fbms.monitor_scai_7": "Monitor (Scai: Prize Corner)",
+      "block.fbms.monitor_scai_8": "Monitor (Scai: Security Office)",
       "block.fbms.mr_can_do": "Mr Can Do",
       "subtitles.tink": "Tink",
       "itemGroup.tabcars": "Cars",
@@ -5977,19 +6311,23 @@
       "block.fbms.paper_pal_clown": "Papper Pal Clown",
       "block.fbms.neon_juke_box": "Neon Juke Box",
       "block.fbms.withered_hazy_reindeer": "Withered Hazy Reindeer",
+      "block.fbms.tv_freddy_and_friends": "TV Monitor (Freddy And Friends)",
       "block.fbms.pig_patch_animated": "Pigpatch Animated",
+      "block.fbms.monitor_bluescreen": "Monitor (Bluescreen)",
+      "block.fbms.tv_heman": "TV Monitor (He-Man)",
       "block.fbms.monitor_lolbit": "Monitor (Lolbit)",
+      "block.fbms.monitor_work": "Monitor (Work)",
       "block.fbms.pizza_place_sign_old": "Pizza Place Sign (Old)",
       "block.fbms.security_puppet": "Security Puppet",
       "block.fbms.toy_bonnie": "Toy Bonnie",
       "block.fbms.wally_walrus_animated": "Wally Walrus (Animated)",
+      "block.fbms.tv_jaws": "TV Monitor (Jaws)",
       "block.fbms.papper_pal_orvil": "Papper Pal Orvile ",
       "block.fbms.shred_bear": "Shred Bear",
       "block.fbms.mr_hugs": "Mr Hugs",
       "block.fbms.pig_patch": "Pigpatch",
       "block.fbms.doug_the_dog": "Doug The Dog",
       "block.fbms.lol_bit_409": "Lolbit 409 ",
-      "block.fbms.tv_pop_corn": "Tv (PopCorn)",
       "item.fbms.toy_mic": "Toy Mic",
       "block.fbms.sanitation_station": "Sanitation Station",
       "entity.fbms.d_freddy": "D Freddy WIP",

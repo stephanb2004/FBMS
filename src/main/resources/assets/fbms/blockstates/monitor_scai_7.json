@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:block/monitor_scai_7"
+    },
+    "facing=east": {
+      "model": "fbms:block/monitor_scai_7",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:block/monitor_scai_7",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:block/monitor_scai_7",
+      "y": 270
+    }
+  }
+}

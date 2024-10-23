@@ -1,9 +1,0 @@
-{
-  "parent": "fbms:custom/lonemonitor",
-  "textures": {
-    "all": "fbms:blocks/fiztime",
-    "particle": "fbms:blocks/fiztime",
-    "0": "fbms:blocks/fiztime"
-  },
-  "render_type": "cutout"
-}

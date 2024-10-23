@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:block/monitor_work"
+    },
+    "facing=east": {
+      "model": "fbms:block/monitor_work",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:block/monitor_work",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:block/monitor_work",
+      "y": 270
+    }
+  }
+}

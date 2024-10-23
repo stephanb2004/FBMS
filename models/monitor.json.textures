@@ -1,0 +1,190 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "m_off"
+      },
+      "name": "default"
+    },
+    "mtv_fiztimepopsoda": {
+      "map": {
+        "0": "mtv_fiztimepopsoda"
+      },
+      "name": "mtv_fiztimepopsoda"
+    },
+    "mtv_off": {
+      "map": {
+        "0": "mtv_off"
+      },
+      "name": "mtv_off"
+    },
+    "mtv_flosglossyfloss": {
+      "map": {
+        "0": "mtv_flosglossyfloss"
+      },
+      "name": "mtv_flosglossyfloss"
+    },
+    "mtv_freddyandfriends": {
+      "map": {
+        "0": "mtv_freddyandfriends"
+      },
+      "name": "mtv_freddyandfriends"
+    },
+    "mtv_garfieldshow": {
+      "map": {
+        "0": "mtv_garfieldshow"
+      },
+      "name": "mtv_garfieldshow"
+    },
+    "mtv_iatr": {
+      "map": {
+        "0": "mtv_iatr"
+      },
+      "name": "mtv_iatr"
+    },
+    "mtv_lallieslollies": {
+      "map": {
+        "0": "mtv_lallieslollies"
+      },
+      "name": "mtv_lallieslollies"
+    },
+    "mtv_martysplungers": {
+      "map": {
+        "0": "mtv_martiesplungers"
+      },
+      "name": "mtv_martysplungers"
+    },
+    "mtv_news": {
+      "map": {
+        "0": "mtv_news"
+      },
+      "name": "mtv_news"
+    },
+    "mtv_pepperspickledpopcorn": {
+      "map": {
+        "0": "mtv_pepperspickledpopcorn"
+      },
+      "name": "mtv_pepperspickledpopcorn"
+    },
+    "mtv_wackywartpaste": {
+      "map": {
+        "0": "mtv_wackywartpaste"
+      },
+      "name": "mtv_wackywartpaste"
+    },
+    "mtv_marcelo": {
+      "map": {
+        "0": "mtv_marcelogtoonz"
+      },
+      "name": "mtv_marcelo"
+    },
+    "mtv_doug": {
+      "map": {
+        "0": "mtv_dougdimmadome"
+      },
+      "name": "mtv_doug"
+    },
+    "m_off": {
+      "map": {
+        "0": "m_off"
+      },
+      "name": "m_off"
+    },
+    "m_lolbit": {
+      "map": {
+        "0": "m_lolbit"
+      },
+      "name": "m_lolbit"
+    },
+    "m_stephan": {
+      "map": {
+        "0": "m_stephan"
+      },
+      "name": "m_stephan"
+    },
+    "m_work": {
+      "map": {
+        "0": "m_monitor"
+      },
+      "name": "m_work"
+    },
+    "m_bluescreen": {
+      "map": {
+        "0": "m_bluescreen"
+      },
+      "name": "m_bluescreen"
+    },
+    "m_scai_arcade": {
+      "map": {
+        "0": "m_scai_arcade"
+      },
+      "name": "m_scai_arcade"
+    },
+    "m_scai_basicroom": {
+      "map": {
+        "0": "m_scai_basicroom"
+      },
+      "name": "m_scai_basicroom"
+    },
+    "m_scai_bathroom": {
+      "map": {
+        "0": "m_scai_bathroom"
+      },
+      "name": "m_scai_bathroom"
+    },
+    "m_scai_hallway": {
+      "map": {
+        "0": "m_scai_hallway"
+      },
+      "name": "m_scai_hallway"
+    },
+    "m_scai_kitchen": {
+      "map": {
+        "0": "m_scai_kitchen"
+      },
+      "name": "m_scai_kitchen"
+    },
+    "m_scai_partsandservice": {
+      "map": {
+        "0": "m_scai_partsandservice"
+      },
+      "name": "m_scai_partsandservice"
+    },
+    "m_scai_prizecorner": {
+      "map": {
+        "0": "m_scai_prizecorner"
+      },
+      "name": "m_scai_prizecorner"
+    },
+    "m_scai_securityoffice": {
+      "map": {
+        "0": "m_scai_securityoffice"
+      },
+      "name": "m_scai_securityoffice"
+    },
+    "mtv_scream": {
+      "map": {
+        "0": "mtv_scream"
+      },
+      "name": "mtv_scream"
+    },
+    "mtv_jaws": {
+      "map": {
+        "0": "mtv_jaws"
+      },
+      "name": "mtv_jaws"
+    },
+    "mtv_killerklowns": {
+      "map": {
+        "0": "mtv_killerklowns"
+      },
+      "name": "mtv_killerklowns"
+    },
+    "mtv_heman": {
+      "map": {
+        "0": "mtv_heman"
+      },
+      "name": "mtv_heman"
+    }
+  }
+}

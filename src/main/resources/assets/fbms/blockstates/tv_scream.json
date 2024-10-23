@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:block/tv_scream"
+    },
+    "facing=east": {
+      "model": "fbms:block/tv_scream",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:block/tv_scream",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:block/tv_scream",
+      "y": 270
+    }
+  }
+}

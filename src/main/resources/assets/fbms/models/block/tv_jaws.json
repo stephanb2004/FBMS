@@ -1,0 +1,9 @@
+{
+  "parent": "fbms:custom/monitor",
+  "textures": {
+    "all": "fbms:blocks/mtv_jaws",
+    "particle": "fbms:blocks/mtv_jaws",
+    "0": "fbms:blocks/mtv_jaws"
+  },
+  "render_type": "cutout"
+}

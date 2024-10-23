@@ -46,46 +46,55 @@
     ],
     "blocks": [
       {
-        "value": "CUSTOM:Tv"
+        "value": "CUSTOM:TVOff"
       },
       {
-        "value": "CUSTOM:TvDoug"
+        "value": "CUSTOM:TVFiztimePopSoda"
       },
       {
-        "value": "CUSTOM:TvMarcelo"
+        "value": "CUSTOM:TVFlosGlossyFloss"
       },
       {
-        "value": "CUSTOM:TvOff"
+        "value": "CUSTOM:TVFreddyAndFriends"
       },
       {
-        "value": "CUSTOM:TvFizTime"
+        "value": "CUSTOM:TVGarfieldShow"
       },
       {
-        "value": "CUSTOM:TvMarty"
+        "value": "CUSTOM:TVIatr"
       },
       {
-        "value": "CUSTOM:TvFlos"
+        "value": "CUSTOM:TVLalliesLollies"
       },
       {
-        "value": "CUSTOM:TvWartPaste"
+        "value": "CUSTOM:TVMartiesPlungers"
       },
       {
-        "value": "CUSTOM:TvLally"
+        "value": "CUSTOM:TVNews"
       },
       {
-        "value": "CUSTOM:TvPopCorn"
+        "value": "CUSTOM:TVPeppersPickledPopcorn"
       },
       {
-        "value": "CUSTOM:TvFreddyNFren"
+        "value": "CUSTOM:TVWackyWartPaste"
       },
       {
-        "value": "CUSTOM:TvIATR"
+        "value": "CUSTOM:TVMarcelo"
       },
       {
-        "value": "CUSTOM:TvNews"
+        "value": "CUSTOM:TVDoug"
       },
       {
-        "value": "CUSTOM:TvLolbit"
+        "value": "CUSTOM:TVScream"
+      },
+      {
+        "value": "CUSTOM:TVJaws"
+      },
+      {
+        "value": "CUSTOM:TVKillerKlowns"
+      },
+      {
+        "value": "CUSTOM:TVHeman"
       }
     ],
     "functions": [],

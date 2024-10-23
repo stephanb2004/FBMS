@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:block/tv_peppers_pickled_popcorn"
+    },
+    "facing=east": {
+      "model": "fbms:block/tv_peppers_pickled_popcorn",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:block/tv_peppers_pickled_popcorn",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:block/tv_peppers_pickled_popcorn",
+      "y": 270
+    }
+  }
+}

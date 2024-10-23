@@ -1,9 +1,0 @@
-{
-  "parent": "fbms:custom/monitors",
-  "textures": {
-    "all": "fbms:blocks/lolbit_monitors",
-    "particle": "fbms:blocks/lolbit_monitors",
-    "0": "fbms:blocks/lolbit_monitors"
-  },
-  "render_type": "cutout"
-}

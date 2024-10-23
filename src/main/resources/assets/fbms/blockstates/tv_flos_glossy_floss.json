@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:block/tv_flos_glossy_floss"
+    },
+    "facing=east": {
+      "model": "fbms:block/tv_flos_glossy_floss",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:block/tv_flos_glossy_floss",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:block/tv_flos_glossy_floss",
+      "y": 270
+    }
+  }
+}

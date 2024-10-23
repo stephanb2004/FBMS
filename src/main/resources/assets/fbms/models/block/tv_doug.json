@@ -1,9 +1,9 @@
 {
-  "parent": "fbms:custom/lonemonitor",
+  "parent": "fbms:custom/monitor",
   "textures": {
-    "all": "fbms:blocks/doug",
-    "particle": "fbms:blocks/doug",
-    "0": "fbms:blocks/doug"
+    "all": "fbms:blocks/mtv_dougdimmadome",
+    "particle": "fbms:blocks/mtv_dougdimmadome",
+    "0": "fbms:blocks/mtv_dougdimmadome"
   },
   "render_type": "cutout"
 }

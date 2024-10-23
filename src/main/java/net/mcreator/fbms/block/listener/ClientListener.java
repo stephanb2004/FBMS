@@ -26,6 +26,7 @@ import net.mcreator.fbms.block.renderer.StEndoAnimatedTileRenderer;
 import net.mcreator.fbms.block.renderer.SignSNSTileRenderer;
 import net.mcreator.fbms.block.renderer.SignSBTTileRenderer;
 import net.mcreator.fbms.block.renderer.SignRFATileRenderer;
+import net.mcreator.fbms.block.renderer.SignMSTileRenderer;
 import net.mcreator.fbms.block.renderer.SignDDWTileRenderer;
 import net.mcreator.fbms.block.renderer.ShredBearTileRenderer;
 import net.mcreator.fbms.block.renderer.SecurityPuppetTileRenderer;
@@ -368,5 +369,6 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.HEAVY_DUITY_DOOR_CLOSED.get(), HeavyDuityDoorClosedTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.RETRO_CHICA_ANIMATED.get(), RetroChicaAnimatedTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.JOLLY_THE_RAT_ANIMATED.get(), JollyTheRatAnimatedTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.SIGN_MS.get(), SignMSTileRenderer::new);
 	}
 }

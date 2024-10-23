@@ -1,9 +1,0 @@
-{
-  "parent": "fbms:custom/lonemonitor",
-  "textures": {
-    "all": "fbms:blocks/garf",
-    "particle": "fbms:blocks/garf",
-    "0": "fbms:blocks/garf"
-  },
-  "render_type": "cutout"
-}

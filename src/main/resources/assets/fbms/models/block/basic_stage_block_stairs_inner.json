@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "fbms:blocks/stagebase",
+    "top": "fbms:blocks/stagebase",
+    "side": "fbms:blocks/stagebase"
+  },
+  "render_type": "cutout_mipped"
+}

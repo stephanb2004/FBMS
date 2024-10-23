@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:block/tv_fiztime_pop_soda"
+    },
+    "facing=east": {
+      "model": "fbms:block/tv_fiztime_pop_soda",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:block/tv_fiztime_pop_soda",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:block/tv_fiztime_pop_soda",
+      "y": 270
+    }
+  }
+}

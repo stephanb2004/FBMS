@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:block/tv_wacky_wart_paste"
+    },
+    "facing=east": {
+      "model": "fbms:block/tv_wacky_wart_paste",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:block/tv_wacky_wart_paste",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:block/tv_wacky_wart_paste",
+      "y": 270
+    }
+  }
+}
