@@ -5248,11 +5248,12 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fbms/models/block/chica_o_lantern.json",
-          "src/main/resources/assets/fbms/blockstates/chica_o_lantern.json",
           "src/main/java/net/mcreator/fbms/block/ChicaOLanternBlock.java",
-          "src/main/resources/assets/fbms/models/item/chica_o_lantern.json"
+          "src/main/resources/assets/fbms/models/item/chica_o_lantern.json",
+          "src/main/resources/assets/fbms/blockstates/chica_o_lantern.json"
         ]
-      }
+      },
+      "path": "~/Blocks/Building"
     },
     {
       "name": "JollyTheRat",
@@ -5977,6 +5978,436 @@
         ]
       },
       "path": "~/Blocks/Props/Signs"
+    },
+    {
+      "name": "BlackWhiteTiles",
+      "type": "block",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_white_tiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/BlackWhiteTilesBlock.java",
+          "src/main/resources/assets/fbms/models/item/black_white_tiles.json",
+          "src/main/resources/assets/fbms/models/block/black_white_tiles.json",
+          "src/main/resources/assets/fbms/blockstates/black_white_tiles.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "FMSBlocks",
+      "type": "tab",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fms_blocks",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tabs"
+    },
+    {
+      "name": "BlackRedTiles",
+      "type": "block",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_red_tiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/BlackRedTilesBlock.java",
+          "src/main/resources/assets/fbms/models/item/black_red_tiles.json",
+          "src/main/resources/assets/fbms/blockstates/black_red_tiles.json",
+          "src/main/resources/assets/fbms/models/block/black_red_tiles.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "BlueWhiteTiles",
+      "type": "block",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_white_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/block/blue_white_tiles.json",
+          "src/main/java/net/mcreator/fbms/block/BlueWhiteTilesBlock.java",
+          "src/main/resources/assets/fbms/models/item/blue_white_tiles.json",
+          "src/main/resources/assets/fbms/blockstates/blue_white_tiles.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "FullWhiteTiles",
+      "type": "block",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "full_white_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/full_white_tiles.json",
+          "src/main/resources/assets/fbms/models/block/full_white_tiles.json",
+          "src/main/java/net/mcreator/fbms/block/FullWhiteTilesBlock.java",
+          "src/main/resources/assets/fbms/blockstates/full_white_tiles.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "RedWhiteTiles",
+      "type": "block",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_white_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/red_white_tiles.json",
+          "src/main/java/net/mcreator/fbms/block/RedWhiteTilesBlock.java",
+          "src/main/resources/assets/fbms/blockstates/red_white_tiles.json",
+          "src/main/resources/assets/fbms/models/block/red_white_tiles.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "FullBlackTiles",
+      "type": "block",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "full_black_tiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/FullBlackTilesBlock.java",
+          "src/main/resources/assets/fbms/blockstates/full_black_tiles.json",
+          "src/main/resources/assets/fbms/models/item/full_black_tiles.json",
+          "src/main/resources/assets/fbms/models/block/full_black_tiles.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "BlackBlueTiles",
+      "type": "block",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_blue_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/black_blue_tiles.json",
+          "src/main/java/net/mcreator/fbms/block/BlackBlueTilesBlock.java",
+          "src/main/resources/assets/fbms/blockstates/black_blue_tiles.json",
+          "src/main/resources/assets/fbms/models/block/black_blue_tiles.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "RedBlueTiles",
+      "type": "block",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_blue_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/block/red_blue_tiles.json",
+          "src/main/java/net/mcreator/fbms/block/RedBlueTilesBlock.java",
+          "src/main/resources/assets/fbms/models/item/red_blue_tiles.json",
+          "src/main/resources/assets/fbms/blockstates/red_blue_tiles.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "BlackWhiteTilesSlab",
+      "type": "block",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_white_tiles_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/block/black_white_tiles_slab_full.json",
+          "src/main/resources/assets/fbms/models/block/black_white_tiles_slab_top.json",
+          "src/main/java/net/mcreator/fbms/block/BlackWhiteTilesSlabBlock.java",
+          "src/main/resources/assets/fbms/blockstates/black_white_tiles_slab.json",
+          "src/main/resources/assets/fbms/models/block/black_white_tiles_slab.json",
+          "src/main/resources/assets/fbms/models/item/black_white_tiles_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "BlackRedTilesSlab",
+      "type": "block",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_red_tiles_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/block/black_red_tiles_slab_top.json",
+          "src/main/java/net/mcreator/fbms/block/BlackRedTilesSlabBlock.java",
+          "src/main/resources/assets/fbms/models/block/black_red_tiles_slab_full.json",
+          "src/main/resources/assets/fbms/blockstates/black_red_tiles_slab.json",
+          "src/main/resources/assets/fbms/models/item/black_red_tiles_slab.json",
+          "src/main/resources/assets/fbms/models/block/black_red_tiles_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "BlueWhiteTilesSlab",
+      "type": "block",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_white_tiles_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/block/blue_white_tiles_slab_full.json",
+          "src/main/resources/assets/fbms/blockstates/blue_white_tiles_slab.json",
+          "src/main/resources/assets/fbms/models/block/blue_white_tiles_slab.json",
+          "src/main/resources/assets/fbms/models/item/blue_white_tiles_slab.json",
+          "src/main/resources/assets/fbms/models/block/blue_white_tiles_slab_top.json",
+          "src/main/java/net/mcreator/fbms/block/BlueWhiteTilesSlabBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "FullWhiteTilesSlab",
+      "type": "block",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "full_white_tiles_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/block/full_white_tiles_slab_full.json",
+          "src/main/resources/assets/fbms/models/block/full_white_tiles_slab_top.json",
+          "src/main/java/net/mcreator/fbms/block/FullWhiteTilesSlabBlock.java",
+          "src/main/resources/assets/fbms/blockstates/full_white_tiles_slab.json",
+          "src/main/resources/assets/fbms/models/block/full_white_tiles_slab.json",
+          "src/main/resources/assets/fbms/models/item/full_white_tiles_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "RedWhiteTilesSlab",
+      "type": "block",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_white_tiles_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/RedWhiteTilesSlabBlock.java",
+          "src/main/resources/assets/fbms/models/block/red_white_tiles_slab_top.json",
+          "src/main/resources/assets/fbms/models/block/red_white_tiles_slab_full.json",
+          "src/main/resources/assets/fbms/models/block/red_white_tiles_slab.json",
+          "src/main/resources/assets/fbms/blockstates/red_white_tiles_slab.json",
+          "src/main/resources/assets/fbms/models/item/red_white_tiles_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "FullBlackTilesSlab",
+      "type": "block",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "full_black_tiles_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/FullBlackTilesSlabBlock.java",
+          "src/main/resources/assets/fbms/models/item/full_black_tiles_slab.json",
+          "src/main/resources/assets/fbms/models/block/full_black_tiles_slab_full.json",
+          "src/main/resources/assets/fbms/blockstates/full_black_tiles_slab.json",
+          "src/main/resources/assets/fbms/models/block/full_black_tiles_slab.json",
+          "src/main/resources/assets/fbms/models/block/full_black_tiles_slab_top.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "BlackBlueTilesSlab",
+      "type": "block",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_blue_tiles_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/black_blue_tiles_slab.json",
+          "src/main/java/net/mcreator/fbms/block/BlackBlueTilesSlabBlock.java",
+          "src/main/resources/assets/fbms/models/block/black_blue_tiles_slab.json",
+          "src/main/resources/assets/fbms/models/block/black_blue_tiles_slab_top.json",
+          "src/main/resources/assets/fbms/blockstates/black_blue_tiles_slab.json",
+          "src/main/resources/assets/fbms/models/block/black_blue_tiles_slab_full.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "RedBlueTilesSlab",
+      "type": "block",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_blue_tiles_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/block/red_blue_tiles_slab_top.json",
+          "src/main/resources/assets/fbms/models/item/red_blue_tiles_slab.json",
+          "src/main/resources/assets/fbms/models/block/red_blue_tiles_slab.json",
+          "src/main/resources/assets/fbms/blockstates/red_blue_tiles_slab.json",
+          "src/main/java/net/mcreator/fbms/block/RedBlueTilesSlabBlock.java",
+          "src/main/resources/assets/fbms/models/block/red_blue_tiles_slab_full.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "BlackWhiteTilesStairs",
+      "type": "block",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_white_tiles_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/black_white_tiles_stairs.json",
+          "src/main/resources/assets/fbms/blockstates/black_white_tiles_stairs.json",
+          "src/main/resources/assets/fbms/models/block/black_white_tiles_stairs_outer.json",
+          "src/main/java/net/mcreator/fbms/block/BlackWhiteTilesStairsBlock.java",
+          "src/main/resources/assets/fbms/models/block/black_white_tiles_stairs.json",
+          "src/main/resources/assets/fbms/models/block/black_white_tiles_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "BlackRedTilesStairs",
+      "type": "block",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_red_tiles_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/black_red_tiles_stairs.json",
+          "src/main/resources/assets/fbms/models/block/black_red_tiles_stairs.json",
+          "src/main/resources/assets/fbms/models/block/black_red_tiles_stairs_inner.json",
+          "src/main/resources/assets/fbms/models/block/black_red_tiles_stairs_outer.json",
+          "src/main/java/net/mcreator/fbms/block/BlackRedTilesStairsBlock.java",
+          "src/main/resources/assets/fbms/blockstates/black_red_tiles_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "BlueWhiteTilesStairs",
+      "type": "block",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_white_tiles_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/BlueWhiteTilesStairsBlock.java",
+          "src/main/resources/assets/fbms/models/block/blue_white_tiles_stairs.json",
+          "src/main/resources/assets/fbms/models/block/blue_white_tiles_stairs_inner.json",
+          "src/main/resources/assets/fbms/models/item/blue_white_tiles_stairs.json",
+          "src/main/resources/assets/fbms/blockstates/blue_white_tiles_stairs.json",
+          "src/main/resources/assets/fbms/models/block/blue_white_tiles_stairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "FullWhiteTilesStairs",
+      "type": "block",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "full_white_tiles_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/block/full_white_tiles_stairs_outer.json",
+          "src/main/resources/assets/fbms/models/item/full_white_tiles_stairs.json",
+          "src/main/resources/assets/fbms/blockstates/full_white_tiles_stairs.json",
+          "src/main/resources/assets/fbms/models/block/full_white_tiles_stairs.json",
+          "src/main/resources/assets/fbms/models/block/full_white_tiles_stairs_inner.json",
+          "src/main/java/net/mcreator/fbms/block/FullWhiteTilesStairsBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "RedWhiteTilesStairs",
+      "type": "block",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_white_tiles_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/red_white_tiles_stairs.json",
+          "src/main/resources/assets/fbms/models/block/red_white_tiles_stairs_inner.json",
+          "src/main/java/net/mcreator/fbms/block/RedWhiteTilesStairsBlock.java",
+          "src/main/resources/assets/fbms/blockstates/red_white_tiles_stairs.json",
+          "src/main/resources/assets/fbms/models/block/red_white_tiles_stairs.json",
+          "src/main/resources/assets/fbms/models/block/red_white_tiles_stairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "FullBlackTilesStairs",
+      "type": "block",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "full_black_tiles_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/full_black_tiles_stairs.json",
+          "src/main/resources/assets/fbms/models/block/full_black_tiles_stairs.json",
+          "src/main/resources/assets/fbms/models/block/full_black_tiles_stairs_inner.json",
+          "src/main/resources/assets/fbms/blockstates/full_black_tiles_stairs.json",
+          "src/main/resources/assets/fbms/models/block/full_black_tiles_stairs_outer.json",
+          "src/main/java/net/mcreator/fbms/block/FullBlackTilesStairsBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "BlackBlueTilesStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_blue_tiles_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/black_blue_tiles_stairs.json",
+          "src/main/resources/assets/fbms/blockstates/black_blue_tiles_stairs.json",
+          "src/main/resources/assets/fbms/models/block/black_blue_tiles_stairs.json",
+          "src/main/java/net/mcreator/fbms/block/BlackBlueTilesStairsBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Building"
     }
   ],
   "variable_elements": [],
@@ -6061,19 +6492,23 @@
       "block.fbms.doc_plush": "Doc Plush",
       "block.fbms.red_stage_block": "Red Stage Block",
       "block.fbms.lol_bit": "Lolbit",
-      "block.fbms.funtime_delilah": "Funtime Delilah Animated",
       "block.fbms.large_sign": "Large Sign",
+      "block.fbms.funtime_delilah": "Funtime Delilah Animated",
       "block.fbms.rock_star_bonnie_animated": "Rockstar Bonnie Animated",
       "block.fbms.balloon_boy": "Balloon Boy",
       "block.fbms.scrap_stage_block_stairs": "Scrap Stage Block Stairs",
+      "block.fbms.full_black_tiles": "Full Black Tiles",
       "block.fbms.black_white_clean_tile_slab": "Black White Clean Tile Slab",
+      "block.fbms.black_blue_tiles": "Black Blue Tiles",
       "block.fbms.tv_garfield_show": "TV Monitor (Garfield Show)",
       "block.fbms.el_chip": "El Chip",
       "block.fbms.funtime_delilahblock": "Funtime Delilah",
+      "block.fbms.red_white_tiles_slab": "Red White Tiles Slab",
       "item.fbms.d_freddy_spawn_egg": "D Freddy WIP Spawn Egg",
       "block.fbms.rosey": "Rosie",
       "block.fbms.barry_polar_animated": "Barry Polar Animated",
       "block.fbms.pan_stan": "Pan Stan",
+      "block.fbms.black_red_tiles_stairs": "Black Red Tiles Stairs ",
       "block.fbms.molten_sit": "Molten Freddy (Sit)",
       "block.fbms.coin": "Coin",
       "block.fbms.toy_foxy": "Toy Foxy",
@@ -6085,6 +6520,7 @@
       "block.fbms.sign_sbt": "Shop Sign (Stan\u0027s Budget Tech)",
       "block.fbms.music_man_animated": "Music Man Animated",
       "block.fbms.withered_wally_walrus": "Withered Wally Walrus",
+      "block.fbms.full_white_tiles_stairs": "Full White Tiles Stairs ",
       "block.fbms.old_chica": "Old Chica",
       "block.fbms.molten_freddy": "Molten Freddy",
       "block.fbms.freddy_faz_bear": "Freddy Fazbear",
@@ -6093,6 +6529,7 @@
       "block.fbms.lemonade_clown": "Lemonade Clown",
       "block.fbms.funtime_chica_animated": "Funtime Chica Animated",
       "block.fbms.paper_plates": "Paper Cups and Plates",
+      "block.fbms.red_white_tiles": "Red White Tiles",
       "block.fbms.pin_the_bowtie_on_the_freddy": "Pin The Bowtie On The Freddy",
       "block.fbms.retro_chica_animated": "Retro Chica (Animated)",
       "block.fbms.barry_polar_fixed": "Barry Polar Fixed",
@@ -6108,14 +6545,18 @@
       "block.fbms.endo_01_animated": "Endo 0 1 Animated",
       "block.fbms.scrap_stage_block": "Scrap Stage Block",
       "block.fbms.jeffs_pizza_sign": "Jeff\u0027s Pizza Sign",
+      "block.fbms.full_black_tiles_stairs": "Full Black Tiles Stairs ",
+      "block.fbms.blue_white_tiles_stairs": "Blue White Tiles Stairs",
       "block.fbms.happy_frog": "Happy Frog",
       "block.fbms.dolls": "DocNDt Dolls",
+      "block.fbms.red_blue_tiles": "Red Blue Tiles",
       "item.fbms.mandolin": "Mandolin",
       "block.fbms.chica_o_lantern": "Chica O\u0027 Lantern",
       "block.fbms.coins_5": "Coins 5",
       "block.fbms.monitor_off": "Monitor (Off)",
       "block.fbms.riding_rockets_red": "Riding Rockets",
       "block.fbms.puffy_puffins": "Puffy Puffins",
+      "itemGroup.tabfms_blocks": "FMS Blocks",
       "block.fbms.sign_ms": "Shop Sign (Molten\u0027s Store)",
       "block.fbms.happ_y_frog_animated": "Happy Frog Animated",
       "block.fbms.prize_king": "Prize King",
@@ -6161,6 +6602,7 @@
       "block.fbms.novelty_traffic_light": "Novelty Traffic Light",
       "block.fbms.sign_sns": "Shop Sign (Smiles And Servos Inc.)",
       "block.fbms.black_white_confetti_tile_slab": "Black White Confetti Tile Slab",
+      "block.fbms.black_white_tiles": "Black White Tiles",
       "block.fbms.broken_bonnie": "Broken Bonnie",
       "block.fbms.frights_sign_2": "Frights Sign (OFF)",
       "block.fbms.pickles": "Pickles",
@@ -6179,6 +6621,7 @@
       "block.fbms.stephan_plush": "Stephan Plush",
       "block.fbms.rusty": "Rusty",
       "block.fbms.lefty_animated": "Lefty Animated",
+      "block.fbms.full_white_tiles": "Full White Tiles",
       "block.fbms.coins_10000": "Coins 10000",
       "block.fbms.jolly_the_rat": "Jolly The Rat",
       "block.fbms.bite_fred_bear_cutout": "Bite Fred Bear Cutout",
@@ -6204,6 +6647,7 @@
       "block.fbms.tv_marcelo": "TV Monitor (MarceloGToonz)",
       "block.fbms.puppet_box": "Puppet Box",
       "block.fbms.black_white_confetti_tiles": "Black White Confetti Tiles",
+      "block.fbms.red_blue_tiles_slab": "Red Blue Tiles Slab",
       "block.fbms.doge_ram_block": "DogeRam Block",
       "block.fbms.basic_stage_block_stairs": "Stage Block Stairs",
       "block.fbms.old_foxy": "Old Foxy",
@@ -6232,11 +6676,14 @@
       "block.fbms.duck_pond": "Duck Pond",
       "entity.fbms.d_mangle": "D Mangle WIP",
       "block.fbms.bonnie": "Bonnie",
+      "block.fbms.full_white_tiles_slab": "Full White Tiles Slab",
       "block.fbms.vessel": "VESSEL",
+      "block.fbms.red_white_tiles_stairs": "Red White Tiles Stairs ",
       "block.fbms.rock_star_foxy": "Rockstar Foxy",
       "item.fbms.remote": "Remote",
       "block.fbms.impala_block": "Impala Block",
       "block.fbms.scrap_trap": "Scrap Trap",
+      "block.fbms.blue_white_tiles": "Blue White Tiles",
       "block.fbms.lefty_poster": "Lefty Poster",
       "block.fbms.tv_peppers_pickled_popcorn": "TV Monitor (Pepper\u0027s Pickled Popcorn)",
       "item.fbms.seat_spawn_egg": "Seat Spawn Egg",
@@ -6252,6 +6699,7 @@
       "block.fbms.moldy_rabbit": "Moldy Spring Bonnie Cutout",
       "block.fbms.rbonnie_poster": "Rockstar Bonnie Poster",
       "entity.fbms.doge_ram": "Doge Ram 1982",
+      "block.fbms.black_blue_tiles_slab": "Black Blue Tiles Slab",
       "block.fbms.frights_sign": "Frights Sign (ON)",
       "block.fbms.bucket_bob": "Bucket Bob",
       "item.fbms.accordion": "Accordion",
@@ -6269,6 +6717,7 @@
       "block.fbms.endo_01": "Endo 01",
       "entity.fbms.impala": "Purple Chevrolet Impala",
       "block.fbms.gravity_vortex": "Gravity Vortex (Animated)",
+      "block.fbms.blue_white_tiles_slab": "Blue White Tiles Slab",
       "block.fbms.black_white_clean_tile_stairs": "Black White Clean Tile Stairs",
       "block.fbms.tv_doug": "TV Monitor (Doug Dimmadome)",
       "block.fbms.monitor_scai_3": "Monitor (Scai: Bathroom)",
@@ -6281,6 +6730,8 @@
       "block.fbms.coins_25": "Coins 25",
       "block.fbms.tv_lallies_lollies": "TV Monitor (Lallies Lollies)",
       "block.fbms.monitor_scai_2": "Monitor (Scai: Basic Room)",
+      "block.fbms.black_blue_tiles_stairs": "Black Blue Tiles",
+      "block.fbms.black_red_tiles": "Black Red Tiles",
       "block.fbms.mr_hippo_animated": "Mr Hippo Animated",
       "block.fbms.puffy_puffins_animated": "Puffy Puffins (Animated)",
       "block.fbms.black_white_clean_tiles": "Black White Clean Tiles",
@@ -6298,6 +6749,7 @@
       "subtitles.tink": "Tink",
       "itemGroup.tabcars": "Cars",
       "subtitles.doorslideopen": "Door Slide",
+      "block.fbms.black_white_tiles_slab": "Black White Tiles Slab",
       "block.fbms.el_chip_animated": "El Chip Animated",
       "block.fbms.pizza_place_sign": "Pizza Place Sign",
       "entity.fbms.dfredbear": "D Freddy WIP",
@@ -6318,6 +6770,7 @@
       "block.fbms.monitor_lolbit": "Monitor (Lolbit)",
       "block.fbms.monitor_work": "Monitor (Work)",
       "block.fbms.pizza_place_sign_old": "Pizza Place Sign (Old)",
+      "block.fbms.black_white_tiles_stairs": "Black White Tiles Stairs ",
       "block.fbms.security_puppet": "Security Puppet",
       "block.fbms.toy_bonnie": "Toy Bonnie",
       "block.fbms.wally_walrus_animated": "Wally Walrus (Animated)",
@@ -6326,12 +6779,14 @@
       "block.fbms.shred_bear": "Shred Bear",
       "block.fbms.mr_hugs": "Mr Hugs",
       "block.fbms.pig_patch": "Pigpatch",
+      "block.fbms.black_red_tiles_slab": "Black Red Tiles Slab",
       "block.fbms.doug_the_dog": "Doug The Dog",
       "block.fbms.lol_bit_409": "Lolbit 409 ",
       "item.fbms.toy_mic": "Toy Mic",
       "block.fbms.sanitation_station": "Sanitation Station",
       "entity.fbms.d_freddy": "D Freddy WIP",
       "block.fbms.old_freddy": "Old Freddy",
+      "block.fbms.full_black_tiles_slab": "Full Black Tiles Slab",
       "block.fbms.bonnet": "Bonnet"
     }
   },

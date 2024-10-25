@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "fbms:blocks/blackfloortiles",
+    "top": "fbms:blocks/blackfloortiles",
+    "side": "fbms:blocks/blackfloortiles"
+  },
+  "render_type": "solid"
+}

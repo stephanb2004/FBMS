@@ -15,6 +15,7 @@ public class FbmsModTabs {
 	public static CreativeModeTab TAB_PRIVATE_ROOM;
 	public static CreativeModeTab TAB_SHOP_BLOCKS;
 	public static CreativeModeTab TAB_PLUSH;
+	public static CreativeModeTab TAB_FMS_BLOCKS;
 
 	public static void load() {
 		TAB_FMS = new CreativeModeTab("tabfms") {
@@ -94,5 +95,16 @@ public class FbmsModTabs {
 				return false;
 			}
 		};
+		TAB_FMS_BLOCKS = new CreativeModeTab("tabfms_blocks") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(FbmsModBlocks.BLACK_WHITE_TILES.get());
+			}
+
+			@Override
+			public boolean hasSearchBar() {
+				return true;
+			}
+		}.setBackgroundSuffix("item_search.png");
 	}
 }

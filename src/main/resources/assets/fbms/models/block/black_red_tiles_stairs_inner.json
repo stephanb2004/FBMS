@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "fbms:blocks/redfloortiles",
+    "top": "fbms:blocks/redfloortiles",
+    "side": "fbms:blocks/redfloortiles"
+  },
+  "render_type": "solid"
+}

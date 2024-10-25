@@ -539,6 +539,29 @@ public class FbmsModItems {
 	public static final RegistryObject<Item> TV_KILLER_KLOWNS = block(FbmsModBlocks.TV_KILLER_KLOWNS, null);
 	public static final RegistryObject<Item> TV_HEMAN = block(FbmsModBlocks.TV_HEMAN, null);
 	public static final RegistryObject<Item> SIGN_MS = REGISTRY.register(FbmsModBlocks.SIGN_MS.getId().getPath(), () -> new SignMSDisplayItem(FbmsModBlocks.SIGN_MS.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> BLACK_WHITE_TILES = block(FbmsModBlocks.BLACK_WHITE_TILES, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> BLACK_RED_TILES = block(FbmsModBlocks.BLACK_RED_TILES, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> BLUE_WHITE_TILES = block(FbmsModBlocks.BLUE_WHITE_TILES, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> FULL_WHITE_TILES = block(FbmsModBlocks.FULL_WHITE_TILES, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> RED_WHITE_TILES = block(FbmsModBlocks.RED_WHITE_TILES, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> FULL_BLACK_TILES = block(FbmsModBlocks.FULL_BLACK_TILES, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> BLACK_BLUE_TILES = block(FbmsModBlocks.BLACK_BLUE_TILES, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> RED_BLUE_TILES = block(FbmsModBlocks.RED_BLUE_TILES, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> BLACK_WHITE_TILES_SLAB = block(FbmsModBlocks.BLACK_WHITE_TILES_SLAB, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> BLACK_RED_TILES_SLAB = block(FbmsModBlocks.BLACK_RED_TILES_SLAB, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> BLUE_WHITE_TILES_SLAB = block(FbmsModBlocks.BLUE_WHITE_TILES_SLAB, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> FULL_WHITE_TILES_SLAB = block(FbmsModBlocks.FULL_WHITE_TILES_SLAB, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> RED_WHITE_TILES_SLAB = block(FbmsModBlocks.RED_WHITE_TILES_SLAB, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> FULL_BLACK_TILES_SLAB = block(FbmsModBlocks.FULL_BLACK_TILES_SLAB, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> BLACK_BLUE_TILES_SLAB = block(FbmsModBlocks.BLACK_BLUE_TILES_SLAB, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> RED_BLUE_TILES_SLAB = block(FbmsModBlocks.RED_BLUE_TILES_SLAB, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> BLACK_WHITE_TILES_STAIRS = block(FbmsModBlocks.BLACK_WHITE_TILES_STAIRS, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> BLACK_RED_TILES_STAIRS = block(FbmsModBlocks.BLACK_RED_TILES_STAIRS, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> BLUE_WHITE_TILES_STAIRS = block(FbmsModBlocks.BLUE_WHITE_TILES_STAIRS, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> FULL_WHITE_TILES_STAIRS = block(FbmsModBlocks.FULL_WHITE_TILES_STAIRS, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> RED_WHITE_TILES_STAIRS = block(FbmsModBlocks.RED_WHITE_TILES_STAIRS, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> FULL_BLACK_TILES_STAIRS = block(FbmsModBlocks.FULL_BLACK_TILES_STAIRS, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> BLACK_BLUE_TILES_STAIRS = block(FbmsModBlocks.BLACK_BLUE_TILES_STAIRS, FbmsModTabs.TAB_FMS_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

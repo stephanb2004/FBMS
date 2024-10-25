@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fbms:blocks/redfloortiles",
+    "up": "fbms:blocks/redfloortiles",
+    "north": "fbms:blocks/redfloortiles",
+    "east": "fbms:blocks/redfloortiles",
+    "south": "fbms:blocks/redfloortiles",
+    "west": "fbms:blocks/redfloortiles",
+    "particle": "fbms:blocks/redfloortiles"
+  },
+  "render_type": "solid"
+}

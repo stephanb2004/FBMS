@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "fbms:blocks/whitefloortiles",
+    "top": "fbms:blocks/whitefloortiles",
+    "side": "fbms:blocks/whitefloortiles"
+  },
+  "render_type": "solid"
+}
