@@ -6405,10 +6405,250 @@
           "src/main/resources/assets/fbms/models/item/black_blue_tiles_stairs.json",
           "src/main/resources/assets/fbms/blockstates/black_blue_tiles_stairs.json",
           "src/main/resources/assets/fbms/models/block/black_blue_tiles_stairs.json",
+          "src/main/resources/assets/fbms/models/block/black_blue_tiles_stairs_inner.json",
+          "src/main/resources/assets/fbms/models/block/black_blue_tiles_stairs_outer.json",
           "src/main/java/net/mcreator/fbms/block/BlackBlueTilesStairsBlock.java"
         ]
       },
       "path": "~/Blocks/Building"
+    },
+    {
+      "name": "RedBlueTilesStairs",
+      "type": "block",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_blue_tiles_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/block/red_blue_tiles_stairs_outer.json",
+          "src/main/resources/assets/fbms/models/block/red_blue_tiles_stairs_inner.json",
+          "src/main/java/net/mcreator/fbms/block/RedBlueTilesStairsBlock.java",
+          "src/main/resources/assets/fbms/blockstates/red_blue_tiles_stairs.json",
+          "src/main/resources/assets/fbms/models/block/red_blue_tiles_stairs.json",
+          "src/main/resources/assets/fbms/models/item/red_blue_tiles_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "Box",
+      "type": "block",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "box",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/BoxBlock.java",
+          "src/main/resources/assets/fbms/models/item/box.json",
+          "src/main/resources/assets/fbms/models/block/box.json",
+          "src/main/resources/assets/fbms/blockstates/box.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "BrandedBox",
+      "type": "block",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "branded_box",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/blockstates/branded_box.json",
+          "src/main/java/net/mcreator/fbms/block/BrandedBoxBlock.java",
+          "src/main/resources/assets/fbms/models/block/branded_box.json",
+          "src/main/resources/assets/fbms/models/item/branded_box.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "Pizza",
+      "type": "item",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/item/PizzaItem.java",
+          "src/main/resources/assets/fbms/models/item/pizza.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "HotDog",
+      "type": "item",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_dog",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/item/HotDogItem.java",
+          "src/main/resources/assets/fbms/models/item/hot_dog.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CheesePizza",
+      "type": "item",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_pizza",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/cheese_pizza.json",
+          "src/main/java/net/mcreator/fbms/item/CheesePizzaItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Cpu",
+      "type": "item",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cpu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/item/CpuItem.java",
+          "src/main/resources/assets/fbms/models/item/cpu.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Coins",
+      "type": "item",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coins",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/coins.json",
+          "src/main/java/net/mcreator/fbms/item/CoinsItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Fries",
+      "type": "item",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fries",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/item/FriesItem.java",
+          "src/main/resources/assets/fbms/models/item/fries.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MoldyPizza",
+      "type": "item",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moldy_pizza",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/moldy_pizza.json",
+          "src/main/java/net/mcreator/fbms/item/MoldyPizzaItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MoldyFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moldy_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/MoldyFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MoldyHotDog",
+      "type": "item",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moldy_hot_dog",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/moldy_hot_dog.json",
+          "src/main/java/net/mcreator/fbms/item/MoldyHotDogItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MoldyFries",
+      "type": "item",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moldy_fries",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/item/MoldyFriesItem.java",
+          "src/main/resources/assets/fbms/models/item/moldy_fries.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "GoldenBite",
+      "type": "item",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_bite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/golden_bite.json",
+          "src/main/java/net/mcreator/fbms/item/GoldenBiteItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MoldyCheesePizza",
+      "type": "item",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moldy_cheese_pizza",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/item/MoldyCheesePizzaItem.java",
+          "src/main/resources/assets/fbms/models/item/moldy_cheese_pizza.json"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
@@ -6502,6 +6742,7 @@
       "block.fbms.black_white_clean_tile_slab": "Black White Clean Tile Slab",
       "block.fbms.tv_garfield_show": "TV Monitor (Garfield Show)",
       "block.fbms.black_blue_tiles": "Black Blue Tiles",
+      "item.fbms.hot_dog": "Hot Dog",
       "block.fbms.el_chip": "El Chip",
       "block.fbms.funtime_delilahblock": "Funtime Delilah",
       "block.fbms.red_white_tiles_slab": "Red White Tiles Slab",
@@ -6528,11 +6769,13 @@
       "block.fbms.tv_marties_plungers": "TV Monitor (Marty\u0027s Plungers)",
       "block.fbms.rock_star_chica": "Rockstar Chica",
       "block.fbms.lemonade_clown": "Lemonade Clown",
+      "item.fbms.fries": "Fries",
       "block.fbms.funtime_chica_animated": "Funtime Chica Animated",
       "block.fbms.paper_plates": "Paper Cups and Plates",
       "block.fbms.red_white_tiles": "Red White Tiles",
       "block.fbms.pin_the_bowtie_on_the_freddy": "Pin The Bowtie On The Freddy",
       "block.fbms.retro_chica_animated": "Retro Chica (Animated)",
+      "item.fbms.moldy_fries": "Moldy Fries",
       "block.fbms.barry_polar_fixed": "Barry Polar Fixed",
       "block.fbms.fun_time_chica": "Funtime Chica",
       "block.fbms.rock_star_freddy": "Rockstar Freddy",
@@ -6544,6 +6787,7 @@
       "block.fbms.bonk_a_bon": "Bonk-A-Bon",
       "block.fbms.coins_1000": "Coins 1000",
       "block.fbms.endo_01_animated": "Endo 0 1 Animated",
+      "block.fbms.box": "Box",
       "block.fbms.scrap_stage_block": "Scrap Stage Block",
       "block.fbms.jeffs_pizza_sign": "Jeff\u0027s Pizza Sign",
       "block.fbms.full_black_tiles_stairs": "Full Black Tiles Stairs ",
@@ -6604,10 +6848,13 @@
       "block.fbms.sign_sns": "Shop Sign (Smiles And Servos Inc.)",
       "block.fbms.black_white_confetti_tile_slab": "Black White Confetti Tile Slab",
       "block.fbms.black_white_tiles": "Black White Tiles",
+      "item.fbms.golden_bite": "Golden Bite",
       "block.fbms.broken_bonnie": "Broken Bonnie",
+      "item.fbms.moldy_hot_dog": "Moldy Hot Dog",
       "block.fbms.frights_sign_2": "Frights Sign (OFF)",
       "block.fbms.pickles": "Pickles",
       "block.fbms.music_man": "Music Man",
+      "item.fbms.moldy_pizza": "Moldy Pizza",
       "block.fbms.lol_bit_dt": "Lolbit (DT)",
       "itemGroup.tabfms": "Animatronic Block",
       "block.fbms.pin_the_bowtie_on_the_tie_the_toy_freddy": "Pin The Bowtie On The Freddy",
@@ -6624,11 +6871,13 @@
       "block.fbms.lefty_animated": "Lefty Animated",
       "block.fbms.full_white_tiles": "Full White Tiles",
       "block.fbms.coins_10000": "Coins 10000",
+      "item.fbms.coins": "Coin",
       "block.fbms.jolly_the_rat": "Jolly The Rat",
       "block.fbms.bite_fred_bear_cutout": "Bite Fred Bear Cutout",
       "block.fbms.balloon_cart": "Balloon Cart",
       "block.fbms.neon_stage_lights_blue": "Neon Stage Light (Blue)",
       "block.fbms.hazy_reindeer_animated": "Hazy Reindeer (Animated)",
+      "block.fbms.red_blue_tiles_stairs": "Red Blue Tiles Stairs",
       "block.fbms.discount_ballpit": "Discount Ballpit",
       "block.fbms.number_1_crate": "Number 1 Crate ",
       "subtitles.catplush": "Demonic Car",
@@ -6639,6 +6888,7 @@
       "item.fbms.d_bonnie_spawn_egg": "D Bonnie WIP Spawn Egg",
       "item.fbms.guitar": "Guitar",
       "block.fbms.r_foxy_poster": "Rockstar Foxy Poster",
+      "item.fbms.cheese_pizza": "Cheese Pizza",
       "block.fbms.rasc": "Rasc",
       "itemGroup.tabprops": "Props",
       "block.fbms.neon_stage_lights_pink": "Neon Stage Light (Pink)",
@@ -6670,6 +6920,7 @@
       "block.fbms.balloon_barrel": "Balloon Barrel",
       "item.fbms.d_foxy_spawn_egg": "D Foxy WIP Spawn Egg",
       "block.fbms.lefty": "Lefty",
+      "item.fbms.pizza": "Pizza",
       "block.fbms.toy_freddy": "Toy Freddy",
       "block.fbms.sign_rfa": "Shop Sign (Rare Finds Auction)",
       "itemGroup.taba_ds": "ADs",
@@ -6715,6 +6966,7 @@
       "block.fbms.neon_party_set_2": "Neon Party Set 2",
       "block.fbms.endo_02": "Endo02",
       "block.fbms.heavy_duity_door_closed": "Heavy Duity Door (Closed)",
+      "item.fbms.moldy_cheese_pizza": "Moldy Cheese Pizza",
       "block.fbms.endo_01": "Endo 01",
       "entity.fbms.impala": "Purple Chevrolet Impala",
       "block.fbms.gravity_vortex": "Gravity Vortex (Animated)",
@@ -6731,7 +6983,7 @@
       "block.fbms.coins_25": "Coins 25",
       "block.fbms.tv_lallies_lollies": "TV Monitor (Lallies Lollies)",
       "block.fbms.monitor_scai_2": "Monitor (Scai: Basic Room)",
-      "block.fbms.black_blue_tiles_stairs": "Black Blue Tiles",
+      "block.fbms.black_blue_tiles_stairs": "Black Blue Tiles Stairs",
       "block.fbms.black_red_tiles": "Black Red Tiles",
       "block.fbms.mr_hippo_animated": "Mr Hippo Animated",
       "block.fbms.puffy_puffins_animated": "Puffy Puffins (Animated)",
@@ -6741,6 +6993,7 @@
       "itemGroup.tabshop_blocks": "Shop Blocks",
       "block.fbms.hazy_reindeer": "Hazy Reindeer",
       "block.fbms.rock_star_foxy_animated": "Rockstar Foxy Animated",
+      "block.fbms.branded_box": "Branded Box",
       "block.fbms.broken_chica": "Broken Chica",
       "block.fbms.ignited_chica": "Ignited Chica",
       "block.fbms.tv_killer_klowns": "TV Monitor (Killer Klowns)",
@@ -6767,6 +7020,7 @@
       "block.fbms.tv_freddy_and_friends": "TV Monitor (Freddy And Friends)",
       "block.fbms.pig_patch_animated": "Pigpatch Animated",
       "block.fbms.monitor_bluescreen": "Monitor (Bluescreen)",
+      "item.fbms.cpu": "Cpu",
       "block.fbms.tv_heman": "TV Monitor (He-Man)",
       "block.fbms.monitor_lolbit": "Monitor (Lolbit)",
       "block.fbms.monitor_work": "Monitor (Work)",

@@ -79,6 +79,7 @@ import net.mcreator.fbms.block.RedWhiteTilesStairsBlock;
 import net.mcreator.fbms.block.RedWhiteTilesSlabBlock;
 import net.mcreator.fbms.block.RedWhiteTilesBlock;
 import net.mcreator.fbms.block.RedStageBlockBlock;
+import net.mcreator.fbms.block.RedBlueTilesStairsBlock;
 import net.mcreator.fbms.block.RedBlueTilesSlabBlock;
 import net.mcreator.fbms.block.RedBlueTilesBlock;
 import net.mcreator.fbms.block.RbonniePosterBlock;
@@ -236,6 +237,8 @@ import net.mcreator.fbms.block.BrokenFreddyBlock;
 import net.mcreator.fbms.block.BrokenChicaBlock;
 import net.mcreator.fbms.block.BrokenBonnieBlock;
 import net.mcreator.fbms.block.BrokenBarryPolarAnimatedBlock;
+import net.mcreator.fbms.block.BrandedBoxBlock;
+import net.mcreator.fbms.block.BoxBlock;
 import net.mcreator.fbms.block.BonnieBlock;
 import net.mcreator.fbms.block.BonnetBlock;
 import net.mcreator.fbms.block.BonkABonBlock;
@@ -532,4 +535,7 @@ public class FbmsModBlocks {
 	public static final RegistryObject<Block> RED_WHITE_TILES_STAIRS = REGISTRY.register("red_white_tiles_stairs", () -> new RedWhiteTilesStairsBlock());
 	public static final RegistryObject<Block> FULL_BLACK_TILES_STAIRS = REGISTRY.register("full_black_tiles_stairs", () -> new FullBlackTilesStairsBlock());
 	public static final RegistryObject<Block> BLACK_BLUE_TILES_STAIRS = REGISTRY.register("black_blue_tiles_stairs", () -> new BlackBlueTilesStairsBlock());
+	public static final RegistryObject<Block> RED_BLUE_TILES_STAIRS = REGISTRY.register("red_blue_tiles_stairs", () -> new RedBlueTilesStairsBlock());
+	public static final RegistryObject<Block> BOX = REGISTRY.register("box", () -> new BoxBlock());
+	public static final RegistryObject<Block> BRANDED_BOX = REGISTRY.register("branded_box", () -> new BrandedBoxBlock());
 }

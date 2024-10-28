@@ -18,12 +18,23 @@ import net.mcreator.fbms.item.WandItem;
 import net.mcreator.fbms.item.TrumpetItem;
 import net.mcreator.fbms.item.ToyMicItem;
 import net.mcreator.fbms.item.RemoteItem;
+import net.mcreator.fbms.item.PizzaItem;
+import net.mcreator.fbms.item.MoldyPizzaItem;
+import net.mcreator.fbms.item.MoldyHotDogItem;
+import net.mcreator.fbms.item.MoldyFriesItem;
+import net.mcreator.fbms.item.MoldyCheesePizzaItem;
 import net.mcreator.fbms.item.MaracasItem;
 import net.mcreator.fbms.item.MandolinItem;
+import net.mcreator.fbms.item.HotDogItem;
 import net.mcreator.fbms.item.GuitarItem;
+import net.mcreator.fbms.item.GoldenBiteItem;
+import net.mcreator.fbms.item.FriesItem;
 import net.mcreator.fbms.item.FATItem;
 import net.mcreator.fbms.item.CupFiztime2Item;
 import net.mcreator.fbms.item.CupFiztime1Item;
+import net.mcreator.fbms.item.CpuItem;
+import net.mcreator.fbms.item.CoinsItem;
+import net.mcreator.fbms.item.CheesePizzaItem;
 import net.mcreator.fbms.item.BanjoItem;
 import net.mcreator.fbms.item.AdItem;
 import net.mcreator.fbms.item.AccordionItem;
@@ -392,7 +403,7 @@ public class FbmsModItems {
 	public static final RegistryObject<Item> WITHERED_DOUG_THE_DOG = REGISTRY.register(FbmsModBlocks.WITHERED_DOUG_THE_DOG.getId().getPath(),
 			() -> new WitheredDougTheDogDisplayItem(FbmsModBlocks.WITHERED_DOUG_THE_DOG.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
 	public static final RegistryObject<Item> LOL_BIT_409 = REGISTRY.register(FbmsModBlocks.LOL_BIT_409.getId().getPath(), () -> new LolBit409DisplayItem(FbmsModBlocks.LOL_BIT_409.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
-	public static final RegistryObject<Item> CHICA_O_LANTERN = block(FbmsModBlocks.CHICA_O_LANTERN, FbmsModTabs.TAB_PRIVATE_ROOM);
+	public static final RegistryObject<Item> CHICA_O_LANTERN = block(FbmsModBlocks.CHICA_O_LANTERN, FbmsModTabs.TAB_FMS_BLOCKS);
 	public static final RegistryObject<Item> JOLLY_THE_RAT = REGISTRY.register(FbmsModBlocks.JOLLY_THE_RAT.getId().getPath(), () -> new JollyTheRatDisplayItem(FbmsModBlocks.JOLLY_THE_RAT.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
 	public static final RegistryObject<Item> SALVAGED_JOLLY = REGISTRY.register(FbmsModBlocks.SALVAGED_JOLLY.getId().getPath(), () -> new SalvagedJollyDisplayItem(FbmsModBlocks.SALVAGED_JOLLY.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
 	public static final RegistryObject<Item> LARGE_SIGN = REGISTRY.register(FbmsModBlocks.LARGE_SIGN.getId().getPath(), () -> new LargeSignDisplayItem(FbmsModBlocks.LARGE_SIGN.get(), new Item.Properties().tab(FbmsModTabs.TAB_A_DS)));
@@ -562,6 +573,20 @@ public class FbmsModItems {
 	public static final RegistryObject<Item> RED_WHITE_TILES_STAIRS = block(FbmsModBlocks.RED_WHITE_TILES_STAIRS, FbmsModTabs.TAB_FMS_BLOCKS);
 	public static final RegistryObject<Item> FULL_BLACK_TILES_STAIRS = block(FbmsModBlocks.FULL_BLACK_TILES_STAIRS, FbmsModTabs.TAB_FMS_BLOCKS);
 	public static final RegistryObject<Item> BLACK_BLUE_TILES_STAIRS = block(FbmsModBlocks.BLACK_BLUE_TILES_STAIRS, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> RED_BLUE_TILES_STAIRS = block(FbmsModBlocks.RED_BLUE_TILES_STAIRS, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> BOX = block(FbmsModBlocks.BOX, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> BRANDED_BOX = block(FbmsModBlocks.BRANDED_BOX, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> PIZZA = REGISTRY.register("pizza", () -> new PizzaItem());
+	public static final RegistryObject<Item> HOT_DOG = REGISTRY.register("hot_dog", () -> new HotDogItem());
+	public static final RegistryObject<Item> CHEESE_PIZZA = REGISTRY.register("cheese_pizza", () -> new CheesePizzaItem());
+	public static final RegistryObject<Item> CPU = REGISTRY.register("cpu", () -> new CpuItem());
+	public static final RegistryObject<Item> COINS = REGISTRY.register("coins", () -> new CoinsItem());
+	public static final RegistryObject<Item> FRIES = REGISTRY.register("fries", () -> new FriesItem());
+	public static final RegistryObject<Item> MOLDY_PIZZA = REGISTRY.register("moldy_pizza", () -> new MoldyPizzaItem());
+	public static final RegistryObject<Item> MOLDY_HOT_DOG = REGISTRY.register("moldy_hot_dog", () -> new MoldyHotDogItem());
+	public static final RegistryObject<Item> MOLDY_FRIES = REGISTRY.register("moldy_fries", () -> new MoldyFriesItem());
+	public static final RegistryObject<Item> GOLDEN_BITE = REGISTRY.register("golden_bite", () -> new GoldenBiteItem());
+	public static final RegistryObject<Item> MOLDY_CHEESE_PIZZA = REGISTRY.register("moldy_cheese_pizza", () -> new MoldyCheesePizzaItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

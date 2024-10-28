@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fbms:blocks/box_top",
+    "up": "fbms:blocks/box_top",
+    "north": "fbms:blocks/logo_box",
+    "east": "fbms:blocks/logo_box",
+    "south": "fbms:blocks/logo_box",
+    "west": "fbms:blocks/logo_box",
+    "particle": "fbms:blocks/box_top"
+  },
+  "render_type": "solid"
+}

@@ -40,7 +40,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:PrivateRoom"
+      "value": "CUSTOM:FMSBlocks"
     },
     "destroyTool": "Not specified",
     "customDrop": {

@@ -15,7 +15,7 @@ import java.util.Collections;
 
 public class RedBlueTilesSlabBlock extends SlabBlock {
 	public RedBlueTilesSlabBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f).dynamicShape());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f).dynamicShape());
 	}
 
 	@Override
