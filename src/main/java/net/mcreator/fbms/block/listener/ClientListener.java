@@ -56,6 +56,14 @@ import net.mcreator.fbms.block.renderer.PuffyPuffinsAnimatedTileRenderer;
 import net.mcreator.fbms.block.renderer.PrizeKingTileRenderer;
 import net.mcreator.fbms.block.renderer.PizzaPlaceSignTileRenderer;
 import net.mcreator.fbms.block.renderer.PizzaPlaceSignOldTileRenderer;
+import net.mcreator.fbms.block.renderer.PizzaBox93OpenTileRenderer;
+import net.mcreator.fbms.block.renderer.PizzaBox93ClosedTileRenderer;
+import net.mcreator.fbms.block.renderer.PizzaBox87OpenTileRenderer;
+import net.mcreator.fbms.block.renderer.PizzaBox87ClosedTileRenderer;
+import net.mcreator.fbms.block.renderer.PizzaBox85OpenTileRenderer;
+import net.mcreator.fbms.block.renderer.PizzaBox85ClosedTileRenderer;
+import net.mcreator.fbms.block.renderer.PizzaBox24OpenTileRenderer;
+import net.mcreator.fbms.block.renderer.PizzaBox24ClosedTileRenderer;
 import net.mcreator.fbms.block.renderer.PinTheBowtieOnTheTieTheToyFreddyTileRenderer;
 import net.mcreator.fbms.block.renderer.PinTheBowtieOnTheFreddyTileRenderer;
 import net.mcreator.fbms.block.renderer.PigPatchTileRenderer;
@@ -146,6 +154,7 @@ import net.mcreator.fbms.block.renderer.EggBabyTileRenderer;
 import net.mcreator.fbms.block.renderer.DuckPondTileRenderer;
 import net.mcreator.fbms.block.renderer.DrTeathTileRenderer;
 import net.mcreator.fbms.block.renderer.DougTheDogTileRenderer;
+import net.mcreator.fbms.block.renderer.DougTheDogAnimatedTileRenderer;
 import net.mcreator.fbms.block.renderer.DollsTileRenderer;
 import net.mcreator.fbms.block.renderer.DogeRamBlockTileRenderer;
 import net.mcreator.fbms.block.renderer.DocPlushTileRenderer;
@@ -236,6 +245,10 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.NOVELTY_TRAFFIC_LIGHT.get(), NoveltyTrafficLightTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.MEGAULTIMATESPEAKERTRON_3000.get(), Megaultimatespeakertron3000TileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.HEAVY_DUITY_DOOR.get(), HeavyDuityDoorTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.PIZZA_BOX_85_OPEN.get(), PizzaBox85OpenTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.PIZZA_BOX_87_OPEN.get(), PizzaBox87OpenTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.PIZZA_BOX_93_OPEN.get(), PizzaBox93OpenTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.PIZZA_BOX_24_OPEN.get(), PizzaBox24OpenTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.CANDY_CADET.get(), CandyCadetTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.BITE_FRED_BEAR_CUTOUT.get(), BiteFredBearCutoutTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.MOLDY_RABBIT.get(), MoldyRabbitTileRenderer::new);
@@ -336,6 +349,7 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.SIGN_SBT.get(), SignSBTTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.SIGN_RFA.get(), SignRFATileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.SIGN_SNS.get(), SignSNSTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.SIGN_MS.get(), SignMSTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.DOC_PLUSH.get(), DocPlushTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.GARF_PLUSH.get(), GarfPlushTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.ROSEY.get(), RoseyTileRenderer::new);
@@ -369,6 +383,10 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.HEAVY_DUITY_DOOR_CLOSED.get(), HeavyDuityDoorClosedTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.RETRO_CHICA_ANIMATED.get(), RetroChicaAnimatedTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.JOLLY_THE_RAT_ANIMATED.get(), JollyTheRatAnimatedTileRenderer::new);
-		event.registerBlockEntityRenderer(FbmsModBlockEntities.SIGN_MS.get(), SignMSTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.PIZZA_BOX_85_CLOSED.get(), PizzaBox85ClosedTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.PIZZA_BOX_87_CLOSED.get(), PizzaBox87ClosedTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.PIZZA_BOX_93_CLOSED.get(), PizzaBox93ClosedTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.PIZZA_BOX_24_CLOSED.get(), PizzaBox24ClosedTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.DOUG_THE_DOG_ANIMATED.get(), DougTheDogAnimatedTileRenderer::new);
 	}
 }

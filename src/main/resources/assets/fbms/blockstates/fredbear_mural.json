@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:block/fredbear_mural"
+    },
+    "facing=east": {
+      "model": "fbms:block/fredbear_mural",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:block/fredbear_mural",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:block/fredbear_mural",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fbms:block/fredbear_mural",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fbms:block/fredbear_mural",
+      "x": 90
+    }
+  }
+}

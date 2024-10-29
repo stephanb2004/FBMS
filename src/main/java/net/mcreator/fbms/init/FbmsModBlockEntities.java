@@ -60,6 +60,14 @@ import net.mcreator.fbms.block.entity.PuffyPuffinsAnimatedTileEntity;
 import net.mcreator.fbms.block.entity.PrizeKingTileEntity;
 import net.mcreator.fbms.block.entity.PizzaPlaceSignTileEntity;
 import net.mcreator.fbms.block.entity.PizzaPlaceSignOldTileEntity;
+import net.mcreator.fbms.block.entity.PizzaBox93OpenTileEntity;
+import net.mcreator.fbms.block.entity.PizzaBox93ClosedTileEntity;
+import net.mcreator.fbms.block.entity.PizzaBox87OpenTileEntity;
+import net.mcreator.fbms.block.entity.PizzaBox87ClosedTileEntity;
+import net.mcreator.fbms.block.entity.PizzaBox85OpenTileEntity;
+import net.mcreator.fbms.block.entity.PizzaBox85ClosedTileEntity;
+import net.mcreator.fbms.block.entity.PizzaBox24OpenTileEntity;
+import net.mcreator.fbms.block.entity.PizzaBox24ClosedTileEntity;
 import net.mcreator.fbms.block.entity.PinTheBowtieOnTheTieTheToyFreddyTileEntity;
 import net.mcreator.fbms.block.entity.PinTheBowtieOnTheFreddyTileEntity;
 import net.mcreator.fbms.block.entity.PigPatchTileEntity;
@@ -150,6 +158,7 @@ import net.mcreator.fbms.block.entity.EggBabyTileEntity;
 import net.mcreator.fbms.block.entity.DuckPondTileEntity;
 import net.mcreator.fbms.block.entity.DrTeathTileEntity;
 import net.mcreator.fbms.block.entity.DougTheDogTileEntity;
+import net.mcreator.fbms.block.entity.DougTheDogAnimatedTileEntity;
 import net.mcreator.fbms.block.entity.DollsTileEntity;
 import net.mcreator.fbms.block.entity.DogeRamBlockTileEntity;
 import net.mcreator.fbms.block.entity.DocPlushTileEntity;
@@ -268,6 +277,14 @@ public class FbmsModBlockEntities {
 			() -> BlockEntityType.Builder.of(Megaultimatespeakertron3000TileEntity::new, FbmsModBlocks.MEGAULTIMATESPEAKERTRON_3000.get()).build(null));
 	public static final RegistryObject<BlockEntityType<HeavyDuityDoorTileEntity>> HEAVY_DUITY_DOOR = REGISTRY.register("heavy_duity_door",
 			() -> BlockEntityType.Builder.of(HeavyDuityDoorTileEntity::new, FbmsModBlocks.HEAVY_DUITY_DOOR.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PizzaBox85OpenTileEntity>> PIZZA_BOX_85_OPEN = REGISTRY.register("pizza_box_85_open",
+			() -> BlockEntityType.Builder.of(PizzaBox85OpenTileEntity::new, FbmsModBlocks.PIZZA_BOX_85_OPEN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PizzaBox87OpenTileEntity>> PIZZA_BOX_87_OPEN = REGISTRY.register("pizza_box_87_open",
+			() -> BlockEntityType.Builder.of(PizzaBox87OpenTileEntity::new, FbmsModBlocks.PIZZA_BOX_87_OPEN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PizzaBox93OpenTileEntity>> PIZZA_BOX_93_OPEN = REGISTRY.register("pizza_box_93_open",
+			() -> BlockEntityType.Builder.of(PizzaBox93OpenTileEntity::new, FbmsModBlocks.PIZZA_BOX_93_OPEN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PizzaBox24OpenTileEntity>> PIZZA_BOX_24_OPEN = REGISTRY.register("pizza_box_24_open",
+			() -> BlockEntityType.Builder.of(PizzaBox24OpenTileEntity::new, FbmsModBlocks.PIZZA_BOX_24_OPEN.get()).build(null));
 	public static final RegistryObject<BlockEntityType<CandyCadetTileEntity>> CANDY_CADET = REGISTRY.register("candy_cadet", () -> BlockEntityType.Builder.of(CandyCadetTileEntity::new, FbmsModBlocks.CANDY_CADET.get()).build(null));
 	public static final RegistryObject<BlockEntityType<BiteFredBearCutoutTileEntity>> BITE_FRED_BEAR_CUTOUT = REGISTRY.register("bite_fred_bear_cutout",
 			() -> BlockEntityType.Builder.of(BiteFredBearCutoutTileEntity::new, FbmsModBlocks.BITE_FRED_BEAR_CUTOUT.get()).build(null));
@@ -382,6 +399,7 @@ public class FbmsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<SignSBTTileEntity>> SIGN_SBT = REGISTRY.register("sign_sbt", () -> BlockEntityType.Builder.of(SignSBTTileEntity::new, FbmsModBlocks.SIGN_SBT.get()).build(null));
 	public static final RegistryObject<BlockEntityType<SignRFATileEntity>> SIGN_RFA = REGISTRY.register("sign_rfa", () -> BlockEntityType.Builder.of(SignRFATileEntity::new, FbmsModBlocks.SIGN_RFA.get()).build(null));
 	public static final RegistryObject<BlockEntityType<SignSNSTileEntity>> SIGN_SNS = REGISTRY.register("sign_sns", () -> BlockEntityType.Builder.of(SignSNSTileEntity::new, FbmsModBlocks.SIGN_SNS.get()).build(null));
+	public static final RegistryObject<BlockEntityType<SignMSTileEntity>> SIGN_MS = REGISTRY.register("sign_ms", () -> BlockEntityType.Builder.of(SignMSTileEntity::new, FbmsModBlocks.SIGN_MS.get()).build(null));
 	public static final RegistryObject<BlockEntityType<DocPlushTileEntity>> DOC_PLUSH = REGISTRY.register("doc_plush", () -> BlockEntityType.Builder.of(DocPlushTileEntity::new, FbmsModBlocks.DOC_PLUSH.get()).build(null));
 	public static final RegistryObject<BlockEntityType<GarfPlushTileEntity>> GARF_PLUSH = REGISTRY.register("garf_plush", () -> BlockEntityType.Builder.of(GarfPlushTileEntity::new, FbmsModBlocks.GARF_PLUSH.get()).build(null));
 	public static final RegistryObject<BlockEntityType<RoseyTileEntity>> ROSEY = REGISTRY.register("rosey", () -> BlockEntityType.Builder.of(RoseyTileEntity::new, FbmsModBlocks.ROSEY.get()).build(null));
@@ -439,7 +457,16 @@ public class FbmsModBlockEntities {
 			() -> BlockEntityType.Builder.of(RetroChicaAnimatedTileEntity::new, FbmsModBlocks.RETRO_CHICA_ANIMATED.get()).build(null));
 	public static final RegistryObject<BlockEntityType<JollyTheRatAnimatedTileEntity>> JOLLY_THE_RAT_ANIMATED = REGISTRY.register("jolly_the_rat_animated",
 			() -> BlockEntityType.Builder.of(JollyTheRatAnimatedTileEntity::new, FbmsModBlocks.JOLLY_THE_RAT_ANIMATED.get()).build(null));
-	public static final RegistryObject<BlockEntityType<SignMSTileEntity>> SIGN_MS = REGISTRY.register("sign_ms", () -> BlockEntityType.Builder.of(SignMSTileEntity::new, FbmsModBlocks.SIGN_MS.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PizzaBox85ClosedTileEntity>> PIZZA_BOX_85_CLOSED = REGISTRY.register("pizza_box_85_closed",
+			() -> BlockEntityType.Builder.of(PizzaBox85ClosedTileEntity::new, FbmsModBlocks.PIZZA_BOX_85_CLOSED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PizzaBox87ClosedTileEntity>> PIZZA_BOX_87_CLOSED = REGISTRY.register("pizza_box_87_closed",
+			() -> BlockEntityType.Builder.of(PizzaBox87ClosedTileEntity::new, FbmsModBlocks.PIZZA_BOX_87_CLOSED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PizzaBox93ClosedTileEntity>> PIZZA_BOX_93_CLOSED = REGISTRY.register("pizza_box_93_closed",
+			() -> BlockEntityType.Builder.of(PizzaBox93ClosedTileEntity::new, FbmsModBlocks.PIZZA_BOX_93_CLOSED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PizzaBox24ClosedTileEntity>> PIZZA_BOX_24_CLOSED = REGISTRY.register("pizza_box_24_closed",
+			() -> BlockEntityType.Builder.of(PizzaBox24ClosedTileEntity::new, FbmsModBlocks.PIZZA_BOX_24_CLOSED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<DougTheDogAnimatedTileEntity>> DOUG_THE_DOG_ANIMATED = REGISTRY.register("doug_the_dog_animated",
+			() -> BlockEntityType.Builder.of(DougTheDogAnimatedTileEntity::new, FbmsModBlocks.DOUG_THE_DOG_ANIMATED.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

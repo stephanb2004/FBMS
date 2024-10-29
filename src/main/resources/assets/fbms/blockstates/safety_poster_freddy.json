@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:block/safety_poster_freddy"
+    },
+    "facing=east": {
+      "model": "fbms:block/safety_poster_freddy",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:block/safety_poster_freddy",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:block/safety_poster_freddy",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fbms:block/safety_poster_freddy",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fbms:block/safety_poster_freddy",
+      "x": 90
+    }
+  }
+}

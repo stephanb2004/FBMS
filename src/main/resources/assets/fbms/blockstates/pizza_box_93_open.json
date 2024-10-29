@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:custom/pizza_box_93_open_particle"
+    },
+    "facing=east": {
+      "model": "fbms:custom/pizza_box_93_open_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:custom/pizza_box_93_open_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:custom/pizza_box_93_open_particle",
+      "y": 270
+    }
+  }
+}

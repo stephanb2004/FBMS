@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Pizza Box",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "bone2",
+					"pivot": [-0.5, 2, 6.5],
+					"cubes": [
+						{"origin": [-7.5, 1, -7.5], "size": [15, 2, 15], "uv": [0, 17]}
+					]
+				},
+				{
+					"name": "bone",
+					"pivot": [8, 0, -8],
+					"cubes": [
+						{"origin": [-7.5, 0, -7.5], "size": [15, 2, 15], "uv": [0, 0]},
+						{"origin": [-6, 0, -6], "size": [12, 1, 12], "uv": [0, 50]},
+						{"origin": [-6, 0.5, -6], "size": [12, 0, 12], "uv": [0, 36]}
+					]
+				}
+			]
+		}
+	]
+}

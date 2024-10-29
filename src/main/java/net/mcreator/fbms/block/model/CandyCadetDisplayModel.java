@@ -19,6 +19,6 @@ public class CandyCadetDisplayModel extends AnimatedGeoModel<CandyCadetDisplayIt
 
 	@Override
 	public ResourceLocation getTextureResource(CandyCadetDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/candycadet.png");
+		return new ResourceLocation("fbms", "textures/blocks/candycadet2.png");
 	}
 }

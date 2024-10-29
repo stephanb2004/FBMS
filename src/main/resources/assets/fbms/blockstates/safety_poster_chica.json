@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:block/safety_poster_chica"
+    },
+    "facing=east": {
+      "model": "fbms:block/safety_poster_chica",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:block/safety_poster_chica",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:block/safety_poster_chica",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fbms:block/safety_poster_chica",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fbms:block/safety_poster_chica",
+      "x": 90
+    }
+  }
+}

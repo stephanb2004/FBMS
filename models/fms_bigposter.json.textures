@@ -1,0 +1,40 @@
+{
+  "mappings": {
+    "chica": {
+      "map": {
+        "2": "fms_safetyposter_chica"
+      },
+      "name": "chica"
+    },
+    "default": {
+      "map": {
+        "2": "fms_safetyposter_base"
+      },
+      "name": "default"
+    },
+    "bonnie": {
+      "map": {
+        "2": "fms_safetyposter_bonnie"
+      },
+      "name": "bonnie"
+    },
+    "freddy": {
+      "map": {
+        "2": "fms_safetyposter_freddy"
+      },
+      "name": "freddy"
+    },
+    "celebrate": {
+      "map": {
+        "2": "fms_celebrateposter"
+      },
+      "name": "celebrate"
+    },
+    "foxy": {
+      "map": {
+        "2": "fms_safetyposter_foxy"
+      },
+      "name": "foxy"
+    }
+  }
+}
