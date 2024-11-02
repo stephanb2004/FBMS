@@ -54,6 +54,7 @@ import net.mcreator.fbms.block.renderer.PuppetBoxTileRenderer;
 import net.mcreator.fbms.block.renderer.PuffyPuffinsTileRenderer;
 import net.mcreator.fbms.block.renderer.PuffyPuffinsAnimatedTileRenderer;
 import net.mcreator.fbms.block.renderer.ProjectorTileRenderer;
+import net.mcreator.fbms.block.renderer.ProjectionTileRenderer;
 import net.mcreator.fbms.block.renderer.PrizeKingTileRenderer;
 import net.mcreator.fbms.block.renderer.PizzaPlaceSignTileRenderer;
 import net.mcreator.fbms.block.renderer.PizzaPlaceSignOldTileRenderer;
@@ -400,5 +401,6 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.BONNIE_CUT_OUT.get(), BonnieCutOutTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.CHICA_CUT_OUT.get(), ChicaCutOutTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.HELPY_CUT_OUT.get(), HelpyCutOutTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.PROJECTION.get(), ProjectionTileRenderer::new);
 	}
 }

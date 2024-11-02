@@ -90,6 +90,7 @@ import net.mcreator.fbms.block.display.PuppetBoxDisplayItem;
 import net.mcreator.fbms.block.display.PuffyPuffinsDisplayItem;
 import net.mcreator.fbms.block.display.PuffyPuffinsAnimatedDisplayItem;
 import net.mcreator.fbms.block.display.ProjectorDisplayItem;
+import net.mcreator.fbms.block.display.ProjectionDisplayItem;
 import net.mcreator.fbms.block.display.PrizeKingDisplayItem;
 import net.mcreator.fbms.block.display.PizzaPlaceSignOldDisplayItem;
 import net.mcreator.fbms.block.display.PizzaPlaceSignDisplayItem;
@@ -641,7 +642,7 @@ public class FbmsModItems {
 	public static final RegistryObject<Item> GLASS_OFFICE_DOOR_TEXT = doubleBlock(FbmsModBlocks.GLASS_OFFICE_DOOR_TEXT, FbmsModTabs.TAB_FMS_BLOCKS);
 	public static final RegistryObject<Item> RAT_SPAWN_EGG = REGISTRY.register("rat_spawn_egg", () -> new ForgeSpawnEggItem(FbmsModEntities.RAT, -6724096, -26113, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> GLASS_DOOR = doubleBlock(FbmsModBlocks.GLASS_DOOR, FbmsModTabs.TAB_FMS_BLOCKS);
-	public static final RegistryObject<Item> PROJECTOR = REGISTRY.register(FbmsModBlocks.PROJECTOR.getId().getPath(), () -> new ProjectorDisplayItem(FbmsModBlocks.PROJECTOR.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> PROJECTOR = REGISTRY.register(FbmsModBlocks.PROJECTOR.getId().getPath(), () -> new ProjectorDisplayItem(FbmsModBlocks.PROJECTOR.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
 	public static final RegistryObject<Item> WHITE_WALL = block(FbmsModBlocks.WHITE_WALL, FbmsModTabs.TAB_FMS_BLOCKS);
 	public static final RegistryObject<Item> GRAY_WALL = block(FbmsModBlocks.GRAY_WALL, FbmsModTabs.TAB_FMS_BLOCKS);
 	public static final RegistryObject<Item> BLUE_WALL = block(FbmsModBlocks.BLUE_WALL, FbmsModTabs.TAB_FMS_BLOCKS);
@@ -721,6 +722,7 @@ public class FbmsModItems {
 			() -> new ChicaCutOutDisplayItem(FbmsModBlocks.CHICA_CUT_OUT.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
 	public static final RegistryObject<Item> HELPY_CUT_OUT = REGISTRY.register(FbmsModBlocks.HELPY_CUT_OUT.getId().getPath(),
 			() -> new HelpyCutOutDisplayItem(FbmsModBlocks.HELPY_CUT_OUT.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> PROJECTION = REGISTRY.register(FbmsModBlocks.PROJECTION.getId().getPath(), () -> new ProjectionDisplayItem(FbmsModBlocks.PROJECTION.get(), new Item.Properties().tab(null)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

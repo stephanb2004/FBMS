@@ -128,6 +128,7 @@ import net.mcreator.fbms.block.PuppetBoxBlock;
 import net.mcreator.fbms.block.PuffyPuffinsBlock;
 import net.mcreator.fbms.block.PuffyPuffinsAnimatedBlock;
 import net.mcreator.fbms.block.ProjectorBlock;
+import net.mcreator.fbms.block.ProjectionBlock;
 import net.mcreator.fbms.block.PrizeKingBlock;
 import net.mcreator.fbms.block.PoshWallTilesBlock;
 import net.mcreator.fbms.block.PizzaPlaceSignOldBlock;
@@ -728,4 +729,5 @@ public class FbmsModBlocks {
 	public static final RegistryObject<Block> BONNIE_CUT_OUT = REGISTRY.register("bonnie_cut_out", () -> new BonnieCutOutBlock());
 	public static final RegistryObject<Block> CHICA_CUT_OUT = REGISTRY.register("chica_cut_out", () -> new ChicaCutOutBlock());
 	public static final RegistryObject<Block> HELPY_CUT_OUT = REGISTRY.register("helpy_cut_out", () -> new HelpyCutOutBlock());
+	public static final RegistryObject<Block> PROJECTION = REGISTRY.register("projection", () -> new ProjectionBlock());
 }

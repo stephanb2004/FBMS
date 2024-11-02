@@ -58,6 +58,7 @@ import net.mcreator.fbms.block.entity.PuppetBoxTileEntity;
 import net.mcreator.fbms.block.entity.PuffyPuffinsTileEntity;
 import net.mcreator.fbms.block.entity.PuffyPuffinsAnimatedTileEntity;
 import net.mcreator.fbms.block.entity.ProjectorTileEntity;
+import net.mcreator.fbms.block.entity.ProjectionTileEntity;
 import net.mcreator.fbms.block.entity.PrizeKingTileEntity;
 import net.mcreator.fbms.block.entity.PizzaPlaceSignTileEntity;
 import net.mcreator.fbms.block.entity.PizzaPlaceSignOldTileEntity;
@@ -479,6 +480,7 @@ public class FbmsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<BonnieCutOutTileEntity>> BONNIE_CUT_OUT = REGISTRY.register("bonnie_cut_out", () -> BlockEntityType.Builder.of(BonnieCutOutTileEntity::new, FbmsModBlocks.BONNIE_CUT_OUT.get()).build(null));
 	public static final RegistryObject<BlockEntityType<ChicaCutOutTileEntity>> CHICA_CUT_OUT = REGISTRY.register("chica_cut_out", () -> BlockEntityType.Builder.of(ChicaCutOutTileEntity::new, FbmsModBlocks.CHICA_CUT_OUT.get()).build(null));
 	public static final RegistryObject<BlockEntityType<HelpyCutOutTileEntity>> HELPY_CUT_OUT = REGISTRY.register("helpy_cut_out", () -> BlockEntityType.Builder.of(HelpyCutOutTileEntity::new, FbmsModBlocks.HELPY_CUT_OUT.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ProjectionTileEntity>> PROJECTION = REGISTRY.register("projection", () -> BlockEntityType.Builder.of(ProjectionTileEntity::new, FbmsModBlocks.PROJECTION.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

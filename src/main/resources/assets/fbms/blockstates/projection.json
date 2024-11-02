@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:custom/projection_particle"
+    },
+    "facing=east": {
+      "model": "fbms:custom/projection_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:custom/projection_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:custom/projection_particle",
+      "y": 270
+    }
+  }
+}

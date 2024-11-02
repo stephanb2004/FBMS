@@ -2371,16 +2371,16 @@
       "registry_name": "neon_juke_box",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fbms/block/display/NeonJukeBoxDisplayItem.java",
-          "src/main/java/net/mcreator/fbms/block/model/NeonJukeBoxBlockModel.java",
+          "src/main/resources/assets/fbms/models/item/neon_juke_box.json",
+          "src/main/java/net/mcreator/fbms/block/model/NeonJukeBoxDisplayModel.java",
           "src/main/resources/assets/fbms/models/custom/neon_juke_box_particle.json",
-          "src/main/java/net/mcreator/fbms/block/entity/NeonJukeBoxTileEntity.java",
           "src/main/resources/assets/fbms/blockstates/neon_juke_box.json",
+          "src/main/java/net/mcreator/fbms/block/entity/NeonJukeBoxTileEntity.java",
           "src/main/java/net/mcreator/fbms/block/renderer/NeonJukeBoxTileRenderer.java",
           "src/main/java/net/mcreator/fbms/block/NeonJukeBoxBlock.java",
-          "src/main/java/net/mcreator/fbms/block/renderer/NeonJukeBoxDisplayItemRenderer.java",
-          "src/main/java/net/mcreator/fbms/block/model/NeonJukeBoxDisplayModel.java",
-          "src/main/resources/assets/fbms/models/item/neon_juke_box.json"
+          "src/main/java/net/mcreator/fbms/block/model/NeonJukeBoxBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/display/NeonJukeBoxDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonJukeBoxDisplayItemRenderer.java"
         ]
       },
       "path": "~/Blocks/Props/Stage Stuff"
@@ -7161,7 +7161,28 @@
         "files": [
           "src/main/java/net/mcreator/fbms/procedures/ProjectorOnBlockRightClickedProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/Blocks/Props"
     },
@@ -7174,16 +7195,16 @@
       "registry_name": "projector",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fbms/block/entity/ProjectorTileEntity.java",
-          "src/main/resources/assets/fbms/models/custom/projector_particle.json",
+          "src/main/java/net/mcreator/fbms/block/model/ProjectorDisplayModel.java",
           "src/main/java/net/mcreator/fbms/block/renderer/ProjectorTileRenderer.java",
           "src/main/java/net/mcreator/fbms/block/display/ProjectorDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/entity/ProjectorTileEntity.java",
+          "src/main/resources/assets/fbms/blockstates/projector.json",
           "src/main/java/net/mcreator/fbms/block/ProjectorBlock.java",
-          "src/main/resources/assets/fbms/models/item/projector.json",
-          "src/main/java/net/mcreator/fbms/block/renderer/ProjectorDisplayItemRenderer.java",
+          "src/main/resources/assets/fbms/models/custom/projector_particle.json",
           "src/main/java/net/mcreator/fbms/block/model/ProjectorBlockModel.java",
-          "src/main/java/net/mcreator/fbms/block/model/ProjectorDisplayModel.java",
-          "src/main/resources/assets/fbms/blockstates/projector.json"
+          "src/main/resources/assets/fbms/models/item/projector.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/ProjectorDisplayItemRenderer.java"
         ]
       },
       "path": "~/Blocks/Props"
@@ -8680,6 +8701,29 @@
         ]
       },
       "path": "~/Blocks/Props"
+    },
+    {
+      "name": "Projection",
+      "type": "animatedblock",
+      "sortid": 424,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "projection",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/ProjectionBlock.java",
+          "src/main/java/net/mcreator/fbms/block/model/ProjectionDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/entity/ProjectionTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/model/ProjectionBlockModel.java",
+          "src/main/resources/assets/fbms/blockstates/projection.json",
+          "src/main/resources/assets/fbms/models/item/projection.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/ProjectionDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/display/ProjectionDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/ProjectionTileRenderer.java",
+          "src/main/resources/assets/fbms/models/custom/projection_particle.json"
+        ]
+      },
+      "path": "~/Blocks/Props"
     }
   ],
   "variable_elements": [],
@@ -8749,12 +8793,12 @@
       "subtitle": "Door Slide"
     },
     {
-      "name": "song3",
+      "name": "song7",
       "files": [
-        "circus"
+        "talking_in_your_sleep"
       ],
       "category": "neutral",
-      "subtitle": "Song3"
+      "subtitle": "Playing \u0027Talking In Your Sleep\u0027 by the Romantics"
     },
     {
       "name": "song4",
@@ -8762,31 +8806,7 @@
         "05._mangles_quest"
       ],
       "category": "neutral",
-      "subtitle": "Song4"
-    },
-    {
-      "name": "song5",
-      "files": [
-        "lesclochesdumonastere_orginal"
-      ],
-      "category": "neutral",
-      "subtitle": "Song5"
-    },
-    {
-      "name": "song6",
-      "files": [
-        "24._turtle_crusher"
-      ],
-      "category": "neutral",
-      "subtitle": "Song6"
-    },
-    {
-      "name": "song1",
-      "files": [
-        "1-17._title_screen"
-      ],
-      "category": "neutral",
-      "subtitle": "Song1"
+      "subtitle": "Playing \u0027Mangle\u0027s Quest\u0027 Soundtrack"
     },
     {
       "name": "song2",
@@ -8794,15 +8814,47 @@
         "1-15._smashing_windshields"
       ],
       "category": "neutral",
-      "subtitle": "Song2"
+      "subtitle": "Playing \u0027Smashing Windshields\u0027"
     },
     {
-      "name": "song7",
+      "name": "song3",
       "files": [
-        "talking_in_your_sleep"
+        "circus"
       ],
       "category": "neutral",
-      "subtitle": ""
+      "subtitle": "Playing Carousel Music\u0027"
+    },
+    {
+      "name": "song5",
+      "files": [
+        "lesclochesdumonastere_orginal"
+      ],
+      "category": "neutral",
+      "subtitle": "Playing \u0027Les Cloches Du Monastère\u0027"
+    },
+    {
+      "name": "song1",
+      "files": [
+        "1-17._title_screen"
+      ],
+      "category": "neutral",
+      "subtitle": "Playing \u0027Title Screen\u0027 - FFPS"
+    },
+    {
+      "name": "song6",
+      "files": [
+        "24._turtle_crusher"
+      ],
+      "category": "neutral",
+      "subtitle": "Playing \u0027Turtle Crusher\u0027\u0027"
+    },
+    {
+      "name": "song8",
+      "files": [
+        "song8"
+      ],
+      "category": "neutral",
+      "subtitle": "Playing \u0027Fazbear Family\u0027 by Stupendium"
     }
   ],
   "language_map": {
@@ -8919,6 +8971,7 @@
       "block.fbms.green_curtain": "Green Curtain",
       "block.fbms.neon_stage_lights_orange": "Neon Stage Light (Orange)",
       "block.fbms.black_stage_bricks": "Black Stage Bricks",
+      "block.fbms.projection": "Projection",
       "block.fbms.old_foxy": "Old Foxy",
       "block.fbms.safety_poster_bonnie": "Safety Poster (Bonnie)",
       "block.fbms.safety_poster_chica": "Safety Poster (Chica)",
@@ -9200,20 +9253,21 @@
       "block.fbms.mr_hippo_animated": "Mr Hippo Animated",
       "block.fbms.black_white_clean_tiles": "Black White Clean Tiles",
       "block.fbms.thin_magenta_curtain": "Thin Magenta Curtain",
+      "subtitles.song8": "Playing \u0027Fazbear Family\u0027 by Stupendium",
       "block.fbms.branded_box": "Branded Box",
       "block.fbms.ignited_chica": "Ignited Chica",
       "block.fbms.mr_can_do": "Mr Can Do",
-      "subtitles.song3": "Song3",
-      "subtitles.song2": "Song2",
+      "subtitles.song3": "Playing Carousel Music\u0027",
+      "subtitles.song2": "Playing \u0027Smashing Windshields\u0027",
       "block.fbms.black_white_tiles_slab": "Black White Tiles Slab",
-      "subtitles.song1": "Song1",
+      "subtitles.song1": "Playing \u0027Title Screen\u0027 - FFPS",
       "block.fbms.pizza_place_sign": "Pizza Place Sign",
-      "subtitles.song7": "",
-      "subtitles.song6": "Song6",
-      "subtitles.song5": "Song5",
+      "subtitles.song7": "Playing \u0027Talking In Your Sleep\u0027 by the Romantics",
+      "subtitles.song6": "Playing \u0027Turtle Crusher\u0027\u0027",
+      "subtitles.song5": "Playing \u0027Les Cloches Du Monastère\u0027",
       "item.fbms.maracas": "Maracas",
       "block.fbms.d_balloon_boy": "D Balloon Boy",
-      "subtitles.song4": "Song4",
+      "subtitles.song4": "Playing \u0027Mangle\u0027s Quest\u0027 Soundtrack",
       "item.fbms.doge_ram_spawn_egg": "Doge Ram 1982 Spawn Egg",
       "block.fbms.wally_walrus": "Wally Walrus",
       "block.fbms.safety_poster_foxy": "Safety Poster (Foxy)",

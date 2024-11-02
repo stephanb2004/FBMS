@@ -71,11 +71,11 @@
       }
     ]
   },
-  "song3": {
-    "subtitle": "subtitles.song3",
+  "song7": {
+    "subtitle": "subtitles.song7",
     "sounds": [
       {
-        "name": "fbms:circus",
+        "name": "fbms:talking_in_your_sleep",
         "stream": false
       }
     ]
@@ -89,20 +89,29 @@
       }
     ]
   },
+  "song2": {
+    "subtitle": "subtitles.song2",
+    "sounds": [
+      {
+        "name": "fbms:1-15._smashing_windshields",
+        "stream": false
+      }
+    ]
+  },
+  "song3": {
+    "subtitle": "subtitles.song3",
+    "sounds": [
+      {
+        "name": "fbms:circus",
+        "stream": false
+      }
+    ]
+  },
   "song5": {
     "subtitle": "subtitles.song5",
     "sounds": [
       {
         "name": "fbms:lesclochesdumonastere_orginal",
-        "stream": false
-      }
-    ]
-  },
-  "song6": {
-    "subtitle": "subtitles.song6",
-    "sounds": [
-      {
-        "name": "fbms:24._turtle_crusher",
         "stream": false
       }
     ]
@@ -116,19 +125,20 @@
       }
     ]
   },
-  "song2": {
-    "subtitle": "subtitles.song2",
+  "song6": {
+    "subtitle": "subtitles.song6",
     "sounds": [
       {
-        "name": "fbms:1-15._smashing_windshields",
+        "name": "fbms:24._turtle_crusher",
         "stream": false
       }
     ]
   },
-  "song7": {
+  "song8": {
+    "subtitle": "subtitles.song8",
     "sounds": [
       {
-        "name": "fbms:talking_in_your_sleep",
+        "name": "fbms:song8",
         "stream": false
       }
     ]
