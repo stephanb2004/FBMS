@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fbms:blocks/redwall",
+    "up": "fbms:blocks/redwall",
+    "north": "fbms:blocks/redwallchecker",
+    "east": "fbms:blocks/redwallchecker",
+    "south": "fbms:blocks/redwallchecker",
+    "west": "fbms:blocks/redwallchecker",
+    "particle": "fbms:blocks/redwall"
+  },
+  "render_type": "solid"
+}

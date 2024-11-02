@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.fbms.client.renderer.StationWagonRenderer;
 import net.mcreator.fbms.client.renderer.SeatRenderer;
+import net.mcreator.fbms.client.renderer.RatRenderer;
 import net.mcreator.fbms.client.renderer.ImpalaRenderer;
 import net.mcreator.fbms.client.renderer.DogeRamRenderer;
 import net.mcreator.fbms.client.renderer.DfredbearRenderer;
@@ -34,5 +35,6 @@ public class FbmsModEntityRenderers {
 		event.registerEntityRenderer(FbmsModEntities.DFREDBEAR.get(), DfredbearRenderer::new);
 		event.registerEntityRenderer(FbmsModEntities.D_MANGLE.get(), DMangleRenderer::new);
 		event.registerEntityRenderer(FbmsModEntities.SEAT.get(), SeatRenderer::new);
+		event.registerEntityRenderer(FbmsModEntities.RAT.get(), RatRenderer::new);
 	}
 }

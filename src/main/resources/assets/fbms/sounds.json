@@ -70,5 +70,67 @@
         "stream": false
       }
     ]
+  },
+  "song3": {
+    "subtitle": "subtitles.song3",
+    "sounds": [
+      {
+        "name": "fbms:circus",
+        "stream": false
+      }
+    ]
+  },
+  "song4": {
+    "subtitle": "subtitles.song4",
+    "sounds": [
+      {
+        "name": "fbms:05._mangles_quest",
+        "stream": false
+      }
+    ]
+  },
+  "song5": {
+    "subtitle": "subtitles.song5",
+    "sounds": [
+      {
+        "name": "fbms:lesclochesdumonastere_orginal",
+        "stream": false
+      }
+    ]
+  },
+  "song6": {
+    "subtitle": "subtitles.song6",
+    "sounds": [
+      {
+        "name": "fbms:24._turtle_crusher",
+        "stream": false
+      }
+    ]
+  },
+  "song1": {
+    "subtitle": "subtitles.song1",
+    "sounds": [
+      {
+        "name": "fbms:1-17._title_screen",
+        "stream": false
+      }
+    ]
+  },
+  "song2": {
+    "subtitle": "subtitles.song2",
+    "sounds": [
+      {
+        "name": "fbms:1-15._smashing_windshields",
+        "stream": false
+      }
+    ]
+  },
+  "song7": {
+    "sounds": [
+      {
+        "name": "fbms:talking_in_your_sleep",
+        "stream": false
+      }
+    ]
   }
 }

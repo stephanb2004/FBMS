@@ -1,0 +1,8 @@
+{
+  "parent": "block/door_bottom_right",
+  "textures": {
+    "bottom": "fbms:blocks/fnaf6officedoorbottem",
+    "top": "fbms:blocks/fnaf6officedoortopalt"
+  },
+  "render_type": "translucent"
+}

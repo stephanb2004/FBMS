@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fbms:blocks/purplewall",
+    "particle": "fbms:blocks/purplewall"
+  },
+  "render_type": "solid"
+}

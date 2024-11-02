@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fbms:blocks/cyanwall",
+    "particle": "fbms:blocks/cyanwall"
+  },
+  "render_type": "solid"
+}

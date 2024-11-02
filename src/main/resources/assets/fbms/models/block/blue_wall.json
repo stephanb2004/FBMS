@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fbms:blocks/bluewall",
+    "up": "fbms:blocks/bluewall",
+    "north": "fbms:blocks/bluewall",
+    "east": "fbms:blocks/bluewall",
+    "south": "fbms:blocks/bluewall",
+    "west": "fbms:blocks/bluewall",
+    "particle": "fbms:blocks/bluewall"
+  },
+  "render_type": "solid"
+}

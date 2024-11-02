@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fbms:blocks/blackbricks",
+    "particle": "fbms:blocks/blackbricks"
+  },
+  "render_type": "solid"
+}

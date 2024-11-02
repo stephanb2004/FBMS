@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fbms:blocks/pinkwall",
+    "particle": "fbms:blocks/pinkwall"
+  },
+  "render_type": "solid"
+}

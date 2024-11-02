@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "fbms:blocks/magentacurtain"
+  },
+  "render_type": "solid"
+}

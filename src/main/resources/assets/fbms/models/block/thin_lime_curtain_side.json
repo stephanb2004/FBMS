@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_glass_pane_side",
+  "textures": {
+    "edge": "fbms:blocks/limecurtain",
+    "pane": "fbms:blocks/limecurtain"
+  },
+  "render_type": "solid"
+}

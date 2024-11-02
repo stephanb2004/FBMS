@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:custom/helpy_cut_out_particle"
+    },
+    "facing=east": {
+      "model": "fbms:custom/helpy_cut_out_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:custom/helpy_cut_out_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:custom/helpy_cut_out_particle",
+      "y": 270
+    }
+  }
+}

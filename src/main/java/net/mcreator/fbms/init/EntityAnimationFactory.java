@@ -5,6 +5,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.living.LivingEvent;
 
 import net.mcreator.fbms.entity.StationWagonEntity;
+import net.mcreator.fbms.entity.RatEntity;
 import net.mcreator.fbms.entity.ImpalaEntity;
 import net.mcreator.fbms.entity.DogeRamEntity;
 import net.mcreator.fbms.entity.DfredbearEntity;
@@ -76,6 +77,13 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof DMangleEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof RatEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

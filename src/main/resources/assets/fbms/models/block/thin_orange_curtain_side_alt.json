@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_glass_pane_side_alt",
+  "textures": {
+    "edge": "fbms:blocks/orangecurtain",
+    "pane": "fbms:blocks/orangecurtain"
+  },
+  "render_type": "solid"
+}

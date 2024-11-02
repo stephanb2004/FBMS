@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_noside",
+  "textures": {
+    "pane": "fbms:blocks/lightgraycurtain"
+  },
+  "render_type": "solid"
+}

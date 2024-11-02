@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_glass_pane_post",
+  "textures": {
+    "edge": "fbms:blocks/cyancurtain",
+    "pane": "fbms:blocks/cyancurtain"
+  },
+  "render_type": "solid"
+}

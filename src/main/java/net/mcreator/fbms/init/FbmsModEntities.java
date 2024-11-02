@@ -18,6 +18,7 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.fbms.entity.StationWagonEntity;
 import net.mcreator.fbms.entity.SeatEntity;
+import net.mcreator.fbms.entity.RatEntity;
 import net.mcreator.fbms.entity.ImpalaEntity;
 import net.mcreator.fbms.entity.DogeRamEntity;
 import net.mcreator.fbms.entity.DfredbearEntity;
@@ -71,6 +72,10 @@ public class FbmsModEntities {
 			EntityType.Builder.<SeatEntity>of(SeatEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SeatEntity::new)
 
 					.sized(0.5f, 0.375f));
+	public static final RegistryObject<EntityType<RatEntity>> RAT = register("rat",
+			EntityType.Builder.<RatEntity>of(RatEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RatEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -89,6 +94,7 @@ public class FbmsModEntities {
 			DfredbearEntity.init();
 			DMangleEntity.init();
 			SeatEntity.init();
+			RatEntity.init();
 		});
 	}
 
@@ -104,5 +110,6 @@ public class FbmsModEntities {
 		event.put(DFREDBEAR.get(), DfredbearEntity.createAttributes().build());
 		event.put(D_MANGLE.get(), DMangleEntity.createAttributes().build());
 		event.put(SEAT.get(), SeatEntity.createAttributes().build());
+		event.put(RAT.get(), RatEntity.createAttributes().build());
 	}
 }

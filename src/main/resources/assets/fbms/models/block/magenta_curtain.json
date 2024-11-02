@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fbms:blocks/magentacurtain",
+    "particle": "fbms:blocks/magentacurtain"
+  },
+  "render_type": "solid"
+}
