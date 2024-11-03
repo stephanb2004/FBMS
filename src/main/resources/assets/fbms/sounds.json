@@ -142,5 +142,14 @@
         "stream": false
       }
     ]
+  },
+  "arcade_turnon": {
+    "subtitle": "subtitles.arcade_turnon",
+    "sounds": [
+      {
+        "name": "fbms:arcade_turnon",
+        "stream": false
+      }
+    ]
   }
 }

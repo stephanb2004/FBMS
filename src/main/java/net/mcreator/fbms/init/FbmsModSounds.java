@@ -31,4 +31,5 @@ public class FbmsModSounds {
 	public static final RegistryObject<SoundEvent> SONG6 = REGISTRY.register("song6", () -> new SoundEvent(new ResourceLocation("fbms", "song6")));
 	public static final RegistryObject<SoundEvent> SONG8 = REGISTRY.register("song8", () -> new SoundEvent(new ResourceLocation("fbms", "song8")));
 	public static final RegistryObject<SoundEvent> SONG7 = REGISTRY.register("song7", () -> new SoundEvent(new ResourceLocation("fbms", "song7")));
+	public static final RegistryObject<SoundEvent> ARCADE_TURNON = REGISTRY.register("arcade_turnon", () -> new SoundEvent(new ResourceLocation("fbms", "arcade_turnon")));
 }

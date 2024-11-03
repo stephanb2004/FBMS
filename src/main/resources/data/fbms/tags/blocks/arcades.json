@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "fbms:arcade_freddy",
+    "fbms:arcade_bonnie",
+    "fbms:arcade_bonnie_on",
+    "fbms:arcade_foxy_on",
+    "fbms:arcade_freddy_on"
+  ]
+}

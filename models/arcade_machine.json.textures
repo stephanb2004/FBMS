@@ -1,0 +1,40 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "arcade_freddy"
+      },
+      "name": "default"
+    },
+    "bonnie": {
+      "map": {
+        "1": "arcade_bonnie"
+      },
+      "name": "bonnie"
+    },
+    "foxy": {
+      "map": {
+        "1": "arcade_foxy"
+      },
+      "name": "foxy"
+    },
+    "freddyon": {
+      "map": {
+        "1": "arcade_freddy_on"
+      },
+      "name": "freddyon"
+    },
+    "bonnieon": {
+      "map": {
+        "1": "arcade_bonnie_on"
+      },
+      "name": "bonnieon"
+    },
+    "foxyon": {
+      "map": {
+        "1": "arcade_foxy_on"
+      },
+      "name": "foxyon"
+    }
+  }
+}

@@ -8901,6 +8901,248 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "ArcadeBonnieOn",
+      "type": "block",
+      "sortid": 438,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcade_bonnie_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/ArcadeBonnieOnBlock.java",
+          "src/main/resources/assets/fbms/models/item/arcade_bonnie_on.json",
+          "src/main/resources/assets/fbms/models/block/arcade_bonnie_on.json",
+          "src/main/resources/assets/fbms/blockstates/arcade_bonnie_on.json"
+        ]
+      },
+      "path": "~/Blocks/Props"
+    },
+    {
+      "name": "ArcadeFoxyOn",
+      "type": "block",
+      "sortid": 440,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcade_foxy_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/block/arcade_foxy_on.json",
+          "src/main/java/net/mcreator/fbms/block/ArcadeFoxyOnBlock.java",
+          "src/main/resources/assets/fbms/blockstates/arcade_foxy_on.json",
+          "src/main/resources/assets/fbms/models/item/arcade_foxy_on.json"
+        ]
+      },
+      "path": "~/Blocks/Props"
+    },
+    {
+      "name": "GusThePug",
+      "type": "animatedblock",
+      "sortid": 444,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gus_the_pug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/model/GusThePugDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/GusThePugDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/GusThePugTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/GusThePugBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/entity/GusThePugTileEntity.java",
+          "src/main/resources/assets/fbms/models/custom/gus_the_pug_particle.json",
+          "src/main/java/net/mcreator/fbms/block/display/GusThePugDisplayItem.java",
+          "src/main/resources/assets/fbms/models/item/gus_the_pug.json",
+          "src/main/java/net/mcreator/fbms/block/GusThePugBlock.java",
+          "src/main/resources/assets/fbms/blockstates/gus_the_pug.json"
+        ]
+      },
+      "path": "~/Blocks/Animatronics/Animatable"
+    },
+    {
+      "name": "ArcadeFreddyOn",
+      "type": "block",
+      "sortid": 436,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcade_freddy_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/ArcadeFreddyOnBlock.java",
+          "src/main/resources/assets/fbms/models/block/arcade_freddy_on.json",
+          "src/main/resources/assets/fbms/models/item/arcade_freddy_on.json",
+          "src/main/resources/assets/fbms/blockstates/arcade_freddy_on.json"
+        ]
+      },
+      "path": "~/Blocks/Props"
+    },
+    {
+      "name": "ArcadeFreddy",
+      "type": "block",
+      "sortid": 435,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcade_freddy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/ArcadeFreddyBlock.java",
+          "src/main/resources/assets/fbms/models/block/arcade_freddy.json",
+          "src/main/resources/assets/fbms/blockstates/arcade_freddy.json",
+          "src/main/resources/assets/fbms/models/item/arcade_freddy.json"
+        ]
+      },
+      "path": "~/Blocks/Props"
+    },
+    {
+      "name": "ArcadeBonnie",
+      "type": "block",
+      "sortid": 437,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcade_bonnie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/arcade_bonnie.json",
+          "src/main/resources/assets/fbms/blockstates/arcade_bonnie.json",
+          "src/main/java/net/mcreator/fbms/block/ArcadeBonnieBlock.java",
+          "src/main/resources/assets/fbms/models/block/arcade_bonnie.json"
+        ]
+      },
+      "path": "~/Blocks/Props"
+    },
+    {
+      "name": "PinballToyFreddy",
+      "type": "animatedblock",
+      "sortid": 443,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinball_toy_freddy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/entity/PinballToyFreddyTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/display/PinballToyFreddyDisplayItem.java",
+          "src/main/resources/assets/fbms/blockstates/pinball_toy_freddy.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/PinballToyFreddyDisplayItemRenderer.java",
+          "src/main/resources/assets/fbms/models/custom/pinball_toy_freddy_particle.json",
+          "src/main/java/net/mcreator/fbms/block/PinballToyFreddyBlock.java",
+          "src/main/resources/assets/fbms/models/item/pinball_toy_freddy.json",
+          "src/main/java/net/mcreator/fbms/block/model/PinballToyFreddyDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/model/PinballToyFreddyBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/PinballToyFreddyTileRenderer.java"
+        ]
+      },
+      "path": "~/Blocks/Props"
+    },
+    {
+      "name": "ArcadeTurningOn",
+      "type": "procedure",
+      "sortid": 442,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcade_turning_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/ArcadeTurningOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Arcades",
+      "type": "tag",
+      "sortid": 441,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcades",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fbms/tags/blocks/arcades.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GusThePugAnimated",
+      "type": "animatedblock",
+      "sortid": 445,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gus_the_pug_animated",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/blockstates/gus_the_pug_animated.json",
+          "src/main/resources/assets/fbms/models/item/gus_the_pug_animated.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/GusThePugAnimatedDisplayItemRenderer.java",
+          "src/main/resources/assets/fbms/models/custom/gus_the_pug_animated_particle.json",
+          "src/main/java/net/mcreator/fbms/block/model/GusThePugAnimatedDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/model/GusThePugAnimatedBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/display/GusThePugAnimatedDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/entity/GusThePugAnimatedTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/GusThePugAnimatedTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/GusThePugAnimatedBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Animatronics/Animatable"
+    },
+    {
+      "name": "RedWallTop",
+      "type": "block",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_wall_top",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/RedWallTopBlock.java",
+          "src/main/resources/assets/fbms/models/block/red_wall_top.json",
+          "src/main/resources/assets/fbms/models/item/red_wall_top.json",
+          "src/main/resources/assets/fbms/blockstates/red_wall_top.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "ArcadeFoxy",
+      "type": "block",
+      "sortid": 439,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcade_foxy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/block/arcade_foxy.json",
+          "src/main/resources/assets/fbms/blockstates/arcade_foxy.json",
+          "src/main/java/net/mcreator/fbms/block/ArcadeFoxyBlock.java",
+          "src/main/resources/assets/fbms/models/item/arcade_foxy.json"
+        ]
+      },
+      "path": "~/Blocks/Props"
     }
   ],
   "variable_elements": [],
@@ -9032,6 +9274,14 @@
       ],
       "category": "neutral",
       "subtitle": "song7"
+    },
+    {
+      "name": "arcade_turnon",
+      "files": [
+        "arcade_turnon"
+      ],
+      "category": "neutral",
+      "subtitle": "Arcade turns on"
     }
   ],
   "language_map": {
@@ -9078,6 +9328,7 @@
       "block.fbms.red_white_tiles": "Red White Tiles",
       "item.fbms.moldy_fries": "Moldy Fries",
       "block.fbms.retro_chica_animated": "Retro Chica (Animated)",
+      "subtitles.arcade_turnon": "Arcade turns on",
       "block.fbms.rock_star_freddy": "Rockstar Freddy",
       "block.fbms.st_endo_animated": "ST-Endo95 (Animated)",
       "block.fbms.gumball_swivel_hands": "Gumball Swivel Hands",
@@ -9533,15 +9784,15 @@
                 "children": []
               },
               {
+                "name": "Pizza Boxes",
+                "children": []
+              },
+              {
                 "name": "Party Sets",
                 "children": []
               },
               {
                 "name": "Plushies",
-                "children": []
-              },
-              {
-                "name": "Pizza Boxes",
                 "children": []
               }
             ]
@@ -9571,15 +9822,15 @@
         ]
       },
       {
+        "name": "Mobs",
+        "children": []
+      },
+      {
         "name": "GasRobots",
         "children": []
       },
       {
         "name": "Tabs",
-        "children": []
-      },
-      {
-        "name": "Mobs",
         "children": []
       }
     ]
