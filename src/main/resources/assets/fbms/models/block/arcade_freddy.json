@@ -1,0 +1,9 @@
+{
+  "parent": "fbms:custom/arcade_machine",
+  "textures": {
+    "all": "fbms:blocks/arcade_freddy",
+    "particle": "fbms:blocks/arcade_freddy",
+    "1": "fbms:blocks/arcade_freddy"
+  },
+  "render_type": "cutout"
+}

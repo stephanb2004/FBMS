@@ -66,6 +66,7 @@ import net.mcreator.fbms.block.renderer.PizzaBox85OpenTileRenderer;
 import net.mcreator.fbms.block.renderer.PizzaBox85ClosedTileRenderer;
 import net.mcreator.fbms.block.renderer.PizzaBox24OpenTileRenderer;
 import net.mcreator.fbms.block.renderer.PizzaBox24ClosedTileRenderer;
+import net.mcreator.fbms.block.renderer.PinballToyFreddyTileRenderer;
 import net.mcreator.fbms.block.renderer.PinTheBowtieOnTheTieTheToyFreddyTileRenderer;
 import net.mcreator.fbms.block.renderer.PinTheBowtieOnTheFreddyTileRenderer;
 import net.mcreator.fbms.block.renderer.PigPatchTileRenderer;
@@ -128,6 +129,8 @@ import net.mcreator.fbms.block.renderer.HazyReindeerTileRenderer;
 import net.mcreator.fbms.block.renderer.HazyReindeerAnimatedTileRenderer;
 import net.mcreator.fbms.block.renderer.HappyFrogTileRenderer;
 import net.mcreator.fbms.block.renderer.HappYFrogAnimatedTileRenderer;
+import net.mcreator.fbms.block.renderer.GusThePugTileRenderer;
+import net.mcreator.fbms.block.renderer.GusThePugAnimatedTileRenderer;
 import net.mcreator.fbms.block.renderer.GtEndoTileRenderer;
 import net.mcreator.fbms.block.renderer.GtEndoAnimatedTileRenderer;
 import net.mcreator.fbms.block.renderer.GravityVortexTileRenderer;
@@ -404,5 +407,8 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.PIZZA_BOX_24_CLOSED.get(), PizzaBox24ClosedTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.DOUG_THE_DOG_ANIMATED.get(), DougTheDogAnimatedTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.PROJECTION.get(), ProjectionTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.PINBALL_TOY_FREDDY.get(), PinballToyFreddyTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.GUS_THE_PUG.get(), GusThePugTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.GUS_THE_PUG_ANIMATED.get(), GusThePugAnimatedTileRenderer::new);
 	}
 }

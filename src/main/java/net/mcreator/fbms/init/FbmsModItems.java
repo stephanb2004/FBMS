@@ -104,6 +104,7 @@ import net.mcreator.fbms.block.display.PizzaBox85OpenDisplayItem;
 import net.mcreator.fbms.block.display.PizzaBox85ClosedDisplayItem;
 import net.mcreator.fbms.block.display.PizzaBox24OpenDisplayItem;
 import net.mcreator.fbms.block.display.PizzaBox24ClosedDisplayItem;
+import net.mcreator.fbms.block.display.PinballToyFreddyDisplayItem;
 import net.mcreator.fbms.block.display.PinTheBowtieOnTheTieTheToyFreddyDisplayItem;
 import net.mcreator.fbms.block.display.PinTheBowtieOnTheFreddyDisplayItem;
 import net.mcreator.fbms.block.display.PigPatchDisplayItem;
@@ -166,6 +167,8 @@ import net.mcreator.fbms.block.display.HazyReindeerDisplayItem;
 import net.mcreator.fbms.block.display.HazyReindeerAnimatedDisplayItem;
 import net.mcreator.fbms.block.display.HappyFrogDisplayItem;
 import net.mcreator.fbms.block.display.HappYFrogAnimatedDisplayItem;
+import net.mcreator.fbms.block.display.GusThePugDisplayItem;
+import net.mcreator.fbms.block.display.GusThePugAnimatedDisplayItem;
 import net.mcreator.fbms.block.display.GtEndoDisplayItem;
 import net.mcreator.fbms.block.display.GtEndoAnimatedDisplayItem;
 import net.mcreator.fbms.block.display.GravityVortexDisplayItem;
@@ -476,6 +479,7 @@ public class FbmsModItems {
 	public static final RegistryObject<Item> BRANDED_BOX = block(FbmsModBlocks.BRANDED_BOX, FbmsModTabs.TAB_FMS_BLOCKS);
 	public static final RegistryObject<Item> RED_WALL = block(FbmsModBlocks.RED_WALL, FbmsModTabs.TAB_FMS_BLOCKS);
 	public static final RegistryObject<Item> POSH_WALL_TILES = block(FbmsModBlocks.POSH_WALL_TILES, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> RED_WALL_TOP = block(FbmsModBlocks.RED_WALL_TOP, FbmsModTabs.TAB_FMS_BLOCKS);
 	public static final RegistryObject<Item> ORANGE_WALL = block(FbmsModBlocks.ORANGE_WALL, FbmsModTabs.TAB_FMS_BLOCKS);
 	public static final RegistryObject<Item> YELLOW_WALLS = block(FbmsModBlocks.YELLOW_WALLS, FbmsModTabs.TAB_FMS_BLOCKS);
 	public static final RegistryObject<Item> LIME_WALL = block(FbmsModBlocks.LIME_WALL, FbmsModTabs.TAB_FMS_BLOCKS);
@@ -735,6 +739,17 @@ public class FbmsModItems {
 			() -> new DougTheDogAnimatedDisplayItem(FbmsModBlocks.DOUG_THE_DOG_ANIMATED.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> CEILING_LIGHT_ON = block(FbmsModBlocks.CEILING_LIGHT_ON, null);
 	public static final RegistryObject<Item> PROJECTION = REGISTRY.register(FbmsModBlocks.PROJECTION.getId().getPath(), () -> new ProjectionDisplayItem(FbmsModBlocks.PROJECTION.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> ARCADE_FREDDY = block(FbmsModBlocks.ARCADE_FREDDY, FbmsModTabs.TAB_SHOP_BLOCKS);
+	public static final RegistryObject<Item> ARCADE_FREDDY_ON = block(FbmsModBlocks.ARCADE_FREDDY_ON, null);
+	public static final RegistryObject<Item> ARCADE_BONNIE = block(FbmsModBlocks.ARCADE_BONNIE, FbmsModTabs.TAB_SHOP_BLOCKS);
+	public static final RegistryObject<Item> ARCADE_BONNIE_ON = block(FbmsModBlocks.ARCADE_BONNIE_ON, null);
+	public static final RegistryObject<Item> ARCADE_FOXY = block(FbmsModBlocks.ARCADE_FOXY, FbmsModTabs.TAB_SHOP_BLOCKS);
+	public static final RegistryObject<Item> ARCADE_FOXY_ON = block(FbmsModBlocks.ARCADE_FOXY_ON, null);
+	public static final RegistryObject<Item> PINBALL_TOY_FREDDY = REGISTRY.register(FbmsModBlocks.PINBALL_TOY_FREDDY.getId().getPath(),
+			() -> new PinballToyFreddyDisplayItem(FbmsModBlocks.PINBALL_TOY_FREDDY.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> GUS_THE_PUG = REGISTRY.register(FbmsModBlocks.GUS_THE_PUG.getId().getPath(), () -> new GusThePugDisplayItem(FbmsModBlocks.GUS_THE_PUG.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> GUS_THE_PUG_ANIMATED = REGISTRY.register(FbmsModBlocks.GUS_THE_PUG_ANIMATED.getId().getPath(),
+			() -> new GusThePugAnimatedDisplayItem(FbmsModBlocks.GUS_THE_PUG_ANIMATED.get(), new Item.Properties().tab(null)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

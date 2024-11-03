@@ -70,6 +70,7 @@ import net.mcreator.fbms.block.entity.PizzaBox85OpenTileEntity;
 import net.mcreator.fbms.block.entity.PizzaBox85ClosedTileEntity;
 import net.mcreator.fbms.block.entity.PizzaBox24OpenTileEntity;
 import net.mcreator.fbms.block.entity.PizzaBox24ClosedTileEntity;
+import net.mcreator.fbms.block.entity.PinballToyFreddyTileEntity;
 import net.mcreator.fbms.block.entity.PinTheBowtieOnTheTieTheToyFreddyTileEntity;
 import net.mcreator.fbms.block.entity.PinTheBowtieOnTheFreddyTileEntity;
 import net.mcreator.fbms.block.entity.PigPatchTileEntity;
@@ -132,6 +133,8 @@ import net.mcreator.fbms.block.entity.HazyReindeerTileEntity;
 import net.mcreator.fbms.block.entity.HazyReindeerAnimatedTileEntity;
 import net.mcreator.fbms.block.entity.HappyFrogTileEntity;
 import net.mcreator.fbms.block.entity.HappYFrogAnimatedTileEntity;
+import net.mcreator.fbms.block.entity.GusThePugTileEntity;
+import net.mcreator.fbms.block.entity.GusThePugAnimatedTileEntity;
 import net.mcreator.fbms.block.entity.GtEndoTileEntity;
 import net.mcreator.fbms.block.entity.GtEndoAnimatedTileEntity;
 import net.mcreator.fbms.block.entity.GravityVortexTileEntity;
@@ -484,6 +487,11 @@ public class FbmsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<DougTheDogAnimatedTileEntity>> DOUG_THE_DOG_ANIMATED = REGISTRY.register("doug_the_dog_animated",
 			() -> BlockEntityType.Builder.of(DougTheDogAnimatedTileEntity::new, FbmsModBlocks.DOUG_THE_DOG_ANIMATED.get()).build(null));
 	public static final RegistryObject<BlockEntityType<ProjectionTileEntity>> PROJECTION = REGISTRY.register("projection", () -> BlockEntityType.Builder.of(ProjectionTileEntity::new, FbmsModBlocks.PROJECTION.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PinballToyFreddyTileEntity>> PINBALL_TOY_FREDDY = REGISTRY.register("pinball_toy_freddy",
+			() -> BlockEntityType.Builder.of(PinballToyFreddyTileEntity::new, FbmsModBlocks.PINBALL_TOY_FREDDY.get()).build(null));
+	public static final RegistryObject<BlockEntityType<GusThePugTileEntity>> GUS_THE_PUG = REGISTRY.register("gus_the_pug", () -> BlockEntityType.Builder.of(GusThePugTileEntity::new, FbmsModBlocks.GUS_THE_PUG.get()).build(null));
+	public static final RegistryObject<BlockEntityType<GusThePugAnimatedTileEntity>> GUS_THE_PUG_ANIMATED = REGISTRY.register("gus_the_pug_animated",
+			() -> BlockEntityType.Builder.of(GusThePugAnimatedTileEntity::new, FbmsModBlocks.GUS_THE_PUG_ANIMATED.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

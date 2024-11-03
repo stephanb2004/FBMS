@@ -113,6 +113,36 @@ public class AnimatedAnimatronicOnBlockRightClickedProcedure {
 					}
 					world.setBlock(_bp, _bs, 3);
 				}
+			} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.GUS_THE_PUG.get()) {
+				{
+					BlockPos _bp = new BlockPos(x, y, z);
+					BlockState _bs = FbmsModBlocks.GUS_THE_PUG_ANIMATED.get().defaultBlockState();
+					BlockState _bso = world.getBlockState(_bp);
+					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+						Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+						if (_property != null && _bs.getValue(_property) != null)
+							try {
+								_bs = _bs.setValue(_property, (Comparable) entry.getValue());
+							} catch (Exception e) {
+							}
+					}
+					world.setBlock(_bp, _bs, 3);
+				}
+			} else if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.GUS_THE_PUG_ANIMATED.get()) {
+				{
+					BlockPos _bp = new BlockPos(x, y, z);
+					BlockState _bs = FbmsModBlocks.GUS_THE_PUG.get().defaultBlockState();
+					BlockState _bso = world.getBlockState(_bp);
+					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+						Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+						if (_property != null && _bs.getValue(_property) != null)
+							try {
+								_bs = _bs.setValue(_property, (Comparable) entry.getValue());
+							} catch (Exception e) {
+							}
+					}
+					world.setBlock(_bp, _bs, 3);
+				}
 			}
 			if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FbmsModBlocks.ROCK_STAR_FREDDY.get()) {
 				{

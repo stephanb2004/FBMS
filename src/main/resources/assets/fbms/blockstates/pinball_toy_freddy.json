@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:custom/pinball_toy_freddy_particle"
+    },
+    "facing=east": {
+      "model": "fbms:custom/pinball_toy_freddy_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:custom/pinball_toy_freddy_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:custom/pinball_toy_freddy_particle",
+      "y": 270
+    }
+  }
+}

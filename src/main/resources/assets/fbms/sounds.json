@@ -134,6 +134,15 @@
       }
     ]
   },
+  "arcade_turnon": {
+    "subtitle": "subtitles.arcade_turnon",
+    "sounds": [
+      {
+        "name": "fbms:arcade_turnon",
+        "stream": false
+      }
+    ]
+  },
   "song7": {
     "subtitle": "subtitles.song7",
     "sounds": [
