@@ -24,6 +24,7 @@ import net.mcreator.fbms.item.PizzaItem;
 import net.mcreator.fbms.item.MoldyPizzaItem;
 import net.mcreator.fbms.item.MoldyHotDogItem;
 import net.mcreator.fbms.item.MoldyFriesItem;
+import net.mcreator.fbms.item.MoldyFriedChickenItem;
 import net.mcreator.fbms.item.MoldyCheesePizzaItem;
 import net.mcreator.fbms.item.MaracasItem;
 import net.mcreator.fbms.item.MandolinItem;
@@ -34,6 +35,7 @@ import net.mcreator.fbms.item.GoldenBiteItem;
 import net.mcreator.fbms.item.GlassesItem;
 import net.mcreator.fbms.item.GasMaskItem;
 import net.mcreator.fbms.item.FriesItem;
+import net.mcreator.fbms.item.FriedChickenItem;
 import net.mcreator.fbms.item.FATItem;
 import net.mcreator.fbms.item.CupFiztime2Item;
 import net.mcreator.fbms.item.CupFiztime1Item;
@@ -731,6 +733,8 @@ public class FbmsModItems {
 	public static final RegistryObject<Item> MYSTERIOUS_GIANT_SCUTTLERS_SPAWN_EGG = REGISTRY.register("mysterious_giant_scuttlers_spawn_egg",
 			() -> new ForgeSpawnEggItem(FbmsModEntities.MYSTERIOUS_GIANT_SCUTTLERS, -6711040, -6724096, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> DARK_GRAY_WALL = block(FbmsModBlocks.DARK_GRAY_WALL, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> FRIED_CHICKEN = REGISTRY.register("fried_chicken", () -> new FriedChickenItem());
+	public static final RegistryObject<Item> MOLDY_FRIED_CHICKEN = REGISTRY.register("moldy_fried_chicken", () -> new MoldyFriedChickenItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
