@@ -8,8 +8,8 @@
     "textureFront": "lightgraywall",
     "textureRight": "lightgraywall",
     "textureBack": "lightgraywall",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Light Gray Wall",
+    "name": "Gray Wall",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

@@ -4,12 +4,12 @@
   "definition": {
     "texture": "redwall",
     "textureTop": "redwall",
-    "textureLeft": "redwallchecker",
-    "textureFront": "redwallchecker",
-    "textureRight": "redwallchecker",
-    "textureBack": "redwallchecker",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "textureLeft": "wallcheckeredtiles_bottom",
+    "textureFront": "redwall",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 14,
+    "customModelName": "Grass block",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -20,7 +20,7 @@
     "isItemTinted": false,
     "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {

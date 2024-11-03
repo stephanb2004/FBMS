@@ -241,7 +241,6 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.RIDING_ROCKETS_PURPLE.get(), RidingRocketsPurpleTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.DELUXE_SPEAKER_SET.get(), DeluxeSpeakerSetTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.ENHANCED_SPEAKER_SET.get(), EnhancedSpeakerSetTileRenderer::new);
-		event.registerBlockEntityRenderer(FbmsModBlockEntities.NEON_JUKE_BOX.get(), NeonJukeBoxTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.NEON_STAGE_LIGHT_GREEN.get(), NeonStageLightGreenTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.NEON_STAGE_LIGHTS_PINK.get(), NeonStageLightsPinkTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.NEON_STAGE_LIGHTS_BLUE.get(), NeonStageLightsBlueTileRenderer::new);
@@ -257,6 +256,7 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.PIZZA_BOX_87_OPEN.get(), PizzaBox87OpenTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.PIZZA_BOX_93_OPEN.get(), PizzaBox93OpenTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.PIZZA_BOX_24_OPEN.get(), PizzaBox24OpenTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.NEON_JUKE_BOX_OFF.get(), NeonJukeBoxOffTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.CANDY_CADET.get(), CandyCadetTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.BITE_FRED_BEAR_CUTOUT.get(), BiteFredBearCutoutTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.MOLDY_RABBIT.get(), MoldyRabbitTileRenderer::new);
@@ -358,6 +358,12 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.SIGN_RFA.get(), SignRFATileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.SIGN_SNS.get(), SignSNSTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.SIGN_MS.get(), SignMSTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.PROJECTOR.get(), ProjectorTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.CAM.get(), CamTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.FREDDY_CUT_OUT.get(), FreddyCutOutTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.BONNIE_CUT_OUT.get(), BonnieCutOutTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.CHICA_CUT_OUT.get(), ChicaCutOutTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.HELPY_CUT_OUT.get(), HelpyCutOutTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.DOC_PLUSH.get(), DocPlushTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.GARF_PLUSH.get(), GarfPlushTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.ROSEY.get(), RoseyTileRenderer::new);
@@ -381,6 +387,7 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.ROCK_STAR_FOXY_ANIMATED.get(), RockStarFoxyAnimatedTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.ROCK_STAR_FREDDY_ANIMATED.get(), RockStarFreddyAnimatedTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.RUSTY_ANIMATED.get(), RustyAnimatedTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.NEON_JUKE_BOX.get(), NeonJukeBoxTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.GRAVITY_VORTEX.get(), GravityVortexTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.FRIGHTS_SIGN.get(), FrightsSignTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.HAZY_REINDEER_ANIMATED.get(), HazyReindeerAnimatedTileRenderer::new);
@@ -396,13 +403,6 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.PIZZA_BOX_93_CLOSED.get(), PizzaBox93ClosedTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.PIZZA_BOX_24_CLOSED.get(), PizzaBox24ClosedTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.DOUG_THE_DOG_ANIMATED.get(), DougTheDogAnimatedTileRenderer::new);
-		event.registerBlockEntityRenderer(FbmsModBlockEntities.PROJECTOR.get(), ProjectorTileRenderer::new);
-		event.registerBlockEntityRenderer(FbmsModBlockEntities.CAM.get(), CamTileRenderer::new);
-		event.registerBlockEntityRenderer(FbmsModBlockEntities.FREDDY_CUT_OUT.get(), FreddyCutOutTileRenderer::new);
-		event.registerBlockEntityRenderer(FbmsModBlockEntities.BONNIE_CUT_OUT.get(), BonnieCutOutTileRenderer::new);
-		event.registerBlockEntityRenderer(FbmsModBlockEntities.CHICA_CUT_OUT.get(), ChicaCutOutTileRenderer::new);
-		event.registerBlockEntityRenderer(FbmsModBlockEntities.HELPY_CUT_OUT.get(), HelpyCutOutTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.PROJECTION.get(), ProjectionTileRenderer::new);
-		event.registerBlockEntityRenderer(FbmsModBlockEntities.NEON_JUKE_BOX_OFF.get(), NeonJukeBoxOffTileRenderer::new);
 	}
 }

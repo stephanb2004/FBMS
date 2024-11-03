@@ -69,10 +69,6 @@ public class FbmsModEntities {
 			EntityType.Builder.<DMangleEntity>of(DMangleEntity::new, MobCategory.AXOLOTLS).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DMangleEntity::new)
 
 					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<SeatEntity>> SEAT = register("seat",
-			EntityType.Builder.<SeatEntity>of(SeatEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SeatEntity::new)
-
-					.sized(0.5f, 0.375f));
 	public static final RegistryObject<EntityType<RatEntity>> RAT = register("rat",
 			EntityType.Builder.<RatEntity>of(RatEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RatEntity::new)
 
@@ -82,6 +78,10 @@ public class FbmsModEntities {
 					.setCustomClientFactory(MysteriousGiantScuttlersEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<SeatEntity>> SEAT = register("seat",
+			EntityType.Builder.<SeatEntity>of(SeatEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SeatEntity::new)
+
+					.sized(0.5f, 0.375f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -99,9 +99,9 @@ public class FbmsModEntities {
 			DFoxyEntity.init();
 			DfredbearEntity.init();
 			DMangleEntity.init();
-			SeatEntity.init();
 			RatEntity.init();
 			MysteriousGiantScuttlersEntity.init();
+			SeatEntity.init();
 		});
 	}
 
@@ -116,8 +116,8 @@ public class FbmsModEntities {
 		event.put(D_FOXY.get(), DFoxyEntity.createAttributes().build());
 		event.put(DFREDBEAR.get(), DfredbearEntity.createAttributes().build());
 		event.put(D_MANGLE.get(), DMangleEntity.createAttributes().build());
-		event.put(SEAT.get(), SeatEntity.createAttributes().build());
 		event.put(RAT.get(), RatEntity.createAttributes().build());
 		event.put(MYSTERIOUS_GIANT_SCUTTLERS.get(), MysteriousGiantScuttlersEntity.createAttributes().build());
+		event.put(SEAT.get(), SeatEntity.createAttributes().build());
 	}
 }

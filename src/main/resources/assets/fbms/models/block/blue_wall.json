@@ -1,12 +1,7 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "fbms:blocks/bluewall",
-    "up": "fbms:blocks/bluewall",
-    "north": "fbms:blocks/bluewall",
-    "east": "fbms:blocks/bluewall",
-    "south": "fbms:blocks/bluewall",
-    "west": "fbms:blocks/bluewall",
+    "all": "fbms:blocks/bluewall",
     "particle": "fbms:blocks/bluewall"
   },
   "render_type": "solid"

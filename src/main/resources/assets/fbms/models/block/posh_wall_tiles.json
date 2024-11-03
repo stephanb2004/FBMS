@@ -1,13 +1,11 @@
 {
-  "parent": "block/cube",
+  "parent": "block/grass_block",
   "textures": {
-    "down": "fbms:blocks/redwall",
-    "up": "fbms:blocks/redwall",
-    "north": "fbms:blocks/redwallchecker",
-    "east": "fbms:blocks/redwallchecker",
-    "south": "fbms:blocks/redwallchecker",
-    "west": "fbms:blocks/redwallchecker",
+    "bottom": "fbms:blocks/redwall",
+    "top": "fbms:blocks/redwall",
+    "side": "fbms:blocks/redwall",
+    "overlay": "fbms:blocks/wallcheckeredtiles_bottom",
     "particle": "fbms:blocks/redwall"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }

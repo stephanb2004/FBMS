@@ -35,8 +35,8 @@ public class FbmsModEntityRenderers {
 		event.registerEntityRenderer(FbmsModEntities.D_FOXY.get(), DFoxyRenderer::new);
 		event.registerEntityRenderer(FbmsModEntities.DFREDBEAR.get(), DfredbearRenderer::new);
 		event.registerEntityRenderer(FbmsModEntities.D_MANGLE.get(), DMangleRenderer::new);
-		event.registerEntityRenderer(FbmsModEntities.SEAT.get(), SeatRenderer::new);
 		event.registerEntityRenderer(FbmsModEntities.RAT.get(), RatRenderer::new);
 		event.registerEntityRenderer(FbmsModEntities.MYSTERIOUS_GIANT_SCUTTLERS.get(), MysteriousGiantScuttlersRenderer::new);
+		event.registerEntityRenderer(FbmsModEntities.SEAT.get(), SeatRenderer::new);
 	}
 }
