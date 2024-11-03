@@ -94,6 +94,7 @@ import net.mcreator.fbms.block.entity.NeonPartySet3TileEntity;
 import net.mcreator.fbms.block.entity.NeonPartySet2TileEntity;
 import net.mcreator.fbms.block.entity.NeonPartySet1TileEntity;
 import net.mcreator.fbms.block.entity.NeonJukeBoxTileEntity;
+import net.mcreator.fbms.block.entity.NeonJukeBoxOffTileEntity;
 import net.mcreator.fbms.block.entity.NeddBearTileEntity;
 import net.mcreator.fbms.block.entity.NeddBearAnimatedTileEntity;
 import net.mcreator.fbms.block.entity.MusicManTileEntity;
@@ -481,6 +482,8 @@ public class FbmsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<ChicaCutOutTileEntity>> CHICA_CUT_OUT = REGISTRY.register("chica_cut_out", () -> BlockEntityType.Builder.of(ChicaCutOutTileEntity::new, FbmsModBlocks.CHICA_CUT_OUT.get()).build(null));
 	public static final RegistryObject<BlockEntityType<HelpyCutOutTileEntity>> HELPY_CUT_OUT = REGISTRY.register("helpy_cut_out", () -> BlockEntityType.Builder.of(HelpyCutOutTileEntity::new, FbmsModBlocks.HELPY_CUT_OUT.get()).build(null));
 	public static final RegistryObject<BlockEntityType<ProjectionTileEntity>> PROJECTION = REGISTRY.register("projection", () -> BlockEntityType.Builder.of(ProjectionTileEntity::new, FbmsModBlocks.PROJECTION.get()).build(null));
+	public static final RegistryObject<BlockEntityType<NeonJukeBoxOffTileEntity>> NEON_JUKE_BOX_OFF = REGISTRY.register("neon_juke_box_off",
+			() -> BlockEntityType.Builder.of(NeonJukeBoxOffTileEntity::new, FbmsModBlocks.NEON_JUKE_BOX_OFF.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

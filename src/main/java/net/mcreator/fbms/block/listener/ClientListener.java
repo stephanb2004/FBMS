@@ -90,6 +90,7 @@ import net.mcreator.fbms.block.renderer.NeonPartySet3TileRenderer;
 import net.mcreator.fbms.block.renderer.NeonPartySet2TileRenderer;
 import net.mcreator.fbms.block.renderer.NeonPartySet1TileRenderer;
 import net.mcreator.fbms.block.renderer.NeonJukeBoxTileRenderer;
+import net.mcreator.fbms.block.renderer.NeonJukeBoxOffTileRenderer;
 import net.mcreator.fbms.block.renderer.NeddBearTileRenderer;
 import net.mcreator.fbms.block.renderer.NeddBearAnimatedTileRenderer;
 import net.mcreator.fbms.block.renderer.MusicManTileRenderer;
@@ -402,5 +403,6 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.CHICA_CUT_OUT.get(), ChicaCutOutTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.HELPY_CUT_OUT.get(), HelpyCutOutTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.PROJECTION.get(), ProjectionTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.NEON_JUKE_BOX_OFF.get(), NeonJukeBoxOffTileRenderer::new);
 	}
 }

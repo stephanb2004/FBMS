@@ -71,15 +71,6 @@
       }
     ]
   },
-  "song7": {
-    "subtitle": "subtitles.song7",
-    "sounds": [
-      {
-        "name": "fbms:talking_in_your_sleep",
-        "stream": false
-      }
-    ]
-  },
   "song4": {
     "subtitle": "subtitles.song4",
     "sounds": [
@@ -139,6 +130,15 @@
     "sounds": [
       {
         "name": "fbms:song8",
+        "stream": false
+      }
+    ]
+  },
+  "song7": {
+    "subtitle": "subtitles.song7",
+    "sounds": [
+      {
+        "name": "fbms:talking_in_your_sleep",
         "stream": false
       }
     ]

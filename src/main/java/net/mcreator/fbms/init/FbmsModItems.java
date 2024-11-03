@@ -125,6 +125,7 @@ import net.mcreator.fbms.block.display.NeonPartySet4DisplayItem;
 import net.mcreator.fbms.block.display.NeonPartySet3DisplayItem;
 import net.mcreator.fbms.block.display.NeonPartySet2DisplayItem;
 import net.mcreator.fbms.block.display.NeonPartySet1DisplayItem;
+import net.mcreator.fbms.block.display.NeonJukeBoxOffDisplayItem;
 import net.mcreator.fbms.block.display.NeonJukeBoxDisplayItem;
 import net.mcreator.fbms.block.display.NeddBearDisplayItem;
 import net.mcreator.fbms.block.display.NeddBearAnimatedDisplayItem;
@@ -317,8 +318,7 @@ public class FbmsModItems {
 			() -> new DeluxeSpeakerSetDisplayItem(FbmsModBlocks.DELUXE_SPEAKER_SET.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
 	public static final RegistryObject<Item> ENHANCED_SPEAKER_SET = REGISTRY.register(FbmsModBlocks.ENHANCED_SPEAKER_SET.getId().getPath(),
 			() -> new EnhancedSpeakerSetDisplayItem(FbmsModBlocks.ENHANCED_SPEAKER_SET.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
-	public static final RegistryObject<Item> NEON_JUKE_BOX = REGISTRY.register(FbmsModBlocks.NEON_JUKE_BOX.getId().getPath(),
-			() -> new NeonJukeBoxDisplayItem(FbmsModBlocks.NEON_JUKE_BOX.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> NEON_JUKE_BOX = REGISTRY.register(FbmsModBlocks.NEON_JUKE_BOX.getId().getPath(), () -> new NeonJukeBoxDisplayItem(FbmsModBlocks.NEON_JUKE_BOX.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> NEON_STAGE_LIGHT_GREEN = REGISTRY.register(FbmsModBlocks.NEON_STAGE_LIGHT_GREEN.getId().getPath(),
 			() -> new NeonStageLightGreenDisplayItem(FbmsModBlocks.NEON_STAGE_LIGHT_GREEN.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
 	public static final RegistryObject<Item> NEON_STAGE_LIGHTS_PINK = REGISTRY.register(FbmsModBlocks.NEON_STAGE_LIGHTS_PINK.getId().getPath(),
@@ -723,6 +723,14 @@ public class FbmsModItems {
 	public static final RegistryObject<Item> HELPY_CUT_OUT = REGISTRY.register(FbmsModBlocks.HELPY_CUT_OUT.getId().getPath(),
 			() -> new HelpyCutOutDisplayItem(FbmsModBlocks.HELPY_CUT_OUT.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
 	public static final RegistryObject<Item> PROJECTION = REGISTRY.register(FbmsModBlocks.PROJECTION.getId().getPath(), () -> new ProjectionDisplayItem(FbmsModBlocks.PROJECTION.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> NEON_JUKE_BOX_OFF = REGISTRY.register(FbmsModBlocks.NEON_JUKE_BOX_OFF.getId().getPath(),
+			() -> new NeonJukeBoxOffDisplayItem(FbmsModBlocks.NEON_JUKE_BOX_OFF.get(), new Item.Properties().tab(FbmsModTabs.TAB_SHOP_BLOCKS)));
+	public static final RegistryObject<Item> FRED_BEAR_POSTER = block(FbmsModBlocks.FRED_BEAR_POSTER, FbmsModTabs.TAB_PRIVATE_ROOM);
+	public static final RegistryObject<Item> FRED_BEAR_PIZZA_POSTER = block(FbmsModBlocks.FRED_BEAR_PIZZA_POSTER, FbmsModTabs.TAB_PRIVATE_ROOM);
+	public static final RegistryObject<Item> SPRING_BONNIE_POSTER = block(FbmsModBlocks.SPRING_BONNIE_POSTER, FbmsModTabs.TAB_PRIVATE_ROOM);
+	public static final RegistryObject<Item> MYSTERIOUS_GIANT_SCUTTLERS_SPAWN_EGG = REGISTRY.register("mysterious_giant_scuttlers_spawn_egg",
+			() -> new ForgeSpawnEggItem(FbmsModEntities.MYSTERIOUS_GIANT_SCUTTLERS, -6711040, -6724096, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> DARK_GRAY_WALL = block(FbmsModBlocks.DARK_GRAY_WALL, FbmsModTabs.TAB_FMS_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

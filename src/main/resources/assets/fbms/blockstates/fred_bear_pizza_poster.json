@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:block/fred_bear_pizza_poster"
+    },
+    "facing=east": {
+      "model": "fbms:block/fred_bear_pizza_poster",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:block/fred_bear_pizza_poster",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:block/fred_bear_pizza_poster",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fbms:block/fred_bear_pizza_poster",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fbms:block/fred_bear_pizza_poster",
+      "x": 90
+    }
+  }
+}

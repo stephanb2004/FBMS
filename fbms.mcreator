@@ -2371,16 +2371,16 @@
       "registry_name": "neon_juke_box",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fbms/models/item/neon_juke_box.json",
-          "src/main/java/net/mcreator/fbms/block/model/NeonJukeBoxDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/display/NeonJukeBoxDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeonJukeBoxBlockModel.java",
           "src/main/resources/assets/fbms/models/custom/neon_juke_box_particle.json",
-          "src/main/resources/assets/fbms/blockstates/neon_juke_box.json",
           "src/main/java/net/mcreator/fbms/block/entity/NeonJukeBoxTileEntity.java",
+          "src/main/resources/assets/fbms/blockstates/neon_juke_box.json",
           "src/main/java/net/mcreator/fbms/block/renderer/NeonJukeBoxTileRenderer.java",
           "src/main/java/net/mcreator/fbms/block/NeonJukeBoxBlock.java",
-          "src/main/java/net/mcreator/fbms/block/model/NeonJukeBoxBlockModel.java",
-          "src/main/java/net/mcreator/fbms/block/display/NeonJukeBoxDisplayItem.java",
-          "src/main/java/net/mcreator/fbms/block/renderer/NeonJukeBoxDisplayItemRenderer.java"
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonJukeBoxDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeonJukeBoxDisplayModel.java",
+          "src/main/resources/assets/fbms/models/item/neon_juke_box.json"
         ]
       },
       "path": "~/Blocks/Props/Stage Stuff"
@@ -7120,8 +7120,7 @@
           "src/main/java/net/mcreator/fbms/entity/model/RatModel.java",
           "src/main/java/net/mcreator/fbms/entity/RatEntity.java",
           "src/main/resources/assets/fbms/models/item/rat_spawn_egg.json",
-          "src/main/java/net/mcreator/fbms/client/renderer/RatRenderer.java",
-          "src/main/resources/data/fbms/forge/biome_modifier/rat_biome_modifier.json"
+          "src/main/java/net/mcreator/fbms/client/renderer/RatRenderer.java"
         ]
       },
       "path": "~/Mobs"
@@ -7221,6 +7220,10 @@
           "src/main/java/net/mcreator/fbms/procedures/NeonJukeBoxOnBlockRightClickedProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
@@ -8724,6 +8727,150 @@
         ]
       },
       "path": "~/Blocks/Props"
+    },
+    {
+      "name": "NeonJukeBoxOff",
+      "type": "animatedblock",
+      "sortid": 425,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_juke_box_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/model/NeonJukeBoxOffBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/NeonJukeBoxOffBlock.java",
+          "src/main/java/net/mcreator/fbms/block/entity/NeonJukeBoxOffTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonJukeBoxOffTileRenderer.java",
+          "src/main/resources/assets/fbms/blockstates/neon_juke_box_off.json",
+          "src/main/java/net/mcreator/fbms/block/model/NeonJukeBoxOffDisplayModel.java",
+          "src/main/resources/assets/fbms/models/item/neon_juke_box_off.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonJukeBoxOffDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/display/NeonJukeBoxOffDisplayItem.java",
+          "src/main/resources/assets/fbms/models/custom/neon_juke_box_off_particle.json"
+        ]
+      },
+      "path": "~/Blocks/Props/Stage Stuff"
+    },
+    {
+      "name": "NeonJukeBoxOffOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 426,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_juke_box_off_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/procedures/NeonJukeBoxOffOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Props/Stage Stuff"
+    },
+    {
+      "name": "FredBearPoster",
+      "type": "block",
+      "sortid": 427,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fred_bear_poster",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/blockstates/fred_bear_poster.json",
+          "src/main/java/net/mcreator/fbms/block/FredBearPosterBlock.java",
+          "src/main/resources/assets/fbms/models/item/fred_bear_poster.json",
+          "src/main/resources/assets/fbms/models/block/fred_bear_poster.json"
+        ]
+      },
+      "path": "~/Blocks/Props/Poster"
+    },
+    {
+      "name": "FredBearPizzaPoster",
+      "type": "block",
+      "sortid": 428,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fred_bear_pizza_poster",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/FredBearPizzaPosterBlock.java",
+          "src/main/resources/assets/fbms/blockstates/fred_bear_pizza_poster.json",
+          "src/main/resources/assets/fbms/models/item/fred_bear_pizza_poster.json",
+          "src/main/resources/assets/fbms/models/block/fred_bear_pizza_poster.json"
+        ]
+      },
+      "path": "~/Blocks/Props/Poster"
+    },
+    {
+      "name": "SpringBonniePoster",
+      "type": "block",
+      "sortid": 429,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spring_bonnie_poster",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/blockstates/spring_bonnie_poster.json",
+          "src/main/java/net/mcreator/fbms/block/SpringBonniePosterBlock.java",
+          "src/main/resources/assets/fbms/models/block/spring_bonnie_poster.json",
+          "src/main/resources/assets/fbms/models/item/spring_bonnie_poster.json"
+        ]
+      },
+      "path": "~/Blocks/Props/Poster"
+    },
+    {
+      "name": "MysteriousGiantScuttlers",
+      "type": "animatedentity",
+      "sortid": 430,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysterious_giant_scuttlers",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/entity/MysteriousGiantScuttlersEntity.java",
+          "src/main/java/net/mcreator/fbms/client/renderer/MysteriousGiantScuttlersRenderer.java",
+          "src/main/resources/assets/fbms/models/item/mysterious_giant_scuttlers_spawn_egg.json",
+          "src/main/java/net/mcreator/fbms/entity/model/MysteriousGiantScuttlersModel.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "DarkGrayWall",
+      "type": "block",
+      "sortid": 431,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_gray_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/blockstates/dark_gray_wall.json",
+          "src/main/resources/assets/fbms/models/block/dark_gray_wall.json",
+          "src/main/java/net/mcreator/fbms/block/DarkGrayWallBlock.java",
+          "src/main/resources/assets/fbms/models/item/dark_gray_wall.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
     }
   ],
   "variable_elements": [],
@@ -8793,14 +8940,6 @@
       "subtitle": "Door Slide"
     },
     {
-      "name": "song7",
-      "files": [
-        "talking_in_your_sleep"
-      ],
-      "category": "neutral",
-      "subtitle": "Playing \u0027Talking In Your Sleep\u0027 by the Romantics"
-    },
-    {
       "name": "song4",
       "files": [
         "05._mangles_quest"
@@ -8855,6 +8994,14 @@
       ],
       "category": "neutral",
       "subtitle": "Playing \u0027Fazbear Family\u0027 by Stupendium"
+    },
+    {
+      "name": "song7",
+      "files": [
+        "talking_in_your_sleep"
+      ],
+      "category": "neutral",
+      "subtitle": "song7"
     }
   ],
   "language_map": {
@@ -8865,6 +9012,7 @@
       "block.fbms.white_wall": "White Wall",
       "block.fbms.pizza_box_87_open": "Pizza Box (1987)",
       "block.fbms.thin_black_curtain": "Thin Black Curtain",
+      "block.fbms.spring_bonnie_poster": "FredBear Poster",
       "block.fbms.lolbit_record": "Lolbit Record",
       "block.fbms.pizza_box_85_closed": "Pizza Box (1985)",
       "subtitles.byebye": "WERE DID HE GO",
@@ -8876,8 +9024,9 @@
       "block.fbms.black_white_clean_tile_slab": "Black White Clean Tile Slab",
       "block.fbms.black_blue_tiles": "Black Blue Tiles",
       "block.fbms.tv_garfield_show": "TV Monitor (Garfield Show)",
-      "block.fbms.gray_wall": "Gray Wall",
+      "block.fbms.gray_wall": "Light Gray Wall",
       "block.fbms.el_chip": "El Chip",
+      "block.fbms.neon_juke_box_off": "Neon Juke Box",
       "item.fbms.d_freddy_spawn_egg": "D Freddy WIP Spawn Egg",
       "block.fbms.barry_polar_animated": "Barry Polar Animated",
       "block.fbms.black_red_tiles_stairs": "Black Red Tiles Stairs ",
@@ -8961,6 +9110,7 @@
       "block.fbms.number_1_crate": "Number 1 Crate ",
       "subtitles.catplush": "Demonic Car",
       "block.fbms.discount_cooling_unit": "Discount Cooling Unit",
+      "entity.fbms.mysterious_giant_scuttlers": "Mysterious Giant Scuttlers",
       "entity.fbms.station_wagon": "Station Wagon",
       "item.fbms.guitar": "Guitar",
       "itemGroup.tabprops": "Props",
@@ -9108,6 +9258,7 @@
       "block.fbms.freddy_faz_bear": "Freddy Fazbear",
       "block.fbms.molten_freddy": "Molten Freddy",
       "block.fbms.rock_star_chica": "Rockstar Chica",
+      "block.fbms.fred_bear_pizza_poster": "FredBear Poster",
       "entity.fbms.rat": "Rat",
       "block.fbms.paper_plates": "Paper Cups and Plates",
       "block.fbms.pin_the_bowtie_on_the_freddy": "Pin The Bowtie On The Freddy",
@@ -9153,6 +9304,7 @@
       "block.fbms.retro_chica": "Retro Chica",
       "block.fbms.tv_wacky_wart_paste": "TV Monitor (Wacky Wart Paste)",
       "block.fbms.deluxe_ballpit": "Deluxe Ballpit",
+      "item.fbms.mysterious_giant_scuttlers_spawn_egg": "Mysterious Giant Scuttlers Spawn Egg",
       "block.fbms.tv_iatr": "TV Monitor (Immortal And The Restless)",
       "block.fbms.tv_flos_glossy_floss": "TV Monitor (Flos Glossy Floss)",
       "block.fbms.toy_chica": "Toy Chica",
@@ -9214,6 +9366,7 @@
       "item.fbms.d_foxy_spawn_egg": "D Foxy WIP Spawn Egg",
       "block.fbms.lefty": "Lefty",
       "item.fbms.pizza": "Pizza",
+      "block.fbms.fred_bear_poster": "FredBear Call Poster",
       "itemGroup.taba_ds": "ADs",
       "block.fbms.yellow_curtain": "Yellow Curtains",
       "block.fbms.thin_cyan_curtain": "Thin Cyan Curtain",
@@ -9223,6 +9376,7 @@
       "block.fbms.impala_block": "Impala Block",
       "block.fbms.blue_white_tiles": "Blue White Tiles",
       "block.fbms.thin_green_curtain": "Thin Green Curtain",
+      "block.fbms.dark_gray_wall": "Gray Wall",
       "block.fbms.tv_news": "TV Monitor (News)",
       "block.fbms.midnight_motorist": "Midnight Motorist ",
       "block.fbms.ladder_tower": "Ladder Tower",
@@ -9262,7 +9416,7 @@
       "block.fbms.black_white_tiles_slab": "Black White Tiles Slab",
       "subtitles.song1": "Playing \u0027Title Screen\u0027 - FFPS",
       "block.fbms.pizza_place_sign": "Pizza Place Sign",
-      "subtitles.song7": "Playing \u0027Talking In Your Sleep\u0027 by the Romantics",
+      "subtitles.song7": "song7",
       "subtitles.song6": "Playing \u0027Turtle Crusher\u0027\u0027",
       "subtitles.song5": "Playing \u0027Les Cloches Du Monastère\u0027",
       "item.fbms.maracas": "Maracas",

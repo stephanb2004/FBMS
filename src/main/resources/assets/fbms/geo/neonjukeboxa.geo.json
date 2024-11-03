@@ -1,0 +1,36 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-7, 0, -7], "size": [14, 1, 12], "uv": [47, 20]},
+						{"origin": [-8, 1, -8], "size": [16, 1, 15], "uv": [0, 32]},
+						{"origin": [-8, 2, -6], "size": [16, 20, 12], "uv": [0, 0]},
+						{"origin": [-7, 22, -6], "size": [14, 4, 12], "uv": [0, 48]},
+						{"origin": [-2, 22, -7], "size": [4, 6, 2], "uv": [40, 0]}
+					]
+				},
+				{
+					"name": "Eyes",
+					"pivot": [0, 15, -6.1],
+					"cubes": [
+						{"origin": [1, 14, -6.1], "size": [2, 2, 1], "uv": [0, 3]},
+						{"origin": [-4, 14, -6.1], "size": [2, 2, 1], "uv": [0, 3]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -9,16 +9,16 @@ import net.mcreator.fbms.block.display.NeonJukeBoxDisplayItem;
 public class NeonJukeBoxDisplayModel extends AnimatedGeoModel<NeonJukeBoxDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(NeonJukeBoxDisplayItem animatable) {
-		return new ResourceLocation("fbms", "animations/neon_jukebox.animation.json");
+		return new ResourceLocation("fbms", "animations/neonjukeboxa.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(NeonJukeBoxDisplayItem animatable) {
-		return new ResourceLocation("fbms", "geo/neon_jukebox.geo.json");
+		return new ResourceLocation("fbms", "geo/neonjukeboxa.geo.json");
 	}
 
 	@Override
 	public ResourceLocation getTextureResource(NeonJukeBoxDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/neon_jukebox.png");
+		return new ResourceLocation("fbms", "textures/blocks/neon_jukebox_a.png");
 	}
 }

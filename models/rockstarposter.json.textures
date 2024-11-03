@@ -29,6 +29,24 @@
         "0": "poster_rockstarchica"
       },
       "name": "rchica"
+    },
+    "fredbear": {
+      "map": {
+        "0": "number"
+      },
+      "name": "fredbear"
+    },
+    "fredbear2": {
+      "map": {
+        "0": "pizzaposter"
+      },
+      "name": "fredbear2"
+    },
+    "springbonnie": {
+      "map": {
+        "0": "springbonnieposter"
+      },
+      "name": "springbonnie"
     }
   }
 }

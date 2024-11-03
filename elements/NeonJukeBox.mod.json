@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "animatedblock",
   "definition": {
-    "texture": "neon_jukebox",
+    "texture": "neon_jukebox_a",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -39,7 +39,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:ShopBlocks"
+      "value": "No creative tab entry"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -134,7 +134,7 @@
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
-    "normal": "neon_jukebox.geo.json",
+    "normal": "neonjukeboxa.geo.json",
     "displaySettings": "figure.item.json"
   }
 }

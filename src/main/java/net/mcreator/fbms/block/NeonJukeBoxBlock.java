@@ -118,7 +118,7 @@ public class NeonJukeBoxBlock extends BaseEntityBlock implements EntityBlock {
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
 
-		NeonJukeBoxOnBlockRightClickedProcedure.execute(world, x, y, z);
+		NeonJukeBoxOnBlockRightClickedProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 }

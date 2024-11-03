@@ -1,0 +1,9 @@
+{
+  "parent": "fbms:custom/rockstarposter",
+  "textures": {
+    "all": "fbms:blocks/number",
+    "particle": "fbms:blocks/number",
+    "0": "fbms:blocks/number"
+  },
+  "render_type": "cutout"
+}
