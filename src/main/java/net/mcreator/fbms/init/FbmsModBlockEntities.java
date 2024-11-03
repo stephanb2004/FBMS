@@ -262,6 +262,7 @@ public class FbmsModBlockEntities {
 			() -> BlockEntityType.Builder.of(DeluxeSpeakerSetTileEntity::new, FbmsModBlocks.DELUXE_SPEAKER_SET.get()).build(null));
 	public static final RegistryObject<BlockEntityType<EnhancedSpeakerSetTileEntity>> ENHANCED_SPEAKER_SET = REGISTRY.register("enhanced_speaker_set",
 			() -> BlockEntityType.Builder.of(EnhancedSpeakerSetTileEntity::new, FbmsModBlocks.ENHANCED_SPEAKER_SET.get()).build(null));
+	public static final RegistryObject<BlockEntityType<NeonJukeBoxTileEntity>> NEON_JUKE_BOX = REGISTRY.register("neon_juke_box", () -> BlockEntityType.Builder.of(NeonJukeBoxTileEntity::new, FbmsModBlocks.NEON_JUKE_BOX.get()).build(null));
 	public static final RegistryObject<BlockEntityType<NeonStageLightGreenTileEntity>> NEON_STAGE_LIGHT_GREEN = REGISTRY.register("neon_stage_light_green",
 			() -> BlockEntityType.Builder.of(NeonStageLightGreenTileEntity::new, FbmsModBlocks.NEON_STAGE_LIGHT_GREEN.get()).build(null));
 	public static final RegistryObject<BlockEntityType<NeonStageLightsPinkTileEntity>> NEON_STAGE_LIGHTS_PINK = REGISTRY.register("neon_stage_lights_pink",
@@ -292,8 +293,6 @@ public class FbmsModBlockEntities {
 			() -> BlockEntityType.Builder.of(PizzaBox93OpenTileEntity::new, FbmsModBlocks.PIZZA_BOX_93_OPEN.get()).build(null));
 	public static final RegistryObject<BlockEntityType<PizzaBox24OpenTileEntity>> PIZZA_BOX_24_OPEN = REGISTRY.register("pizza_box_24_open",
 			() -> BlockEntityType.Builder.of(PizzaBox24OpenTileEntity::new, FbmsModBlocks.PIZZA_BOX_24_OPEN.get()).build(null));
-	public static final RegistryObject<BlockEntityType<NeonJukeBoxOffTileEntity>> NEON_JUKE_BOX_OFF = REGISTRY.register("neon_juke_box_off",
-			() -> BlockEntityType.Builder.of(NeonJukeBoxOffTileEntity::new, FbmsModBlocks.NEON_JUKE_BOX_OFF.get()).build(null));
 	public static final RegistryObject<BlockEntityType<CandyCadetTileEntity>> CANDY_CADET = REGISTRY.register("candy_cadet", () -> BlockEntityType.Builder.of(CandyCadetTileEntity::new, FbmsModBlocks.CANDY_CADET.get()).build(null));
 	public static final RegistryObject<BlockEntityType<BiteFredBearCutoutTileEntity>> BITE_FRED_BEAR_CUTOUT = REGISTRY.register("bite_fred_bear_cutout",
 			() -> BlockEntityType.Builder.of(BiteFredBearCutoutTileEntity::new, FbmsModBlocks.BITE_FRED_BEAR_CUTOUT.get()).build(null));
@@ -409,12 +408,6 @@ public class FbmsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<SignRFATileEntity>> SIGN_RFA = REGISTRY.register("sign_rfa", () -> BlockEntityType.Builder.of(SignRFATileEntity::new, FbmsModBlocks.SIGN_RFA.get()).build(null));
 	public static final RegistryObject<BlockEntityType<SignSNSTileEntity>> SIGN_SNS = REGISTRY.register("sign_sns", () -> BlockEntityType.Builder.of(SignSNSTileEntity::new, FbmsModBlocks.SIGN_SNS.get()).build(null));
 	public static final RegistryObject<BlockEntityType<SignMSTileEntity>> SIGN_MS = REGISTRY.register("sign_ms", () -> BlockEntityType.Builder.of(SignMSTileEntity::new, FbmsModBlocks.SIGN_MS.get()).build(null));
-	public static final RegistryObject<BlockEntityType<ProjectorTileEntity>> PROJECTOR = REGISTRY.register("projector", () -> BlockEntityType.Builder.of(ProjectorTileEntity::new, FbmsModBlocks.PROJECTOR.get()).build(null));
-	public static final RegistryObject<BlockEntityType<CamTileEntity>> CAM = REGISTRY.register("cam", () -> BlockEntityType.Builder.of(CamTileEntity::new, FbmsModBlocks.CAM.get()).build(null));
-	public static final RegistryObject<BlockEntityType<FreddyCutOutTileEntity>> FREDDY_CUT_OUT = REGISTRY.register("freddy_cut_out", () -> BlockEntityType.Builder.of(FreddyCutOutTileEntity::new, FbmsModBlocks.FREDDY_CUT_OUT.get()).build(null));
-	public static final RegistryObject<BlockEntityType<BonnieCutOutTileEntity>> BONNIE_CUT_OUT = REGISTRY.register("bonnie_cut_out", () -> BlockEntityType.Builder.of(BonnieCutOutTileEntity::new, FbmsModBlocks.BONNIE_CUT_OUT.get()).build(null));
-	public static final RegistryObject<BlockEntityType<ChicaCutOutTileEntity>> CHICA_CUT_OUT = REGISTRY.register("chica_cut_out", () -> BlockEntityType.Builder.of(ChicaCutOutTileEntity::new, FbmsModBlocks.CHICA_CUT_OUT.get()).build(null));
-	public static final RegistryObject<BlockEntityType<HelpyCutOutTileEntity>> HELPY_CUT_OUT = REGISTRY.register("helpy_cut_out", () -> BlockEntityType.Builder.of(HelpyCutOutTileEntity::new, FbmsModBlocks.HELPY_CUT_OUT.get()).build(null));
 	public static final RegistryObject<BlockEntityType<DocPlushTileEntity>> DOC_PLUSH = REGISTRY.register("doc_plush", () -> BlockEntityType.Builder.of(DocPlushTileEntity::new, FbmsModBlocks.DOC_PLUSH.get()).build(null));
 	public static final RegistryObject<BlockEntityType<GarfPlushTileEntity>> GARF_PLUSH = REGISTRY.register("garf_plush", () -> BlockEntityType.Builder.of(GarfPlushTileEntity::new, FbmsModBlocks.GARF_PLUSH.get()).build(null));
 	public static final RegistryObject<BlockEntityType<RoseyTileEntity>> ROSEY = REGISTRY.register("rosey", () -> BlockEntityType.Builder.of(RoseyTileEntity::new, FbmsModBlocks.ROSEY.get()).build(null));
@@ -454,7 +447,6 @@ public class FbmsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<RockStarFreddyAnimatedTileEntity>> ROCK_STAR_FREDDY_ANIMATED = REGISTRY.register("rock_star_freddy_animated",
 			() -> BlockEntityType.Builder.of(RockStarFreddyAnimatedTileEntity::new, FbmsModBlocks.ROCK_STAR_FREDDY_ANIMATED.get()).build(null));
 	public static final RegistryObject<BlockEntityType<RustyAnimatedTileEntity>> RUSTY_ANIMATED = REGISTRY.register("rusty_animated", () -> BlockEntityType.Builder.of(RustyAnimatedTileEntity::new, FbmsModBlocks.RUSTY_ANIMATED.get()).build(null));
-	public static final RegistryObject<BlockEntityType<NeonJukeBoxTileEntity>> NEON_JUKE_BOX = REGISTRY.register("neon_juke_box", () -> BlockEntityType.Builder.of(NeonJukeBoxTileEntity::new, FbmsModBlocks.NEON_JUKE_BOX.get()).build(null));
 	public static final RegistryObject<BlockEntityType<GravityVortexTileEntity>> GRAVITY_VORTEX = REGISTRY.register("gravity_vortex", () -> BlockEntityType.Builder.of(GravityVortexTileEntity::new, FbmsModBlocks.GRAVITY_VORTEX.get()).build(null));
 	public static final RegistryObject<BlockEntityType<FrightsSignTileEntity>> FRIGHTS_SIGN = REGISTRY.register("frights_sign", () -> BlockEntityType.Builder.of(FrightsSignTileEntity::new, FbmsModBlocks.FRIGHTS_SIGN.get()).build(null));
 	public static final RegistryObject<BlockEntityType<HazyReindeerAnimatedTileEntity>> HAZY_REINDEER_ANIMATED = REGISTRY.register("hazy_reindeer_animated",
@@ -483,7 +475,15 @@ public class FbmsModBlockEntities {
 			() -> BlockEntityType.Builder.of(PizzaBox24ClosedTileEntity::new, FbmsModBlocks.PIZZA_BOX_24_CLOSED.get()).build(null));
 	public static final RegistryObject<BlockEntityType<DougTheDogAnimatedTileEntity>> DOUG_THE_DOG_ANIMATED = REGISTRY.register("doug_the_dog_animated",
 			() -> BlockEntityType.Builder.of(DougTheDogAnimatedTileEntity::new, FbmsModBlocks.DOUG_THE_DOG_ANIMATED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ProjectorTileEntity>> PROJECTOR = REGISTRY.register("projector", () -> BlockEntityType.Builder.of(ProjectorTileEntity::new, FbmsModBlocks.PROJECTOR.get()).build(null));
+	public static final RegistryObject<BlockEntityType<CamTileEntity>> CAM = REGISTRY.register("cam", () -> BlockEntityType.Builder.of(CamTileEntity::new, FbmsModBlocks.CAM.get()).build(null));
+	public static final RegistryObject<BlockEntityType<FreddyCutOutTileEntity>> FREDDY_CUT_OUT = REGISTRY.register("freddy_cut_out", () -> BlockEntityType.Builder.of(FreddyCutOutTileEntity::new, FbmsModBlocks.FREDDY_CUT_OUT.get()).build(null));
+	public static final RegistryObject<BlockEntityType<BonnieCutOutTileEntity>> BONNIE_CUT_OUT = REGISTRY.register("bonnie_cut_out", () -> BlockEntityType.Builder.of(BonnieCutOutTileEntity::new, FbmsModBlocks.BONNIE_CUT_OUT.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ChicaCutOutTileEntity>> CHICA_CUT_OUT = REGISTRY.register("chica_cut_out", () -> BlockEntityType.Builder.of(ChicaCutOutTileEntity::new, FbmsModBlocks.CHICA_CUT_OUT.get()).build(null));
+	public static final RegistryObject<BlockEntityType<HelpyCutOutTileEntity>> HELPY_CUT_OUT = REGISTRY.register("helpy_cut_out", () -> BlockEntityType.Builder.of(HelpyCutOutTileEntity::new, FbmsModBlocks.HELPY_CUT_OUT.get()).build(null));
 	public static final RegistryObject<BlockEntityType<ProjectionTileEntity>> PROJECTION = REGISTRY.register("projection", () -> BlockEntityType.Builder.of(ProjectionTileEntity::new, FbmsModBlocks.PROJECTION.get()).build(null));
+	public static final RegistryObject<BlockEntityType<NeonJukeBoxOffTileEntity>> NEON_JUKE_BOX_OFF = REGISTRY.register("neon_juke_box_off",
+			() -> BlockEntityType.Builder.of(NeonJukeBoxOffTileEntity::new, FbmsModBlocks.NEON_JUKE_BOX_OFF.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));
