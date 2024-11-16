@@ -9517,6 +9517,23 @@
         ]
       },
       "path": "~/Blocks/Building"
+    },
+    {
+      "name": "RetroConfettiWall",
+      "type": "block",
+      "sortid": 468,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retro_confetti_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/block/retro_confetti_wall.json",
+          "src/main/java/net/mcreator/fbms/block/RetroConfettiWallBlock.java",
+          "src/main/resources/assets/fbms/blockstates/retro_confetti_wall.json",
+          "src/main/resources/assets/fbms/models/item/retro_confetti_wall.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
     }
   ],
   "variable_elements": [],
@@ -9701,6 +9718,7 @@
       "block.fbms.funtime_chica_animated": "Funtime Chica Animated",
       "block.fbms.safety_poster_freddy": "Safety Poster (Freddy)",
       "block.fbms.red_white_tiles": "Red White Tiles",
+      "block.fbms.retro_confetti_wall": "Retro Confetti Wall",
       "item.fbms.moldy_fries": "Moldy Fries",
       "block.fbms.retro_chica_animated": "Retro Chica (Animated)",
       "subtitles.arcade_turnon": "Arcade turns on",

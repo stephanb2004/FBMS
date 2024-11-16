@@ -113,6 +113,7 @@ import net.mcreator.fbms.block.RidingRocketsPurpleBlock;
 import net.mcreator.fbms.block.RetroWallTopBlock;
 import net.mcreator.fbms.block.RetroWallTilesBlock;
 import net.mcreator.fbms.block.RetroWallBlock;
+import net.mcreator.fbms.block.RetroConfettiWallBlock;
 import net.mcreator.fbms.block.RetroChicaBlock;
 import net.mcreator.fbms.block.RetroChicaAnimatedBlock;
 import net.mcreator.fbms.block.RedWhiteTilesStairsBlock;
@@ -804,4 +805,5 @@ public class FbmsModBlocks {
 	public static final RegistryObject<Block> TAN_BRICKS_TOP = REGISTRY.register("tan_bricks_top", () -> new TanBricksTopBlock());
 	public static final RegistryObject<Block> DARK_GRAY_TILE_TOP = REGISTRY.register("dark_gray_tile_top", () -> new DarkGrayTileTopBlock());
 	public static final RegistryObject<Block> GRAY_RED_STRIPE_WALL = REGISTRY.register("gray_red_stripe_wall", () -> new GrayRedStripeWallBlock());
+	public static final RegistryObject<Block> RETRO_CONFETTI_WALL = REGISTRY.register("retro_confetti_wall", () -> new RetroConfettiWallBlock());
 }

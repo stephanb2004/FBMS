@@ -772,6 +772,7 @@ public class FbmsModItems {
 	public static final RegistryObject<Item> TAN_BRICKS_TOP = block(FbmsModBlocks.TAN_BRICKS_TOP, FbmsModTabs.TAB_FMS_BLOCKS);
 	public static final RegistryObject<Item> DARK_GRAY_TILE_TOP = block(FbmsModBlocks.DARK_GRAY_TILE_TOP, FbmsModTabs.TAB_FMS_BLOCKS);
 	public static final RegistryObject<Item> GRAY_RED_STRIPE_WALL = block(FbmsModBlocks.GRAY_RED_STRIPE_WALL, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> RETRO_CONFETTI_WALL = block(FbmsModBlocks.RETRO_CONFETTI_WALL, FbmsModTabs.TAB_FMS_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
