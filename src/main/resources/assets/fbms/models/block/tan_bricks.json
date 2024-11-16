@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fbms:blocks/tanbricks",
+    "particle": "fbms:blocks/tanbricks"
+  },
+  "render_type": "solid"
+}

@@ -2,9 +2,9 @@
   "_fv": 43,
   "_type": "animatedentity",
   "definition": {
-    "mobName": "D Freddy WIP",
+    "mobName": "D Freddy ",
     "mobLabel": "",
-    "mobModelTexture": "nightmarefreddy.png",
+    "mobModelTexture": "dfreddy.png",
     "mobModelGlowTexture": "",
     "visualScale": {
       "fixedValue": 1.0
@@ -18,11 +18,11 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -1,
+      "value": -11390428,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -1,
+      "value": -6724536,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -91,10 +91,10 @@
       "value": ""
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": "block.anvil.hit"
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": "block.anvil.break"
     },
     "stepSound": {
       "value": ""
@@ -102,10 +102,10 @@
     "hasAI": true,
     "aiBase": "(none)",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"></block></xml>",
-    "model": "dfreddy.geo.json",
+    "model": "gasfreddy.geo.json",
     "groupName": "",
-    "animation1": "no move",
-    "animation2": "forward",
+    "animation1": "animation.DFreddy.idle",
+    "animation2": "animation.DFreddy.walk",
     "animation3": "",
     "animation4": "",
     "animation5": "",

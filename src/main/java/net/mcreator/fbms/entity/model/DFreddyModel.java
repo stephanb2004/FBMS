@@ -9,12 +9,12 @@ import net.mcreator.fbms.entity.DFreddyEntity;
 public class DFreddyModel extends AnimatedGeoModel<DFreddyEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(DFreddyEntity entity) {
-		return new ResourceLocation("fbms", "animations/dfreddy.animation.json");
+		return new ResourceLocation("fbms", "animations/gasfreddy.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(DFreddyEntity entity) {
-		return new ResourceLocation("fbms", "geo/dfreddy.geo.json");
+		return new ResourceLocation("fbms", "geo/gasfreddy.geo.json");
 	}
 
 	@Override

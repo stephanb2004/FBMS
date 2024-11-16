@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "fbms:blocks/lightbluewall",
+    "top": "fbms:blocks/ceiling",
+    "side": "fbms:blocks/lightbluewall",
+    "overlay": "fbms:blocks/walltop",
+    "particle": "fbms:blocks/lightbluewall"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "fbms:blocks/retrowalls",
+    "top": "fbms:blocks/retrowalls",
+    "side": "fbms:blocks/retrowalls",
+    "overlay": "fbms:blocks/fnaf2whitewall",
+    "particle": "fbms:blocks/retrowalls"
+  },
+  "render_type": "cutout"
+}

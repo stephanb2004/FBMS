@@ -590,7 +590,7 @@ public class FbmsModItems {
 	public static final RegistryObject<Item> STATION_WAGON_SPAWN_EGG = REGISTRY.register("station_wagon_spawn_egg", () -> new ForgeSpawnEggItem(FbmsModEntities.STATION_WAGON, -6724096, -3381760, new Item.Properties().tab(FbmsModTabs.TAB_CARS)));
 	public static final RegistryObject<Item> STATION_WAGON_BLOCK = REGISTRY.register(FbmsModBlocks.STATION_WAGON_BLOCK.getId().getPath(),
 			() -> new StationWagonBlockDisplayItem(FbmsModBlocks.STATION_WAGON_BLOCK.get(), new Item.Properties().tab(FbmsModTabs.TAB_CARS)));
-	public static final RegistryObject<Item> D_FREDDY_SPAWN_EGG = REGISTRY.register("d_freddy_spawn_egg", () -> new ForgeSpawnEggItem(FbmsModEntities.D_FREDDY, -1, -1, new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> D_FREDDY_SPAWN_EGG = REGISTRY.register("d_freddy_spawn_egg", () -> new ForgeSpawnEggItem(FbmsModEntities.D_FREDDY, -11390428, -6724536, new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
 	public static final RegistryObject<Item> OLD_BONNIE = REGISTRY.register(FbmsModBlocks.OLD_BONNIE.getId().getPath(), () -> new OldBonnieDisplayItem(FbmsModBlocks.OLD_BONNIE.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
 	public static final RegistryObject<Item> D_BONNIE_SPAWN_EGG = REGISTRY.register("d_bonnie_spawn_egg", () -> new ForgeSpawnEggItem(FbmsModEntities.D_BONNIE, -1, -1, new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
 	public static final RegistryObject<Item> DCHICA_SPAWN_EGG = REGISTRY.register("dchica_spawn_egg", () -> new ForgeSpawnEggItem(FbmsModEntities.DCHICA, -1, -1, new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
@@ -750,6 +750,28 @@ public class FbmsModItems {
 	public static final RegistryObject<Item> GUS_THE_PUG = REGISTRY.register(FbmsModBlocks.GUS_THE_PUG.getId().getPath(), () -> new GusThePugDisplayItem(FbmsModBlocks.GUS_THE_PUG.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
 	public static final RegistryObject<Item> GUS_THE_PUG_ANIMATED = REGISTRY.register(FbmsModBlocks.GUS_THE_PUG_ANIMATED.getId().getPath(),
 			() -> new GusThePugAnimatedDisplayItem(FbmsModBlocks.GUS_THE_PUG_ANIMATED.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> TAN_BRICKS = block(FbmsModBlocks.TAN_BRICKS, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> WHITE_WALL_TOP = block(FbmsModBlocks.WHITE_WALL_TOP, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> LIGHT_GRAY_WALL_TOP = block(FbmsModBlocks.LIGHT_GRAY_WALL_TOP, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> BLUE_WALL_TOP = block(FbmsModBlocks.BLUE_WALL_TOP, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> CYAN_WALL_TOP = block(FbmsModBlocks.CYAN_WALL_TOP, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> GREEN_WALL_TOP = block(FbmsModBlocks.GREEN_WALL_TOP, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> LIGHT_BLUE_WALL_TOP = block(FbmsModBlocks.LIGHT_BLUE_WALL_TOP, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> LIME_WALL_TOP = block(FbmsModBlocks.LIME_WALL_TOP, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> MAGENTA_WALL_TOP = block(FbmsModBlocks.MAGENTA_WALL_TOP, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> ORANGE_WALL_TOP = block(FbmsModBlocks.ORANGE_WALL_TOP, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> PINK_WALL_TOP = block(FbmsModBlocks.PINK_WALL_TOP, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> PURPLE_WALL_TOP = block(FbmsModBlocks.PURPLE_WALL_TOP, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> YELLOW_WALL_TOP = block(FbmsModBlocks.YELLOW_WALL_TOP, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> YELLOW_WALL = block(FbmsModBlocks.YELLOW_WALL, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> RETRO_WALL = block(FbmsModBlocks.RETRO_WALL, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> RETRO_WALL_TOP = block(FbmsModBlocks.RETRO_WALL_TOP, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> RETRO_WALL_TILES = block(FbmsModBlocks.RETRO_WALL_TILES, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> BIG_RETRO_WALL_TILES = block(FbmsModBlocks.BIG_RETRO_WALL_TILES, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> TAN_BLACK_STRIPE_WALL_TILES = block(FbmsModBlocks.TAN_BLACK_STRIPE_WALL_TILES, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> TAN_BRICKS_TOP = block(FbmsModBlocks.TAN_BRICKS_TOP, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> DARK_GRAY_TILE_TOP = block(FbmsModBlocks.DARK_GRAY_TILE_TOP, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> GRAY_RED_STRIPE_WALL = block(FbmsModBlocks.GRAY_RED_STRIPE_WALL, FbmsModTabs.TAB_FMS_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
