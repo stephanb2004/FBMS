@@ -7,5 +7,5 @@
     "overlay": "fbms:blocks/confettiwall",
     "particle": "fbms:blocks/retrowalls"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }

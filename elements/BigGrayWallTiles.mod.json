@@ -2,12 +2,12 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "retrowalls",
-    "textureTop": "retrowalls",
-    "textureLeft": "confettiwall",
-    "textureFront": "retrowalls",
-    "textureRight": "cyanwall",
-    "textureBack": "cyanwall",
+    "texture": "graywall",
+    "textureTop": "graywall",
+    "textureLeft": "wallcheckeredtiles_bottom",
+    "textureFront": "graywall",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 14,
     "customModelName": "Grass block",
     "rotationMode": 0,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Retro Confetti Wall",
+    "name": "Big Black White Gray Wall Tiles",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

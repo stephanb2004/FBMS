@@ -390,6 +390,7 @@ import net.mcreator.fbms.block.BlackBlueTilesSlabBlock;
 import net.mcreator.fbms.block.BlackBlueTilesBlock;
 import net.mcreator.fbms.block.BiteFredBearCutoutBlock;
 import net.mcreator.fbms.block.BigRetroWallTilesBlock;
+import net.mcreator.fbms.block.BigGrayWallTilesBlock;
 import net.mcreator.fbms.block.BasicStageBlockStairsBlock;
 import net.mcreator.fbms.block.BasicStageBlockSlabBlock;
 import net.mcreator.fbms.block.BarryPolarFixedBlock;
@@ -806,4 +807,5 @@ public class FbmsModBlocks {
 	public static final RegistryObject<Block> DARK_GRAY_TILE_TOP = REGISTRY.register("dark_gray_tile_top", () -> new DarkGrayTileTopBlock());
 	public static final RegistryObject<Block> GRAY_RED_STRIPE_WALL = REGISTRY.register("gray_red_stripe_wall", () -> new GrayRedStripeWallBlock());
 	public static final RegistryObject<Block> RETRO_CONFETTI_WALL = REGISTRY.register("retro_confetti_wall", () -> new RetroConfettiWallBlock());
+	public static final RegistryObject<Block> BIG_GRAY_WALL_TILES = REGISTRY.register("big_gray_wall_tiles", () -> new BigGrayWallTilesBlock());
 }
