@@ -74,6 +74,7 @@ import net.mcreator.fbms.block.renderer.PigPatchAnimatedTileRenderer;
 import net.mcreator.fbms.block.renderer.PicklesTileRenderer;
 import net.mcreator.fbms.block.renderer.PaperPlatesTileRenderer;
 import net.mcreator.fbms.block.renderer.PanStanTileRenderer;
+import net.mcreator.fbms.block.renderer.PCTileRenderer;
 import net.mcreator.fbms.block.renderer.OrvilleTileRenderer;
 import net.mcreator.fbms.block.renderer.OrvilleAnimatedTileRenderer;
 import net.mcreator.fbms.block.renderer.OldFreddyTileRenderer;
@@ -410,5 +411,6 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.PINBALL_TOY_FREDDY.get(), PinballToyFreddyTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.GUS_THE_PUG.get(), GusThePugTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.GUS_THE_PUG_ANIMATED.get(), GusThePugAnimatedTileRenderer::new);
+		event.registerBlockEntityRenderer(FbmsModBlockEntities.PC.get(), PCTileRenderer::new);
 	}
 }

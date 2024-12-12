@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "fbms:blocks/lightgraywall",
-    "particle": "fbms:blocks/lightgraywall"
+    "all": "fbms:blocks/wall",
+    "particle": "fbms:blocks/wall"
   },
   "render_type": "solid"
 }

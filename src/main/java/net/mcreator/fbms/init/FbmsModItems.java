@@ -112,6 +112,7 @@ import net.mcreator.fbms.block.display.PigPatchAnimatedDisplayItem;
 import net.mcreator.fbms.block.display.PicklesDisplayItem;
 import net.mcreator.fbms.block.display.PaperPlatesDisplayItem;
 import net.mcreator.fbms.block.display.PanStanDisplayItem;
+import net.mcreator.fbms.block.display.PCDisplayItem;
 import net.mcreator.fbms.block.display.OrvilleDisplayItem;
 import net.mcreator.fbms.block.display.OrvilleAnimatedDisplayItem;
 import net.mcreator.fbms.block.display.OldFreddyDisplayItem;
@@ -774,6 +775,8 @@ public class FbmsModItems {
 	public static final RegistryObject<Item> GRAY_RED_STRIPE_WALL = block(FbmsModBlocks.GRAY_RED_STRIPE_WALL, FbmsModTabs.TAB_FMS_BLOCKS);
 	public static final RegistryObject<Item> RETRO_CONFETTI_WALL = block(FbmsModBlocks.RETRO_CONFETTI_WALL, FbmsModTabs.TAB_FMS_BLOCKS);
 	public static final RegistryObject<Item> BIG_GRAY_WALL_TILES = block(FbmsModBlocks.BIG_GRAY_WALL_TILES, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> PC = REGISTRY.register(FbmsModBlocks.PC.getId().getPath(), () -> new PCDisplayItem(FbmsModBlocks.PC.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> BIG_LIGHT_GRAY_WALL_TILES = block(FbmsModBlocks.BIG_LIGHT_GRAY_WALL_TILES, FbmsModTabs.TAB_FMS_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

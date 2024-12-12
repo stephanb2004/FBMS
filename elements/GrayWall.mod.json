@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "lightgraywall",
+    "texture": "wall",
     "textureTop": "lightgraywall",
     "textureLeft": "lightgraywall",
     "textureFront": "lightgraywall",
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Gray Wall",
+    "name": "Light Gray Wall",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

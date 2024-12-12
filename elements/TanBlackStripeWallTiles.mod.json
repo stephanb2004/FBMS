@@ -2,10 +2,10 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "tanbricks",
-    "textureTop": "tanbricks",
+    "texture": "bricks",
+    "textureTop": "bricks",
     "textureLeft": "blacktiles",
-    "textureFront": "tanbricks",
+    "textureFront": "bricks",
     "textureRight": "bluefloortiles",
     "textureBack": "bluefloortiles",
     "renderType": 14,

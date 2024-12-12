@@ -169,6 +169,7 @@ import net.mcreator.fbms.block.PapperPalMrHippoBlock;
 import net.mcreator.fbms.block.PaperPlatesBlock;
 import net.mcreator.fbms.block.PaperPalClownBlock;
 import net.mcreator.fbms.block.PanStanBlock;
+import net.mcreator.fbms.block.PCBlock;
 import net.mcreator.fbms.block.OrvilleBlock;
 import net.mcreator.fbms.block.OrvilleAnimatedBlock;
 import net.mcreator.fbms.block.OrangeWallTopBlock;
@@ -390,6 +391,7 @@ import net.mcreator.fbms.block.BlackBlueTilesSlabBlock;
 import net.mcreator.fbms.block.BlackBlueTilesBlock;
 import net.mcreator.fbms.block.BiteFredBearCutoutBlock;
 import net.mcreator.fbms.block.BigRetroWallTilesBlock;
+import net.mcreator.fbms.block.BigLightGrayWallTilesBlock;
 import net.mcreator.fbms.block.BigGrayWallTilesBlock;
 import net.mcreator.fbms.block.BasicStageBlockStairsBlock;
 import net.mcreator.fbms.block.BasicStageBlockSlabBlock;
@@ -808,4 +810,6 @@ public class FbmsModBlocks {
 	public static final RegistryObject<Block> GRAY_RED_STRIPE_WALL = REGISTRY.register("gray_red_stripe_wall", () -> new GrayRedStripeWallBlock());
 	public static final RegistryObject<Block> RETRO_CONFETTI_WALL = REGISTRY.register("retro_confetti_wall", () -> new RetroConfettiWallBlock());
 	public static final RegistryObject<Block> BIG_GRAY_WALL_TILES = REGISTRY.register("big_gray_wall_tiles", () -> new BigGrayWallTilesBlock());
+	public static final RegistryObject<Block> PC = REGISTRY.register("pc", () -> new PCBlock());
+	public static final RegistryObject<Block> BIG_LIGHT_GRAY_WALL_TILES = REGISTRY.register("big_light_gray_wall_tiles", () -> new BigLightGrayWallTilesBlock());
 }

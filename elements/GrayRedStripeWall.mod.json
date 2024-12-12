@@ -4,7 +4,7 @@
   "definition": {
     "texture": "graywall",
     "textureTop": "graywall",
-    "textureLeft": "wallstripered",
+    "textureLeft": "walltilesbottem",
     "textureFront": "graywall",
     "textureRight": "lightgraywall",
     "textureBack": "lightgraywall",

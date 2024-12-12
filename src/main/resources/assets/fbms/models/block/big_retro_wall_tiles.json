@@ -4,7 +4,7 @@
     "bottom": "fbms:blocks/retrowalls",
     "top": "fbms:blocks/retrowalls",
     "side": "fbms:blocks/retrowalls",
-    "overlay": "fbms:blocks/wallcheckeredtiles_bottom",
+    "overlay": "fbms:blocks/top_wall",
     "particle": "fbms:blocks/retrowalls"
   },
   "render_type": "cutout"

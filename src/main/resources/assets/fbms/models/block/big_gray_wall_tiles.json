@@ -4,7 +4,7 @@
     "bottom": "fbms:blocks/graywall",
     "top": "fbms:blocks/graywall",
     "side": "fbms:blocks/graywall",
-    "overlay": "fbms:blocks/wallcheckeredtiles_bottom",
+    "overlay": "fbms:blocks/top_wall",
     "particle": "fbms:blocks/graywall"
   },
   "render_type": "cutout"

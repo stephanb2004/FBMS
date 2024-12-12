@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "fbms:blocks/checkerwall",
-    "particle": "fbms:blocks/checkerwall"
+    "all": "fbms:blocks/bigtiles",
+    "particle": "fbms:blocks/bigtiles"
   },
   "render_type": "solid"
 }

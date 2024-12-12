@@ -4,7 +4,7 @@
   "definition": {
     "texture": "redwall",
     "textureTop": "redwall",
-    "textureLeft": "wallcheckeredtiles_bottom",
+    "textureLeft": "top_wall",
     "textureFront": "redwall",
     "textureRight": "",
     "textureBack": "",
