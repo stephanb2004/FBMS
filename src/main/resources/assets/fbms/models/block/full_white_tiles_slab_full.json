@@ -1,9 +1,9 @@
 {
   "parent": "block/cube_bottom_top",
   "textures": {
-    "bottom": "fbms:blocks/whitefloortiles",
-    "top": "fbms:blocks/whitefloortiles",
-    "side": "fbms:blocks/whitefloortiles"
+    "bottom": "fbms:blocks/full_white_floor",
+    "top": "fbms:blocks/full_white_floor",
+    "side": "fbms:blocks/full_white_floor"
   },
   "render_type": "solid"
 }

@@ -2,8 +2,8 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "graycurtain",
-    "textureTop": "graycurtain",
+    "texture": "blank_gray_curtan",
+    "textureTop": "blank_gray_curtan",
     "textureLeft": "cyanwall",
     "textureFront": "cyanwall",
     "textureRight": "cyanwall",

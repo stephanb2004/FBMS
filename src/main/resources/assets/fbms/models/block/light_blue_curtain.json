@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "fbms:blocks/lightbluecurtain",
-    "particle": "fbms:blocks/lightbluecurtain"
-  },
-  "render_type": "solid"
-}

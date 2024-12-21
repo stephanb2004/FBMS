@@ -1,13 +1,8 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "fbms:blocks/whitefloortiles",
-    "up": "fbms:blocks/whitefloortiles",
-    "north": "fbms:blocks/whitefloortiles",
-    "east": "fbms:blocks/whitefloortiles",
-    "south": "fbms:blocks/whitefloortiles",
-    "west": "fbms:blocks/whitefloortiles",
-    "particle": "fbms:blocks/whitefloortiles"
+    "all": "fbms:blocks/full_white_floor",
+    "particle": "fbms:blocks/full_white_floor"
   },
   "render_type": "solid"
 }

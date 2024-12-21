@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "fbms:blocks/graywall",
-    "particle": "fbms:blocks/graywall"
+    "all": "fbms:blocks/gray_wall",
+    "particle": "fbms:blocks/gray_wall"
   },
   "render_type": "solid"
 }

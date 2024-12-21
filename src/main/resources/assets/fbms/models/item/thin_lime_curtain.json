@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "fbms:blocks/limecurtain"
-  },
-  "render_type": "solid"
-}

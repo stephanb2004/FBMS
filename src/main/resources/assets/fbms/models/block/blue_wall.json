@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "fbms:blocks/bluewall",
-    "particle": "fbms:blocks/bluewall"
-  },
-  "render_type": "solid"
-}

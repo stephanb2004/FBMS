@@ -2,10 +2,10 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "graywall",
-    "textureTop": "graywall",
+    "texture": "gray_wall",
+    "textureTop": "gray_wall",
     "textureLeft": "walltilesbottem",
-    "textureFront": "graywall",
+    "textureFront": "gray_wall",
     "textureRight": "lightgraywall",
     "textureBack": "lightgraywall",
     "renderType": 14,

@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_glass_pane_post",
+  "textures": {
+    "edge": "fbms:blocks/star_green_curtan",
+    "pane": "fbms:blocks/star_green_curtan"
+  },
+  "render_type": "solid"
+}

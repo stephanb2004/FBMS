@@ -1,9 +1,9 @@
 {
   "parent": "block/inner_stairs",
   "textures": {
-    "bottom": "fbms:blocks/blackfloortiles",
-    "top": "fbms:blocks/blackfloortiles",
-    "side": "fbms:blocks/blackfloortiles"
+    "bottom": "fbms:blocks/full_black_floor",
+    "top": "fbms:blocks/full_black_floor",
+    "side": "fbms:blocks/full_black_floor"
   },
   "render_type": "solid"
 }

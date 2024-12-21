@@ -1,8 +1,8 @@
 {
   "parent": "block/template_glass_pane_side",
   "textures": {
-    "edge": "fbms:blocks/browncurtain",
-    "pane": "fbms:blocks/browncurtain"
+    "edge": "fbms:blocks/blank_brown_curtan",
+    "pane": "fbms:blocks/blank_brown_curtan"
   },
   "render_type": "solid"
 }

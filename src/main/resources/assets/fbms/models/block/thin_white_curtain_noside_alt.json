@@ -1,7 +1,7 @@
 {
   "parent": "block/template_glass_pane_noside_alt",
   "textures": {
-    "pane": "fbms:blocks/whitecurtain"
+    "pane": "fbms:blocks/blank_white_curtan"
   },
   "render_type": "solid"
 }

@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "fbms:blocks/browncurtain",
-    "particle": "fbms:blocks/browncurtain"
+    "all": "fbms:blocks/blank_brown_curtan",
+    "particle": "fbms:blocks/blank_brown_curtan"
   },
   "render_type": "solid"
 }

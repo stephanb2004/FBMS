@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fbms:blocks/red_star_curtain",
+    "particle": "fbms:blocks/red_star_curtain"
+  },
+  "render_type": "solid"
+}

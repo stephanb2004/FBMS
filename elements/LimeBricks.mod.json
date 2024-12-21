@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "limebricks",
+    "texture": "lime_bricks",
     "textureTop": "bluefloortiles",
     "textureLeft": "bluefloortiles",
     "textureFront": "bluefloortiles",

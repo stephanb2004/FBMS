@@ -2,10 +2,10 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "redwall",
+    "texture": "red_wall",
     "textureTop": "ceiling",
     "textureLeft": "walltop",
-    "textureFront": "redwall",
+    "textureFront": "red_wall",
     "textureRight": "cyanwall",
     "textureBack": "cyanwall",
     "renderType": 14,

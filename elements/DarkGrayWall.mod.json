@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "graywall",
+    "texture": "gray_wall",
     "textureTop": "lightgraywall",
     "textureLeft": "lightgraywall",
     "textureFront": "lightgraywall",

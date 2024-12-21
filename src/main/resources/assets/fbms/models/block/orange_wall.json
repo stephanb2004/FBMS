@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "fbms:blocks/orangewall",
-    "particle": "fbms:blocks/orangewall"
-  },
-  "render_type": "solid"
-}

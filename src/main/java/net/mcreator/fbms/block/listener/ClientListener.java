@@ -164,7 +164,6 @@ import net.mcreator.fbms.block.renderer.DuckPondTileRenderer;
 import net.mcreator.fbms.block.renderer.DrTeathTileRenderer;
 import net.mcreator.fbms.block.renderer.DougTheDogTileRenderer;
 import net.mcreator.fbms.block.renderer.DougTheDogAnimatedTileRenderer;
-import net.mcreator.fbms.block.renderer.DollsTileRenderer;
 import net.mcreator.fbms.block.renderer.DogeRamBlockTileRenderer;
 import net.mcreator.fbms.block.renderer.DocPlushTileRenderer;
 import net.mcreator.fbms.block.renderer.DiscountCoolingUnitTileRenderer;
@@ -372,7 +371,6 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.GARF_PLUSH.get(), GarfPlushTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.ROSEY.get(), RoseyTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.STEPHAN_PLUSH.get(), StephanPlushTileRenderer::new);
-		event.registerBlockEntityRenderer(FbmsModBlockEntities.DOLLS.get(), DollsTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.BARRY_POLAR_ANIMATED.get(), BarryPolarAnimatedTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.BROKEN_BARRY_POLAR_ANIMATED.get(), BrokenBarryPolarAnimatedTileRenderer::new);
 		event.registerBlockEntityRenderer(FbmsModBlockEntities.FUNTIME_DELILAH.get(), FuntimeDelilahTileRenderer::new);

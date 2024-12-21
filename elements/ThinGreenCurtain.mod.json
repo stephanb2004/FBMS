@@ -2,8 +2,8 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "greencurtain",
-    "textureTop": "greencurtain",
+    "texture": "blank_green_curtan",
+    "textureTop": "blank_green_curtan",
     "textureLeft": "cyanwall",
     "textureFront": "cyanwall",
     "textureRight": "cyanwall",

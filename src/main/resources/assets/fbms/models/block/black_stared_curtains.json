@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fbms:blocks/star_black_curtan",
+    "particle": "fbms:blocks/star_black_curtan"
+  },
+  "render_type": "solid"
+}

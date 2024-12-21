@@ -168,7 +168,6 @@ import net.mcreator.fbms.block.entity.DuckPondTileEntity;
 import net.mcreator.fbms.block.entity.DrTeathTileEntity;
 import net.mcreator.fbms.block.entity.DougTheDogTileEntity;
 import net.mcreator.fbms.block.entity.DougTheDogAnimatedTileEntity;
-import net.mcreator.fbms.block.entity.DollsTileEntity;
 import net.mcreator.fbms.block.entity.DogeRamBlockTileEntity;
 import net.mcreator.fbms.block.entity.DocPlushTileEntity;
 import net.mcreator.fbms.block.entity.DiscountCoolingUnitTileEntity;
@@ -423,7 +422,6 @@ public class FbmsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<GarfPlushTileEntity>> GARF_PLUSH = REGISTRY.register("garf_plush", () -> BlockEntityType.Builder.of(GarfPlushTileEntity::new, FbmsModBlocks.GARF_PLUSH.get()).build(null));
 	public static final RegistryObject<BlockEntityType<RoseyTileEntity>> ROSEY = REGISTRY.register("rosey", () -> BlockEntityType.Builder.of(RoseyTileEntity::new, FbmsModBlocks.ROSEY.get()).build(null));
 	public static final RegistryObject<BlockEntityType<StephanPlushTileEntity>> STEPHAN_PLUSH = REGISTRY.register("stephan_plush", () -> BlockEntityType.Builder.of(StephanPlushTileEntity::new, FbmsModBlocks.STEPHAN_PLUSH.get()).build(null));
-	public static final RegistryObject<BlockEntityType<DollsTileEntity>> DOLLS = REGISTRY.register("dolls", () -> BlockEntityType.Builder.of(DollsTileEntity::new, FbmsModBlocks.DOLLS.get()).build(null));
 	public static final RegistryObject<BlockEntityType<BarryPolarAnimatedTileEntity>> BARRY_POLAR_ANIMATED = REGISTRY.register("barry_polar_animated",
 			() -> BlockEntityType.Builder.of(BarryPolarAnimatedTileEntity::new, FbmsModBlocks.BARRY_POLAR_ANIMATED.get()).build(null));
 	public static final RegistryObject<BlockEntityType<BrokenBarryPolarAnimatedTileEntity>> BROKEN_BARRY_POLAR_ANIMATED = REGISTRY.register("broken_barry_polar_animated",

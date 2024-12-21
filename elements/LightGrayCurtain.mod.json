@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "lightgraycurtain",
+    "texture": "blank_light_gray_curtan",
     "textureTop": "cyanwall",
     "textureLeft": "cyanwall",
     "textureFront": "cyanwall",

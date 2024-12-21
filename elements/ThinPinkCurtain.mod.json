@@ -2,8 +2,8 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "pinkcurtain",
-    "textureTop": "pinkcurtain",
+    "texture": "blank_pink_curtan",
+    "textureTop": "blank_pink_curtan",
     "textureLeft": "cyanwall",
     "textureFront": "cyanwall",
     "textureRight": "cyanwall",

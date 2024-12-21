@@ -2,8 +2,8 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "purplecurtain",
-    "textureTop": "purplecurtain",
+    "texture": "blank_purple_curtan",
+    "textureTop": "blank_purple_curtan",
     "textureLeft": "cyanwall",
     "textureFront": "cyanwall",
     "textureRight": "cyanwall",

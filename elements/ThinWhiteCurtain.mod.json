@@ -2,8 +2,8 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "whitecurtain",
-    "textureTop": "whitecurtain",
+    "texture": "blank_white_curtan",
+    "textureTop": "blank_white_curtan",
     "textureLeft": "cyanwall",
     "textureFront": "cyanwall",
     "textureRight": "cyanwall",
