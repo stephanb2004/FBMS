@@ -45,7 +45,7 @@ public class BarryPolarFixedTileEntity extends RandomizableContainerBlockEntity 
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public BarryPolarFixedTileEntity(BlockPos pos, BlockState state) {
-		super(FbmsModBlockEntities.BARRY_POLAR_FIXED.get(), pos, state);
+		super(FbmsModBlockEntities.BARRY_POLAR.get(), pos, state);
 	}
 
 	private <E extends BlockEntity & IAnimatable> PlayState predicate(AnimationEvent<E> event) {
@@ -122,7 +122,7 @@ public class BarryPolarFixedTileEntity extends RandomizableContainerBlockEntity 
 
 	@Override
 	public Component getDefaultName() {
-		return Component.literal("barry_polar_fixed");
+		return Component.literal("barry_polar");
 	}
 
 	@Override

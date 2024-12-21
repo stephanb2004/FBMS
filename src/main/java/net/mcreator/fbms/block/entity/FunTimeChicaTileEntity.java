@@ -45,7 +45,7 @@ public class FunTimeChicaTileEntity extends RandomizableContainerBlockEntity imp
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public FunTimeChicaTileEntity(BlockPos pos, BlockState state) {
-		super(FbmsModBlockEntities.FUN_TIME_CHICA.get(), pos, state);
+		super(FbmsModBlockEntities.FUNTIME_CHICA.get(), pos, state);
 	}
 
 	private <E extends BlockEntity & IAnimatable> PlayState predicate(AnimationEvent<E> event) {
@@ -122,7 +122,7 @@ public class FunTimeChicaTileEntity extends RandomizableContainerBlockEntity imp
 
 	@Override
 	public Component getDefaultName() {
-		return Component.literal("fun_time_chica");
+		return Component.literal("funtime_chica");
 	}
 
 	@Override

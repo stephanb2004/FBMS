@@ -45,7 +45,7 @@ public class HappYFrogAnimatedTileEntity extends RandomizableContainerBlockEntit
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public HappYFrogAnimatedTileEntity(BlockPos pos, BlockState state) {
-		super(FbmsModBlockEntities.HAPP_Y_FROG_ANIMATED.get(), pos, state);
+		super(FbmsModBlockEntities.HAPPY_FROG_ANIMATED.get(), pos, state);
 	}
 
 	private <E extends BlockEntity & IAnimatable> PlayState predicate(AnimationEvent<E> event) {
@@ -122,7 +122,7 @@ public class HappYFrogAnimatedTileEntity extends RandomizableContainerBlockEntit
 
 	@Override
 	public Component getDefaultName() {
-		return Component.literal("happ_y_frog_animated");
+		return Component.literal("happy_frog_animated");
 	}
 
 	@Override

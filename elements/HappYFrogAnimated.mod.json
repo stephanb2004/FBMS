@@ -33,7 +33,9 @@
       }
     ],
     "name": "Happy Frog Animated",
-    "specialInfo": [],
+    "specialInfo": [
+      "Animatable with the F.A.T!"
+    ],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,

@@ -10,6 +10,6 @@ public class MoldyFinishesUsingItemProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 60, 1, false, false));
+			_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 240, 1, false, false));
 	}
 }

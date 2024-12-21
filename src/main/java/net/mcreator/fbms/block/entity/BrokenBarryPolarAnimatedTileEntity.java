@@ -45,7 +45,7 @@ public class BrokenBarryPolarAnimatedTileEntity extends RandomizableContainerBlo
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public BrokenBarryPolarAnimatedTileEntity(BlockPos pos, BlockState state) {
-		super(FbmsModBlockEntities.BROKEN_BARRY_POLAR_ANIMATED.get(), pos, state);
+		super(FbmsModBlockEntities.WITHERED_BARRY_POLAR_ANIMATED.get(), pos, state);
 	}
 
 	private <E extends BlockEntity & IAnimatable> PlayState predicate(AnimationEvent<E> event) {
@@ -122,7 +122,7 @@ public class BrokenBarryPolarAnimatedTileEntity extends RandomizableContainerBlo
 
 	@Override
 	public Component getDefaultName() {
-		return Component.literal("broken_barry_polar_animated");
+		return Component.literal("withered_barry_polar_animated");
 	}
 
 	@Override

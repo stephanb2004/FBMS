@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/fixedv2"
+    "particle": "fbms:blocks/01_springbonnie"
   }
 }

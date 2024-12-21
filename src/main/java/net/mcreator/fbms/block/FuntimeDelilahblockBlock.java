@@ -55,7 +55,7 @@ public class FuntimeDelilahblockBlock extends BaseEntityBlock implements EntityB
 	@Nullable
 	@Override
 	public BlockEntity newBlockEntity(BlockPos blockPos, BlockState blockState) {
-		return FbmsModBlockEntities.FUNTIME_DELILAHBLOCK.get().create(blockPos, blockState);
+		return FbmsModBlockEntities.FUNTIME_DELILAH.get().create(blockPos, blockState);
 	}
 
 	@Override

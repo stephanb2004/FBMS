@@ -55,7 +55,7 @@ public class BrokenBarryPolarAnimatedBlock extends BaseEntityBlock implements En
 	@Nullable
 	@Override
 	public BlockEntity newBlockEntity(BlockPos blockPos, BlockState blockState) {
-		return FbmsModBlockEntities.BROKEN_BARRY_POLAR_ANIMATED.get().create(blockPos, blockState);
+		return FbmsModBlockEntities.WITHERED_BARRY_POLAR_ANIMATED.get().create(blockPos, blockState);
 	}
 
 	@Override
