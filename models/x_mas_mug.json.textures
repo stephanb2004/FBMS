@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "mug"
+      },
+      "name": "default"
+    },
+    "mug": {
+      "map": {
+        "0": "mug"
+      },
+      "name": "mug"
+    }
+  }
+}

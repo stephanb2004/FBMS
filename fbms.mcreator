@@ -297,16 +297,16 @@
       "registry_name": "rock_star_chica",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fbms/models/custom/rock_star_chica_particle.json",
-          "src/main/java/net/mcreator/fbms/block/renderer/RockStarChicaDisplayItemRenderer.java",
-          "src/main/java/net/mcreator/fbms/block/renderer/RockStarChicaTileRenderer.java",
           "src/main/java/net/mcreator/fbms/block/model/RockStarChicaBlockModel.java",
-          "src/main/java/net/mcreator/fbms/block/RockStarChicaBlock.java",
-          "src/main/java/net/mcreator/fbms/block/display/RockStarChicaDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/RockStarChicaTileRenderer.java",
           "src/main/java/net/mcreator/fbms/block/model/RockStarChicaDisplayModel.java",
+          "src/main/resources/assets/fbms/models/item/rock_star_chica.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/RockStarChicaDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/RockStarChicaBlock.java",
           "src/main/resources/assets/fbms/blockstates/rock_star_chica.json",
-          "src/main/java/net/mcreator/fbms/block/entity/RockStarChicaTileEntity.java",
-          "src/main/resources/assets/fbms/models/item/rock_star_chica.json"
+          "src/main/java/net/mcreator/fbms/block/display/RockStarChicaDisplayItem.java",
+          "src/main/resources/assets/fbms/models/custom/rock_star_chica_particle.json",
+          "src/main/java/net/mcreator/fbms/block/entity/RockStarChicaTileEntity.java"
         ]
       },
       "path": "~/Blocks/Animatronics/Animatable"
@@ -320,16 +320,16 @@
       "registry_name": "rock_star_freddy",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/fbms/block/model/RockStarFreddyDisplayModel.java",
           "src/main/java/net/mcreator/fbms/block/display/RockStarFreddyDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/RockStarFreddyTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/RockStarFreddyBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/entity/RockStarFreddyTileEntity.java",
           "src/main/resources/assets/fbms/blockstates/rock_star_freddy.json",
           "src/main/resources/assets/fbms/models/item/rock_star_freddy.json",
-          "src/main/java/net/mcreator/fbms/block/model/RockStarFreddyDisplayModel.java",
-          "src/main/java/net/mcreator/fbms/block/renderer/RockStarFreddyDisplayItemRenderer.java",
-          "src/main/java/net/mcreator/fbms/block/RockStarFreddyBlock.java",
-          "src/main/java/net/mcreator/fbms/block/model/RockStarFreddyBlockModel.java",
           "src/main/resources/assets/fbms/models/custom/rock_star_freddy_particle.json",
-          "src/main/java/net/mcreator/fbms/block/renderer/RockStarFreddyTileRenderer.java",
-          "src/main/java/net/mcreator/fbms/block/entity/RockStarFreddyTileEntity.java"
+          "src/main/java/net/mcreator/fbms/block/RockStarFreddyBlock.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/RockStarFreddyDisplayItemRenderer.java"
         ]
       },
       "path": "~/Blocks/Animatronics/Animatable"
@@ -1198,16 +1198,16 @@
       "registry_name": "rock_star_chica_animated",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fbms/blockstates/rock_star_chica_animated.json",
+          "src/main/java/net/mcreator/fbms/block/entity/RockStarChicaAnimatedTileEntity.java",
           "src/main/java/net/mcreator/fbms/block/renderer/RockStarChicaAnimatedDisplayItemRenderer.java",
           "src/main/resources/assets/fbms/models/custom/rock_star_chica_animated_particle.json",
+          "src/main/java/net/mcreator/fbms/block/model/RockStarChicaAnimatedBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/model/RockStarChicaAnimatedDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/display/RockStarChicaAnimatedDisplayItem.java",
+          "src/main/resources/assets/fbms/blockstates/rock_star_chica_animated.json",
           "src/main/resources/assets/fbms/models/item/rock_star_chica_animated.json",
           "src/main/java/net/mcreator/fbms/block/renderer/RockStarChicaAnimatedTileRenderer.java",
-          "src/main/java/net/mcreator/fbms/block/model/RockStarChicaAnimatedDisplayModel.java",
-          "src/main/java/net/mcreator/fbms/block/RockStarChicaAnimatedBlock.java",
-          "src/main/java/net/mcreator/fbms/block/model/RockStarChicaAnimatedBlockModel.java",
-          "src/main/java/net/mcreator/fbms/block/entity/RockStarChicaAnimatedTileEntity.java",
-          "src/main/java/net/mcreator/fbms/block/display/RockStarChicaAnimatedDisplayItem.java"
+          "src/main/java/net/mcreator/fbms/block/RockStarChicaAnimatedBlock.java"
         ]
       },
       "path": "~/Blocks/Animatronics/Animatable"
@@ -1244,16 +1244,16 @@
       "registry_name": "rock_star_freddy_animated",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fbms/models/custom/rock_star_freddy_animated_particle.json",
-          "src/main/java/net/mcreator/fbms/block/display/RockStarFreddyAnimatedDisplayItem.java",
-          "src/main/java/net/mcreator/fbms/block/entity/RockStarFreddyAnimatedTileEntity.java",
+          "src/main/resources/assets/fbms/blockstates/rock_star_freddy_animated.json",
           "src/main/java/net/mcreator/fbms/block/renderer/RockStarFreddyAnimatedDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/RockStarFreddyAnimatedBlock.java",
           "src/main/java/net/mcreator/fbms/block/model/RockStarFreddyAnimatedBlockModel.java",
           "src/main/resources/assets/fbms/models/item/rock_star_freddy_animated.json",
-          "src/main/java/net/mcreator/fbms/block/RockStarFreddyAnimatedBlock.java",
-          "src/main/java/net/mcreator/fbms/block/renderer/RockStarFreddyAnimatedTileRenderer.java",
-          "src/main/resources/assets/fbms/blockstates/rock_star_freddy_animated.json",
-          "src/main/java/net/mcreator/fbms/block/model/RockStarFreddyAnimatedDisplayModel.java"
+          "src/main/resources/assets/fbms/models/custom/rock_star_freddy_animated_particle.json",
+          "src/main/java/net/mcreator/fbms/block/model/RockStarFreddyAnimatedDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/display/RockStarFreddyAnimatedDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/entity/RockStarFreddyAnimatedTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/RockStarFreddyAnimatedTileRenderer.java"
         ]
       },
       "path": "~/Blocks/Animatronics/Animatable"
@@ -4593,12 +4593,12 @@
       "registry_name": "black_white_clean_tile_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fbms/blockstates/black_white_clean_tile_stairs.json",
           "src/main/java/net/mcreator/fbms/block/BlackWhiteCleanTileStairsBlock.java",
-          "src/main/resources/assets/fbms/models/block/black_white_clean_tile_stairs_outer.json",
           "src/main/resources/assets/fbms/models/item/black_white_clean_tile_stairs.json",
-          "src/main/resources/assets/fbms/models/block/black_white_clean_tile_stairs.json",
-          "src/main/resources/assets/fbms/models/block/black_white_clean_tile_stairs_inner.json"
+          "src/main/resources/assets/fbms/blockstates/black_white_clean_tile_stairs.json",
+          "src/main/resources/assets/fbms/models/block/black_white_clean_tile_stairs_outer.json",
+          "src/main/resources/assets/fbms/models/block/black_white_clean_tile_stairs_inner.json",
+          "src/main/resources/assets/fbms/models/block/black_white_clean_tile_stairs.json"
         ]
       },
       "path": "~/Blocks/Building"
@@ -4612,12 +4612,12 @@
       "registry_name": "black_white_clean_tile_slab",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/fbms/block/BlackWhiteCleanTileSlabBlock.java",
           "src/main/resources/assets/fbms/models/block/black_white_clean_tile_slab_top.json",
           "src/main/resources/assets/fbms/models/item/black_white_clean_tile_slab.json",
           "src/main/resources/assets/fbms/models/block/black_white_clean_tile_slab_full.json",
           "src/main/resources/assets/fbms/blockstates/black_white_clean_tile_slab.json",
-          "src/main/resources/assets/fbms/models/block/black_white_clean_tile_slab.json",
-          "src/main/java/net/mcreator/fbms/block/BlackWhiteCleanTileSlabBlock.java"
+          "src/main/resources/assets/fbms/models/block/black_white_clean_tile_slab.json"
         ]
       },
       "path": "~/Blocks/Building"
@@ -4631,10 +4631,10 @@
       "registry_name": "black_white_confetti_tiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fbms/blockstates/black_white_confetti_tiles.json",
           "src/main/java/net/mcreator/fbms/block/BlackWhiteConfettiTilesBlock.java",
           "src/main/resources/assets/fbms/models/item/black_white_confetti_tiles.json",
-          "src/main/resources/assets/fbms/models/block/black_white_confetti_tiles.json"
+          "src/main/resources/assets/fbms/models/block/black_white_confetti_tiles.json",
+          "src/main/resources/assets/fbms/blockstates/black_white_confetti_tiles.json"
         ]
       },
       "path": "~/Blocks/Building"
@@ -4649,11 +4649,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fbms/models/block/black_white_confetti_tile_stairs.json",
-          "src/main/resources/assets/fbms/models/item/black_white_confetti_tile_stairs.json",
           "src/main/resources/assets/fbms/models/block/black_white_confetti_tile_stairs_inner.json",
-          "src/main/resources/assets/fbms/blockstates/black_white_confetti_tile_stairs.json",
           "src/main/resources/assets/fbms/models/block/black_white_confetti_tile_stairs_outer.json",
-          "src/main/java/net/mcreator/fbms/block/BlackWhiteConfettiTileStairsBlock.java"
+          "src/main/java/net/mcreator/fbms/block/BlackWhiteConfettiTileStairsBlock.java",
+          "src/main/resources/assets/fbms/blockstates/black_white_confetti_tile_stairs.json",
+          "src/main/resources/assets/fbms/models/item/black_white_confetti_tile_stairs.json"
         ]
       },
       "path": "~/Blocks/Building"
@@ -4667,12 +4667,12 @@
       "registry_name": "black_white_confetti_tile_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fbms/models/block/black_white_confetti_tile_slab_top.json",
-          "src/main/resources/assets/fbms/models/block/black_white_confetti_tile_slab.json",
-          "src/main/resources/assets/fbms/models/item/black_white_confetti_tile_slab.json",
           "src/main/resources/assets/fbms/models/block/black_white_confetti_tile_slab_full.json",
+          "src/main/resources/assets/fbms/blockstates/black_white_confetti_tile_slab.json",
+          "src/main/resources/assets/fbms/models/block/black_white_confetti_tile_slab_top.json",
           "src/main/java/net/mcreator/fbms/block/BlackWhiteConfettiTileSlabBlock.java",
-          "src/main/resources/assets/fbms/blockstates/black_white_confetti_tile_slab.json"
+          "src/main/resources/assets/fbms/models/item/black_white_confetti_tile_slab.json",
+          "src/main/resources/assets/fbms/models/block/black_white_confetti_tile_slab.json"
         ]
       },
       "path": "~/Blocks/Building"
@@ -5994,10 +5994,10 @@
       "registry_name": "black_red_tiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fbms/models/block/black_red_tiles.json",
           "src/main/java/net/mcreator/fbms/block/BlackRedTilesBlock.java",
           "src/main/resources/assets/fbms/models/item/black_red_tiles.json",
-          "src/main/resources/assets/fbms/blockstates/black_red_tiles.json"
+          "src/main/resources/assets/fbms/blockstates/black_red_tiles.json",
+          "src/main/resources/assets/fbms/models/block/black_red_tiles.json"
         ]
       },
       "path": "~/Blocks/Building"
@@ -6045,10 +6045,10 @@
       "registry_name": "red_white_tiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fbms/models/block/red_white_tiles.json",
-          "src/main/resources/assets/fbms/blockstates/red_white_tiles.json",
           "src/main/resources/assets/fbms/models/item/red_white_tiles.json",
-          "src/main/java/net/mcreator/fbms/block/RedWhiteTilesBlock.java"
+          "src/main/java/net/mcreator/fbms/block/RedWhiteTilesBlock.java",
+          "src/main/resources/assets/fbms/blockstates/red_white_tiles.json",
+          "src/main/resources/assets/fbms/models/block/red_white_tiles.json"
         ]
       },
       "path": "~/Blocks/Building"
@@ -6079,10 +6079,10 @@
       "registry_name": "black_blue_tiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fbms/models/block/black_blue_tiles.json",
-          "src/main/resources/assets/fbms/blockstates/black_blue_tiles.json",
           "src/main/resources/assets/fbms/models/item/black_blue_tiles.json",
-          "src/main/java/net/mcreator/fbms/block/BlackBlueTilesBlock.java"
+          "src/main/java/net/mcreator/fbms/block/BlackBlueTilesBlock.java",
+          "src/main/resources/assets/fbms/blockstates/black_blue_tiles.json",
+          "src/main/resources/assets/fbms/models/block/black_blue_tiles.json"
         ]
       },
       "path": "~/Blocks/Building"
@@ -6096,10 +6096,10 @@
       "registry_name": "red_blue_tiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fbms/blockstates/red_blue_tiles.json",
           "src/main/resources/assets/fbms/models/block/red_blue_tiles.json",
           "src/main/java/net/mcreator/fbms/block/RedBlueTilesBlock.java",
-          "src/main/resources/assets/fbms/models/item/red_blue_tiles.json"
+          "src/main/resources/assets/fbms/models/item/red_blue_tiles.json",
+          "src/main/resources/assets/fbms/blockstates/red_blue_tiles.json"
         ]
       },
       "path": "~/Blocks/Building"
@@ -6132,12 +6132,12 @@
       "registry_name": "black_red_tiles_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fbms/blockstates/black_red_tiles_slab.json",
           "src/main/resources/assets/fbms/models/block/black_red_tiles_slab_top.json",
           "src/main/java/net/mcreator/fbms/block/BlackRedTilesSlabBlock.java",
+          "src/main/resources/assets/fbms/models/block/black_red_tiles_slab_full.json",
+          "src/main/resources/assets/fbms/blockstates/black_red_tiles_slab.json",
           "src/main/resources/assets/fbms/models/item/black_red_tiles_slab.json",
-          "src/main/resources/assets/fbms/models/block/black_red_tiles_slab.json",
-          "src/main/resources/assets/fbms/models/block/black_red_tiles_slab_full.json"
+          "src/main/resources/assets/fbms/models/block/black_red_tiles_slab.json"
         ]
       },
       "path": "~/Blocks/Building"
@@ -6189,12 +6189,12 @@
       "registry_name": "red_white_tiles_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fbms/models/block/red_white_tiles_slab_top.json",
-          "src/main/resources/assets/fbms/models/block/red_white_tiles_slab.json",
-          "src/main/resources/assets/fbms/models/block/red_white_tiles_slab_full.json",
-          "src/main/resources/assets/fbms/models/item/red_white_tiles_slab.json",
           "src/main/java/net/mcreator/fbms/block/RedWhiteTilesSlabBlock.java",
-          "src/main/resources/assets/fbms/blockstates/red_white_tiles_slab.json"
+          "src/main/resources/assets/fbms/models/block/red_white_tiles_slab_top.json",
+          "src/main/resources/assets/fbms/models/block/red_white_tiles_slab_full.json",
+          "src/main/resources/assets/fbms/models/block/red_white_tiles_slab.json",
+          "src/main/resources/assets/fbms/blockstates/red_white_tiles_slab.json",
+          "src/main/resources/assets/fbms/models/item/red_white_tiles_slab.json"
         ]
       },
       "path": "~/Blocks/Building"
@@ -6227,12 +6227,12 @@
       "registry_name": "black_blue_tiles_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fbms/models/block/black_blue_tiles_slab_top.json",
-          "src/main/resources/assets/fbms/models/block/black_blue_tiles_slab_full.json",
+          "src/main/resources/assets/fbms/models/item/black_blue_tiles_slab.json",
           "src/main/java/net/mcreator/fbms/block/BlackBlueTilesSlabBlock.java",
-          "src/main/resources/assets/fbms/blockstates/black_blue_tiles_slab.json",
           "src/main/resources/assets/fbms/models/block/black_blue_tiles_slab.json",
-          "src/main/resources/assets/fbms/models/item/black_blue_tiles_slab.json"
+          "src/main/resources/assets/fbms/models/block/black_blue_tiles_slab_top.json",
+          "src/main/resources/assets/fbms/blockstates/black_blue_tiles_slab.json",
+          "src/main/resources/assets/fbms/models/block/black_blue_tiles_slab_full.json"
         ]
       },
       "path": "~/Blocks/Building"
@@ -6246,12 +6246,12 @@
       "registry_name": "red_blue_tiles_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fbms/models/block/red_blue_tiles_slab.json",
-          "src/main/resources/assets/fbms/models/block/red_blue_tiles_slab_full.json",
-          "src/main/resources/assets/fbms/models/item/red_blue_tiles_slab.json",
           "src/main/resources/assets/fbms/models/block/red_blue_tiles_slab_top.json",
+          "src/main/resources/assets/fbms/models/item/red_blue_tiles_slab.json",
+          "src/main/resources/assets/fbms/models/block/red_blue_tiles_slab.json",
           "src/main/resources/assets/fbms/blockstates/red_blue_tiles_slab.json",
-          "src/main/java/net/mcreator/fbms/block/RedBlueTilesSlabBlock.java"
+          "src/main/java/net/mcreator/fbms/block/RedBlueTilesSlabBlock.java",
+          "src/main/resources/assets/fbms/models/block/red_blue_tiles_slab_full.json"
         ]
       },
       "path": "~/Blocks/Building"
@@ -6284,12 +6284,12 @@
       "registry_name": "black_red_tiles_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fbms/models/block/black_red_tiles_stairs.json",
-          "src/main/java/net/mcreator/fbms/block/BlackRedTilesStairsBlock.java",
           "src/main/resources/assets/fbms/models/item/black_red_tiles_stairs.json",
-          "src/main/resources/assets/fbms/blockstates/black_red_tiles_stairs.json",
+          "src/main/resources/assets/fbms/models/block/black_red_tiles_stairs.json",
+          "src/main/resources/assets/fbms/models/block/black_red_tiles_stairs_inner.json",
           "src/main/resources/assets/fbms/models/block/black_red_tiles_stairs_outer.json",
-          "src/main/resources/assets/fbms/models/block/black_red_tiles_stairs_inner.json"
+          "src/main/java/net/mcreator/fbms/block/BlackRedTilesStairsBlock.java",
+          "src/main/resources/assets/fbms/blockstates/black_red_tiles_stairs.json"
         ]
       },
       "path": "~/Blocks/Building"
@@ -6341,11 +6341,11 @@
       "registry_name": "red_white_tiles_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fbms/models/block/red_white_tiles_stairs.json",
-          "src/main/resources/assets/fbms/models/block/red_white_tiles_stairs_inner.json",
           "src/main/resources/assets/fbms/models/item/red_white_tiles_stairs.json",
-          "src/main/resources/assets/fbms/blockstates/red_white_tiles_stairs.json",
+          "src/main/resources/assets/fbms/models/block/red_white_tiles_stairs_inner.json",
           "src/main/java/net/mcreator/fbms/block/RedWhiteTilesStairsBlock.java",
+          "src/main/resources/assets/fbms/blockstates/red_white_tiles_stairs.json",
+          "src/main/resources/assets/fbms/models/block/red_white_tiles_stairs.json",
           "src/main/resources/assets/fbms/models/block/red_white_tiles_stairs_outer.json"
         ]
       },
@@ -6379,12 +6379,12 @@
       "registry_name": "black_blue_tiles_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fbms/models/block/black_blue_tiles_stairs.json",
-          "src/main/resources/assets/fbms/blockstates/black_blue_tiles_stairs.json",
-          "src/main/resources/assets/fbms/models/block/black_blue_tiles_stairs_inner.json",
           "src/main/resources/assets/fbms/models/item/black_blue_tiles_stairs.json",
-          "src/main/java/net/mcreator/fbms/block/BlackBlueTilesStairsBlock.java",
-          "src/main/resources/assets/fbms/models/block/black_blue_tiles_stairs_outer.json"
+          "src/main/resources/assets/fbms/blockstates/black_blue_tiles_stairs.json",
+          "src/main/resources/assets/fbms/models/block/black_blue_tiles_stairs.json",
+          "src/main/resources/assets/fbms/models/block/black_blue_tiles_stairs_inner.json",
+          "src/main/resources/assets/fbms/models/block/black_blue_tiles_stairs_outer.json",
+          "src/main/java/net/mcreator/fbms/block/BlackBlueTilesStairsBlock.java"
         ]
       },
       "path": "~/Blocks/Building"
@@ -6398,12 +6398,12 @@
       "registry_name": "red_blue_tiles_stairs",
       "metadata": {
         "files": [
+          "src/main/resources/assets/fbms/models/block/red_blue_tiles_stairs_outer.json",
           "src/main/resources/assets/fbms/models/block/red_blue_tiles_stairs_inner.json",
           "src/main/java/net/mcreator/fbms/block/RedBlueTilesStairsBlock.java",
-          "src/main/resources/assets/fbms/models/block/red_blue_tiles_stairs_outer.json",
-          "src/main/resources/assets/fbms/models/item/red_blue_tiles_stairs.json",
           "src/main/resources/assets/fbms/blockstates/red_blue_tiles_stairs.json",
-          "src/main/resources/assets/fbms/models/block/red_blue_tiles_stairs.json"
+          "src/main/resources/assets/fbms/models/block/red_blue_tiles_stairs.json",
+          "src/main/resources/assets/fbms/models/item/red_blue_tiles_stairs.json"
         ]
       },
       "path": "~/Blocks/Building"
@@ -9758,6 +9758,692 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "RedTiles",
+      "type": "block",
+      "sortid": 481,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_tiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/RedTilesBlock.java",
+          "src/main/resources/assets/fbms/blockstates/red_tiles.json",
+          "src/main/resources/assets/fbms/models/item/red_tiles.json",
+          "src/main/resources/assets/fbms/models/block/red_tiles.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "GreenBlueTiles",
+      "type": "block",
+      "sortid": 482,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_blue_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/green_blue_tiles.json",
+          "src/main/resources/assets/fbms/models/block/green_blue_tiles.json",
+          "src/main/java/net/mcreator/fbms/block/GreenBlueTilesBlock.java",
+          "src/main/resources/assets/fbms/blockstates/green_blue_tiles.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "OrangePinkTiles",
+      "type": "block",
+      "sortid": 483,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_pink_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/orange_pink_tiles.json",
+          "src/main/resources/assets/fbms/blockstates/orange_pink_tiles.json",
+          "src/main/java/net/mcreator/fbms/block/OrangePinkTilesBlock.java",
+          "src/main/resources/assets/fbms/models/block/orange_pink_tiles.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "GreenTiles",
+      "type": "block",
+      "sortid": 484,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_tiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/GreenTilesBlock.java",
+          "src/main/resources/assets/fbms/models/block/green_tiles.json",
+          "src/main/resources/assets/fbms/blockstates/green_tiles.json",
+          "src/main/resources/assets/fbms/models/item/green_tiles.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "VentBlock",
+      "type": "block",
+      "sortid": 485,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vent_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/VentBlockBlock.java",
+          "src/main/resources/assets/fbms/models/block/vent_block.json",
+          "src/main/resources/assets/fbms/models/item/vent_block.json",
+          "src/main/resources/assets/fbms/blockstates/vent_block.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "OldPlanks",
+      "type": "block",
+      "sortid": 486,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/block/old_planks.json",
+          "src/main/resources/assets/fbms/models/item/old_planks.json",
+          "src/main/resources/assets/fbms/blockstates/old_planks.json",
+          "src/main/java/net/mcreator/fbms/block/OldPlanksBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "LargeBattery",
+      "type": "block",
+      "sortid": 487,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_battery",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/large_battery.json",
+          "src/main/java/net/mcreator/fbms/block/LargeBatteryBlock.java",
+          "src/main/resources/assets/fbms/blockstates/large_battery.json",
+          "src/main/resources/assets/fbms/models/block/large_battery.json"
+        ]
+      },
+      "path": "~/Blocks/Building"
+    },
+    {
+      "name": "MooseMug",
+      "type": "item",
+      "sortid": 488,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moose_mug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/item/MooseMugItem.java",
+          "src/main/resources/assets/fbms/models/item/moose_mug.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ToyPug",
+      "type": "animatedblock",
+      "sortid": 489,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toy_pug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/display/ToyPugDisplayItem.java",
+          "src/main/resources/assets/fbms/models/custom/toy_pug_particle.json",
+          "src/main/java/net/mcreator/fbms/block/model/ToyPugDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/entity/ToyPugTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/ToyPugTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/ToyPugDisplayItemRenderer.java",
+          "src/main/resources/assets/fbms/blockstates/toy_pug.json",
+          "src/main/resources/assets/fbms/models/item/toy_pug.json",
+          "src/main/java/net/mcreator/fbms/block/ToyPugBlock.java",
+          "src/main/java/net/mcreator/fbms/block/model/ToyPugBlockModel.java"
+        ]
+      },
+      "path": "~/Blocks/Props/Plushies"
+    },
+    {
+      "name": "PrizeCounterSign",
+      "type": "animatedblock",
+      "sortid": 490,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prize_counter_sign",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/prize_counter_sign.json",
+          "src/main/java/net/mcreator/fbms/block/display/PrizeCounterSignDisplayItem.java",
+          "src/main/resources/assets/fbms/blockstates/prize_counter_sign.json",
+          "src/main/resources/assets/fbms/models/custom/prize_counter_sign_particle.json",
+          "src/main/java/net/mcreator/fbms/block/PrizeCounterSignBlock.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/PrizeCounterSignTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/PrizeCounterSignBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/entity/PrizeCounterSignTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/PrizeCounterSignDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/PrizeCounterSignDisplayModel.java"
+        ]
+      },
+      "path": "~/Blocks/Props/Signs"
+    },
+    {
+      "name": "RestRoomSign",
+      "type": "animatedblock",
+      "sortid": 491,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rest_room_sign",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/blockstates/rest_room_sign.json",
+          "src/main/resources/assets/fbms/models/item/rest_room_sign.json",
+          "src/main/resources/assets/fbms/models/custom/rest_room_sign_particle.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/RestRoomSignDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/display/RestRoomSignDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/entity/RestRoomSignTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/RestRoomSignTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/RestRoomSignDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/RestRoomSignBlock.java",
+          "src/main/java/net/mcreator/fbms/block/model/RestRoomSignBlockModel.java"
+        ]
+      },
+      "path": "~/Blocks/Props/Signs"
+    },
+    {
+      "name": "ArcadeSign",
+      "type": "animatedblock",
+      "sortid": 492,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcade_sign",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/custom/arcade_sign_particle.json",
+          "src/main/java/net/mcreator/fbms/block/entity/ArcadeSignTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/model/ArcadeSignBlockModel.java",
+          "src/main/resources/assets/fbms/models/item/arcade_sign.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/ArcadeSignTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/ArcadeSignDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/display/ArcadeSignDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/ArcadeSignDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/ArcadeSignBlock.java",
+          "src/main/resources/assets/fbms/blockstates/arcade_sign.json"
+        ]
+      },
+      "path": "~/Blocks/Props/Signs"
+    },
+    {
+      "name": "PartyRoomSign",
+      "type": "animatedblock",
+      "sortid": 493,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "party_room_sign",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/model/PartyRoomSignDisplayModel.java",
+          "src/main/resources/assets/fbms/blockstates/party_room_sign.json",
+          "src/main/resources/assets/fbms/models/custom/party_room_sign_particle.json",
+          "src/main/java/net/mcreator/fbms/block/PartyRoomSignBlock.java",
+          "src/main/java/net/mcreator/fbms/block/model/PartyRoomSignBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/entity/PartyRoomSignTileEntity.java",
+          "src/main/resources/assets/fbms/models/item/party_room_sign.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/PartyRoomSignTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/display/PartyRoomSignDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/PartyRoomSignDisplayItemRenderer.java"
+        ]
+      },
+      "path": "~/Blocks/Props/Signs"
+    },
+    {
+      "name": "KitchenSign",
+      "type": "animatedblock",
+      "sortid": 494,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kitchen_sign",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/renderer/KitchenSignDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/KitchenSignBlock.java",
+          "src/main/java/net/mcreator/fbms/block/model/KitchenSignBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/entity/KitchenSignTileEntity.java",
+          "src/main/resources/assets/fbms/models/item/kitchen_sign.json",
+          "src/main/java/net/mcreator/fbms/block/model/KitchenSignDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/display/KitchenSignDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/KitchenSignTileRenderer.java",
+          "src/main/resources/assets/fbms/models/custom/kitchen_sign_particle.json",
+          "src/main/resources/assets/fbms/blockstates/kitchen_sign.json"
+        ]
+      },
+      "path": "~/Blocks/Props/Signs"
+    },
+    {
+      "name": "NeonRedLightStrip",
+      "type": "animatedblock",
+      "sortid": 495,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_red_light_strip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/NeonRedLightStripBlock.java",
+          "src/main/resources/assets/fbms/models/custom/neon_red_light_strip_particle.json",
+          "src/main/java/net/mcreator/fbms/block/display/NeonRedLightStripDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonRedLightStripTileRenderer.java",
+          "src/main/resources/assets/fbms/models/item/neon_red_light_strip.json",
+          "src/main/java/net/mcreator/fbms/block/model/NeonRedLightStripBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonRedLightStripDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeonRedLightStripDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/entity/NeonRedLightStripTileEntity.java",
+          "src/main/resources/assets/fbms/blockstates/neon_red_light_strip.json"
+        ]
+      },
+      "path": "~/Blocks/Props"
+    },
+    {
+      "name": "NeonRedLightStripRight",
+      "type": "animatedblock",
+      "sortid": 496,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_red_light_strip_right",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/neon_red_light_strip_right.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonRedLightStripRightDisplayItemRenderer.java",
+          "src/main/resources/assets/fbms/models/custom/neon_red_light_strip_right_particle.json",
+          "src/main/java/net/mcreator/fbms/block/display/NeonRedLightStripRightDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeonRedLightStripRightDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/entity/NeonRedLightStripRightTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/NeonRedLightStripRightBlock.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeonRedLightStripRightBlockModel.java",
+          "src/main/resources/assets/fbms/blockstates/neon_red_light_strip_right.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonRedLightStripRightTileRenderer.java"
+        ]
+      },
+      "path": "~/Blocks/Props"
+    },
+    {
+      "name": "NeonRedLightStripLeft",
+      "type": "animatedblock",
+      "sortid": 497,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_red_light_strip_left",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/display/NeonRedLightStripLeftDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeonRedLightStripLeftBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/entity/NeonRedLightStripLeftTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/NeonRedLightStripLeftBlock.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeonRedLightStripLeftDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonRedLightStripLeftDisplayItemRenderer.java",
+          "src/main/resources/assets/fbms/blockstates/neon_red_light_strip_left.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonRedLightStripLeftTileRenderer.java",
+          "src/main/resources/assets/fbms/models/custom/neon_red_light_strip_left_particle.json",
+          "src/main/resources/assets/fbms/models/item/neon_red_light_strip_left.json"
+        ]
+      },
+      "path": "~/Blocks/Props"
+    },
+    {
+      "name": "NeonGreenLightStrip",
+      "type": "animatedblock",
+      "sortid": 498,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_green_light_strip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonGreenLightStripTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeonGreenLightStripBlockModel.java",
+          "src/main/resources/assets/fbms/models/custom/neon_green_light_strip_particle.json",
+          "src/main/java/net/mcreator/fbms/block/model/NeonGreenLightStripDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/NeonGreenLightStripBlock.java",
+          "src/main/resources/assets/fbms/blockstates/neon_green_light_strip.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonGreenLightStripDisplayItemRenderer.java",
+          "src/main/resources/assets/fbms/models/item/neon_green_light_strip.json",
+          "src/main/java/net/mcreator/fbms/block/entity/NeonGreenLightStripTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/display/NeonGreenLightStripDisplayItem.java"
+        ]
+      },
+      "path": "~/Blocks/Props"
+    },
+    {
+      "name": "NeonGreenLightStripRight",
+      "type": "animatedblock",
+      "sortid": 499,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_green_light_strip_right",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/blockstates/neon_green_light_strip_right.json",
+          "src/main/java/net/mcreator/fbms/block/entity/NeonGreenLightStripRightTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/display/NeonGreenLightStripRightDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonGreenLightStripRightDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/NeonGreenLightStripRightBlock.java",
+          "src/main/resources/assets/fbms/models/item/neon_green_light_strip_right.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonGreenLightStripRightTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeonGreenLightStripRightBlockModel.java",
+          "src/main/resources/assets/fbms/models/custom/neon_green_light_strip_right_particle.json",
+          "src/main/java/net/mcreator/fbms/block/model/NeonGreenLightStripRightDisplayModel.java"
+        ]
+      },
+      "path": "~/Blocks/Props"
+    },
+    {
+      "name": "NeonGreenLightStripLeft",
+      "type": "animatedblock",
+      "sortid": 500,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_green_light_strip_left",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/model/NeonGreenLightStripLeftBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/NeonGreenLightStripLeftBlock.java",
+          "src/main/resources/assets/fbms/blockstates/neon_green_light_strip_left.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonGreenLightStripLeftTileRenderer.java",
+          "src/main/resources/assets/fbms/models/item/neon_green_light_strip_left.json",
+          "src/main/java/net/mcreator/fbms/block/model/NeonGreenLightStripLeftDisplayModel.java",
+          "src/main/resources/assets/fbms/models/custom/neon_green_light_strip_left_particle.json",
+          "src/main/java/net/mcreator/fbms/block/entity/NeonGreenLightStripLeftTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/display/NeonGreenLightStripLeftDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonGreenLightStripLeftDisplayItemRenderer.java"
+        ]
+      },
+      "path": "~/Blocks/Props"
+    },
+    {
+      "name": "NeonBlueLightStrip",
+      "type": "animatedblock",
+      "sortid": 501,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_blue_light_strip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonBlueLightStripTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeonBlueLightStripDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeonBlueLightStripBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/display/NeonBlueLightStripDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/entity/NeonBlueLightStripTileEntity.java",
+          "src/main/resources/assets/fbms/models/item/neon_blue_light_strip.json",
+          "src/main/resources/assets/fbms/models/custom/neon_blue_light_strip_particle.json",
+          "src/main/resources/assets/fbms/blockstates/neon_blue_light_strip.json",
+          "src/main/java/net/mcreator/fbms/block/NeonBlueLightStripBlock.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonBlueLightStripDisplayItemRenderer.java"
+        ]
+      },
+      "path": "~/Blocks/Props"
+    },
+    {
+      "name": "NeonBlueLightStripRight",
+      "type": "animatedblock",
+      "sortid": 502,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_blue_light_strip_right",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonBlueLightStripRightDisplayItemRenderer.java",
+          "src/main/resources/assets/fbms/blockstates/neon_blue_light_strip_right.json",
+          "src/main/resources/assets/fbms/models/custom/neon_blue_light_strip_right_particle.json",
+          "src/main/java/net/mcreator/fbms/block/model/NeonBlueLightStripRightBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/display/NeonBlueLightStripRightDisplayItem.java",
+          "src/main/resources/assets/fbms/models/item/neon_blue_light_strip_right.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonBlueLightStripRightTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/NeonBlueLightStripRightBlock.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeonBlueLightStripRightDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/entity/NeonBlueLightStripRightTileEntity.java"
+        ]
+      },
+      "path": "~/Blocks/Props"
+    },
+    {
+      "name": "NeonBlueLightStripLeft",
+      "type": "animatedblock",
+      "sortid": 503,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_blue_light_strip_left",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/model/NeonBlueLightStripLeftDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonBlueLightStripLeftTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonBlueLightStripLeftDisplayItemRenderer.java",
+          "src/main/resources/assets/fbms/blockstates/neon_blue_light_strip_left.json",
+          "src/main/resources/assets/fbms/models/item/neon_blue_light_strip_left.json",
+          "src/main/java/net/mcreator/fbms/block/entity/NeonBlueLightStripLeftTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/display/NeonBlueLightStripLeftDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/NeonBlueLightStripLeftBlock.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeonBlueLightStripLeftBlockModel.java",
+          "src/main/resources/assets/fbms/models/custom/neon_blue_light_strip_left_particle.json"
+        ]
+      },
+      "path": "~/Blocks/Props"
+    },
+    {
+      "name": "NeonYellowLightStrip",
+      "type": "animatedblock",
+      "sortid": 504,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_yellow_light_strip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/display/NeonYellowLightStripDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonYellowLightStripDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonYellowLightStripTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/entity/NeonYellowLightStripTileEntity.java",
+          "src/main/resources/assets/fbms/models/custom/neon_yellow_light_strip_particle.json",
+          "src/main/java/net/mcreator/fbms/block/NeonYellowLightStripBlock.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeonYellowLightStripDisplayModel.java",
+          "src/main/resources/assets/fbms/blockstates/neon_yellow_light_strip.json",
+          "src/main/java/net/mcreator/fbms/block/model/NeonYellowLightStripBlockModel.java",
+          "src/main/resources/assets/fbms/models/item/neon_yellow_light_strip.json"
+        ]
+      },
+      "path": "~/Blocks/Props"
+    },
+    {
+      "name": "NeonYellowLightStripRight",
+      "type": "animatedblock",
+      "sortid": 505,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_yellow_light_strip_right",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonYellowLightStripRightDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/NeonYellowLightStripRightBlock.java",
+          "src/main/java/net/mcreator/fbms/block/display/NeonYellowLightStripRightDisplayItem.java",
+          "src/main/resources/assets/fbms/models/custom/neon_yellow_light_strip_right_particle.json",
+          "src/main/java/net/mcreator/fbms/block/model/NeonYellowLightStripRightBlockModel.java",
+          "src/main/resources/assets/fbms/blockstates/neon_yellow_light_strip_right.json",
+          "src/main/resources/assets/fbms/models/item/neon_yellow_light_strip_right.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonYellowLightStripRightTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/entity/NeonYellowLightStripRightTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeonYellowLightStripRightDisplayModel.java"
+        ]
+      },
+      "path": "~/Blocks/Props"
+    },
+    {
+      "name": "NeonYellowLightStripLeft",
+      "type": "animatedblock",
+      "sortid": 506,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_yellow_light_strip_left",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonYellowLightStripLeftDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/entity/NeonYellowLightStripLeftTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/display/NeonYellowLightStripLeftDisplayItem.java",
+          "src/main/resources/assets/fbms/models/item/neon_yellow_light_strip_left.json",
+          "src/main/java/net/mcreator/fbms/block/NeonYellowLightStripLeftBlock.java",
+          "src/main/resources/assets/fbms/models/custom/neon_yellow_light_strip_left_particle.json",
+          "src/main/resources/assets/fbms/blockstates/neon_yellow_light_strip_left.json",
+          "src/main/java/net/mcreator/fbms/block/model/NeonYellowLightStripLeftBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeonYellowLightStripLeftDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonYellowLightStripLeftTileRenderer.java"
+        ]
+      },
+      "path": "~/Blocks/Props"
+    },
+    {
+      "name": "NeonOrangeLightStrip",
+      "type": "animatedblock",
+      "sortid": 507,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_orange_light_strip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/model/NeonOrangeLightStripBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeonOrangeLightStripDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/display/NeonOrangeLightStripDisplayItem.java",
+          "src/main/resources/assets/fbms/models/item/neon_orange_light_strip.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonOrangeLightStripTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/NeonOrangeLightStripBlock.java",
+          "src/main/resources/assets/fbms/blockstates/neon_orange_light_strip.json",
+          "src/main/resources/assets/fbms/models/custom/neon_orange_light_strip_particle.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonOrangeLightStripDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/entity/NeonOrangeLightStripTileEntity.java"
+        ]
+      },
+      "path": "~/Blocks/Props"
+    },
+    {
+      "name": "NeonOrangeLightStripRight",
+      "type": "animatedblock",
+      "sortid": 508,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_orange_light_strip_right",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/display/NeonOrangeLightStripRightDisplayItem.java",
+          "src/main/resources/assets/fbms/blockstates/neon_orange_light_strip_right.json",
+          "src/main/java/net/mcreator/fbms/block/entity/NeonOrangeLightStripRightTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeonOrangeLightStripRightDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonOrangeLightStripRightTileRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/NeonOrangeLightStripRightBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/NeonOrangeLightStripRightBlock.java",
+          "src/main/resources/assets/fbms/models/item/neon_orange_light_strip_right.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonOrangeLightStripRightDisplayItemRenderer.java",
+          "src/main/resources/assets/fbms/models/custom/neon_orange_light_strip_right_particle.json"
+        ]
+      },
+      "path": "~/Blocks/Props"
+    },
+    {
+      "name": "NeonOrangeLightLeft",
+      "type": "animatedblock",
+      "sortid": 509,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_orange_light_left",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/models/item/neon_orange_light_left.json",
+          "src/main/java/net/mcreator/fbms/block/model/NeonOrangeLightLeftBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/NeonOrangeLightLeftBlock.java",
+          "src/main/java/net/mcreator/fbms/block/display/NeonOrangeLightLeftDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonOrangeLightLeftDisplayItemRenderer.java",
+          "src/main/resources/assets/fbms/blockstates/neon_orange_light_left.json",
+          "src/main/java/net/mcreator/fbms/block/model/NeonOrangeLightLeftDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/entity/NeonOrangeLightLeftTileEntity.java",
+          "src/main/resources/assets/fbms/models/custom/neon_orange_light_left_particle.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/NeonOrangeLightLeftTileRenderer.java"
+        ]
+      },
+      "path": "~/Blocks/Props"
+    },
+    {
+      "name": "FtFreddy",
+      "type": "animatedblock",
+      "sortid": 510,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ft_freddy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/FtFreddyBlock.java",
+          "src/main/java/net/mcreator/fbms/block/display/FtFreddyDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/FtFreddyTileRenderer.java",
+          "src/main/resources/assets/fbms/blockstates/ft_freddy.json",
+          "src/main/java/net/mcreator/fbms/block/renderer/FtFreddyDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/FtFreddyDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/entity/FtFreddyTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/model/FtFreddyBlockModel.java",
+          "src/main/resources/assets/fbms/models/custom/ft_freddy_particle.json",
+          "src/main/resources/assets/fbms/models/item/ft_freddy.json"
+        ]
+      },
+      "path": "~/Blocks/Animatronics/Non Animatable"
+    },
+    {
+      "name": "FredBear",
+      "type": "animatedblock",
+      "sortid": 511,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fred_bear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fbms/block/model/FredBearDisplayModel.java",
+          "src/main/java/net/mcreator/fbms/block/display/FredBearDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/entity/FredBearTileEntity.java",
+          "src/main/resources/assets/fbms/models/custom/fred_bear_particle.json",
+          "src/main/resources/assets/fbms/blockstates/fred_bear.json",
+          "src/main/java/net/mcreator/fbms/block/model/FredBearBlockModel.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/FredBearDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/FredBearBlock.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/FredBearTileRenderer.java",
+          "src/main/resources/assets/fbms/models/item/fred_bear.json"
+        ]
+      },
+      "path": "~/Blocks/Animatronics/Non Animatable"
+    },
+    {
+      "name": "FredbearDeactivated",
+      "type": "animatedblock",
+      "sortid": 512,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fredbear_deactivated",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fbms/blockstates/fredbear_deactivated.json",
+          "src/main/java/net/mcreator/fbms/block/entity/FredbearDeactivatedTileEntity.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/FredbearDeactivatedDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fbms/block/model/FredbearDeactivatedDisplayModel.java",
+          "src/main/resources/assets/fbms/models/item/fredbear_deactivated.json",
+          "src/main/java/net/mcreator/fbms/block/display/FredbearDeactivatedDisplayItem.java",
+          "src/main/java/net/mcreator/fbms/block/renderer/FredbearDeactivatedTileRenderer.java",
+          "src/main/resources/assets/fbms/models/custom/fredbear_deactivated_particle.json",
+          "src/main/java/net/mcreator/fbms/block/FredbearDeactivatedBlock.java",
+          "src/main/java/net/mcreator/fbms/block/model/FredbearDeactivatedBlockModel.java"
+        ]
+      },
+      "path": "~/Blocks/Animatronics/Non Animatable"
     }
   ],
   "variable_elements": [],
@@ -9901,16 +10587,17 @@
   ],
   "language_map": {
     "en_us": {
+      "block.fbms.party_room_sign": "Party Room Sign",
       "block.fbms.gt_endo_animated": "GT-Endo95 (Animated)",
       "item.fbms.rat_spawn_egg": "Rat Spawn Egg",
       "block.fbms.black_white_confetti_tile_stairs": "Black White Confetti Tile Stairs",
       "block.fbms.pizza_box_87_open": "Pizza Box (1987)",
-      "block.fbms.spring_bonnie_poster": "FredBear Poster",
       "block.fbms.thin_black_curtain": "Thin Black Curtain",
+      "block.fbms.spring_bonnie_poster": "FredBear Poster",
       "block.fbms.lolbit_record": "Lolbit Record",
       "block.fbms.orange_stared_curtains": "Orange Stared Curtains",
-      "subtitles.byebye": "WERE DID HE GO",
       "block.fbms.pizza_box_85_closed": "Pizza Box (1985)",
+      "subtitles.byebye": "WERE DID HE GO",
       "block.fbms.celebrate_poster": "Celebrate Poster",
       "block.fbms.doc_plush": "Doc Plush",
       "block.fbms.funtime_delilah": "Funtime Delilah",
@@ -9923,31 +10610,33 @@
       "block.fbms.gray_wall": "Light Gray Wall",
       "block.fbms.el_chip": "El Chip",
       "block.fbms.neon_juke_box_off": "Neon Juke Box",
-      "item.fbms.d_freddy_spawn_egg": "D Freddy  Spawn Egg",
       "block.fbms.tan_black_stripe_wall_tiles": "Tan Black Stripe Stage Bricks Tiles",
+      "item.fbms.d_freddy_spawn_egg": "D Freddy  Spawn Egg",
       "block.fbms.barry_polar_animated": "Barry Polar Animated",
       "block.fbms.black_red_tiles_stairs": "Black Red Tiles Stairs ",
       "block.fbms.pan_stan": "Pan Stan",
-      "block.fbms.molten_sit": "Molten Freddy (Sit)",
       "block.fbms.coin": "Coin",
-      "block.fbms.ceiling_stage_lightpink": "Ceiling Stage Light (Pink)",
+      "block.fbms.molten_sit": "Molten Freddy (Sit)",
       "block.fbms.toy_foxy": "Toy Foxy",
+      "block.fbms.ceiling_stage_lightpink": "Ceiling Stage Light (Pink)",
       "block.fbms.r_freddy_poster": "Rockstar Freddy Poster",
       "block.fbms.happy_frog_animated": "Happy Frog Animated",
       "block.fbms.fredbear_01": "Fredbear 01",
       "block.fbms.music_man_animated": "Music Man Animated",
+      "block.fbms.green_blue_tiles": "Red Tiles",
       "block.fbms.withered_wally_walrus": "Withered Wally Walrus",
       "block.fbms.old_chica": "Old Chica",
       "block.fbms.tv_marties_plungers": "TV Monitor (Marty\u0027s Plungers)",
+      "block.fbms.ft_freddy": "FunTime Freddy",
       "block.fbms.lemonade_clown": "Lemonade Clown",
       "item.fbms.fries": "Fries",
       "block.fbms.funtime_chica_animated": "Funtime Chica Animated",
-      "block.fbms.safety_poster_freddy": "Safety Poster (Freddy)",
       "block.fbms.red_white_tiles": "Red White Tiles",
+      "block.fbms.safety_poster_freddy": "Safety Poster (Freddy)",
       "block.fbms.retro_confetti_wall": "Retro Confetti Wall",
-      "block.fbms.retro_chica_animated": "Retro Chica (Animated)",
-      "item.fbms.moldy_fries": "Moldy Fries",
       "block.fbms.yellow_stared_curtains": "Yellow Stared Curtains",
+      "item.fbms.moldy_fries": "Moldy Fries",
+      "block.fbms.retro_chica_animated": "Retro Chica (Animated)",
       "item.fbms.icecream_birthday": "Ice Cream (Birthday)",
       "subtitles.arcade_turnon": "Arcade turns on",
       "block.fbms.rock_star_freddy": "Rockstar Freddy",
@@ -9959,7 +10648,9 @@
       "item.fbms.gas_mask_boots": "Gas Mask Boots",
       "block.fbms.full_black_tiles_stairs": "Full Black Tiles Stairs ",
       "block.fbms.cam": "Cam",
+      "block.fbms.neon_red_light_strip": "Neon Red Light Strip",
       "block.fbms.chica_o_lantern": "Chica O\u0027 Lantern",
+      "block.fbms.red_tiles": "Red Tiles",
       "block.fbms.puffy_puffins": "Puffy Puffins",
       "itemGroup.tabfms_blocks": "FMS Blocks",
       "block.fbms.tv_fiztime_pop_soda": "TV Monitor (Fiztime Pop Soda)",
@@ -9968,29 +10659,33 @@
       "block.fbms.wink_sign": "Wink Sign",
       "item.fbms.wand": "Wand",
       "item.fbms.moldy_fried_chicken": "Moldy Fried Chicken",
+      "block.fbms.neon_yellow_light_strip_right": "Neon Yellow Light Strip Right",
       "item.fbms.icecream_cherry": "Ice Cream (Cherry)",
-      "block.fbms.candy_cadet": "Candy Cadet",
+      "block.fbms.neon_orange_light_left": "Neon Orange Light Strip Left",
       "block.fbms.gray_red_stripe_wall": "Gray Red Stripe Wall Tile",
+      "block.fbms.candy_cadet": "Candy Cadet",
       "block.fbms.ball_pit_tower": "BallPit Tower",
       "block.fbms.freddy_cut_out": "Freddy Cut Out",
       "block.fbms.rock_star_chica_animated": "Rockstar Chica Animated",
-      "item.fbms.trumpet": "Trumpet",
       "block.fbms.ceiling_light_on": "Ceiling Light (on)",
+      "item.fbms.trumpet": "Trumpet",
       "block.fbms.withered_doug_the_dog": "Withered Doug The Dog",
       "item.fbms.glasses_helmet": "Glasses",
+      "block.fbms.old_planks": "Old Planks",
       "block.fbms.mr_hippo": "Mr Hippo",
       "block.fbms.nedd_bear_animated": "Nedd Bear Animated",
       "block.fbms.magenta_curtain": "Magenta Curtain",
       "block.fbms.brown_curtain": "Brown Curtains",
-      "block.fbms.deluxe_speaker_set": "Deluxe Speaker Set",
       "block.fbms.papper_pal_mr_hippo": "Papper Pal Mr Hippo",
+      "block.fbms.deluxe_speaker_set": "Deluxe Speaker Set",
       "block.fbms.fruit_punch_clown": "Fruit Punch Clown",
       "block.fbms.sign_sns": "Shop Sign (Smiles And Servos Inc.)",
       "item.fbms.icecream_neopolitan": "Ice Cream (Neapolitan)",
       "block.fbms.black_white_confetti_tile_slab": "Black White Confetti Tile Slab",
       "block.fbms.black_white_tiles": "Black White Tiles",
-      "item.fbms.moldy_hot_dog": "Moldy Hot Dog",
       "block.fbms.broken_bonnie": "Broken Bonnie",
+      "item.fbms.moldy_hot_dog": "Moldy Hot Dog",
+      "block.fbms.neon_green_light_strip": "Neon Green Light Strip",
       "block.fbms.pickles": "Pickles",
       "block.fbms.music_man": "Music Man",
       "block.fbms.ceiling_tiles": "Ceiling Tiles",
@@ -9998,6 +10693,7 @@
       "itemGroup.tabfms": "Animatronic Block",
       "block.fbms.pin_the_bowtie_on_the_tie_the_toy_freddy": "Pin The Bowtie On The Freddy",
       "item.fbms.station_wagon_spawn_egg": "Station Wagon Spawn Egg",
+      "block.fbms.rest_room_sign": "RestRoom Sign",
       "block.fbms.purple_stage_block": "Red Stage Block",
       "block.fbms.streamer_fiztime": "Streamer (Fiztime Pop Soda)",
       "subtitles.roboton": "Turn On",
@@ -10014,6 +10710,7 @@
       "block.fbms.discount_ballpit": "Discount Ballpit",
       "block.fbms.number_1_crate": "Number 1 Crate ",
       "subtitles.catplush": "Demonic Car",
+      "block.fbms.neon_orange_light_strip_right": "Neon Orange Light Strip Right",
       "entity.fbms.mysterious_giant_scuttlers": "Mysterious Giant Scuttlers",
       "block.fbms.discount_cooling_unit": "Discount Cooling Unit",
       "entity.fbms.station_wagon": "Station Wagon",
@@ -10025,8 +10722,8 @@
       "block.fbms.blank_staff_door": "Blank Staff Door",
       "item.fbms.icecream_greentea": "Ice Cream (Green Tea)",
       "block.fbms.green_curtain": "Green Curtain",
-      "block.fbms.neon_stage_lights_orange": "Neon Stage Light (Orange)",
       "block.fbms.thin_black_stared_curtains": "Thin Black Stared Curtains",
+      "block.fbms.neon_stage_lights_orange": "Neon Stage Light (Orange)",
       "block.fbms.black_stage_bricks": "Black Stage Bricks",
       "block.fbms.projection": "Projection",
       "block.fbms.old_foxy": "Old Foxy",
@@ -10049,11 +10746,13 @@
       "block.fbms.foxy": "Foxy",
       "block.fbms.balloon_barrel": "Balloon Barrel",
       "block.fbms.blue_curtain": "Blue Curtain",
+      "block.fbms.neon_green_light_strip_right": "Neon Green Light Strip Right",
       "block.fbms.toy_freddy": "Toy Freddy",
       "block.fbms.sign_rfa": "Shop Sign (Rare Finds Auction)",
       "item.fbms.fat": "F.A.T",
       "block.fbms.duck_pond": "Duck Pond",
       "block.fbms.bonnie": "Bonnie",
+      "block.fbms.fred_bear": "FredBear",
       "block.fbms.vessel": "VESSEL",
       "block.fbms.red_white_tiles_stairs": "Red White Tiles Stairs ",
       "item.fbms.remote": "Remote",
@@ -10077,8 +10776,10 @@
       "item.fbms.fried_chicken": "Fried Chicken",
       "block.fbms.bucket_bob": "Bucket Bob",
       "block.fbms.neon_party_set_4": "Neon Party Set 4",
+      "block.fbms.neon_green_light_strip_left": "Neon Green Light Strip Left",
       "block.fbms.carnival_hoops": "Carnival Hoops",
       "block.fbms.light_gray_red_stripe_wall": "Light Gray Red Stripe Wall Tile",
+      "block.fbms.kitchen_sign": "Party Room Sign",
       "block.fbms.neon_party_set_1": "Neon Party Set 1",
       "block.fbms.blue_stage_bricks": "Blue Stage Bricks",
       "block.fbms.neon_party_set_3": "Neon Party Set 3",
@@ -10132,19 +10833,24 @@
       "block.fbms.withered_hazy_reindeer": "Withered Hazy Reindeer",
       "block.fbms.neon_juke_box": "Neon Juke Box",
       "block.fbms.tv_freddy_and_friends": "TV Monitor (Freddy And Friends)",
+      "block.fbms.neon_blue_light_strip_right": "Neon Blue Light Strip Right",
+      "block.fbms.vent_block": "Vent Block",
       "block.fbms.monitor_bluescreen": "Monitor (Bluescreen)",
+      "block.fbms.neon_orange_light_strip": "Neon Orange Light Strip",
       "block.fbms.monitor_work": "Monitor (Work)",
       "block.fbms.pizza_place_sign_old": "Pizza Place Sign (Old)",
       "block.fbms.black_white_tiles_stairs": "Black White Tiles Stairs ",
       "block.fbms.magenta_stage_bricks": "Magenta Stage Bricks",
       "block.fbms.stall_door": "Stall Door",
       "block.fbms.papper_pal_orvil": "Papper Pal Orvile ",
+      "block.fbms.neon_yellow_light_strip": "Neon Yellow Light Strip",
       "block.fbms.mr_hugs": "Mr Hugs",
       "block.fbms.pig_patch": "Pigpatch",
       "block.fbms.lol_bit_409": "Lolbit 409 ",
       "block.fbms.old_freddy": "Old Freddy",
       "block.fbms.full_black_tiles_slab": "Full Black Tiles Slab",
       "block.fbms.bonnet": "Bonnet",
+      "block.fbms.neon_red_light_strip_right": "Neon Red Light Strip Right",
       "block.fbms.pizza_box_87_closed": "Pizza Box (1987)",
       "block.fbms.barry_polar": "Barry Polar Fixed",
       "block.fbms.arcade_bonnie": "Arcade Machine (Bonnie)",
@@ -10159,6 +10865,7 @@
       "block.fbms.red_stage_block": "Red Stage Block",
       "block.fbms.lol_bit": "Lolbit",
       "block.fbms.red_stage_bricks": "Red Stage Bricks",
+      "block.fbms.large_battery": "Large Battery",
       "block.fbms.large_sign": "Large Sign",
       "block.fbms.rock_star_bonnie_animated": "Rockstar Bonnie Animated",
       "block.fbms.balloon_boy": "Balloon Boy",
@@ -10217,10 +10924,12 @@
       "block.fbms.large_sign_4": "Large Sign 4",
       "item.fbms.dfredbear_spawn_egg": "D Freddy WIP Spawn Egg",
       "block.fbms.dr_teath": "DrTeeth",
+      "block.fbms.neon_blue_light_strip_left": "Neon Blue Light Strip Left",
       "block.fbms.old_bonnie": "Old Bonnie",
       "block.fbms.rock_star_freddy_animated": "Rockstar Freddy Animated",
       "block.fbms.foil_party_set_1": "Foil Party Set 1",
       "block.fbms.foil_party_set_2": "Foil Party Set 2",
+      "block.fbms.neon_blue_light_strip": "Neon Blue Light Strip",
       "block.fbms.foil_party_set_3": "Foil Party Set 3",
       "block.fbms.foil_party_set_4": "Foil Party Set 4",
       "block.fbms.retro_chica": "Retro Chica",
@@ -10256,10 +10965,12 @@
       "block.fbms.full_white_tiles": "Full White Tiles",
       "block.fbms.thin_orange_curtain": "Thin Orange Curtains",
       "block.fbms.arcade_freddy": "Arcade Machine (Freddy)",
+      "block.fbms.fredbear_deactivated": "FredBear {Deactivated}",
       "item.fbms.coins": "Coin",
       "block.fbms.safety_poster": "Safety Poster",
       "block.fbms.pizza_box_24_closed": "Pizza Box (2024)",
       "item.fbms.icecream_strawberry": "Ice Cream (Strawberry)",
+      "block.fbms.orange_pink_tiles": "Orange Pink Tiles",
       "block.fbms.bite_fred_bear_cutout": "Bite Fred Bear Cutout",
       "block.fbms.balloon_cart": "Balloon Cart",
       "block.fbms.hazy_reindeer_animated": "Hazy Reindeer (Animated)",
@@ -10293,7 +11004,9 @@
       "block.fbms.ft_foxy": "FunTime Foxy",
       "block.fbms.withered_barry_polar": "Barry Polar",
       "block.fbms.scrap_stage_block_slab": "Scrap Stage Block Slab",
+      "block.fbms.green_tiles": "Orange Pink Tiles",
       "block.fbms.st_endo": "ST-Endo95",
+      "block.fbms.arcade_sign": "Arcade Sign",
       "item.fbms.d_foxy_spawn_egg": "D Foxy WIP Spawn Egg",
       "block.fbms.lefty": "Lefty",
       "item.fbms.pizza": "Pizza",
@@ -10318,6 +11031,7 @@
       "block.fbms.orange_curtain": "Orange Curtains",
       "block.fbms.thin_green_stared_curtains": "Thin Green Stared Curtains",
       "item.fbms.cup_fiztime_2": "Fiztime Pop Cup (Alt)",
+      "block.fbms.neon_yellow_light_strip_left": "Neon Yellow Light Strip Left",
       "block.fbms.rbonnie_poster": "Rockstar Bonnie Poster",
       "entity.fbms.doge_ram": "Doge Ram 1982",
       "block.fbms.pizza_box_93_open": "Pizza Box (1993)",
@@ -10327,6 +11041,7 @@
       "block.fbms.pc": "PC",
       "item.fbms.accordion": "Accordion",
       "block.fbms.arcade_foxy": "Arcade Machine (Foxy)",
+      "item.fbms.moose_mug": "Moose Mug",
       "item.fbms.banjo": "Banjo",
       "block.fbms.red_curtain": "Red Curtains",
       "block.fbms.white_stage_bricks": "White Stage Bricks",
@@ -10343,6 +11058,7 @@
       "block.fbms.black_white_clean_tiles": "Black White Clean Tiles",
       "block.fbms.thin_magenta_curtain": "Thin Magenta Curtain",
       "subtitles.song8": "Playing \u0027Fazbear Family\u0027 by Stupendium",
+      "block.fbms.prize_counter_sign": "Prize Counter Sign",
       "block.fbms.branded_box": "Branded Box",
       "item.fbms.icecream_darkchocolate": "Ice Cream (Dark Chocolate)",
       "block.fbms.ignited_chica": "Ignited Chica",
@@ -10384,9 +11100,11 @@
       "block.fbms.shred_bear": "Shred Bear",
       "block.fbms.black_red_tiles_slab": "Black Red Tiles Slab",
       "block.fbms.gus_the_pug": "Gus The Pug",
+      "block.fbms.toy_pug": "ToyPug",
       "block.fbms.doug_the_dog": "Doug The Dog",
       "block.fbms.pink_curtain": "Pink Curtains",
       "block.fbms.helpy_cut_out": "Helpy Cut Out",
+      "block.fbms.neon_red_light_strip_left": "Neon Red Light Strip Left",
       "item.fbms.toy_mic": "Toy Mic",
       "entity.fbms.d_freddy": "D Freddy ",
       "block.fbms.sanitation_station": "Sanitation Station",

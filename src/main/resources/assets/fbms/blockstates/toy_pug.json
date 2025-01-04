@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:custom/toy_pug_particle"
+    },
+    "facing=east": {
+      "model": "fbms:custom/toy_pug_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:custom/toy_pug_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:custom/toy_pug_particle",
+      "y": 270
+    }
+  }
+}

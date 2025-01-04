@@ -21,6 +21,7 @@ import net.mcreator.fbms.item.TrumpetItem;
 import net.mcreator.fbms.item.ToyMicItem;
 import net.mcreator.fbms.item.RemoteItem;
 import net.mcreator.fbms.item.PizzaItem;
+import net.mcreator.fbms.item.MooseMugItem;
 import net.mcreator.fbms.item.MoldyPizzaItem;
 import net.mcreator.fbms.item.MoldyHotDogItem;
 import net.mcreator.fbms.item.MoldyFriesItem;
@@ -64,6 +65,7 @@ import net.mcreator.fbms.block.display.WitheredDougTheDogDisplayItem;
 import net.mcreator.fbms.block.display.WinkSignDisplayItem;
 import net.mcreator.fbms.block.display.WallyWalrusDisplayItem;
 import net.mcreator.fbms.block.display.WallyWalrusAnimatedDisplayItem;
+import net.mcreator.fbms.block.display.ToyPugDisplayItem;
 import net.mcreator.fbms.block.display.ToyFreddyDisplayItem;
 import net.mcreator.fbms.block.display.ToyFoxyDisplayItem;
 import net.mcreator.fbms.block.display.ToyChicaDisplayItem;
@@ -101,6 +103,7 @@ import net.mcreator.fbms.block.display.RidingRocketsRedDisplayItem;
 import net.mcreator.fbms.block.display.RidingRocketsPurpleDisplayItem;
 import net.mcreator.fbms.block.display.RetroChicaDisplayItem;
 import net.mcreator.fbms.block.display.RetroChicaAnimatedDisplayItem;
+import net.mcreator.fbms.block.display.RestRoomSignDisplayItem;
 import net.mcreator.fbms.block.display.RascDisplayItem;
 import net.mcreator.fbms.block.display.PuppetBoxDisplayItem;
 import net.mcreator.fbms.block.display.PuffyPuffinsDisplayItem;
@@ -108,6 +111,7 @@ import net.mcreator.fbms.block.display.PuffyPuffinsAnimatedDisplayItem;
 import net.mcreator.fbms.block.display.ProjectorDisplayItem;
 import net.mcreator.fbms.block.display.ProjectionDisplayItem;
 import net.mcreator.fbms.block.display.PrizeKingDisplayItem;
+import net.mcreator.fbms.block.display.PrizeCounterSignDisplayItem;
 import net.mcreator.fbms.block.display.PizzaPlaceSignOldDisplayItem;
 import net.mcreator.fbms.block.display.PizzaPlaceSignDisplayItem;
 import net.mcreator.fbms.block.display.PizzaBox93OpenDisplayItem;
@@ -124,6 +128,7 @@ import net.mcreator.fbms.block.display.PinTheBowtieOnTheFreddyDisplayItem;
 import net.mcreator.fbms.block.display.PigPatchDisplayItem;
 import net.mcreator.fbms.block.display.PigPatchAnimatedDisplayItem;
 import net.mcreator.fbms.block.display.PicklesDisplayItem;
+import net.mcreator.fbms.block.display.PartyRoomSignDisplayItem;
 import net.mcreator.fbms.block.display.PaperPlatesDisplayItem;
 import net.mcreator.fbms.block.display.PanStanDisplayItem;
 import net.mcreator.fbms.block.display.PCDisplayItem;
@@ -135,16 +140,31 @@ import net.mcreator.fbms.block.display.OldChicaDisplayItem;
 import net.mcreator.fbms.block.display.OldBonnieDisplayItem;
 import net.mcreator.fbms.block.display.Number1CrateDisplayItem;
 import net.mcreator.fbms.block.display.NoveltyTrafficLightDisplayItem;
+import net.mcreator.fbms.block.display.NeonYellowLightStripRightDisplayItem;
+import net.mcreator.fbms.block.display.NeonYellowLightStripLeftDisplayItem;
+import net.mcreator.fbms.block.display.NeonYellowLightStripDisplayItem;
 import net.mcreator.fbms.block.display.NeonStageLightsPinkDisplayItem;
 import net.mcreator.fbms.block.display.NeonStageLightsOrangeDisplayItem;
 import net.mcreator.fbms.block.display.NeonStageLightsBlueDisplayItem;
 import net.mcreator.fbms.block.display.NeonStageLightGreenDisplayItem;
+import net.mcreator.fbms.block.display.NeonRedLightStripRightDisplayItem;
+import net.mcreator.fbms.block.display.NeonRedLightStripLeftDisplayItem;
+import net.mcreator.fbms.block.display.NeonRedLightStripDisplayItem;
 import net.mcreator.fbms.block.display.NeonPartySet4DisplayItem;
 import net.mcreator.fbms.block.display.NeonPartySet3DisplayItem;
 import net.mcreator.fbms.block.display.NeonPartySet2DisplayItem;
 import net.mcreator.fbms.block.display.NeonPartySet1DisplayItem;
+import net.mcreator.fbms.block.display.NeonOrangeLightStripRightDisplayItem;
+import net.mcreator.fbms.block.display.NeonOrangeLightStripDisplayItem;
+import net.mcreator.fbms.block.display.NeonOrangeLightLeftDisplayItem;
 import net.mcreator.fbms.block.display.NeonJukeBoxOffDisplayItem;
 import net.mcreator.fbms.block.display.NeonJukeBoxDisplayItem;
+import net.mcreator.fbms.block.display.NeonGreenLightStripRightDisplayItem;
+import net.mcreator.fbms.block.display.NeonGreenLightStripLeftDisplayItem;
+import net.mcreator.fbms.block.display.NeonGreenLightStripDisplayItem;
+import net.mcreator.fbms.block.display.NeonBlueLightStripRightDisplayItem;
+import net.mcreator.fbms.block.display.NeonBlueLightStripLeftDisplayItem;
+import net.mcreator.fbms.block.display.NeonBlueLightStripDisplayItem;
 import net.mcreator.fbms.block.display.NeddBearDisplayItem;
 import net.mcreator.fbms.block.display.NeddBearAnimatedDisplayItem;
 import net.mcreator.fbms.block.display.MusicManDisplayItem;
@@ -170,6 +190,7 @@ import net.mcreator.fbms.block.display.LargeSign4DisplayItem;
 import net.mcreator.fbms.block.display.LargeSign3DisplayItem;
 import net.mcreator.fbms.block.display.LargeSign2DisplayItem;
 import net.mcreator.fbms.block.display.LadderTowerDisplayItem;
+import net.mcreator.fbms.block.display.KitchenSignDisplayItem;
 import net.mcreator.fbms.block.display.JollyTheRatDisplayItem;
 import net.mcreator.fbms.block.display.JollyTheRatAnimatedDisplayItem;
 import net.mcreator.fbms.block.display.JeffsPizzaSignDisplayItem;
@@ -193,6 +214,7 @@ import net.mcreator.fbms.block.display.FuntimeDelilahblockDisplayItem;
 import net.mcreator.fbms.block.display.FuntimeDelilahDisplayItem;
 import net.mcreator.fbms.block.display.FuntimeChicaAnimatedDisplayItem;
 import net.mcreator.fbms.block.display.FunTimeChicaDisplayItem;
+import net.mcreator.fbms.block.display.FtFreddyDisplayItem;
 import net.mcreator.fbms.block.display.FtFoxyDisplayItem;
 import net.mcreator.fbms.block.display.FruityMazeDisplayItem;
 import net.mcreator.fbms.block.display.FruitPunchClownDisplayItem;
@@ -200,8 +222,10 @@ import net.mcreator.fbms.block.display.FrightsSignDisplayItem;
 import net.mcreator.fbms.block.display.FrightsSign2DisplayItem;
 import net.mcreator.fbms.block.display.FreddyFazBearDisplayItem;
 import net.mcreator.fbms.block.display.FreddyCutOutDisplayItem;
+import net.mcreator.fbms.block.display.FredbearDeactivatedDisplayItem;
 import net.mcreator.fbms.block.display.Fredbear01DisplayItem;
 import net.mcreator.fbms.block.display.Fredbear01AnimatedDisplayItem;
+import net.mcreator.fbms.block.display.FredBearDisplayItem;
 import net.mcreator.fbms.block.display.FoxyDisplayItem;
 import net.mcreator.fbms.block.display.FoilPartySet4DisplayItem;
 import net.mcreator.fbms.block.display.FoilPartySet3DisplayItem;
@@ -259,6 +283,7 @@ import net.mcreator.fbms.block.display.BalloonCartDisplayItem;
 import net.mcreator.fbms.block.display.BalloonBoyDisplayItem;
 import net.mcreator.fbms.block.display.BallPitTowerDisplayItem;
 import net.mcreator.fbms.block.display.BaggyMaggieDisplayItem;
+import net.mcreator.fbms.block.display.ArcadeSignDisplayItem;
 import net.mcreator.fbms.FbmsMod;
 
 public class FbmsModItems {
@@ -805,6 +830,57 @@ public class FbmsModItems {
 			() -> new Springbonnie01AnimatedDisplayItem(FbmsModBlocks.SPRINGBONNIE_01_ANIMATED.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> ICECREAM_BIRTHDAY = REGISTRY.register("icecream_birthday", () -> new IcecreamBirthdayItem());
 	public static final RegistryObject<Item> ICECREAM_COTTONCANDY = REGISTRY.register("icecream_cottoncandy", () -> new IcecreamCottoncandyItem());
+	public static final RegistryObject<Item> RED_TILES = block(FbmsModBlocks.RED_TILES, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> GREEN_BLUE_TILES = block(FbmsModBlocks.GREEN_BLUE_TILES, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> ORANGE_PINK_TILES = block(FbmsModBlocks.ORANGE_PINK_TILES, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> GREEN_TILES = block(FbmsModBlocks.GREEN_TILES, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> VENT_BLOCK = block(FbmsModBlocks.VENT_BLOCK, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> OLD_PLANKS = block(FbmsModBlocks.OLD_PLANKS, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> LARGE_BATTERY = block(FbmsModBlocks.LARGE_BATTERY, FbmsModTabs.TAB_FMS_BLOCKS);
+	public static final RegistryObject<Item> MOOSE_MUG = REGISTRY.register("moose_mug", () -> new MooseMugItem());
+	public static final RegistryObject<Item> TOY_PUG = REGISTRY.register(FbmsModBlocks.TOY_PUG.getId().getPath(), () -> new ToyPugDisplayItem(FbmsModBlocks.TOY_PUG.get(), new Item.Properties().tab(FbmsModTabs.TAB_PLUSH)));
+	public static final RegistryObject<Item> PRIZE_COUNTER_SIGN = REGISTRY.register(FbmsModBlocks.PRIZE_COUNTER_SIGN.getId().getPath(),
+			() -> new PrizeCounterSignDisplayItem(FbmsModBlocks.PRIZE_COUNTER_SIGN.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> REST_ROOM_SIGN = REGISTRY.register(FbmsModBlocks.REST_ROOM_SIGN.getId().getPath(),
+			() -> new RestRoomSignDisplayItem(FbmsModBlocks.REST_ROOM_SIGN.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> ARCADE_SIGN = REGISTRY.register(FbmsModBlocks.ARCADE_SIGN.getId().getPath(), () -> new ArcadeSignDisplayItem(FbmsModBlocks.ARCADE_SIGN.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> PARTY_ROOM_SIGN = REGISTRY.register(FbmsModBlocks.PARTY_ROOM_SIGN.getId().getPath(),
+			() -> new PartyRoomSignDisplayItem(FbmsModBlocks.PARTY_ROOM_SIGN.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> KITCHEN_SIGN = REGISTRY.register(FbmsModBlocks.KITCHEN_SIGN.getId().getPath(), () -> new KitchenSignDisplayItem(FbmsModBlocks.KITCHEN_SIGN.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> NEON_RED_LIGHT_STRIP = REGISTRY.register(FbmsModBlocks.NEON_RED_LIGHT_STRIP.getId().getPath(),
+			() -> new NeonRedLightStripDisplayItem(FbmsModBlocks.NEON_RED_LIGHT_STRIP.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> NEON_RED_LIGHT_STRIP_RIGHT = REGISTRY.register(FbmsModBlocks.NEON_RED_LIGHT_STRIP_RIGHT.getId().getPath(),
+			() -> new NeonRedLightStripRightDisplayItem(FbmsModBlocks.NEON_RED_LIGHT_STRIP_RIGHT.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> NEON_RED_LIGHT_STRIP_LEFT = REGISTRY.register(FbmsModBlocks.NEON_RED_LIGHT_STRIP_LEFT.getId().getPath(),
+			() -> new NeonRedLightStripLeftDisplayItem(FbmsModBlocks.NEON_RED_LIGHT_STRIP_LEFT.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> NEON_GREEN_LIGHT_STRIP = REGISTRY.register(FbmsModBlocks.NEON_GREEN_LIGHT_STRIP.getId().getPath(),
+			() -> new NeonGreenLightStripDisplayItem(FbmsModBlocks.NEON_GREEN_LIGHT_STRIP.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> NEON_GREEN_LIGHT_STRIP_RIGHT = REGISTRY.register(FbmsModBlocks.NEON_GREEN_LIGHT_STRIP_RIGHT.getId().getPath(),
+			() -> new NeonGreenLightStripRightDisplayItem(FbmsModBlocks.NEON_GREEN_LIGHT_STRIP_RIGHT.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> NEON_GREEN_LIGHT_STRIP_LEFT = REGISTRY.register(FbmsModBlocks.NEON_GREEN_LIGHT_STRIP_LEFT.getId().getPath(),
+			() -> new NeonGreenLightStripLeftDisplayItem(FbmsModBlocks.NEON_GREEN_LIGHT_STRIP_LEFT.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> NEON_BLUE_LIGHT_STRIP = REGISTRY.register(FbmsModBlocks.NEON_BLUE_LIGHT_STRIP.getId().getPath(),
+			() -> new NeonBlueLightStripDisplayItem(FbmsModBlocks.NEON_BLUE_LIGHT_STRIP.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> NEON_BLUE_LIGHT_STRIP_RIGHT = REGISTRY.register(FbmsModBlocks.NEON_BLUE_LIGHT_STRIP_RIGHT.getId().getPath(),
+			() -> new NeonBlueLightStripRightDisplayItem(FbmsModBlocks.NEON_BLUE_LIGHT_STRIP_RIGHT.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> NEON_BLUE_LIGHT_STRIP_LEFT = REGISTRY.register(FbmsModBlocks.NEON_BLUE_LIGHT_STRIP_LEFT.getId().getPath(),
+			() -> new NeonBlueLightStripLeftDisplayItem(FbmsModBlocks.NEON_BLUE_LIGHT_STRIP_LEFT.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> NEON_YELLOW_LIGHT_STRIP = REGISTRY.register(FbmsModBlocks.NEON_YELLOW_LIGHT_STRIP.getId().getPath(),
+			() -> new NeonYellowLightStripDisplayItem(FbmsModBlocks.NEON_YELLOW_LIGHT_STRIP.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> NEON_YELLOW_LIGHT_STRIP_RIGHT = REGISTRY.register(FbmsModBlocks.NEON_YELLOW_LIGHT_STRIP_RIGHT.getId().getPath(),
+			() -> new NeonYellowLightStripRightDisplayItem(FbmsModBlocks.NEON_YELLOW_LIGHT_STRIP_RIGHT.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> NEON_YELLOW_LIGHT_STRIP_LEFT = REGISTRY.register(FbmsModBlocks.NEON_YELLOW_LIGHT_STRIP_LEFT.getId().getPath(),
+			() -> new NeonYellowLightStripLeftDisplayItem(FbmsModBlocks.NEON_YELLOW_LIGHT_STRIP_LEFT.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> NEON_ORANGE_LIGHT_STRIP = REGISTRY.register(FbmsModBlocks.NEON_ORANGE_LIGHT_STRIP.getId().getPath(),
+			() -> new NeonOrangeLightStripDisplayItem(FbmsModBlocks.NEON_ORANGE_LIGHT_STRIP.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> NEON_ORANGE_LIGHT_STRIP_RIGHT = REGISTRY.register(FbmsModBlocks.NEON_ORANGE_LIGHT_STRIP_RIGHT.getId().getPath(),
+			() -> new NeonOrangeLightStripRightDisplayItem(FbmsModBlocks.NEON_ORANGE_LIGHT_STRIP_RIGHT.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> NEON_ORANGE_LIGHT_LEFT = REGISTRY.register(FbmsModBlocks.NEON_ORANGE_LIGHT_LEFT.getId().getPath(),
+			() -> new NeonOrangeLightLeftDisplayItem(FbmsModBlocks.NEON_ORANGE_LIGHT_LEFT.get(), new Item.Properties().tab(FbmsModTabs.TAB_PRIVATE_ROOM)));
+	public static final RegistryObject<Item> FT_FREDDY = REGISTRY.register(FbmsModBlocks.FT_FREDDY.getId().getPath(), () -> new FtFreddyDisplayItem(FbmsModBlocks.FT_FREDDY.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> FRED_BEAR = REGISTRY.register(FbmsModBlocks.FRED_BEAR.getId().getPath(), () -> new FredBearDisplayItem(FbmsModBlocks.FRED_BEAR.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
+	public static final RegistryObject<Item> FREDBEAR_DEACTIVATED = REGISTRY.register(FbmsModBlocks.FREDBEAR_DEACTIVATED.getId().getPath(),
+			() -> new FredbearDeactivatedDisplayItem(FbmsModBlocks.FREDBEAR_DEACTIVATED.get(), new Item.Properties().tab(FbmsModTabs.TAB_FMS)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

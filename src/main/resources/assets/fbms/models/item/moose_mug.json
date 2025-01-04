@@ -1,0 +1,7 @@
+{
+  "parent": "fbms:custom/moosemug",
+  "textures": {
+    "0": "fbms:blocks/mug",
+    "particle": "fbms:items/moosemug"
+  }
+}

@@ -2,10 +2,10 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "bluefloortiles",
-    "textureTop": "bluefloortiles",
+    "texture": "black_and_blue_floor",
+    "textureTop": "black_and_blue_floor",
     "textureLeft": "bluefloortiles",
-    "textureFront": "bluefloortiles",
+    "textureFront": "black_and_blue_floor",
     "textureRight": "bluefloortiles",
     "textureBack": "bluefloortiles",
     "renderType": 11,

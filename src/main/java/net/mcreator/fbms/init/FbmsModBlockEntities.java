@@ -18,6 +18,7 @@ import net.mcreator.fbms.block.entity.WitheredDougTheDogTileEntity;
 import net.mcreator.fbms.block.entity.WinkSignTileEntity;
 import net.mcreator.fbms.block.entity.WallyWalrusTileEntity;
 import net.mcreator.fbms.block.entity.WallyWalrusAnimatedTileEntity;
+import net.mcreator.fbms.block.entity.ToyPugTileEntity;
 import net.mcreator.fbms.block.entity.ToyFreddyTileEntity;
 import net.mcreator.fbms.block.entity.ToyFoxyTileEntity;
 import net.mcreator.fbms.block.entity.ToyChicaTileEntity;
@@ -55,6 +56,7 @@ import net.mcreator.fbms.block.entity.RidingRocketsRedTileEntity;
 import net.mcreator.fbms.block.entity.RidingRocketsPurpleTileEntity;
 import net.mcreator.fbms.block.entity.RetroChicaTileEntity;
 import net.mcreator.fbms.block.entity.RetroChicaAnimatedTileEntity;
+import net.mcreator.fbms.block.entity.RestRoomSignTileEntity;
 import net.mcreator.fbms.block.entity.RascTileEntity;
 import net.mcreator.fbms.block.entity.PuppetBoxTileEntity;
 import net.mcreator.fbms.block.entity.PuffyPuffinsTileEntity;
@@ -62,6 +64,7 @@ import net.mcreator.fbms.block.entity.PuffyPuffinsAnimatedTileEntity;
 import net.mcreator.fbms.block.entity.ProjectorTileEntity;
 import net.mcreator.fbms.block.entity.ProjectionTileEntity;
 import net.mcreator.fbms.block.entity.PrizeKingTileEntity;
+import net.mcreator.fbms.block.entity.PrizeCounterSignTileEntity;
 import net.mcreator.fbms.block.entity.PizzaPlaceSignTileEntity;
 import net.mcreator.fbms.block.entity.PizzaPlaceSignOldTileEntity;
 import net.mcreator.fbms.block.entity.PizzaBox93OpenTileEntity;
@@ -78,6 +81,7 @@ import net.mcreator.fbms.block.entity.PinTheBowtieOnTheFreddyTileEntity;
 import net.mcreator.fbms.block.entity.PigPatchTileEntity;
 import net.mcreator.fbms.block.entity.PigPatchAnimatedTileEntity;
 import net.mcreator.fbms.block.entity.PicklesTileEntity;
+import net.mcreator.fbms.block.entity.PartyRoomSignTileEntity;
 import net.mcreator.fbms.block.entity.PaperPlatesTileEntity;
 import net.mcreator.fbms.block.entity.PanStanTileEntity;
 import net.mcreator.fbms.block.entity.PCTileEntity;
@@ -89,16 +93,31 @@ import net.mcreator.fbms.block.entity.OldChicaTileEntity;
 import net.mcreator.fbms.block.entity.OldBonnieTileEntity;
 import net.mcreator.fbms.block.entity.Number1CrateTileEntity;
 import net.mcreator.fbms.block.entity.NoveltyTrafficLightTileEntity;
+import net.mcreator.fbms.block.entity.NeonYellowLightStripTileEntity;
+import net.mcreator.fbms.block.entity.NeonYellowLightStripRightTileEntity;
+import net.mcreator.fbms.block.entity.NeonYellowLightStripLeftTileEntity;
 import net.mcreator.fbms.block.entity.NeonStageLightsPinkTileEntity;
 import net.mcreator.fbms.block.entity.NeonStageLightsOrangeTileEntity;
 import net.mcreator.fbms.block.entity.NeonStageLightsBlueTileEntity;
 import net.mcreator.fbms.block.entity.NeonStageLightGreenTileEntity;
+import net.mcreator.fbms.block.entity.NeonRedLightStripTileEntity;
+import net.mcreator.fbms.block.entity.NeonRedLightStripRightTileEntity;
+import net.mcreator.fbms.block.entity.NeonRedLightStripLeftTileEntity;
 import net.mcreator.fbms.block.entity.NeonPartySet4TileEntity;
 import net.mcreator.fbms.block.entity.NeonPartySet3TileEntity;
 import net.mcreator.fbms.block.entity.NeonPartySet2TileEntity;
 import net.mcreator.fbms.block.entity.NeonPartySet1TileEntity;
+import net.mcreator.fbms.block.entity.NeonOrangeLightStripTileEntity;
+import net.mcreator.fbms.block.entity.NeonOrangeLightStripRightTileEntity;
+import net.mcreator.fbms.block.entity.NeonOrangeLightLeftTileEntity;
 import net.mcreator.fbms.block.entity.NeonJukeBoxTileEntity;
 import net.mcreator.fbms.block.entity.NeonJukeBoxOffTileEntity;
+import net.mcreator.fbms.block.entity.NeonGreenLightStripTileEntity;
+import net.mcreator.fbms.block.entity.NeonGreenLightStripRightTileEntity;
+import net.mcreator.fbms.block.entity.NeonGreenLightStripLeftTileEntity;
+import net.mcreator.fbms.block.entity.NeonBlueLightStripTileEntity;
+import net.mcreator.fbms.block.entity.NeonBlueLightStripRightTileEntity;
+import net.mcreator.fbms.block.entity.NeonBlueLightStripLeftTileEntity;
 import net.mcreator.fbms.block.entity.NeddBearTileEntity;
 import net.mcreator.fbms.block.entity.NeddBearAnimatedTileEntity;
 import net.mcreator.fbms.block.entity.MusicManTileEntity;
@@ -124,6 +143,7 @@ import net.mcreator.fbms.block.entity.LargeSign4TileEntity;
 import net.mcreator.fbms.block.entity.LargeSign3TileEntity;
 import net.mcreator.fbms.block.entity.LargeSign2TileEntity;
 import net.mcreator.fbms.block.entity.LadderTowerTileEntity;
+import net.mcreator.fbms.block.entity.KitchenSignTileEntity;
 import net.mcreator.fbms.block.entity.JollyTheRatTileEntity;
 import net.mcreator.fbms.block.entity.JollyTheRatAnimatedTileEntity;
 import net.mcreator.fbms.block.entity.JeffsPizzaSignTileEntity;
@@ -147,6 +167,7 @@ import net.mcreator.fbms.block.entity.FuntimeDelilahblockTileEntity;
 import net.mcreator.fbms.block.entity.FuntimeDelilahTileEntity;
 import net.mcreator.fbms.block.entity.FuntimeChicaAnimatedTileEntity;
 import net.mcreator.fbms.block.entity.FunTimeChicaTileEntity;
+import net.mcreator.fbms.block.entity.FtFreddyTileEntity;
 import net.mcreator.fbms.block.entity.FtFoxyTileEntity;
 import net.mcreator.fbms.block.entity.FruityMazeTileEntity;
 import net.mcreator.fbms.block.entity.FruitPunchClownTileEntity;
@@ -154,8 +175,10 @@ import net.mcreator.fbms.block.entity.FrightsSignTileEntity;
 import net.mcreator.fbms.block.entity.FrightsSign2TileEntity;
 import net.mcreator.fbms.block.entity.FreddyFazBearTileEntity;
 import net.mcreator.fbms.block.entity.FreddyCutOutTileEntity;
+import net.mcreator.fbms.block.entity.FredbearDeactivatedTileEntity;
 import net.mcreator.fbms.block.entity.Fredbear01TileEntity;
 import net.mcreator.fbms.block.entity.Fredbear01AnimatedTileEntity;
+import net.mcreator.fbms.block.entity.FredBearTileEntity;
 import net.mcreator.fbms.block.entity.FoxyTileEntity;
 import net.mcreator.fbms.block.entity.FoilPartySet4TileEntity;
 import net.mcreator.fbms.block.entity.FoilPartySet3TileEntity;
@@ -213,6 +236,7 @@ import net.mcreator.fbms.block.entity.BalloonCartTileEntity;
 import net.mcreator.fbms.block.entity.BalloonBoyTileEntity;
 import net.mcreator.fbms.block.entity.BallPitTowerTileEntity;
 import net.mcreator.fbms.block.entity.BaggyMaggieTileEntity;
+import net.mcreator.fbms.block.entity.ArcadeSignTileEntity;
 import net.mcreator.fbms.FbmsMod;
 
 public class FbmsModBlockEntities {
@@ -503,6 +527,47 @@ public class FbmsModBlockEntities {
 			() -> BlockEntityType.Builder.of(Fredbear01AnimatedTileEntity::new, FbmsModBlocks.FREDBEAR_01_ANIMATED.get()).build(null));
 	public static final RegistryObject<BlockEntityType<Springbonnie01AnimatedTileEntity>> SPRINGBONNIE_01_ANIMATED = REGISTRY.register("springbonnie_01_animated",
 			() -> BlockEntityType.Builder.of(Springbonnie01AnimatedTileEntity::new, FbmsModBlocks.SPRINGBONNIE_01_ANIMATED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ToyPugTileEntity>> TOY_PUG = REGISTRY.register("toy_pug", () -> BlockEntityType.Builder.of(ToyPugTileEntity::new, FbmsModBlocks.TOY_PUG.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PrizeCounterSignTileEntity>> PRIZE_COUNTER_SIGN = REGISTRY.register("prize_counter_sign",
+			() -> BlockEntityType.Builder.of(PrizeCounterSignTileEntity::new, FbmsModBlocks.PRIZE_COUNTER_SIGN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<RestRoomSignTileEntity>> REST_ROOM_SIGN = REGISTRY.register("rest_room_sign", () -> BlockEntityType.Builder.of(RestRoomSignTileEntity::new, FbmsModBlocks.REST_ROOM_SIGN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ArcadeSignTileEntity>> ARCADE_SIGN = REGISTRY.register("arcade_sign", () -> BlockEntityType.Builder.of(ArcadeSignTileEntity::new, FbmsModBlocks.ARCADE_SIGN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PartyRoomSignTileEntity>> PARTY_ROOM_SIGN = REGISTRY.register("party_room_sign", () -> BlockEntityType.Builder.of(PartyRoomSignTileEntity::new, FbmsModBlocks.PARTY_ROOM_SIGN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<KitchenSignTileEntity>> KITCHEN_SIGN = REGISTRY.register("kitchen_sign", () -> BlockEntityType.Builder.of(KitchenSignTileEntity::new, FbmsModBlocks.KITCHEN_SIGN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<NeonRedLightStripTileEntity>> NEON_RED_LIGHT_STRIP = REGISTRY.register("neon_red_light_strip",
+			() -> BlockEntityType.Builder.of(NeonRedLightStripTileEntity::new, FbmsModBlocks.NEON_RED_LIGHT_STRIP.get()).build(null));
+	public static final RegistryObject<BlockEntityType<NeonRedLightStripRightTileEntity>> NEON_RED_LIGHT_STRIP_RIGHT = REGISTRY.register("neon_red_light_strip_right",
+			() -> BlockEntityType.Builder.of(NeonRedLightStripRightTileEntity::new, FbmsModBlocks.NEON_RED_LIGHT_STRIP_RIGHT.get()).build(null));
+	public static final RegistryObject<BlockEntityType<NeonRedLightStripLeftTileEntity>> NEON_RED_LIGHT_STRIP_LEFT = REGISTRY.register("neon_red_light_strip_left",
+			() -> BlockEntityType.Builder.of(NeonRedLightStripLeftTileEntity::new, FbmsModBlocks.NEON_RED_LIGHT_STRIP_LEFT.get()).build(null));
+	public static final RegistryObject<BlockEntityType<NeonGreenLightStripTileEntity>> NEON_GREEN_LIGHT_STRIP = REGISTRY.register("neon_green_light_strip",
+			() -> BlockEntityType.Builder.of(NeonGreenLightStripTileEntity::new, FbmsModBlocks.NEON_GREEN_LIGHT_STRIP.get()).build(null));
+	public static final RegistryObject<BlockEntityType<NeonGreenLightStripRightTileEntity>> NEON_GREEN_LIGHT_STRIP_RIGHT = REGISTRY.register("neon_green_light_strip_right",
+			() -> BlockEntityType.Builder.of(NeonGreenLightStripRightTileEntity::new, FbmsModBlocks.NEON_GREEN_LIGHT_STRIP_RIGHT.get()).build(null));
+	public static final RegistryObject<BlockEntityType<NeonGreenLightStripLeftTileEntity>> NEON_GREEN_LIGHT_STRIP_LEFT = REGISTRY.register("neon_green_light_strip_left",
+			() -> BlockEntityType.Builder.of(NeonGreenLightStripLeftTileEntity::new, FbmsModBlocks.NEON_GREEN_LIGHT_STRIP_LEFT.get()).build(null));
+	public static final RegistryObject<BlockEntityType<NeonBlueLightStripTileEntity>> NEON_BLUE_LIGHT_STRIP = REGISTRY.register("neon_blue_light_strip",
+			() -> BlockEntityType.Builder.of(NeonBlueLightStripTileEntity::new, FbmsModBlocks.NEON_BLUE_LIGHT_STRIP.get()).build(null));
+	public static final RegistryObject<BlockEntityType<NeonBlueLightStripRightTileEntity>> NEON_BLUE_LIGHT_STRIP_RIGHT = REGISTRY.register("neon_blue_light_strip_right",
+			() -> BlockEntityType.Builder.of(NeonBlueLightStripRightTileEntity::new, FbmsModBlocks.NEON_BLUE_LIGHT_STRIP_RIGHT.get()).build(null));
+	public static final RegistryObject<BlockEntityType<NeonBlueLightStripLeftTileEntity>> NEON_BLUE_LIGHT_STRIP_LEFT = REGISTRY.register("neon_blue_light_strip_left",
+			() -> BlockEntityType.Builder.of(NeonBlueLightStripLeftTileEntity::new, FbmsModBlocks.NEON_BLUE_LIGHT_STRIP_LEFT.get()).build(null));
+	public static final RegistryObject<BlockEntityType<NeonYellowLightStripTileEntity>> NEON_YELLOW_LIGHT_STRIP = REGISTRY.register("neon_yellow_light_strip",
+			() -> BlockEntityType.Builder.of(NeonYellowLightStripTileEntity::new, FbmsModBlocks.NEON_YELLOW_LIGHT_STRIP.get()).build(null));
+	public static final RegistryObject<BlockEntityType<NeonYellowLightStripRightTileEntity>> NEON_YELLOW_LIGHT_STRIP_RIGHT = REGISTRY.register("neon_yellow_light_strip_right",
+			() -> BlockEntityType.Builder.of(NeonYellowLightStripRightTileEntity::new, FbmsModBlocks.NEON_YELLOW_LIGHT_STRIP_RIGHT.get()).build(null));
+	public static final RegistryObject<BlockEntityType<NeonYellowLightStripLeftTileEntity>> NEON_YELLOW_LIGHT_STRIP_LEFT = REGISTRY.register("neon_yellow_light_strip_left",
+			() -> BlockEntityType.Builder.of(NeonYellowLightStripLeftTileEntity::new, FbmsModBlocks.NEON_YELLOW_LIGHT_STRIP_LEFT.get()).build(null));
+	public static final RegistryObject<BlockEntityType<NeonOrangeLightStripTileEntity>> NEON_ORANGE_LIGHT_STRIP = REGISTRY.register("neon_orange_light_strip",
+			() -> BlockEntityType.Builder.of(NeonOrangeLightStripTileEntity::new, FbmsModBlocks.NEON_ORANGE_LIGHT_STRIP.get()).build(null));
+	public static final RegistryObject<BlockEntityType<NeonOrangeLightStripRightTileEntity>> NEON_ORANGE_LIGHT_STRIP_RIGHT = REGISTRY.register("neon_orange_light_strip_right",
+			() -> BlockEntityType.Builder.of(NeonOrangeLightStripRightTileEntity::new, FbmsModBlocks.NEON_ORANGE_LIGHT_STRIP_RIGHT.get()).build(null));
+	public static final RegistryObject<BlockEntityType<NeonOrangeLightLeftTileEntity>> NEON_ORANGE_LIGHT_LEFT = REGISTRY.register("neon_orange_light_left",
+			() -> BlockEntityType.Builder.of(NeonOrangeLightLeftTileEntity::new, FbmsModBlocks.NEON_ORANGE_LIGHT_LEFT.get()).build(null));
+	public static final RegistryObject<BlockEntityType<FtFreddyTileEntity>> FT_FREDDY = REGISTRY.register("ft_freddy", () -> BlockEntityType.Builder.of(FtFreddyTileEntity::new, FbmsModBlocks.FT_FREDDY.get()).build(null));
+	public static final RegistryObject<BlockEntityType<FredBearTileEntity>> FRED_BEAR = REGISTRY.register("fred_bear", () -> BlockEntityType.Builder.of(FredBearTileEntity::new, FbmsModBlocks.FRED_BEAR.get()).build(null));
+	public static final RegistryObject<BlockEntityType<FredbearDeactivatedTileEntity>> FREDBEAR_DEACTIVATED = REGISTRY.register("fredbear_deactivated",
+			() -> BlockEntityType.Builder.of(FredbearDeactivatedTileEntity::new, FbmsModBlocks.FREDBEAR_DEACTIVATED.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fbms:blocks/party_floor",
+    "particle": "fbms:blocks/party_floor"
+  },
+  "render_type": "solid"
+}

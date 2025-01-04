@@ -1,9 +1,9 @@
 {
   "parent": "block/outer_stairs",
   "textures": {
-    "bottom": "fbms:blocks/tiles_blackwhite_clean",
-    "top": "fbms:blocks/tiles_blackwhite_clean",
-    "side": "fbms:blocks/tiles_blackwhite_clean"
+    "bottom": "fbms:blocks/clean_floor",
+    "top": "fbms:blocks/clean_floor",
+    "side": "fbms:blocks/clean_floor"
   },
   "render_type": "solid"
 }

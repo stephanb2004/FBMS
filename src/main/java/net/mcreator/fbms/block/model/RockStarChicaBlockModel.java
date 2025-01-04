@@ -19,6 +19,6 @@ public class RockStarChicaBlockModel extends AnimatedGeoModel<RockStarChicaTileE
 
 	@Override
 	public ResourceLocation getTextureResource(RockStarChicaTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/rchica.png");
+		return new ResourceLocation("fbms", "textures/blocks/rockstar_chica.png");
 	}
 }

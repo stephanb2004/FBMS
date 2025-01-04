@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:block/large_battery"
+    },
+    "facing=east": {
+      "model": "fbms:block/large_battery",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:block/large_battery",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:block/large_battery",
+      "y": 270
+    }
+  }
+}

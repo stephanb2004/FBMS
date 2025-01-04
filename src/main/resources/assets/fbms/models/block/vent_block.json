@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fbms:blocks/vent",
+    "particle": "fbms:blocks/vent"
+  },
+  "render_type": "solid"
+}

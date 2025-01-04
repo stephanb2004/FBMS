@@ -1,9 +1,9 @@
 {
   "parent": "block/stairs",
   "textures": {
-    "bottom": "fbms:blocks/tiles_blackwhite_confetti",
-    "top": "fbms:blocks/tiles_blackwhite_confetti",
-    "side": "fbms:blocks/tiles_blackwhite_confetti"
+    "bottom": "fbms:blocks/confetti_floor",
+    "top": "fbms:blocks/confetti_floor",
+    "side": "fbms:blocks/confetti_floor"
   },
   "render_type": "solid"
 }

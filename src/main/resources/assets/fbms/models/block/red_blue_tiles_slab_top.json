@@ -1,9 +1,9 @@
 {
   "parent": "block/slab_top",
   "textures": {
-    "bottom": "fbms:blocks/blueredfloortiles",
-    "top": "fbms:blocks/blueredfloortiles",
-    "side": "fbms:blocks/blueredfloortiles"
+    "bottom": "fbms:blocks/red_blue_floor",
+    "top": "fbms:blocks/red_blue_floor",
+    "side": "fbms:blocks/red_blue_floor"
   },
   "render_type": "solid"
 }

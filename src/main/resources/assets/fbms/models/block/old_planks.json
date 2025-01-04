@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fbms:blocks/old_planks",
+    "particle": "fbms:blocks/old_planks"
+  },
+  "render_type": "solid"
+}

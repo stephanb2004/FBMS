@@ -19,6 +19,6 @@ public class RockStarFreddyAnimatedBlockModel extends AnimatedGeoModel<RockStarF
 
 	@Override
 	public ResourceLocation getTextureResource(RockStarFreddyAnimatedTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/rockstarfreddyv2.png");
+		return new ResourceLocation("fbms", "textures/blocks/rockstar_freddy.png");
 	}
 }

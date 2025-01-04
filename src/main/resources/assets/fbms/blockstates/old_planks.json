@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:block/old_planks"
+    },
+    "facing=east": {
+      "model": "fbms:block/old_planks",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:block/old_planks",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:block/old_planks",
+      "y": 270
+    }
+  }
+}

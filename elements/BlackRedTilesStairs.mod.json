@@ -2,10 +2,10 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "redfloortiles",
-    "textureTop": "redfloortiles",
+    "texture": "red_black_floor",
+    "textureTop": "red_black_floor",
     "textureLeft": "redfloortiles",
-    "textureFront": "redfloortiles",
+    "textureFront": "red_black_floor",
     "textureRight": "redfloortiles",
     "textureBack": "redfloortiles",
     "renderType": 11,

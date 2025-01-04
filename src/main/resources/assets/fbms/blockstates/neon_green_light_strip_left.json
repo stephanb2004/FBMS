@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fbms:custom/neon_green_light_strip_left_particle"
+    },
+    "facing=east": {
+      "model": "fbms:custom/neon_green_light_strip_left_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fbms:custom/neon_green_light_strip_left_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fbms:custom/neon_green_light_strip_left_particle",
+      "y": 270
+    }
+  }
+}
