@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "fbms:items/gasmask"
+    "layer0": "fbms:item/gasmask"
   }
 }

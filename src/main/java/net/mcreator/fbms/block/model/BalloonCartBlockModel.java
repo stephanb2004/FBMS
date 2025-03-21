@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.BalloonCartTileEntity;
 
-public class BalloonCartBlockModel extends AnimatedGeoModel<BalloonCartTileEntity> {
+public class BalloonCartBlockModel extends GeoModel<BalloonCartTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(BalloonCartTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/balloon_cart.animation.json");
@@ -18,7 +18,7 @@ public class BalloonCartBlockModel extends AnimatedGeoModel<BalloonCartTileEntit
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(BalloonCartTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/cart.png");
+	public ResourceLocation getTextureResource(BalloonCartTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/cart.png");
 	}
 }

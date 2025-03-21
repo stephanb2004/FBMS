@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.MusicManAnimatedDisplayItem;
 
-public class MusicManAnimatedDisplayModel extends AnimatedGeoModel<MusicManAnimatedDisplayItem> {
+public class MusicManAnimatedDisplayModel extends GeoModel<MusicManAnimatedDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(MusicManAnimatedDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/musicmana.animation.json");
@@ -19,6 +19,6 @@ public class MusicManAnimatedDisplayModel extends AnimatedGeoModel<MusicManAnima
 
 	@Override
 	public ResourceLocation getTextureResource(MusicManAnimatedDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/musicman.png");
+		return new ResourceLocation("fbms", "textures/block/musicman.png");
 	}
 }

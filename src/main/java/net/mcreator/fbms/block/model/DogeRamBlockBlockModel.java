@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.DogeRamBlockTileEntity;
 
-public class DogeRamBlockBlockModel extends AnimatedGeoModel<DogeRamBlockTileEntity> {
+public class DogeRamBlockBlockModel extends GeoModel<DogeRamBlockTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(DogeRamBlockTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/doge_ram_1982_block.animation.json");
@@ -18,7 +18,7 @@ public class DogeRamBlockBlockModel extends AnimatedGeoModel<DogeRamBlockTileEnt
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(DogeRamBlockTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/dodgeramakamoltensride.png");
+	public ResourceLocation getTextureResource(DogeRamBlockTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/dodgeramakamoltensride.png");
 	}
 }

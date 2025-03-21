@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/ce1752722ffa8ee475268bbcf59d105027539643"
+    "particle": "fbms:block/ce1752722ffa8ee475268bbcf59d105027539643"
   }
 }

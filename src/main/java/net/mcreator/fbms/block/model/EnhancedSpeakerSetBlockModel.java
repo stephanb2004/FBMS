@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.EnhancedSpeakerSetTileEntity;
 
-public class EnhancedSpeakerSetBlockModel extends AnimatedGeoModel<EnhancedSpeakerSetTileEntity> {
+public class EnhancedSpeakerSetBlockModel extends GeoModel<EnhancedSpeakerSetTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(EnhancedSpeakerSetTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/enhanced_speaker_set.animation.json");
@@ -18,7 +18,7 @@ public class EnhancedSpeakerSetBlockModel extends AnimatedGeoModel<EnhancedSpeak
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(EnhancedSpeakerSetTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/enhanced_speaker_set.png");
+	public ResourceLocation getTextureResource(EnhancedSpeakerSetTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/enhanced_speaker_set.png");
 	}
 }

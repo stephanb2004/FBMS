@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/jolly_the_rat"
+    "particle": "fbms:block/jolly_the_rat"
   }
 }

@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.DiscountCoolingUnitTileEntity;
 
-public class DiscountCoolingUnitBlockModel extends AnimatedGeoModel<DiscountCoolingUnitTileEntity> {
+public class DiscountCoolingUnitBlockModel extends GeoModel<DiscountCoolingUnitTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(DiscountCoolingUnitTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/discountcoolingunit.animation.json");
@@ -18,7 +18,7 @@ public class DiscountCoolingUnitBlockModel extends AnimatedGeoModel<DiscountCool
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(DiscountCoolingUnitTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/discountcooling.png");
+	public ResourceLocation getTextureResource(DiscountCoolingUnitTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/discountcooling.png");
 	}
 }

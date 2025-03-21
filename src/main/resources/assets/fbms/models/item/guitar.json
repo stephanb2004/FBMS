@@ -1,7 +1,7 @@
 {
   "parent": "fbms:custom/oldguitar",
   "textures": {
-    "1": "fbms:blocks/oldguitar",
-    "particle": "fbms:items/oldguitar"
+    "1": "fbms:block/oldguitar",
+    "particle": "fbms:item/oldguitar"
   }
 }

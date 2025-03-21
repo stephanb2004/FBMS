@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.PinTheBowtieOnTheFreddyTileEntity;
 
-public class PinTheBowtieOnTheFreddyBlockModel extends AnimatedGeoModel<PinTheBowtieOnTheFreddyTileEntity> {
+public class PinTheBowtieOnTheFreddyBlockModel extends GeoModel<PinTheBowtieOnTheFreddyTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(PinTheBowtieOnTheFreddyTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/pin-the-bowtie-on-the-freddy.animation.json");
@@ -18,7 +18,7 @@ public class PinTheBowtieOnTheFreddyBlockModel extends AnimatedGeoModel<PinTheBo
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(PinTheBowtieOnTheFreddyTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/pinthebowtietexture2.png");
+	public ResourceLocation getTextureResource(PinTheBowtieOnTheFreddyTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/pinthebowtietexture2.png");
 	}
 }

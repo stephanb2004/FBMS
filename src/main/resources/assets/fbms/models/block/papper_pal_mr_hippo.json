@@ -1,9 +1,9 @@
 {
   "parent": "fbms:custom/paper_pals",
   "textures": {
-    "all": "fbms:blocks/paper_pal_mrhippo",
-    "particle": "fbms:blocks/paper_pal_mrhippo",
-    "7": "fbms:blocks/paper_pal_mrhippo"
+    "all": "fbms:block/paper_pal_mrhippo",
+    "particle": "fbms:block/paper_pal_mrhippo",
+    "7": "fbms:block/paper_pal_mrhippo"
   },
   "render_type": "cutout"
 }

@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.ImpalaBlockTileEntity;
 
-public class ImpalaBlockBlockModel extends AnimatedGeoModel<ImpalaBlockTileEntity> {
+public class ImpalaBlockBlockModel extends GeoModel<ImpalaBlockTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(ImpalaBlockTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/chevrolet_impala_block.animation.json");
@@ -18,7 +18,7 @@ public class ImpalaBlockBlockModel extends AnimatedGeoModel<ImpalaBlockTileEntit
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(ImpalaBlockTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/purplechevroletimpala1961akastaticsride.png");
+	public ResourceLocation getTextureResource(ImpalaBlockTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/purplechevroletimpala1961akastaticsride.png");
 	}
 }

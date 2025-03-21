@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.SecurityPuppetTileEntity;
 
-public class SecurityPuppetBlockModel extends AnimatedGeoModel<SecurityPuppetTileEntity> {
+public class SecurityPuppetBlockModel extends GeoModel<SecurityPuppetTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(SecurityPuppetTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/puppetblock.animation.json");
@@ -18,7 +18,7 @@ public class SecurityPuppetBlockModel extends AnimatedGeoModel<SecurityPuppetTil
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(SecurityPuppetTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/puppet.png");
+	public ResourceLocation getTextureResource(SecurityPuppetTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/puppet.png");
 	}
 }

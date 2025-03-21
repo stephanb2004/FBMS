@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "fbms:items/icecream_milkchocolate"
+    "layer0": "fbms:item/icecream_milkchocolate"
   }
 }

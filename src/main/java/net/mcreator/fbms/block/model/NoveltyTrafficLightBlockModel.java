@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.NoveltyTrafficLightTileEntity;
 
-public class NoveltyTrafficLightBlockModel extends AnimatedGeoModel<NoveltyTrafficLightTileEntity> {
+public class NoveltyTrafficLightBlockModel extends GeoModel<NoveltyTrafficLightTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(NoveltyTrafficLightTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/stolen_traffic_light.animation.json");
@@ -18,7 +18,7 @@ public class NoveltyTrafficLightBlockModel extends AnimatedGeoModel<NoveltyTraff
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(NoveltyTrafficLightTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/itsafreetexture.png");
+	public ResourceLocation getTextureResource(NoveltyTrafficLightTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/itsafreetexture.png");
 	}
 }

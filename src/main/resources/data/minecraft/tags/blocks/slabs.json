@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "fbms:red_blue_tiles_slab",
+    "fbms:black_blue_tiles_slab",
+    "fbms:full_black_tiles_slab",
+    "fbms:red_white_tiles_slab",
+    "fbms:full_white_tiles_slab",
+    "fbms:blue_white_tiles_slab",
+    "fbms:black_red_tiles_slab",
+    "fbms:black_white_tiles_slab",
+    "fbms:scrap_stage_block_slab",
+    "fbms:basic_stage_block_slab",
+    "fbms:black_white_confetti_tile_slab",
+    "fbms:black_white_clean_tile_slab"
+  ]
+}

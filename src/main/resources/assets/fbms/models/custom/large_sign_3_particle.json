@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/nightshift_promospringtrap"
+    "particle": "fbms:block/nightshift_promospringtrap"
   }
 }

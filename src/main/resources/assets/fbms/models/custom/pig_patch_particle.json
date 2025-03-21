@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/pigpatchv2v2"
+    "particle": "fbms:block/pigpatchv2v2"
   }
 }

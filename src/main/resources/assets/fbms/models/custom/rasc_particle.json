@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/rasc"
+    "particle": "fbms:block/rasc"
   }
 }

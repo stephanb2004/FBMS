@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.FruitPunchClownDisplayItem;
 
-public class FruitPunchClownDisplayModel extends AnimatedGeoModel<FruitPunchClownDisplayItem> {
+public class FruitPunchClownDisplayModel extends GeoModel<FruitPunchClownDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(FruitPunchClownDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/fruint_punch_clown.animation.json");
@@ -19,6 +19,6 @@ public class FruitPunchClownDisplayModel extends AnimatedGeoModel<FruitPunchClow
 
 	@Override
 	public ResourceLocation getTextureResource(FruitPunchClownDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/fruit_punch_clown.png");
+		return new ResourceLocation("fbms", "textures/block/fruit_punch_clown.png");
 	}
 }

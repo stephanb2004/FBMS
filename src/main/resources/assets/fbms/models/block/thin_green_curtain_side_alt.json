@@ -1,8 +1,9 @@
 {
   "parent": "block/template_glass_pane_side_alt",
   "textures": {
-    "edge": "fbms:blocks/blank_green_curtan",
-    "pane": "fbms:blocks/blank_green_curtan"
+    "particle": "fbms:block/blank_green_curtan",
+    "edge": "fbms:block/blank_green_curtan",
+    "pane": "fbms:block/blank_green_curtan"
   },
   "render_type": "solid"
 }

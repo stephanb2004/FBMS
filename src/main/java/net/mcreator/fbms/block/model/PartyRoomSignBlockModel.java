@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.PartyRoomSignTileEntity;
 
-public class PartyRoomSignBlockModel extends AnimatedGeoModel<PartyRoomSignTileEntity> {
+public class PartyRoomSignBlockModel extends GeoModel<PartyRoomSignTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(PartyRoomSignTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/wall_signs.animation.json");
@@ -18,7 +18,7 @@ public class PartyRoomSignBlockModel extends AnimatedGeoModel<PartyRoomSignTileE
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(PartyRoomSignTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/partyroomsign.png");
+	public ResourceLocation getTextureResource(PartyRoomSignTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/partyroomsign.png");
 	}
 }

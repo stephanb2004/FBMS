@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/fruity_maze_arcade"
+    "particle": "fbms:block/fruity_maze_arcade"
   }
 }

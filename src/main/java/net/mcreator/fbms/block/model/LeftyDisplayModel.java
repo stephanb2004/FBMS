@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.LeftyDisplayItem;
 
-public class LeftyDisplayModel extends AnimatedGeoModel<LeftyDisplayItem> {
+public class LeftyDisplayModel extends GeoModel<LeftyDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(LeftyDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/leftyv2.animation.json");
@@ -19,6 +19,6 @@ public class LeftyDisplayModel extends AnimatedGeoModel<LeftyDisplayItem> {
 
 	@Override
 	public ResourceLocation getTextureResource(LeftyDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/leftyv2v2.png");
+		return new ResourceLocation("fbms", "textures/block/leftyv2v2.png");
 	}
 }

@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/pinballmachine_tfreddy"
+    "particle": "fbms:block/pinballmachine_tfreddy"
   }
 }

@@ -1,8 +1,9 @@
 {
   "parent": "block/door_bottom_right_open",
   "textures": {
-    "bottom": "fbms:blocks/sbdoorsbottom",
-    "top": "fbms:blocks/sbdoorstop"
+    "particle": "fbms:block/sbdoorsbottom",
+    "bottom": "fbms:block/sbdoorsbottom",
+    "top": "fbms:block/sbdoorstop"
   },
   "render_type": "translucent"
 }

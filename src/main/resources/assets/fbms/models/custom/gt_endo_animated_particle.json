@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/gt_endo"
+    "particle": "fbms:block/gt_endo"
   }
 }

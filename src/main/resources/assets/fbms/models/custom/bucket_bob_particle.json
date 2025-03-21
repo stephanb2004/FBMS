@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/bucket_bob"
+    "particle": "fbms:block/bucket_bob"
   }
 }

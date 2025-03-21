@@ -1,9 +1,9 @@
 {
   "parent": "fbms:custom/monitor",
   "textures": {
-    "all": "fbms:blocks/m_off",
-    "particle": "fbms:blocks/m_off",
-    "0": "fbms:blocks/m_off"
+    "all": "fbms:block/m_off",
+    "particle": "fbms:block/m_off",
+    "0": "fbms:block/m_off"
   },
   "render_type": "cutout"
 }

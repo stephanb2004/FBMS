@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.MoltenFreddyTileEntity;
 
-public class MoltenFreddyBlockModel extends AnimatedGeoModel<MoltenFreddyTileEntity> {
+public class MoltenFreddyBlockModel extends GeoModel<MoltenFreddyTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(MoltenFreddyTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/moltenblock.animation.json");
@@ -18,7 +18,7 @@ public class MoltenFreddyBlockModel extends AnimatedGeoModel<MoltenFreddyTileEnt
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(MoltenFreddyTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/molten.png");
+	public ResourceLocation getTextureResource(MoltenFreddyTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/molten.png");
 	}
 }

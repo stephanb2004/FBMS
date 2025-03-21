@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.PizzaPlaceSignTileEntity;
 
-public class PizzaPlaceSignBlockModel extends AnimatedGeoModel<PizzaPlaceSignTileEntity> {
+public class PizzaPlaceSignBlockModel extends GeoModel<PizzaPlaceSignTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(PizzaPlaceSignTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/freby.animation.json");
@@ -18,7 +18,7 @@ public class PizzaPlaceSignBlockModel extends AnimatedGeoModel<PizzaPlaceSignTil
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(PizzaPlaceSignTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/fnaf6sign.png");
+	public ResourceLocation getTextureResource(PizzaPlaceSignTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/fnaf6sign.png");
 	}
 }

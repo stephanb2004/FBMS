@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.TheMangleDisplayItem;
 
-public class TheMangleDisplayModel extends AnimatedGeoModel<TheMangleDisplayItem> {
+public class TheMangleDisplayModel extends GeoModel<TheMangleDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(TheMangleDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/mangle.animation.json");
@@ -19,6 +19,6 @@ public class TheMangleDisplayModel extends AnimatedGeoModel<TheMangleDisplayItem
 
 	@Override
 	public ResourceLocation getTextureResource(TheMangleDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/obhf_mangle.png");
+		return new ResourceLocation("fbms", "textures/block/obhf_mangle.png");
 	}
 }

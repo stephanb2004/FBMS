@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.ToyChicaDisplayItem;
 
-public class ToyChicaDisplayModel extends AnimatedGeoModel<ToyChicaDisplayItem> {
+public class ToyChicaDisplayModel extends GeoModel<ToyChicaDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(ToyChicaDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/toychica.animation.json");
@@ -19,6 +19,6 @@ public class ToyChicaDisplayModel extends AnimatedGeoModel<ToyChicaDisplayItem> 
 
 	@Override
 	public ResourceLocation getTextureResource(ToyChicaDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/toychica.png");
+		return new ResourceLocation("fbms", "textures/block/toychica.png");
 	}
 }

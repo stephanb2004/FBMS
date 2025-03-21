@@ -1,15 +1,19 @@
 {
-  "_fv": 43,
+  "_fv": 69,
   "_type": "item",
   "definition": {
     "renderType": 1,
     "texture": "deluxe_ballpit",
     "customModelName": "soda_cup:fiztime2",
+    "customProperties": {},
+    "states": [],
     "name": "Fiztime Pop Cup (Alt)",
     "rarity": "COMMON",
-    "creativeTab": {
-      "value": "CUSTOM:Props"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Props"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 32,
@@ -24,11 +28,16 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
-    "hasGlow": false,
+    "specialInformation": {
+      "fixedValue": []
+    },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectileDisableAmmoCheck": false,
     "isFood": true,
     "nutritionalValue": 4,
     "saturation": 0.3,

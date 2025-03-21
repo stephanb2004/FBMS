@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 69,
   "_type": "block",
   "definition": {
     "texture": "lighton",
@@ -33,15 +33,16 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Ceiling Light (on)",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "No creative tab entry"
-    },
+    "creativeTabs": [],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
@@ -98,7 +99,7 @@
     },
     "luminance": 15,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "vanillaToolTier": "STONE",
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -120,7 +121,7 @@
     "onRedstoneOff": {
       "name": "CeilingLightRedstoneOff"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",

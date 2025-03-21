@@ -1,12 +1,12 @@
 package net.mcreator.fbms.item.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.item.GasMaskItem;
 
-public class GasMaskModel extends AnimatedGeoModel<GasMaskItem> {
+public class GasMaskModel extends GeoModel<GasMaskItem> {
 	@Override
 	public ResourceLocation getAnimationResource(GasMaskItem object) {
 		return new ResourceLocation("fbms", "animations/gasmask.animation.json");
@@ -19,6 +19,6 @@ public class GasMaskModel extends AnimatedGeoModel<GasMaskItem> {
 
 	@Override
 	public ResourceLocation getTextureResource(GasMaskItem object) {
-		return new ResourceLocation("fbms", "textures/items/gasmasktexture.png");
+		return new ResourceLocation("fbms", "textures/item/gasmasktexture.png");
 	}
 }

@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.HappYFrogAnimatedDisplayItem;
 
-public class HappYFrogAnimatedDisplayModel extends AnimatedGeoModel<HappYFrogAnimatedDisplayItem> {
+public class HappYFrogAnimatedDisplayModel extends GeoModel<HappYFrogAnimatedDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(HappYFrogAnimatedDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/happyfroga.animation.json");
@@ -19,6 +19,6 @@ public class HappYFrogAnimatedDisplayModel extends AnimatedGeoModel<HappYFrogAni
 
 	@Override
 	public ResourceLocation getTextureResource(HappYFrogAnimatedDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/happyfrog.png");
+		return new ResourceLocation("fbms", "textures/block/happyfrog.png");
 	}
 }

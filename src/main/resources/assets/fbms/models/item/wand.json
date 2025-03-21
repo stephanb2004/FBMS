@@ -1,7 +1,7 @@
 {
   "parent": "fbms:custom/wand",
   "textures": {
-    "0": "fbms:blocks/wand",
-    "particle": "fbms:items/wand"
+    "0": "fbms:block/wand",
+    "particle": "fbms:item/wand"
   }
 }

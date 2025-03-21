@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "fbms:blocks/whitebluefloortiles",
-    "up": "fbms:blocks/whitebluefloortiles",
-    "north": "fbms:blocks/whitebluefloortiles",
-    "east": "fbms:blocks/whitebluefloortiles",
-    "south": "fbms:blocks/whitebluefloortiles",
-    "west": "fbms:blocks/whitebluefloortiles",
-    "particle": "fbms:blocks/whitebluefloortiles"
+    "down": "fbms:block/whitebluefloortiles",
+    "up": "fbms:block/whitebluefloortiles",
+    "north": "fbms:block/whitebluefloortiles",
+    "east": "fbms:block/whitebluefloortiles",
+    "south": "fbms:block/whitebluefloortiles",
+    "west": "fbms:block/whitebluefloortiles",
+    "particle": "fbms:block/whitebluefloortiles"
   },
   "render_type": "solid"
 }

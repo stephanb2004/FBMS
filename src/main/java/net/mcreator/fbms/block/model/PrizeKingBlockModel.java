@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.PrizeKingTileEntity;
 
-public class PrizeKingBlockModel extends AnimatedGeoModel<PrizeKingTileEntity> {
+public class PrizeKingBlockModel extends GeoModel<PrizeKingTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(PrizeKingTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/prizeking.animation.json");
@@ -18,7 +18,7 @@ public class PrizeKingBlockModel extends AnimatedGeoModel<PrizeKingTileEntity> {
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(PrizeKingTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/prizeking.png");
+	public ResourceLocation getTextureResource(PrizeKingTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/prizeking.png");
 	}
 }

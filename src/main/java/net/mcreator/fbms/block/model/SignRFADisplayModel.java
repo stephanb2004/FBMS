@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.SignRFADisplayItem;
 
-public class SignRFADisplayModel extends AnimatedGeoModel<SignRFADisplayItem> {
+public class SignRFADisplayModel extends GeoModel<SignRFADisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(SignRFADisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/freby.animation.json");
@@ -19,6 +19,6 @@ public class SignRFADisplayModel extends AnimatedGeoModel<SignRFADisplayItem> {
 
 	@Override
 	public ResourceLocation getTextureResource(SignRFADisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/sign_rfa.png");
+		return new ResourceLocation("fbms", "textures/block/sign_rfa.png");
 	}
 }

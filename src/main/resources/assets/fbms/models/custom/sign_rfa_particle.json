@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/sign_rfa"
+    "particle": "fbms:block/sign_rfa"
   }
 }

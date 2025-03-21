@@ -1,12 +1,12 @@
 package net.mcreator.fbms.entity.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.entity.DBonnieEntity;
 
-public class DBonnieModel extends AnimatedGeoModel<DBonnieEntity> {
+public class DBonnieModel extends GeoModel<DBonnieEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(DBonnieEntity entity) {
 		return new ResourceLocation("fbms", "animations/dbonnie.animation.json");

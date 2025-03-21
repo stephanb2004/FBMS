@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.SanitationStationTileEntity;
 
-public class SanitationStationBlockModel extends AnimatedGeoModel<SanitationStationTileEntity> {
+public class SanitationStationBlockModel extends GeoModel<SanitationStationTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(SanitationStationTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/fmssanitationstation.animation.json");
@@ -18,7 +18,7 @@ public class SanitationStationBlockModel extends AnimatedGeoModel<SanitationStat
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(SanitationStationTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/fmssanitationstation.png");
+	public ResourceLocation getTextureResource(SanitationStationTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/fmssanitationstation.png");
 	}
 }

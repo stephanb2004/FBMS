@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/withered_doug"
+    "particle": "fbms:block/withered_doug"
   }
 }

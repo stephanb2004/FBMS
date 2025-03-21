@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/riding_rocket_red"
+    "particle": "fbms:block/riding_rocket_red"
   }
 }

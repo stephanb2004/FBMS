@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.FrightsSign2TileEntity;
 
-public class FrightsSign2BlockModel extends AnimatedGeoModel<FrightsSign2TileEntity> {
+public class FrightsSign2BlockModel extends GeoModel<FrightsSign2TileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(FrightsSign2TileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/frights2.animation.json");
@@ -18,7 +18,7 @@ public class FrightsSign2BlockModel extends AnimatedGeoModel<FrightsSign2TileEnt
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(FrightsSign2TileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/faz_bear_pizza_place.png");
+	public ResourceLocation getTextureResource(FrightsSign2TileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/faz_bear_pizza_place.png");
 	}
 }

@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.Endo02DisplayItem;
 
-public class Endo02DisplayModel extends AnimatedGeoModel<Endo02DisplayItem> {
+public class Endo02DisplayModel extends GeoModel<Endo02DisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(Endo02DisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/endo02v2.animation.json");
@@ -19,6 +19,6 @@ public class Endo02DisplayModel extends AnimatedGeoModel<Endo02DisplayItem> {
 
 	@Override
 	public ResourceLocation getTextureResource(Endo02DisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/endo02v2.png");
+		return new ResourceLocation("fbms", "textures/block/endo02v2.png");
 	}
 }

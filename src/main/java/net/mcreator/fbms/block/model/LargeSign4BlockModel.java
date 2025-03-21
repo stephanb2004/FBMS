@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.LargeSign4TileEntity;
 
-public class LargeSign4BlockModel extends AnimatedGeoModel<LargeSign4TileEntity> {
+public class LargeSign4BlockModel extends GeoModel<LargeSign4TileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(LargeSign4TileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/sign4.animation.json");
@@ -18,7 +18,7 @@ public class LargeSign4BlockModel extends AnimatedGeoModel<LargeSign4TileEntity>
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(LargeSign4TileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/nul7j1k.png");
+	public ResourceLocation getTextureResource(LargeSign4TileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/nul7j1k.png");
 	}
 }

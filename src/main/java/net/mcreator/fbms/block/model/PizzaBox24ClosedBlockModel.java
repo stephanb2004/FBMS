@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.PizzaBox24ClosedTileEntity;
 
-public class PizzaBox24ClosedBlockModel extends AnimatedGeoModel<PizzaBox24ClosedTileEntity> {
+public class PizzaBox24ClosedBlockModel extends GeoModel<PizzaBox24ClosedTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(PizzaBox24ClosedTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/pizzabox_closed.animation.json");
@@ -18,7 +18,7 @@ public class PizzaBox24ClosedBlockModel extends AnimatedGeoModel<PizzaBox24Close
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(PizzaBox24ClosedTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/fms_pizzabox24.png");
+	public ResourceLocation getTextureResource(PizzaBox24ClosedTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/fms_pizzabox24.png");
 	}
 }

@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 69,
   "_type": "block",
   "definition": {
     "texture": "mtv_off",
@@ -33,15 +33,16 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "TV Monitor (Immortal And The Restless)",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "No creative tab entry"
-    },
+    "creativeTabs": [],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": "CUSTOM:TVOff"
@@ -98,7 +99,7 @@
     },
     "luminance": 2,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "vanillaToolTier": "STONE",
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -117,7 +118,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

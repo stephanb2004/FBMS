@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.BarryPolarDisplayItem;
 
-public class BarryPolarDisplayModel extends AnimatedGeoModel<BarryPolarDisplayItem> {
+public class BarryPolarDisplayModel extends GeoModel<BarryPolarDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(BarryPolarDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/barrypolarsitbrokenv2.animation.json");
@@ -19,6 +19,6 @@ public class BarryPolarDisplayModel extends AnimatedGeoModel<BarryPolarDisplayIt
 
 	@Override
 	public ResourceLocation getTextureResource(BarryPolarDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/skinv2.png");
+		return new ResourceLocation("fbms", "textures/block/skinv2.png");
 	}
 }

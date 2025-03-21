@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/fnaf6sign"
+    "particle": "fbms:block/fnaf6sign"
   }
 }

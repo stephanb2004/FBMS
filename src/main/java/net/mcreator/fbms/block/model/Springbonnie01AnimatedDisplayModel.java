@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.Springbonnie01AnimatedDisplayItem;
 
-public class Springbonnie01AnimatedDisplayModel extends AnimatedGeoModel<Springbonnie01AnimatedDisplayItem> {
+public class Springbonnie01AnimatedDisplayModel extends GeoModel<Springbonnie01AnimatedDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(Springbonnie01AnimatedDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/01_springbonnie_animated.animation.json");
@@ -19,6 +19,6 @@ public class Springbonnie01AnimatedDisplayModel extends AnimatedGeoModel<Springb
 
 	@Override
 	public ResourceLocation getTextureResource(Springbonnie01AnimatedDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/01_springbonnie.png");
+		return new ResourceLocation("fbms", "textures/block/01_springbonnie.png");
 	}
 }

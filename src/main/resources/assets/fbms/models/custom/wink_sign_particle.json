@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/warning_sign"
+    "particle": "fbms:block/warning_sign"
   }
 }

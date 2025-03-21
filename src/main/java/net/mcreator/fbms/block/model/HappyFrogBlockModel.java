@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.HappyFrogTileEntity;
 
-public class HappyFrogBlockModel extends AnimatedGeoModel<HappyFrogTileEntity> {
+public class HappyFrogBlockModel extends GeoModel<HappyFrogTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(HappyFrogTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/happyfrogblock.animation.json");
@@ -18,7 +18,7 @@ public class HappyFrogBlockModel extends AnimatedGeoModel<HappyFrogTileEntity> {
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(HappyFrogTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/happyfrog.png");
+	public ResourceLocation getTextureResource(HappyFrogTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/happyfrog.png");
 	}
 }

@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.NeonJukeBoxOffDisplayItem;
 
-public class NeonJukeBoxOffDisplayModel extends AnimatedGeoModel<NeonJukeBoxOffDisplayItem> {
+public class NeonJukeBoxOffDisplayModel extends GeoModel<NeonJukeBoxOffDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(NeonJukeBoxOffDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/neon_jukebox.animation.json");
@@ -19,6 +19,6 @@ public class NeonJukeBoxOffDisplayModel extends AnimatedGeoModel<NeonJukeBoxOffD
 
 	@Override
 	public ResourceLocation getTextureResource(NeonJukeBoxOffDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/neon_jukebox.png");
+		return new ResourceLocation("fbms", "textures/block/neon_jukebox.png");
 	}
 }

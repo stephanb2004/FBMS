@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "fbms:blocks/blank_purple_curtan"
+    "layer0": "fbms:block/blank_purple_curtan"
   },
   "render_type": "solid"
 }

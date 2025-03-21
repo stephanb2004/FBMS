@@ -1,15 +1,15 @@
 {
-  "_fv": 43,
+  "_fv": 69,
   "_type": "livingentity",
   "definition": {
     "mobName": "Seat",
     "mobLabel": "",
     "mobModelName": "Modela",
     "mobModelTexture": "seat.png",
-    "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false
     },
+    "modelLayers": [],
     "modelWidth": 0.5,
     "modelHeight": 0.375,
     "modelShadowSize": 0.5,
@@ -23,9 +23,7 @@
       "value": -1,
       "falpha": 0.0
     },
-    "creativeTab": {
-      "value": "No creative tab entry"
-    },
+    "creativeTabs": [],
     "isBoss": false,
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
@@ -60,6 +58,9 @@
     "health": 10,
     "xpAmount": 0,
     "waterMob": false,
+    "pushedByFluids": {
+      "fixedValue": true
+    },
     "flyingMob": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
@@ -96,6 +97,7 @@
     "stepSound": {
       "value": ""
     },
+    "entityDataEntries": [],
     "onMobTickUpdate": {
       "name": "SeatOnEntityTickUpdate"
     },
@@ -119,6 +121,15 @@
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [],
-    "spawnInDungeons": false
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ]
   }
 }

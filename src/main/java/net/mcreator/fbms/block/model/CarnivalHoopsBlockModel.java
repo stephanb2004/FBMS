@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.CarnivalHoopsTileEntity;
 
-public class CarnivalHoopsBlockModel extends AnimatedGeoModel<CarnivalHoopsTileEntity> {
+public class CarnivalHoopsBlockModel extends GeoModel<CarnivalHoopsTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(CarnivalHoopsTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/carnival_hoops.animation.json");
@@ -18,7 +18,7 @@ public class CarnivalHoopsBlockModel extends AnimatedGeoModel<CarnivalHoopsTileE
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(CarnivalHoopsTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/carnival_hoops.png");
+	public ResourceLocation getTextureResource(CarnivalHoopsTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/carnival_hoops.png");
 	}
 }

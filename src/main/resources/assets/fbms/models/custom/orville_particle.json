@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/magicv2v2"
+    "particle": "fbms:block/magicv2v2"
   }
 }

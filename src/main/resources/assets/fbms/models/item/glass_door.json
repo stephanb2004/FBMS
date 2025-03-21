@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "fbms:blocks/glassdoorbottem"
+    "layer0": "fbms:block/glassdoorbottem"
   },
   "render_type": "translucent"
 }

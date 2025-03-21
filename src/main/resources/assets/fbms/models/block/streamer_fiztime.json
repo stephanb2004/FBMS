@@ -1,9 +1,9 @@
 {
   "parent": "fbms:custom/streamer",
   "textures": {
-    "all": "fbms:blocks/streamer_ftps",
-    "particle": "fbms:blocks/streamer_ftps",
-    "0": "fbms:blocks/streamer_ftps"
+    "all": "fbms:block/streamer_ftps",
+    "particle": "fbms:block/streamer_ftps",
+    "0": "fbms:block/streamer_ftps"
   },
   "render_type": "cutout"
 }

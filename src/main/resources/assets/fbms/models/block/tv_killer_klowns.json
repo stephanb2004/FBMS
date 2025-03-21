@@ -1,9 +1,9 @@
 {
   "parent": "fbms:custom/monitor",
   "textures": {
-    "all": "fbms:blocks/mtv_killerklowns",
-    "particle": "fbms:blocks/mtv_killerklowns",
-    "0": "fbms:blocks/mtv_killerklowns"
+    "all": "fbms:block/mtv_killerklowns",
+    "particle": "fbms:block/mtv_killerklowns",
+    "0": "fbms:block/mtv_killerklowns"
   },
   "render_type": "cutout"
 }

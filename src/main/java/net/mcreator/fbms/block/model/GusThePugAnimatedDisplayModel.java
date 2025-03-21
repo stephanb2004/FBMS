@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.GusThePugAnimatedDisplayItem;
 
-public class GusThePugAnimatedDisplayModel extends AnimatedGeoModel<GusThePugAnimatedDisplayItem> {
+public class GusThePugAnimatedDisplayModel extends GeoModel<GusThePugAnimatedDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(GusThePugAnimatedDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/gus_the_pug_animated.animation.json");
@@ -19,6 +19,6 @@ public class GusThePugAnimatedDisplayModel extends AnimatedGeoModel<GusThePugAni
 
 	@Override
 	public ResourceLocation getTextureResource(GusThePugAnimatedDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/gus_the_pug.png");
+		return new ResourceLocation("fbms", "textures/block/gus_the_pug.png");
 	}
 }

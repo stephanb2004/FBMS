@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "fbms:blocks/orange_bricks",
-    "particle": "fbms:blocks/orange_bricks"
+    "all": "fbms:block/orange_bricks",
+    "particle": "fbms:block/orange_bricks"
   },
   "render_type": "solid"
 }

@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.Number1CrateTileEntity;
 
-public class Number1CrateBlockModel extends AnimatedGeoModel<Number1CrateTileEntity> {
+public class Number1CrateBlockModel extends GeoModel<Number1CrateTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(Number1CrateTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/numberonecrate.animation.json");
@@ -18,7 +18,7 @@ public class Number1CrateBlockModel extends AnimatedGeoModel<Number1CrateTileEnt
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(Number1CrateTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/1_crate.png");
+	public ResourceLocation getTextureResource(Number1CrateTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/1_crate.png");
 	}
 }

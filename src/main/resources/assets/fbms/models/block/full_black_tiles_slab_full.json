@@ -1,9 +1,10 @@
 {
   "parent": "block/cube_bottom_top",
   "textures": {
-    "bottom": "fbms:blocks/full_black_floor",
-    "top": "fbms:blocks/full_black_floor",
-    "side": "fbms:blocks/full_black_floor"
+    "particle": "fbms:block/full_black_floor",
+    "bottom": "fbms:block/full_black_floor",
+    "top": "fbms:block/full_black_floor",
+    "side": "fbms:block/full_black_floor"
   },
   "render_type": "solid"
 }

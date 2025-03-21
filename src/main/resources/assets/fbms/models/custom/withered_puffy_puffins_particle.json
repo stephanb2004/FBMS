@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/puffy_puffins_withered"
+    "particle": "fbms:block/puffy_puffins_withered"
   }
 }

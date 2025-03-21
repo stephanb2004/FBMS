@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.MidnightMotoristDisplayItem;
 
-public class MidnightMotoristDisplayModel extends AnimatedGeoModel<MidnightMotoristDisplayItem> {
+public class MidnightMotoristDisplayModel extends GeoModel<MidnightMotoristDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(MidnightMotoristDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/midnight_motorist.animation.json");
@@ -19,6 +19,6 @@ public class MidnightMotoristDisplayModel extends AnimatedGeoModel<MidnightMotor
 
 	@Override
 	public ResourceLocation getTextureResource(MidnightMotoristDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/midnight_motorist.png");
+		return new ResourceLocation("fbms", "textures/block/midnight_motorist.png");
 	}
 }

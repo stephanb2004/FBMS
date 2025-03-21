@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.RascTileEntity;
 
-public class RascBlockModel extends AnimatedGeoModel<RascTileEntity> {
+public class RascBlockModel extends GeoModel<RascTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(RascTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/rasc.animation.json");
@@ -18,7 +18,7 @@ public class RascBlockModel extends AnimatedGeoModel<RascTileEntity> {
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(RascTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/rasc.png");
+	public ResourceLocation getTextureResource(RascTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/rasc.png");
 	}
 }

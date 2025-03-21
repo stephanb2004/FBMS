@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.HeavyDuityDoorDisplayItem;
 
-public class HeavyDuityDoorDisplayModel extends AnimatedGeoModel<HeavyDuityDoorDisplayItem> {
+public class HeavyDuityDoorDisplayModel extends GeoModel<HeavyDuityDoorDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(HeavyDuityDoorDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/metaldooropen.animation.json");
@@ -19,6 +19,6 @@ public class HeavyDuityDoorDisplayModel extends AnimatedGeoModel<HeavyDuityDoorD
 
 	@Override
 	public ResourceLocation getTextureResource(HeavyDuityDoorDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/crashdoor.png");
+		return new ResourceLocation("fbms", "textures/block/crashdoor.png");
 	}
 }

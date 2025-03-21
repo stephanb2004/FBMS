@@ -1,9 +1,9 @@
 {
   "parent": "fbms:custom/gumball_swivel_hands",
   "textures": {
-    "all": "fbms:blocks/gumball_swivelhands",
-    "particle": "fbms:blocks/gumball_swivelhands",
-    "0": "fbms:blocks/gumball_swivelhands"
+    "all": "fbms:block/gumball_swivelhands",
+    "particle": "fbms:block/gumball_swivelhands",
+    "0": "fbms:block/gumball_swivelhands"
   },
   "render_type": "cutout"
 }

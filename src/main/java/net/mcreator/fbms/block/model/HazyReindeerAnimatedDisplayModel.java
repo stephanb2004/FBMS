@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.HazyReindeerAnimatedDisplayItem;
 
-public class HazyReindeerAnimatedDisplayModel extends AnimatedGeoModel<HazyReindeerAnimatedDisplayItem> {
+public class HazyReindeerAnimatedDisplayModel extends GeoModel<HazyReindeerAnimatedDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(HazyReindeerAnimatedDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/hazyreindeer_animated.animation.json");
@@ -19,6 +19,6 @@ public class HazyReindeerAnimatedDisplayModel extends AnimatedGeoModel<HazyReind
 
 	@Override
 	public ResourceLocation getTextureResource(HazyReindeerAnimatedDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/hazy_reindeer.png");
+		return new ResourceLocation("fbms", "textures/block/hazy_reindeer.png");
 	}
 }

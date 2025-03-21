@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 69,
   "_type": "animatedarmor",
   "definition": {
     "enableHelmet": true,
@@ -13,6 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:PrivateRoom"
     },
+    "creativeTabs": [],
     "armorTextureFile": "gasmasktexture.png",
     "model": "gasmask.geo.json",
     "idle": "1",

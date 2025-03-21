@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/neon_stage_light_pink"
+    "particle": "fbms:block/neon_stage_light_pink"
   }
 }

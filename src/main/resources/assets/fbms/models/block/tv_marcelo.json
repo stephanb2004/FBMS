@@ -1,9 +1,9 @@
 {
   "parent": "fbms:custom/monitor",
   "textures": {
-    "all": "fbms:blocks/mtv_marcelogtoonz",
-    "particle": "fbms:blocks/mtv_marcelogtoonz",
-    "0": "fbms:blocks/mtv_marcelogtoonz"
+    "all": "fbms:block/mtv_marcelogtoonz",
+    "particle": "fbms:block/mtv_marcelogtoonz",
+    "0": "fbms:block/mtv_marcelogtoonz"
   },
   "render_type": "cutout"
 }

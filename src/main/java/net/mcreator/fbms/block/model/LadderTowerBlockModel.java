@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.LadderTowerTileEntity;
 
-public class LadderTowerBlockModel extends AnimatedGeoModel<LadderTowerTileEntity> {
+public class LadderTowerBlockModel extends GeoModel<LadderTowerTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(LadderTowerTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/ladder_tower.animation.json");
@@ -18,7 +18,7 @@ public class LadderTowerBlockModel extends AnimatedGeoModel<LadderTowerTileEntit
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(LadderTowerTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/laddertower.png");
+	public ResourceLocation getTextureResource(LadderTowerTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/laddertower.png");
 	}
 }

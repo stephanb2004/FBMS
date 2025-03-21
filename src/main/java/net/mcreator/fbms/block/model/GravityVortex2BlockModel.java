@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.GravityVortex2TileEntity;
 
-public class GravityVortex2BlockModel extends AnimatedGeoModel<GravityVortex2TileEntity> {
+public class GravityVortex2BlockModel extends GeoModel<GravityVortex2TileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(GravityVortex2TileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/gravityvortex.animation.json");
@@ -18,7 +18,7 @@ public class GravityVortex2BlockModel extends AnimatedGeoModel<GravityVortex2Til
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(GravityVortex2TileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/the_orb.png");
+	public ResourceLocation getTextureResource(GravityVortex2TileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/the_orb.png");
 	}
 }

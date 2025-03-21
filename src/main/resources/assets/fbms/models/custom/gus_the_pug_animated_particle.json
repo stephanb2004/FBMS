@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/gus_the_pug"
+    "particle": "fbms:block/gus_the_pug"
   }
 }

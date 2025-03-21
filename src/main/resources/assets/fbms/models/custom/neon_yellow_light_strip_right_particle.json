@@ -1,7 +1,6 @@
-
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/neonyellowright"
+    "particle": "fbms:block/neonyellowright"
   }
 }

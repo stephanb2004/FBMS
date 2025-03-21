@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.WallyWalrusDisplayItem;
 
-public class WallyWalrusDisplayModel extends AnimatedGeoModel<WallyWalrusDisplayItem> {
+public class WallyWalrusDisplayModel extends GeoModel<WallyWalrusDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(WallyWalrusDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/wallywalrus_idle.animation.json");
@@ -19,6 +19,6 @@ public class WallyWalrusDisplayModel extends AnimatedGeoModel<WallyWalrusDisplay
 
 	@Override
 	public ResourceLocation getTextureResource(WallyWalrusDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/wally_walrus.png");
+		return new ResourceLocation("fbms", "textures/block/wally_walrus.png");
 	}
 }

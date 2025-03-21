@@ -7,7 +7,7 @@ public class SeatOnEntityTickUpdateProcedure {
 		if (entity == null)
 			return;
 		if (!entity.isVehicle()) {
-			if (!entity.level.isClientSide())
+			if (!entity.level().isClientSide())
 				entity.discard();
 		}
 	}

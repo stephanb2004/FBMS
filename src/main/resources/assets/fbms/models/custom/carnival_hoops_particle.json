@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/carnival_hoops"
+    "particle": "fbms:block/carnival_hoops"
   }
 }

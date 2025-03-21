@@ -1,9 +1,9 @@
 {
   "parent": "fbms:custom/fms_bigposter",
   "textures": {
-    "all": "fbms:blocks/fms_safetyposter_base",
-    "particle": "fbms:blocks/fms_safetyposter_base",
-    "2": "fbms:blocks/fms_safetyposter_bonnie"
+    "all": "fbms:block/fms_safetyposter_base",
+    "particle": "fbms:block/fms_safetyposter_base",
+    "2": "fbms:block/fms_safetyposter_bonnie"
   },
   "render_type": "cutout"
 }

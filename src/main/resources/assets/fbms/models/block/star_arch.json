@@ -1,9 +1,9 @@
 {
   "parent": "fbms:custom/star_arch",
   "textures": {
-    "all": "fbms:blocks/star_arch",
-    "particle": "fbms:blocks/star_arch",
-    "2": "fbms:blocks/star_arch"
+    "all": "fbms:block/star_arch",
+    "particle": "fbms:block/star_arch",
+    "2": "fbms:block/star_arch"
   },
   "render_type": "cutout"
 }

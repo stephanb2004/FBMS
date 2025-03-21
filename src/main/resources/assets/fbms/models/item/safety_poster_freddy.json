@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "fbms:items/poster_alttexture"
+    "layer0": "fbms:item/poster_alttexture"
   },
   "render_type": "translucent"
 }

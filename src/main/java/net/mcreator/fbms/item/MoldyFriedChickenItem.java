@@ -9,13 +9,10 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.LivingEntity;
 
 import net.mcreator.fbms.procedures.MoldyFinishesUsingItemProcedure;
-import net.mcreator.fbms.init.FbmsModTabs;
 
 public class MoldyFriedChickenItem extends Item {
 	public MoldyFriedChickenItem() {
-		super(new Item.Properties().tab(FbmsModTabs.TAB_PROPS).stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.3f)
-
-				.build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.3f).build()));
 	}
 
 	@Override
@@ -24,7 +21,6 @@ public class MoldyFriedChickenItem extends Item {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-
 		MoldyFinishesUsingItemProcedure.execute(entity);
 		return retval;
 	}

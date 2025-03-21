@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.ScrapTrapTileEntity;
 
-public class ScrapTrapBlockModel extends AnimatedGeoModel<ScrapTrapTileEntity> {
+public class ScrapTrapBlockModel extends GeoModel<ScrapTrapTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(ScrapTrapTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/scraptrapblock.animation.json");
@@ -18,7 +18,7 @@ public class ScrapTrapBlockModel extends AnimatedGeoModel<ScrapTrapTileEntity> {
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(ScrapTrapTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/scraptrap.png");
+	public ResourceLocation getTextureResource(ScrapTrapTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/scraptrap.png");
 	}
 }

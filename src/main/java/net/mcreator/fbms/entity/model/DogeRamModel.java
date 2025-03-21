@@ -1,12 +1,12 @@
 package net.mcreator.fbms.entity.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.entity.DogeRamEntity;
 
-public class DogeRamModel extends AnimatedGeoModel<DogeRamEntity> {
+public class DogeRamModel extends GeoModel<DogeRamEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(DogeRamEntity entity) {
 		return new ResourceLocation("fbms", "animations/doge_ram_1982.animation.json");

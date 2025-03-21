@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.LemonadeClownDisplayItem;
 
-public class LemonadeClownDisplayModel extends AnimatedGeoModel<LemonadeClownDisplayItem> {
+public class LemonadeClownDisplayModel extends GeoModel<LemonadeClownDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(LemonadeClownDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/lemonade_clown.animation.json");
@@ -19,6 +19,6 @@ public class LemonadeClownDisplayModel extends AnimatedGeoModel<LemonadeClownDis
 
 	@Override
 	public ResourceLocation getTextureResource(LemonadeClownDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/lemonade_clown.png");
+		return new ResourceLocation("fbms", "textures/block/lemonade_clown.png");
 	}
 }

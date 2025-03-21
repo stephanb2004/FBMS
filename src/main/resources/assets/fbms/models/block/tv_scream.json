@@ -1,9 +1,9 @@
 {
   "parent": "fbms:custom/monitor",
   "textures": {
-    "all": "fbms:blocks/mtv_scream",
-    "particle": "fbms:blocks/mtv_scream",
-    "0": "fbms:blocks/mtv_scream"
+    "all": "fbms:block/mtv_scream",
+    "particle": "fbms:block/mtv_scream",
+    "0": "fbms:block/mtv_scream"
   },
   "render_type": "cutout"
 }

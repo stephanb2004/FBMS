@@ -1,8 +1,9 @@
 {
   "parent": "block/door_bottom_left",
   "textures": {
-    "bottom": "fbms:blocks/staffdoorsbottom",
-    "top": "fbms:blocks/staffdooralttop"
+    "particle": "fbms:block/staffdoorsbottom",
+    "bottom": "fbms:block/staffdoorsbottom",
+    "top": "fbms:block/staffdooralttop"
   },
   "render_type": "translucent"
 }

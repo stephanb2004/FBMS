@@ -1,12 +1,12 @@
 package net.mcreator.fbms.entity.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.entity.DMangleEntity;
 
-public class DMangleModel extends AnimatedGeoModel<DMangleEntity> {
+public class DMangleModel extends GeoModel<DMangleEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(DMangleEntity entity) {
 		return new ResourceLocation("fbms", "animations/dmangle.animation.json");

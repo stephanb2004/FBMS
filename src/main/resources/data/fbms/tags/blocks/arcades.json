@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-    "fbms:arcade_foxy",
     "fbms:arcade_freddy",
+    "fbms:arcade_freddy_on",
     "fbms:arcade_bonnie",
     "fbms:arcade_bonnie_on",
-    "fbms:arcade_foxy_on",
-    "fbms:arcade_freddy_on"
+    "fbms:arcade_foxy",
+    "fbms:arcade_foxy_on"
   ]
 }

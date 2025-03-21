@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/fms_egg_baby"
+    "particle": "fbms:block/fms_egg_baby"
   }
 }

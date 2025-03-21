@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.JeffsPizzaSignDisplayItem;
 
-public class JeffsPizzaSignDisplayModel extends AnimatedGeoModel<JeffsPizzaSignDisplayItem> {
+public class JeffsPizzaSignDisplayModel extends GeoModel<JeffsPizzaSignDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(JeffsPizzaSignDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/freby.animation.json");
@@ -19,6 +19,6 @@ public class JeffsPizzaSignDisplayModel extends AnimatedGeoModel<JeffsPizzaSignD
 
 	@Override
 	public ResourceLocation getTextureResource(JeffsPizzaSignDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/jeffspizza.png");
+		return new ResourceLocation("fbms", "textures/block/jeffspizza.png");
 	}
 }

@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.WitheredDougTheDogDisplayItem;
 
-public class WitheredDougTheDogDisplayModel extends AnimatedGeoModel<WitheredDougTheDogDisplayItem> {
+public class WitheredDougTheDogDisplayModel extends GeoModel<WitheredDougTheDogDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(WitheredDougTheDogDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/wdoug.animation.json");
@@ -19,6 +19,6 @@ public class WitheredDougTheDogDisplayModel extends AnimatedGeoModel<WitheredDou
 
 	@Override
 	public ResourceLocation getTextureResource(WitheredDougTheDogDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/withered_doug.png");
+		return new ResourceLocation("fbms", "textures/block/withered_doug.png");
 	}
 }

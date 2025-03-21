@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.FoxyDisplayItem;
 
-public class FoxyDisplayModel extends AnimatedGeoModel<FoxyDisplayItem> {
+public class FoxyDisplayModel extends GeoModel<FoxyDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(FoxyDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/foxyv2.animation.json");
@@ -19,6 +19,6 @@ public class FoxyDisplayModel extends AnimatedGeoModel<FoxyDisplayItem> {
 
 	@Override
 	public ResourceLocation getTextureResource(FoxyDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/foxyv2.png");
+		return new ResourceLocation("fbms", "textures/block/foxyv2.png");
 	}
 }

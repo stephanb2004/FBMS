@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.CamTileEntity;
 
-public class CamBlockModel extends AnimatedGeoModel<CamTileEntity> {
+public class CamBlockModel extends GeoModel<CamTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(CamTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/cam.animation.json");
@@ -18,7 +18,7 @@ public class CamBlockModel extends AnimatedGeoModel<CamTileEntity> {
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(CamTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/cam.png");
+	public ResourceLocation getTextureResource(CamTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/cam.png");
 	}
 }

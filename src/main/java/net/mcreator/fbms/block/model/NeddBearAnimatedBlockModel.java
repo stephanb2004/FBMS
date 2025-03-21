@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.NeddBearAnimatedTileEntity;
 
-public class NeddBearAnimatedBlockModel extends AnimatedGeoModel<NeddBearAnimatedTileEntity> {
+public class NeddBearAnimatedBlockModel extends GeoModel<NeddBearAnimatedTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(NeddBearAnimatedTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/neddbearanimatedv2.animation.json");
@@ -18,7 +18,7 @@ public class NeddBearAnimatedBlockModel extends AnimatedGeoModel<NeddBearAnimate
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(NeddBearAnimatedTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/neddbearv2v2.png");
+	public ResourceLocation getTextureResource(NeddBearAnimatedTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/neddbearv2v2.png");
 	}
 }

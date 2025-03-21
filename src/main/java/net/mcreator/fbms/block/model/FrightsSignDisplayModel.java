@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.FrightsSignDisplayItem;
 
-public class FrightsSignDisplayModel extends AnimatedGeoModel<FrightsSignDisplayItem> {
+public class FrightsSignDisplayModel extends GeoModel<FrightsSignDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(FrightsSignDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/frights2.animation.json");
@@ -19,6 +19,6 @@ public class FrightsSignDisplayModel extends AnimatedGeoModel<FrightsSignDisplay
 
 	@Override
 	public ResourceLocation getTextureResource(FrightsSignDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/frights.png");
+		return new ResourceLocation("fbms", "textures/block/frights.png");
 	}
 }

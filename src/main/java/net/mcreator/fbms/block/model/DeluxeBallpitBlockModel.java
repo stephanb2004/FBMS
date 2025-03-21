@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.DeluxeBallpitTileEntity;
 
-public class DeluxeBallpitBlockModel extends AnimatedGeoModel<DeluxeBallpitTileEntity> {
+public class DeluxeBallpitBlockModel extends GeoModel<DeluxeBallpitTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(DeluxeBallpitTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/deluxe_ballpit.animation.json");
@@ -18,7 +18,7 @@ public class DeluxeBallpitBlockModel extends AnimatedGeoModel<DeluxeBallpitTileE
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(DeluxeBallpitTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/deluxe_ballpit.png");
+	public ResourceLocation getTextureResource(DeluxeBallpitTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/deluxe_ballpit.png");
 	}
 }

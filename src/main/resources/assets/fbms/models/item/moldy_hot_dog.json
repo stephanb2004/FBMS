@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "fbms:items/moldyhotdog"
+    "layer0": "fbms:item/moldyhotdog"
   }
 }

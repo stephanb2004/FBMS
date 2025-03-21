@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.RockStarFoxyAnimatedTileEntity;
 
-public class RockStarFoxyAnimatedBlockModel extends AnimatedGeoModel<RockStarFoxyAnimatedTileEntity> {
+public class RockStarFoxyAnimatedBlockModel extends GeoModel<RockStarFoxyAnimatedTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(RockStarFoxyAnimatedTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/rfoxyanimated.animation.json");
@@ -18,7 +18,7 @@ public class RockStarFoxyAnimatedBlockModel extends AnimatedGeoModel<RockStarFox
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(RockStarFoxyAnimatedTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/rfoxyv2.png");
+	public ResourceLocation getTextureResource(RockStarFoxyAnimatedTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/rfoxyv2.png");
 	}
 }

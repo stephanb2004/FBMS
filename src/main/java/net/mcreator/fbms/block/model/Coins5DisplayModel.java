@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.Coins5DisplayItem;
 
-public class Coins5DisplayModel extends AnimatedGeoModel<Coins5DisplayItem> {
+public class Coins5DisplayModel extends GeoModel<Coins5DisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(Coins5DisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/coins_5.animation.json");
@@ -19,6 +19,6 @@ public class Coins5DisplayModel extends AnimatedGeoModel<Coins5DisplayItem> {
 
 	@Override
 	public ResourceLocation getTextureResource(Coins5DisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/new.png");
+		return new ResourceLocation("fbms", "textures/block/new.png");
 	}
 }

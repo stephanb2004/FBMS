@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.FoilPartySet2TileEntity;
 
-public class FoilPartySet2BlockModel extends AnimatedGeoModel<FoilPartySet2TileEntity> {
+public class FoilPartySet2BlockModel extends GeoModel<FoilPartySet2TileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(FoilPartySet2TileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/foil_party_set_2.animation.json");
@@ -18,7 +18,7 @@ public class FoilPartySet2BlockModel extends AnimatedGeoModel<FoilPartySet2TileE
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(FoilPartySet2TileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/foilsettexture-2.png");
+	public ResourceLocation getTextureResource(FoilPartySet2TileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/foilsettexture-2.png");
 	}
 }

@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.MrHippoAnimatedDisplayItem;
 
-public class MrHippoAnimatedDisplayModel extends AnimatedGeoModel<MrHippoAnimatedDisplayItem> {
+public class MrHippoAnimatedDisplayModel extends GeoModel<MrHippoAnimatedDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(MrHippoAnimatedDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/mrhippoanimated.animation.json");
@@ -19,6 +19,6 @@ public class MrHippoAnimatedDisplayModel extends AnimatedGeoModel<MrHippoAnimate
 
 	@Override
 	public ResourceLocation getTextureResource(MrHippoAnimatedDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/mrhippov2.png");
+		return new ResourceLocation("fbms", "textures/block/mrhippov2.png");
 	}
 }

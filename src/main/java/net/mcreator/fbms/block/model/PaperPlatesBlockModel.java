@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.PaperPlatesTileEntity;
 
-public class PaperPlatesBlockModel extends AnimatedGeoModel<PaperPlatesTileEntity> {
+public class PaperPlatesBlockModel extends GeoModel<PaperPlatesTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(PaperPlatesTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/paper_cups_and_plates.animation.json");
@@ -18,7 +18,7 @@ public class PaperPlatesBlockModel extends AnimatedGeoModel<PaperPlatesTileEntit
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(PaperPlatesTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/papercupsandplates.png");
+	public ResourceLocation getTextureResource(PaperPlatesTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/papercupsandplates.png");
 	}
 }

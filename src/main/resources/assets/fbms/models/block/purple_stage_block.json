@@ -1,11 +1,11 @@
 {
   "parent": "block/grass_block",
   "textures": {
-    "bottom": "fbms:blocks/stagebase",
-    "top": "fbms:blocks/stagebase",
-    "side": "fbms:blocks/stagebase",
-    "overlay": "fbms:blocks/stagecurtain_purple",
-    "particle": "fbms:blocks/stagebase"
+    "bottom": "fbms:block/stagebase",
+    "top": "fbms:block/stagebase",
+    "side": "fbms:block/stagebase",
+    "overlay": "fbms:block/stagecurtain_purple",
+    "particle": "fbms:block/stagebase"
   },
   "render_type": "cutout_mipped"
 }

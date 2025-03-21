@@ -1,9 +1,10 @@
 {
   "parent": "block/stairs",
   "textures": {
-    "bottom": "fbms:blocks/floor",
-    "top": "fbms:blocks/floor",
-    "side": "fbms:blocks/floor"
+    "particle": "fbms:block/floor",
+    "bottom": "fbms:block/floor",
+    "top": "fbms:block/floor",
+    "side": "fbms:block/floor"
   },
   "render_type": "solid"
 }

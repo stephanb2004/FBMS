@@ -45,8 +45,8 @@ public class ProjectorOnBlockRightClickedProcedure {
 								? Direction.fromAxisAndDirection((Direction.Axis) _bs.getValue(_ep), Direction.AxisDirection.POSITIVE)
 								: Direction.NORTH;
 					}
-				}.getDirection((world.getBlockState(new BlockPos(x, y, z))))) == Direction.NORTH) {
-					if (!(!world.getBlockState(new BlockPos(x, y, z - cur_num)).canOcclude() || (world.getBlockState(new BlockPos(x, y, z - cur_num))).getBlock() == FbmsModBlocks.PROJECTION.get())) {
+				}.getDirection((world.getBlockState(BlockPos.containing(x, y, z))))) == Direction.NORTH) {
+					if (!(!world.getBlockState(BlockPos.containing(x, y, z - cur_num)).canOcclude() || (world.getBlockState(BlockPos.containing(x, y, z - cur_num))).getBlock() == FbmsModBlocks.PROJECTION.get())) {
 						decided = true;
 						can_place = true;
 						distance_result = cur_num - 1;
@@ -63,8 +63,8 @@ public class ProjectorOnBlockRightClickedProcedure {
 								? Direction.fromAxisAndDirection((Direction.Axis) _bs.getValue(_ep), Direction.AxisDirection.POSITIVE)
 								: Direction.NORTH;
 					}
-				}.getDirection((world.getBlockState(new BlockPos(x, y, z))))) == Direction.EAST) {
-					if (!(!world.getBlockState(new BlockPos(x + cur_num, y, z)).canOcclude() || (world.getBlockState(new BlockPos(x + cur_num, y, z))).getBlock() == FbmsModBlocks.PROJECTION.get())) {
+				}.getDirection((world.getBlockState(BlockPos.containing(x, y, z))))) == Direction.EAST) {
+					if (!(!world.getBlockState(BlockPos.containing(x + cur_num, y, z)).canOcclude() || (world.getBlockState(BlockPos.containing(x + cur_num, y, z))).getBlock() == FbmsModBlocks.PROJECTION.get())) {
 						decided = true;
 						can_place = true;
 						distance_result = cur_num - 1;
@@ -81,8 +81,8 @@ public class ProjectorOnBlockRightClickedProcedure {
 								? Direction.fromAxisAndDirection((Direction.Axis) _bs.getValue(_ep), Direction.AxisDirection.POSITIVE)
 								: Direction.NORTH;
 					}
-				}.getDirection((world.getBlockState(new BlockPos(x, y, z))))) == Direction.WEST) {
-					if (!(!world.getBlockState(new BlockPos(x - cur_num, y, z)).canOcclude() || (world.getBlockState(new BlockPos(x - cur_num, y, z))).getBlock() == FbmsModBlocks.PROJECTION.get())) {
+				}.getDirection((world.getBlockState(BlockPos.containing(x, y, z))))) == Direction.WEST) {
+					if (!(!world.getBlockState(BlockPos.containing(x - cur_num, y, z)).canOcclude() || (world.getBlockState(BlockPos.containing(x - cur_num, y, z))).getBlock() == FbmsModBlocks.PROJECTION.get())) {
 						decided = true;
 						can_place = true;
 						distance_result = cur_num - 1;
@@ -99,8 +99,8 @@ public class ProjectorOnBlockRightClickedProcedure {
 								? Direction.fromAxisAndDirection((Direction.Axis) _bs.getValue(_ep), Direction.AxisDirection.POSITIVE)
 								: Direction.NORTH;
 					}
-				}.getDirection((world.getBlockState(new BlockPos(x, y, z))))) == Direction.SOUTH) {
-					if (!(!world.getBlockState(new BlockPos(x, y, z + cur_num)).canOcclude() || (world.getBlockState(new BlockPos(x, y, z + cur_num))).getBlock() == FbmsModBlocks.PROJECTION.get())) {
+				}.getDirection((world.getBlockState(BlockPos.containing(x, y, z))))) == Direction.SOUTH) {
+					if (!(!world.getBlockState(BlockPos.containing(x, y, z + cur_num)).canOcclude() || (world.getBlockState(BlockPos.containing(x, y, z + cur_num))).getBlock() == FbmsModBlocks.PROJECTION.get())) {
 						decided = true;
 						can_place = true;
 						distance_result = cur_num - 1;
@@ -110,7 +110,7 @@ public class ProjectorOnBlockRightClickedProcedure {
 				}
 			}
 			if (!world.isClientSide()) {
-				BlockPos _bp = new BlockPos(x, y, z);
+				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);
 				BlockState _bs = world.getBlockState(_bp);
 				if (_blockEntity != null)
@@ -119,7 +119,7 @@ public class ProjectorOnBlockRightClickedProcedure {
 					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 			}
 			if (!world.isClientSide()) {
-				BlockPos _bp = new BlockPos(x, y, z);
+				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);
 				BlockState _bs = world.getBlockState(_bp);
 				if (_blockEntity != null)
@@ -129,35 +129,35 @@ public class ProjectorOnBlockRightClickedProcedure {
 			}
 		}
 		if (can_place == true) {
-			if (!world.getBlockState(new BlockPos(new Object() {
+			if (!world.getBlockState(BlockPos.containing(new Object() {
 				public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 					BlockEntity blockEntity = world.getBlockEntity(pos);
 					if (blockEntity != null)
 						return blockEntity.getPersistentData().getDouble(tag);
 					return -1;
 				}
-			}.getValue(world, new BlockPos(x, y, z), "result_x"), y, new Object() {
+			}.getValue(world, BlockPos.containing(x, y, z), "result_x"), y, new Object() {
 				public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 					BlockEntity blockEntity = world.getBlockEntity(pos);
 					if (blockEntity != null)
 						return blockEntity.getPersistentData().getDouble(tag);
 					return -1;
 				}
-			}.getValue(world, new BlockPos(x, y, z), "result_z"))).canOcclude() || (world.getBlockState(new BlockPos(new Object() {
+			}.getValue(world, BlockPos.containing(x, y, z), "result_z"))).canOcclude() || (world.getBlockState(BlockPos.containing(new Object() {
 				public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 					BlockEntity blockEntity = world.getBlockEntity(pos);
 					if (blockEntity != null)
 						return blockEntity.getPersistentData().getDouble(tag);
 					return -1;
 				}
-			}.getValue(world, new BlockPos(x, y, z), "result_x"), y, new Object() {
+			}.getValue(world, BlockPos.containing(x, y, z), "result_x"), y, new Object() {
 				public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 					BlockEntity blockEntity = world.getBlockEntity(pos);
 					if (blockEntity != null)
 						return blockEntity.getPersistentData().getDouble(tag);
 					return -1;
 				}
-			}.getValue(world, new BlockPos(x, y, z), "result_z")))).getBlock() == FbmsModBlocks.PROJECTION.get()) {
+			}.getValue(world, BlockPos.containing(x, y, z), "result_z")))).getBlock() == FbmsModBlocks.PROJECTION.get()) {
 				if ((new Object() {
 					public boolean getValue(LevelAccessor world, BlockPos pos, String tag) {
 						BlockEntity blockEntity = world.getBlockEntity(pos);
@@ -165,9 +165,9 @@ public class ProjectorOnBlockRightClickedProcedure {
 							return blockEntity.getPersistentData().getBoolean(tag);
 						return false;
 					}
-				}.getValue(world, new BlockPos(x, y, z), "powered")) == false) {
+				}.getValue(world, BlockPos.containing(x, y, z), "powered")) == false) {
 					if (!world.isClientSide()) {
-						BlockPos _bp = new BlockPos(x, y, z);
+						BlockPos _bp = BlockPos.containing(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_blockEntity != null)
@@ -176,21 +176,21 @@ public class ProjectorOnBlockRightClickedProcedure {
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
 					{
-						BlockPos _bp = new BlockPos(new Object() {
+						BlockPos _bp = BlockPos.containing(new Object() {
 							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 								BlockEntity blockEntity = world.getBlockEntity(pos);
 								if (blockEntity != null)
 									return blockEntity.getPersistentData().getDouble(tag);
 								return -1;
 							}
-						}.getValue(world, new BlockPos(x, y, z), "result_x"), y, new Object() {
+						}.getValue(world, BlockPos.containing(x, y, z), "result_x"), y, new Object() {
 							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 								BlockEntity blockEntity = world.getBlockEntity(pos);
 								if (blockEntity != null)
 									return blockEntity.getPersistentData().getDouble(tag);
 								return -1;
 							}
-						}.getValue(world, new BlockPos(x, y, z), "result_z"));
+						}.getValue(world, BlockPos.containing(x, y, z), "result_z"));
 						BlockState _bs = FbmsModBlocks.PROJECTION.get().defaultBlockState();
 						BlockState _bso = world.getBlockState(_bp);
 						for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
@@ -214,22 +214,22 @@ public class ProjectorOnBlockRightClickedProcedure {
 										? Direction.fromAxisAndDirection((Direction.Axis) _bs.getValue(_ep), Direction.AxisDirection.POSITIVE)
 										: Direction.NORTH;
 							}
-						}.getDirection((world.getBlockState(new BlockPos(x, y, z))))).getOpposite());
-						BlockPos _pos = new BlockPos(new Object() {
+						}.getDirection((world.getBlockState(BlockPos.containing(x, y, z))))).getOpposite());
+						BlockPos _pos = BlockPos.containing(new Object() {
 							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 								BlockEntity blockEntity = world.getBlockEntity(pos);
 								if (blockEntity != null)
 									return blockEntity.getPersistentData().getDouble(tag);
 								return -1;
 							}
-						}.getValue(world, new BlockPos(x, y, z), "result_x"), y, new Object() {
+						}.getValue(world, BlockPos.containing(x, y, z), "result_x"), y, new Object() {
 							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 								BlockEntity blockEntity = world.getBlockEntity(pos);
 								if (blockEntity != null)
 									return blockEntity.getPersistentData().getDouble(tag);
 								return -1;
 							}
-						}.getValue(world, new BlockPos(x, y, z), "result_z"));
+						}.getValue(world, BlockPos.containing(x, y, z), "result_z"));
 						BlockState _bs = world.getBlockState(_pos);
 						Property<?> _property = _bs.getBlock().getStateDefinition().getProperty("facing");
 						if (_property instanceof DirectionProperty _dp && _dp.getPossibleValues().contains(_dir)) {
@@ -247,9 +247,9 @@ public class ProjectorOnBlockRightClickedProcedure {
 							return blockEntity.getPersistentData().getBoolean(tag);
 						return false;
 					}
-				}.getValue(world, new BlockPos(x, y, z), "powered")) == true) {
+				}.getValue(world, BlockPos.containing(x, y, z), "powered")) == true) {
 					if (!world.isClientSide()) {
-						BlockPos _bp = new BlockPos(x, y, z);
+						BlockPos _bp = BlockPos.containing(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_blockEntity != null)
@@ -258,21 +258,21 @@ public class ProjectorOnBlockRightClickedProcedure {
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
 					{
-						BlockPos _bp = new BlockPos(new Object() {
+						BlockPos _bp = BlockPos.containing(new Object() {
 							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 								BlockEntity blockEntity = world.getBlockEntity(pos);
 								if (blockEntity != null)
 									return blockEntity.getPersistentData().getDouble(tag);
 								return -1;
 							}
-						}.getValue(world, new BlockPos(x, y, z), "result_x"), y, new Object() {
+						}.getValue(world, BlockPos.containing(x, y, z), "result_x"), y, new Object() {
 							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 								BlockEntity blockEntity = world.getBlockEntity(pos);
 								if (blockEntity != null)
 									return blockEntity.getPersistentData().getDouble(tag);
 								return -1;
 							}
-						}.getValue(world, new BlockPos(x, y, z), "result_z"));
+						}.getValue(world, BlockPos.containing(x, y, z), "result_z"));
 						BlockState _bs = Blocks.AIR.defaultBlockState();
 						BlockState _bso = world.getBlockState(_bp);
 						for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {

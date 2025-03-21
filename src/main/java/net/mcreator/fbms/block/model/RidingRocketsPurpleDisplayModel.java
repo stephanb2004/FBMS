@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.RidingRocketsPurpleDisplayItem;
 
-public class RidingRocketsPurpleDisplayModel extends AnimatedGeoModel<RidingRocketsPurpleDisplayItem> {
+public class RidingRocketsPurpleDisplayModel extends GeoModel<RidingRocketsPurpleDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(RidingRocketsPurpleDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/riding_rockets.animation.json");
@@ -19,6 +19,6 @@ public class RidingRocketsPurpleDisplayModel extends AnimatedGeoModel<RidingRock
 
 	@Override
 	public ResourceLocation getTextureResource(RidingRocketsPurpleDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/riding_rocket_purple.png");
+		return new ResourceLocation("fbms", "textures/block/riding_rocket_purple.png");
 	}
 }

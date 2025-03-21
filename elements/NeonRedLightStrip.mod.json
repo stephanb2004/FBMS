@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 69,
   "_type": "animatedblock",
   "definition": {
     "texture": "neonredstripe",
@@ -13,6 +13,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
+    "animateBlockItem": false,
     "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
@@ -33,7 +34,6 @@
       }
     ],
     "name": "Neon Red Light Strip",
-    "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -41,6 +41,7 @@
     "creativeTab": {
       "value": "CUSTOM:PrivateRoom"
     },
+    "creativeTabs": [],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
@@ -99,13 +100,6 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
-    },
-    "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -113,6 +107,7 @@
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
+    "generateFeature": false,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,
@@ -123,7 +118,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",
@@ -132,6 +126,8 @@
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
     "normal": "neon_stripes.geo.json",
-    "displaySettings": "figure.item.json"
+    "displaySettings": "figure.item.json",
+    "vanillaToolTier": "NONE",
+    "blockstateList": []
   }
 }

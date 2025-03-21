@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/lemonade_clown"
+    "particle": "fbms:block/lemonade_clown"
   }
 }

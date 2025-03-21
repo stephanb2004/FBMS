@@ -1,15 +1,19 @@
 {
-  "_fv": 43,
+  "_fv": 69,
   "_type": "item",
   "definition": {
     "renderType": 1,
     "texture": "fat",
     "customModelName": "f.a.t:default",
+    "customProperties": {},
+    "states": [],
     "name": "F.A.T",
     "rarity": "COMMON",
-    "creativeTab": {
-      "value": "CUSTOM:PrivateRoom"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:PrivateRoom"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
@@ -24,13 +28,18 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "Copyright 1987"
-    ],
-    "hasGlow": false,
+    "specialInformation": {
+      "fixedValue": [
+        "Copyright 1987"
+      ]
+    },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectileDisableAmmoCheck": false,
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

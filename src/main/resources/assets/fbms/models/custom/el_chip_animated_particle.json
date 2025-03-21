@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/elchipv2"
+    "particle": "fbms:block/elchipv2"
   }
 }

@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.SignSNSTileEntity;
 
-public class SignSNSBlockModel extends AnimatedGeoModel<SignSNSTileEntity> {
+public class SignSNSBlockModel extends GeoModel<SignSNSTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(SignSNSTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/freby.animation.json");
@@ -18,7 +18,7 @@ public class SignSNSBlockModel extends AnimatedGeoModel<SignSNSTileEntity> {
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(SignSNSTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/sign_sns.png");
+	public ResourceLocation getTextureResource(SignSNSTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/sign_sns.png");
 	}
 }

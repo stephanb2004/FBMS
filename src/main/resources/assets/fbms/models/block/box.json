@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "fbms:blocks/box_top",
-    "up": "fbms:blocks/box_top",
-    "north": "fbms:blocks/blank_box",
-    "east": "fbms:blocks/blank_box",
-    "south": "fbms:blocks/blank_box",
-    "west": "fbms:blocks/blank_box",
-    "particle": "fbms:blocks/box_top"
+    "down": "fbms:block/box_top",
+    "up": "fbms:block/box_top",
+    "north": "fbms:block/blank_box",
+    "east": "fbms:block/blank_box",
+    "south": "fbms:block/blank_box",
+    "west": "fbms:block/blank_box",
+    "particle": "fbms:block/box_top"
   },
   "render_type": "solid"
 }

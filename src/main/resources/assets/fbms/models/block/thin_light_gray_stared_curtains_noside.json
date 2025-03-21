@@ -1,7 +1,8 @@
 {
   "parent": "block/template_glass_pane_noside",
   "textures": {
-    "pane": "fbms:blocks/star_light_gray_curtan"
+    "particle": "fbms:block/star_light_gray_curtan",
+    "pane": "fbms:block/star_light_gray_curtan"
   },
   "render_type": "solid"
 }

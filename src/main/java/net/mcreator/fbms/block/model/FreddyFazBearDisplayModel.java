@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.FreddyFazBearDisplayItem;
 
-public class FreddyFazBearDisplayModel extends AnimatedGeoModel<FreddyFazBearDisplayItem> {
+public class FreddyFazBearDisplayModel extends GeoModel<FreddyFazBearDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(FreddyFazBearDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/freddyv2.animation.json");
@@ -19,6 +19,6 @@ public class FreddyFazBearDisplayModel extends AnimatedGeoModel<FreddyFazBearDis
 
 	@Override
 	public ResourceLocation getTextureResource(FreddyFazBearDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/freddyv2.png");
+		return new ResourceLocation("fbms", "textures/block/freddyv2.png");
 	}
 }

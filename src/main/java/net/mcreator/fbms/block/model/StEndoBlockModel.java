@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.StEndoTileEntity;
 
-public class StEndoBlockModel extends AnimatedGeoModel<StEndoTileEntity> {
+public class StEndoBlockModel extends GeoModel<StEndoTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(StEndoTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/st_endo_idle.animation.json");
@@ -18,7 +18,7 @@ public class StEndoBlockModel extends AnimatedGeoModel<StEndoTileEntity> {
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(StEndoTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/st_endo.png");
+	public ResourceLocation getTextureResource(StEndoTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/st_endo.png");
 	}
 }

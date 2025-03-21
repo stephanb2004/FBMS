@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.BonnieCutOutDisplayItem;
 
-public class BonnieCutOutDisplayModel extends AnimatedGeoModel<BonnieCutOutDisplayItem> {
+public class BonnieCutOutDisplayModel extends GeoModel<BonnieCutOutDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(BonnieCutOutDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/cutout.animation.json");
@@ -19,6 +19,6 @@ public class BonnieCutOutDisplayModel extends AnimatedGeoModel<BonnieCutOutDispl
 
 	@Override
 	public ResourceLocation getTextureResource(BonnieCutOutDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/bonniecutout.png");
+		return new ResourceLocation("fbms", "textures/block/bonniecutout.png");
 	}
 }

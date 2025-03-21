@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.PanStanDisplayItem;
 
-public class PanStanDisplayModel extends AnimatedGeoModel<PanStanDisplayItem> {
+public class PanStanDisplayModel extends GeoModel<PanStanDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(PanStanDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/pan_stan.animation.json");
@@ -19,6 +19,6 @@ public class PanStanDisplayModel extends AnimatedGeoModel<PanStanDisplayItem> {
 
 	@Override
 	public ResourceLocation getTextureResource(PanStanDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/panstan.png");
+		return new ResourceLocation("fbms", "textures/block/panstan.png");
 	}
 }

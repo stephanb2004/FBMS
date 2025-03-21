@@ -1,6 +1,6 @@
 package net.mcreator.fbms.block.renderer;
 
-import software.bernie.geckolib3.renderers.geo.GeoItemRenderer;
+import software.bernie.geckolib.renderer.GeoItemRenderer;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.RenderType;
@@ -9,16 +9,13 @@ import net.minecraft.client.renderer.MultiBufferSource;
 import net.mcreator.fbms.block.model.FoxyDisplayModel;
 import net.mcreator.fbms.block.display.FoxyDisplayItem;
 
-import com.mojang.blaze3d.vertex.VertexConsumer;
-import com.mojang.blaze3d.vertex.PoseStack;
-
 public class FoxyDisplayItemRenderer extends GeoItemRenderer<FoxyDisplayItem> {
 	public FoxyDisplayItemRenderer() {
 		super(new FoxyDisplayModel());
 	}
 
 	@Override
-	public RenderType getRenderType(FoxyDisplayItem animatable, float partialTick, PoseStack poseStack, MultiBufferSource bufferSource, VertexConsumer buffer, int packedLight, ResourceLocation texture) {
+	public RenderType getRenderType(FoxyDisplayItem animatable, ResourceLocation texture, MultiBufferSource bufferSource, float partialTick) {
 		return RenderType.entityTranslucent(getTextureLocation(animatable));
 	}
 }

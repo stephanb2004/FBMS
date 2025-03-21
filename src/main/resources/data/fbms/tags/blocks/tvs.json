@@ -1,22 +1,22 @@
 {
   "replace": false,
   "values": [
-    "fbms:tv_flos_glossy_floss",
-    "fbms:tv_news",
-    "fbms:tv_jaws",
-    "fbms:tv_freddy_and_friends",
     "fbms:tv_off",
+    "fbms:tv_fiztime_pop_soda",
+    "fbms:tv_flos_glossy_floss",
+    "fbms:tv_freddy_and_friends",
+    "fbms:tv_garfield_show",
+    "fbms:tv_iatr",
     "fbms:tv_lallies_lollies",
+    "fbms:tv_marties_plungers",
+    "fbms:tv_news",
     "fbms:tv_peppers_pickled_popcorn",
-    "fbms:tv_doug",
-    "fbms:tv_heman",
     "fbms:tv_wacky_wart_paste",
     "fbms:tv_marcelo",
-    "fbms:tv_marties_plungers",
-    "fbms:tv_killer_klowns",
-    "fbms:tv_iatr",
+    "fbms:tv_doug",
     "fbms:tv_scream",
-    "fbms:tv_fiztime_pop_soda",
-    "fbms:tv_garfield_show"
+    "fbms:tv_jaws",
+    "fbms:tv_killer_klowns",
+    "fbms:tv_heman"
   ]
 }

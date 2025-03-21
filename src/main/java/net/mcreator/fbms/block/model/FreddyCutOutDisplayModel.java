@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.FreddyCutOutDisplayItem;
 
-public class FreddyCutOutDisplayModel extends AnimatedGeoModel<FreddyCutOutDisplayItem> {
+public class FreddyCutOutDisplayModel extends GeoModel<FreddyCutOutDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(FreddyCutOutDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/cutout.animation.json");
@@ -19,6 +19,6 @@ public class FreddyCutOutDisplayModel extends AnimatedGeoModel<FreddyCutOutDispl
 
 	@Override
 	public ResourceLocation getTextureResource(FreddyCutOutDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/freddycutout.png");
+		return new ResourceLocation("fbms", "textures/block/freddycutout.png");
 	}
 }

@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/tfoxyv2"
+    "particle": "fbms:block/tfoxyv2"
   }
 }

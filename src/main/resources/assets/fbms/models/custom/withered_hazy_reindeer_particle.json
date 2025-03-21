@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/hazy_reindeer_withered"
+    "particle": "fbms:block/hazy_reindeer_withered"
   }
 }

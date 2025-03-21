@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.FruityMazeTileEntity;
 
-public class FruityMazeBlockModel extends AnimatedGeoModel<FruityMazeTileEntity> {
+public class FruityMazeBlockModel extends GeoModel<FruityMazeTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(FruityMazeTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/fruity_maze_arcade.animation.json");
@@ -18,7 +18,7 @@ public class FruityMazeBlockModel extends AnimatedGeoModel<FruityMazeTileEntity>
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(FruityMazeTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/fruity_maze_arcade.png");
+	public ResourceLocation getTextureResource(FruityMazeTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/fruity_maze_arcade.png");
 	}
 }

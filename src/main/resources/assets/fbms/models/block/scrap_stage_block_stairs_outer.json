@@ -1,9 +1,10 @@
 {
   "parent": "block/outer_stairs",
   "textures": {
-    "bottom": "fbms:blocks/stagebase_scrap_top",
-    "top": "fbms:blocks/stagebase_scrap_top",
-    "side": "fbms:blocks/stagebase_scrap_top"
+    "particle": "fbms:block/stagebase_scrap_top",
+    "bottom": "fbms:block/stagebase_scrap_top",
+    "top": "fbms:block/stagebase_scrap_top",
+    "side": "fbms:block/stagebase_scrap_top"
   },
   "render_type": "cutout_mipped"
 }

@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.GravityVortexDisplayItem;
 
-public class GravityVortexDisplayModel extends AnimatedGeoModel<GravityVortexDisplayItem> {
+public class GravityVortexDisplayModel extends GeoModel<GravityVortexDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(GravityVortexDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/fmsgravityvortex.animation.json");
@@ -19,6 +19,6 @@ public class GravityVortexDisplayModel extends AnimatedGeoModel<GravityVortexDis
 
 	@Override
 	public ResourceLocation getTextureResource(GravityVortexDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/the_orb.png");
+		return new ResourceLocation("fbms", "textures/block/the_orb.png");
 	}
 }

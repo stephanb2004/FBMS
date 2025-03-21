@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.NeonPartySet2DisplayItem;
 
-public class NeonPartySet2DisplayModel extends AnimatedGeoModel<NeonPartySet2DisplayItem> {
+public class NeonPartySet2DisplayModel extends GeoModel<NeonPartySet2DisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(NeonPartySet2DisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/neon_party_set_2.animation.json");
@@ -19,6 +19,6 @@ public class NeonPartySet2DisplayModel extends AnimatedGeoModel<NeonPartySet2Dis
 
 	@Override
 	public ResourceLocation getTextureResource(NeonPartySet2DisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/neonsettexture-2.png");
+		return new ResourceLocation("fbms", "textures/block/neonsettexture-2.png");
 	}
 }

@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.PigPatchTileEntity;
 
-public class PigPatchBlockModel extends AnimatedGeoModel<PigPatchTileEntity> {
+public class PigPatchBlockModel extends GeoModel<PigPatchTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(PigPatchTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/pigpatchv2.animation.json");
@@ -18,7 +18,7 @@ public class PigPatchBlockModel extends AnimatedGeoModel<PigPatchTileEntity> {
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(PigPatchTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/pigpatchv2v2.png");
+	public ResourceLocation getTextureResource(PigPatchTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/pigpatchv2v2.png");
 	}
 }

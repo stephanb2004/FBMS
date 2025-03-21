@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.FuntimeDelilahblockTileEntity;
 
-public class FuntimeDelilahblockBlockModel extends AnimatedGeoModel<FuntimeDelilahblockTileEntity> {
+public class FuntimeDelilahblockBlockModel extends GeoModel<FuntimeDelilahblockTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(FuntimeDelilahblockTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/ftdelilahv2.animation.json");
@@ -18,7 +18,7 @@ public class FuntimeDelilahblockBlockModel extends AnimatedGeoModel<FuntimeDelil
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(FuntimeDelilahblockTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/ftdelilahv2.png");
+	public ResourceLocation getTextureResource(FuntimeDelilahblockTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/ftdelilahv2.png");
 	}
 }

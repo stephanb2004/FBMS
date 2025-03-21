@@ -1,25 +1,21 @@
 package net.mcreator.fbms.block.renderer;
 
-import software.bernie.geckolib3.renderers.geo.GeoBlockRenderer;
+import software.bernie.geckolib.renderer.GeoBlockRenderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
 
 import net.mcreator.fbms.block.model.RockStarBonnieBlockModel;
 import net.mcreator.fbms.block.entity.RockStarBonnieTileEntity;
 
-import com.mojang.blaze3d.vertex.VertexConsumer;
-import com.mojang.blaze3d.vertex.PoseStack;
-
 public class RockStarBonnieTileRenderer extends GeoBlockRenderer<RockStarBonnieTileEntity> {
-	public RockStarBonnieTileRenderer(BlockEntityRendererProvider.Context rendererDispatcherIn) {
-		super(rendererDispatcherIn, new RockStarBonnieBlockModel());
+	public RockStarBonnieTileRenderer() {
+		super(new RockStarBonnieBlockModel());
 	}
 
 	@Override
-	public RenderType getRenderType(RockStarBonnieTileEntity animatable, float partialTick, PoseStack poseStack, MultiBufferSource bufferSource, VertexConsumer buffer, int packedLight, ResourceLocation texture) {
+	public RenderType getRenderType(RockStarBonnieTileEntity animatable, ResourceLocation texture, MultiBufferSource bufferSource, float partialTick) {
 		return RenderType.entityTranslucent(getTextureLocation(animatable));
 	}
 }

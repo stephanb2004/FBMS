@@ -1,9 +1,9 @@
 {
   "parent": "fbms:custom/fms_mural",
   "textures": {
-    "all": "fbms:blocks/fms_mural_fredbear",
-    "particle": "fbms:blocks/fms_mural_fredbear",
-    "0": "fbms:blocks/fms_mural_fredbear"
+    "all": "fbms:block/fms_mural_fredbear",
+    "particle": "fbms:block/fms_mural_fredbear",
+    "0": "fbms:block/fms_mural_fredbear"
   },
   "render_type": "cutout"
 }

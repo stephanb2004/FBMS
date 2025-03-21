@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/mr._can-do"
+    "particle": "fbms:block/mr._can-do"
   }
 }

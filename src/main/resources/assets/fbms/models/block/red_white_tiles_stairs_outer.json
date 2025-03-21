@@ -1,9 +1,10 @@
 {
   "parent": "block/outer_stairs",
   "textures": {
-    "bottom": "fbms:blocks/red_white_floor",
-    "top": "fbms:blocks/red_white_floor",
-    "side": "fbms:blocks/red_white_floor"
+    "particle": "fbms:block/red_white_floor",
+    "bottom": "fbms:block/red_white_floor",
+    "top": "fbms:block/red_white_floor",
+    "side": "fbms:block/red_white_floor"
   },
   "render_type": "solid"
 }

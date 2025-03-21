@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/tattletail"
+    "particle": "fbms:block/tattletail"
   }
 }

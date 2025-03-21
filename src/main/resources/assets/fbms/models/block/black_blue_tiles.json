@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "fbms:blocks/black_and_blue_floor",
-    "particle": "fbms:blocks/black_and_blue_floor"
+    "all": "fbms:block/black_and_blue_floor",
+    "particle": "fbms:block/black_and_blue_floor"
   },
   "render_type": "solid"
 }

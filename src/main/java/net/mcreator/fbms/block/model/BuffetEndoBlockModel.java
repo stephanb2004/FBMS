@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.BuffetEndoTileEntity;
 
-public class BuffetEndoBlockModel extends AnimatedGeoModel<BuffetEndoTileEntity> {
+public class BuffetEndoBlockModel extends GeoModel<BuffetEndoTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(BuffetEndoTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/polar_endo.animation.json");
@@ -18,7 +18,7 @@ public class BuffetEndoBlockModel extends AnimatedGeoModel<BuffetEndoTileEntity>
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(BuffetEndoTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/polars_endo.png");
+	public ResourceLocation getTextureResource(BuffetEndoTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/polars_endo.png");
 	}
 }

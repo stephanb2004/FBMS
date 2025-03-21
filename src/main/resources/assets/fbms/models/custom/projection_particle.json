@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/projector_screen"
+    "particle": "fbms:block/projector_screen"
   }
 }

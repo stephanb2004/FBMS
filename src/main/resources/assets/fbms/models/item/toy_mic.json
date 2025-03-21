@@ -1,7 +1,7 @@
 {
   "parent": "fbms:custom/toymic",
   "textures": {
-    "1": "fbms:blocks/toymic",
-    "particle": "fbms:items/toymic"
+    "1": "fbms:block/toymic",
+    "particle": "fbms:item/toymic"
   }
 }

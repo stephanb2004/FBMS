@@ -1,9 +1,9 @@
 {
   "parent": "fbms:custom/rockstarposter",
   "textures": {
-    "all": "fbms:blocks/poster_rockstarbonnie",
-    "particle": "fbms:blocks/poster_rockstarbonnie",
-    "0": "fbms:blocks/poster_rockstarbonnie"
+    "all": "fbms:block/poster_rockstarbonnie",
+    "particle": "fbms:block/poster_rockstarbonnie",
+    "0": "fbms:block/poster_rockstarbonnie"
   },
   "render_type": "cutout"
 }

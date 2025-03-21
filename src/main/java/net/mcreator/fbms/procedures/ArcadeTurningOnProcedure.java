@@ -47,7 +47,7 @@ public class ArcadeTurningOnProcedure {
 				if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == FbmsModItems.COINS.get()) {
 					if (blockstate.getBlock() == FbmsModBlocks.ARCADE_FREDDY.get()) {
 						{
-							BlockPos _bp = new BlockPos(x, y, z);
+							BlockPos _bp = BlockPos.containing(x, y, z);
 							BlockState _bs = FbmsModBlocks.ARCADE_FREDDY_ON.get().defaultBlockState();
 							BlockState _bso = world.getBlockState(_bp);
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
@@ -64,14 +64,14 @@ public class ArcadeTurningOnProcedure {
 							_entity.swing(InteractionHand.MAIN_HAND, true);
 						if (world instanceof Level _level) {
 							if (!_level.isClientSide()) {
-								_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fbms:arcade_turnon")), SoundSource.NEUTRAL, 1, 1);
+								_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fbms:arcade_turnon")), SoundSource.NEUTRAL, 1, 1);
 							} else {
 								_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fbms:arcade_turnon")), SoundSource.NEUTRAL, 1, 1, false);
 							}
 						}
 					} else if (blockstate.getBlock() == FbmsModBlocks.ARCADE_BONNIE.get()) {
 						{
-							BlockPos _bp = new BlockPos(x, y, z);
+							BlockPos _bp = BlockPos.containing(x, y, z);
 							BlockState _bs = FbmsModBlocks.ARCADE_BONNIE_ON.get().defaultBlockState();
 							BlockState _bso = world.getBlockState(_bp);
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
@@ -88,14 +88,14 @@ public class ArcadeTurningOnProcedure {
 							_entity.swing(InteractionHand.MAIN_HAND, true);
 						if (world instanceof Level _level) {
 							if (!_level.isClientSide()) {
-								_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fbms:arcade_turnon")), SoundSource.NEUTRAL, 1, 1);
+								_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fbms:arcade_turnon")), SoundSource.NEUTRAL, 1, 1);
 							} else {
 								_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fbms:arcade_turnon")), SoundSource.NEUTRAL, 1, 1, false);
 							}
 						}
 					} else if (blockstate.getBlock() == FbmsModBlocks.ARCADE_FOXY.get()) {
 						{
-							BlockPos _bp = new BlockPos(x, y, z);
+							BlockPos _bp = BlockPos.containing(x, y, z);
 							BlockState _bs = FbmsModBlocks.ARCADE_FOXY_ON.get().defaultBlockState();
 							BlockState _bso = world.getBlockState(_bp);
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
@@ -112,7 +112,7 @@ public class ArcadeTurningOnProcedure {
 							_entity.swing(InteractionHand.MAIN_HAND, true);
 						if (world instanceof Level _level) {
 							if (!_level.isClientSide()) {
-								_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fbms:arcade_turnon")), SoundSource.NEUTRAL, 1, 1);
+								_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fbms:arcade_turnon")), SoundSource.NEUTRAL, 1, 1);
 							} else {
 								_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fbms:arcade_turnon")), SoundSource.NEUTRAL, 1, 1, false);
 							}
@@ -121,7 +121,7 @@ public class ArcadeTurningOnProcedure {
 				} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == FbmsModItems.FAT.get()) {
 					if (blockstate.getBlock() == FbmsModBlocks.ARCADE_FREDDY_ON.get()) {
 						{
-							BlockPos _bp = new BlockPos(x, y, z);
+							BlockPos _bp = BlockPos.containing(x, y, z);
 							BlockState _bs = FbmsModBlocks.ARCADE_FREDDY.get().defaultBlockState();
 							BlockState _bso = world.getBlockState(_bp);
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
@@ -138,7 +138,7 @@ public class ArcadeTurningOnProcedure {
 							_entity.swing(InteractionHand.MAIN_HAND, true);
 					} else if (blockstate.getBlock() == FbmsModBlocks.ARCADE_BONNIE_ON.get()) {
 						{
-							BlockPos _bp = new BlockPos(x, y, z);
+							BlockPos _bp = BlockPos.containing(x, y, z);
 							BlockState _bs = FbmsModBlocks.ARCADE_BONNIE.get().defaultBlockState();
 							BlockState _bso = world.getBlockState(_bp);
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
@@ -155,7 +155,7 @@ public class ArcadeTurningOnProcedure {
 							_entity.swing(InteractionHand.MAIN_HAND, true);
 					} else if (blockstate.getBlock() == FbmsModBlocks.ARCADE_FOXY_ON.get()) {
 						{
-							BlockPos _bp = new BlockPos(x, y, z);
+							BlockPos _bp = BlockPos.containing(x, y, z);
 							BlockState _bs = FbmsModBlocks.ARCADE_FOXY.get().defaultBlockState();
 							BlockState _bso = world.getBlockState(_bp);
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {

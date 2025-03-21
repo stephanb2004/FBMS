@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.RetroChicaTileEntity;
 
-public class RetroChicaBlockModel extends AnimatedGeoModel<RetroChicaTileEntity> {
+public class RetroChicaBlockModel extends GeoModel<RetroChicaTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(RetroChicaTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/retrochica_idle.animation.json");
@@ -18,7 +18,7 @@ public class RetroChicaBlockModel extends AnimatedGeoModel<RetroChicaTileEntity>
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(RetroChicaTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/retrochica.png");
+	public ResourceLocation getTextureResource(RetroChicaTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/retrochica.png");
 	}
 }

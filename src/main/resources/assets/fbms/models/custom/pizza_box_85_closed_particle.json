@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/fms_pizzabox85"
+    "particle": "fbms:block/fms_pizzabox85"
   }
 }

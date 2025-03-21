@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.ToyBonnieTileEntity;
 
-public class ToyBonnieBlockModel extends AnimatedGeoModel<ToyBonnieTileEntity> {
+public class ToyBonnieBlockModel extends GeoModel<ToyBonnieTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(ToyBonnieTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/toybonnie.animation.json");
@@ -18,7 +18,7 @@ public class ToyBonnieBlockModel extends AnimatedGeoModel<ToyBonnieTileEntity> {
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(ToyBonnieTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/tbonnie.png");
+	public ResourceLocation getTextureResource(ToyBonnieTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/tbonnie.png");
 	}
 }

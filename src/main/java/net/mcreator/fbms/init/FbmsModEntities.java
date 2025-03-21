@@ -41,10 +41,6 @@ public class FbmsModEntities {
 			EntityType.Builder.<DogeRamEntity>of(DogeRamEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DogeRamEntity::new)
 
 					.sized(3f, 1.5f));
-	public static final RegistryObject<EntityType<StationWagonEntity>> STATION_WAGON = register("station_wagon",
-			EntityType.Builder.<StationWagonEntity>of(StationWagonEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(StationWagonEntity::new)
-
-					.sized(1f, 1.5f));
 	public static final RegistryObject<EntityType<DFreddyEntity>> D_FREDDY = register("d_freddy",
 			EntityType.Builder.<DFreddyEntity>of(DFreddyEntity::new, MobCategory.AXOLOTLS).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DFreddyEntity::new)
 
@@ -69,6 +65,14 @@ public class FbmsModEntities {
 			EntityType.Builder.<DMangleEntity>of(DMangleEntity::new, MobCategory.AXOLOTLS).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DMangleEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<StationWagonEntity>> STATION_WAGON = register("station_wagon",
+			EntityType.Builder.<StationWagonEntity>of(StationWagonEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(StationWagonEntity::new)
+
+					.sized(1f, 1.5f));
+	public static final RegistryObject<EntityType<SeatEntity>> SEAT = register("seat",
+			EntityType.Builder.<SeatEntity>of(SeatEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SeatEntity::new)
+
+					.sized(0.5f, 0.375f));
 	public static final RegistryObject<EntityType<RatEntity>> RAT = register("rat",
 			EntityType.Builder.<RatEntity>of(RatEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RatEntity::new)
 
@@ -78,10 +82,6 @@ public class FbmsModEntities {
 					.setCustomClientFactory(MysteriousGiantScuttlersEntity::new)
 
 					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<SeatEntity>> SEAT = register("seat",
-			EntityType.Builder.<SeatEntity>of(SeatEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SeatEntity::new)
-
-					.sized(0.5f, 0.375f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -92,16 +92,16 @@ public class FbmsModEntities {
 		event.enqueueWork(() -> {
 			ImpalaEntity.init();
 			DogeRamEntity.init();
-			StationWagonEntity.init();
 			DFreddyEntity.init();
 			DBonnieEntity.init();
 			DchicaEntity.init();
 			DFoxyEntity.init();
 			DfredbearEntity.init();
 			DMangleEntity.init();
+			StationWagonEntity.init();
+			SeatEntity.init();
 			RatEntity.init();
 			MysteriousGiantScuttlersEntity.init();
-			SeatEntity.init();
 		});
 	}
 
@@ -109,15 +109,15 @@ public class FbmsModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(IMPALA.get(), ImpalaEntity.createAttributes().build());
 		event.put(DOGE_RAM.get(), DogeRamEntity.createAttributes().build());
-		event.put(STATION_WAGON.get(), StationWagonEntity.createAttributes().build());
 		event.put(D_FREDDY.get(), DFreddyEntity.createAttributes().build());
 		event.put(D_BONNIE.get(), DBonnieEntity.createAttributes().build());
 		event.put(DCHICA.get(), DchicaEntity.createAttributes().build());
 		event.put(D_FOXY.get(), DFoxyEntity.createAttributes().build());
 		event.put(DFREDBEAR.get(), DfredbearEntity.createAttributes().build());
 		event.put(D_MANGLE.get(), DMangleEntity.createAttributes().build());
+		event.put(STATION_WAGON.get(), StationWagonEntity.createAttributes().build());
+		event.put(SEAT.get(), SeatEntity.createAttributes().build());
 		event.put(RAT.get(), RatEntity.createAttributes().build());
 		event.put(MYSTERIOUS_GIANT_SCUTTLERS.get(), MysteriousGiantScuttlersEntity.createAttributes().build());
-		event.put(SEAT.get(), SeatEntity.createAttributes().build());
 	}
 }

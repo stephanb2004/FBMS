@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/nul7j1k"
+    "particle": "fbms:block/nul7j1k"
   }
 }

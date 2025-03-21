@@ -1,9 +1,9 @@
 {
   "parent": "fbms:custom/monitor",
   "textures": {
-    "all": "fbms:blocks/mtv_heman",
-    "particle": "fbms:blocks/mtv_heman",
-    "0": "fbms:blocks/mtv_heman"
+    "all": "fbms:block/mtv_heman",
+    "particle": "fbms:block/mtv_heman",
+    "0": "fbms:block/mtv_heman"
   },
   "render_type": "cutout"
 }

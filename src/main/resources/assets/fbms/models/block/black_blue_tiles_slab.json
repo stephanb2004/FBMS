@@ -1,9 +1,10 @@
 {
   "parent": "block/slab",
   "textures": {
-    "bottom": "fbms:blocks/black_and_blue_floor",
-    "top": "fbms:blocks/black_and_blue_floor",
-    "side": "fbms:blocks/black_and_blue_floor"
+    "particle": "fbms:block/black_and_blue_floor",
+    "bottom": "fbms:block/black_and_blue_floor",
+    "top": "fbms:block/black_and_blue_floor",
+    "side": "fbms:block/black_and_blue_floor"
   },
   "render_type": "solid"
 }

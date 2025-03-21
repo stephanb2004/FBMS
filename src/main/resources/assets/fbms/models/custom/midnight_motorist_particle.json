@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/midnight_motorist"
+    "particle": "fbms:block/midnight_motorist"
   }
 }

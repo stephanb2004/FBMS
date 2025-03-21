@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.FuntimeChicaAnimatedTileEntity;
 
-public class FuntimeChicaAnimatedBlockModel extends AnimatedGeoModel<FuntimeChicaAnimatedTileEntity> {
+public class FuntimeChicaAnimatedBlockModel extends GeoModel<FuntimeChicaAnimatedTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(FuntimeChicaAnimatedTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/ftchicaa.animation.json");
@@ -18,7 +18,7 @@ public class FuntimeChicaAnimatedBlockModel extends AnimatedGeoModel<FuntimeChic
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(FuntimeChicaAnimatedTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/ftchica.png");
+	public ResourceLocation getTextureResource(FuntimeChicaAnimatedTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/ftchica.png");
 	}
 }

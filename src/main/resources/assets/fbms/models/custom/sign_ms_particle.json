@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/sign_ms"
+    "particle": "fbms:block/sign_ms"
   }
 }

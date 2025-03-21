@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.RoseyDisplayItem;
 
-public class RoseyDisplayModel extends AnimatedGeoModel<RoseyDisplayItem> {
+public class RoseyDisplayModel extends GeoModel<RoseyDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(RoseyDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/rosey.animation.json");
@@ -19,6 +19,6 @@ public class RoseyDisplayModel extends AnimatedGeoModel<RoseyDisplayItem> {
 
 	@Override
 	public ResourceLocation getTextureResource(RoseyDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/rosey.png");
+		return new ResourceLocation("fbms", "textures/block/rosey.png");
 	}
 }

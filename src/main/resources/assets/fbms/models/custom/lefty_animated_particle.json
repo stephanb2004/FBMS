@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/leftyv2v2"
+    "particle": "fbms:block/leftyv2v2"
   }
 }

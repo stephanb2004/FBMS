@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "fbms:items/frights_sign"
+    "layer0": "fbms:item/frights_sign"
   }
 }

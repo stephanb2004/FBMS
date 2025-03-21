@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "fbms:blocks/retrowalls",
-    "particle": "fbms:blocks/retrowalls"
+    "all": "fbms:block/retrowalls",
+    "particle": "fbms:block/retrowalls"
   },
   "render_type": "solid"
 }

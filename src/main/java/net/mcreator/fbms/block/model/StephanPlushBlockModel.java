@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.StephanPlushTileEntity;
 
-public class StephanPlushBlockModel extends AnimatedGeoModel<StephanPlushTileEntity> {
+public class StephanPlushBlockModel extends GeoModel<StephanPlushTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(StephanPlushTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/stephanplush.animation.json");
@@ -18,7 +18,7 @@ public class StephanPlushBlockModel extends AnimatedGeoModel<StephanPlushTileEnt
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(StephanPlushTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/stephanplush.png");
+	public ResourceLocation getTextureResource(StephanPlushTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/stephanplush.png");
 	}
 }

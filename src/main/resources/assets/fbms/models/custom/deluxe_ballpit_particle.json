@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/deluxe_ballpit"
+    "particle": "fbms:block/deluxe_ballpit"
   }
 }

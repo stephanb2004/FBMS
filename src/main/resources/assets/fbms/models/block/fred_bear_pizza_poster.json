@@ -1,9 +1,9 @@
 {
   "parent": "fbms:custom/rockstarposter",
   "textures": {
-    "all": "fbms:blocks/pizzaposter",
-    "particle": "fbms:blocks/pizzaposter",
-    "0": "fbms:blocks/pizzaposter"
+    "all": "fbms:block/pizzaposter",
+    "particle": "fbms:block/pizzaposter",
+    "0": "fbms:block/pizzaposter"
   },
   "render_type": "cutout"
 }

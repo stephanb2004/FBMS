@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "fbms:blocks/confetti_floor",
-    "particle": "fbms:blocks/confetti_floor"
+    "all": "fbms:block/confetti_floor",
+    "particle": "fbms:block/confetti_floor"
   },
   "render_type": "solid"
 }

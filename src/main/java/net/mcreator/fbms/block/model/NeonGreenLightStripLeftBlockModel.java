@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.NeonGreenLightStripLeftTileEntity;
 
-public class NeonGreenLightStripLeftBlockModel extends AnimatedGeoModel<NeonGreenLightStripLeftTileEntity> {
+public class NeonGreenLightStripLeftBlockModel extends GeoModel<NeonGreenLightStripLeftTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(NeonGreenLightStripLeftTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/neon_stripes.animation.json");
@@ -18,7 +18,7 @@ public class NeonGreenLightStripLeftBlockModel extends AnimatedGeoModel<NeonGree
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(NeonGreenLightStripLeftTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/neongreenlightstipfix.png");
+	public ResourceLocation getTextureResource(NeonGreenLightStripLeftTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/neongreenlightstipfix.png");
 	}
 }

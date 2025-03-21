@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/helpycutout"
+    "particle": "fbms:block/helpycutout"
   }
 }

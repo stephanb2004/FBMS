@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/enhanced_speaker_set"
+    "particle": "fbms:block/enhanced_speaker_set"
   }
 }

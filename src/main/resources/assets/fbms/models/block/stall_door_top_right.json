@@ -1,8 +1,9 @@
 {
   "parent": "block/door_top_right",
   "textures": {
-    "bottom": "fbms:blocks/bathroomdoorbottem",
-    "top": "fbms:blocks/bathroomdoortop"
+    "particle": "fbms:block/bathroomdoorbottem",
+    "bottom": "fbms:block/bathroomdoorbottem",
+    "top": "fbms:block/bathroomdoortop"
   },
   "render_type": "translucent"
 }

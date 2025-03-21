@@ -28,15 +28,15 @@ public class FbmsModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(FbmsModEntities.IMPALA.get(), ImpalaRenderer::new);
 		event.registerEntityRenderer(FbmsModEntities.DOGE_RAM.get(), DogeRamRenderer::new);
-		event.registerEntityRenderer(FbmsModEntities.STATION_WAGON.get(), StationWagonRenderer::new);
 		event.registerEntityRenderer(FbmsModEntities.D_FREDDY.get(), DFreddyRenderer::new);
 		event.registerEntityRenderer(FbmsModEntities.D_BONNIE.get(), DBonnieRenderer::new);
 		event.registerEntityRenderer(FbmsModEntities.DCHICA.get(), DchicaRenderer::new);
 		event.registerEntityRenderer(FbmsModEntities.D_FOXY.get(), DFoxyRenderer::new);
 		event.registerEntityRenderer(FbmsModEntities.DFREDBEAR.get(), DfredbearRenderer::new);
 		event.registerEntityRenderer(FbmsModEntities.D_MANGLE.get(), DMangleRenderer::new);
+		event.registerEntityRenderer(FbmsModEntities.STATION_WAGON.get(), StationWagonRenderer::new);
+		event.registerEntityRenderer(FbmsModEntities.SEAT.get(), SeatRenderer::new);
 		event.registerEntityRenderer(FbmsModEntities.RAT.get(), RatRenderer::new);
 		event.registerEntityRenderer(FbmsModEntities.MYSTERIOUS_GIANT_SCUTTLERS.get(), MysteriousGiantScuttlersRenderer::new);
-		event.registerEntityRenderer(FbmsModEntities.SEAT.get(), SeatRenderer::new);
 	}
 }

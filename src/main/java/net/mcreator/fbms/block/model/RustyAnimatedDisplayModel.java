@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.RustyAnimatedDisplayItem;
 
-public class RustyAnimatedDisplayModel extends AnimatedGeoModel<RustyAnimatedDisplayItem> {
+public class RustyAnimatedDisplayModel extends GeoModel<RustyAnimatedDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(RustyAnimatedDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/rustya.animation.json");
@@ -19,6 +19,6 @@ public class RustyAnimatedDisplayModel extends AnimatedGeoModel<RustyAnimatedDis
 
 	@Override
 	public ResourceLocation getTextureResource(RustyAnimatedDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/rusty.png");
+		return new ResourceLocation("fbms", "textures/block/rusty.png");
 	}
 }

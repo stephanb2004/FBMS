@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/toyfreddyv2"
+    "particle": "fbms:block/toyfreddyv2"
   }
 }

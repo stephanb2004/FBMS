@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.PCDisplayItem;
 
-public class PCDisplayModel extends AnimatedGeoModel<PCDisplayItem> {
+public class PCDisplayModel extends GeoModel<PCDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(PCDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/computer.animation.json");
@@ -19,6 +19,6 @@ public class PCDisplayModel extends AnimatedGeoModel<PCDisplayItem> {
 
 	@Override
 	public ResourceLocation getTextureResource(PCDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/old_pc.png");
+		return new ResourceLocation("fbms", "textures/block/old_pc.png");
 	}
 }

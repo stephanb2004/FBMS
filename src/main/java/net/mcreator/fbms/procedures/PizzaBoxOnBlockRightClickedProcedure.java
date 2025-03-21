@@ -13,7 +13,7 @@ public class PizzaBoxOnBlockRightClickedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, BlockState blockstate) {
 		if (blockstate.getBlock() == FbmsModBlocks.PIZZA_BOX_85_OPEN.get()) {
 			{
-				BlockPos _bp = new BlockPos(x, y, z);
+				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockState _bs = FbmsModBlocks.PIZZA_BOX_85_CLOSED.get().defaultBlockState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
@@ -28,7 +28,7 @@ public class PizzaBoxOnBlockRightClickedProcedure {
 			}
 		} else if (blockstate.getBlock() == FbmsModBlocks.PIZZA_BOX_85_CLOSED.get()) {
 			{
-				BlockPos _bp = new BlockPos(x, y, z);
+				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockState _bs = FbmsModBlocks.PIZZA_BOX_85_OPEN.get().defaultBlockState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
@@ -44,7 +44,7 @@ public class PizzaBoxOnBlockRightClickedProcedure {
 		}
 		if (blockstate.getBlock() == FbmsModBlocks.PIZZA_BOX_87_OPEN.get()) {
 			{
-				BlockPos _bp = new BlockPos(x, y, z);
+				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockState _bs = FbmsModBlocks.PIZZA_BOX_87_CLOSED.get().defaultBlockState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
@@ -59,7 +59,7 @@ public class PizzaBoxOnBlockRightClickedProcedure {
 			}
 		} else if (blockstate.getBlock() == FbmsModBlocks.PIZZA_BOX_87_CLOSED.get()) {
 			{
-				BlockPos _bp = new BlockPos(x, y, z);
+				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockState _bs = FbmsModBlocks.PIZZA_BOX_87_OPEN.get().defaultBlockState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
@@ -75,7 +75,7 @@ public class PizzaBoxOnBlockRightClickedProcedure {
 		}
 		if (blockstate.getBlock() == FbmsModBlocks.PIZZA_BOX_93_OPEN.get()) {
 			{
-				BlockPos _bp = new BlockPos(x, y, z);
+				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockState _bs = FbmsModBlocks.PIZZA_BOX_93_CLOSED.get().defaultBlockState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
@@ -90,7 +90,7 @@ public class PizzaBoxOnBlockRightClickedProcedure {
 			}
 		} else if (blockstate.getBlock() == FbmsModBlocks.PIZZA_BOX_93_CLOSED.get()) {
 			{
-				BlockPos _bp = new BlockPos(x, y, z);
+				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockState _bs = FbmsModBlocks.PIZZA_BOX_93_OPEN.get().defaultBlockState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
@@ -106,7 +106,7 @@ public class PizzaBoxOnBlockRightClickedProcedure {
 		}
 		if (blockstate.getBlock() == FbmsModBlocks.PIZZA_BOX_24_OPEN.get()) {
 			{
-				BlockPos _bp = new BlockPos(x, y, z);
+				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockState _bs = FbmsModBlocks.PIZZA_BOX_24_CLOSED.get().defaultBlockState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
@@ -121,7 +121,7 @@ public class PizzaBoxOnBlockRightClickedProcedure {
 			}
 		} else if (blockstate.getBlock() == FbmsModBlocks.PIZZA_BOX_24_CLOSED.get()) {
 			{
-				BlockPos _bp = new BlockPos(x, y, z);
+				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockState _bs = FbmsModBlocks.PIZZA_BOX_24_OPEN.get().defaultBlockState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {

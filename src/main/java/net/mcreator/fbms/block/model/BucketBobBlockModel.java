@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.BucketBobTileEntity;
 
-public class BucketBobBlockModel extends AnimatedGeoModel<BucketBobTileEntity> {
+public class BucketBobBlockModel extends GeoModel<BucketBobTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(BucketBobTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/bucket_bob.animation.json");
@@ -18,7 +18,7 @@ public class BucketBobBlockModel extends AnimatedGeoModel<BucketBobTileEntity> {
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(BucketBobTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/bucket_bob.png");
+	public ResourceLocation getTextureResource(BucketBobTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/bucket_bob.png");
 	}
 }

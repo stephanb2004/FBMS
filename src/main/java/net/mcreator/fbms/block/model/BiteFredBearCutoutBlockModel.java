@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.BiteFredBearCutoutTileEntity;
 
-public class BiteFredBearCutoutBlockModel extends AnimatedGeoModel<BiteFredBearCutoutTileEntity> {
+public class BiteFredBearCutoutBlockModel extends GeoModel<BiteFredBearCutoutTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(BiteFredBearCutoutTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/fredbearbiteblock.animation.json");
@@ -18,7 +18,7 @@ public class BiteFredBearCutoutBlockModel extends AnimatedGeoModel<BiteFredBearC
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(BiteFredBearCutoutTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/fredbear.png");
+	public ResourceLocation getTextureResource(BiteFredBearCutoutTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/fredbear.png");
 	}
 }

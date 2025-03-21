@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.ElChipAnimatedDisplayItem;
 
-public class ElChipAnimatedDisplayModel extends AnimatedGeoModel<ElChipAnimatedDisplayItem> {
+public class ElChipAnimatedDisplayModel extends GeoModel<ElChipAnimatedDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(ElChipAnimatedDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/elchipanimated.animation.json");
@@ -19,6 +19,6 @@ public class ElChipAnimatedDisplayModel extends AnimatedGeoModel<ElChipAnimatedD
 
 	@Override
 	public ResourceLocation getTextureResource(ElChipAnimatedDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/elchipv2.png");
+		return new ResourceLocation("fbms", "textures/block/elchipv2.png");
 	}
 }

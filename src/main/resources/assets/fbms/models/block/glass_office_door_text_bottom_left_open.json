@@ -1,8 +1,9 @@
 {
   "parent": "block/door_bottom_left_open",
   "textures": {
-    "bottom": "fbms:blocks/fnaf6officedoorbottem",
-    "top": "fbms:blocks/fnaf6officedoortopalt"
+    "particle": "fbms:block/fnaf6officedoorbottem",
+    "bottom": "fbms:block/fnaf6officedoorbottem",
+    "top": "fbms:block/fnaf6officedoortopalt"
   },
   "render_type": "translucent"
 }

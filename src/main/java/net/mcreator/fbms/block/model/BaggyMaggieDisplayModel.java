@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.BaggyMaggieDisplayItem;
 
-public class BaggyMaggieDisplayModel extends AnimatedGeoModel<BaggyMaggieDisplayItem> {
+public class BaggyMaggieDisplayModel extends GeoModel<BaggyMaggieDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(BaggyMaggieDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/baggymaggie.animation.json");
@@ -19,6 +19,6 @@ public class BaggyMaggieDisplayModel extends AnimatedGeoModel<BaggyMaggieDisplay
 
 	@Override
 	public ResourceLocation getTextureResource(BaggyMaggieDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/baggymaggie.png");
+		return new ResourceLocation("fbms", "textures/block/baggymaggie.png");
 	}
 }

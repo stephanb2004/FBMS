@@ -1,7 +1,6 @@
-
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/toypug"
+    "particle": "fbms:block/toypug"
   }
 }

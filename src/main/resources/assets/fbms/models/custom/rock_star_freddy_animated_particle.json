@@ -1,7 +1,6 @@
-
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/rockstar_freddy"
+    "particle": "fbms:block/rockstar_freddy"
   }
 }

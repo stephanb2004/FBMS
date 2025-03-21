@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "fbms:blocks/pumpkin_top",
-    "up": "fbms:blocks/pumpkin_top",
-    "north": "fbms:blocks/pumpkin_chica",
-    "east": "fbms:blocks/pumpkin_side",
-    "south": "fbms:blocks/pumpkin_side",
-    "west": "fbms:blocks/pumpkin_side",
-    "particle": "fbms:blocks/pumpkin_top"
+    "down": "fbms:block/pumpkin_top",
+    "up": "fbms:block/pumpkin_top",
+    "north": "fbms:block/pumpkin_chica",
+    "east": "fbms:block/pumpkin_side",
+    "south": "fbms:block/pumpkin_side",
+    "west": "fbms:block/pumpkin_side",
+    "particle": "fbms:block/pumpkin_top"
   },
   "render_type": "solid"
 }

@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/purplechevroletimpala1961akastaticsride"
+    "particle": "fbms:block/purplechevroletimpala1961akastaticsride"
   }
 }

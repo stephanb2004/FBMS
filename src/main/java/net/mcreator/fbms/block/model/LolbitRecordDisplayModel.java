@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.LolbitRecordDisplayItem;
 
-public class LolbitRecordDisplayModel extends AnimatedGeoModel<LolbitRecordDisplayItem> {
+public class LolbitRecordDisplayModel extends GeoModel<LolbitRecordDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(LolbitRecordDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/lolbit_record.animation.json");
@@ -19,6 +19,6 @@ public class LolbitRecordDisplayModel extends AnimatedGeoModel<LolbitRecordDispl
 
 	@Override
 	public ResourceLocation getTextureResource(LolbitRecordDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/lolbit_record.png");
+		return new ResourceLocation("fbms", "textures/block/lolbit_record.png");
 	}
 }

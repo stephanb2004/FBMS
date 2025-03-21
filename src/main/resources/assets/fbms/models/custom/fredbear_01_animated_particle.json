@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/01_fredbear"
+    "particle": "fbms:block/01_fredbear"
   }
 }

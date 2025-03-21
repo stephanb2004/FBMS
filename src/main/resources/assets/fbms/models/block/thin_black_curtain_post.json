@@ -1,8 +1,9 @@
 {
   "parent": "block/template_glass_pane_post",
   "textures": {
-    "edge": "fbms:blocks/blackcurtain",
-    "pane": "fbms:blocks/blackcurtain"
+    "particle": "fbms:block/blackcurtain",
+    "edge": "fbms:block/blackcurtain",
+    "pane": "fbms:block/blackcurtain"
   },
   "render_type": "solid"
 }

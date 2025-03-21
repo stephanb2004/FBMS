@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/neon_jukebox_a"
+    "particle": "fbms:block/neon_jukebox_a"
   }
 }

@@ -12,7 +12,7 @@ import java.util.Map;
 public class CeilingLightRedstoneOffProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		{
-			BlockPos _bp = new BlockPos(x, y, z);
+			BlockPos _bp = BlockPos.containing(x, y, z);
 			BlockState _bs = FbmsModBlocks.CEILING_LIGHT.get().defaultBlockState();
 			BlockState _bso = world.getBlockState(_bp);
 			for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {

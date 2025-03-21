@@ -1,8 +1,9 @@
 {
   "parent": "block/door_bottom_right",
   "textures": {
-    "bottom": "fbms:blocks/glassdoorbottem",
-    "top": "fbms:blocks/glassdoortop"
+    "particle": "fbms:block/glassdoorbottem",
+    "bottom": "fbms:block/glassdoorbottem",
+    "top": "fbms:block/glassdoortop"
   },
   "render_type": "translucent"
 }

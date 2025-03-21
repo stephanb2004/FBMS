@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.CandyCadetDisplayItem;
 
-public class CandyCadetDisplayModel extends AnimatedGeoModel<CandyCadetDisplayItem> {
+public class CandyCadetDisplayModel extends GeoModel<CandyCadetDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(CandyCadetDisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/candycadetblock.animation.json");
@@ -19,6 +19,6 @@ public class CandyCadetDisplayModel extends AnimatedGeoModel<CandyCadetDisplayIt
 
 	@Override
 	public ResourceLocation getTextureResource(CandyCadetDisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/candycadet2.png");
+		return new ResourceLocation("fbms", "textures/block/candycadet2.png");
 	}
 }

@@ -4,107 +4,531 @@
  */
 package net.mcreator.fbms.init;
 
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
+
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.network.chat.Component;
+import net.minecraft.core.registries.Registries;
 
+import net.mcreator.fbms.FbmsMod;
+
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class FbmsModTabs {
-	public static CreativeModeTab TAB_FMS;
-	public static CreativeModeTab TAB_A_DS;
-	public static CreativeModeTab TAB_PROPS;
-	public static CreativeModeTab TAB_CARS;
-	public static CreativeModeTab TAB_PRIVATE_ROOM;
-	public static CreativeModeTab TAB_SHOP_BLOCKS;
-	public static CreativeModeTab TAB_PLUSH;
-	public static CreativeModeTab TAB_FMS_BLOCKS;
+	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FbmsMod.MODID);
+	public static final RegistryObject<CreativeModeTab> PRIVATE_ROOM = REGISTRY.register("private_room",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.fbms.private_room")).icon(() -> new ItemStack(FbmsModBlocks.D_BALLOON_BOY.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(FbmsModItems.D_FREDDY_SPAWN_EGG.get());
+				tabData.accept(FbmsModItems.D_BONNIE_SPAWN_EGG.get());
+				tabData.accept(FbmsModItems.DCHICA_SPAWN_EGG.get());
+				tabData.accept(FbmsModItems.D_FOXY_SPAWN_EGG.get());
+				tabData.accept(FbmsModItems.DFREDBEAR_SPAWN_EGG.get());
+				tabData.accept(FbmsModItems.D_MANGLE_SPAWN_EGG.get());
+				tabData.accept(FbmsModBlocks.OLD_BONNIE.get().asItem());
+				tabData.accept(FbmsModBlocks.OLD_FREDDY.get().asItem());
+				tabData.accept(FbmsModBlocks.OLD_CHICA.get().asItem());
+				tabData.accept(FbmsModBlocks.OLD_FOXY.get().asItem());
+				tabData.accept(FbmsModBlocks.D_BALLOON_BOY.get().asItem());
+				tabData.accept(FbmsModItems.REMOTE.get());
+				tabData.accept(FbmsModBlocks.BROKEN_FREDDY.get().asItem());
+				tabData.accept(FbmsModBlocks.BROKEN_BONNIE.get().asItem());
+				tabData.accept(FbmsModBlocks.BROKEN_CHICA.get().asItem());
+				tabData.accept(FbmsModBlocks.RASC.get().asItem());
+				tabData.accept(FbmsModBlocks.SHRED_BEAR.get().asItem());
+				tabData.accept(FbmsModItems.FAT.get());
+				tabData.accept(FbmsModBlocks.ROTTEN_PIT.get().asItem());
+				tabData.accept(FbmsModBlocks.FRIGHTS_SIGN_2.get().asItem());
+				tabData.accept(FbmsModBlocks.PIZZA_PLACE_SIGN.get().asItem());
+				tabData.accept(FbmsModBlocks.PIZZA_PLACE_SIGN_OLD.get().asItem());
+				tabData.accept(FbmsModBlocks.JEFFS_PIZZA_SIGN.get().asItem());
+				tabData.accept(FbmsModBlocks.LOLBIT_RECORD.get().asItem());
+				tabData.accept(FbmsModBlocks.SIGN_DDW.get().asItem());
+				tabData.accept(FbmsModBlocks.SIGN_SBT.get().asItem());
+				tabData.accept(FbmsModBlocks.SIGN_RFA.get().asItem());
+				tabData.accept(FbmsModBlocks.SIGN_SNS.get().asItem());
+				tabData.accept(FbmsModBlocks.TV_OFF.get().asItem());
+				tabData.accept(FbmsModBlocks.MONITOR_OFF.get().asItem());
+				tabData.accept(FbmsModBlocks.MONITOR_WORK.get().asItem());
+				tabData.accept(FbmsModBlocks.MONITOR_LOLBIT.get().asItem());
+				tabData.accept(FbmsModBlocks.MONITOR_STEPHAN.get().asItem());
+				tabData.accept(FbmsModBlocks.MONITOR_BLUESCREEN.get().asItem());
+				tabData.accept(FbmsModBlocks.SIGN_MS.get().asItem());
+				tabData.accept(FbmsModItems.GAS_MASK_HELMET.get());
+				tabData.accept(FbmsModBlocks.SAFETY_POSTER.get().asItem());
+				tabData.accept(FbmsModBlocks.SAFETY_POSTER_FREDDY.get().asItem());
+				tabData.accept(FbmsModBlocks.SAFETY_POSTER_BONNIE.get().asItem());
+				tabData.accept(FbmsModBlocks.SAFETY_POSTER_CHICA.get().asItem());
+				tabData.accept(FbmsModBlocks.SAFETY_POSTER_FOXY.get().asItem());
+				tabData.accept(FbmsModBlocks.CELEBRATE_POSTER.get().asItem());
+				tabData.accept(FbmsModItems.HAZMAT_SUIT_CHESTPLATE.get());
+				tabData.accept(FbmsModItems.HAZMAT_SUIT_LEGGINGS.get());
+				tabData.accept(FbmsModItems.GLASSES_HELMET.get());
+				tabData.accept(FbmsModBlocks.PROJECTOR.get().asItem());
+				tabData.accept(FbmsModBlocks.CAM.get().asItem());
+				tabData.accept(FbmsModBlocks.FREDDY_CUT_OUT.get().asItem());
+				tabData.accept(FbmsModBlocks.BONNIE_CUT_OUT.get().asItem());
+				tabData.accept(FbmsModBlocks.CHICA_CUT_OUT.get().asItem());
+				tabData.accept(FbmsModBlocks.HELPY_CUT_OUT.get().asItem());
+				tabData.accept(FbmsModBlocks.FRED_BEAR_POSTER.get().asItem());
+				tabData.accept(FbmsModBlocks.FRED_BEAR_PIZZA_POSTER.get().asItem());
+				tabData.accept(FbmsModBlocks.SPRING_BONNIE_POSTER.get().asItem());
+				tabData.accept(FbmsModBlocks.PC.get().asItem());
+				tabData.accept(FbmsModBlocks.PRIZE_COUNTER_SIGN.get().asItem());
+				tabData.accept(FbmsModBlocks.REST_ROOM_SIGN.get().asItem());
+				tabData.accept(FbmsModBlocks.ARCADE_SIGN.get().asItem());
+				tabData.accept(FbmsModBlocks.PARTY_ROOM_SIGN.get().asItem());
+				tabData.accept(FbmsModBlocks.KITCHEN_SIGN.get().asItem());
+				tabData.accept(FbmsModBlocks.NEON_RED_LIGHT_STRIP.get().asItem());
+				tabData.accept(FbmsModBlocks.NEON_RED_LIGHT_STRIP_RIGHT.get().asItem());
+				tabData.accept(FbmsModBlocks.NEON_RED_LIGHT_STRIP_LEFT.get().asItem());
+				tabData.accept(FbmsModBlocks.NEON_GREEN_LIGHT_STRIP.get().asItem());
+				tabData.accept(FbmsModBlocks.NEON_GREEN_LIGHT_STRIP_RIGHT.get().asItem());
+				tabData.accept(FbmsModBlocks.NEON_GREEN_LIGHT_STRIP_LEFT.get().asItem());
+				tabData.accept(FbmsModBlocks.NEON_BLUE_LIGHT_STRIP.get().asItem());
+				tabData.accept(FbmsModBlocks.NEON_BLUE_LIGHT_STRIP_RIGHT.get().asItem());
+				tabData.accept(FbmsModBlocks.NEON_BLUE_LIGHT_STRIP_LEFT.get().asItem());
+				tabData.accept(FbmsModBlocks.NEON_YELLOW_LIGHT_STRIP.get().asItem());
+				tabData.accept(FbmsModBlocks.NEON_YELLOW_LIGHT_STRIP_RIGHT.get().asItem());
+				tabData.accept(FbmsModBlocks.NEON_YELLOW_LIGHT_STRIP_LEFT.get().asItem());
+				tabData.accept(FbmsModBlocks.NEON_ORANGE_LIGHT_STRIP.get().asItem());
+				tabData.accept(FbmsModBlocks.NEON_ORANGE_LIGHT_STRIP_RIGHT.get().asItem());
+				tabData.accept(FbmsModBlocks.NEON_ORANGE_LIGHT_LEFT.get().asItem());
+			})
 
-	public static void load() {
-		TAB_FMS = new CreativeModeTab("tabfms") {
-			@Override
-			public ItemStack makeIcon() {
-				return new ItemStack(FbmsModBlocks.CANDY_CADET.get());
-			}
+					.build());
+	public static final RegistryObject<CreativeModeTab> FMS_BLOCKS = REGISTRY.register("fms_blocks",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.fbms.fms_blocks")).icon(() -> new ItemStack(FbmsModBlocks.BLACK_WHITE_TILES.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(FbmsModBlocks.CHICA_O_LANTERN.get().asItem());
+				tabData.accept(FbmsModBlocks.BLACK_WHITE_TILES.get().asItem());
+				tabData.accept(FbmsModBlocks.BLACK_RED_TILES.get().asItem());
+				tabData.accept(FbmsModBlocks.BLUE_WHITE_TILES.get().asItem());
+				tabData.accept(FbmsModBlocks.FULL_WHITE_TILES.get().asItem());
+				tabData.accept(FbmsModBlocks.RED_WHITE_TILES.get().asItem());
+				tabData.accept(FbmsModBlocks.FULL_BLACK_TILES.get().asItem());
+				tabData.accept(FbmsModBlocks.BLACK_BLUE_TILES.get().asItem());
+				tabData.accept(FbmsModBlocks.RED_BLUE_TILES.get().asItem());
+				tabData.accept(FbmsModBlocks.BLACK_WHITE_TILES_SLAB.get().asItem());
+				tabData.accept(FbmsModBlocks.BLACK_RED_TILES_SLAB.get().asItem());
+				tabData.accept(FbmsModBlocks.BLUE_WHITE_TILES_SLAB.get().asItem());
+				tabData.accept(FbmsModBlocks.FULL_WHITE_TILES_SLAB.get().asItem());
+				tabData.accept(FbmsModBlocks.RED_WHITE_TILES_SLAB.get().asItem());
+				tabData.accept(FbmsModBlocks.FULL_BLACK_TILES_SLAB.get().asItem());
+				tabData.accept(FbmsModBlocks.BLACK_BLUE_TILES_SLAB.get().asItem());
+				tabData.accept(FbmsModBlocks.RED_BLUE_TILES_SLAB.get().asItem());
+				tabData.accept(FbmsModBlocks.BLACK_WHITE_TILES_STAIRS.get().asItem());
+				tabData.accept(FbmsModBlocks.BLACK_RED_TILES_STAIRS.get().asItem());
+				tabData.accept(FbmsModBlocks.BLUE_WHITE_TILES_STAIRS.get().asItem());
+				tabData.accept(FbmsModBlocks.FULL_WHITE_TILES_STAIRS.get().asItem());
+				tabData.accept(FbmsModBlocks.RED_WHITE_TILES_STAIRS.get().asItem());
+				tabData.accept(FbmsModBlocks.FULL_BLACK_TILES_STAIRS.get().asItem());
+				tabData.accept(FbmsModBlocks.BLACK_BLUE_TILES_STAIRS.get().asItem());
+				tabData.accept(FbmsModBlocks.RED_BLUE_TILES_STAIRS.get().asItem());
+				tabData.accept(FbmsModBlocks.BOX.get().asItem());
+				tabData.accept(FbmsModBlocks.BRANDED_BOX.get().asItem());
+				tabData.accept(FbmsModBlocks.GLASS_OFFICE_DOOR.get().asItem());
+				tabData.accept(FbmsModBlocks.GLASS_OFFICE_DOOR_TEXT.get().asItem());
+				tabData.accept(FbmsModBlocks.GLASS_DOOR.get().asItem());
+				tabData.accept(FbmsModBlocks.GRAY_WALL.get().asItem());
+				tabData.accept(FbmsModBlocks.RED_WALL.get().asItem());
+				tabData.accept(FbmsModBlocks.LARGE_BLACK_WHITE_TILES.get().asItem());
+				tabData.accept(FbmsModBlocks.POSH_WALL_TILES.get().asItem());
+				tabData.accept(FbmsModBlocks.BLANK_STAFF_DOOR.get().asItem());
+				tabData.accept(FbmsModBlocks.STAFF_DOOR.get().asItem());
+				tabData.accept(FbmsModBlocks.WHITE_STAFF_DOOR.get().asItem());
+				tabData.accept(FbmsModBlocks.STALL_DOOR.get().asItem());
+				tabData.accept(FbmsModBlocks.CEILING_TILES.get().asItem());
+				tabData.accept(FbmsModBlocks.CEILING_LIGHT.get().asItem());
+				tabData.accept(FbmsModBlocks.BLACK_WALL.get().asItem());
+				tabData.accept(FbmsModBlocks.BLACK_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.BLUE_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.CYAN_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.GREEN_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.GRAY_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.LIGHT_GRAY_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.MAGENTA_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.ORANGE_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.PINK_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.PURPLE_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.RED_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.WHITE_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.YELLOW_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.THIN_BLACK_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.THIN_BLUE_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.THIN_CYAN_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.THIN_GREEN_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.THIN_GRAY_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.THIN_LIGHT_GRAY_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.THIN_MAGENTA_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.THIN_ORANGE_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.THIN_PINK_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.THIN_PURPLE_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.THIN_RED_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.THIN_WHITE_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.THIN_YELLOW_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.BLACK_STAGE_BRICKS.get().asItem());
+				tabData.accept(FbmsModBlocks.BLUE_STAGE_BRICKS.get().asItem());
+				tabData.accept(FbmsModBlocks.BROWN_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.THIN_BROWN_CURTAIN.get().asItem());
+				tabData.accept(FbmsModBlocks.BROWN_STAGE_BRICKS.get().asItem());
+				tabData.accept(FbmsModBlocks.CYAN_STAGE_BRICKS.get().asItem());
+				tabData.accept(FbmsModBlocks.GRAY_STAGE_BRICKS.get().asItem());
+				tabData.accept(FbmsModBlocks.GREEN_STAGE_BRICKS.get().asItem());
+				tabData.accept(FbmsModBlocks.LIGHT_GRAY_BRICKS.get().asItem());
+				tabData.accept(FbmsModBlocks.LIME_STAGE_BRICKS.get().asItem());
+				tabData.accept(FbmsModBlocks.MAGENTA_STAGE_BRICKS.get().asItem());
+				tabData.accept(FbmsModBlocks.ORANGE_STAGE_BRICKS.get().asItem());
+				tabData.accept(FbmsModBlocks.PINK_STAGE_BRICKS.get().asItem());
+				tabData.accept(FbmsModBlocks.PURPLE_STAGE_BRICKS.get().asItem());
+				tabData.accept(FbmsModBlocks.RED_STAGE_BRICKS.get().asItem());
+				tabData.accept(FbmsModBlocks.WHITE_STAGE_BRICKS.get().asItem());
+				tabData.accept(FbmsModBlocks.YELLOW_STAGE_BRICKS.get().asItem());
+				tabData.accept(FbmsModBlocks.DARK_GRAY_WALL.get().asItem());
+				tabData.accept(FbmsModBlocks.RED_WALL_TOP.get().asItem());
+				tabData.accept(FbmsModBlocks.TAN_BRICKS.get().asItem());
+				tabData.accept(FbmsModBlocks.LIGHT_GRAY_WALL_TOP.get().asItem());
+				tabData.accept(FbmsModBlocks.RETRO_WALL.get().asItem());
+				tabData.accept(FbmsModBlocks.RETRO_WALL_TOP.get().asItem());
+				tabData.accept(FbmsModBlocks.RETRO_WALL_TILES.get().asItem());
+				tabData.accept(FbmsModBlocks.BIG_RETRO_WALL_TILES.get().asItem());
+				tabData.accept(FbmsModBlocks.TAN_BLACK_STRIPE_WALL_TILES.get().asItem());
+				tabData.accept(FbmsModBlocks.TAN_BRICKS_TOP.get().asItem());
+				tabData.accept(FbmsModBlocks.DARK_GRAY_TILE_TOP.get().asItem());
+				tabData.accept(FbmsModBlocks.GRAY_RED_STRIPE_WALL.get().asItem());
+				tabData.accept(FbmsModBlocks.RETRO_CONFETTI_WALL.get().asItem());
+				tabData.accept(FbmsModBlocks.BIG_GRAY_WALL_TILES.get().asItem());
+				tabData.accept(FbmsModBlocks.BIG_LIGHT_GRAY_WALL_TILES.get().asItem());
+				tabData.accept(FbmsModBlocks.LIGHT_GRAY_RED_STRIPE_WALL.get().asItem());
+				tabData.accept(FbmsModBlocks.BLACK_STARED_CURTAINS.get().asItem());
+				tabData.accept(FbmsModBlocks.BLUE_STARED_CURTAINS.get().asItem());
+				tabData.accept(FbmsModBlocks.CYAN_STARED_CURTAINS.get().asItem());
+				tabData.accept(FbmsModBlocks.GREEN_STARED_CURTAINS.get().asItem());
+				tabData.accept(FbmsModBlocks.GRAY_STARED_CURTAINS.get().asItem());
+				tabData.accept(FbmsModBlocks.LIGHT_GRAY_STARED_CURTAINS.get().asItem());
+				tabData.accept(FbmsModBlocks.MAGENTA_STARED_CURTAINS.get().asItem());
+				tabData.accept(FbmsModBlocks.ORANGE_STARED_CURTAINS.get().asItem());
+				tabData.accept(FbmsModBlocks.PINK_STARED_CURTAINS.get().asItem());
+				tabData.accept(FbmsModBlocks.PURPLE_STARED_CURTAINS.get().asItem());
+				tabData.accept(FbmsModBlocks.RED_STARED_CURTAINS.get().asItem());
+				tabData.accept(FbmsModBlocks.WHITE_STARED_CURTAINS.get().asItem());
+				tabData.accept(FbmsModBlocks.YELLOW_STARED_CURTAINS.get().asItem());
+				tabData.accept(FbmsModBlocks.THIN_BLACK_STARED_CURTAINS.get().asItem());
+				tabData.accept(FbmsModBlocks.THIN_BLUE_STARED_CURTAINS.get().asItem());
+				tabData.accept(FbmsModBlocks.THIN_CYAN_STARED_CURTAINS.get().asItem());
+				tabData.accept(FbmsModBlocks.THIN_GREEN_STARED_CURTAINS.get().asItem());
+				tabData.accept(FbmsModBlocks.THIN_GRAY_STARED_CURTAINS.get().asItem());
+				tabData.accept(FbmsModBlocks.THIN_LIGHT_GRAY_STARED_CURTAINS.get().asItem());
+				tabData.accept(FbmsModBlocks.THIN_MAGENTA_STARED_CURTAINS.get().asItem());
+				tabData.accept(FbmsModBlocks.RED_TILES.get().asItem());
+				tabData.accept(FbmsModBlocks.GREEN_BLUE_TILES.get().asItem());
+				tabData.accept(FbmsModBlocks.ORANGE_PINK_TILES.get().asItem());
+				tabData.accept(FbmsModBlocks.GREEN_TILES.get().asItem());
+				tabData.accept(FbmsModBlocks.VENT_BLOCK.get().asItem());
+				tabData.accept(FbmsModBlocks.OLD_PLANKS.get().asItem());
+				tabData.accept(FbmsModBlocks.LARGE_BATTERY.get().asItem());
+			}).withSearchBar().build());
+	public static final RegistryObject<CreativeModeTab> A_DS = REGISTRY.register("a_ds",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.fbms.a_ds")).icon(() -> new ItemStack(FbmsModItems.AD.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(FbmsModBlocks.LARGE_SIGN.get().asItem());
+				tabData.accept(FbmsModBlocks.LARGE_SIGN_2.get().asItem());
+				tabData.accept(FbmsModBlocks.LARGE_SIGN_3.get().asItem());
+				tabData.accept(FbmsModBlocks.LARGE_SIGN_4.get().asItem());
+			})
 
-			@Override
-			public boolean hasSearchBar() {
-				return false;
-			}
-		};
-		TAB_A_DS = new CreativeModeTab("taba_ds") {
-			@Override
-			public ItemStack makeIcon() {
-				return new ItemStack(FbmsModItems.AD.get());
-			}
+					.build());
+	public static final RegistryObject<CreativeModeTab> PROPS = REGISTRY.register("props",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.fbms.props")).icon(() -> new ItemStack(FbmsModItems.GUITAR.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(FbmsModItems.BANJO.get());
+				tabData.accept(FbmsModItems.MARACAS.get());
+				tabData.accept(FbmsModItems.ACCORDION.get());
+				tabData.accept(FbmsModItems.MANDOLIN.get());
+				tabData.accept(FbmsModItems.WAND.get());
+				tabData.accept(FbmsModItems.TOY_MIC.get());
+				tabData.accept(FbmsModItems.GUITAR.get());
+				tabData.accept(FbmsModItems.TRUMPET.get());
+				tabData.accept(FbmsModBlocks.COIN.get().asItem());
+				tabData.accept(FbmsModBlocks.COINS_5.get().asItem());
+				tabData.accept(FbmsModBlocks.COINS_100.get().asItem());
+				tabData.accept(FbmsModBlocks.COINS_25.get().asItem());
+				tabData.accept(FbmsModBlocks.COINS_1000.get().asItem());
+				tabData.accept(FbmsModBlocks.COINS_10000.get().asItem());
+				tabData.accept(FbmsModItems.CUP_FIZTIME_1.get());
+				tabData.accept(FbmsModItems.CUP_FIZTIME_2.get());
+				tabData.accept(FbmsModItems.PIZZA.get());
+				tabData.accept(FbmsModItems.HOT_DOG.get());
+				tabData.accept(FbmsModItems.CHEESE_PIZZA.get());
+				tabData.accept(FbmsModItems.CPU.get());
+				tabData.accept(FbmsModItems.COINS.get());
+				tabData.accept(FbmsModItems.FRIES.get());
+				tabData.accept(FbmsModItems.MOLDY_PIZZA.get());
+				tabData.accept(FbmsModItems.MOLDY_HOT_DOG.get());
+				tabData.accept(FbmsModItems.MOLDY_FRIES.get());
+				tabData.accept(FbmsModItems.GOLDEN_BITE.get());
+				tabData.accept(FbmsModItems.MOLDY_CHEESE_PIZZA.get());
+				tabData.accept(FbmsModItems.FRIED_CHICKEN.get());
+				tabData.accept(FbmsModItems.MOLDY_FRIED_CHICKEN.get());
+				tabData.accept(FbmsModItems.ICECREAM_BLUEMOON.get());
+				tabData.accept(FbmsModItems.ICECREAM_CHERRY.get());
+				tabData.accept(FbmsModItems.ICECREAM_DARKCHOCOLATE.get());
+				tabData.accept(FbmsModItems.ICECREAM_PISTACHIO.get());
+				tabData.accept(FbmsModItems.ICECREAM_GREENTEA.get());
+				tabData.accept(FbmsModItems.ICECREAM_MILKCHOCOLATE.get());
+				tabData.accept(FbmsModItems.ICECREAM_RASPBERRY.get());
+				tabData.accept(FbmsModItems.ICECREAM_STRAWBERRY.get());
+				tabData.accept(FbmsModItems.ICECREAM_VANILLA.get());
+				tabData.accept(FbmsModItems.ICECREAM_NEOPOLITAN.get());
+				tabData.accept(FbmsModItems.ICECREAM_BIRTHDAY.get());
+				tabData.accept(FbmsModItems.ICECREAM_COTTONCANDY.get());
+				tabData.accept(FbmsModItems.MOOSE_MUG.get());
+			})
 
-			@Override
-			public boolean hasSearchBar() {
-				return false;
-			}
-		};
-		TAB_PROPS = new CreativeModeTab("tabprops") {
-			@Override
-			public ItemStack makeIcon() {
-				return new ItemStack(FbmsModItems.GUITAR.get());
-			}
+					.build());
+	public static final RegistryObject<CreativeModeTab> PLUSH = REGISTRY.register("plush",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.fbms.plush")).icon(() -> new ItemStack(FbmsModBlocks.DOC_PLUSH.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(FbmsModBlocks.DOC_PLUSH.get().asItem());
+				tabData.accept(FbmsModBlocks.GARF_PLUSH.get().asItem());
+				tabData.accept(FbmsModBlocks.ROSEY.get().asItem());
+				tabData.accept(FbmsModBlocks.VESSEL.get().asItem());
+				tabData.accept(FbmsModBlocks.STEPHAN_PLUSH.get().asItem());
+				tabData.accept(FbmsModBlocks.TOY_PUG.get().asItem());
+			})
 
-			@Override
-			public boolean hasSearchBar() {
-				return false;
-			}
-		};
-		TAB_CARS = new CreativeModeTab("tabcars") {
-			@Override
-			public ItemStack makeIcon() {
-				return new ItemStack(FbmsModBlocks.IMPALA_BLOCK.get());
-			}
+					.build());
+	public static final RegistryObject<CreativeModeTab> FMS = REGISTRY.register("fms",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.fbms.fms")).icon(() -> new ItemStack(FbmsModBlocks.CANDY_CADET.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(FbmsModBlocks.CANDY_CADET.get().asItem());
+				tabData.accept(FbmsModBlocks.EL_CHIP.get().asItem());
+				tabData.accept(FbmsModBlocks.BITE_FRED_BEAR_CUTOUT.get().asItem());
+				tabData.accept(FbmsModBlocks.FUNTIME_CHICA.get().asItem());
+				tabData.accept(FbmsModBlocks.HAPPY_FROG.get().asItem());
+				tabData.accept(FbmsModBlocks.LEFTY.get().asItem());
+				tabData.accept(FbmsModBlocks.MR_HIPPO.get().asItem());
+				tabData.accept(FbmsModBlocks.NEDD_BEAR.get().asItem());
+				tabData.accept(FbmsModBlocks.ORVILLE.get().asItem());
+				tabData.accept(FbmsModBlocks.PRIZE_KING.get().asItem());
+				tabData.accept(FbmsModBlocks.SECURITY_PUPPET.get().asItem());
+				tabData.accept(FbmsModBlocks.ROCK_STAR_BONNIE.get().asItem());
+				tabData.accept(FbmsModBlocks.ROCK_STAR_CHICA.get().asItem());
+				tabData.accept(FbmsModBlocks.ROCK_STAR_FREDDY.get().asItem());
+				tabData.accept(FbmsModBlocks.RUSTY.get().asItem());
+				tabData.accept(FbmsModBlocks.PIG_PATCH.get().asItem());
+				tabData.accept(FbmsModBlocks.ROCK_STAR_FOXY.get().asItem());
+				tabData.accept(FbmsModBlocks.ENDO_01.get().asItem());
+				tabData.accept(FbmsModBlocks.WINK_SIGN.get().asItem());
+				tabData.accept(FbmsModBlocks.BAGGY_MAGGIE.get().asItem());
+				tabData.accept(FbmsModBlocks.PUPPET_BOX.get().asItem());
+				tabData.accept(FbmsModBlocks.SCRAP_TRAP.get().asItem());
+				tabData.accept(FbmsModBlocks.MOLTEN_FREDDY.get().asItem());
+				tabData.accept(FbmsModBlocks.DR_TEATH.get().asItem());
+				tabData.accept(FbmsModBlocks.MOLDY_RABBIT.get().asItem());
+				tabData.accept(FbmsModBlocks.MUSIC_MAN.get().asItem());
+				tabData.accept(FbmsModBlocks.FUNTIME_DELILAH.get().asItem());
+				tabData.accept(FbmsModBlocks.WITHERED_BARRY_POLAR.get().asItem());
+				tabData.accept(FbmsModBlocks.BARRY_POLAR.get().asItem());
+				tabData.accept(FbmsModBlocks.THE_MANGLE.get().asItem());
+				tabData.accept(FbmsModBlocks.MR_HUGS.get().asItem());
+				tabData.accept(FbmsModBlocks.NUMBER_1_CRATE.get().asItem());
+				tabData.accept(FbmsModBlocks.IGNITED_CHICA.get().asItem());
+				tabData.accept(FbmsModBlocks.MOLTEN_SIT.get().asItem());
+				tabData.accept(FbmsModBlocks.FREDDY_FAZ_BEAR.get().asItem());
+				tabData.accept(FbmsModBlocks.PAN_STAN.get().asItem());
+				tabData.accept(FbmsModBlocks.BUCKET_BOB.get().asItem());
+				tabData.accept(FbmsModBlocks.MR_CAN_DO.get().asItem());
+				tabData.accept(FbmsModBlocks.BALLOON_BOY.get().asItem());
+				tabData.accept(FbmsModBlocks.BON_BON.get().asItem());
+				tabData.accept(FbmsModBlocks.BONNET.get().asItem());
+				tabData.accept(FbmsModBlocks.BONNIE.get().asItem());
+				tabData.accept(FbmsModBlocks.CHICA.get().asItem());
+				tabData.accept(FbmsModBlocks.FOXY.get().asItem());
+				tabData.accept(FbmsModBlocks.FT_FOXY.get().asItem());
+				tabData.accept(FbmsModBlocks.LOL_BIT.get().asItem());
+				tabData.accept(FbmsModBlocks.LOL_BIT_DT.get().asItem());
+				tabData.accept(FbmsModBlocks.RETRO_CHICA.get().asItem());
+				tabData.accept(FbmsModBlocks.TOY_FREDDY.get().asItem());
+				tabData.accept(FbmsModBlocks.TOY_FOXY.get().asItem());
+				tabData.accept(FbmsModBlocks.TOY_CHICA.get().asItem());
+				tabData.accept(FbmsModBlocks.TOY_BONNIE.get().asItem());
+				tabData.accept(FbmsModBlocks.DOUG_THE_DOG.get().asItem());
+				tabData.accept(FbmsModBlocks.WITHERED_DOUG_THE_DOG.get().asItem());
+				tabData.accept(FbmsModBlocks.ENDO_02.get().asItem());
+				tabData.accept(FbmsModBlocks.LOL_BIT_409.get().asItem());
+				tabData.accept(FbmsModBlocks.HAZY_REINDEER.get().asItem());
+				tabData.accept(FbmsModBlocks.WALLY_WALRUS.get().asItem());
+				tabData.accept(FbmsModBlocks.PUFFY_PUFFINS.get().asItem());
+				tabData.accept(FbmsModBlocks.WITHERED_WALLY_WALRUS.get().asItem());
+				tabData.accept(FbmsModBlocks.WITHERED_PUFFY_PUFFINS.get().asItem());
+				tabData.accept(FbmsModBlocks.WITHERED_HAZY_REINDEER.get().asItem());
+				tabData.accept(FbmsModBlocks.GT_ENDO.get().asItem());
+				tabData.accept(FbmsModBlocks.ST_ENDO.get().asItem());
+				tabData.accept(FbmsModBlocks.BUFFET_ENDO.get().asItem());
+				tabData.accept(FbmsModBlocks.JOLLY_THE_RAT.get().asItem());
+				tabData.accept(FbmsModBlocks.SALVAGED_JOLLY.get().asItem());
+				tabData.accept(FbmsModBlocks.GUS_THE_PUG.get().asItem());
+				tabData.accept(FbmsModBlocks.FREDBEAR_01.get().asItem());
+				tabData.accept(FbmsModBlocks.SPRINGBONNIE_01.get().asItem());
+				tabData.accept(FbmsModBlocks.FT_FREDDY.get().asItem());
+				tabData.accept(FbmsModBlocks.FRED_BEAR.get().asItem());
+				tabData.accept(FbmsModBlocks.FREDBEAR_DEACTIVATED.get().asItem());
+				tabData.accept(FbmsModBlocks.INDIGO.get().asItem());
+			})
 
-			@Override
-			public boolean hasSearchBar() {
-				return false;
-			}
-		};
-		TAB_PRIVATE_ROOM = new CreativeModeTab("tabprivate_room") {
-			@Override
-			public ItemStack makeIcon() {
-				return new ItemStack(FbmsModBlocks.D_BALLOON_BOY.get());
-			}
+					.build());
+	public static final RegistryObject<CreativeModeTab> CARS = REGISTRY.register("cars",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.fbms.cars")).icon(() -> new ItemStack(FbmsModBlocks.IMPALA_BLOCK.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(FbmsModItems.IMPALA_SPAWN_EGG.get());
+				tabData.accept(FbmsModBlocks.IMPALA_BLOCK.get().asItem());
+				tabData.accept(FbmsModItems.DOGE_RAM_SPAWN_EGG.get());
+				tabData.accept(FbmsModBlocks.DOGE_RAM_BLOCK.get().asItem());
+				tabData.accept(FbmsModItems.STATION_WAGON_SPAWN_EGG.get());
+				tabData.accept(FbmsModBlocks.STATION_WAGON_BLOCK.get().asItem());
+			})
 
-			@Override
-			public boolean hasSearchBar() {
-				return false;
-			}
-		};
-		TAB_SHOP_BLOCKS = new CreativeModeTab("tabshop_blocks") {
-			@Override
-			public ItemStack makeIcon() {
-				return new ItemStack(FbmsModBlocks.SANITATION_STATION.get());
-			}
+					.build());
+	public static final RegistryObject<CreativeModeTab> SHOP_BLOCKS = REGISTRY.register("shop_blocks",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.fbms.shop_blocks")).icon(() -> new ItemStack(FbmsModBlocks.SANITATION_STATION.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(FbmsModBlocks.FOIL_PARTY_SET_1.get().asItem());
+				tabData.accept(FbmsModBlocks.FOIL_PARTY_SET_2.get().asItem());
+				tabData.accept(FbmsModBlocks.FOIL_PARTY_SET_3.get().asItem());
+				tabData.accept(FbmsModBlocks.FOIL_PARTY_SET_4.get().asItem());
+				tabData.accept(FbmsModBlocks.NEON_PARTY_SET_1.get().asItem());
+				tabData.accept(FbmsModBlocks.NEON_PARTY_SET_2.get().asItem());
+				tabData.accept(FbmsModBlocks.NEON_PARTY_SET_3.get().asItem());
+				tabData.accept(FbmsModBlocks.NEON_PARTY_SET_4.get().asItem());
+				tabData.accept(FbmsModBlocks.SANITATION_STATION.get().asItem());
+				tabData.accept(FbmsModBlocks.PIN_THE_BOWTIE_ON_THE_FREDDY.get().asItem());
+				tabData.accept(FbmsModBlocks.PIN_THE_BOWTIE_ON_THE_TIE_THE_TOY_FREDDY.get().asItem());
+				tabData.accept(FbmsModBlocks.NOVELTY_TRAFFIC_LIGHT.get().asItem());
+				tabData.accept(FbmsModBlocks.DUCK_POND.get().asItem());
+				tabData.accept(FbmsModBlocks.R_FREDDY_POSTER.get().asItem());
+				tabData.accept(FbmsModBlocks.RBONNIE_POSTER.get().asItem());
+				tabData.accept(FbmsModBlocks.R_CHICA_POSTER.get().asItem());
+				tabData.accept(FbmsModBlocks.R_FOXY_POSTER.get().asItem());
+				tabData.accept(FbmsModBlocks.LEFTY_POSTER.get().asItem());
+				tabData.accept(FbmsModBlocks.DELUXE_SPEAKER_SET.get().asItem());
+				tabData.accept(FbmsModBlocks.BALLOON_BARREL.get().asItem());
+				tabData.accept(FbmsModBlocks.PAPER_PAL_CLOWN.get().asItem());
+				tabData.accept(FbmsModBlocks.PAPPER_PAL_MR_HIPPO.get().asItem());
+				tabData.accept(FbmsModBlocks.PAPPER_PAL_ORVIL.get().asItem());
+				tabData.accept(FbmsModBlocks.DISCO_PIZZA.get().asItem());
+				tabData.accept(FbmsModBlocks.LADDER_TOWER.get().asItem());
+				tabData.accept(FbmsModBlocks.GUMBALL_SWIVEL_HANDS.get().asItem());
+				tabData.accept(FbmsModBlocks.BALL_PIT_TOWER.get().asItem());
+				tabData.accept(FbmsModBlocks.ENHANCED_SPEAKER_SET.get().asItem());
+				tabData.accept(FbmsModBlocks.FRUIT_PUNCH_CLOWN.get().asItem());
+				tabData.accept(FbmsModBlocks.LEMONADE_CLOWN.get().asItem());
+				tabData.accept(FbmsModBlocks.DISCOUNT_BALLPIT.get().asItem());
+				tabData.accept(FbmsModBlocks.EGG_BABY.get().asItem());
+				tabData.accept(FbmsModBlocks.MIDNIGHT_MOTORIST.get().asItem());
+				tabData.accept(FbmsModBlocks.FRUITY_MAZE.get().asItem());
+				tabData.accept(FbmsModBlocks.BONK_A_BON.get().asItem());
+				tabData.accept(FbmsModBlocks.CARNIVAL_HOOPS.get().asItem());
+				tabData.accept(FbmsModBlocks.GRAVITY_VORTEX_2.get().asItem());
+				tabData.accept(FbmsModBlocks.PICKLES.get().asItem());
+				tabData.accept(FbmsModBlocks.DISCOUNT_COOLING_UNIT.get().asItem());
+				tabData.accept(FbmsModBlocks.BALLOON_CART.get().asItem());
+				tabData.accept(FbmsModBlocks.RIDING_ROCKETS_RED.get().asItem());
+				tabData.accept(FbmsModBlocks.RIDING_ROCKETS_PURPLE.get().asItem());
+				tabData.accept(FbmsModBlocks.PAPER_PLATES.get().asItem());
+				tabData.accept(FbmsModBlocks.NEON_STAGE_LIGHT_GREEN.get().asItem());
+				tabData.accept(FbmsModBlocks.NEON_STAGE_LIGHTS_PINK.get().asItem());
+				tabData.accept(FbmsModBlocks.NEON_STAGE_LIGHTS_BLUE.get().asItem());
+				tabData.accept(FbmsModBlocks.CEILING_STAGE_LIGHTS.get().asItem());
+				tabData.accept(FbmsModBlocks.CEILING_STAGE_LIGHTPINK.get().asItem());
+				tabData.accept(FbmsModBlocks.CEILING_STAGE_LIGHTBLUE.get().asItem());
+				tabData.accept(FbmsModBlocks.DELUXE_BALLPIT.get().asItem());
+				tabData.accept(FbmsModBlocks.BLACK_WHITE_CLEAN_TILES.get().asItem());
+				tabData.accept(FbmsModBlocks.BLACK_WHITE_CLEAN_TILE_STAIRS.get().asItem());
+				tabData.accept(FbmsModBlocks.BLACK_WHITE_CLEAN_TILE_SLAB.get().asItem());
+				tabData.accept(FbmsModBlocks.BLACK_WHITE_CONFETTI_TILES.get().asItem());
+				tabData.accept(FbmsModBlocks.BLACK_WHITE_CONFETTI_TILE_STAIRS.get().asItem());
+				tabData.accept(FbmsModBlocks.BLACK_WHITE_CONFETTI_TILE_SLAB.get().asItem());
+				tabData.accept(FbmsModBlocks.RED_STAGE_BLOCK.get().asItem());
+				tabData.accept(FbmsModBlocks.PURPLE_STAGE_BLOCK.get().asItem());
+				tabData.accept(FbmsModBlocks.STAR_ARCH.get().asItem());
+				tabData.accept(FbmsModBlocks.SCRAP_STAGE_BLOCK.get().asItem());
+				tabData.accept(FbmsModBlocks.MEGAULTIMATESPEAKERTRON_3000.get().asItem());
+				tabData.accept(FbmsModBlocks.HEAVY_DUITY_DOOR.get().asItem());
+				tabData.accept(FbmsModBlocks.STREAMER_FIZTIME.get().asItem());
+				tabData.accept(FbmsModBlocks.NEON_STAGE_LIGHTS_ORANGE.get().asItem());
+				tabData.accept(FbmsModBlocks.CEILING_STAGE_LIGHT_ORANGE.get().asItem());
+				tabData.accept(FbmsModBlocks.BASIC_STAGE_BLOCK_STAIRS.get().asItem());
+				tabData.accept(FbmsModBlocks.BASIC_STAGE_BLOCK_SLAB.get().asItem());
+				tabData.accept(FbmsModBlocks.SCRAP_STAGE_BLOCK_STAIRS.get().asItem());
+				tabData.accept(FbmsModBlocks.SCRAP_STAGE_BLOCK_SLAB.get().asItem());
+				tabData.accept(FbmsModBlocks.MONITOR_SCAI_1.get().asItem());
+				tabData.accept(FbmsModBlocks.MONITOR_SCAI_2.get().asItem());
+				tabData.accept(FbmsModBlocks.MONITOR_SCAI_3.get().asItem());
+				tabData.accept(FbmsModBlocks.MONITOR_SCAI_4.get().asItem());
+				tabData.accept(FbmsModBlocks.MONITOR_SCAI_5.get().asItem());
+				tabData.accept(FbmsModBlocks.MONITOR_SCAI_6.get().asItem());
+				tabData.accept(FbmsModBlocks.MONITOR_SCAI_7.get().asItem());
+				tabData.accept(FbmsModBlocks.MONITOR_SCAI_8.get().asItem());
+				tabData.accept(FbmsModBlocks.PIZZA_BOX_85_OPEN.get().asItem());
+				tabData.accept(FbmsModBlocks.PIZZA_BOX_87_OPEN.get().asItem());
+				tabData.accept(FbmsModBlocks.PIZZA_BOX_93_OPEN.get().asItem());
+				tabData.accept(FbmsModBlocks.PIZZA_BOX_24_OPEN.get().asItem());
+				tabData.accept(FbmsModBlocks.FREDBEAR_MURAL.get().asItem());
+				tabData.accept(FbmsModBlocks.NEON_JUKE_BOX_OFF.get().asItem());
+				tabData.accept(FbmsModBlocks.ARCADE_FREDDY.get().asItem());
+				tabData.accept(FbmsModBlocks.ARCADE_BONNIE.get().asItem());
+				tabData.accept(FbmsModBlocks.PINBALL_TOY_FREDDY.get().asItem());
+				tabData.accept(FbmsModBlocks.ARCADE_FOXY.get().asItem());
+			})
 
-			@Override
-			public boolean hasSearchBar() {
-				return false;
-			}
-		};
-		TAB_PLUSH = new CreativeModeTab("tabplush") {
-			@Override
-			public ItemStack makeIcon() {
-				return new ItemStack(FbmsModBlocks.DOC_PLUSH.get());
-			}
+					.build());
 
-			@Override
-			public boolean hasSearchBar() {
-				return false;
-			}
-		};
-		TAB_FMS_BLOCKS = new CreativeModeTab("tabfms_blocks") {
-			@Override
-			public ItemStack makeIcon() {
-				return new ItemStack(FbmsModBlocks.BLACK_WHITE_TILES.get());
-			}
+	@SubscribeEvent
+	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 
-			@Override
-			public boolean hasSearchBar() {
-				return true;
-			}
-		}.setBackgroundSuffix("item_search.png");
+			tabData.accept(FbmsModItems.RAT_SPAWN_EGG.get());
+			tabData.accept(FbmsModItems.MYSTERIOUS_GIANT_SCUTTLERS_SPAWN_EGG.get());
+
+		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+
+			tabData.accept(FbmsModBlocks.BARRY_POLAR_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.WITHERED_BARRY_POLAR_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.FUNTIME_DELILAH_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.EL_CHIP_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.ENDO_01_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.FUNTIME_CHICA_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.HAPPY_FROG_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.LEFTY_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.MR_HIPPO_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.MUSIC_MAN_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.NEDD_BEAR_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.ORVILLE_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.PIG_PATCH_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.ROCK_STAR_BONNIE_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.ROCK_STAR_CHICA_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.ROCK_STAR_FOXY_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.ROCK_STAR_FREDDY_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.RUSTY_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.NEON_JUKE_BOX.get().asItem());
+			tabData.accept(FbmsModBlocks.GRAVITY_VORTEX.get().asItem());
+			tabData.accept(FbmsModBlocks.FRIGHTS_SIGN.get().asItem());
+			tabData.accept(FbmsModBlocks.HAZY_REINDEER_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.WALLY_WALRUS_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.PUFFY_PUFFINS_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.GT_ENDO_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.ST_ENDO_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.HEAVY_DUITY_DOOR_CLOSED.get().asItem());
+			tabData.accept(FbmsModBlocks.RETRO_CHICA_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.JOLLY_THE_RAT_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.PIZZA_BOX_85_CLOSED.get().asItem());
+			tabData.accept(FbmsModBlocks.PIZZA_BOX_87_CLOSED.get().asItem());
+			tabData.accept(FbmsModBlocks.PIZZA_BOX_93_CLOSED.get().asItem());
+			tabData.accept(FbmsModBlocks.PIZZA_BOX_24_CLOSED.get().asItem());
+			tabData.accept(FbmsModBlocks.DOUG_THE_DOG_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.PROJECTION.get().asItem());
+			tabData.accept(FbmsModBlocks.GUS_THE_PUG_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.FREDBEAR_01_ANIMATED.get().asItem());
+			tabData.accept(FbmsModBlocks.SPRINGBONNIE_01_ANIMATED.get().asItem());
+
+		}
 	}
 }

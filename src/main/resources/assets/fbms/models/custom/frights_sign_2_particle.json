@@ -1,6 +1,6 @@
 {
   "parent": "fbms:displaysettings/figure.item",
   "textures": {
-    "particle": "fbms:blocks/faz_bear_pizza_place"
+    "particle": "fbms:block/faz_bear_pizza_place"
   }
 }

@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "fbms:blocks/battery_top",
-    "up": "fbms:blocks/battery_top",
-    "north": "fbms:blocks/battery",
-    "east": "fbms:blocks/battery",
-    "south": "fbms:blocks/battery",
-    "west": "fbms:blocks/battery",
-    "particle": "fbms:blocks/battery_top"
+    "down": "fbms:block/battery_top",
+    "up": "fbms:block/battery_top",
+    "north": "fbms:block/battery",
+    "east": "fbms:block/battery",
+    "south": "fbms:block/battery",
+    "west": "fbms:block/battery",
+    "particle": "fbms:block/battery_top"
   },
   "render_type": "solid"
 }

@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.display.Megaultimatespeakertron3000DisplayItem;
 
-public class Megaultimatespeakertron3000DisplayModel extends AnimatedGeoModel<Megaultimatespeakertron3000DisplayItem> {
+public class Megaultimatespeakertron3000DisplayModel extends GeoModel<Megaultimatespeakertron3000DisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(Megaultimatespeakertron3000DisplayItem animatable) {
 		return new ResourceLocation("fbms", "animations/stage_speaker.animation.json");
@@ -19,6 +19,6 @@ public class Megaultimatespeakertron3000DisplayModel extends AnimatedGeoModel<Me
 
 	@Override
 	public ResourceLocation getTextureResource(Megaultimatespeakertron3000DisplayItem entity) {
-		return new ResourceLocation("fbms", "textures/blocks/stage_speaker.png");
+		return new ResourceLocation("fbms", "textures/block/stage_speaker.png");
 	}
 }

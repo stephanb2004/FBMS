@@ -1,7 +1,8 @@
 {
   "parent": "block/template_glass_pane_noside_alt",
   "textures": {
-    "pane": "fbms:blocks/blank_magenta_curtan"
+    "particle": "fbms:block/blank_magenta_curtan",
+    "pane": "fbms:block/blank_magenta_curtan"
   },
   "render_type": "solid"
 }

@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 69,
   "_type": "animatedentity",
   "definition": {
     "mobName": "Doge Ram 1982",
@@ -12,10 +12,12 @@
     "boundingBoxScale": {
       "fixedValue": 0.5
     },
+    "entityDataEntries": [],
     "modelWidth": 3.0,
     "modelHeight": 1.5,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
+    "stepHeight": 0.6,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
       "value": -13434625,
@@ -28,6 +30,7 @@
     "creativeTab": {
       "value": "CUSTOM:Cars"
     },
+    "creativeTabs": [],
     "isBoss": false,
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
@@ -137,6 +140,16 @@
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
     "height": 1.0,
+    "attackRate": 7,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
     "spawnThisMob": false,
     "doesDespawnWhenIdle": false,
     "spawningProbability": 20,

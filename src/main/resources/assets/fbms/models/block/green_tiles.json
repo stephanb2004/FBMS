@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "fbms:blocks/minty_floor",
-    "particle": "fbms:blocks/minty_floor"
+    "all": "fbms:block/minty_floor",
+    "particle": "fbms:block/minty_floor"
   },
   "render_type": "solid"
 }

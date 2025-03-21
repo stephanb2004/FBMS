@@ -1,6 +1,6 @@
 package net.mcreator.fbms.block.renderer;
 
-import software.bernie.geckolib3.renderers.geo.GeoItemRenderer;
+import software.bernie.geckolib.renderer.GeoItemRenderer;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.RenderType;
@@ -9,16 +9,13 @@ import net.minecraft.client.renderer.MultiBufferSource;
 import net.mcreator.fbms.block.model.LeftyAnimatedDisplayModel;
 import net.mcreator.fbms.block.display.LeftyAnimatedDisplayItem;
 
-import com.mojang.blaze3d.vertex.VertexConsumer;
-import com.mojang.blaze3d.vertex.PoseStack;
-
 public class LeftyAnimatedDisplayItemRenderer extends GeoItemRenderer<LeftyAnimatedDisplayItem> {
 	public LeftyAnimatedDisplayItemRenderer() {
 		super(new LeftyAnimatedDisplayModel());
 	}
 
 	@Override
-	public RenderType getRenderType(LeftyAnimatedDisplayItem animatable, float partialTick, PoseStack poseStack, MultiBufferSource bufferSource, VertexConsumer buffer, int packedLight, ResourceLocation texture) {
+	public RenderType getRenderType(LeftyAnimatedDisplayItem animatable, ResourceLocation texture, MultiBufferSource bufferSource, float partialTick) {
 		return RenderType.entityTranslucent(getTextureLocation(animatable));
 	}
 }

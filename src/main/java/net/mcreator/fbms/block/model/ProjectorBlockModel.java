@@ -1,12 +1,12 @@
 package net.mcreator.fbms.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fbms.block.entity.ProjectorTileEntity;
 
-public class ProjectorBlockModel extends AnimatedGeoModel<ProjectorTileEntity> {
+public class ProjectorBlockModel extends GeoModel<ProjectorTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(ProjectorTileEntity animatable) {
 		return new ResourceLocation("fbms", "animations/projector.animation.json");
@@ -18,7 +18,7 @@ public class ProjectorBlockModel extends AnimatedGeoModel<ProjectorTileEntity> {
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(ProjectorTileEntity entity) {
-		return new ResourceLocation("fbms", "textures/blocks/projector.png");
+	public ResourceLocation getTextureResource(ProjectorTileEntity animatable) {
+		return new ResourceLocation("fbms", "textures/block/projector.png");
 	}
 }

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "fbms:red_blue_tiles_stairs",
+    "fbms:black_blue_tiles_stairs",
+    "fbms:full_black_tiles_stairs",
+    "fbms:red_white_tiles_stairs",
+    "fbms:full_white_tiles_stairs",
+    "fbms:blue_white_tiles_stairs",
+    "fbms:black_red_tiles_stairs",
+    "fbms:black_white_tiles_stairs",
+    "fbms:scrap_stage_block_stairs",
+    "fbms:basic_stage_block_stairs",
+    "fbms:black_white_confetti_tile_stairs",
+    "fbms:black_white_clean_tile_stairs"
+  ]
+}

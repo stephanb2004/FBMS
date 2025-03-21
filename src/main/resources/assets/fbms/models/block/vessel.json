@@ -1,9 +1,9 @@
 {
   "parent": "fbms:custom/staticplush",
   "textures": {
-    "all": "fbms:blocks/static",
-    "particle": "fbms:blocks/static",
-    "1": "fbms:blocks/static"
+    "all": "fbms:block/static",
+    "particle": "fbms:block/static",
+    "1": "fbms:block/static"
   },
   "render_type": "cutout"
 }
